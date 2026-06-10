@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contraception Decision Tree</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        .decision-tree {
+            margin: 30px 0;
+        }
+        .tree-node {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            position: relative;
+        }
+        .start-node {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 25px;
+        }
+        .question-node {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .branch-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+            padding-left: 30px;
+        }
+        .branch {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        .branch-yes {
+            border-left: 5px solid #28a745;
+        }
+        .branch-no {
+            border-left: 5px solid #dc3545;
+        }
+        .branch h3 {
+            margin: 0 0 10px 0;
+            font-size: 1em;
+        }
+        .contraceptive-option {
+            background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        .contraceptive-option h3 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+            border-bottom: 2px solid rgba(0,0,0,0.1);
+            padding-bottom: 8px;
+        }
+        .effectiveness {
+            background: rgba(255,255,255,0.5);
+            padding: 8px;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .pros, .cons {
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        .pros {
+            background: rgba(40, 167, 69, 0.1);
+            border-left: 3px solid #28a745;
+        }
+        .cons {
+            background: rgba(220, 53, 69, 0.1);
+            border-left: 3px solid #dc3545;
+        }
+        .pros h4, .cons h4 {
+            margin: 0 0 8px 0;
+            font-size: 0.95em;
+        }
+        .pros ul, .cons ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .pros li, .cons li {
+            margin: 5px 0;
+        }
+        .contraindications {
+            background: #f8d7da;
+            border: 1px solid #dc3545;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .contraindications h4 {
+            margin: 0 0 8px 0;
+            color: #721c24;
+        }
+        .contraindications ul {
+            margin: 0;
+            padding-left: 20px;
+            color: #721c24;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .comparison-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+        .comparison-table td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .comparison-table tr:hover {
+            background: #f8f9fa;
+        }
+        .effectiveness-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        .eff-high {
+            background: #28a745;
+            color: white;
+        }
+        .eff-medium {
+            background: #ffc107;
+            color: #000;
+        }
+        .eff-low {
+            background: #dc3545;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌸 Contraception Decision Tree 🌸</h1>
+        <p class="subtitle">Clinical Decision Support for D120</p>
+        
+        <div class="decision-tree">
+            <div class="tree-node start-node">
+                START: Patient Seeking Contraception
+            </div>
+            
+            <div class="tree-node question-node">
+                ❓ Question 1: Does patient have contraindications to estrogen?
+                <br><small>(Smoking age >35, history of DVT/PE, stroke, migraines with aura, breast cancer, uncontrolled HTN)</small>
+            </div>
+            
+            <div class="branch-container">
+                <div class="branch branch-yes">
+                    <h3>✅ YES - Estrogen Contraindicated</h3>
+                    <p><strong>Avoid combined hormonal methods (COCs, patch, ring)</strong></p>
+                    <p>Consider:</p>
+                    <div class="contraceptive-option">
+                        <h3>Progestin-Only Options</h3>
+                        <div class="effectiveness">Effectiveness: >99% (perfect use)</div>
+                        <ul>
+                            <li><strong>IUD (Mirena, Skyla, Kyleena):</strong> 3-8 years, reversible</li>
+                            <li><strong>Nexplanon (implant):</strong> 3 years, highly effective</li>
+                            <li><strong>Depo-Provera (shot):</strong> Every 3 months</li>
+                            <li><strong>Mini-pill (norethindrone):</strong> Daily pill</li>
+                        </ul>
+                        <div class="contraindications">
+                            <h4>⚠️ Considerations:</h4>
+                            <ul>
+                                <li>Mini-pill: must take same time daily</li>
+                                <li>Depo: bone density concerns, delayed fertility return</li>
+                                <li>All: irregular bleeding common initially</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="contraceptive-option">
+                        <h3>Non-Hormonal Options</h3>
+                        <ul>
+                            <li><strong>Copper IUD (Paragard):</strong> 10 years, hormone-free</li>
+                            <li><strong>Barrier methods:</strong> Condoms, diaphragm</li>
+                            <li><strong>Permanent:</strong> Tubal ligation, vasectomy</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="branch branch-no">
+                    <h3>❌ NO - Can Consider Estrogen-Containing Methods</h3>
+                    <p><strong>Proceed to Question 2</strong></p>
+                </div>
+            </div>
+            
+            <div class="tree-node question-node">
+                ❓ Question 2: What is patient's preference for method duration/permanence?
+            </div>
+            
+            <div class="branch-container">
+                <div class="branch">
+                    <h3>Long-Acting Reversible (LARC)</h3>
+                    <div class="contraceptive-option">
+                        <h3>IUDs</h3>
+                        <div class="effectiveness">Effectiveness: >99%</div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>✅ Pros:</h4>
+                                <ul>
+                                    <li>Highly effective</li>
+                                    <li>Long duration</li>
+                                    <li>Reversible</li>
+                                    <li>"Set and forget"</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>❌ Cons:</h4>
+                                <ul>
+                                    <li>Insertion procedure</li>
+                                    <li>Upfront cost</li>
+                                    <li>Irregular bleeding initially</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p><strong>Hormonal IUD:</strong> Lighter/no periods<br>
+                        <strong>Copper IUD:</strong> Heavier periods, no hormones</p>
+                    </div>
+                    
+                    <div class="contraceptive-option">
+                        <h3>Nexplanon (Implant)</h3>
+                        <div class="effectiveness">Effectiveness: >99%</div>
+                        <p>Single rod in upper arm, 3 years, progestin-only</p>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>✅ Pros:</h4>
+                                <ul>
+                                    <li>Highest effectiveness</li>
+                                    <li>Quick insertion/removal</li>
+                                    <li>No estrogen</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>❌ Cons:</h4>
+                                <ul>
+                                    <li>Unpredictable bleeding</li>
+                                    <li>Visible/palpable</li>
+                                    <li>Arm bruising at insertion</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="branch">
+                    <h3>Short-Acting Methods</h3>
+                    <div class="contraceptive-option">
+                        <h3>Combined Oral Contraceptives (COCs)</h3>
+                        <div class="effectiveness">Effectiveness: 91% (typical) / 99% (perfect)</div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>✅ Pros:</h4>
+                                <ul>
+                                    <li>Regular, predictable cycles</li>
+                                    <li>Decreased dysmenorrhea</li>
+                                    <li>Acne improvement</li>
+                                    <li>Decreased ovarian/endometrial cancer risk</li>
+                                    <li>Reversible immediately</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>❌ Cons:</h4>
+                                <ul>
+                                    <li>Daily compliance required</li>
+                                    <li>Nausea, headaches possible</li>
+                                    <li>Drug interactions</li>
+                                    <li>Estrogen side effects</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contraindications">
+                            <h4>⚠️ Contraindications:</h4>
+                            <ul>
+                                <li>Smoking + age >35</li>
+                                <li>History DVT/PE, stroke</li>
+                                <li>Migraine with aura</li>
+                                <li>Breast cancer</li>
+                                <li>Uncontrolled hypertension</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="contraceptive-option">
+                        <h3>Patch (Xulane) / Ring (NuvaRing)</h3>
+                        <div class="effectiveness">Effectiveness: 91% (typical) / 99% (perfect)</div>
+                        <p><strong>Patch:</strong> Change weekly × 3 weeks, 1 week off<br>
+                        <strong>Ring:</strong> Insert 3 weeks, remove 1 week</p>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>✅ Pros:</h4>
+                                <ul>
+                                    <li>Same benefits as COCs</li>
+                                    <li>Better compliance (weekly vs daily)</li>
+                                    <li>Less GI side effects</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>❌ Cons:</h4>
+                                <ul>
+                                    <li>Patch: visible, skin irritation</li>
+                                    <li>Ring: vaginal discomfort</li>
+                                    <li>Same contraindications as COCs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contraceptive-option">
+                        <h3>Depo-Provera (Injectable)</h3>
+                        <div class="effectiveness">Effectiveness: 94% (typical) / 99% (perfect)</div>
+                        <p>IM injection every 12 weeks, progestin-only</p>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>✅ Pros:</h4>
+                                <ul>
+                                    <li>Private (no visible method)</li>
+                                    <li>Only 4 visits/year</li>
+                                    <li>Decreased periods (amenorrhea common)</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>❌ Cons:</h4>
+                                <ul>
+                                    <li>Weight gain common</li>
+                                    <li>Delayed return to fertility (10+ months)</li>
+                                    <li>Bone density concerns (limit 2 years if possible)</li>
+                                    <li>Irregular bleeding initially</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="branch">
+                    <h3>Barrier Methods</h3>
+                    <div class="contraceptive-option">
+                        <h3>Condoms, Diaphragm, Cervical Cap</h3>
+                        <div class="effectiveness">Effectiveness: 72-88% (typical)</div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>✅ Pros:</h4>
+                                <ul>
+                                    <li>STI protection (condoms)</li>
+                                    <li>No hormones</li>
+                                    <li>No prescription needed (condoms)</li>
+                                    <li>Immediate reversibility</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>❌ Cons:</h4>
+                                <ul>
+                                    <li>Lower effectiveness</li>
+                                    <li>User-dependent</li>
+                                    <li>Must use each time</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="branch">
+                    <h3>Permanent Methods</h3>
+                    <div class="contraceptive-option">
+                        <h3>Tubal Ligation / Vasectomy</h3>
+                        <div class="effectiveness">Effectiveness: >99%</div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>✅ Pros:</h4>
+                                <ul>
+                                    <li>Permanent solution</li>
+                                    <li>Highly effective</li>
+                                    <li>No ongoing cost/compliance</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>❌ Cons:</h4>
+                                <ul>
+                                    <li>Surgical procedure</li>
+                                    <li>NOT easily reversible</li>
+                                    <li>Must be certain about decision</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p><strong>Best for:</strong> Patients/couples certain they do not want (more) children</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <h2 style="text-align: center; margin-top: 50px;">Quick Comparison Table</h2>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Method</th>
+                    <th>Effectiveness</th>
+                    <th>Duration</th>
+                    <th>Estrogen</th>
+                    <th>Best For</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>IUD (hormonal)</strong></td>
+                    <td><span class="effectiveness-badge eff-high">>99%</span></td>
+                    <td>3-8 years</td>
+                    <td>No</td>
+                    <td>Long-term, low maintenance</td>
+                </tr>
+                <tr>
+                    <td><strong>IUD (copper)</strong></td>
+                    <td><span class="effectiveness-badge eff-high">>99%</span></td>
+                    <td>10 years</td>
+                    <td>No</td>
+                    <td>Hormone-free, long-term</td>
+                </tr>
+                <tr>
+                    <td><strong>Implant (Nexplanon)</strong></td>
+                    <td><span class="effectiveness-badge eff-high">>99%</span></td>
+                    <td>3 years</td>
+                    <td>No</td>
+                    <td>Highest efficacy, no estrogen</td>
+                </tr>
+                <tr>
+                    <td><strong>Depo-Provera</strong></td>
+                    <td><span class="effectiveness-badge eff-high">94-99%</span></td>
+                    <td>3 months</td>
+                    <td>No</td>
+                    <td>Private, quarterly visits</td>
+                </tr>
+                <tr>
+                    <td><strong>Combined Pills</strong></td>
+                    <td><span class="effectiveness-badge eff-high">91-99%</span></td>
+                    <td>Daily</td>
+                    <td>Yes</td>
+                    <td>Cycle control, acne treatment</td>
+                </tr>
+                <tr>
+                    <td><strong>Patch/Ring</strong></td>
+                    <td><span class="effectiveness-badge eff-high">91-99%</span></td>
+                    <td>Weekly/3 weeks</td>
+                    <td>Yes</td>
+                    <td>Better compliance than daily pill</td>
+                </tr>
+                <tr>
+                    <td><strong>Mini-pill</strong></td>
+                    <td><span class="effectiveness-badge eff-medium">91-99%</span></td>
+                    <td>Daily</td>
+                    <td>No</td>
+                    <td>Breastfeeding, estrogen CI</td>
+                </tr>
+                <tr>
+                    <td><strong>Condoms</strong></td>
+                    <td><span class="effectiveness-badge eff-medium">85%</span></td>
+                    <td>Per use</td>
+                    <td>No</td>
+                    <td>STI protection</td>
+                </tr>
+                <tr>
+                    <td><strong>Sterilization</strong></td>
+                    <td><span class="effectiveness-badge eff-high">>99%</span></td>
+                    <td>Permanent</td>
+                    <td>No</td>
+                    <td>Childbearing complete</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div style="background: #d1ecf1; border: 1px solid #bee5eb; border-radius: 8px; padding: 20px; margin-top: 30px;">
+            <h3 style="color: #0c5460; margin-top: 0;">💡 Clinical Pearls for D120:</h3>
+            <ul style="color: #0c5460;">
+                <li><strong>LARC methods (IUD, implant)</strong> have highest continuation and satisfaction rates</li>
+                <li><strong>Typical use effectiveness</strong> is more relevant than perfect use for counseling</li>
+                <li><strong>Always screen for contraindications</strong> before prescribing estrogen-containing methods (use WHO MEC)</li>
+                <li><strong>Dual protection:</strong> Consider condoms + hormonal method for STI + pregnancy prevention</li>
+                <li><strong>Emergency contraception:</strong> Discuss as backup option (Plan B, Ella, copper IUD)</li>
+                <li><strong>Patient autonomy:</strong> Shared decision-making based on patient values, lifestyle, medical history</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

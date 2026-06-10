@@ -1,0 +1,1560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FNP Board Prep</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ===== CSS VARIABLES ===== */
+:root {
+  --bg: #f8f7f4;
+  --bg2: #f0ede8;
+  --bg3: #e8e4dd;
+  --card: #ffffff;
+  --navy: #1e3a5f;
+  --navy-light: #2d5186;
+  --teal: #0d9488;
+  --teal-light: #14b8a6;
+  --gold: #d97706;
+  --gold-light: #f59e0b;
+  --red: #dc2626;
+  --red-light: #ef4444;
+  --green: #16a34a;
+  --green-light: #22c55e;
+  --text: #1a1a2e;
+  --text-mid: #4a5568;
+  --text-light: #718096;
+  --border: #e2ddd6;
+  --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.06);
+  --shadow-lg: 0 4px 6px rgba(0,0,0,0.05), 0 10px 30px rgba(0,0,0,0.12);
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+/* ===== RESET ===== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, sans-serif;
+  min-height: 100vh;
+  font-size: 15px;
+  line-height: 1.6;
+}
+button { cursor: pointer; border: none; background: none; font-family: inherit; }
+a { text-decoration: none; color: inherit; }
+
+/* ===== TOP NAV ===== */
+.topbar {
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.topbar-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 64px;
+}
+.brand { display: flex; flex-direction: column; gap: 1px; min-width: 140px; }
+.brand-name { font-size: 17px; font-weight: 800; color: var(--navy); letter-spacing: -0.3px; }
+.brand-sub { font-size: 10px; font-weight: 500; color: var(--text-light); letter-spacing: 0.3px; text-transform: uppercase; }
+.nav-tabs { display: flex; gap: 4px; }
+.nav-tab {
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-mid);
+  transition: all 0.15s;
+  letter-spacing: 0.2px;
+}
+.nav-tab:hover { background: var(--bg2); color: var(--navy); }
+.nav-tab.active { background: var(--navy); color: white; }
+.course-pills { display: flex; gap: 6px; margin-left: auto; }
+.course-pill {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12.5px;
+  font-weight: 700;
+  border: 1.5px solid var(--border);
+  color: var(--text-mid);
+  background: var(--bg);
+  transition: all 0.15s;
+  letter-spacing: 0.5px;
+}
+.course-pill:hover { border-color: var(--navy); color: var(--navy); }
+.course-pill.active { background: var(--navy); color: white; border-color: var(--navy); }
+.countdown-badge {
+  background: linear-gradient(135deg, var(--gold) 0%, #ea580c 100%);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(217,119,6,0.3);
+}
+
+/* ===== MAIN LAYOUT ===== */
+.app-body {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* ===== STUDY TAB ===== */
+.study-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 20px;
+  min-height: calc(100vh - 110px);
+}
+.sidebar {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px;
+  height: fit-content;
+  position: sticky;
+  top: 80px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+.sidebar::-webkit-scrollbar { width: 4px; }
+.sidebar::-webkit-scrollbar-track { background: transparent; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+.sidebar-header { font-size: 11px; font-weight: 700; color: var(--text-light); letter-spacing: 1px; text-transform: uppercase; padding: 0 4px 10px; border-bottom: 1px solid var(--border); margin-bottom: 10px; }
+.topic-category { font-size: 10.5px; font-weight: 700; color: var(--text-light); letter-spacing: 0.8px; text-transform: uppercase; padding: 10px 4px 4px; }
+.topic-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-mid);
+  margin-bottom: 1px;
+}
+.topic-item:hover { background: var(--bg2); color: var(--navy); }
+.topic-item.active { background: var(--navy); color: white; }
+.topic-item.weak .topic-dot { background: var(--red); }
+.topic-item .topic-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--border); flex-shrink: 0; }
+.topic-item .topic-check { width: 14px; height: 14px; border-radius: 3px; background: var(--green-light); display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 9px; color: white; font-weight: 700; }
+.topic-item .count-badge { margin-left: auto; font-size: 10px; font-weight: 600; color: var(--text-light); background: var(--bg2); padding: 1px 6px; border-radius: 10px; }
+.topic-item.active .count-badge { background: rgba(255,255,255,0.2); color: rgba(255,255,255,0.8); }
+
+/* ===== CONTENT AREA ===== */
+.content-area { min-width: 0; }
+.welcome-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 48px 40px;
+  text-align: center;
+}
+.welcome-icon { font-size: 56px; margin-bottom: 16px; }
+.welcome-title { font-size: 26px; font-weight: 800; color: var(--navy); margin-bottom: 8px; }
+.welcome-sub { color: var(--text-mid); font-size: 15px; margin-bottom: 24px; }
+.stats-row { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 24px; }
+.stat-card { background: var(--bg2); border-radius: var(--radius-sm); padding: 16px 24px; text-align: center; }
+.stat-num { font-size: 28px; font-weight: 800; color: var(--navy); }
+.stat-label { font-size: 11px; font-weight: 600; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px; }
+
+/* ===== EPISODE CARD ===== */
+.episode-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.episode-header {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+  color: white;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.episode-title { font-size: 20px; font-weight: 800; }
+.episode-badge { background: rgba(255,255,255,0.2); padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+.episode-weak { background: rgba(220,38,38,0.25); color: #fca5a5; }
+
+/* ===== SECTION BLOCKS ===== */
+.section-block { padding: 24px; border-bottom: 1px solid var(--border); }
+.section-block:last-child { border-bottom: none; }
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--text-light);
+  margin-bottom: 14px;
+  padding: 4px 10px;
+  background: var(--bg2);
+  border-radius: 20px;
+}
+.section-label.watch { color: var(--red); background: #fee2e2; }
+.section-label.visual { color: var(--teal); background: #ccfbf1; }
+.section-label.keypoints { color: var(--gold); background: #fef3c7; }
+.section-label.quiz { color: var(--navy); background: #dbeafe; }
+
+/* ===== VIDEO EMBED ===== */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: #000;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: none;
+}
+.video-placeholder {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border-radius: var(--radius-sm);
+  padding: 40px;
+  text-align: center;
+  color: rgba(255,255,255,0.6);
+}
+.video-placeholder .play-icon { font-size: 48px; margin-bottom: 12px; }
+.video-placeholder p { font-size: 14px; }
+
+/* ===== DIAGRAM ===== */
+.diagram-container {
+  background: var(--bg2);
+  border-radius: var(--radius-sm);
+  padding: 8px;
+  text-align: center;
+}
+.diagram-container img,
+.diagram-container object { max-width: 100%; border-radius: var(--radius-sm); }
+.diagram-embed {
+  width: 100%;
+  min-height: 300px;
+  border: none;
+  border-radius: var(--radius-sm);
+}
+
+/* ===== KEY POINTS ===== */
+.keypoints-list { list-style: none; }
+.keypoints-list li {
+  border-bottom: 1px solid var(--border);
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--text);
+}
+.keypoints-list li:last-child { border-bottom: none; }
+.kp-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 0;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.15s;
+}
+.kp-row:hover { opacity: 0.8; }
+.keypoints-list .kp-icon { color: var(--teal); font-size: 16px; flex-shrink: 0; margin-top: 2px; }
+.kp-expand-icon { margin-left: auto; font-size: 12px; color: var(--text-light); flex-shrink: 0; transition: transform 0.2s; }
+.kp-row.expanded .kp-expand-icon { transform: rotate(180deg); }
+.keypoints-list strong { color: var(--navy); }
+.kp-detail {
+  display: none;
+  padding: 10px 14px 14px 30px;
+  font-size: 13.5px;
+  line-height: 1.75;
+  color: var(--text);
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border-left: 3px solid var(--teal);
+  border-radius: 0 0 8px 8px;
+  margin-bottom: 4px;
+}
+.kp-detail.open { display: block; }
+
+/* ===== INLINE QUIZ ===== */
+.quiz-progress-bar { height: 4px; background: var(--border); border-radius: 4px; margin-bottom: 20px; }
+.quiz-progress-fill { height: 100%; background: linear-gradient(90deg, var(--teal) 0%, var(--teal-light) 100%); border-radius: 4px; transition: width 0.4s ease; }
+.quiz-counter { font-size: 12px; font-weight: 600; color: var(--text-light); margin-bottom: 8px; }
+.question-text { font-size: 16px; font-weight: 600; color: var(--text); line-height: 1.65; margin-bottom: 20px; }
+.answer-options { display: grid; gap: 10px; }
+.answer-btn {
+  background: var(--bg);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 18px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  transition: all 0.15s;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.answer-btn:hover:not(:disabled) { border-color: var(--navy); background: var(--bg2); color: var(--navy); }
+.answer-btn .opt-letter { font-weight: 700; color: var(--text-mid); flex-shrink: 0; }
+.answer-btn.correct { background: #dcfce7; border-color: var(--green); color: var(--green); }
+.answer-btn.correct .opt-letter { color: var(--green); }
+.answer-btn.incorrect { background: #fee2e2; border-color: var(--red); color: var(--red); }
+.answer-btn.incorrect .opt-letter { color: var(--red); }
+.answer-btn.revealed { background: #dcfce7; border-color: var(--green); color: var(--green); opacity: 0.6; }
+.answer-btn.revealed .opt-letter { color: var(--green); }
+.rationale-box {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border: 1.5px solid #bae6fd;
+  border-left: 4px solid var(--teal);
+  border-radius: var(--radius-sm);
+  padding: 16px 18px;
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text);
+}
+.rationale-box strong { color: var(--navy); }
+.rationale-box .board-tip { margin-top: 10px; padding-top: 10px; border-top: 1px solid #bae6fd; font-weight: 600; color: var(--teal); }
+.quiz-nav { display: flex; gap: 12px; margin-top: 20px; justify-content: space-between; align-items: center; }
+.btn-primary { background: var(--navy); color: white; padding: 10px 22px; border-radius: var(--radius-sm); font-size: 14px; font-weight: 600; transition: all 0.15s; }
+.btn-primary:hover { background: var(--navy-light); }
+.btn-secondary { background: var(--bg2); color: var(--text-mid); padding: 10px 22px; border-radius: var(--radius-sm); font-size: 14px; font-weight: 600; border: 1.5px solid var(--border); transition: all 0.15s; }
+.btn-secondary:hover { background: var(--bg3); color: var(--text); }
+.btn-teal { background: var(--teal); color: white; padding: 10px 22px; border-radius: var(--radius-sm); font-size: 14px; font-weight: 600; transition: all 0.15s; }
+.btn-teal:hover { background: var(--teal-light); }
+.btn-gold { background: var(--gold); color: white; padding: 10px 22px; border-radius: var(--radius-sm); font-size: 14px; font-weight: 600; transition: all 0.15s; }
+.btn-gold:hover { background: var(--gold-light); }
+.episode-complete {
+  text-align: center;
+  padding: 32px;
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  border-radius: var(--radius-sm);
+}
+.episode-complete .trophy { font-size: 48px; margin-bottom: 12px; }
+.episode-complete h3 { font-size: 22px; font-weight: 800; color: var(--green); margin-bottom: 8px; }
+.episode-complete p { color: var(--text-mid); margin-bottom: 20px; }
+
+/* ===== QUIZ TAB ===== */
+.quiz-setup {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 32px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.quiz-setup h2 { font-size: 24px; font-weight: 800; color: var(--navy); margin-bottom: 8px; }
+.quiz-setup p { color: var(--text-mid); margin-bottom: 28px; }
+.form-section { margin-bottom: 24px; }
+.form-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-light); margin-bottom: 10px; display: block; }
+.pill-group { display: flex; gap: 8px; flex-wrap: wrap; }
+.pill-btn {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1.5px solid var(--border);
+  color: var(--text-mid);
+  background: var(--bg);
+  transition: all 0.15s;
+  cursor: pointer;
+}
+.pill-btn:hover { border-color: var(--navy); color: var(--navy); }
+.pill-btn.active { background: var(--navy); color: white; border-color: var(--navy); }
+.full-quiz-area { max-width: 760px; margin: 0 auto; }
+.full-quiz-header {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.full-quiz-header .progress-wrap { flex: 1; }
+.full-quiz-header .q-num { font-size: 13px; font-weight: 700; color: var(--text-light); margin-bottom: 6px; }
+.quiz-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 32px;
+}
+.score-badge { font-size: 24px; font-weight: 800; color: var(--green); }
+
+/* ===== QUIZ RESULTS ===== */
+.results-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 36px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.results-header { text-align: center; margin-bottom: 32px; }
+.results-score { font-size: 56px; font-weight: 900; color: var(--navy); }
+.results-label { font-size: 14px; color: var(--text-mid); }
+.missed-list { display: grid; gap: 16px; }
+.missed-item {
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  border-left: 4px solid var(--red);
+  padding: 16px 18px;
+}
+.missed-item .mi-q { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 8px; }
+.missed-item .mi-your { font-size: 13px; color: var(--red); margin-bottom: 4px; }
+.missed-item .mi-correct { font-size: 13px; color: var(--green); margin-bottom: 8px; }
+.missed-item .mi-rat { font-size: 13px; color: var(--text-mid); line-height: 1.6; }
+
+/* ===== PROGRESS TAB ===== */
+.progress-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+.progress-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+.progress-card h3 { font-size: 16px; font-weight: 800; color: var(--navy); margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+.progress-bar-row { margin-bottom: 14px; }
+.progress-bar-label { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-size: 13px; font-weight: 500; }
+.progress-bar-label span:last-child { font-weight: 700; color: var(--navy); }
+.pbar { height: 8px; background: var(--border); border-radius: 8px; overflow: hidden; }
+.pbar-fill { height: 100%; border-radius: 8px; transition: width 0.8s ease; }
+.pbar-fill.navy { background: linear-gradient(90deg, var(--navy) 0%, var(--navy-light) 100%); }
+.pbar-fill.teal { background: linear-gradient(90deg, var(--teal) 0%, var(--teal-light) 100%); }
+.pbar-fill.gold { background: linear-gradient(90deg, var(--gold) 0%, var(--gold-light) 100%); }
+.pbar-fill.red { background: linear-gradient(90deg, var(--red) 0%, var(--red-light) 100%); }
+.streak-display {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+  border-radius: var(--radius-sm);
+  color: white;
+}
+.streak-num { font-size: 48px; font-weight: 900; }
+.streak-label { font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; opacity: 0.8; }
+.weak-areas-list { list-style: none; }
+.weak-areas-list li { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 13.5px; }
+.weak-areas-list li:last-child { border-bottom: none; }
+.weak-pct { font-weight: 700; color: var(--red); font-size: 14px; }
+.stat-big-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.stat-big { background: var(--bg2); border-radius: var(--radius-sm); padding: 16px; text-align: center; }
+.stat-big .num { font-size: 32px; font-weight: 800; color: var(--navy); }
+.stat-big .lbl { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-light); margin-top: 2px; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .study-layout { grid-template-columns: 1fr; }
+  .sidebar { position: static; max-height: 300px; }
+  .topbar-inner { gap: 12px; padding: 0 16px; flex-wrap: wrap; height: auto; padding-top: 10px; padding-bottom: 10px; }
+  .app-body { padding: 16px; }
+  .brand-sub { display: none; }
+  .countdown-badge { font-size: 11px; padding: 5px 10px; }
+}
+@media (max-width: 640px) {
+  .course-pills { display: none; }
+  .stats-row { flex-direction: column; align-items: center; }
+  .progress-grid { grid-template-columns: 1fr; }
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+.fade-in { animation: fadeIn 0.3s ease forwards; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
+.loading { animation: pulse 1s ease infinite; }
+</style>
+</head>
+<body>
+
+<!-- TOP NAV -->
+<nav class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-name">🩺 FNP Board Prep</span>
+      <span class="brand-sub">by Rabbit Hole FNP</span>
+    </div>
+    <div class="nav-tabs">
+      <button class="nav-tab active" onclick="switchTab('study')">📚 Study</button>
+      <button class="nav-tab" onclick="switchTab('quiz')">✏️ Quiz</button>
+      <button class="nav-tab" onclick="switchTab('progress')">📊 Progress</button>
+    </div>
+    <div class="course-pills" id="coursePills">
+      <button class="course-pill active" onclick="selectCourse('D118')">D118</button>
+      <button class="course-pill" onclick="selectCourse('D119')">D119</button>
+      <button class="course-pill" onclick="selectCourse('D120')">D120</button>
+    </div>
+    <div class="countdown-badge" id="countdown">⏰ Loading...</div>
+  </div>
+</nav>
+
+<!-- APP BODY -->
+<div class="app-body">
+
+  <!-- STUDY TAB -->
+  <div class="tab-panel active" id="tab-study">
+    <div class="study-layout">
+      <aside class="sidebar">
+        <div class="sidebar-header" id="sidebarHeader">Topics</div>
+        <div id="topicList"></div>
+      </aside>
+      <main class="content-area" id="contentArea">
+        <div class="welcome-card fade-in">
+          <div class="welcome-icon">🎓</div>
+          <h2 class="welcome-title">Welcome Back, Brandon!</h2>
+          <p class="welcome-sub">Pick a topic from the sidebar to begin your episode.<br>
+          Remember: <strong>Video → Visual → Key Points → Quiz</strong></p>
+          <div class="stats-row" id="welcomeStats"></div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- QUIZ TAB -->
+  <div class="tab-panel" id="tab-quiz">
+    <div id="quizSetupArea">
+      <div class="quiz-setup fade-in">
+        <h2>Quiz Mode</h2>
+        <p>Test your knowledge with randomized questions. Select your options below.</p>
+        <div class="form-section">
+          <label class="form-label">Course</label>
+          <div class="pill-group" id="quizCoursePills">
+            <button class="pill-btn active" data-val="D118" onclick="setQuizOption('course','D118',this)">D118 — Adult Primary</button>
+            <button class="pill-btn" data-val="D119" onclick="setQuizOption('course','D119',this)">D119 — Pediatric</button>
+            <button class="pill-btn" data-val="D120" onclick="setQuizOption('course','D120',this)">D120 — Special Populations</button>
+            <button class="pill-btn" data-val="ALL" onclick="setQuizOption('course','ALL',this)">All Courses</button>
+          </div>
+        </div>
+        <div class="form-section">
+          <label class="form-label">Question Count</label>
+          <div class="pill-group" id="quizCountPills">
+            <button class="pill-btn active" data-val="10" onclick="setQuizOption('count',10,this)">10</button>
+            <button class="pill-btn" data-val="25" onclick="setQuizOption('count',25,this)">25</button>
+            <button class="pill-btn" data-val="50" onclick="setQuizOption('count',50,this)">50</button>
+          </div>
+        </div>
+        <div class="form-section">
+          <label class="form-label">Focus Area</label>
+          <div class="pill-group" id="quizFocusPills">
+            <button class="pill-btn active" data-val="all" onclick="setQuizOption('focus','all',this)">All Topics</button>
+            <button class="pill-btn" data-val="weak" onclick="setQuizOption('focus','weak',this)">⚠️ Weak Areas Only</button>
+          </div>
+        </div>
+        <button class="btn-primary" onclick="startFullQuiz()" style="padding:14px 32px;font-size:15px;margin-top:8px;">Start Quiz →</button>
+      </div>
+    </div>
+    <div id="quizActiveArea" style="display:none;"></div>
+    <div id="quizResultsArea" style="display:none;"></div>
+  </div>
+
+  <!-- PROGRESS TAB -->
+  <div class="tab-panel" id="tab-progress">
+    <div class="progress-grid fade-in" id="progressGrid"></div>
+  </div>
+
+</div>
+
+<script>
+// ===== DATA =====
+let QUESTIONS = {};
+let state = {
+  activeCourse: 'D118',
+  activeTopic: null,
+  activeTab: 'study',
+  quizOptions: { course: 'D118', count: 10, focus: 'all' },
+  inlineQuiz: { questions: [], currentIndex: 0, score: 0, answered: false },
+  fullQuiz: { questions: [], currentIndex: 0, score: 0, missed: [], answered: false },
+  completedTopics: new Set(),
+  totalAnswered: 0,
+  totalCorrect: 0,
+  streakDays: 0,
+  lastStudyDate: null,
+  correctByTopic: {}
+};
+
+// YouTube video mappings (actual IDs from Ninja Nerd & Osmosis)
+const VIDEOS = {
+  'D118': {
+    'Acute Bronchitis': { title: 'Acute Bronchitis - CRASH!', id: 'GyTfzKE6bYc' },
+    'Acute Otitis Media': { title: 'Acute Otitis Media | Emergency Medicine', id: '7X3t-FvZLUo' },
+    'Acute Sinusitis': { title: 'Sinusitis (updated 2023)', id: 'CVUqP0x0C9k' },
+    'Adrenal': { title: 'Overview of the Adrenal Gland', id: 'GEk0nZ62Wkc' },
+    'Adrenal Insufficiency - Acute Crisis Management': { title: 'Addisonian Crisis', id: 'm-uQ6j5FZrI' },
+    'Adrenal Insufficiency - Primary (Addison Disease)': { title: 'Addison\'s Disease', id: 'KNa5fD3bQfo' },
+    'Alcohol Use': { title: 'Alcohol Use', id: 'KpO-Y-9bpHY' },
+    'Alcohol Use Disorder - DSM-5 Severity': { title: 'Alcohol Use Disorder Severity', id: 'V84XEunXVeg' },
+    'Alcohol Use Disorder - Pharmacotherapy': { title: 'Alcohol Use Disorder Pharmacotherapy', id: 'N8x_9fLLJVs' },
+    'Allergic Conjunctivitis': { title: 'Conjunctivitis', id: '8lDc7QjGJ9w' },
+    'Allergic Rhinitis': { title: 'Allergic Rhinitis', id: 'xw35MvZEljY' },
+    'Anemia': { title: 'Anemia', id: 'kGJmhiFd_mI' },
+    'Ankylosing Spondylitis - Assessment Tools': { title: 'BASDAI Score', id: 'RKzT-E6M0mI' },
+    'Ankylosing Spondylitis - Clinical Presentation': { title: 'AS Overview', id: 'FDhLqSQGxqE' },
+    'Ankylosing Spondylitis - Treatment': { title: 'AS Treatment', id: 'TDCHKEt2kkY' },
+    'Anxiety': { title: 'Anxiety', id: 'YjKFGtIgHO0' },
+    'Anxiety - Benzodiazepine Withdrawal': { title: 'Benzodiazepine Withdrawal', id: '9Y1Cvi8GI3I' },
+    'Anxiety - SSRI Side Effects': { title: 'SSRI Side Effects', id: 'x3dGJakjC6k' },
+    'Bacterial Conjunctivitis': { title: 'Bacterial Conjunctivitis', id: '8lDc7QjGJ9w' },
+    'Bipolar Disorder': { title: 'Bipolar Disorder', id: 'dwvPL8iNmxw' },
+    'Bipolar Disorder - First-Line Mood Stabilizer': { title: 'Mood Stabilizers', id: 'ZM1kGn3cjgg' },
+    'Bipolar Disorder - Lamotrigine Titration': { title: 'Lamotrigine Titration', id: 'A1vQhVGdVu0' },
+    'Bipolar Disorder - Lithium Monitoring': { title: 'Lithium Monitoring', id: 'i50Z8Wq6zO8' },
+    'Bipolar Disorder - Valproate Monitoring': { title: 'Valproate Monitoring', id: 'K4k8sEY3lWc' },
+    'Bipolar I Disorder - Manic Episode Criteria': { title: 'Bipolar I Manic Episodes', id: 'xGwMEz96PVc' },
+    'Bipolar II Disorder - Hypomania vs Mania': { title: 'Bipolar I vs II', id: 'mp69fHs_TEg' },
+    'CKD': { title: 'Chronic Kidney Disease', id: 'R7dY3JsCbSY' },
+    'Cancer Screening': { title: 'Cancer Screening', id: 'NoYy8OY_iL0' },
+    'Cardiovascular': { title: 'Cardiology Part 1', id: '5gb8VI-mB-U' },
+    'Carpal Tunnel Syndrome - Diagnosis': { title: 'Carpal Tunnel Syndrome', id: 'gQk6wBc0sZk' },
+    'Cirrhosis': { title: 'Cirrhosis', id: 'R1f1gWCyutA' },
+    'Cushing Syndrome - Dexamethasone Suppression Test': { title: 'Dexamethasone Suppression Test', id: 'ZINZOob04IY' },
+    'Cushing Syndrome - Screening': { title: 'Cushing\'s Syndrome', id: '0rRRmrLmcBM' },
+    'DVT': { title: 'VTE', id: '0SVP95BOUNI' },
+    'Depression': { title: 'Major Depressive Disorder', id: '3IUkw23paUk' },
+    'Depression - Serotonin Syndrome': { title: 'Serotonin Syndrome', id: '30b2J74rssk' },
+    'Depression - Treatment-Resistant Depression': { title: 'TRD', id: 'lkOjAeuirQg' },
+    'Dermatology': { title: 'Dermatology Part 1', id: 'jBzorLUeMBs' },
+    'Diabetes': { title: 'Diabetes Mellitus', id: 'rh8ycjPCj18' },
+    'Diabetes - ACCORD Trial Implications': { title: 'ACCORD Trial & HbA1c', id: 'Y1F6pE9OsI8' },
+    'Diabetes - Hypoglycemia Management': { title: 'Hypoglycemia', id: 'oXbjqaEHQaM' },
+    'Diabetes - Insulin Initiation': { title: 'Starting Insulin', id: '31dq_wZ_I3k' },
+    'Diabetes - Metformin and B12 Deficiency': { title: 'Metformin & B12', id: 'SF7vOJjMEws' },
+    'Diabetes - Peripheral Neuropathy Screening': { title: 'Diabetic Foot Exam', id: '_BQdeaEHfZc' },
+    'Diabetes - Sick Day Management': { title: 'Sick Days', id: '-bRF-UpnqLc' },
+    'EENT': { title: 'EENT Review', id: 'AP0Qy37qyP4' },
+    'ENT': { title: 'Otolaryngology', id: 'IBUH26eidd0' },
+    'Ears': { title: 'Weber vs Rinne', id: 'cZYJL9Jg-3k' },
+    'Eating Disorders - Anorexia Medical Complications': { title: 'Anorexia Complications', id: 'shGTlDCqa5s' },
+    'Endocrine': { title: 'Endocrinology', id: 'vML4IuG0OIs' },
+    'Epiglottitis': { title: 'Epiglottitis', id: 'WwcD2KI2q6g' },
+    'Eyes': { title: 'Ophthalmology Review', id: 'KP9qlswVY44' },
+    'Fibromyalgia': { title: 'Fibromyalgia', id: '7IMmGvvAAQI' },
+    'Fibromyalgia - Comorbidities': { title: 'Fibromyalgia Brief', id: 'gN8TGvABW44' },
+    'Fibromyalgia - Diagnosis': { title: 'Fibromyalgia Brief', id: 'gN8TGvABW44' },
+    'Fibromyalgia - Pharmacologic Management': { title: 'Fibromyalgia Treatments', id: 'kKX6zAP4SYI' },
+    'GI': { title: 'Gastroenterology', id: 'CNbYbvD7voA' },
+    'Gastrointestinal': { title: 'Gastroenterology', id: 'CNbYbvD7voA' },
+    'Generalized Anxiety Disorder - DSM-5 Diagnosis': { title: 'GAD Diagnosis', id: 'oEpOK9fWmmI' },
+    'Generalized Anxiety Disorder - First-Line Treatment': { title: 'GAD Treatment', id: 'QqLqzKNzxuM' },
+    'Giant Cell Arteritis - Associated Condition': { title: 'Giant Cell Arteritis', id: 'VpxAHI3AYCo' },
+    'Giant Cell Arteritis - Diagnosis and Management': { title: 'GCA Management', id: 'DKNYtAMeOt8' },
+    'Giant Cell Arteritis - Diagnostic Testing': { title: 'GCA Pathogenesis & Criteria', id: '_1bqcNy1pW8' },
+    'Gout': { title: 'Gout Review', id: 'TQqzJVk29ao' },
+    'Gout - Acute Management': { title: 'Gout in Primary Care', id: 'ebDhXAml5rA' },
+    'Gout - Urate-Lowering Therapy': { title: 'Gout ULT', id: '_J-NjEjG62M' },
+    'Guillain-Barré Syndrome - Clinical Features': { title: 'GBS Overview', id: 'KUEunZYZgII' },
+    'Guillain-Barré Syndrome - Treatment': { title: 'GBS Treatment', id: 'ngsYnoulZWI' },
+    'Guillain-Barré Syndrome - Variants': { title: 'GBS Variants', id: 'VSLF8vXd6Xw' },
+    'Hematology': { title: 'Anemias', id: 'mOrRJBqm744' },
+    'Hepatitis': { title: 'Viral Hepatitis', id: 'eocRM7MhF68' },
+    'Hyperaldosteronism - Screening': { title: 'Hyperaldosteronism', id: '_3El2bP9HJ8' },
+    'Hypertension': { title: 'Hypertension', id: 'B1PovVZLtUU' },
+    'Hyperthyroidism - Graves Disease': { title: 'Graves Disease', id: 'RuwM6M5ohW4' },
+    'Hyperthyroidism - Initial Management': { title: 'Hyperthyroidism', id: 'epWJ2v5qy5E' },
+    'Hypothyroidism - Levothyroxine Dosing': { title: 'Hypothyroidism Treatment', id: 'Acn7LdnfvrM' },
+    'Hypothyroidism - Medication Interactions': { title: 'Levothyroxine Drug Interactions', id: 'Ud99nzXRiSo' },
+    'Hypothyroidism - Primary Diagnosis': { title: 'Hashimoto\'s Thyroiditis', id: 'wyanDtvx8K0' },
+    'Infectious Disease': { title: 'ID Review', id: 'YWTgQNjJ5lM' },
+    'Lateral Epicondylitis (Tennis Elbow) - Management': { title: 'Tennis Elbow Fix', id: 'Ri77yRaSm4A' },
+    'Lipids': { title: 'Hyperlipidemia Management', id: 'yiyf1cmYg6c' },
+    'Lung Cancer Screening': { title: 'USPSTF Lung Screening', id: 'CcepXp-LKZg' },
+    'Major Depressive Disorder - Atypical Features': { title: 'Atypical Depression', id: 'R7ix4rNNVKk' },
+    'Major Depressive Disorder - DSM-5 Diagnosis': { title: 'Depression Diagnosis', id: 'OuAdtqrPShk' },
+    'Major Depressive Disorder - First-Line Pharmacotherapy': { title: 'MDD Treatment', id: '-JoTNsqyDxw' },
+    'Major Depressive Disorder - Suicide Risk Assessment': { title: 'Mood Disorders', id: 'pb4I2cUqKU8' },
+    'Major Depressive Disorder - Treatment Duration': { title: 'Antidepressant Duration', id: 'igTxqFuIjjw' },
+    'Mental Health': { title: 'MDD Neurobiology', id: 'XgoIGUUvXaI' },
+    'Migraine': { title: 'Migraine Pathophysiology', id: 'DMhKBUgizO8' },
+    'Migraine - Acute Treatment': { title: 'Migraine Treatment', id: 'UFeCcEYLhlo' },
+    'Migraine - Medication Overuse Headache': { title: 'Rebound Headache', id: 'UZFf15b3WTk' },
+    'Migraine - Preventive Therapy Indication': { title: 'Migraine Prevention', id: 'fMGeUgvB7Bw' },
+    'Multiple Sclerosis': { title: 'MS Overview', id: 'x_136Lk_XPg' },
+    'Multiple Sclerosis - Acute Relapse Treatment': { title: 'MS Relapse Steroids', id: 'SeLAWL4AsJA' },
+    'Multiple Sclerosis - Disease-Modifying Therapy': { title: 'MS Therapy', id: 'ECeIFcrS-6I' },
+    'Multiple Sclerosis - Initial Presentation': { title: 'MS Overview', id: 'yzH8ul5PSZ8' },
+    'Musculoskeletal': { title: 'MSK Review', id: 'tvxtVMVvEIE' },
+    'Myasthenia Gravis - Crisis Management': { title: 'Myasthenia Gravis', id: 'il3vvxNpls8' },
+    'Myasthenia Gravis - Diagnosis': { title: 'Myasthenia Gravis', id: 'NYUHrGSefi4' },
+    'Myasthenia Gravis - Thymectomy': { title: 'MG Drugs', id: 'voGPlXMs2Ck' },
+    'Neurology': { title: 'Parkinson Disease', id: '7ptg1ec3r5w' },
+    'OCD - DSM-5 Criteria': { title: 'OCD DSM-5', id: 'yoRPFWQda24' },
+    'Osteoarthritis': { title: 'OA Overview', id: 'sUOlmI-naFs' },
+    'Osteoarthritis - Intra-articular Injections': { title: 'Steroid Injections', id: 'O-Nzpkvhlac' },
+    'Osteoarthritis - Non-pharmacologic Management': { title: 'OA Non-pharm', id: 'AGbdXtyNZ6U' },
+    'Osteoarthritis - Pharmacologic Management': { title: 'OA Treatment', id: '1pN6IvUjaaM' },
+    'PCOS': { title: 'PCOS Explained', id: 'YVQzolMgNp0' },
+    'PTSD': { title: 'PTSD DSM-5', id: 'I5ixX53GTws' },
+    'PTSD - Evidence-Based Treatment': { title: 'PTSD Evidence-Based', id: 'rynncgAcrYg' },
+    'PTSD - Pharmacotherapy for Nightmares': { title: 'Prazosin for PTSD', id: 'i10OJjUcJQs' },
+    'PTSD - Screening in Primary Care': { title: 'PTSD Screening', id: 'GAAON2lwDM4' },
+    'Panic Disorder - Agoraphobia': { title: 'Agoraphobia', id: '8eT74-5dIsE' },
+    'Panic Disorder - DSM-5 Criteria': { title: 'Panic Attacks', id: 'R_oerTjxEZg' },
+    'Panic Disorder - Medication Selection': { title: 'Anxiety Mnemonics', id: 'orx4adUXXhU' },
+    'Parkinson Disease': { title: 'Parkinson Disease', id: '7ptg1ec3r5w' },
+    'Parkinson's Disease - Early Diagnosis': { title: 'Prodromal PD', id: 'cxwiERUYlwo' },
+    'Parkinson's Disease - Initial Pharmacotherapy': { title: 'PD Medications', id: 'MdsPBaH-6Po' },
+    'Parkinson's Disease - Motor Complications': { title: 'PD Motor Fluctuations', id: 'EKq6J790g1M' },
+    'Peritonsillar Abscess': { title: 'Quinsy', id: 'BxttM5VY2M8' },
+    'Pharyngitis': { title: 'Sore Throat Approach', id: 'cYRc3OJ9uZQ' },
+    'Pharyngitis - Strep vs Viral': { title: 'Strep vs Viral', id: 'CoBJ6pDCLKI' },
+    'Pheochromocytoma - Clinical Presentation': { title: 'Pheochromocytoma', id: 'nh977KoL220' },
+    'Pneumonia': { title: 'Pneumonia Basics', id: '86KAoKvk8X8' },
+    'Polycystic Ovary Syndrome (PCOS) - Endocrine Aspects': { title: 'PCOS Explained', id: 'YVQzolMgNp0' },
+    'Polymyalgia Rheumatica - Differential Diagnosis': { title: 'PMR Overview', id: 'x2t71uY0o9c' },
+    'Polymyalgia Rheumatica - Steroid Taper': { title: 'PMR Treatment', id: '6YIcGq3Js0A' },
+    'Polymyalgia Rheumatica - Treatment Response': { title: 'PMR 2024', id: 'PgmKF_J2pJA' },
+    'Post-Traumatic Stress Disorder - DSM-5 Diagnosis': { title: 'PTSD Diagnosis', id: 'lrdoF6CznaE' },
+    'Practice Question': { title: 'Critical Care Q&A', id: 'aM5kG1TsxU0' },
+    'Preventive Care': { title: 'USPSTF & Vaccines', id: 'bnK9nz9_BHo' },
+    'Prostate': { title: 'BPH Overview', id: 'iEt37lisSFg' },
+    'Pseudogout (CPPD) - Diagnosis': { title: 'Pseudogout', id: 'u2yAEdkTKNU' },
+    'Renal': { title: 'Renal & Urology', id: 'muCAhJ0wVoM' },
+    'Respiratory': { title: 'Respiratory Review', id: 'HU3V0kftcqY' },
+    'Rheumatoid Arthritis': { title: 'RA Explained', id: 'PLMoU3uziPk' },
+    'Rheumatoid Arthritis - DMARD Selection': { title: 'DMARD Therapy', id: 'HxJKeTyDWas' },
+    'Rheumatoid Arthritis - Diagnosis': { title: 'RA Diagnosis', id: 'EB5zxdAQGzU' },
+    'Rheumatoid Arthritis - Extra-articular Manifestations': { title: 'RA Overview', id: 'PLMoU3uziPk' },
+    'Rheumatology': { title: 'IM CT Review', id: 'CTQBilMKpKY' },
+    'SLE': { title: 'SLE Overview', id: '0junqD4BLH4' },
+    'Schizophrenia': { title: 'Schizophrenia', id: '0zHU6fiM2KY' },
+    'Schizophrenia - DSM-5 Diagnosis': { title: 'Schizophrenia DSM-5', id: '0zHU6fiM2KY' },
+    'Schizophrenia - First-Line Antipsychotic': { title: 'Antipsychotics Mnemonics', id: '3J1swiS7uJo' },
+    'Schizophrenia - Metabolic Monitoring': { title: 'Antipsychotics Effects', id: 'VGsUAgbyMaA' },
+    'Scleroderma - Classification': { title: 'Systemic Sclerosis', id: 'vez85zdCw-A' },
+    'Scleroderma - Organ Involvement': { title: 'Systemic Sclerosis', id: 'vez85zdCw-A' },
+    'Scleroderma - Raynaud's Phenomenon': { title: 'Raynaud\'s & Sclerosis', id: 'Cunmv5kejG0' },
+    'Seizure': { title: 'Seizures Pathology', id: 'CEjxjysgONI' },
+    'Seizure - First Unprovoked Seizure': { title: 'First Unprovoked Seizure', id: 'v0PuDFk9K0s' },
+    'Seizure - Status Epilepticus': { title: 'Status Epilepticus', id: '4Gt8PD1JGsA' },
+    'Seizure - Women of Childbearing Age': { title: 'Women & Epilepsy', id: 'Qbpj1ysLZHw' },
+    'Sjögren's Syndrome - Clinical Features': { title: 'Sjogren\'s Pathology', id: 'Gh4WineSF-k' },
+    'Sjögren's Syndrome - Extraglandular Manifestations': { title: 'Sjogren\'s Extraglandular', id: 'faTSGcovqJA' },
+    'Sjögren's Syndrome - Oral Complications': { title: 'Sjogren\'s Oral', id: 'PxHLMD6Sp6Q' },
+    'Sleep Apnea': { title: 'Sleep Apnea', id: 'NZszF7OaDVE' },
+    'Smoking Cessation': { title: 'Smoking Cessation', id: 'Znk-2TleNao' },
+    'Social Anxiety Disorder - Diagnosis': { title: 'Social Anxiety', id: 'FEXPduL-_c4' },
+    'Stroke': { title: 'Stroke 2025', id: 'mbnHMZn_vfs' },
+    'Subclinical Hypothyroidism - Treatment Decision': { title: 'Hypothyroidism Master Class', id: 'JRVs1dfMmQw' },
+    'Systemic Lupus Erythematosus - Antibody Profiles': { title: 'Anti-dsDNA', id: 'qq8ezVd1Cbc' },
+    'Systemic Lupus Erythematosus - Management': { title: 'SLE ACR Guidelines', id: 'ySw0c2QoGCg' },
+    'Systemic Lupus Erythematosus - Renal Involvement': { title: 'Lupus Nephritis', id: 'Yl2RvydEOU8' },
+    'Thyroid': { title: 'Thyroid Hormone', id: 'C4q4YkRokVs' },
+    'Thyroid - Pregnancy and Levothyroxine': { title: 'Hypothyroidism Master Class', id: 'JRVs1dfMmQw' },
+    'Thyroid - Subclinical Hyperthyroidism': { title: 'Hyperthyroidism', id: 'z-LwBvYJH5o' },
+    'Thyroid Cancer - Post-Thyroidectomy TSH Target': { title: 'Thyroid Cancer 2025', id: 'jrw5D9K_rFo' },
+    'Thyroid Nodule - Evaluation': { title: 'Thyroid Nodule', id: '4-RNrTznfow' },
+    'Transient Ischemic Attack - Dual Antiplatelet Therapy': { title: 'TIA Overview', id: 'qoZ11ELE-ow' },
+    'Transient Ischemic Attack - Risk Stratification': { title: 'ABCD2 Score', id: 'iH4JsLraoI8' },
+    'Transient Ischemic Attack - Secondary Prevention': { title: 'Stroke Prevention', id: '3CInkjVReDA' },
+    'Type 2 Diabetes - Diabetic Ketoacidosis Risk': { title: 'DKA', id: '-B-RVybvffU' },
+    'Type 2 Diabetes - GLP-1 RA Selection': { title: 'GLP-1 RAs', id: 'ceCbcQglHWM' },
+    'Type 2 Diabetes - HbA1c Target': { title: 'HbA1c Target', id: 'Nkz05tW1pY0' },
+    'Type 2 Diabetes - Initial Diagnosis': { title: 'T2DM Diagnosis', id: 'pAb0Odjj5xE' },
+    'Type 2 Diabetes - Metformin Initiation': { title: 'Metformin', id: '4AmiqM6iy8A' },
+    'Type 2 Diabetes - Nephropathy Monitoring': { title: 'Diabetic Kidney Disease', id: 'Eg3MZjNF5Ps' },
+    'Type 2 Diabetes - Retinopathy Screening': { title: 'Diabetic Retinopathy', id: 'it3VxnoAgls' },
+    'Type 2 Diabetes - SGLT2 Inhibitor Indication': { title: 'SGLT2 Inhibitors', id: 'wFDtDM4x7jI' },
+    'UTI': { title: 'UTI Overview', id: 'gGS7tddt1XA' },
+    'Vaccines': { title: '2024 Vaccine Schedule', id: 'GON9XFWAmYI' },
+    'Viral Conjunctivitis': { title: 'Conjunctivitis Types', id: 'j6cfrC_toH4' },
+  },
+  'D119': {
+  },
+  'D120': {
+  },
+};
+
+const DIAGRAMS = {
+  'Cardiovascular': 'content/diagrams/htn-algorithm.svg',
+  'Heart Failure': 'content/diagrams/hfref-algorithm.svg',
+  'Respiratory': 'content/diagrams/asthma-steps.svg',
+  'Asthma Pediatric': 'content/diagrams/asthma-steps.svg',
+  'Pediatric Asthma': 'content/diagrams/asthma-steps.svg',
+  'Asthma': 'content/diagrams/asthma-steps.svg',
+  'Endocrine': 'content/diagrams/diabetes-algorithm.svg',
+  'Diabetes': 'content/diagrams/diabetes-algorithm.svg',
+  'COPD': 'content/diagrams/copd-steps.svg',
+  'Respiratory - Acute': 'content/diagrams/acute-bronchitis-algorithm.svg',
+  'Acute Bronchitis': 'content/diagrams/acute-bronchitis-algorithm.svg',
+  'Musculoskeletal': 'content/diagrams/arthritis-decision.svg',
+  'Osteoarthritis': 'content/diagrams/arthritis-decision.svg',
+  'Rheumatoid Arthritis': 'content/diagrams/arthritis-decision.svg',
+  'Rheumatology': 'content/diagrams/arthritis-decision.svg',
+  'Contraception': 'content/diagrams/contraception-decision.svg',
+  'ADHD': 'content/diagrams/pediatric-adhd-algorithm.svg',
+  'Development Milestones': 'content/diagrams/pediatric-milestones-timeline.svg',
+  'Immunizations': 'content/diagrams/pediatric-immunization-schedule.svg',
+  'Infectious Disease Pediatric': 'content/diagrams/pediatric-respiratory-distress.svg',
+  'Neonatal': 'content/diagrams/pediatric-immunization-schedule.svg',
+  'Thyroid': 'content/diagrams/thyroid-algorithm.svg',
+  'UTI': 'content/diagrams/uti-algorithm.svg',
+  'Neurology': 'content/diagrams/stroke-algorithm.svg',
+  'Stroke': 'content/diagrams/stroke-algorithm.svg',
+};
+
+// Key points
+const KEY_POINTS = {
+  'Cardiovascular': [
+    '<strong>HTN Stage 1:</strong> 130-139/80-89 — lifestyle first; add meds if 10-yr ASCVD risk ≥10%',
+    '<strong>HTN Stage 2:</strong> ≥140/90 — start 2-drug combination therapy',
+    '<strong>First-line agents:</strong> Thiazides, CCBs, ACEi/ARBs — avoid beta-blockers as first-line',
+    '<strong>Inferior MI:</strong> ST elevation in leads II, III, aVF → RCA territory',
+    '<strong>White coat HTN:</strong> Confirm with ambulatory or home BP monitoring before treating'
+  ],
+  'Respiratory': [
+    '<strong>COPD Exacerbation:</strong> Antibiotics + systemic steroids + bronchodilator',
+    '<strong>Step 1 Asthma:</strong> PRN SABA (albuterol) only for intermittent symptoms',
+    '<strong>Step 2 Asthma:</strong> Low-dose ICS daily (controller) + SABA for rescue',
+    '<strong>LABAs never alone</strong> in asthma — FDA black box warning for pediatrics',
+    '<strong>COPD GOLD criteria:</strong> FEV1/FVC <0.70 post-bronchodilator confirms obstruction'
+  ],
+  'Respiratory - Acute': [
+    '<strong>Acute Bronchitis:</strong> Cough lasting 1-3 weeks after URI — VIRAL in >95%, NO antibiotics',
+    '<strong>Diagnosis:</strong> Clinical only — normal CXR, no fever >38°C, no tachycardia',
+    '<strong>Red flags → get CXR:</strong> Fever >38°C, HR >100, RR >24, hypoxia, elderly or immunocompromised',
+    '<strong>Treatment:</strong> Symptomatic only — honey (age >1yr), DXM, beta-agonist if wheezing',
+    '<strong>Pertussis pearl:</strong> Cough >3 weeks + inspiratory "whoop" + post-tussive vomiting → test & treat'
+  ],
+  'ADHD': [
+    '<strong>DSM-5:</strong> ≥6 symptoms in 2+ settings, onset before age 12, lasting ≥6 months',
+    '<strong>Ages 4-5:</strong> Behavior therapy FIRST before any medication (AAP)',
+    '<strong>First-line meds:</strong> Methylphenidate or amphetamines (stimulants)',
+    '<strong>Non-stimulant options:</strong> Atomoxetine (Strattera), guanfacine (Intuniv), clonidine',
+    '<strong>Monitoring:</strong> BP, HR, height/weight, Vanderbilt scales at every visit'
+  ],
+  'Menopause': [
+    '<strong>Definition:</strong> 12 consecutive months of amenorrhea — retrospective diagnosis',
+    '<strong>Most effective Rx for hot flashes:</strong> Systemic hormone therapy (estrogen ± progestogen)',
+    '<strong>HT contraindications:</strong> Breast cancer hx, DVT/PE, active liver disease, unexplained bleeding',
+    '<strong>Intact uterus:</strong> MUST add progestogen to estrogen (prevents endometrial cancer)',
+    '<strong>GSM (vaginal dryness):</strong> Low-dose vaginal estrogen safe even with most HT contraindications'
+  ],
+  'Geriatrics': [
+    '<strong>BEERS Criteria:</strong> Avoid antihistamines, benzodiazepines, Z-drugs, TCAs, muscle relaxants',
+    '<strong>MMSE ≤23:</strong> Cognitive impairment; MoCA more sensitive for mild impairment',
+    '<strong>Falls risk:</strong> TUG test ≥12 sec = high risk; review all medications first',
+    '<strong>Polypharmacy:</strong> ≥5 medications — brown bag review at every visit',
+    '<strong>Delirium vs. dementia:</strong> Delirium = acute + fluctuating; treat the underlying cause'
+  ],
+  'Prenatal': [
+    '<strong>RhoGAM:</strong> Rh-negative mothers at 28 weeks AND within 72 hours of delivery',
+    '<strong>GBS screening:</strong> 35-37 weeks vaginal/rectal culture; IV penicillin in labor if positive',
+    '<strong>GDM screening:</strong> 50g GCT at 24-28 weeks; positive (≥140) → 3-hour 100g OGTT',
+    '<strong>Tdap every pregnancy:</strong> 27-36 weeks for passive pertussis immunity to newborn',
+    '<strong>Folic acid:</strong> 400-800 mcg BEFORE conception through 12 weeks'
+  ],
+  'Contraception': [
+    '<strong>Most effective reversible:</strong> LARC — implant (>99%), IUD (>99%)',
+    '<strong>Combined OCP contraindications:</strong> HTN ≥160/100, migraine with aura, VTE hx, smoking ≥35yo',
+    '<strong>EC options (best to worst):</strong> Copper IUD > ella > Plan B',
+    '<strong>Copper IUD:</strong> Also most effective EC — up to 5 days after unprotected sex',
+    '<strong>DMPA risk:</strong> Bone density loss with >2 year use — reversible after stopping'
+  ],
+  'Cancer Screening': [
+    '<strong>Cervical cancer:</strong> Pap q3yr ages 21-29; co-test q5yr ages 30-65; stop at 65',
+    '<strong>Breast cancer:</strong> Biennial mammogram ages 40-74 (USPSTF 2024)',
+    '<strong>Colorectal:</strong> Start at 45 — colonoscopy q10yr or FIT annually',
+    '<strong>Lung cancer:</strong> Annual LDCT for ages 50-80 with ≥20 pack-year hx (USPSTF 2021)',
+    '<strong>NOT recommended:</strong> Ovarian cancer screening in average-risk women (Grade D)'
+  ],
+  'STI': [
+    '<strong>Gonorrhea:</strong> Ceftriaxone 500mg IM x1 (2021 CDC; 1g if ≥150kg)',
+    '<strong>Chlamydia:</strong> Doxycycline 100mg BID x7 days (preferred over azithromycin)',
+    '<strong>Syphilis (primary/secondary):</strong> Benzathine penicillin G 2.4M units IM x1',
+    '<strong>HSV-1/2 first episode:</strong> Oral acyclovir or valacyclovir x7-10 days',
+    '<strong>PrEP:</strong> Truvada or Descovy for HIV-negative high-risk individuals — >99% effective'
+  ]
+};
+
+const WEAK_TOPICS = {
+  D118: ['MSK', 'Musculoskeletal', 'Endocrine', 'ENT', 'EENT'],
+  D119: ['MSK Pediatrics', 'MSK Pediatric', 'Endocrine Pediatrics'],
+  D120: ['Mental Health', 'Substance Abuse', 'Substance Use']
+};
+
+// ===== KEY POINTS EXPANDABLE DETAIL =====
+const KEY_POINTS_DETAIL = {
+  'Respiratory - Acute': [
+    `<strong>Pathophysiology:</strong> Viral URI (rhinovirus, influenza, parainfluenza, RSV) inflames bronchial mucosa → increased mucus → cough. Bacterial cause is rare (~5%) — mostly <em>Bordetella pertussis</em> or <em>Mycoplasma</em>. Median cough duration = 18 days. Cough >3 weeks → suspect pertussis.`,
+    `<strong>Clinical diagnosis — no CXR needed unless red flags:</strong><br>
+    • Productive/dry cough following URI symptoms<br>
+    • Possible wheezing (from bronchial inflammation, not fixed obstruction)<br>
+    • Normal or diffusely decreased breath sounds<br>
+    ✗ No focal consolidation, no significant fever, no hypoxia`,
+    `<strong>Heckerling criteria — get CXR if ANY of:</strong><br>
+    • HR >100 bpm<br>
+    • RR >24 breaths/min<br>
+    • Temp >38°C (100.4°F)<br>
+    • Focal crackles or decreased breath sounds on exam<br>
+    • Age >75 or immunocompromised`,
+    `<strong>Treatment options:</strong><br>
+    • <strong>Honey</strong> 1-2 tsp PRN (age >1yr only — botulism risk in infants)<br>
+    • <strong>Dextromethorphan</strong> 10-30mg q4-8h for cough suppression<br>
+    • <strong>Albuterol</strong> only if wheezing present (not routine)<br>
+    • <strong>NSAIDs/acetaminophen</strong> for fever/myalgias<br>
+    ✗ <strong>NO antibiotics</strong> — no benefit, promotes resistance`,
+    `<strong>Pertussis distinguishing features:</strong><br>
+    • 3 stages: Catarrhal (URI-like, 1-2wk) → Paroxysmal (coughing fits + inspiratory whoop, 2-6wk) → Convalescent<br>
+    • Post-tussive vomiting + lymphocytosis = strong clues<br>
+    • <strong>Dx:</strong> Nasopharyngeal PCR (gold standard)<br>
+    • <strong>Tx:</strong> Azithromycin x5 days — report to health dept`,
+  ],
+  'Cardiovascular': [
+    `<strong>Stage 1 HTN:</strong> Lifestyle x3 months FIRST unless 10-yr ASCVD ≥10%. Calculate ASCVD with Pooled Cohort Equations.<br>
+    <strong>Lifestyle:</strong> DASH diet, Na <2.3g/day, weight loss (1mmHg per 1kg), aerobic exercise 90-150min/wk, limit alcohol.`,
+    `<strong>Stage 2 combo:</strong> ACEi/ARB + CCB OR ACEi/ARB + thiazide. Never ACEi + ARB together (hyperkalemia + AKI).<br>
+    Black patients → prefer CCB + thiazide. CKD → ACEi/ARB first. HFrEF → ACEi/ARB + beta-blocker required.`,
+    `<strong>Drug selection:</strong><br>
+    • Thiazide → uncomplicated HTN, edema, Black patients<br>
+    • CCB (amlodipine) → Black patients, elderly, isolated systolic, angina<br>
+    • ACEi/ARB → DM, CKD, HF (avoid ACEi in pregnancy — use ARB instead)<br>
+    • Beta-blockers → NOT first-line unless CAD, HF, tachyarrhythmia`,
+    `<strong>Inferior STEMI (II, III, aVF):</strong> RCA territory. Order right-sided leads (V3R, V4R) to rule out RV infarct before giving nitrates — can precipitate profound hypotension.<br>
+    Anterior (V1-V4) = LAD. Lateral (I, aVL, V5-V6) = LCx.`,
+    `<strong>White coat HTN:</strong> Confirm with ABPM or home monitoring (12-14 readings) before treating. Annual monitoring recommended — significant risk of developing sustained HTN over 10 years.`,
+  ],
+  'Respiratory': [
+    `<strong>AECOPD treatment:</strong> SABD (albuterol + ipratropium) q1-4h + prednisolone 40mg PO x5 days + antibiotics if purulent sputum (azithromycin, doxycycline, or amoxicillin-clavulanate). Hospitalize if SpO2 <90%, AMS, or respiratory acidosis.`,
+    `<strong>Step 1 (Intermittent):</strong> Symptoms <2x/week, <2 nocturnal/month, FEV1 ≥80%. SABA PRN only (albuterol 2 puffs q4-6h PRN). Using SABA >2x/week = step up to Step 2.`,
+    `<strong>Step 2 (Mild persistent):</strong> Daily symptoms, >2x/week, >2 nocturnal/month. Low-dose ICS daily (fluticasone 88mcg BID or budesonide 180mcg BID) + SABA PRN. Alternative: montelukast if can't use ICS.`,
+    `<strong>FDA Black Box:</strong> LABA (salmeterol) monotherapy → increased asthma-related death in peds. Always combine with ICS. Fixed combinations: Advair (fluticasone/salmeterol), Symbicort (budesonide/formoterol), Breo (fluticasone/vilanterol).`,
+    `<strong>GOLD spirometry staging (post-bronchodilator):</strong><br>
+    FEV1/FVC <0.70 confirms obstruction, then:<br>
+    GOLD 1 ≥80%, GOLD 2 50-79%, GOLD 3 30-49%, GOLD 4 <30%<br>
+    Asthma vs COPD: Asthma = FEV1 improves ≥12% AND ≥200mL post-BD (reversible). COPD = fixed obstruction.`,
+  ],
+  'ADHD': [
+    `<strong>Full DSM-5 criteria:</strong> ≥6 inattentive OR ≥6 hyperactive/impulsive symptoms (≥5 if age ≥17), onset <12 years, present in ≥2 settings (home + school), duration ≥6 months, causing functional impairment.`,
+    `<strong>Ages 4-5 AAP protocol:</strong> Behavior therapy (parent training) FIRST for ≥8 sessions before any medication. If behavior therapy fails or unavailable → methylphenidate only (not amphetamines at this age).`,
+    `<strong>Stimulant meds:</strong><br>
+    MPH (methylphenidate): Ritalin (IR 3-5hr), Concerta (OROS 10-12hr), Focalin (dexmethylphenidate)<br>
+    AMP (amphetamine): Adderall XR (8-10hr), Vyvanse (12-14hr, prodrug)<br>
+    Start low, titrate q1-2 weeks. Monitor BP, HR, weight, growth.`,
+    `<strong>Non-stimulants:</strong><br>
+    • Atomoxetine (Strattera): SNRI, full effect 4-6 weeks, good for comorbid anxiety<br>
+    • Guanfacine ER (Intuniv): alpha-2 agonist, helpful for oppositional behavior<br>
+    • Clonidine ER (Kapvay): alpha-2 agonist, also helps sleep issues`,
+    `<strong>Monitoring protocol:</strong> Vanderbilt scales (parent + teacher) at baseline, after each dose change, and q6 months. BP + HR at every visit. Height/weight q6 months (growth suppression concern). Drug holidays over summer sometimes used.`,
+  ],
+};
+
+function toggleKP(rowEl, detailId) {
+  const detail = document.getElementById(detailId);
+  if (!detail) return;
+  const isOpen = detail.classList.contains('open');
+  detail.classList.toggle('open', !isOpen);
+  rowEl.classList.toggle('expanded', !isOpen);
+}
+
+// ===== STORAGE =====
+function saveState() {
+  const persist = {
+    completedTopics: [...state.completedTopics],
+    totalAnswered: state.totalAnswered,
+    totalCorrect: state.totalCorrect,
+    streakDays: state.streakDays,
+    lastStudyDate: state.lastStudyDate,
+    correctByTopic: state.correctByTopic
+  };
+  localStorage.setItem('fnp_state', JSON.stringify(persist));
+}
+
+function loadState() {
+  try {
+    const saved = JSON.parse(localStorage.getItem('fnp_state') || '{}');
+    if (saved.completedTopics) state.completedTopics = new Set(saved.completedTopics);
+    if (saved.totalAnswered) state.totalAnswered = saved.totalAnswered;
+    if (saved.totalCorrect) state.totalCorrect = saved.totalCorrect;
+    if (saved.streakDays) state.streakDays = saved.streakDays;
+    if (saved.lastStudyDate) state.lastStudyDate = saved.lastStudyDate;
+    if (saved.correctByTopic) state.correctByTopic = saved.correctByTopic;
+    // Update streak
+    if (state.lastStudyDate) {
+      const last = new Date(state.lastStudyDate);
+      const today = new Date();
+      const diff = Math.floor((today - last) / (1000*60*60*24));
+      if (diff > 1) state.streakDays = 0;
+    }
+  } catch(e) {}
+}
+
+// ===== COUNTDOWN =====
+function updateCountdown() {
+  const target = new Date('2026-08-01T00:00:00');
+  const now = new Date();
+  const diff = target - now;
+  if (diff <= 0) {
+    document.getElementById('countdown').textContent = '🎉 Clinicals!';
+    return;
+  }
+  const days = Math.floor(diff / (1000*60*60*24));
+  const hours = Math.floor((diff % (1000*60*60*24)) / (1000*60*60));
+  document.getElementById('countdown').innerHTML = `⏰ <strong>${days}d ${hours}h</strong> to Clinicals`;
+}
+
+// ===== TAB SWITCHING =====
+function switchTab(tab) {
+  state.activeTab = tab;
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  document.getElementById(`tab-${tab}`).classList.add('active');
+  event.target.classList.add('active');
+  if (tab === 'progress') renderProgress();
+}
+
+// ===== COURSE SELECTION =====
+function selectCourse(course) {
+  state.activeCourse = course;
+  state.activeTopic = null;
+  document.querySelectorAll('.course-pill').forEach(p => p.classList.remove('active'));
+  event.target.classList.add('active');
+  renderSidebar();
+  renderWelcome();
+}
+
+// ===== TOPICS =====
+function getTopicsForCourse(course) {
+  const qs = QUESTIONS[course] || [];
+  const counts = {};
+  qs.forEach(q => { counts[q.topic] = (counts[q.topic]||0)+1; });
+  return Object.entries(counts).sort((a,b) => a[0].localeCompare(b[0]));
+}
+
+function isWeak(course, topic) {
+  return (WEAK_TOPICS[course]||[]).some(w => topic.includes(w) || w.includes(topic));
+}
+
+function renderSidebar() {
+  const topics = getTopicsForCourse(state.activeCourse);
+  const list = document.getElementById('topicList');
+  document.getElementById('sidebarHeader').textContent = `${state.activeCourse} Topics`;
+  let html = '';
+  topics.forEach(([topic, count]) => {
+    const weak = isWeak(state.activeCourse, topic);
+    const done = state.completedTopics.has(`${state.activeCourse}::${topic}`);
+    const activeClass = state.activeTopic === topic ? 'active' : '';
+    const weakClass = weak ? 'weak' : '';
+    const indicator = done
+      ? `<span class="topic-check">✓</span>`
+      : `<span class="topic-dot" style="${weak ? 'background:#ef4444' : ''}"></span>`;
+    html += `<div class="topic-item ${activeClass} ${weakClass}" onclick="selectTopic('${topic.replace(/'/g,"\\'")}')">
+      ${indicator}
+      <span>${topic}</span>
+      <span class="count-badge">${count}</span>
+    </div>`;
+  });
+  list.innerHTML = html;
+}
+
+function selectTopic(topic) {
+  state.activeTopic = topic;
+  state.inlineQuiz = { questions: [], currentIndex: 0, score: 0, answered: false };
+  renderSidebar();
+  renderEpisode(topic);
+}
+
+// ===== EPISODE RENDERING =====
+function renderEpisode(topic) {
+  const course = state.activeCourse;
+  const allQs = (QUESTIONS[course]||[]).filter(q => q.topic === topic);
+  // Select up to 5 random questions for inline quiz
+  const shuffled = [...allQs].sort(() => Math.random()-0.5);
+  const quizQs = shuffled.slice(0, Math.min(5, shuffled.length));
+  state.inlineQuiz.questions = quizQs;
+  state.inlineQuiz.currentIndex = 0;
+  state.inlineQuiz.score = 0;
+  state.inlineQuiz.answered = false;
+
+  const weak = isWeak(course, topic);
+  const video = (VIDEOS[course]||{})[topic];
+  const diagram = DIAGRAMS[topic];
+  const kps = KEY_POINTS[topic] || getAutoKeyPoints(topic, allQs);
+
+  // Update last study date and streak
+  const today = new Date().toISOString().split('T')[0];
+  if (state.lastStudyDate !== today) {
+    const last = state.lastStudyDate ? new Date(state.lastStudyDate) : null;
+    const now = new Date(today);
+    if (last && Math.floor((now-last)/(1000*60*60*24)) === 1) {
+      state.streakDays++;
+    } else if (!last) {
+      state.streakDays = 1;
+    }
+    state.lastStudyDate = today;
+    saveState();
+  }
+
+  const weakBadge = weak ? '<span class="episode-badge episode-weak">⚠️ Weak Area</span>' : `<span class="episode-badge">${course}</span>`;
+
+  let html = `<div class="episode-card fade-in">
+    <div class="episode-header">
+      <span class="episode-title">${topic}</span>
+      ${weakBadge}
+    </div>`;
+
+  // 1. VIDEO SECTION
+  html += `<div class="section-block">
+    <div class="section-label watch">▶ 1 &nbsp; Watch</div>`;
+  if (video) {
+    html += `<div class="video-container">
+      <iframe src="https://www.youtube.com/embed/${video.id}?rel=0&modestbranding=1" allowfullscreen title="${video.title}"></iframe>
+    </div>
+    <p style="font-size:12px;color:var(--text-light);margin-top:8px;text-align:center;">${video.title}</p>`;
+  } else {
+    html += `<div class="video-placeholder">
+      <div class="play-icon">🎬</div>
+      <p>Search <strong>"Ninja Nerd ${topic}"</strong> or <strong>"Osmosis ${topic}"</strong> on YouTube for the best visual explanation.</p>
+    </div>`;
+  }
+  html += `</div>`;
+
+  // 2. VISUAL SECTION
+  html += `<div class="section-block">
+    <div class="section-label visual">🗺 2 &nbsp; Visual</div>`;
+  if (diagram) {
+    html += `<div class="diagram-container">
+      <iframe src="${diagram}" class="diagram-embed" title="${topic} diagram"></iframe>
+    </div>`;
+  } else {
+    html += `<div class="diagram-container" style="padding:30px;text-align:center;color:var(--text-mid);">
+      <p style="font-size:14px;">📋 <strong>${topic}</strong> — Focus on clinical algorithms and decision trees for this topic.<br>
+      Draw your own flow chart as you study to cement the pathways!</p>
+    </div>`;
+  }
+  html += `</div>`;
+
+  // 3. KEY POINTS SECTION
+  html += `<div class="section-block">
+    <div class="section-label keypoints">💡 3 &nbsp; Key Points</div>
+    <ul class="keypoints-list">`;
+  kps.forEach((pt, idx) => {
+    const detail = KEY_POINTS_DETAIL[topic] && KEY_POINTS_DETAIL[topic][idx] ? KEY_POINTS_DETAIL[topic][idx] : null;
+    const detailHTML = detail ? `<div class="kp-detail" id="kpd-${idx}">${detail}</div>` : '';
+    const expandIcon = detail ? `<span class="kp-expand-icon">▼</span>` : '';
+    const clickAttr = detail ? `onclick="toggleKP(this, 'kpd-${idx}')"` : '';
+    html += `<li><div class="kp-row" ${clickAttr}><span class="kp-icon">→</span><span>${pt}</span>${expandIcon}</div>${detailHTML}</li>`;
+  });
+  html += `</ul></div>`;
+
+  // 4. INLINE QUIZ SECTION
+  html += `<div class="section-block">
+    <div class="section-label quiz">🧠 4 &nbsp; Practice Quiz</div>
+    <div id="inlineQuizArea">`;
+  if (quizQs.length > 0) {
+    html += renderInlineQuestion(0, quizQs);
+  } else {
+    html += `<p style="color:var(--text-mid);font-size:14px;">No practice questions available for this topic yet.</p>`;
+  }
+  html += `</div></div></div>`;
+
+  document.getElementById('contentArea').innerHTML = html;
+}
+
+function getAutoKeyPoints(topic, questions) {
+  // Extract key points from rationales
+  const points = [];
+  questions.slice(0,5).forEach(q => {
+    const rat = q.rationale || '';
+    const boardTip = rat.match(/\*\*Board tip:\*\*(.+?)(\.|$)/i);
+    if (boardTip) points.push(boardTip[1].trim());
+  });
+  if (points.length < 3) {
+    points.push(`Study the <strong>${topic}</strong> clinical presentation, diagnosis, and treatment approach`);
+    points.push(`Focus on <strong>when to refer</strong> vs. manage in primary care`);
+    points.push(`Know the <strong>board-level drug doses</strong> and monitoring parameters`);
+  }
+  return points.slice(0,5);
+}
+
+function renderInlineQuestion(index, questions) {
+  const q = questions[index];
+  const total = questions.length;
+  const pct = Math.round(index/total*100);
+  const letters = ['A','B','C','D'];
+
+  return `<div class="quiz-counter">Question ${index+1} of ${total}</div>
+    <div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:${pct}%"></div></div>
+    <div class="question-text">${q.q}</div>
+    <div class="answer-options" id="inlineOptions_${index}">
+      ${q.a.map((opt,i) => `<button class="answer-btn" onclick="answerInline(${index},${i})" id="inlineOpt_${index}_${i}">
+        <span class="opt-letter">${letters[i]}.</span>
+        <span>${opt}</span>
+      </button>`).join('')}
+    </div>
+    <div id="inlineRationale_${index}" style="display:none;"></div>
+    <div class="quiz-nav" id="inlineNav_${index}" style="display:none;">
+      <div style="font-size:13px;color:var(--text-mid);" id="inlineScore_${index}"></div>
+      <button class="btn-teal" onclick="nextInlineQuestion(${index})" id="inlineNextBtn_${index}">
+        ${index+1 < total ? 'Next Question →' : '🏆 Finish Episode'}
+      </button>
+    </div>`;
+}
+
+function answerInline(questionIndex, chosenIndex) {
+  const qs = state.inlineQuiz.questions;
+  const q = qs[questionIndex];
+  const correct = q.correct;
+  const letters = ['A','B','C','D'];
+
+  // Disable all options
+  for (let i = 0; i < 4; i++) {
+    const btn = document.getElementById(`inlineOpt_${questionIndex}_${i}`);
+    if (!btn) continue;
+    btn.disabled = true;
+    if (i === correct) btn.classList.add('revealed');
+    if (i === chosenIndex && chosenIndex !== correct) btn.classList.add('incorrect');
+    if (i === chosenIndex && chosenIndex === correct) {
+      btn.classList.remove('revealed');
+      btn.classList.add('correct');
+    }
+  }
+
+  const isCorrect = chosenIndex === correct;
+  if (isCorrect) {
+    state.inlineQuiz.score++;
+    state.totalCorrect++;
+  }
+  state.totalAnswered++;
+
+  // Track by topic
+  const tk = `${state.activeCourse}::${state.activeTopic}`;
+  if (!state.correctByTopic[tk]) state.correctByTopic[tk] = { correct: 0, total: 0 };
+  state.correctByTopic[tk].total++;
+  if (isCorrect) state.correctByTopic[tk].correct++;
+  saveState();
+
+  // Show rationale
+  const rat = formatRationale(q.rationale);
+  document.getElementById(`inlineRationale_${questionIndex}`).innerHTML = rat;
+  document.getElementById(`inlineRationale_${questionIndex}`).style.display = 'block';
+  document.getElementById(`inlineNav_${questionIndex}`).style.display = 'flex';
+  document.getElementById(`inlineScore_${questionIndex}`).textContent = `Score: ${state.inlineQuiz.score}/${questionIndex+1}`;
+}
+
+function nextInlineQuestion(currentIndex) {
+  const qs = state.inlineQuiz.questions;
+  const next = currentIndex + 1;
+  if (next >= qs.length) {
+    // Episode complete
+    const score = state.inlineQuiz.score;
+    const total = qs.length;
+    const tk = `${state.activeCourse}::${state.activeTopic}`;
+    state.completedTopics.add(tk);
+    saveState();
+    renderSidebar();
+    document.getElementById('inlineQuizArea').innerHTML = `
+      <div class="episode-complete">
+        <div class="trophy">🏆</div>
+        <h3>Episode Complete!</h3>
+        <p>You scored <strong>${score}/${total}</strong> (${Math.round(score/total*100)}%) on <strong>${state.activeTopic}</strong></p>
+        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+          <button class="btn-primary" onclick="selectTopic('${state.activeTopic.replace(/'/g,"\\'")}')">🔄 Retry Topic</button>
+          <button class="btn-teal" onclick="switchTab('quiz');event.target.closest('.nav-tab')">📝 Full Quiz Mode</button>
+        </div>
+      </div>`;
+    return;
+  }
+  document.getElementById('inlineQuizArea').innerHTML = renderInlineQuestion(next, qs);
+}
+
+function formatRationale(rat) {
+  if (!rat) return '';
+  // Format board tips
+  let formatted = rat.replace(/\*\*Board tip:\*\*/gi, '<span class="board-tip">⭐ Board Tip:</span>');
+  formatted = formatted.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  formatted = formatted.replace(/---+/g, '');
+  // Split into main text and board tip
+  const tipIdx = formatted.indexOf('<span class="board-tip">');
+  let mainText = tipIdx > -1 ? formatted.substring(0, tipIdx) : formatted;
+  let tipText = tipIdx > -1 ? formatted.substring(tipIdx) : '';
+  return `<div class="rationale-box"><p>${mainText.trim()}</p>${tipText ? `<div class="board-tip" style="margin-top:10px;padding-top:10px;border-top:1px solid #bae6fd;">${tipText}</div>` : ''}</div>`;
+}
+
+// ===== WELCOME SCREEN =====
+function renderWelcome() {
+  const course = state.activeCourse;
+  const qs = QUESTIONS[course] || [];
+  const topics = getTopicsForCourse(course);
+  const completed = topics.filter(([t]) => state.completedTopics.has(`${course}::${t}`)).length;
+  document.getElementById('welcomeStats').innerHTML = `
+    <div class="stat-card"><div class="stat-num">${qs.length}</div><div class="stat-label">Questions</div></div>
+    <div class="stat-card"><div class="stat-num">${topics.length}</div><div class="stat-label">Topics</div></div>
+    <div class="stat-card"><div class="stat-num">${completed}</div><div class="stat-label">Completed</div></div>
+    <div class="stat-card"><div class="stat-num" style="color:var(--gold)">${state.streakDays}</div><div class="stat-label">Day Streak 🔥</div></div>`;
+  document.getElementById('contentArea').innerHTML = `
+    <div class="welcome-card fade-in">
+      <div class="welcome-icon">🎓</div>
+      <h2 class="welcome-title">Welcome Back, Brandon!</h2>
+      <p class="welcome-sub">Pick a topic from the sidebar to begin your episode.<br>
+      Flow: <strong>Video → Visual → Key Points → Quiz</strong></p>
+      <div class="stats-row" id="welcomeStats">
+        <div class="stat-card"><div class="stat-num">${qs.length}</div><div class="stat-label">${course} Questions</div></div>
+        <div class="stat-card"><div class="stat-num">${topics.length}</div><div class="stat-label">Topics</div></div>
+        <div class="stat-card"><div class="stat-num">${completed}</div><div class="stat-label">Completed</div></div>
+        <div class="stat-card"><div class="stat-num" style="color:var(--gold)">${state.streakDays}</div><div class="stat-label">Day Streak 🔥</div></div>
+      </div>
+      <p style="margin-top:20px;font-size:13px;color:var(--red);font-weight:600;">⚠️ Weak areas this course: ${(WEAK_TOPICS[course]||[]).join(', ') || 'None flagged'}</p>
+    </div>`;
+}
+
+// ===== QUIZ MODE =====
+let quizOpts = { course: 'D118', count: 10, focus: 'all' };
+
+function setQuizOption(key, val, btn) {
+  quizOpts[key] = val;
+  btn.closest('.pill-group').querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+function startFullQuiz() {
+  let pool = [];
+  if (quizOpts.course === 'ALL') {
+    pool = Object.values(QUESTIONS).flat();
+  } else {
+    pool = [...(QUESTIONS[quizOpts.course]||[])];
+  }
+  if (quizOpts.focus === 'weak') {
+    const wt = WEAK_TOPICS[quizOpts.course] || [];
+    pool = pool.filter(q => wt.some(w => q.topic.includes(w) || w.includes(q.topic)));
+  }
+  // Shuffle
+  pool = pool.sort(() => Math.random()-0.5).slice(0, quizOpts.count);
+  state.fullQuiz = { questions: pool, currentIndex: 0, score: 0, missed: [], answered: false };
+  document.getElementById('quizSetupArea').style.display = 'none';
+  document.getElementById('quizResultsArea').style.display = 'none';
+  document.getElementById('quizActiveArea').style.display = 'block';
+  renderFullQuizQuestion();
+}
+
+function renderFullQuizQuestion() {
+  const fq = state.fullQuiz;
+  const q = fq.questions[fq.currentIndex];
+  const total = fq.questions.length;
+  const pct = Math.round(fq.currentIndex/total*100);
+  const letters = ['A','B','C','D'];
+
+  document.getElementById('quizActiveArea').innerHTML = `
+    <div class="full-quiz-area">
+      <div class="full-quiz-header">
+        <div class="progress-wrap">
+          <div class="q-num">Question ${fq.currentIndex+1} of ${total} &nbsp;•&nbsp; Score: ${fq.score}/${fq.currentIndex}</div>
+          <div class="quiz-progress-bar" style="margin-bottom:0"><div class="quiz-progress-fill" style="width:${pct}%"></div></div>
+        </div>
+        <button class="btn-secondary" onclick="endQuizEarly()" style="font-size:13px;padding:8px 14px;">End Quiz</button>
+      </div>
+      <div class="quiz-card fade-in">
+        <div style="font-size:11px;font-weight:700;color:var(--text-light);letter-spacing:0.8px;text-transform:uppercase;margin-bottom:8px;">${q.topic} &nbsp;•&nbsp; ${q.course}</div>
+        <div class="question-text">${q.q}</div>
+        <div class="answer-options" id="fqOptions">
+          ${q.a.map((opt,i) => `<button class="answer-btn" onclick="answerFullQuiz(${i})" id="fqOpt_${i}">
+            <span class="opt-letter">${letters[i]}.</span>
+            <span>${opt}</span>
+          </button>`).join('')}
+        </div>
+        <div id="fqRationale" style="display:none;"></div>
+        <div id="fqNav" style="display:none;justify-content:space-between;align-items:center;margin-top:16px;">
+          <div id="fqFeedback" style="font-size:14px;font-weight:600;"></div>
+          <button class="btn-primary" onclick="nextFullQuizQ()">
+            ${fq.currentIndex+1 < total ? 'Next →' : '🏆 See Results'}
+          </button>
+        </div>
+      </div>
+    </div>`;
+}
+
+function answerFullQuiz(chosen) {
+  const fq = state.fullQuiz;
+  const q = fq.questions[fq.currentIndex];
+  const correct = q.correct;
+  const isCorrect = chosen === correct;
+
+  for (let i = 0; i < 4; i++) {
+    const btn = document.getElementById(`fqOpt_${i}`);
+    if (!btn) continue;
+    btn.disabled = true;
+    if (i === correct) btn.classList.add('revealed');
+    if (i === chosen && !isCorrect) btn.classList.add('incorrect');
+    if (i === chosen && isCorrect) { btn.classList.remove('revealed'); btn.classList.add('correct'); }
+  }
+
+  if (isCorrect) {
+    fq.score++;
+    state.totalCorrect++;
+  } else {
+    fq.missed.push({ q, chosen });
+  }
+  state.totalAnswered++;
+  saveState();
+
+  document.getElementById('fqRationale').innerHTML = formatRationale(q.rationale);
+  document.getElementById('fqRationale').style.display = 'block';
+  document.getElementById('fqNav').style.display = 'flex';
+  document.getElementById('fqFeedback').innerHTML = isCorrect
+    ? '<span style="color:var(--green)">✓ Correct!</span>'
+    : `<span style="color:var(--red)">✗ Incorrect</span>`;
+}
+
+function nextFullQuizQ() {
+  const fq = state.fullQuiz;
+  fq.currentIndex++;
+  if (fq.currentIndex >= fq.questions.length) {
+    showQuizResults();
+  } else {
+    renderFullQuizQuestion();
+  }
+}
+
+function endQuizEarly() {
+  showQuizResults();
+}
+
+function showQuizResults() {
+  const fq = state.fullQuiz;
+  const score = fq.score;
+  const total = fq.currentIndex;
+  const pct = total > 0 ? Math.round(score/total*100) : 0;
+  const grade = pct >= 80 ? '🏆 Excellent!' : pct >= 70 ? '👍 Good job!' : pct >= 60 ? '📚 Keep studying' : '💪 More practice needed';
+  const gradeColor = pct >= 80 ? 'var(--green)' : pct >= 70 ? 'var(--teal)' : pct >= 60 ? 'var(--gold)' : 'var(--red)';
+
+  let missedHtml = fq.missed.length > 0 ? `
+    <div style="margin-top:32px;">
+      <h3 style="font-size:16px;font-weight:800;color:var(--navy);margin-bottom:16px;">Review Missed Questions (${fq.missed.length})</h3>
+      <div class="missed-list">
+        ${fq.missed.map(({q,chosen}) => `<div class="missed-item">
+          <div class="mi-q">${q.q}</div>
+          <div class="mi-your">✗ Your answer: ${q.a[chosen]}</div>
+          <div class="mi-correct">✓ Correct: ${q.a[q.correct]}</div>
+          <div class="mi-rat">${(q.rationale||'').replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>').replace(/---+/g,'')}</div>
+        </div>`).join('')}
+      </div>
+    </div>` : `<div style="text-align:center;margin-top:24px;padding:24px;background:#dcfce7;border-radius:var(--radius-sm);"><strong style="color:var(--green)">🌟 Perfect score! No missed questions!</strong></div>`;
+
+  document.getElementById('quizActiveArea').style.display = 'none';
+  document.getElementById('quizResultsArea').style.display = 'block';
+  document.getElementById('quizResultsArea').innerHTML = `
+    <div class="results-card fade-in">
+      <div class="results-header">
+        <div class="results-score" style="color:${gradeColor}">${pct}%</div>
+        <div class="results-label">${score} correct out of ${total} questions</div>
+        <div style="font-size:18px;font-weight:700;color:${gradeColor};margin-top:8px;">${grade}</div>
+      </div>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:24px;">
+        <button class="btn-primary" onclick="startFullQuiz()">🔄 Retry Quiz</button>
+        <button class="btn-secondary" onclick="document.getElementById('quizSetupArea').style.display='block';document.getElementById('quizResultsArea').style.display='none';">⚙️ New Quiz Setup</button>
+      </div>
+      ${missedHtml}
+    </div>`;
+}
+
+// ===== PROGRESS TAB =====
+function renderProgress() {
+  const courses = ['D118','D119','D120'];
+  const courseNames = { D118: 'Adult Primary Care', D119: 'Pediatric Primary Care', D120: 'Special Populations' };
+  let html = '';
+
+  // Overall stats
+  const pct = state.totalAnswered > 0 ? Math.round(state.totalCorrect/state.totalAnswered*100) : 0;
+  html += `<div class="progress-card" style="grid-column:1/-1;">
+    <h3>📊 Overall Performance</h3>
+    <div class="stat-big-row">
+      <div class="stat-big"><div class="num">${state.totalAnswered}</div><div class="lbl">Questions Answered</div></div>
+      <div class="stat-big"><div class="num">${pct}%</div><div class="lbl">Overall Accuracy</div></div>
+    </div>
+  </div>`;
+
+  // Streak
+  html += `<div class="progress-card">
+    <h3>🔥 Study Streak</h3>
+    <div class="streak-display">
+      <div class="streak-num">${state.streakDays}</div>
+      <div class="streak-label">Days in a Row</div>
+    </div>
+  </div>`;
+
+  // Course completion
+  html += `<div class="progress-card">
+    <h3>📚 Course Completion</h3>`;
+  courses.forEach(c => {
+    const topics = getTopicsForCourse(c);
+    const completed = topics.filter(([t]) => state.completedTopics.has(`${c}::${t}`)).length;
+    const pct = topics.length > 0 ? Math.round(completed/topics.length*100) : 0;
+    const colors = { D118: 'navy', D119: 'teal', D120: 'gold' };
+    html += `<div class="progress-bar-row">
+      <div class="progress-bar-label"><span><strong>${c}</strong> — ${courseNames[c]}</span><span>${completed}/${topics.length} (${pct}%)</span></div>
+      <div class="pbar"><div class="pbar-fill ${colors[c]}" style="width:${pct}%"></div></div>
+    </div>`;
+  });
+  html += `</div>`;
+
+  // Weak areas
+  html += `<div class="progress-card">
+    <h3>⚠️ Focus Areas</h3>
+    <ul class="weak-areas-list">
+      <li><span>🔴 MSK (D118)</span><span class="weak-pct">18% pass rate</span></li>
+      <li><span>🔴 Endocrine (D118)</span><span class="weak-pct">20% pass rate</span></li>
+      <li><span>🔴 ENT (D118)</span><span class="weak-pct">17% pass rate</span></li>
+      <li><span>🟡 Pediatric MSK (D119)</span><span class="weak-pct">Needs review</span></li>
+      <li><span>🟡 Substance Use (D120)</span><span class="weak-pct">Needs review</span></li>
+    </ul>
+    <button class="btn-gold" style="margin-top:16px;width:100%;" onclick="switchTab('quiz');quizOpts.focus='weak';">Study Weak Areas →</button>
+  </div>`;
+
+  // Question counts
+  html += `<div class="progress-card">
+    <h3>📋 Question Bank</h3>`;
+  courses.forEach(c => {
+    const count = (QUESTIONS[c]||[]).length;
+    const color = { D118:'navy', D119:'teal', D120:'gold' }[c];
+    html += `<div class="progress-bar-row">
+      <div class="progress-bar-label"><span><strong>${c}</strong></span><span>${count} questions</span></div>
+      <div class="pbar"><div class="pbar-fill ${color}" style="width:${Math.min(100,Math.round(count/3))}%"></div></div>
+    </div>`;
+  });
+  html += `</div>`;
+
+  document.getElementById('progressGrid').innerHTML = html;
+}
+
+// ===== INIT =====
+async function init() {
+  loadState();
+  updateCountdown();
+  setInterval(updateCountdown, 60000);
+
+  try {
+    const resp = await fetch('questions.json');
+    QUESTIONS = await resp.json();
+    renderSidebar();
+    renderWelcome();
+  } catch(e) {
+    console.error('Failed to load questions:', e);
+    document.getElementById('contentArea').innerHTML = `
+      <div class="welcome-card">
+        <div class="welcome-icon">❌</div>
+        <h2 class="welcome-title">Loading Error</h2>
+        <p class="welcome-sub">Could not load questions.json. Make sure the app is served from a web server.</p>
+      </div>`;
+  }
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>

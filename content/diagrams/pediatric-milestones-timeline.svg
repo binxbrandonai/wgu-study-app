@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650">
+  <defs>
+    <style>
+      text { font-family: 'Inter', -apple-system, sans-serif; fill: #e2e8f5; }
+      .title { font-size: 22px; font-weight: 700; fill: #00e5cc; }
+      .subtitle { font-size: 13px; fill: #94a3b8; }
+      .box-text { font-size: 11px; }
+      .box-title { font-size: 12px; font-weight: 700; }
+      .age-label { font-size: 12px; font-weight: 700; fill: #f5b731; }
+      .age-tiny { font-size: 10px; fill: #94a3b8; }
+      .arrow { fill: none; stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+      .timeline-dot { fill: #00e5cc; }
+      .red-flag { font-size: 10px; fill: #ff4d6d; }
+    </style>
+    <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="#334155"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="650" fill="#050810" rx="0"/>
+
+  <!-- Title -->
+  <text x="500" y="38" text-anchor="middle" class="title" filter="url(#glow)">Pediatric Growth &amp; Development Milestones Timeline</text>
+  <text x="500" y="56" text-anchor="middle" class="subtitle">Birth to 5 Years — Gross Motor · Fine Motor · Language · Social</text>
+
+  <!-- Timeline bar -->
+  <line x1="50" y1="90" x2="950" y2="90" stroke="#1e293b" stroke-width="4"/>
+  
+  <!-- Milestone nodes along timeline -->
+  <!-- 2 Months -->
+  <circle cx="120" cy="90" r="8" class="timeline-dot"/>
+  <rect x="70" y="108" width="100" height="80" rx="6" fill="#0b0f1c" stroke="#38bdf8" stroke-width="1"/>
+  <text x="120" y="125" text-anchor="middle" class="age-label">2 Months</text>
+  <text x="120" y="140" text-anchor="middle" class="box-text">Social smile 😊</text>
+  <text x="120" y="155" text-anchor="middle" class="box-text">Follows past midline</text>
+  <text x="120" y="170" text-anchor="middle" class="box-text">Lifts head 45° prone</text>
+  <text x="120" y="185" text-anchor="middle" class="red-flag">❌ No smile = red flag</text>
+
+  <!-- 4 Months -->
+  <circle cx="240" cy="90" r="8" class="timeline-dot"/>
+  <rect x="190" y="108" width="100" height="80" rx="6" fill="#0b0f1c" stroke="#38bdf8" stroke-width="1"/>
+  <text x="240" y="125" text-anchor="middle" class="age-label">4 Months</text>
+  <text x="240" y="140" text-anchor="middle" class="box-text">Laughs out loud 😂</text>
+  <text x="240" y="155" text-anchor="middle" class="box-text">Rolls front to back</text>
+  <text x="240" y="170" text-anchor="middle" class="box-text">Hands to midline</text>
+  <text x="240" y="185" text-anchor="middle" class="red-flag">❌ No head control</text>
+
+  <!-- 6 Months -->
+  <circle cx="360" cy="90" r="8" class="timeline-dot"/>
+  <rect x="310" y="108" width="100" height="80" rx="6" fill="#0b0f1c" stroke="#38bdf8" stroke-width="1"/>
+  <text x="360" y="125" text-anchor="middle" class="age-label">6 Months</text>
+  <text x="360" y="140" text-anchor="middle" class="box-text">Sits with support 🪑</text>
+  <text x="360" y="155" text-anchor="middle" class="box-text">Transfers hand-hand</text>
+  <text x="360" y="170" text-anchor="middle" class="box-text">Babbles "ba-ba"</text>
+  <text x="360" y="185" text-anchor="middle" class="red-flag">❌ No babbling</text>
+
+  <!-- 9 Months -->
+  <circle cx="480" cy="90" r="8" class="timeline-dot"/>
+  <rect x="430" y="108" width="100" height="80" rx="6" fill="#0b0f1c" stroke="#38bdf8" stroke-width="1"/>
+  <text x="480" y="125" text-anchor="middle" class="age-label">9 Months</text>
+  <text x="480" y="140" text-anchor="middle" class="box-text">Sits unsupported 🏆</text>
+  <text x="480" y="155" text-anchor="middle" class="box-text">Crawls</text>
+  <text x="480" y="170" text-anchor="middle" class="box-text">Pincer grasp ✨</text>
+  <text x="480" y="185" text-anchor="middle" class="red-flag">❌ Not sitting</text>
+
+  <!-- 12 Months -->
+  <circle cx="600" cy="90" r="10" fill="#00e5cc" filter="url(#glow)"/>
+  <rect x="550" y="108" width="100" height="80" rx="6" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1.5"/>
+  <text x="600" y="125" text-anchor="middle" class="age-label" fill="#00e5cc">12 Months</text>
+  <text x="600" y="140" text-anchor="middle" class="box-text">Cruises / walks 🚶</text>
+  <text x="600" y="155" text-anchor="middle" class="box-text">2-3 words</text>
+  <text x="600" y="170" text-anchor="middle" class="box-text">Waves bye-bye 👋</text>
+  <text x="600" y="185" text-anchor="middle" class="red-flag">❌ Not cruising</text>
+
+  <!-- 18 Months -->
+  <circle cx="720" cy="90" r="8" class="timeline-dot"/>
+  <rect x="670" y="108" width="100" height="80" rx="6" fill="#0b0f1c" stroke="#f5b731" stroke-width="1"/>
+  <text x="720" y="125" text-anchor="middle" class="age-label">18 Months</text>
+  <text x="720" y="140" text-anchor="middle" class="box-text">Runs stiffly 🏃</text>
+  <text x="720" y="155" text-anchor="middle" class="box-text">10-25 words</text>
+  <text x="720" y="170" text-anchor="middle" class="box-text">Points to things</text>
+  <text x="720" y="185" text-anchor="middle" class="red-flag">❌ &lt;10 words</text>
+
+  <!-- 24 Months -->
+  <circle cx="840" cy="90" r="10" fill="#00e5cc" filter="url(#glow)"/>
+  <rect x="790" y="108" width="100" height="80" rx="6" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1.5"/>
+  <text x="840" y="125" text-anchor="middle" class="age-label" fill="#00e5cc">24 Months</text>
+  <text x="840" y="140" text-anchor="middle" class="box-text">Jumps in place 🦘</text>
+  <text x="840" y="155" text-anchor="middle" class="box-text">50+ words</text>
+  <text x="840" y="170" text-anchor="middle" class="box-text">2-word phrases</text>
+  <text x="840" y="185" text-anchor="middle" class="red-flag">❌ &lt;50 words</text>
+
+  <!-- 3-5 Year section -->
+  <rect x="50" y="210" width="900" height="140" rx="8" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="500" y="235" text-anchor="middle" class="box-title" fill="#f5b731">Ages 3-5 Years: Preschool Milestones</text>
+  
+  <text x="75" y="258" class="box-text"><tspan font-weight="700">3 Years</tspan>: Climbs stairs alternating feet, rides tricycle 🚲, copies circle, speaks in sentences, 75% intelligible to strangers</text>
+  <text x="75" y="278" class="box-text"><tspan font-weight="700">4 Years</tspan>: Hops on one foot, throws ball overhand, copies cross (+) and square, uses 4-word sentences, tells stories, cooperative play with peers</text>
+  <text x="75" y="298" class="box-text"><tspan font-weight="700">5 Years</tspan>: Skips, walks backward, copies triangle, knows colors/letters/counting, complete sentences 100% intelligible, dresses independently</text>
+
+  <text x="75" y="325" class="red-flag">⛔ RED FLAGS: Loss of any skill at any age = URGENT referral. No pointing by 18mo, no pretend play by 24mo, no sentences by 36mo.</text>
+
+  <!-- Key Box -->
+  <rect x="50" y="370" width="900" height="100" rx="8" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="500" y="393" text-anchor="middle" class="box-title" fill="#00e5cc">Key Screening Tools &amp; Ages</text>
+
+  <text x="75" y="413" class="box-text">📋 <tspan font-weight="700">ASQ-3</tspan> — Developmental screening at 9, 18, 24, 30 months (communication, gross motor, fine motor, problem-solving, personal-social)</text>
+  <text x="75" y="433" class="box-text">🧩 <tspan font-weight="700">M-CHAT-R</tspan> — Autism-specific screening at 18 and 24 months (Modified Checklist for Autism in Toddlers)</text>
+  <text x="75" y="453" class="box-text">🩸 <tspan font-weight="700">Lead screening</tspan> at 12 and 24 months · <tspan font-weight="700">Anemia/Hb</tspan> at 12 months · <tspan font-weight="700">Vision/Hearing</tspan> at 3-5 years</text>
+
+  <!-- Bottom summary -->
+  <rect x="50" y="485" width="900" height="70" rx="8" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1"/>
+  <text x="500" y="508" text-anchor="middle" class="box-text" fill="#00e5cc">💡 Mnemonic: 2mo=Smile · 4mo=Laugh · 6mo=Sit · 9mo=Crawl · 12mo=Walk · 18mo=Run · 24mo=Jump · 36mo=Trike · 48mo=Hop · 60mo=Skip</text>
+  <text x="500" y="528" text-anchor="middle" class="box-text" fill="#94a3b8">Language: Coos (2mo) → Babbles (6mo) → Words (12mo) → Phrases (24mo) → Sentences (36mo) → Stories (60mo)</text>
+  <text x="500" y="545" text-anchor="middle" class="box-text" fill="#ff4d6d">⚠️ Any regression = IMMEDIATE referral (autism, metabolic, neurologic workup)</text>
+</svg>

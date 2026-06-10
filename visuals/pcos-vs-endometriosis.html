@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCOS vs Endometriosis Comparison</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .condition-card {
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .pcos-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .endo-card {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+        .condition-card h2 {
+            margin-top: 0;
+            font-size: 2em;
+            border-bottom: 3px solid rgba(255,255,255,0.3);
+            padding-bottom: 10px;
+        }
+        .category {
+            margin: 20px 0;
+        }
+        .category h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            opacity: 0.9;
+        }
+        .category ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .category li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+        .key-differences {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            margin-top: 30px;
+        }
+        .key-differences h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        .diff-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .diff-item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .diff-item h4 {
+            margin: 0 0 10px 0;
+            color: #667eea;
+        }
+        .diff-item p {
+            margin: 5px 0;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        .pcos-text {
+            color: #667eea;
+            font-weight: bold;
+        }
+        .endo-text {
+            color: #f5576c;
+            font-weight: bold;
+        }
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PCOS vs Endometriosis</h1>
+        <p class="subtitle">Comparative Study Guide for D120</p>
+        
+        <div class="comparison-grid">
+            <div class="condition-card pcos-card">
+                <h2>PCOS</h2>
+                <p style="font-style: italic; opacity: 0.9;">Polycystic Ovary Syndrome</p>
+                
+                <div class="category">
+                    <h3>🔬 Pathophysiology</h3>
+                    <ul>
+                        <li>Hormonal imbalance (↑ androgens)</li>
+                        <li>Insulin resistance common</li>
+                        <li>Multiple follicular cysts on ovaries</li>
+                        <li>Anovulation or irregular ovulation</li>
+                    </ul>
+                </div>
+                
+                <div class="category">
+                    <h3>📋 Key Symptoms</h3>
+                    <ul>
+                        <li>Irregular/absent periods</li>
+                        <li>Hirsutism (excess hair growth)</li>
+                        <li>Acne</li>
+                        <li>Weight gain/difficulty losing weight</li>
+                        <li>Male-pattern baldness</li>
+                        <li>Dark skin patches (acanthosis nigricans)</li>
+                    </ul>
+                </div>
+                
+                <div class="category">
+                    <h3>🩺 Diagnosis</h3>
+                    <ul>
+                        <li>Rotterdam criteria (2 of 3):
+                            <ul>
+                                <li>Oligo/anovulation</li>
+                                <li>Clinical/biochemical hyperandrogenism</li>
+                                <li>Polycystic ovaries on ultrasound</li>
+                            </ul>
+                        </li>
+                        <li>Lab: ↑ testosterone, ↑ LH/FSH ratio</li>
+                        <li>Fasting glucose/insulin levels</li>
+                    </ul>
+                </div>
+                
+                <div class="category">
+                    <h3>💊 Treatment</h3>
+                    <ul>
+                        <li>Lifestyle: weight loss, exercise</li>
+                        <li>OCPs (oral contraceptives) for cycle regulation</li>
+                        <li>Metformin for insulin resistance</li>
+                        <li>Anti-androgens (spironolactone)</li>
+                        <li>Fertility treatments if pregnancy desired</li>
+                    </ul>
+                </div>
+                
+                <div class="category">
+                    <h3>⚠️ Complications</h3>
+                    <ul>
+                        <li>Type 2 diabetes</li>
+                        <li>Infertility</li>
+                        <li>Metabolic syndrome</li>
+                        <li>Endometrial cancer risk</li>
+                        <li>Cardiovascular disease</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="condition-card endo-card">
+                <h2>Endometriosis</h2>
+                <p style="font-style: italic; opacity: 0.9;">Endometrial Tissue Outside Uterus</p>
+                
+                <div class="category">
+                    <h3>🔬 Pathophysiology</h3>
+                    <ul>
+                        <li>Endometrial tissue grows outside uterus</li>
+                        <li>Responds to hormonal cycles</li>
+                        <li>Causes inflammation & scarring</li>
+                        <li>Adhesions form between organs</li>
+                    </ul>
+                </div>
+                
+                <div class="category">
+                    <h3>📋 Key Symptoms</h3>
+                    <ul>
+                        <li>Severe dysmenorrhea (painful periods)</li>
+                        <li>Chronic pelvic pain</li>
+                        <li>Dyspareunia (painful intercourse)</li>
+                        <li>Heavy menstrual bleeding</li>
+                        <li>Painful bowel movements/urination during period</li>
+                        <li>Infertility</li>
+                    </ul>
+                </div>
+                
+                <div class="category">
+                    <h3>🩺 Diagnosis</h3>
+                    <ul>
+                        <li>Clinical presentation & history</li>
+                        <li>Pelvic exam (tender nodules)</li>
+                        <li>Imaging: ultrasound, MRI</li>
+                        <li>Definitive: laparoscopy with biopsy</li>
+                        <li>Staging (I-IV based on severity)</li>
+                    </ul>
+                </div>
+                
+                <div class="category">
+                    <h3>💊 Treatment</h3>
+                    <ul>
+                        <li>NSAIDs for pain management</li>
+                        <li>Hormonal therapy: OCPs, progestins</li>
+                        <li>GnRH agonists (suppress estrogen)</li>
+                        <li>Surgical: laparoscopic excision/ablation</li>
+                        <li>Hysterectomy (severe cases)</li>
+                    </ul>
+                </div>
+                
+                <div class="category">
+                    <h3>⚠️ Complications</h3>
+                    <ul>
+                        <li>Infertility (30-50% of patients)</li>
+                        <li>Chronic pain syndrome</li>
+                        <li>Ovarian cysts (endometriomas)</li>
+                        <li>Bowel/bladder dysfunction</li>
+                        <li>Increased ovarian cancer risk</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="key-differences">
+            <h2>🎯 Key Differentiators</h2>
+            <div class="diff-grid">
+                <div class="diff-item">
+                    <h4>Primary Complaint</h4>
+                    <p><span class="pcos-text">PCOS:</span> Irregular periods, infertility, cosmetic concerns (hirsutism, acne)</p>
+                    <p><span class="endo-text">Endo:</span> Severe pelvic pain, especially with menses</p>
+                </div>
+                
+                <div class="diff-item">
+                    <h4>Pain Pattern</h4>
+                    <p><span class="pcos-text">PCOS:</span> Usually painless</p>
+                    <p><span class="endo-text">Endo:</span> Cyclical severe pain is hallmark</p>
+                </div>
+                
+                <div class="diff-item">
+                    <h4>Metabolic Issues</h4>
+                    <p><span class="pcos-text">PCOS:</span> Insulin resistance, weight gain, diabetes risk</p>
+                    <p><span class="endo-text">Endo:</span> No metabolic association</p>
+                </div>
+                
+                <div class="diff-item">
+                    <h4>Hormonal Pattern</h4>
+                    <p><span class="pcos-text">PCOS:</span> Elevated androgens (testosterone)</p>
+                    <p><span class="endo-text">Endo:</span> Normal hormone levels</p>
+                </div>
+                
+                <div class="diff-item">
+                    <h4>Diagnosis Method</h4>
+                    <p><span class="pcos-text">PCOS:</span> Clinical + labs + ultrasound</p>
+                    <p><span class="endo-text">Endo:</span> Gold standard = laparoscopy</p>
+                </div>
+                
+                <div class="diff-item">
+                    <h4>Age of Onset</h4>
+                    <p><span class="pcos-text">PCOS:</span> Often presents in adolescence/early 20s</p>
+                    <p><span class="endo-text">Endo:</span> Peak diagnosis 25-35 years</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

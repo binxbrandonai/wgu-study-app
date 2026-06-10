@@ -1,0 +1,245 @@
+{
+  "topic": {
+    "id": "d118-endo-thyroid",
+    "name": "Thyroid Disorders",
+    "system": "Endocrine",
+    "duration_min": 24,
+    "icon": "\ud83e\udd8b",
+    "color": "#f5b731",
+    "objectives": [
+      "Interpret thyroid function tests (TSH, T4, T3) patterns",
+      "Differentiate hyperthyroidism (Graves) from hypothyroidism (Hashimoto)",
+      "Manage hypothyroidism with levothyroxine titration",
+      "Recognize thyroid nodule workup and when to biopsy",
+      "Identify myxedema coma and thyroid storm \u2014 know when to refer"
+    ],
+    "lessons": [
+      {
+        "id": "thyroid-basics",
+        "title": "\ud83e\udd8b Thyroid 101: The Metabolic Master Switch",
+        "duration_min": 9,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Meet two patients. First: Linda, 45, exhausted, gained 20 lbs over 6 months, hair falling out, feels cold when everyone else is warm. Second: Rachel, 32, lost 15 lbs unintentionally, heart races, can't sleep, hands shake, always hot. Same organ \u2014 completely opposite problems. Thyroid disorders affect 20 million Americans (mostly women), and 60% don't know they have it. It's one of the easiest conditions to diagnose and treat \u2014 but you have to THINK of it first. Boards LOVE thyroid cases because the labs are so pattern-based.",
+            "visual_desc": "Side-by-side silhouettes: LEFT (hypothyroid): sluggish, overweight, cold, tired. RIGHT (hyperthyroid): hyperactive, thin, sweaty, tremulous. Butterfly-shaped thyroid gland in center."
+          },
+          {
+            "type": "definition",
+            "title": "Thyroid Physiology: The Hypothalamic-Pituitary-Thyroid Axis",
+            "content": "**The Feedback Loop** (understand this = understand every lab pattern!):\n\n**Hypothalamus** \u2192 releases **TRH** (thyrotropin-releasing hormone)\n       \u2193\n**Pituitary** \u2192 releases **TSH** (thyroid-stimulating hormone)\n       \u2193\n**Thyroid gland** \u2192 produces **T4** (thyroxine, inactive form) and **T3** (triiodothyronine, active form)\n       \u2193\n**T4 \u2192 T3 in tissues** (by deiodinase enzymes) \u2014 T3 is 3-4x more potent!\n       \u2193\n**Negative feedback**: High T4/T3 \u2192 suppresses TRH and TSH. Low T4/T3 \u2192 stimulates TRH and TSH.\n\n**The Golden Rule of Thyroid Testing**:\n\u2022 **TSH** is the **MOST sensitive test** \u2014 changes FIRST when thyroid is off\n\u2022 Normal TSH = euthyroid (normal thyroid function) 95% of the time\n\u2022 Abnormal TSH \u2192 check free T4 to determine: primary vs. secondary vs. subclinical\n\n**Thyroid Lab Patterns (BOARD GOLD)**:\n\n**Primary Hypothyroidism**: TSH \u2191, Free T4 \u2193\n\u2022 Problem is IN the thyroid gland (most common!)\n\n**Primary Hyperthyroidism**: TSH \u2193, Free T4 \u2191 (or T3 \u2191)\n\u2022 Problem is IN the thyroid gland (Graves, toxic nodule, thyroiditis)\n\n**Subclinical Hypothyroidism**: TSH \u2191, Free T4 NORMAL\n\u2022 Compensated \u2014 thyroid is working harder to maintain normal T4\n\n**Subclinical Hyperthyroidism**: TSH \u2193, Free T4 NORMAL\n\u2022 Mild excess T4 suppressing TSH\n\n**Secondary (Central) Hypothyroidism**: TSH \u2193 or INAPPROPRIATELY NORMAL, Free T4 \u2193\n\u2022 Problem is in PITUITARY or HYPOTHALAMUS (rare! brain tumor, Sheehan's)\n\n**Sick Euthyroid Syndrome**: TSH usually normal or slightly \u2193, T4/T3 low\n\u2022 Non-thyroidal illness \u2014 don't treat the labs, treat the underlying illness!",
+            "mnemonic": "**TSH tells the story**: TSH **H**igh \u2192 Thyroid is **L**ow (hypO). TSH **L**ow \u2192 Thyroid is **H**igh (hypER). **Same direction = primary problem in thyroid. Opposite direction = problem in pituitary.**",
+            "visual_desc": "Feedback loop diagram: Hypothalamus \u2192 TRH \u2192 Pituitary \u2192 TSH \u2192 Thyroid \u2192 T4/T3 \u2192 (negative feedback arrows) back to hypothalamus/pituitary"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Don't reflexively check T4 if TSH is normal** in a low-risk asymptomatic patient! TSH is the screening test \u2014 if it's normal (0.5-4.5 mIU/L), the patient is almost certainly euthyroid. Only check T4 if TSH is abnormal. Exception: if you suspect pituitary disease (TSH won't reflect true thyroid status)."
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "TSH direction tells the diagnosis",
+            "mnemonic": "**TSH tells the story**: TSH **H**igh \u2192 Thyroid is **L**ow (hypO). TSH **L**ow \u2192 Thyroid is **H**igh (hypER). **Same direction = primary problem in thyroid. Opposite direction = problem in pituitary.**"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "TSH is markedly elevated (12 mIU/L) and free T4 is low. What's the diagnosis?",
+            "a": [
+              "Primary hyperthyroidism",
+              "Primary hypothyroidism",
+              "Subclinical hypothyroidism",
+              "Secondary hypothyroidism"
+            ],
+            "correct": 1,
+            "explanation": "**TSH high + T4 low = Primary hypothyroidism**. The thyroid isn't making enough T4, so pituitary cranks up TSH to compensate."
+          },
+          {
+            "q": "TSH is low (0.1 mIU/L) with normal free T4. What's the diagnosis?",
+            "a": [
+              "Primary hyperthyroidism",
+              "Subclinical hyperthyroidism",
+              "Subclinical hypothyroidism",
+              "Euthyroid sick syndrome"
+            ],
+            "correct": 1,
+            "explanation": "**TSH low + normal T4 = Subclinical hyperthyroidism**. T4 is still normal but TSH is suppressed \u2014 early/mild hyperthyroidism. Often seen with small toxic nodules or early Graves."
+          }
+        ]
+      },
+      {
+        "id": "hypothyroidism",
+        "title": "\ud83e\udd76 Hypothyroidism: When the Thyroid Slows Down",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "The Exhausted Patient",
+            "content": "Linda is back. She's 45, BMI 32, always tired. Her skin is dry, hair thinning, nails brittle. She's constipated, feels cold all the time, and her periods are heavier. She says 'my brain is in a fog.' Physical exam: delayed deep tendon reflexes (hung-up reflex), mild periorbital puffiness, goiter (diffuse, firm). TSH = 18.9 mIU/L. Free T4 = 0.4 ng/dL. Classic primary hypothyroidism from Hashimoto thyroiditis \u2014 the most common cause in the US.",
+            "visual_desc": "Clinical signs of hypothyroidism: periorbital puffiness, thinning lateral eyebrows (Queen Anne sign), dry skin, goiter, hung-up DTR (delayed relaxation phase)"
+          },
+          {
+            "type": "definition",
+            "title": "Hypothyroidism: Causes, Symptoms, Diagnosis",
+            "content": "**Primary Hypothyroidism** (95% of cases):\n\n**Most Common Causes**:\n1. **Hashimoto thyroiditis** (autoimmune) \u2014 #1 cause in US\n   \u2022 Anti-TPO antibodies + Anti-thyroglobulin antibodies\n   \u2022 Often has goiter (but can be atrophic late-stage)\n   \u2022 Associated with other autoimmune diseases (T1DM, celiac, pernicious anemia, Addison's)\n2. **Iatrogenic** \u2014 post-thyroidectomy, radioactive iodine ablation, radiation, meds (lithium, amiodarone, interferon)\n3. **Iodine deficiency** \u2014 #1 cause worldwide (not in US due to iodized salt)\n4. **Postpartum thyroiditis** \u2014 transient hypothyroidism 3-6 months after delivery\n5. **Subacute (de Quervain) thyroiditis** \u2014 Post-viral, painful thyroid, transient course\n\n**Classic Symptoms** (the 'low metabolism' picture):\n\u2022 **Fatigue**, weakness, lethargy\n\u2022 **Weight gain** despite decreased appetite\n\u2022 **Cold intolerance**\n\u2022 **Constipation**\n\u2022 **Dry skin**, brittle nails, **hair loss**\n\u2022 **Heavy menstrual bleeding** (menorrhagia)\n\u2022 **Brain fog**, slow thinking, depression\n\u2022 **Hoarse voice**, puffy face (myxedema)\n\u2022 **Myalgias**, arthralgias, carpal tunnel syndrome\n\n**Physical Exam Findings**:\n\u2022 **Delayed DTR relaxation** (hung-up reflex \u2014 most specific!)\n\u2022 **Periorbital puffiness**\n\u2022 **Goiter** (diffuse, firm, rubbery in Hashimoto)\n\u2022 **Bradycardia**\n\u2022 **Dry, cool skin**\n\u2022 **Non-pitting edema** (myxedema)\n\n**Diagnosis**:\n\u2022 **TSH** \u2014 elevated (first sign \u2014 gets high before T4 drops)\n\u2022 **Free T4** \u2014 low (confirms overt disease)\n\u2022 **Anti-TPO antibodies** \u2014 positive in Hashimoto (NOT needed for diagnosis but confirms autoimmune cause)\n\u2022 **No need for T3** (body converts T4 \u2192 T3; T3 is normal or low, not helpful for diagnosis)",
+            "mnemonic": "**HypO = SLOOW**: **S**kin dry, **L**ethargy, **O**bese (weight gain), **O**ligomenorrhea \u2192 menorrhagia, **W**eak hair/nails",
+            "visual_desc": "Metabolic slowdown meter: All body systems slowed \u2014 brain (brain fog), heart (bradycardia), gut (constipation), skin (dry), metabolism (weight gain), reflexes (hung-up)"
+          },
+          {
+            "type": "medication_guide",
+            "title": "Levothyroxine: The Replacement Protocol",
+            "content": "**Levothyroxine (LT4)** = Treatment for hypothyroidism. **Synthetic T4** \u2014 body converts it to active T3.\n\n**Starting Dose**:\n\u2022 **Healthy adults <50, no CVD**: Start at **1.6 mcg/kg/day** (full replacement)\n  \u2192 75-100 mcg daily for most women\n  \u2192 100-150 mcg daily for most men\n\u2022 **Age >50 or known CAD**: Start **LOW** \u2014 25-50 mcg daily (titrate up every 4-6 weeks)\n\u2022 **Mild hypothyroidism/TSH <10**: Start 25-50 mcg daily\n\n**Administration** (crucial!):\n\u23f0 Take on **empty stomach** with water ONLY\n\u23f0 **Wait 30-60 minutes** before eating or drinking anything but water\n\u23f0 **4-hour separation** from: calcium, iron, magnesium, fiber supplements\n\u23f0 **4-hour separation** from: estrogen, antacids, sucralfate, orlistat, sevelamer\n\u23f0 Take at **same time every day** (consistency!)\n\n**Titration**:\n\u2022 Adjust by **12.5-25 mcg** increments every **4-6 weeks**\n\u2022 Target: TSH **0.5-2.5 mIU/L** (optimal = lower half of normal range)\n\u2022 Recheck TSH **6-8 weeks after each dose change**\n\u2022 Once stable \u2192 recheck TSH q6-12 months\n\n**Pregnancy** (critical!):\n\u2022 Pregnancy \u2192 **increase dose by 30-50%** (total T4 needs increase!)\n\u2022 Check TSH as soon as pregnancy confirmed, then q4 weeks\n\u2022 Goal TSH: <2.5 in first trimester, <3.0 in second/third\n\n**When TSH doesn't normalize**:\n1. **Non-adherence** (#1 cause! \u2014 'I forget' or skip doses)\n2. **Incorrect administration** (food, calcium, iron too close)\n3. **Dose too low** (under-replacement)\n4. **Malabsorption** (celiac, IBD, gastric bypass)\n5. **Drug interactions** (estrogen, phenytoin, rifampin)\n6. **Progressive disease** (worsening Hashimoto)\n7. **Weight gain** (need higher dose per kg)",
+            "mnemonic": "**Levothyroxine rules = 30-4-4**: **30** min before food, **4** hours from calcium/iron, **4**-6 week titration intervals",
+            "visual_desc": "Timeline: Wake up \u2192 Take levothyroxine with water only \u2192 Wait 30 min \u2192 Eat breakfast \u2192 Wait 4 hours \u2192 Take calcium/iron supplements"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Myxedema Coma** = severe decompensated hypothyroidism \u2014 MEDICAL EMERGENCY! Presents with: altered mental status, hypothermia (temp can be 85-90\u00b0F!), bradycardia, hypotension, hypoglycemia, hyponatremia. Triggered by: infection, cold, MI, sedation, stopping levothyroxine. **Treatment**: IV levothyroxine load (200-400 mcg IV) + stress-dose hydrocortisone (100 mg IV q8h) \u2014 because hypothyroidism can mask adrenal insufficiency, and giving T4 alone can precipitate adrenal crisis!"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "Hypothyroidism symptoms",
+            "mnemonic": "**HypO = SLOOW**: **S**kin dry, **L**ethargy, **O**bese (weight gain), **O**ligomenorrhea \u2192 menorrhagia, **W**eak hair/nails"
+          },
+          {
+            "trigger": "Levothyroxine timing rules",
+            "mnemonic": "**Levothyroxine rules = 30-4-4**: **30** min before food, **4** hours from calcium/iron, **4**-6 week titration intervals"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "55-year-old woman with hypothyroidism, starting levothyroxine. No known CAD. Best starting dose?",
+            "a": [
+              "12.5 mcg daily",
+              "25 mcg daily",
+              "75-100 mcg daily",
+              "200 mcg daily"
+            ],
+            "correct": 2,
+            "explanation": "For healthy adults <50 without CVD, start at **full replacement** (~1.6 mcg/kg). For most women, that's 75-100 mcg daily. But for age >50, start lower (25-50 mcg). Since she's 55 (over 50), start lower at 25-50 mcg."
+          },
+          {
+            "q": "Patient on levothyroxine 100 mcg daily, TSH still 5.8. She takes it with breakfast. What's the most likely cause?",
+            "a": [
+              "Wrong diagnosis",
+              "Incorrect administration (with food instead of empty stomach)",
+              "Bad lab",
+              "Need to switch to liothyronine"
+            ],
+            "correct": 1,
+            "explanation": "Taking levothyroxine **with food** dramatically reduces absorption. Must take on empty stomach with water, wait 30-60 min before eating. This is the #1 cause of 'refractory' hypothyroidism!"
+          },
+          {
+            "q": "Which medication can cause hypothyroidism?",
+            "a": [
+              "Metformin",
+              "Amiodarone",
+              "Lisinopril",
+              "Atorvastatin"
+            ],
+            "correct": 1,
+            "explanation": "**Amiodarone** (antiarrhythmic, iodine-rich) can cause both hypo- and hyperthyroidism due to its iodine content. Monitor TSH before and q3-6 months on therapy!"
+          }
+        ]
+      },
+      {
+        "id": "hyperthyroidism",
+        "title": "\ud83d\udd25 Hyperthyroidism: When the Thyroid is in Overdrive",
+        "duration_min": 7,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "The Wired Patient",
+            "content": "Rachel, 32, comes in saying she can't stop losing weight. She's eating more but still dropping pounds. Her heart races, she feels anxious and jittery, and she's been sleeping 4 hours a night. She's always sweating. On exam: fine tremor, warm moist skin, tachycardia (HR 112), lid lag, and a diffuse goiter with a bruit. TSH = <0.01. Free T4 = 3.8 (high). This is classic **Graves disease** \u2014 the most common cause of hyperthyroidism.",
+            "visual_desc": "Clinical signs: exophthalmos (bulging eyes), lid retraction, diffuse goiter, tachycardia, tremor, warm flushed skin"
+          },
+          {
+            "type": "definition",
+            "title": "Hyperthyroidism: Causes, Symptoms, Diagnosis",
+            "content": "**Hyperthyroidism**: Excess thyroid hormone \u2192 hypermetabolic state.\n\n**Most Common Causes**:\n\n**1. Graves Disease** (60-80% of hyperthyroidism in US)\n\u2022 **Autoimmune** \u2014 TSH receptor antibodies (TRAb) stimulate thyroid\n\u2022 **F > M** (5:1), age 20-40\n\u2022 **Triad**: Hyperthyroidism + **Goiter** (diffuse, bruit!) + **Ophthalmopathy**\n  \u2192 Ophthalmopathy: exophthalmos, lid lag, lid retraction, periorbital edema\n  \u2192 Can cause: proptosis, diplopia, optic nerve compression (urgent!)\n\u2022 Pathognomonic: **Pretibial myxedema** (localized dermopathy)\n\n**2. Toxic Multinodular Goiter (Plummer Disease)**\n\u2022 Older patients (>60)\n\u2022 Nodules autonomously produce T4\n\u2022 NO ophthalmopathy (key difference from Graves!)\n\u2022 More subtle symptoms (often just afib and weight loss in elderly)\n\n**3. Thyroiditis** (transient hyperthyroidism \u2014 don't treat with ablation!)\n\u2022 **Subacute (de Quervain)**: Post-viral, **painful** thyroid + fever, elevated ESR\n\u2022 **Silent thyroiditis**: Painless, postpartum, lymphocytic\n\u2022 **Phase 1**: Thyrotoxicosis (stored T4 leaks out) \u2192 **Phase 2**: Hypothyroidism \u2192 **Phase 3**: Return to normal\n\n**4. Iatrogenic**: Taking too much levothyroxine (factitious thyrotoxicosis)\n\u2022 Low TSH, LOW thyroglobulin (vs. high in endogenous causes!)\n\n**Classic Symptoms** (the 'high metabolism' picture):\n\u2022 **Weight loss** despite increased appetite\n\u2022 **Heat intolerance**, excessive sweating\n\u2022 **Palpitations**, tachycardia, atrial fibrillation\n\u2022 **Tremor** (fine, outstretched hands)\n\u2022 **Anxiety**, irritability, insomnia\n\u2022 **Frequent bowel movements**\n\u2022 **Oligomenorrhea** (light/absent periods)\n\u2022 **Fatigue** (ironically! they're exhausted from being in overdrive)\n\u2022 **Proximal muscle weakness** (difficulty climbing stairs)\n\n**Physical Exam**:\n\u2022 **Tachycardia**, AFib, **high pulse pressure** (wide gap between SBP and DBP)\n\u2022 **Warm, moist skin**\n\u2022 **Fine tremor**\n\u2022 **Lid lag** (upper lid lags when looking down \u2014 von Graefe sign)\n\u2022 **Goiter** (diffuse in Graves, nodular in toxic multinodular)\n\u2022 **Bruit** over thyroid (increased blood flow in Graves)\n\u2022 **Hyperreflexia**\n\n**Diagnosis**:\n\u2022 **TSH**: SUPPRESSED (<0.01-0.4)\n\u2022 **Free T4**: Elevated (usually)\n\u2022 **Free T3**: May be elevated even when T4 is normal (T3 toxicosis)\n\u2022 **RAIU scan**: High uptake in Graves (diffuse), patchy in multinodular, low in thyroiditis\n\u2022 **TRAb**: Positive in Graves\n\u2022 **Thyroid ultrasound**: For nodule evaluation if indicated",
+            "mnemonic": "**HypER = FAST**: **F**requent stools, **A**nxiety, **S**weating, **T**remor/tachycardia. **Mnemonic for Graves = GRR**: **G**oiter + **R**AIU high + **R**eceptor antibodies (TRAb)",
+            "visual_desc": "Metabolic speedometer: All systems revved \u2014 heart (tachycardia/AFib), brain (anxiety/insomnia), gut (diarrhea), skin (sweating), eyes (exophthalmos), weight (loss)"
+          },
+          {
+            "type": "protocol",
+            "title": "Hyperthyroidism Treatment: Three Options",
+            "content": "**Three treatment options** \u2014 choice depends on age, severity, cause, pregnancy status:\n\n**1\ufe0f\u20e3 Antithyroid Drugs** (first-line for most young patients)\n\n**Methimazole** (Tapazole) \u2014 PREFERRED (less toxicity)\n\u2022 **Dosing**: Start 10-30 mg once daily, titrate to T4 normal (2-4 weeks)\n\u2022 **Side effects**: Rash, arthralgia, cholestasis (rare), agranulocytosis (0.3-0.5%)\n\u2022 **WARNING**: Agranulocytosis \u2014 give handout! If fever/sore throat \u2192 STOP, check CBC\n\n**Propylthiouracil (PTU)** \u2014 SECOND-LINE (more toxic)\n\u2022 Reserved for: **First trimester of pregnancy** (methimazole is teratogenic)\n\u2022 Also for: Thyroid storm (blocks T4\u2192T3 conversion)\n\u2022 **Side effects**: Hepatotoxicity (black box warning!), agranulocytosis, ANCA vasculitis\n\n**2\ufe0f\u20e3 Radioactive Iodine (RAI)** \u2014 definitive treatment\n\u2022 Indications: Recurrent hyperthyroidism, toxic nodule, older patients\n\u2022 Contraindicated in: Pregnancy, breastfeeding, severe ophthalmopathy (can worsen!)\n\u2022 After RAI: **95% become hypothyroid** (need lifetime levothyroxine)\n\n**3\ufe0f\u20e3 Thyroidectomy (Surgery)**\n\u2022 Indications: Large goiter with compressive symptoms, suspicious nodules, pregnancy (2nd trimester), failed RAI, patient preference\n\u2022 Must pretreat with methimazole + **SSKI** (Lugol's iodine) for 7-10 days pre-op to \u2193 vascularity\n\u2022 Risk: Recurrent laryngeal nerve damage, hypoparathyroidism, scar\n\n**Before starting ANY treatment**:\n\u2022 **Beta blocker** (propranolol 20-40 mg q6h, or atenolol) for symptom control\n  \u2192 Reduces HR, tremor, anxiety within hours\n  \u2192 Continue until T4/T3 normalize\n\n**Thyroid Storm** (life-threatening!):\n\u2022 Suspect when: Fever >102\u00b0F, HR >140, altered mental status, GI symptoms\n\u2022 **Treatment**:\n  \u2192 **Beta blocker** (propranolol IV or high-dose oral) \u2014 FIRST!\n  \u2192 **PTU** 500-1000 mg load (blocks new hormone synthesis + T4\u2192T3 conversion)\n  \u2192 **SSKI** 5 drops q6h 1 hour after PTU (blocks release)\n  \u2192 **Hydrocortisone** 100 mg IV q8h (supports adrenal function)\n  \u2192 **Cooling**, **fluids**, **treat precipitating cause** (infection!)",
+            "mnemonic": "**Thyroid Storm Treatment = BASH**: **B**eta blocker (propranolol), **A**ntithyroid drug (PTU), **S**aturated **K**I (SSKI/Lugol's), **H**ydrocortisone",
+            "visual_desc": "Treatment decision tree: Young/want pregnancy \u2192 methimazole. Need definitive \u2192 RAI. Large goiter/compression \u2192 surgery. All start with beta blocker for symptom control."
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Amiodarone-induced thyrotoxicosis (AIT)** \u2014 two types: **Type 1** (iodine excess in pre-existing Graves/nodule) \u2192 treat with methimazole. **Type 2** (destructive thyroiditis) \u2192 treat with corticosteroids. This is high-yield for boards! And a clinical challenge because amiodarone patients often have heart disease \u2014 hyperthyroidism worsens their arrhythmias."
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "Hyperthyroidism symptoms",
+            "mnemonic": "**HypER = FAST**: **F**requent stools, **A**nxiety, **S**weating, **T**remor/tachycardia"
+          },
+          {
+            "trigger": "Thyroid storm treatment",
+            "mnemonic": "**Thyroid Storm Treatment = BASH**: **B**eta blocker (propranolol), **A**ntithyroid drug (PTU), **S**aturated **K**I (SSKI/Lugol's), **H**ydrocortisone"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "32-year-old woman with hyperthyroidism, diffuse goiter with bruit, and exophthalmos. Most likely diagnosis?",
+            "a": [
+              "Toxic multinodular goiter",
+              "Subacute thyroiditis",
+              "Graves disease",
+              "Factitious thyrotoxicosis"
+            ],
+            "correct": 2,
+            "explanation": "Hyperthyroidism + **diffuse goiter with bruit + ophthalmopathy (exophthalmos)** = classic **Graves disease**. Toxic multinodular goiter and thyroiditis don't have eye findings."
+          },
+          {
+            "q": "Which antithyroid drug should be used in the FIRST TRIMESTER of pregnancy?",
+            "a": [
+              "Methimazole",
+              "Propylthiouracil (PTU)",
+              "Both are safe",
+              "Neither \u2014 use RAI instead"
+            ],
+            "correct": 1,
+            "explanation": "**PTU** is preferred in the first trimester because methimazole is teratogenic (aplasia cutis, choanal atresia). Switch back to methimazole in 2nd/3rd trimester (PTU causes hepatotoxicity)."
+          },
+          {
+            "q": "Patient with hyperthyroidism has fever 103\u00b0F, HR 150, confusion. Next step?",
+            "a": [
+              "Start methimazole only",
+              "Give propranolol + PTU + SSKI + hydrocortisone",
+              "Order RAI ablation",
+              "Refer for thyroidectomy"
+            ],
+            "correct": 1,
+            "explanation": "This is **thyroid storm** (fever + tachycardia + AMS). **BASH** protocol: Beta blocker FIRST (propranolol), Antithyroid drug (PTU), Saturated KI (SSKI), Hydrocortisone. This is a medical emergency!"
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Ninja Nerd",
+        "title": "Hypothyroidism | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=hLNXJWLsjAE",
+        "duration": "52 min"
+      },
+      {
+        "source": "Ninja Nerd",
+        "title": "Hyperthyroidism | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=epWJ2v5qy5E",
+        "duration": "55 min"
+      },
+      {
+        "source": "Osmosis",
+        "title": "Hypothyroidism \u2014 Pathology Review",
+        "url": "https://www.youtube.com/watch?v=iiGszR7luHY",
+        "duration": "10 min"
+      }
+    ]
+  }
+}

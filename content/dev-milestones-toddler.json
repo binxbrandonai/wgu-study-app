@@ -1,0 +1,98 @@
+{
+  "topic": {
+    "id": "dev-milestones-toddler",
+    "name": "Developmental Milestones: Toddlers (1-3 years)",
+    "system": "Pediatrics",
+    "duration_min": 15,
+    "icon": "\ud83e\uddd2",
+    "color": "#38bdf8",
+    "category": "Developmental Milestones",
+    "objectives": [],
+    "lessons": [
+      {
+        "id": "dev-milestones-toddler-section",
+        "title": "Developmental Milestones: Toddlers (1-3 years)",
+        "duration_min": 15,
+        "content_chunks": [
+          {
+            "concept": "Gross Motor: From Walking to Running",
+            "visual_description": "Watch Marcus gain independence through movement",
+            "details": [
+              "**12-15 months**: Walks independently (average 13 months), stoops and recovers",
+              "**18 months**: Runs stiffly, walks up stairs with hand held",
+              "**24 months**: Jumps in place, kicks ball forward, goes up/down stairs holding rail",
+              "**30 months**: Rides tricycle using pedals, alternates feet going upstairs",
+              "**36 months**: Stands on one foot briefly, goes upstairs alternating feet"
+            ],
+            "mnemonic": "**WALK-RUN-JUMP-PEDAL** = 12mo-18mo-24mo-30mo progression"
+          },
+          {
+            "concept": "Fine Motor: Mastering Hands",
+            "visual_description": "See Marcus's hands become precision tools",
+            "details": [
+              "**15 months**: Scribbles spontaneously, stacks 2 blocks",
+              "**18 months**: Removes clothing, dumps objects from container",
+              "**24 months**: Stacks 6-7 blocks, turns pages singly, vertical/horizontal strokes",
+              "**30 months**: Holds crayon with fingers (not fist), copies circle",
+              "**36 months**: Builds tower of 9 blocks, copies cross (+), unbuttons buttons"
+            ],
+            "clinical_pearl": "\ud83c\udfa8 Drawing progression: 2yo = vertical line, 3yo = circle, 4yo = cross (+), 5yo = square"
+          },
+          {
+            "concept": "Language Explosion",
+            "visual_description": "Hear Marcus's vocabulary explode from words to sentences",
+            "details": [
+              "**12-13 months**: 2-6 words, follows 1-step commands",
+              "**18 months**: 10-25 words, points to body parts, names pictures",
+              "**20-24 months**: 50+ words, 2-word phrases ('want cookie'), 50% intelligible",
+              "**30 months**: 3-word sentences, uses 'I/me/you', 75% intelligible",
+              "**36 months**: Speaks in complete sentences, 100% intelligible to strangers, tells stories"
+            ],
+            "mnemonic": "**50-3-100 Rule**: 50 words by 2yo, 3-word sentences by 2.5yo, 100% intelligible by 3yo"
+          },
+          {
+            "concept": "Social/Emotional: The Autonomy Battle",
+            "visual_description": "Experience the emotional rollercoaster of toddlerhood",
+            "details": [
+              "**15 months**: Parallel play (plays alongside, not with peers)",
+              "**18 months**: Imitates housework, tantrums begin, says 'no' frequently",
+              "**24 months**: Peak tantrums (every parent's favorite!), beginning symbolic play",
+              "**30 months**: Refers to self by name, beginning imaginary play",
+              "**36 months**: Cooperative play begins, takes turns, shows empathy"
+            ],
+            "clinical_pearl": "\ud83d\udca1 Tantrums are NORMAL 1-3 years. They're learning emotional regulation. RED FLAG: Tantrums causing self-injury or lasting >15 minutes most days"
+          }
+        ],
+        "story_intro": {
+          "text": "Two-year-old Marcus runs into the exam room, shouting 'NO!' when asked to sit down. His exhausted dad sighs, 'Is this normal?' Welcome to the 'terrible twos' - where independence, tantrums, and rapid learning collide. Let's decode toddler development.",
+          "visual_cue": "\ud83c\udfc3\u200d\u2642\ufe0f Picture Marcus: walking, running, climbing everything, saying 'mine!', and having a meltdown over the wrong color cup."
+        },
+        "quick_checks": [],
+        "mnemonics": [],
+        "clinical_pearls": [
+          "**Toilet Training Readiness** (usually 24-36 months): Stays dry 2+ hours, shows interest, can follow 2-step commands, walks to bathroom. Average: 24-36 months start, mastery by 4 years.",
+          "**Sleep Needs**: 1-2 yo need 11-14 hours total (including naps). 2-3 yo: 10-13 hours. Naps typically drop by age 3-5.",
+          "**Nutrition**: Toddlers eat like birds! Erratic appetite is normal. Offer 3 meals + 2 snacks. Whole milk until age 2, then switch to 2%/1%.",
+          "**Stranger Danger**: Should diminish by 2-3 years. Persistent severe stranger anxiety may indicate anxiety disorder.",
+          "**'No' Phase**: 18-24 months - they're testing boundaries and asserting independence. Offer choices ('red cup or blue cup?') to reduce power struggles."
+        ],
+        "red_flags": [
+          "\u274c **By 15 months**: Not walking independently (95% walk by 15 months)",
+          "\u274c **By 18 months**: <10 words, doesn't point to show interest",
+          "\u274c **By 24 months**: <50 words, no 2-word phrases, not imitating",
+          "\u274c **By 30 months**: Speech <75% intelligible to parents",
+          "\u274c **By 36 months**: Not toilet trained (daytime), no pretend play, speech unintelligible",
+          "\u26a0\ufe0f **Autism red flags**: No pointing by 18mo, no pretend play by 24mo, regression at any age"
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Ninja Nerd",
+        "title": "Developmental Milestones by Age",
+        "url": "https://www.youtube.com/watch?v=Yt2W7JXOVtY",
+        "duration": "15 min"
+      }
+    ]
+  }
+}

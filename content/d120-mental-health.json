@@ -1,0 +1,209 @@
+{
+  "topic": {
+    "id": "d120-mental-health",
+    "name": "Mental Health: Depression, Anxiety & Bipolar",
+    "system": "Special Populations",
+    "duration_min": 25,
+    "icon": "\ud83e\udde0",
+    "color": "#a78bfa",
+    "objectives": [
+      "Screen for depression using PHQ-9 and PHQ-2, and stratify severity for treatment decisions",
+      "Differentiate generalized anxiety disorder from panic disorder and choose appropriate treatment",
+      "Recognize bipolar disorder and avoid antidepressant monotherapy that may trigger mania",
+      "Apply evidence-based screening tools (GAD-7, MDQ, C-SSRS) in primary care settings"
+    ],
+    "lessons": [
+      {
+        "id": "mental-health-depression",
+        "title": "\ud83d\udc94 Depression: Screening, Diagnosis, & First-Line Treatment",
+        "duration_min": 9,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "David, 45, successful contractor, says he's 'just tired.' He sleeps 10 hours but wakes up exhausted. He's lost interest in fishing, his marriage is strained, and he's been drinking more. He says, 'I just need a physical \u2014 something must be wrong with my thyroid.' His PHQ-9 score is 18 (severe depression). He's one of the 1 in 5 adults who will experience depression. Half of all depression is missed in primary care \u2014 where it's MOST often treated. You'll manage more depression than any other mental health condition.",
+            "visual_desc": "PHQ-9 chart showing severity spectrum from minimal to severe with treatment escalation at each level"
+          },
+          {
+            "type": "definition",
+            "title": "Major Depressive Disorder: Diagnosis & Screening",
+            "content": "**DSM-5 Criteria** (need \u22655 symptoms in SAME 2-week period, with at least one being depressed mood or anhedonia):\n\n**SIGECAPS** mnemonic:\n\u2022 **S**leep changes (insomnia or hypersomnia)\n\u2022 **I**nterest loss / anhedonia\n\u2022 **G**uilt / worthlessness\n\u2022 **E**nergy loss / fatigue\n\u2022 **C**oncentration difficulty\n\u2022 **A**ppetite changes (increase or decrease)\n\u2022 **P**sychomotor changes (agitation or retardation)\n\u2022 **S**uicidal thoughts\n\n**PHQ-2** (Ultra-brief screening \u2014 positive if \u22653):\n\"Over the past 2 weeks, how often have you been bothered by:\"\n1. Little interest or pleasure in doing things?\n2. Feeling down, depressed, or hopeless?\n\n**If PHQ-2 positive \u2192 administer PHQ-9**:\n\u2022 **0-4**: None/minimal \u2014 no treatment needed\n\u2022 **5-9**: Mild \u2014 watchful waiting, therapy, or lifestyle\n\u2022 **10-14**: Moderate \u2014 medication or therapy (or both)\n\u2022 **15-19**: Moderately severe \u2014 medication + therapy\n\u2022 **20-27**: Severe \u2014 medication + therapy, consider psychiatry referral\n\n**Question #9 on PHQ-9**: \"Thoughts that you'd be better off dead or hurting yourself\" \u2192 any score >0 requires suicide risk assessment\n\n**Differential**: Hypothyroidism, B12 deficiency, OSA, autoimmune disease, medication side effects (beta-blockers, steroids, isotretinoin)",
+            "mnemonic": "**SIGECAPS** for depression diagnosis: **S**leep, **I**nterest, **G**uilt, **E**nergy, **C**oncentration, **A**ppetite, **P**sychomotor, **S**uicidal",
+            "visual_desc": "PHQ-9 scoring scale visual with color bands: green (mild), yellow (moderate), orange (mod-severe), red (severe)"
+          },
+          {
+            "type": "protocol",
+            "title": "Pharmacotherapy: SSRIs First-Line",
+            "content": "**SSRIs** are FIRST-LINE for MDD. All equally efficacious \u2014 choose by side effect profile.\n\n| Drug | Starting Dose | Target Dose | Key Points |\n|---|---|---|---|\n| **Escitalopram (Lexapro)** | 5-10mg | 10-20mg | Best tolerated, fewest drug interactions, best for first episode |\n| **Sertraline (Zoloft)** | 25-50mg | 50-200mg | Good for comorbid anxiety, safe in pregnancy |\n| **Fluoxetine (Prozac)** | 10-20mg | 20-80mg | Long half-life (good for adherence, bad if side effects), activating \u2014 take AM |\n| **Paroxetine (Paxil)** | 10-20mg | 20-50mg | Most anticholinergic, weight gain, withdrawal \u2014 avoid first-line |\n| **Citalopram (Celexa)** | 10-20mg | 20-40mg | Max 40mg (QT prolongation risk above 40mg) |\n\n**Treatment Principles**:\n\u2022 **Start low, go slow** \u2014 especially in elderly\n\u2022 **Therapeutic response takes 4-8 weeks** \u2014 manage expectations!\n\u2022 **Side effects often start before benefit** \u2014 GI upset, headache, anxiety first 1-2 weeks (usually resolve)\n\u2022 **Duration**: Continue 6-12 months after remission, then consider taper\n\u2022 **If no response after 8 weeks at therapeutic dose**: Switch to different SSRI or SNRI\n\u2022 **If partial response after 8 weeks**: Consider augmentation (bupropion, mirtazapine, aripiprazole)\n\n**Refer to psychiatry IF**:\n\u2022 Treatment-resistant (2+ failed trials)\n\u2022 Psychotic features\n\u2022 Bipolar depression (or strong suspicion)\n\u2022 Severe suicidal ideation\n\u2022 Catatonia\n\u2022 Need for ECT",
+            "visual_desc": "Algorithm: PHQ-9 score \u2192 Severity level \u2192 Treatment (medication type, dose, therapy referral) \u2192 Follow-up in 2-4 weeks"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **SSRI 'activation syndrome'** \u2014 especially in young adults (age <25): Fluoxetine can cause agitation, anxiety, insomnia in the first 2 weeks. Warn patients. Also: **Bupropion (Wellbutrin) is NOT for anxiety** \u2014 it's activating, can worsen anxiety, and is **contraindicated in eating disorders/seizure disorders**. And **NEVER start antidepressant monotherapy if you suspect bipolar** \u2014 can trigger mania/hypomania (screen with MDQ first!)."
+          },
+          {
+            "type": "checklist",
+            "title": "Follow-Up Monitoring",
+            "content": "\u2705 **2-4 weeks after starting**: Recheck PHQ-9, assess side effects, check adherence, brief suicide screen\n\u2705 **6-8 weeks**: Reassess for response (goal: \u226550% reduction in PHQ-9)\n\u2705 **If improving**: Continue current dose, follow monthly\n\u2705 **If not improving**: Check adherence, increase dose if tolerated, consider switching\n\u2705 **At remission**: Continue meds 6-12 months, discuss relapse prevention\n\u2705 **Labs before starting**: None required unless specific concerns (TSH, B12 if fatigue prominent; ECG if citalopram or elderly)",
+            "visual_desc": "Calendar/follow-up timeline showing expected milestones: 2wk, 4wk, 8wk, 6mo, 12mo markers"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A 32-year-old has a PHQ-9 score of 22 with suicidal ideation (score 2 on question 9). What is the NEXT step?",
+            "answers": [
+              "Start SSRI and schedule follow-up in 4 weeks",
+              "Refer to therapy only",
+              "Assess suicide risk (plan, means, intent), discuss safety plan, involve supports, consider emergency referral",
+              "Increase to maximum SSRI dose immediately"
+            ],
+            "correct": 2,
+            "explanation": "Any score >0 on PHQ-9 question 9 requires immediate suicide risk assessment. Score of 22 = severe depression. Safety first before treatment plan."
+          },
+          {
+            "q": "Which SSRI has the BEST side effect profile and is often preferred for first-episode depression?",
+            "answers": [
+              "Fluoxetine",
+              "Paroxetine",
+              "Escitalopram",
+              "Sertraline"
+            ],
+            "correct": 2,
+            "explanation": "Escitalopram (Lexapro) has the best tolerability, fewest drug interactions, and is well-studied. Paroxetine has the worst side effect profile."
+          }
+        ]
+      },
+      {
+        "id": "mental-health-anxiety",
+        "title": "\ud83d\udea8 Anxiety: GAD, Panic Disorder & Treatment",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Priya, 28, has been to the ER 4 times in 3 months. 'I think I'm having a heart attack,' she says each time. Her heart races, she can't breathe, she feels like she's dying. All workups \u2014 normal. She's terrified something is being missed. She's avoiding driving, exercise, and social events 'just in case.' This is panic disorder with agoraphobia. She's suffering \u2014 and costing the healthcare system thousands. Appropriate diagnosis and treatment changes everything.",
+            "visual_desc": "Illustration of panic attack sensations: pounding heart, chest tightness, sweating, shortness of breath, dizziness, with 'I'm dying' thought bubble"
+          },
+          {
+            "type": "definition",
+            "title": "GAD vs. Panic Disorder vs. Social Anxiety",
+            "content": "**Generalized Anxiety Disorder (GAD)**:\n\u2022 Excessive, uncontrollable worry about MULTIPLE domains (work, health, family, finances) for \u22656 months\n\u2022 Associated with: Restlessness, fatigue, irritability, muscle tension, sleep disturbance, poor concentration\n\u2022 **GAD-7 Score**: \u226510 = moderate, \u226515 = severe\n\u2022 **Differential**: Hyperthyroidism, caffeine, stimulants, OSA, medication side effects\n\n**Panic Disorder**:\n\u2022 Recurrent, UNEXPECTED panic attacks + fear of having another (or consequences of attacks)\n\u2022 **Panic Attack** (sudden onset, peaks in 10 min, \u22654 of):\n  - Palpitations, sweating, trembling, SOB, choking sensation, chest pain, nausea, dizziness, depersonalization, fear of losing control or dying, paresthesias, chills/hot flashes\n\u2022 Often leads to **agoraphobia** \u2014 avoidance of places/situations where escape might be difficult\n\n**Social Anxiety Disorder**:\n\u2022 Marked fear of social situations where scrutiny may occur\n\u2022 Fear of showing anxiety symptoms (blushing, trembling, sweating)\n\u2022 Leads to avoidance of social interactions\n\n**GAD-7 Screening**:\n\"Over the past 2 weeks, how often have you been bothered by:\"\n0 = Not at all, 1 = Several days, 2 = More than half the days, 3 = Nearly every day\n1. Feeling nervous, anxious, or on edge\n2. Not being able to stop or control worrying\n3. Worrying too much about different things\n4. Trouble relaxing\n5. Being so restless it's hard to sit still\n6. Becoming easily annoyed or irritable\n7. Feeling afraid as if something awful might happen\nScore: 0-4 minimal, 5-9 mild, 10-14 moderate, 15+ severe",
+            "mnemonic": "**WATCHERS** for GAD criteria: **W**orry multiple domains, **A**lmost daily \u22656 months, **T**ension, **C**oncentration issues, **H**ours of worry, **E**asily fatigued, **R**estlessness, **S**leep disturbance",
+            "visual_desc": "Three-column Venn diagram comparing GAD (excessive worry, >6 months), Panic Disorder (attacks + fear of attacks), Social Anxiety (fear of scrutiny)"
+          },
+          {
+            "type": "protocol",
+            "title": "Anxiety Treatment: First-Line Is SSRIs (Yes, Really)",
+            "content": "**SSRIs/SNRIs are FIRST-LINE for ALL anxiety disorders** \u2014 not benzodiazepines!\n\n**Medication Options**:\n| Drug | Starting Dose | Target | Notes |\n|---|---|---|---|\n| **Escitalopram** | 5mg | 10-20mg | Well tolerated, also treats comorbid depression |\n| **Sertraline** | 25mg | 50-200mg | Good first choice for panic + GAD |\n| **Fluoxetine** | 10mg | 20-60mg | Activating \u2014 can worsen anxiety initially! |\n| **Venlafaxine XR (SNRI)** | 37.5mg | 75-225mg | Effective but more side effects, BP monitoring needed |\n| **Duloxetine (SNRI)** | 30mg | 60-120mg | Good if comorbid chronic pain |\n\n**Key counseling point**: Anxiety can WORSEN in the first 1-2 weeks of SSRI. Warn patients, consider starting at half-dose, and give 'rescue' benzodiazepine for first 2 weeks if severe (limited supply, no refills).\n\n**Benzodiazepines**: Short-term bridge ONLY (2-4 weeks). NOT first-line. Risks: tolerance, dependence, falls (esp. elderly), cognitive impairment, withdrawal.\n\n**Buspar (Buspirone)**: Okay for GAD (not for panic). Takes 2-4 weeks. No dependency risk. Less effective than SSRIs. Useful in patients who can't tolerate SSRIs.\n\n**Non-Pharmacologic**:\n\u2022 **CBT** \u2014 gold standard psychotherapy for anxiety\n\u2022 **Exposure therapy** \u2014 especially for panic disorder with agoraphobia\n\u2022 **Mindfulness, relaxation techniques, exercise** \u2014 all evidence-supported\n\u2022 **Limit caffeine, alcohol, stimulant use**",
+            "visual_desc": "Treatment algorithm: Anxiety diagnosis \u2192 SSRI initiation with half-dose first week \u2192 Limited benzo rescue if needed \u2192 CBT referral \u2192 Follow-up in 2-4 weeks"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **Benzodiazepines are NOT first-line for anxiety** \u2014 this is the #1 prescribing error in primary care for anxiety disorders. They're appropriate for: short-term (2-4 wk) bridge while SSRI kicks in, severe panic attacks (as-needed), or procedural anxiety. They're INAPPROPRIATE as monotherapy for GAD. **CBT and SSRIs are the standard of care**."
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A patient with recurrent unexpected panic attacks who now avoids driving and crowded places likely has:",
+            "answers": [
+              "Generalized anxiety disorder",
+              "Panic disorder with agoraphobia",
+              "Social anxiety disorder",
+              "Specific phobia of driving"
+            ],
+            "correct": 1,
+            "explanation": "Recurrent UNEXPECTED panic attacks + fear of attacks + avoidance behavior = panic disorder with agoraphobia. The avoidance is driven by fear of having another attack."
+          },
+          {
+            "q": "Which is the FIRST-LINE pharmacologic treatment for generalized anxiety disorder?",
+            "answers": [
+              "Lorazepam PRN",
+              "SSRI (e.g., escitalopram, sertraline)",
+              "Buspirone monotherapy",
+              "Propranolol as needed"
+            ],
+            "correct": 1,
+            "explanation": "SSRIs/SNRIs are first-line for ALL anxiety disorders. Benzodiazepines are only for short-term bridging. Buspirone is less effective and only works for GAD, not panic."
+          }
+        ]
+      },
+      {
+        "id": "mental-health-bipolar",
+        "title": "\ud83c\udf2a\ufe0f Bipolar Disorder: Don't Miss (or Make Worse)",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Jake, 24, was started on fluoxetine for 'depression' 3 weeks ago. Now he's back: he's sleeping 3 hours a night, started 4 new business projects (all 'guaranteed to make millions'), calls friends at 3 AM with ideas, and spent $5,000 on 'investments.' He's grandiose, irritable, and his girlfriend is terrified. Antidepressant monotherapy in an undiagnosed bipolar patient triggered a manic episode. This is the most common way bipolar is missed \u2014 and why screening for bipolar BEFORE starting antidepressants is critical.",
+            "visual_desc": "Split image: 'Before antidepressant' (depressed, low energy) vs. 'After antidepressant' (manic, grandiosity, spending, insomnia)"
+          },
+          {
+            "type": "definition",
+            "title": "Bipolar I, Bipolar II & Cyclothymia",
+            "content": "**Bipolar I Disorder**:\n\u2022 At least ONE manic episode (may have had depressive episodes)\n\u2022 **Manic episode** \u2014 \u22651 week of elevated/irritable/expansive mood + \u22653 of (4 if irritable):\n  - Inflated self-esteem/grandiosity\n  - Decreased need for sleep (feels rested after 3 hours)\n  - More talkative than usual / pressured speech\n  - Flight of ideas / racing thoughts\n  - Distractibility\n  - Increased goal-directed activity (social, work, sexual) or psychomotor agitation\n  - Excessive involvement in risky activities (spending sprees, sexual indiscretions, foolish business investments)\n\u2022 **Causes marked impairment** (hospitalization, psychosis, or functional decline)\n\n**Bipolar II Disorder**:\n\u2022 At least ONE hypomanic episode + ONE major depressive episode\n\u2022 **Hypomania** \u2014 same criteria as mania but:\n  - Duration \u22654 days (not 7)\n  - NOT severe enough to cause marked impairment or hospitalization\n  - No psychotic features\n\u2022 Depression is typically the DOMINANT phase (more time depressed than hypomanic)\n\n**Cyclothymia**: Chronic fluctuation between hypomanic and depressive symptoms for \u22652 years, but never meeting full criteria for hypomanic or major depressive episode\n\n**Mood Disorder Questionnaire (MDQ)** \u2014 Screen ALL depression before starting antidepressants:\n1. 13 yes/no questions about manic/hypomanic symptoms\n2. Were symptoms during same time period?\n3. How severe (no-mild vs. moderate-severe problem)?\n\u2022 **Positive screen**: \u22657 'yes' + same period + moderate-severe problems \u2192 refer to psychiatry",
+            "mnemonic": "**DIG FAST** for mania: **D**istractibility, **I**nsomnia (decreased need), **G**randiosity, **F**light of ideas, **A**ctivity increase, **S**peech pressured, **T**houghtlessness (risky behavior)",
+            "visual_desc": "Mood graph over time showing Bipolar I (extreme highs + lows), Bipolar II (hypomanic highs + major lows), and Cyclothymia (low-level cycling)"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **NEVER start antidepressant monotherapy without screening for bipolar first!** Screening tools (MDQ) take 5 minutes. If bipolar is suspected, refer to psychiatry. Antidepressants can trigger mania/hypomania, rapid cycling, or mixed features. If patient is already on antidepressant and develops mania \u2192 STOP the antidepressant and start mood stabilizer (lithium, valproate, or atypical antipsychotic)."
+          },
+          {
+            "type": "protocol",
+            "title": "Mood Stabilizers: The Basics for Primary Care",
+            "content": "**Lithium** \u2014 Gold standard for Bipolar I (mania prevention + suicide risk reduction):\n\u2022 **Initiation**: 300mg BID or TID, titrate to level 0.6-1.2 mEq/L\n\u2022 **Monitoring**: Baseline BMP, TSH, ECG (if >40), then q3-6 months\n\u2022 **Side effects**: Polyuria, polydipsia, tremor, weight gain, hypothyroidism, renal impairment\n\u2022 **Toxicity**: N/V, diarrhea, slurred speech, ataxia, tremor (level >1.5); can be fatal (>2.5)\n\u2022 **Drug interactions**: NSAIDs, ACE-I, diuretics, thiazides INCREASE lithium levels\n\n**Valproate (Depakote)**:\n\u2022 Effective for acute mania, especially rapid cycling or mixed features\n\u2022 **Monitoring**: LFTs, CBC, valproate level\n\u2022 **Side effects**: Weight gain, tremor, thrombocytopenia, hepatotoxicity, PCOS-like effects\n\u2022 **Teratogenic** \u2014 avoid in pregnancy\n\n**Atypical Antipsychotics** (increasingly first-line for acute mania):\n\u2022 **Olanzapine (Zyprexa)**: Most weight gain, metabolic syndrome\n\u2022 **Risperidone**: Prolactin elevation, weight gain\n\u2022 **Quetiapine (Seroquel)**: Sedation, weight gain \u2014 also effective for bipolar depression\n\u2022 **Lurasidone (Latuda)**: Minimal metabolic effects \u2014 good for bipolar depression\n\u2022 **Monitoring**: Baseline + q3mo: weight, waist circumference, fasting glucose/lipids, AIMS for tardive dyskinesia\n\n**When to REFER**:\n\u2022 First episode of mania/hypomania (needs confirmation + medication initiation)\n\u2022 Mixed features (mania + depression simultaneously)\n\u2022 Rapid cycling (\u22654 mood episodes/year)\n\u2022 Psychotic features\n\u2022 Treatment resistance\n\u2022 Suicide risk\n\u2022 Complex comorbidity",
+            "visual_desc": "Three-column medication comparison: Lithium (renal/thyroid monitoring), Valproate (liver/CBC), Atypicals (metabolic monitoring) with checkmark icons for indications and warning icons for side effects"
+          },
+          {
+            "type": "checklist",
+            "title": "Pretreatment Workup Before Antidepressants",
+            "content": "\u2705 **Screen for bipolar** with **MDQ** (Mood Disorder Questionnaire) \u2014 positive screen = don't start antidepressant alone\n\u2705 **Ask about**: Personal history of manic/hypomanic episodes, family history of bipolar or suicide\n\u2705 **If ANY suspicion**: Refer to psychiatry before starting medication\n\u2705 **If clear unipolar depression**: Start SSRI\n\u2705 **If starting SSRI**: Counsel about possible activation in young adults\n\u2705 **Educate patient**: 'If you feel a sudden huge mood elevation, less need for sleep, or racing thoughts \u2014 call me immediately'\n\u2705 **Document**: Clinical reasoning for antidepressant choice and bipolar screen results",
+            "visual_desc": "Safety checklist with 'GO' (green light) for unipolar depression and 'STOP' (red light) for bipolar suspicion"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A 30-year-old with depression is started on sertraline. Two weeks later, they return euphoric, sleeping 3 hours/night, and planning a cross-country move. What happened?",
+            "answers": [
+              "SSRI is working as expected",
+              "This is an allergic reaction",
+              "Antidepressant triggered a manic episode in undiagnosed bipolar",
+              "They need a higher dose"
+            ],
+            "correct": 2,
+            "explanation": "Decreased need for sleep + grandiosity + increased goal-directed activity = mania. Antidepressant monotherapy can trigger a manic switch in bipolar patients. Stop the SSRI and start a mood stabilizer."
+          },
+          {
+            "q": "Which screening tool should be used BEFORE starting antidepressants to rule out bipolar disorder?",
+            "answers": [
+              "PHQ-9",
+              "GAD-7",
+              "Mood Disorder Questionnaire (MDQ)",
+              "C-SSRS"
+            ],
+            "correct": 2,
+            "explanation": "The MDQ screens for lifetime history of manic/hypomanic symptoms. A positive screen (\u22657 + co-occurrence + functional impact) should prompt psychiatry referral before starting antidepressants."
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Osmosis",
+        "title": "Major Depressive Disorder - Causes, Symptoms, Treatment",
+        "url": "https://www.youtube.com/watch?v=zqRI29dlmuI",
+        "duration": "10 min"
+      },
+      {
+        "source": "Ninja Nerd",
+        "title": "Bipolar Disorder | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=u7fY9s3nhPg",
+        "duration": "35 min"
+      }
+    ]
+  }
+}

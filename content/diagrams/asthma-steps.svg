@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      text { font-family: 'Inter', -apple-system, sans-serif; fill: #e2e8f5; }
+      .title { font-size: 22px; font-weight: 700; fill: #00e5cc; }
+      .subtitle { font-size: 13px; fill: #94a3b8; }
+      .box-text { font-size: 12px; }
+      .box-title { font-size: 13px; font-weight: 700; }
+      .step-label { font-size: 18px; font-weight: 800; fill: #334155; }
+      .arrow-up { fill: none; stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#334155"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#050810" rx="0"/>
+
+  <!-- Title -->
+  <text x="400" y="36" text-anchor="middle" class="title" filter="url(#glow)">Asthma Step-Up Therapy</text>
+  <text x="400" y="54" text-anchor="middle" class="subtitle">NAEPP/EPR-4 &amp; GINA Guidelines — Assess control every visit</text>
+
+  <!-- Step boxes - stacked vertically -->
+  
+  <!-- Step 1 -->
+  <rect x="60" y="72" width="680" height="60" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+  <rect x="40" y="78" width="40" height="48" rx="8" fill="#334155"/>
+  <text x="60" y="107" text-anchor="middle" class="step-label">1</text>
+  <text x="120" y="98" text-anchor="middle" class="box-title" fill="#94a3b8">Step 1: Intermittent</text>
+  <text x="120" y="116" text-anchor="middle" class="box-text" fill="#94a3b8">SABA PRN — No daily controller needed</text>
+  <rect x="480" y="82" width="240" height="40" rx="6" fill="#0f172a" stroke="#f5b731" stroke-width="1"/>
+  <text x="600" y="100" text-anchor="middle" class="box-text" fill="#f5b731">Smart: SABA + ICS together PRN</text>
+  <text x="600" y="115" text-anchor="middle" class="box-text" fill="#f5b731">(GINA no longer recommends SABA-alone)</text>
+
+  <!-- Up arrow -->
+  <line x1="400" y1="132" x2="400" y2="152" class="arrow-up"/>
+  <text x="340" y="145" text-anchor="middle" class="box-text" fill="#64748b">Not controlled →</text>
+
+  <!-- Step 2 -->
+  <rect x="60" y="155" width="680" height="55" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+  <rect x="40" y="161" width="40" height="43" rx="8" fill="#38bdf8"/>
+  <text x="60" y="187" text-anchor="middle" class="step-label" fill="#050810">2</text>
+  <text x="120" y="181" text-anchor="middle" class="box-title" fill="#38bdf8">Step 2: Mild Persistent</text>
+  <text x="120" y="198" text-anchor="middle" class="box-text">Low-dose ICS + SABA PRN</text>
+  <rect x="500" y="165" width="220" height="35" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="610" y="182" text-anchor="middle" class="box-text" fill="#38bdf8">SMART: Low-dose ICS-formoterol</text>
+  <text x="610" y="195" text-anchor="middle" class="box-text" fill="#38bdf8">as needed + maintenance</text>
+
+  <!-- Up arrow -->
+  <line x1="400" y1="210" x2="400" y2="228" class="arrow-up"/>
+  <text x="340" y="222" text-anchor="middle" class="box-text" fill="#64748b">Not controlled →</text>
+
+  <!-- Step 3 -->
+  <rect x="60" y="231" width="680" height="55" rx="8" fill="#0f172a" stroke="#22c55e" stroke-width="1.5"/>
+  <rect x="40" y="237" width="40" height="43" rx="8" fill="#22c55e"/>
+  <text x="60" y="263" text-anchor="middle" class="step-label" fill="#050810">3</text>
+  <text x="120" y="257" text-anchor="middle" class="box-title" fill="#22c55e">Step 3: Moderate Persistent</text>
+  <text x="120" y="274" text-anchor="middle" class="box-text">Low-dose ICS-LABA combination</text>
+  <rect x="550" y="241" width="170" height="35" rx="6" fill="#0f172a" stroke="#22c55e" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="635" y="258" text-anchor="middle" class="box-text" fill="#22c55e">SMART: Low-dose</text>
+  <text x="635" y="271" text-anchor="middle" class="box-text" fill="#22c55e">ICS-formoterol</text>
+
+  <!-- Up arrow -->
+  <line x1="400" y1="286" x2="400" y2="304" class="arrow-up"/>
+  <text x="340" y="298" text-anchor="middle" class="box-text" fill="#64748b">Not controlled →</text>
+
+  <!-- Step 4 -->
+  <rect x="60" y="307" width="680" height="55" rx="8" fill="#0f172a" stroke="#a78bfa" stroke-width="1.5"/>
+  <rect x="40" y="313" width="40" height="43" rx="8" fill="#a78bfa"/>
+  <text x="60" y="339" text-anchor="middle" class="step-label" fill="#050810">4</text>
+  <text x="120" y="333" text-anchor="middle" class="box-title" fill="#a78bfa">Step 4: Moderate-Severe Persistent</text>
+  <text x="120" y="350" text-anchor="middle" class="box-text">Medium-dose ICS-LABA</text>
+  <rect x="550" y="317" width="170" height="35" rx="6" fill="#0f172a" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="635" y="334" text-anchor="middle" class="box-text" fill="#a78bfa">SMART: Medium-dose</text>
+  <text x="635" y="347" text-anchor="middle" class="box-text" fill="#a78bfa">ICS-formoterol</text>
+
+  <!-- Up arrow -->
+  <line x1="400" y1="362" x2="400" y2="380" class="arrow-up"/>
+  <text x="340" y="374" text-anchor="middle" class="box-text" fill="#64748b">Not controlled →</text>
+
+  <!-- Step 5 -->
+  <rect x="60" y="383" width="680" height="60" rx="8" fill="#0f172a" stroke="#f5b731" stroke-width="1.5"/>
+  <rect x="40" y="389" width="40" height="48" rx="8" fill="#f5b731"/>
+  <text x="60" y="418" text-anchor="middle" class="step-label" fill="#050810">5</text>
+  <text x="120" y="409" text-anchor="middle" class="box-title" fill="#f5b731">Step 5: Severe Persistent</text>
+  <text x="120" y="427" text-anchor="middle" class="box-text">High-dose ICS-LABA + Consider add-on therapy</text>
+  <rect x="500" y="392" width="220" height="42" rx="6" fill="#0f172a" stroke="#f5b731" stroke-width="1"/>
+  <text x="610" y="409" text-anchor="middle" class="box-text" fill="#f5b731">Add-on options:</text>
+  <text x="610" y="425" text-anchor="middle" class="box-text" fill="#f5b731">Tiotropium · Biologic (anti-IgE, anti-IL5)</text>
+
+  <!-- Up arrow -->
+  <line x1="400" y1="443" x2="400" y2="461" class="arrow-up"/>
+  <text x="340" y="455" text-anchor="middle" class="box-text" fill="#64748b">Still not controlled →</text>
+
+  <!-- Step 6 -->
+  <rect x="60" y="464" width="680" height="60" rx="8" fill="#0f172a" stroke="#ff4d6d" stroke-width="2"/>
+  <rect x="40" y="470" width="40" height="48" rx="8" fill="#ff4d6d"/>
+  <text x="60" y="499" text-anchor="middle" class="step-label" fill="#050810">6</text>
+  <text x="120" y="490" text-anchor="middle" class="box-title" fill="#ff4d6d">Step 6: Severe Refractory</text>
+  <text x="120" y="508" text-anchor="middle" class="box-text">High-dose ICS-LABA + Oral steroids + Add-on therapy</text>
+  <rect x="500" y="473" width="220" height="42" rx="6" fill="#0f172a" stroke="#ff4d6d" stroke-width="1"/>
+  <text x="610" y="490" text-anchor="middle" class="box-text" fill="#ff4d6d">Oral glucocorticoids</text>
+  <text x="610" y="506" text-anchor="middle" class="box-text" fill="#ff4d6d">Refer to specialist</text>
+
+  <!-- Step background gradient shades -->
+  <rect x="60" y="72" width="680" height="452" rx="8" fill="none" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Legend -->
+  <rect x="60" y="540" width="680" height="45" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <rect x="80" y="549" width="16" height="16" rx="3" fill="#38bdf8"/>
+  <text x="104" y="562" class="box-text" fill="#94a3b8">ICS = Inhaled Corticosteroid</text>
+  <rect x="250" y="549" width="16" height="16" rx="3" fill="#22c55e"/>
+  <text x="274" y="562" class="box-text" fill="#94a3b8">LABA = Long-Acting Beta Agonist</text>
+  <rect x="450" y="549" width="16" height="16" rx="3" fill="#a78bfa"/>
+  <text x="474" y="562" class="box-text" fill="#94a3b8">SMART = Single Maintenance and Reliever Therapy</text>
+</svg>

@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polypharmacy Management Flowchart</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        .definition-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .definition-box h2 {
+            margin: 0 0 15px 0;
+        }
+        .flowchart {
+            margin: 30px 0;
+        }
+        .flow-step {
+            background: #f8f9fa;
+            border-left: 5px solid #667eea;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            position: relative;
+        }
+        .flow-step::after {
+            content: '⬇';
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 24px;
+            color: #667eea;
+        }
+        .flow-step:last-child::after {
+            content: '';
+        }
+        .step-number {
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-right: 15px;
+            float: left;
+        }
+        .step-content {
+            margin-left: 60px;
+        }
+        .step-content h3 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+        .action-items {
+            background: white;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .action-items ul {
+            margin: 5px 0;
+            padding-left: 25px;
+        }
+        .action-items li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+        .beers-criteria {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .beers-criteria h3 {
+            color: #856404;
+            margin-top: 0;
+        }
+        .medication-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .med-category {
+            background: white;
+            border-radius: 5px;
+            padding: 12px;
+            border-left: 3px solid #dc3545;
+        }
+        .med-category h4 {
+            margin: 0 0 8px 0;
+            color: #dc3545;
+            font-size: 0.95em;
+        }
+        .med-category ul {
+            margin: 0;
+            padding-left: 20px;
+            font-size: 0.9em;
+        }
+        .med-category li {
+            margin: 4px 0;
+        }
+        .risk-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .risk-table th {
+            background: #dc3545;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        .risk-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .risk-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        .alert-box {
+            background: #f8d7da;
+            border: 2px solid #dc3545;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .alert-box h3 {
+            color: #721c24;
+            margin-top: 0;
+        }
+        .alert-box ul {
+            color: #721c24;
+            margin: 10px 0;
+        }
+        .tips-box {
+            background: #d1ecf1;
+            border: 2px solid #bee5eb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .tips-box h3 {
+            color: #0c5460;
+            margin-top: 0;
+        }
+        .tips-box ul {
+            color: #0c5460;
+        }
+        .stopp-start {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stopp-box, .start-box {
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .stopp-box {
+            background: #f8d7da;
+            border: 2px solid #dc3545;
+        }
+        .stopp-box h3 {
+            color: #721c24;
+            margin-top: 0;
+        }
+        .start-box {
+            background: #d4edda;
+            border: 2px solid #28a745;
+        }
+        .start-box h3 {
+            color: #155724;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💊 Polypharmacy Management in Older Adults 💊</h1>
+        <p class="subtitle">Systematic Approach for D120</p>
+        
+        <div class="definition-box">
+            <h2>Polypharmacy Definition</h2>
+            <p style="font-size: 1.2em; margin: 10px 0;">Use of <strong>5 or more medications</strong> concurrently</p>
+            <p style="margin: 10px 0;">Common in older adults (>40% of adults age 65+ take 5+ medications)</p>
+            <p style="margin: 10px 0;"><strong>Risks:</strong> Drug interactions, adverse effects, falls, cognitive impairment, medication non-adherence, increased hospitalizations</p>
+        </div>
+        
+        <h2 style="text-align: center; margin-top: 40px;">Medication Review Flowchart</h2>
+        <div class="flowchart">
+            <div class="flow-step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Complete Medication Inventory</h3>
+                    <div class="action-items">
+                        <p><strong>Brown Bag Method:</strong> Ask patient to bring ALL medications</p>
+                        <ul>
+                            <li>Prescription medications</li>
+                            <li>Over-the-counter drugs</li>
+                            <li>Vitamins, supplements, herbals</li>
+                            <li>Topical medications, eye drops, inhalers</li>
+                            <li>PRN medications</li>
+                        </ul>
+                        <p><strong>Document:</strong> Name, dose, frequency, indication, prescriber, start date</p>
+                        <p><strong>Assess:</strong> What patient is ACTUALLY taking vs. what's prescribed</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Review Indication for Each Medication</h3>
+                    <div class="action-items">
+                        <ul>
+                            <li><strong>Is the indication valid?</strong> Does patient still need this medication?</li>
+                            <li><strong>Is it evidence-based?</strong> Does it align with current guidelines?</li>
+                            <li><strong>Expired indications:</strong> Short-term medications continued long-term (PPIs, sleep aids)</li>
+                            <li><strong>Duplications:</strong> Multiple medications from same class</li>
+                            <li><strong>Medication without clear indication:</strong> Prescribing cascade (treating side effects of other drugs)</li>
+                        </ul>
+                        <p><strong>Action:</strong> Discontinue medications without valid indication</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Apply Beers Criteria & STOPP/START</h3>
+                    <div class="action-items">
+                        <p><strong>Beers Criteria:</strong> Potentially inappropriate medications (PIMs) in older adults</p>
+                        <p><strong>STOPP:</strong> Screening Tool of Older Persons' Prescriptions (what to stop)</p>
+                        <p><strong>START:</strong> Screening Tool to Alert to Right Treatment (what to start)</p>
+                        <p>See detailed lists below ⬇</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <h3>Assess Drug-Drug Interactions</h3>
+                    <div class="action-items">
+                        <ul>
+                            <li>Use interaction checker (Lexicomp, Micromedex, Epocrates)</li>
+                            <li><strong>High-risk combinations:</strong>
+                                <ul>
+                                    <li>Warfarin + NSAIDs (bleeding risk)</li>
+                                    <li>SSRIs + NSAIDs (GI bleeding)</li>
+                                    <li>Multiple QT-prolonging drugs</li>
+                                    <li>Multiple anticholinergic drugs (cognitive impairment)</li>
+                                    <li>Multiple CNS depressants (falls, sedation)</li>
+                                </ul>
+                            </li>
+                            <li>Consider pharmacokinetic interactions (CYP450 metabolism)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-step">
+                <div class="step-number">5</div>
+                <div class="step-content">
+                    <h3>Evaluate Dose Appropriateness</h3>
+                    <div class="action-items">
+                        <ul>
+                            <li><strong>Renal function:</strong> Calculate CrCl (Cockcroft-Gault), adjust renally-cleared drugs</li>
+                            <li><strong>Hepatic function:</strong> Adjust if liver disease</li>
+                            <li><strong>Age-related changes:</strong> ↓ metabolism, ↑ sensitivity in older adults</li>
+                            <li><strong>"Start low, go slow"</strong> principle in geriatrics</li>
+                            <li>Common medications requiring renal adjustment:
+                                <ul>
+                                    <li>Gabapentin, pregabalin</li>
+                                    <li>Metformin (hold if CrCl <30)</li>
+                                    <li>Antibiotics (many)</li>
+                                    <li>Digoxin</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-step">
+                <div class="step-number">6</div>
+                <div class="step-content">
+                    <h3>Deprescribe When Appropriate</h3>
+                    <div class="action-items">
+                        <ul>
+                            <li><strong>Prioritize:</strong> Medications with highest risk/lowest benefit</li>
+                            <li><strong>Taper when necessary:</strong> Benzodiazepines, SSRIs, PPIs, opioids, beta-blockers</li>
+                            <li><strong>One at a time:</strong> Easier to identify effects of changes</li>
+                            <li><strong>Patient involvement:</strong> Shared decision-making, explain rationale</li>
+                            <li><strong>Monitor:</strong> Follow-up for withdrawal effects, symptom recurrence</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-step">
+                <div class="step-number">7</div>
+                <div class="step-content">
+                    <h3>Optimize Administration & Adherence</h3>
+                    <div class="action-items">
+                        <ul>
+                            <li><strong>Simplify regimen:</strong> Once-daily dosing when possible, reduce pill burden</li>
+                            <li><strong>Address adherence barriers:</strong> Cost, complexity, side effects, cognitive impairment</li>
+                            <li><strong>Tools:</strong> Pill organizers, medication lists, alarms/reminders</li>
+                            <li><strong>Caregiver involvement:</strong> Medication management support</li>
+                            <li><strong>Pharmacy coordination:</strong> Single pharmacy, medication synchronization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-step">
+                <div class="step-number">8</div>
+                <div class="step-content">
+                    <h3>Schedule Regular Medication Reviews</h3>
+                    <div class="action-items">
+                        <ul>
+                            <li><strong>Frequency:</strong> At least annually, more often if changes or issues</li>
+                            <li><strong>Triggers for review:</strong> Hospitalization, new diagnosis, functional decline, falls</li>
+                            <li><strong>Document:</strong> Medication list updates, changes made, rationale</li>
+                            <li><strong>Communicate:</strong> With all providers, patient, caregivers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="beers-criteria">
+            <h3>⚠️ Beers Criteria: Potentially Inappropriate Medications (PIMs) in Older Adults</h3>
+            <p><strong>American Geriatrics Society - Updated 2023</strong></p>
+            
+            <div class="medication-grid">
+                <div class="med-category">
+                    <h4>Anticholinergics</h4>
+                    <ul>
+                        <li>First-gen antihistamines (diphenhydramine, hydroxyzine)</li>
+                        <li>Tricyclic antidepressants</li>
+                        <li>Antispasmodics (oxybutynin, tolterodine)</li>
+                    </ul>
+                    <p style="font-size: 0.85em; margin: 8px 0 0 0;"><strong>Why avoid:</strong> Cognitive impairment, confusion, constipation, urinary retention, falls</p>
+                </div>
+                
+                <div class="med-category">
+                    <h4>Benzodiazepines</h4>
+                    <ul>
+                        <li>All benzodiazepines</li>
+                        <li>Non-benzo hypnotics (zolpidem, eszopiclone)</li>
+                    </ul>
+                    <p style="font-size: 0.85em; margin: 8px 0 0 0;"><strong>Why avoid:</strong> ↑ Fall risk, cognitive impairment, delirium, dependence</p>
+                </div>
+                
+                <div class="med-category">
+                    <h4>NSAIDs</h4>
+                    <ul>
+                        <li>Non-selective NSAIDs (ibuprofen, naproxen)</li>
+                        <li>COX-2 inhibitors (celecoxib)</li>
+                        <li>Aspirin >325 mg/day</li>
+                    </ul>
+                    <p style="font-size: 0.85em; margin: 8px 0 0 0;"><strong>Why avoid:</strong> GI bleeding, renal impairment, ↑ BP, heart failure exacerbation</p>
+                </div>
+                
+                <div class="med-category">
+                    <h4>PPIs</h4>
+                    <ul>
+                        <li>Long-term use (>8 weeks) without clear indication</li>
+                    </ul>
+                    <p style="font-size: 0.85em; margin: 8px 0 0 0;"><strong>Why avoid:</strong> C. diff, fracture risk, nutrient malabsorption (B12, Mg), dementia risk (controversial)</p>
+                </div>
+                
+                <div class="med-category">
+                    <h4>Antipsychotics</h4>
+                    <ul>
+                        <li>Especially in dementia (black box warning)</li>
+                        <li>First-generation (haloperidol) and second-generation</li>
+                    </ul>
+                    <p style="font-size: 0.85em; margin: 8px 0 0 0;"><strong>Why avoid:</strong> ↑ Stroke, mortality in dementia; falls, sedation, anticholinergic effects</p>
+                </div>
+                
+                <div class="med-category">
+                    <h4>Sliding Scale Insulin</h4>
+                    <ul>
+                        <li>Alone without basal insulin</li>
+                    </ul>
+                    <p style="font-size: 0.85em; margin: 8px 0 0 0;"><strong>Why avoid:</strong> ↑ Hypoglycemia risk, not evidence-based</p>
+                </div>
+                
+                <div class="med-category">
+                    <h4>Sulfonylureas (long-acting)</h4>
+                    <ul>
+                        <li>Glyburide, chlorpropamide</li>
+                    </ul>
+                    <p style="font-size: 0.85em; margin: 8px 0 0 0;"><strong>Why avoid:</strong> Prolonged hypoglycemia risk</p>
+                </div>
+                
+                <div class="med-category">
+                    <h4>Muscle Relaxants</h4>
+                    <ul>
+                        <li>Cyclobenzaprine, methocarbamol</li>
+                    </ul>
+                    <p style="font-size: 0.85em; margin: 8px 0 0 0;"><strong>Why avoid:</strong> Anticholinergic effects, sedation, limited efficacy in elderly</p>
+                </div>
+                
+                <div class="med-category">
+                    <h4>Digoxin</h4>
+                    <ul>
+                        <li>Dose >0.125 mg/day</li>
+                    </ul>
+                    <p style="font-size: 0.85em; margin: 8px 0 0 0;"><strong>Why avoid:</strong> ↓ Renal clearance → toxicity risk</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="stopp-start">
+            <div class="stopp-box">
+                <h3>🛑 STOPP - Medications to STOP</h3>
+                <ul>
+                    <li>PPIs for >8 weeks without clear indication</li>
+                    <li>Benzodiazepines >4 weeks</li>
+                    <li>Anticholinergics in patients with dementia</li>
+                    <li>NSAIDs in heart failure, CKD, or with anticoagulants</li>
+                    <li>Aspirin without cardiovascular indication</li>
+                    <li>Antipsychotics as first-line for behavioral symptoms of dementia</li>
+                    <li>Duplicate drug classes</li>
+                    <li>Medications treating side effects of another drug (prescribing cascade)</li>
+                </ul>
+            </div>
+            
+            <div class="start-box">
+                <h3>✅ START - Medications to START (if indicated)</h3>
+                <ul>
+                    <li>Statin in diabetes + cardiovascular risk factors</li>
+                    <li>ACE-I/ARB in heart failure with reduced EF or diabetic nephropathy</li>
+                    <li>Beta-blocker post-MI</li>
+                    <li>Calcium + Vitamin D for osteoporosis prevention</li>
+                    <li>Bisphosphonate in osteoporosis with fracture history</li>
+                    <li>Anticoagulation in atrial fibrillation (appropriate CHA₂DS₂-VASc score)</li>
+                    <li>Laxative in chronic opioid use</li>
+                </ul>
+            </div>
+        </div>
+        
+        <h2 style="text-align: center; margin-top: 40px;">Common Adverse Drug Events in Older Adults</h2>
+        <table class="risk-table">
+            <thead>
+                <tr>
+                    <th>Adverse Event</th>
+                    <th>High-Risk Medications</th>
+                    <th>Prevention/Management</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Falls</strong></td>
+                    <td>Benzodiazepines, sedatives, antipsychotics, opioids, antihypertensives, anticholinergics</td>
+                    <td>Taper/discontinue if possible; fall risk assessment; PT/OT referral</td>
+                </tr>
+                <tr>
+                    <td><strong>Delirium</strong></td>
+                    <td>Anticholinergics, benzodiazepines, opioids, antihistamines</td>
+                    <td>Avoid in high-risk patients; use lowest effective dose; non-pharm alternatives</td>
+                </tr>
+                <tr>
+                    <td><strong>Cognitive Impairment</strong></td>
+                    <td>Anticholinergics (cumulative effect), benzodiazepines</td>
+                    <td>Calculate anticholinergic burden; deprescribe when possible</td>
+                </tr>
+                <tr>
+                    <td><strong>GI Bleeding</strong></td>
+                    <td>NSAIDs + anticoagulants/antiplatelets; NSAIDs + SSRIs</td>
+                    <td>Avoid combination; use PPI if NSAID necessary; consider acetaminophen alternative</td>
+                </tr>
+                <tr>
+                    <td><strong>Acute Kidney Injury</strong></td>
+                    <td>NSAIDs, ACE-I/ARB + diuretic ("triple whammy"), metformin</td>
+                    <td>Monitor renal function; adjust doses; hydration during acute illness</td>
+                </tr>
+                <tr>
+                    <td><strong>Hypoglycemia</strong></td>
+                    <td>Sulfonylureas (especially glyburide), insulin</td>
+                    <td>Use safer alternatives (DPP-4i, SGLT2i); individualize A1C goals (7.5-8% acceptable in frail elderly)</td>
+                </tr>
+                <tr>
+                    <td><strong>Orthostatic Hypotension</strong></td>
+                    <td>Alpha-blockers, antihypertensives, diuretics, vasodilators</td>
+                    <td>Check orthostatic BP; slow titration; educate on position changes</td>
+                </tr>
+                <tr>
+                    <td><strong>Urinary Retention</strong></td>
+                    <td>Anticholinergics, opioids, antihistamines</td>
+                    <td>Especially in men with BPH; avoid anticholinergics; use alternatives</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="alert-box">
+            <h3>🚨 High-Risk Medication Situations</h3>
+            <ul>
+                <li><strong>Prescribing cascade:</strong> Adding medication to treat side effect of another drug (e.g., metoclopramide for NSAID-induced nausea)</li>
+                <li><strong>Anticholinergic burden:</strong> Cumulative effect of multiple medications with anticholinergic properties → cognitive impairment</li>
+                <li><strong>"Triple whammy":</strong> NSAID + ACE-I/ARB + diuretic → acute kidney injury</li>
+                <li><strong>Serotonin syndrome:</strong> Multiple serotonergic drugs (SSRI + tramadol, SSRI + linezolid)</li>
+                <li><strong>QT prolongation:</strong> Multiple QT-prolonging drugs + electrolyte abnormalities</li>
+                <li><strong>Warfarin interactions:</strong> Many drug/food interactions; requires close monitoring</li>
+            </ul>
+        </div>
+        
+        <div class="tips-box">
+            <h3>💡 Clinical Pearls for D120:</h3>
+            <ul>
+                <li><strong>"Start low, go slow"</strong> but <strong>"don't go too low"</strong> - under-dosing can be as harmful as over-dosing</li>
+                <li><strong>Deprescribing is active treatment,</strong> not neglect - requires monitoring and follow-up</li>
+                <li><strong>Calculate CrCl</strong> (not just serum creatinine) to assess renal function in elderly - use Cockcroft-Gault</li>
+                <li><strong>Beers criteria is a guide,</strong> not absolute - consider individual patient context</li>
+                <li><strong>Medication review at every visit,</strong> especially after hospitalization (medication reconciliation)</li>
+                <li><strong>OTC doesn't mean safe</strong> - many OTC drugs (NSAIDs, diphenhydramine) are high-risk in elderly</li>
+                <li><strong>Supplements count</strong> - herbal products can interact with medications (St. John's wort, ginkgo)</li>
+                <li><strong>Simplify when possible:</strong> Once-daily formulations, combination pills, reduce total number</li>
+                <li><strong>Patient goals matter:</strong> In advanced illness, prioritize quality of life over preventive meds with long-term benefit</li>
+                <li><strong>Team approach:</strong> Involve pharmacist in medication review - they're the experts!</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

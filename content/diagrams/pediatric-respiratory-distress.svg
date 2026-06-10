@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <defs>
+    <style>
+      text { font-family: 'Inter', -apple-system, sans-serif; fill: #e2e8f5; }
+      .title { font-size: 22px; font-weight: 700; fill: #00e5cc; }
+      .subtitle { font-size: 13px; fill: #94a3b8; }
+      .box-text { font-size: 11px; }
+      .box-title { font-size: 12px; font-weight: 700; }
+      .cond-label { font-size: 13px; font-weight: 700; }
+      .arrow { fill: none; stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="#334155"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#050810" rx="0"/>
+
+  <!-- Title -->
+  <text x="500" y="38" text-anchor="middle" class="title" filter="url(#glow)">Pediatric Respiratory Distress: Differential Diagnosis</text>
+  <text x="500" y="56" text-anchor="middle" class="subtitle">Croup vs Epiglottitis vs Bronchiolitis vs Foreign Body Aspiration</text>
+
+  <!-- Initial Assessment Box -->
+  <rect x="300" y="72" width="400" height="36" rx="18" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="500" y="94" text-anchor="middle" class="box-text" font-weight="700">Child Presents with Respiratory Distress</text>
+
+  <line x1="500" y1="108" x2="500" y2="125" class="arrow"/>
+
+  <!-- Quick Triage Box -->
+  <rect x="150" y="125" width="700" height="32" rx="8" fill="#0b0f1c" stroke="#f5b731" stroke-width="1"/>
+  <text x="500" y="145" text-anchor="middle" class="box-text" fill="#f5b731">ABC Assessment: Airway patency? Breathing effort? Color? O2 sat? Stridor? Wheeze? Drooling?</text>
+
+  <line x1="500" y1="157" x2="500" y2="175" class="arrow"/>
+
+  <!-- Split into 4 columns -->
+  <line x1="500" y1="175" x2="125" y2="175" class="arrow"/>
+  <line x1="500" y1="175" x2="500" y2="175" class="arrow"/>
+  <line x1="500" y1="175" x2="875" y2="175" class="arrow"/>
+
+  <!-- Column 1: Croup -->
+  <rect x="20" y="180" width="220" height="44" rx="6" fill="#0b0f1c" stroke="#38bdf8" stroke-width="2"/>
+  <text x="130" y="200" text-anchor="middle" class="cond-label" fill="#38bdf8">🌙 Croup</text>
+  <text x="130" y="215" text-anchor="middle" class="box-text">Laryngotracheobronchitis</text>
+
+  <rect x="20" y="232" width="220" height="140" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="130" y="250" text-anchor="middle" class="box-title" fill="#38bdf8">Findings</text>
+  <text x="30" y="268" class="box-text">• Age 6mo–3yr</text>
+  <text x="30" y="283" class="box-text">• Barking "seal" cough 🔔</text>
+  <text x="30" y="298" class="box-text">• Inspiratory stridor</text>
+  <text x="30" y="313" class="box-text">• Hoarse voice</text>
+  <text x="30" y="328" class="box-text">• Low-grade fever</text>
+  <text x="30" y="343" class="box-text">• Worse at night 🌙</text>
+  <text x="30" y="358" class="box-text">• Gradual onset (viral)</text>
+
+  <rect x="20" y="380" width="220" height="130" rx="6" fill="#0b0f1c" stroke="#38bdf8" stroke-width="1"/>
+  <text x="130" y="398" text-anchor="middle" class="box-title" fill="#38bdf8">Management</text>
+  <text x="30" y="416" class="box-text" fill="#4ade80">Mild-Moderate:</text>
+  <text x="30" y="431" class="box-text">Dexamethasone 0.6mg/kg PO/IM</text>
+  <text x="30" y="451" class="box-text" fill="#4ade80">Severe:</text>
+  <text x="30" y="466" class="box-text">Add nebulized racemic epi</text>
+  <text x="30" y="486" class="box-text">Cool mist, calm, O2 PRN</text>
+
+  <rect x="20" y="518" width="220" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="130" y="536" text-anchor="middle" class="box-text" fill="#94a3b8">X-ray: Steeple sign</text>
+  <text x="130" y="551" text-anchor="middle" class="box-text" fill="#94a3b8">(subglottic narrowing)</text>
+
+  <!-- Arrow left-right -->
+  <line x1="240" y1="390" x2="260" y2="390" class="arrow"/>
+
+  <!-- Column 2: Epiglottitis -->
+  <rect x="265" y="180" width="220" height="44" rx="6" fill="#0b0f1c" stroke="#ff4d6d" stroke-width="2"/>
+  <text x="375" y="200" text-anchor="middle" class="cond-label" fill="#ff4d6d">🔥 Epiglottitis</text>
+  <text x="375" y="215" text-anchor="middle" class="box-text">MEDICAL EMERGENCY!</text>
+
+  <rect x="265" y="232" width="220" height="140" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="375" y="250" text-anchor="middle" class="box-title" fill="#ff4d6d">Findings</text>
+  <text x="275" y="268" class="box-text" fill="#ff4d6d">• Age 2-6yr (unvax'd)</text>
+  <text x="275" y="283" class="box-text">• Tripod positioning 🐕</text>
+  <text x="275" y="298" class="box-text">• Drooling 😫</text>
+  <text x="275" y="313" class="box-text">• Muffled voice</text>
+  <text x="275" y="328" class="box-text">• High fever</text>
+  <text x="275" y="343" class="box-text">• Rapid onset (hours)</text>
+  <text x="275" y="358" class="box-text">• NO cough · Toxic looking</text>
+
+  <rect x="265" y="380" width="220" height="130" rx="6" fill="#0b0f1c" stroke="#ff4d6d" stroke-width="1.5"/>
+  <text x="375" y="398" text-anchor="middle" class="box-title" fill="#ff4d6d">Management</text>
+  <text x="275" y="416" class="box-text" fill="#ff4d6d">🚨 DO NOT:</text>
+  <text x="275" y="431" class="box-text">- Agitate the child</text>
+  <text x="275" y="446" class="box-text">- Look in the throat</text>
+  <text x="275" y="461" class="box-text">- Lay them flat</text>
+  <text x="275" y="481" class="box-text" fill="#4ade80">Call ENT/Anesthesia STAT!</text>
+
+  <rect x="265" y="518" width="220" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="375" y="536" text-anchor="middle" class="box-text" fill="#94a3b8">X-ray: Thumbprint sign</text>
+  <text x="375" y="551" text-anchor="middle" class="box-text" fill="#94a3b8">(enlarged epiglottis)</text>
+
+  <line x1="485" y1="390" x2="505" y2="390" class="arrow"/>
+
+  <!-- Column 3: Bronchiolitis -->
+  <rect x="510" y="180" width="220" height="44" rx="6" fill="#0b0f1c" stroke="#4ade80" stroke-width="2"/>
+  <text x="620" y="200" text-anchor="middle" class="cond-label" fill="#4ade80">🫁 Bronchiolitis</text>
+  <text x="620" y="215" text-anchor="middle" class="box-text">RSV / Viral</text>
+
+  <rect x="510" y="232" width="220" height="140" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="620" y="250" text-anchor="middle" class="box-title" fill="#4ade80">Findings</text>
+  <text x="520" y="268" class="box-text">• Age &lt;2yr (peak &lt;6mo)</text>
+  <text x="520" y="283" class="box-text">• Wheezing 🌬️</text>
+  <text x="520" y="298" class="box-text">• Tachypnea</text>
+  <text x="520" y="313" class="box-text">• Nasal flaring</text>
+  <text x="520" y="328" class="box-text">• Retractions</text>
+  <text x="520" y="343" class="box-text">• Poor feeding</text>
+  <text x="520" y="358" class="box-text">• URI prodrome 2-3d →</text>
+
+  <rect x="510" y="380" width="220" height="130" rx="6" fill="#0b0f1c" stroke="#4ade80" stroke-width="1"/>
+  <text x="620" y="398" text-anchor="middle" class="box-title" fill="#4ade80">Management</text>
+  <text x="520" y="416" class="box-text" fill="#4ade80">SUPPORTIVE ONLY!</text>
+  <text x="520" y="431" class="box-text">• Nasal suctioning</text>
+  <text x="520" y="446" class="box-text">• O2 if SpO2 &lt;90%</text>
+  <text x="520" y="461" class="box-text">• IV/NG fluids</text>
+  <text x="520" y="481" class="box-text" fill="#ff4d6d">NO bronchodilators</text>
+  <text x="520" y="496" class="box-text" fill="#ff4d6d">NO steroids</text>
+
+  <rect x="510" y="518" width="220" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="620" y="536" text-anchor="middle" class="box-text" fill="#94a3b8">X-ray: Hyperinflation +</text>
+  <text x="620" y="551" text-anchor="middle" class="box-text" fill="#94a3b8">atelectasis (air trapping)</text>
+
+  <line x1="730" y1="390" x2="750" y2="390" class="arrow"/>
+
+  <!-- Column 4: Foreign Body -->
+  <rect x="755" y="180" width="220" height="44" rx="6" fill="#0b0f1c" stroke="#f5b731" stroke-width="2"/>
+  <text x="865" y="200" text-anchor="middle" class="cond-label" fill="#f5b731">🪀 Foreign Body</text>
+  <text x="865" y="215" text-anchor="middle" class="box-text">Aspiration</text>
+
+  <rect x="755" y="232" width="220" height="140" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="865" y="250" text-anchor="middle" class="box-title" fill="#f5b731">Findings</text>
+  <text x="765" y="268" class="box-text">• Age 1-3yr peak</text>
+  <text x="765" y="283" class="box-text">• Sudden onset 🤯</text>
+  <text x="765" y="298" class="box-text">• Unilateral wheeze</text>
+  <text x="765" y="313" class="box-text">• Coughing/gagging</text>
+  <text x="765" y="328" class="box-text">• NO fever</text>
+  <text x="765" y="343" class="box-text">• Playing with small toys</text>
+  <text x="765" y="358" class="box-text">• History of choking</text>
+
+  <rect x="755" y="380" width="220" height="130" rx="6" fill="#0b0f1c" stroke="#f5b731" stroke-width="1"/>
+  <text x="865" y="398" text-anchor="middle" class="box-title" fill="#f5b731">Management</text>
+  <text x="765" y="416" class="box-text" fill="#f5b731">• CXR inspiratory/exp</text>
+  <text x="765" y="431" class="box-text">• CT chest if uncertain</text>
+  <text x="765" y="451" class="box-text" fill="#4ade80">Treatment:</text>
+  <text x="765" y="466" class="box-text">Bronchoscopy for removal</text>
+
+  <rect x="755" y="518" width="220" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="865" y="536" text-anchor="middle" class="box-text" fill="#94a3b8">X-ray: Unilateral</text>
+  <text x="865" y="551" text-anchor="middle" class="box-text" fill="#94a3b8">hyperinflation / air</text>
+  <text x="865" y="561" text-anchor="middle" class="box-text" fill="#94a3b8">trapping</text>
+
+  <!-- Bottom Key Box -->
+  <rect x="20" y="580" width="960" height="48" rx="8" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="500" y="600" text-anchor="middle" class="box-text" fill="#f5b731">💡 Key Differentiator: Croup = barky cough + gradual onset · Epiglottitis = drooling + tripod + NO cough + rapid onset</text>
+  <text x="500" y="618" text-anchor="middle" class="box-text">Bronchiolitis = wheezing + infant · Foreign body = sudden onset + unilateral wheeze + choking history</text>
+
+  <!-- Admission criteria -->
+  <rect x="20" y="636" width="960" height="48" rx="8" fill="#0b0f1c" stroke="#ff4d6d" stroke-width="1"/>
+  <text x="500" y="654" text-anchor="middle" class="box-text" fill="#ff4d6d">🚨 Admit if: Age &lt;3mo, SpO2 &lt;90%, severe respiratory distress, dehydration, unable to feed, apnea, toxic appearance</text>
+  <text x="500" y="670" text-anchor="middle" class="box-text" fill="#94a3b8">Any infant with fever &lt;28 days old = automatic admission for full sepsis workup</text>
+</svg>

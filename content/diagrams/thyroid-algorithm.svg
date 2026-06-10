@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650">
+  <defs>
+    <style>
+      text { font-family: 'Inter', -apple-system, sans-serif; fill: #e2e8f5; }
+      .title { font-size: 22px; font-weight: 700; fill: #00e5cc; }
+      .subtitle { font-size: 13px; fill: #94a3b8; }
+      .box-text { font-size: 11px; }
+      .box-text-sm { font-size: 10px; }
+      .box-title { font-size: 13px; font-weight: 700; }
+      .box-title-md { font-size: 12px; font-weight: 700; }
+      .arrow { fill: none; stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+      .arrow-teal { fill: none; stroke: #00e5cc; stroke-width: 2; marker-end: url(#arrowhead-teal); }
+      .arrow-purple { fill: none; stroke: #a78bfa; stroke-width: 2; marker-end: url(#arrowhead-purple); }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#334155"/>
+    </marker>
+    <marker id="arrowhead-teal" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#00e5cc"/>
+    </marker>
+    <marker id="arrowhead-purple" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#a78bfa"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="650" fill="#020617" rx="0"/>
+
+  <!-- Title -->
+  <text x="400" y="34" text-anchor="middle" class="title" filter="url(#glow)">Thyroid Disorder Diagnostic Algorithm</text>
+  <text x="400" y="52" text-anchor="middle" class="subtitle">TSH-Based Screening &amp; Management Approach</text>
+
+  <!-- ========== TSH Screening (top center) ========== -->
+  <rect x="300" y="64" width="200" height="34" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="400" y="85" text-anchor="middle" class="box-text" font-weight="700">Initial TSH Screening</text>
+
+  <!-- Arrow down from TSH -->
+  <line x1="400" y1="98" x2="400" y2="108" class="arrow"/>
+
+  <!-- Split arrows to three branches -->
+  <line x1="400" y1="108" x2="170" y2="108" class="arrow"/>
+  <line x1="400" y1="108" x2="630" y2="108" class="arrow"/>
+  <line x1="170" y1="108" x2="170" y2="118" class="arrow"/>
+  <line x1="400" y1="108" x2="400" y2="118" class="arrow"/>
+  <line x1="630" y1="108" x2="630" y2="118" class="arrow"/>
+
+  <!-- ========== Row 1: Three TSH Result Branches ========== -->
+
+  <!-- Left: Elevated TSH -->
+  <rect x="60" y="118" width="220" height="44" rx="8" fill="#0b0f1c" stroke="#f5b731" stroke-width="1.5"/>
+  <text x="170" y="137" text-anchor="middle" class="box-title" fill="#f5b731">TSH Elevated</text>
+  <text x="170" y="152" text-anchor="middle" class="box-text-sm" fill="#f5b731">&gt; 4.0 mIU/L</text>
+
+  <!-- Center: Normal TSH -->
+  <rect x="310" y="118" width="180" height="44" rx="8" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1.5"/>
+  <text x="400" y="137" text-anchor="middle" class="box-title" fill="#00e5cc">TSH Normal</text>
+  <text x="400" y="152" text-anchor="middle" class="box-text-sm" fill="#00e5cc">0.4 – 4.0 mIU/L</text>
+
+  <!-- Right: Suppressed TSH -->
+  <rect x="520" y="118" width="220" height="44" rx="8" fill="#0b0f1c" stroke="#ff4d6d" stroke-width="1.5"/>
+  <text x="630" y="137" text-anchor="middle" class="box-title" fill="#ff4d6d">TSH Suppressed</text>
+  <text x="630" y="152" text-anchor="middle" class="box-text-sm" fill="#ff4d6d">&lt; 0.4 mIU/L</text>
+
+  <!-- Arrows down from Row 1 -->
+  <line x1="170" y1="162" x2="170" y2="180" class="arrow"/>
+  <line x1="400" y1="162" x2="400" y2="180" class="arrow"/>
+  <line x1="630" y1="162" x2="630" y2="180" class="arrow"/>
+
+  <!-- ========== Row 2: Check Free T4 / Euthyroid ========== -->
+
+  <!-- Left: Check Free T4 -->
+  <rect x="60" y="180" width="220" height="34" rx="8" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="170" y="198" text-anchor="middle" class="box-text" font-weight="700">Check Free T4</text>
+  <text x="170" y="210" text-anchor="middle" class="box-text-sm">(also check TPO antibodies)</text>
+
+  <!-- Center: Euthyroid -->
+  <rect x="310" y="180" width="180" height="48" rx="8" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1"/>
+  <text x="400" y="199" text-anchor="middle" class="box-title-md" fill="#00e5cc">Euthyroid</text>
+  <text x="400" y="215" text-anchor="middle" class="box-text-sm" fill="#00e5cc">No treatment indicated</text>
+
+  <!-- Right: Check Free T4 -->
+  <rect x="520" y="180" width="220" height="34" rx="8" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="630" y="198" text-anchor="middle" class="box-text" font-weight="700">Check Free T4</text>
+  <text x="630" y="210" text-anchor="middle" class="box-text-sm">(also check TPO / TSI)</text>
+
+  <!-- Arrow down from Left Free T4 box -->
+  <line x1="170" y1="214" x2="170" y2="225" class="arrow"/>
+  <!-- Split arrows to two sub-diagnoses (left branch) -->
+  <line x1="170" y1="225" x2="100" y2="225" class="arrow"/>
+  <line x1="170" y1="225" x2="240" y2="225" class="arrow"/>
+  <line x1="100" y1="225" x2="100" y2="238" class="arrow"/>
+  <line x1="240" y1="225" x2="240" y2="238" class="arrow"/>
+
+  <!-- Arrow down from Center Euthyroid (merge into main flow) -->
+  <line x1="400" y1="228" x2="400" y2="378" class="arrow" stroke-dasharray="4,4"/>
+
+  <!-- Arrow down from Right Free T4 box -->
+  <line x1="630" y1="214" x2="630" y2="225" class="arrow"/>
+  <!-- Split arrows to two sub-diagnoses (right branch) -->
+  <line x1="630" y1="225" x2="560" y2="225" class="arrow"/>
+  <line x1="630" y1="225" x2="700" y2="225" class="arrow"/>
+  <line x1="560" y1="225" x2="560" y2="238" class="arrow"/>
+  <line x1="700" y1="225" x2="700" y2="238" class="arrow"/>
+
+  <!-- ========== Row 3: Diagnosis Boxes ========== -->
+
+  <!-- Left branch - Primary Hypothyroidism -->
+  <rect x="25" y="238" width="150" height="48" rx="8" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1.5"/>
+  <text x="100" y="257" text-anchor="middle" class="box-title-md" fill="#00e5cc">↓ Free T4</text>
+  <text x="100" y="274" text-anchor="middle" class="box-text" fill="#00e5cc">Primary Hypothyroidism</text>
+
+  <!-- Left branch - Subclinical Hypothyroidism -->
+  <rect x="165" y="238" width="150" height="48" rx="8" fill="#0b0f1c" stroke="#f5b731" stroke-width="1.5"/>
+  <text x="240" y="257" text-anchor="middle" class="box-title-md" fill="#f5b731">Normal Free T4</text>
+  <text x="240" y="274" text-anchor="middle" class="box-text" fill="#f5b731">Subclinical Hypothyroidism</text>
+
+  <!-- Right branch - Hyperthyroidism/Graves -->
+  <rect x="485" y="238" width="150" height="48" rx="8" fill="#0b0f1c" stroke="#ff4d6d" stroke-width="1.5"/>
+  <text x="560" y="257" text-anchor="middle" class="box-title-md" fill="#ff4d6d">↑ Free T4</text>
+  <text x="560" y="274" text-anchor="middle" class="box-text" fill="#ff4d6d">Hyperthyroidism / Graves</text>
+
+  <!-- Right branch - Subclinical Hyperthyroidism -->
+  <rect x="625" y="238" width="150" height="48" rx="8" fill="#0b0f1c" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="700" y="257" text-anchor="middle" class="box-title-md" fill="#38bdf8">Normal Free T4</text>
+  <text x="700" y="274" text-anchor="middle" class="box-text" fill="#38bdf8">Subclinical Hyperthyroidism</text>
+
+  <!-- Arrows from Left diagnosis boxes to treatment -->
+  <line x1="100" y1="286" x2="100" y2="305" class="arrow"/>
+  <line x1="240" y1="286" x2="240" y2="305" class="arrow"/>
+
+  <!-- Arrows from Right diagnosis boxes to treatment -->
+  <line x1="560" y1="286" x2="560" y2="305" class="arrow"/>
+  <line x1="700" y1="286" x2="700" y2="305" class="arrow"/>
+
+  <!-- ========== Row 4: Treatment Boxes ========== -->
+
+  <!-- T1: Primary Hypothyroidism Treatment -->
+  <rect x="10" y="305" width="180" height="52" rx="8" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="100" y="323" text-anchor="middle" class="box-title-md" fill="#00e5cc">Levothyroxine</text>
+  <text x="100" y="340" text-anchor="middle" class="box-text-sm" fill="#00e5cc">1.6 mcg/kg/day PO</text>
+  <text x="100" y="352" text-anchor="middle" class="box-text-sm" fill="#00e5cc">Recheck TSH in 6–8 weeks</text>
+
+  <!-- T2: Subclinical Hypothyroidism Treatment -->
+  <rect x="150" y="305" width="180" height="52" rx="8" fill="#0b0f1c" stroke="#f5b731" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="240" y="323" text-anchor="middle" class="box-title-md" fill="#f5b731">Consider Treatment If:</text>
+  <text x="240" y="340" text-anchor="middle" class="box-text-sm" fill="#f5b731">TSH &gt; 10 mIU/L</text>
+  <text x="240" y="352" text-anchor="middle" class="box-text-sm" fill="#f5b731">or TPO Antibody +</text>
+
+  <!-- T3: Hyperthyroidism/Graves Treatment -->
+  <rect x="470" y="305" width="180" height="52" rx="8" fill="#0b0f1c" stroke="#ff4d6d" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="560" y="320" text-anchor="middle" class="box-title-md" fill="#ff4d6d">Beta-blocker (symptoms)</text>
+  <text x="560" y="335" text-anchor="middle" class="box-text-sm" fill="#ff4d6d">+ Methimazole (ATD)</text>
+  <text x="560" y="350" text-anchor="middle" class="box-text-sm" fill="#ff4d6d">or RAI / Thyroidectomy</text>
+
+  <!-- T4: Subclinical Hyperthyroidism Treatment -->
+  <rect x="610" y="305" width="180" height="52" rx="8" fill="#0b0f1c" stroke="#38bdf8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="700" y="323" text-anchor="middle" class="box-title-md" fill="#38bdf8">Monitor</text>
+  <text x="700" y="340" text-anchor="middle" class="box-text-sm" fill="#38bdf8">Repeat TSH + Free T4</text>
+  <text x="700" y="352" text-anchor="middle" class="box-text-sm" fill="#38bdf8">in 4–6 weeks</text>
+
+  <!-- ========== Merge lines to key tips box ========== -->
+  <line x1="100" y1="357" x2="100" y2="380" class="arrow"/>
+  <line x1="240" y1="357" x2="240" y2="380" class="arrow"/>
+  <line x1="560" y1="357" x2="560" y2="380" class="arrow"/>
+  <line x1="700" y1="357" x2="700" y2="380" class="arrow"/>
+
+  <!-- Horizontal merge lines -->
+  <line x1="100" y1="380" x2="700" y2="380" class="arrow"/>
+  <line x1="400" y1="380" x2="400" y2="395" class="arrow"/>
+
+  <!-- Euthyroid branch now merges into horizontal line above -->
+
+  <!-- ========== Key Points Box ========== -->
+  <rect x="80" y="478" width="640" height="145" rx="8" fill="#0b0f1c" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="400" y="500" text-anchor="middle" class="box-title" fill="#a78bfa">📋 Key Clinical Tips</text>
+  <text x="100" y="518" class="box-text-sm" fill="#94a3b8">• TSH is the first-line screening test — Free T4 adds specificity</text>
+  <text x="100" y="535" class="box-text-sm" fill="#94a3b8">• Always confirm abnormal TSH with Free T4 before starting treatment</text>
+  <text x="100" y="552" class="box-text-sm" fill="#94a3b8">• TPO antibodies help distinguish Hashimoto's (autoimmune hypothyroidism)</text>
+  <text x="100" y="569" class="box-text-sm" fill="#94a3b8">• Subclinical disease: treat only if symptomatic, TSH markedly abnormal, or high risk</text>
+  <text x="100" y="586" class="box-text-sm" fill="#94a3b8">• In hyperthyroidism, control symptoms with beta-blockers before initiating ATD/RAI</text>
+  <text x="100" y="603" class="box-text-sm" fill="#94a3b8">• Pregnant patients: target TSH 0.3–2.5 (1st tri), 0.3–3.0 (2nd/3rd tri)</text>
+  <text x="100" y="618" class="box-text-sm" fill="#94a3b8">• Myxedema coma / thyroid storm are endocrine emergencies — manage in ICU</text>
+
+</svg>

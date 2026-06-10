@@ -1,0 +1,207 @@
+{
+  "topic": {
+    "id": "d118-infx-uti",
+    "name": "UTI & Pyelonephritis",
+    "system": "Infectious Disease",
+    "duration_min": 18,
+    "icon": "\ud83d\udca7",
+    "color": "#f472b6",
+    "objectives": [
+      "Differentiate cystitis vs. pyelonephritis vs. asymptomatic bacteriuria",
+      "Choose appropriate antibiotics based on local resistance patterns",
+      "Manage recurrent UTIs with prophylactic strategies",
+      "Know when to image for complicated UTIs and when to refer"
+    ],
+    "lessons": [
+      {
+        "id": "uti-basics",
+        "title": "\ud83d\udca7 UTI 101: Burning Questions",
+        "duration_min": 6,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Sarah, 24, comes in with 3 days of burning every time she pees. She's peeing every hour, and it hurts so bad she's avoiding water. 'I get these all the time \u2014 can I just get the same antibiotic as last time?' She thinks it's no big deal. But uncomplicated UTIs are the #1 reason women see a PCP \u2014 50-60% of women have at least one in their lifetime. Mismanage it, and that 'simple' infection can climb to the kidneys (pyelonephritis), scar them, or turn into urosepsis. 100,000 hospitalizations/year for pyelo in the US alone.",
+            "visual_desc": "Diagram: Female urinary tract showing bacteria entering through urethra, ascending to bladder (cystitis), with red arrow showing potential further ascent to kidney (pyelonephritis)"
+          },
+          {
+            "type": "definition",
+            "title": "Cystitis vs. Pyelonephritis vs. ASB",
+            "content": "**Uncomplicated UTI** (cystitis): Infection of the bladder in a healthy, non-pregnant, premenopausal woman with normal anatomy. Easiest to treat.\n\n**Complicated UTI**: Risk factors that make treatment harder \u2014 male, pregnancy, diabetes, immunocompromised, renal transplant, structural abnormalities (stones, obstruction, catheters, stents), recent instrumentation, multidrug-resistant organisms. These need longer treatment and careful follow-up.\n\n**Pyelonephritis** (kidney infection): Infection has ascended to the renal pelvis/parenchyma. More systemic, more dangerous.\n\n**Asymptomatic Bacteriuria (ASB)**: Bacteria in the urine (\u226510\u2075 CFU/mL) with NO urinary symptoms. **DO NOT SCREEN OR TREAT** except in pregnancy or before urologic procedures.\n\n| Feature | Cystitis | Pyelonephritis | ASB |\n|---------|----------|---------------|-----|\n| **Dysuria** | \u2705 Severe | \u2705 Present | \u274c |\n| **Frequency/urgency** | \u2705 Yes | \u2705 Yes | \u274c |\n| **Flank pain** | \u274c | \u2705 Severe, unilateral | \u274c |\n| **Fever/chills** | \u274c (maybe low-grade) | \u2705 High (>38.5\u00b0C) | \u274c |\n| **Nausea/vomiting** | \u274c | \u2705 Often | \u274c |\n| **Costovertebral angle tenderness** | \u274c | \u2705 YES | \u274c |\n| **Urgency of treatment** | Within days | IMMEDIATE! | None |\n\n**Key Point**: If a woman has dysuria + fever + flank pain, assume PYELONEPHRITIS until proven otherwise!",
+            "visual_desc": "Split body diagram: LEFT (cystitis): bladder with bacteria, red urethra \u2014 symptoms limited to lower tract. RIGHT (pyelonephritis): same plus red/swollen kidney with bacteria ascending ureter"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "\ud83d\udd25 Asymptomatic Bacteriuria \u2014 DO NOT TREAT!",
+            "content": "**ASB is NOT a UTI!** It's colonization, not infection. Treating it causes more harm than good:\n\u2022 **No benefit** \u2014 doesn't prevent symptomatic UTI or pyelonephritis\n\u2022 **Harm** \u2014 drives antibiotic resistance, antibiotic side effects (C. diff!)\n\u2022 **Waste** \u2014 unnecessary cost and visits\n\n**Exceptions where treatment IS indicated**:\n\u2705 **Pregnancy** (screen at 12-16 weeks \u2014 treat to prevent pyelo, preterm labor)\n\u2705 **Before urologic procedures** (especially TURP, cystoscopy with mucosal breach)\n\n**DO NOT treat** ASB in: elderly, diabetics, catheterized patients, post-menopausal women, renal transplant beyond 1 month post-op.\n\n**Pearl**: 15-50% of elderly women and 15-30% of men >70 have ASB. If you treat their 'positive culture' you'll just get resistance + C. diff. Treat symptoms, not numbers!"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "UTI vs pyelo vs ASB",
+            "mnemonic": "**Cystitis = C**omfortable peeing (burning but no fever). **Pyelo = P**ain in back + **P**yrexia. **ASB = A**bsent **S**ymptoms = **B**ystander (don't treat!)"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Which patient has asymptomatic bacteriuria that should be treated?",
+            "a": [
+              "68yo woman with positive UA, no symptoms",
+              "24yo pregnant woman at 14 weeks with positive culture, no symptoms",
+              "72yo man with catheter and positive culture",
+              "45yo diabetic woman with positive culture, no symptoms"
+            ],
+            "correct": 1,
+            "explanation": "ASB only treated in pregnancy (prevents pyelo/preterm labor) and before urologic procedures. Do NOT treat elderly, catheterized, or diabetic patients for ASB."
+          },
+          {
+            "q": "A 30yo woman has dysuria, frequency, suprapubic pain, but NO fever or flank pain. Diagnosis?",
+            "a": [
+              "Pyelonephritis",
+              "Asymptomatic bacteriuria",
+              "Uncomplicated cystitis",
+              "Urosepsis"
+            ],
+            "correct": 2,
+            "explanation": "Lower tract symptoms only (dysuria, frequency, suprapubic pain) without fever or CVA tenderness = uncomplicated cystitis."
+          }
+        ]
+      },
+      {
+        "id": "uti-treatment",
+        "title": "\ud83d\udc8a Treating UTI: Choosing Wisely",
+        "duration_min": 6,
+        "content_chunks": [
+          {
+            "type": "protocol",
+            "title": "Acute Uncomplicated Cystitis \u2014 First-Line Abx",
+            "content": "**Goal**: 3-5 days of treatment. Shorter courses preferred to reduce resistance!\n\n**First-line options** (2024 IDSA Guidelines):\n\n**1\ufe0f\u20e3 Nitrofurantoin** 100 mg BID \u00d7 **5 days** (NOT 3!)\n\u2022 **Best for**: First-line \u2014 narrow spectrum, low resistance, minimal gut flora disruption\n\u2022 **Avoid**: CrCl <30 mL/min, hepatic impairment\n\u2022 **Pearl**: Concentrates in urine (not blood), so won't work for pyelonephritis\n\n**2\ufe0f\u20e3 TMP-SMX** (Bactrim) 1 DS tab BID \u00d7 **3 days**\n\u2022 **Best for**: If local resistance <20% (check your local antibiogram!)\n\u2022 **Avoid**: Sulfa allergy, G6PD deficiency, elderly (hyperkalemia risk), CrCl <15\n\u2022 **Pearl**: Resistance is RISING \u2014 many areas now >20%, making it second-line\n\n**3\ufe0f\u20e3 Fosfomycin trometamol** 3 gram single dose\n\u2022 **Best for**: Multidrug-resistant organisms, alternative when other options can't be used\n\u2022 **Less effective** than nitrofurantoin or TMP-SMX (lower cure rates)\n\u2022 **Pearl**: Good for extended-spectrum beta-lactamase (ESBL) producers!\n\n**Second-line** (if above can't be used):\n\u2022 **Beta-lactams**: cephalexin 500 mg QID \u00d7 5-7 days, or amoxicillin-clavulanate 875/125 BID \u00d7 5-7 days\n\u2022 **Fluoroquinolones** (ciprofloxacin, levofloxacin): \u26a0\ufe0f **RESERVED** for complicated UTI/pyelo! Avoid for simple cystitis due to side effects (tendon rupture, neuropathy, C. diff, aortic dissection) and resistance.\n\n**Bottom line**: Nitrofurantoin 5 days = current first-line for uncomplicated cystitis.",
+            "visual_desc": "Decision flowchart: Female with dysuria + frequency \u2192 Nitrofurantoin (first-line) \u2192 TMP-SMX (if local resistance <20%) \u2192 Fosfomycin (if MDR organism or allergy) \u2192 Beta-lactam (last resort)"
+          },
+          {
+            "type": "protocol",
+            "title": "Diagnostic Testing: When to Culture?",
+            "content": "**DO you need a urine culture?**\n\n**\u274c NO culture needed**:\n\u2022 Classic uncomplicated cystitis in healthy non-pregnant woman\n\u2022 Treat empirically based on typical symptoms (dysuria + frequency + urgency + no vaginitis)\n\u2022 Save time, money, and reduce unnecessary antibiotic changes\n\n**\u2705 YES, send culture**:\n\u2022 **Complicated UTI** (male, pregnancy, diabetes, elderly, immunocompromised, stones, catheter)\n\u2022 **Pyelonephritis** (always! need sensitivities for target therapy)\n\u2022 **Failed treatment** (symptoms persist after 48 h on appropriate abx)\n\u2022 **Recurrent UTI** (\u22653 per year or \u22652 in 6 months \u2014 culture to document each episode)\n\u2022 **Suspected resistant organism** (prior MDR UTI, recent abx use, travel)\n\u2022 **Preoperative** (before urologic procedures)\n\n**Interpreting the UA**:\n\u2022 **Leukocyte esterase (+)** = pyuria (most sensitive: 75-96%)\n\u2022 **Nitrite (+)** = enterobacteriaceae (specific: 92-100% \u2014 indicates bacteria converting nitrate to nitrite)\n\u2022 **Positive both** \u2192 92% probability of positive culture\n\u2022 **Negative both** \u2192 UTI unlikely (NPV 97%)\n\u2022 **WBCs on micro**: Pyuria confirms inflammation\n\u2022 **False negative nitrite**: Some gram-positives (Enterococcus, Staph saprophyticus) don't produce nitrate reductase",
+            "visual_desc": "Algorithm: Uncomplicated cystitis symptoms \u2192 NO culture \u2192 Start empiric abx. Complicated UTI, pyelo, failure, recurrence \u2192 SEND culture \u2192 Tailor abx based on sensitivities"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "\ud83d\udd25 Staph saprophyticus \u2014 The Young Woman UTI",
+            "content": "**Staphylococcus saprophyticus**: The second most common cause of UTI in young, sexually active women (10-20% of cases).\n\u2022 **Key clues**: Young (16-35), recently sexually active, presents with classic cystitis\n\u2022 **NOT nitrite positive** (staph doesn't make nitrate reductase)\n\u2022 **Treat**: Nitrofurantoin works. TMP-SMX works. Amoxicillin does NOT (resistant).\n\n**Pregnancy UTI \u2014 SPECIAL RULES**:\n\u2022 **Treat ALL positive cultures** (ASB + symptomatic) \u2014 risk of pyelo, preterm labor, low birth weight\n\u2022 **Safe abx**: Nitrofurantoin (NOT in 3rd trimester \u2014 hemolytic anemia), penicillins, cephalosporins, fosfomycin\n\u2022 **AVOID**: TMP (folate antagonist \u2014 risk in 1st trimester), fluoroquinolones (cartilage damage), tetracyclines\n\u2022 **Duration**: 5-7 days for cystitis (longer in pregnancy)\n\u2022 **Follow-up**: Test of cure \u2014 repeat culture 1-2 weeks after treatment!\n\n**Men with UTI**:\n\u2022 ALL UTIs in men are **complicated** (longer urethra \u2192 less likely to get UTI unless something else is wrong)\n\u2022 Think **prostatitis**, obstruction (BPH), stones, STI\n\u2022 **Workup**: DRE (prostate), UA + culture, consider PSA, imaging (post-void residual)\n\u2022 **Treatment**: Fluoroquinolones or TMP-SMX \u00d7 7-14 days (prostate penetration matters)",
+            "visual_desc": "Special populations callout box: Young women (Staph saprophyticus), Pregnant women (treat all, avoid certain drugs), Men (always complicated, think prostatitis)"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "First-line abx for uncomplicated cystitis",
+            "mnemonic": "**NiTRO-fuRANTOIN** = **N**o. **1** \u2014 5 days. **T**ry **TMP-SMX** if resistance <20%. **R**eally resistant \u2192 **O**ther options (fosfomycin)."
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Best first-line antibiotic for a 28yo non-pregnant woman with uncomplicated cystitis?",
+            "a": [
+              "Ciprofloxacin 500 mg BID \u00d7 3 days",
+              "Nitrofurantoin 100 mg BID \u00d7 5 days",
+              "Amoxicillin 500 mg TID \u00d7 7 days",
+              "Cephalexin 500 mg QID \u00d7 7 days"
+            ],
+            "correct": 1,
+            "explanation": "Nitrofurantoin 100 mg BID \u00d7 5 days is first-line for uncomplicated cystitis \u2014 narrow spectrum, low resistance, minimal microbiome disruption. Fluoroquinolones are RESERVED for pyelo/complicated UTI."
+          },
+          {
+            "q": "A 35yo woman returns 3 days after finishing TMP-SMX for UTI with persistent symptoms. Next step?",
+            "a": [
+              "Repeat same antibiotic for longer",
+              "Send urine culture and switch abx based on sensitivity",
+              "Switch to fosfomycin empirically",
+              "Order renal ultrasound"
+            ],
+            "correct": 1,
+            "explanation": "Treatment failure = send CULTURE to guide therapy. Empiric switching without knowing resistance pattern risks continued failure. TMP-SMX resistance is common (>20% in many areas)."
+          }
+        ]
+      },
+      {
+        "id": "pyelonephritis-recognition",
+        "title": "\u2b06\ufe0f Pyelonephritis: When It Goes Upstream",
+        "duration_min": 6,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Linda, 45, came in 4 days ago with dysuria and got nitrofurantoin. Today she's back with shaking chills, fever 39.5\u00b0C, and pain in her right flank so bad she can't stand up straight. She's nauseous and vomited twice. Her right costovertebral angle is exquisitely tender to percussion. This is pyelonephritis \u2014 the UTI has ascended to the kidney. If not treated aggressively, it can progress to **urosepsis**: hypotension, bacteremia, ICU. Pyelonephritis accounts for 250,000 ER visits and 100,000 hospitalizations yearly. You MUST recognize it early and hit hard.",
+            "visual_desc": "Body diagram with red highlight: urethra \u2192 bladder \u2192 ureter \u2192 right kidney (swollen, inflamed, with abscess shown). Thermometer showing fever 39.5\u00b0C, hand pressing on right flank with grimace icon"
+          },
+          {
+            "type": "definition",
+            "title": "Pyelonephritis \u2014 Confirming the Diagnosis",
+            "content": "**Clinical Diagnosis**: Fever >38\u00b0C (100.4\u00b0F) + flank pain/CVA tenderness + systemic symptoms (rigors, nausea/vomiting, malaise).\n\n**Diagnostic criteria**:\n\u2022 **UA**: WBC casts (pathognomonic \u2014 indicates renal parenchymal involvement!), pyuria, positive LE/nitrite\n\u2022 **Cultures**: ALWAYS send urine culture + blood cultures (positive in 20-30% of pyelo cases)\n\u2022 **Labs**: CBC (\u2191 WBC with left shift), BMP (check Cr \u2014 kidney function affects abx choice), blood cultures \u00d7 2\n\n**Imaging \u2014 When to Order**:\n\u2705 **CT abdomen/pelvis without contrast** (best test):\n   \u2022 Kidneys: enlarged, perinephric stranding, delayed nephrogram\n   \u2022 Can identify: abscesses, stones, obstruction, emphysematous pyelonephritis\n   \n\u2705 **Renal ultrasound**:\n   \u2022 Good alternative if CT not available (pregnancy, contrast allergy)\n   \u2022 Can detect hydronephrosis, stones, abscesses >2 cm\n\n**When to image (ALL of these are indications)**:\n\u2022 **No clinical improvement after 48-72 hours of appropriate antibiotics**\n\u2022 **Recurrent pyelonephritis** (>2 episodes in 12 months)\n\u2022 **Complicated UTI** (stones, obstruction, diabetes, immunocompromised, transplant)\n\u2022 **Emphysematous pyelonephritis suspected** (gas-forming infection \u2014 diabetics!)\n\u2022 **All men with pyelonephritis** (rule out obstruction, stones, abscess)\n\u2022 **Severe illness** or atypical presentation",
+            "mnemonic": "**CVAT + fever = PYELO**: **C**ostovertebral angle **T**enderness + **F**ever = **P**yelonephritis. Order UA + culture + blood cultures + consider imaging",
+            "visual_desc": "CT scan image overlay: enlarged right kidney with perinephric stranding (inflammation), mild hydronephrosis, with left normal kidney for comparison"
+          },
+          {
+            "type": "protocol",
+            "title": "Treatment: Outpatient vs. Inpatient",
+            "content": "**OUTPATIENT** (mild-moderate, reliable patient):\n**Criteria**:\n\u2022 Hemodynamically stable (normal BP, HR)\n\u2022 No nausea/vomiting (can tolerate PO)\n\u2022 No signs of sepsis\n\u2022 No pregnancy\n\u2022 No complicated factors (stones, obstruction, immunocompromise)\n\u2022 Reliable + can follow up in 24-48 hours\n\n**Oral Regimens** (treat \u226514 days total):\n\u2022 **Ciprofloxacin** 500 mg BID \u00d7 7 days (if resistance <10%)\n\u2022 **Levofloxacin** 750 mg daily \u00d7 5 days (if resistance <10%)\n\u2022 **TMP-SMX** DS BID \u00d7 14 days (if sensitivities known and susceptible)\n\u2022 **Amoxicillin-clavulanate** 875/125 BID plus a fluoroquinolone if allergy concerns\n\n**INPATIENT** (moderate-severe or complicated):\n**Admit if**:\n\u2022 SBP <90 or HR >120\n\u2022 High fever >39.5\u00b0C\n\u2022 Intractable vomiting/dehydration\n\u2022 Pregnancy (admit ALL pregnant pyelo patients!)\n\u2022 Immunocompromised\n\u2022 Renal transplant\n\u2022 Age >65 with comorbidities\n\u2022 Suspected obstruction (stone, stricture)\n\u2022 Failed oral therapy\n\u2022 Signs of sepsis/SIRS (temp >38 or <36, HR >90, RR >20, WBC >12K or <4K)\n\n**IV Regimens** (switch to PO when afebrile \u00d7 24-48 hours):\n\u2022 **Ceftriaxone** 1 gram IV daily (most common \u2014 covers most gram-negatives)\n\u2022 **Cefepime** 1 gram IV q12h (if pseudomonas risk)\n\u2022 **Piperacillin-tazobactam** (Zosyn) 3.375 g IV q6h (broad spectrum)\n\u2022 **Gentamicin/tobramycin** (aminoglycosides) \u2014 nephrotoxic, used with caution\n\u2022 **Fluoroquinolones** IV if no contraindications\n\n**Total duration**: 14 days for all pyelonephritis (IV + PO combined). Treat until afebrile for 24-48 hours, then complete course orally.",
+            "visual_desc": "Decision tree: Pyelonephritis diagnosis \u2192 Assess severity (SBP <90, fever >39.5, vomiting, pregnancy, etc.) \u2192 YES to any = ADMIT (IV abx). NO to all = Outpatient (PO abx, follow up in 24-48h)"
+          },
+          {
+            "type": "checklist",
+            "title": "Recurrent UTI \u2014 Prophylaxis Strategies",
+            "content": "**Definition**: \u22653 culture-documented UTIs per year OR \u22652 in 6 months.\n\n**Step 1 \u2014 Confirm it's real**:\n\u2705 Document each episode with culture (don't rely on symptoms alone)\n\u2705 Rule out complicated factors (imaging if recurrent)\n\u2705 Exclude STI mimics (chlamydia, gonorrhea, trichomonas, mycoplasma)\n\u2705 Check for vaginitis: bacterial vaginosis, yeast \u2014 dysuria can be from vaginitis, not UTI!\n\n**Step 2 \u2014 Behavioral modifications**:\n\u2705 **Hydrate!** \u2014 aim for 2-3 L/day\n\u2705 **Void after intercourse** (reduces risk 30-50%)\n\u2705 **Wipe front to back** (always!)\n\u2705 **Avoid spermicides** (alter vaginal flora \u2192 \u2191 UTI risk)\n\u2705 **Consider D-mannose** 2 g daily (some data showing reduction in recurrent UTI)\n\u2705 **Cranberry** (Vaccinium macrocarpon) \u2014 proanthocyanidins prevent bacterial adherence. Useful for PREVENTION (not treatment). 500 mg daily or 8 oz unsweetened juice. Modest benefit.\n\n**Step 3 \u2014 Prophylactic antibiotics** (if behavioral measures fail):\n\n**Continuous prophylaxis** (for \u22653 UTIs/year \u2014 take for 6-12 months):\n\u2022 **Nitrofurantoin** 50-100 mg nightly\n\u2022 **TMP-SMX** \u00bd SS tab nightly\n\u2022 **Cephalexin** 125-250 mg nightly\n\u2022 **Norfloxacin** 200 mg nightly (reserved)\n\n**Post-coital prophylaxis** (if UTIs clearly linked to intercourse):\n\u2022 Take ONE dose within 2 hours after sex\n\u2022 Same abx options as above\n\u2022 Less total antibiotic exposure than continuous!\n\n**Self-start therapy** (reliable patient with clear symptoms):\n\u2022 Prescribe a 3-day course of abx to keep at home\n\u2022 Patient starts at first symptoms, reports to clinic within 72 hours\n\u2022 Good for patients who recognize UTI symptoms clearly\n\n**Step 4 \u2014 Non-antibiotic options**:\n\u2022 **Vaginal estrogen** (post-menopausal women!) \u2014 restores vaginal lactobacilli, reduces pH, \u2193 UTI risk dramatically. FIRST-LINE for post-menopausal recurrent UTI!\n\u2022 **D-Mannose** 2 g daily \u2014 some evidence\n\u2022 **Methenamine hippurate** \u2014 converts to formaldehyde in acidic urine (bacteriostatic, modest benefit)",
+            "visual_desc": "Pyramid: Base (behavioral: hydrate, void post-coital, front-to-back) \u2192 Middle (prophylactic abx: continuous or post-coital) \u2192 Top (advanced: vaginal estrogen for post-menopausal, D-mannose, self-start therapy)"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "Admission criteria for pyelonephritis",
+            "mnemonic": "**SICK-P** \u2014 **S**epsis signs (hypotension, tachycardia), **I**ntractable vomiting, **C**omplicated (stones, obstruction), **K**idney transplant / immunocompromised, **P**regnancy"
+          },
+          {
+            "trigger": "Recurrent UTI treatment ladder",
+            "mnemonic": "**BE-VEST**: **B**ehavior changes \u2192 **E**strogen (vaginal) \u2192 **V**oid post-coital \u2192 **E**very night abx \u2192 **S**elf-start therapy \u2192 **T**ake imaging"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Which patient with pyelonephritis can be treated as an OUTPATIENT?",
+            "a": [
+              "28yo healthy woman, fever 38.2\u00b0C, mild flank pain, no vomiting",
+              "Pregnant woman at 20 weeks",
+              "65yo diabetic with temp 39.8\u00b0C",
+              "45yo man with flank pain and obstruction on imaging"
+            ],
+            "correct": 0,
+            "explanation": "Outpatient candidates must be: hemodynamically stable, non-pregnant, no vomiting, no complicated factors, reliable for follow-up. Pregnancy, high fever, diabetes + age >65, and obstruction all require admission."
+          },
+          {
+            "q": "Best first-line prophylaxis for a 68yo post-menopausal woman with 4 UTIs in the past year?",
+            "a": [
+              "Daily nitrofurantoin",
+              "Daily TMP-SMX",
+              "Vaginal estrogen cream",
+              "Cranberry juice only"
+            ],
+            "correct": 2,
+            "explanation": "Vaginal estrogen is FIRST-LINE in post-menopausal women \u2014 restores vaginal lactobacilli, reduces pH, and dramatically reduces UTI risk. Try non-antibiotic options first before committing to daily antibiotic prophylaxis!"
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Ninja Nerd",
+        "title": "Urinary Tract Infection (UTI)",
+        "url": "https://www.youtube.com/watch?v=JANE0GNnnXc",
+        "duration": "36 min"
+      },
+      {
+        "source": "Osmosis",
+        "title": "Urinary Tract Infection (UTI) \u2014 Causes, Symptoms, Diagnosis, Treatment, Pathology",
+        "url": "https://www.youtube.com/watch?v=KIZhgrLGB0M",
+        "duration": "9 min"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "topic": {
+    "id": "immunizations",
+    "name": "Childhood Immunization Schedule",
+    "system": "Pediatrics",
+    "duration_min": 15,
+    "icon": "\ud83e\uddd2",
+    "color": "#38bdf8",
+    "category": "Health Supervision",
+    "objectives": [],
+    "lessons": [
+      {
+        "id": "immunizations-section",
+        "title": "Childhood Immunization Schedule",
+        "duration_min": 15,
+        "content_chunks": [
+          {
+            "concept": "Birth to 6 Months: The Foundation",
+            "visual_description": "Think of vaccines as armor building up in layers",
+            "details": [
+              "**Birth**: Hepatitis B #1 (within 24 hours)",
+              "**2 months**: DTaP #1, IPV #1, Hib #1, PCV13 #1, Rotavirus #1, Hep B #2",
+              "**4 months**: DTaP #2, IPV #2, Hib #2, PCV13 #2, Rotavirus #2",
+              "**6 months**: DTaP #3, Hib #3, PCV13 #3, Rotavirus #3 (if 3-dose series), Hep B #3, start annual flu"
+            ],
+            "mnemonic": "**'2-4-6 months = All the same PLUS Hep B at 2 and 6'** - Remember most vaccines given at all three visits"
+          },
+          {
+            "concept": "12-15 Months: The MMR Milestone",
+            "visual_description": "One-year mark brings the 'big shot' series",
+            "details": [
+              "**12 months**: MMR #1, Varicella #1, Hep A #1, PCV13 #4 (final)",
+              "**15 months**: DTaP #4, Hib #4 (final)",
+              "**18 months**: Hep A #2 (6 months after #1)"
+            ],
+            "clinical_pearl": "\u26a0\ufe0f MMR is a LIVE vaccine - don't give if immunocompromised! Also contraindicated in pregnancy."
+          },
+          {
+            "concept": "Preschool Boosters (4-6 years)",
+            "visual_description": "Booster shots before kindergarten - immunity needs reinforcement",
+            "details": [
+              "**4-6 years**: DTaP #5 (final childhood), IPV #4 (final), MMR #2, Varicella #2",
+              "These are required for school entry in most states"
+            ],
+            "mnemonic": "**'K-5 vaccines'** = Kindergarten needs 5 vaccines (DTaP, IPV, MMR, Varicella... and you need sleep after counting to 5)"
+          },
+          {
+            "concept": "Adolescent Vaccines (11-12 years)",
+            "visual_description": "Teen vaccines protect against meningitis and HPV cancers",
+            "details": [
+              "**11-12 years**: Tdap booster (one-time), MenACWY #1, HPV series (2 doses if started before 15yo)",
+              "**16 years**: MenACWY #2, consider MenB (2 or 3-dose series)",
+              "Continue annual flu vaccine"
+            ],
+            "clinical_pearl": "\ud83c\udfaf HPV vaccine prevents 6 types of cancer! Start at 11-12yo for best response (before sexual debut)."
+          }
+        ],
+        "story_intro": {
+          "text": "Baby Sophia's mom pulls out a crumpled paper, 'Which shots does she need today? My friend said vaccines cause autism.' You take a deep breath - time for vaccine education! Let's master the CDC schedule and tackle vaccine hesitancy.",
+          "visual_cue": "\ud83d\udc89 Picture Sophia's vaccine record with colorful stickers for each shot, while mom nervously scrolls through vaccine myths on her phone."
+        },
+        "quick_checks": [],
+        "mnemonics": [],
+        "clinical_pearls": [
+          "**Vaccine Spacing Rules**: Live vaccines (MMR, Varicella) must be given same day OR 28+ days apart. Inactivated vaccines can be given anytime.",
+          "**Catch-Up Schedule**: Use CDC catch-up schedule if behind. Minimum intervals exist (don't need to restart series if late!).",
+          "**Vaccine Safety**: Vaccines DO NOT cause autism (study retracted, proven fraud). Serious reactions extremely rare (<1 in million).",
+          "**Premature Infants**: Give vaccines at chronological age (not corrected age). Only exception: Hep B if <2kg birth weight.",
+          "**Egg Allergy**: No longer contraindication for influenza vaccine (can give flu shot even with egg allergy).",
+          "**Fever Management**: Acetaminophen or ibuprofen PRN for fever/fussiness after vaccines. Pre-medicating may reduce immune response."
+        ],
+        "red_flags": []
+      }
+    ],
+    "videos": [
+      {
+        "source": "Osmosis",
+        "title": "Pediatric Immunization Schedule",
+        "url": "https://www.youtube.com/watch?v=JJG-Z1-vkXg",
+        "duration": "8 min"
+      },
+      {
+        "source": "Ninja Nerd",
+        "title": "Vaccines - Pediatric Nursing",
+        "url": "https://www.youtube.com/watch?v=XP2-FPtkKls",
+        "duration": "25 min"
+      }
+    ]
+  }
+}

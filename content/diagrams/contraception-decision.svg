@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      text { font-family: 'Inter', -apple-system, sans-serif; fill: #e2e8f5; }
+      .title { font-size: 22px; font-weight: 700; fill: #00e5cc; }
+      .subtitle { font-size: 13px; fill: #94a3b8; }
+      .box-text { font-size: 11.5px; }
+      .box-title { font-size: 13px; font-weight: 700; }
+      .tier { font-size: 10px; fill: #64748b; }
+      .arrow { fill: none; stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+      .arrow-yes { fill: none; stroke: #22c55e; stroke-width: 2; marker-end: url(#arrowhead-green); }
+      .arrow-no { fill: none; stroke: #ff4d6d; stroke-width: 2; marker-end: url(#arrowhead-red); }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#334155"/>
+    </marker>
+    <marker id="arrowhead-green" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#22c55e"/>
+    </marker>
+    <marker id="arrowhead-red" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#ff4d6d"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#050810" rx="0"/>
+
+  <!-- Title -->
+  <text x="400" y="34" text-anchor="middle" class="title" filter="url(#glow)">Contraception Decision Tree</text>
+  <text x="400" y="52" text-anchor="middle" class="subtitle">US MEC (CDC Medical Eligibility Criteria) — Shared Decision Making</text>
+
+  <!-- START -->
+  <rect x="260" y="62" width="280" height="34" rx="17" fill="#1e293b" stroke="#00e5cc" stroke-width="1.5"/>
+  <text x="400" y="83" text-anchor="middle" class="box-text" font-weight="700">Does patient want long-acting (LARC)?</text>
+
+  <line x1="400" y1="96" x2="400" y2="110" class="arrow"/>
+
+  <!-- LARC BRANCH (YES) -->
+  <line x1="400" y1="110" x2="130" y2="110" class="arrow-yes"/>
+  <text x="260" y="104" text-anchor="middle" class="box-text" fill="#22c55e">YES</text>
+
+  <rect x="20" y="118" width="220" height="44" rx="8" fill="#0f172a" stroke="#22c55e" stroke-width="2"/>
+  <text x="130" y="138" text-anchor="middle" class="box-title" fill="#22c55e">Tier 1: LARC</text>
+  <text x="130" y="153" text-anchor="middle" class="box-text" fill="#22c55e">Failure rate &lt;1%</text>
+
+  <line x1="130" y1="162" x2="130" y2="178" class="arrow"/>
+
+  <rect x="20" y="178" width="220" height="34" rx="6" fill="#0f172a" stroke="#22c55e" stroke-width="1"/>
+  <text x="130" y="198" text-anchor="middle" class="box-text">Copper IUD (Paragard) — 10-12 yrs</text>
+  <line x1="130" y1="212" x2="130" y2="226" class="arrow"/>
+  <rect x="20" y="226" width="220" height="34" rx="6" fill="#0f172a" stroke="#22c55e" stroke-width="1"/>
+  <text x="130" y="246" text-anchor="middle" class="box-text">Hormonal IUD (Mirena/Kyleena) — 5-8 yrs</text>
+  <line x1="130" y1="260" x2="130" y2="274" class="arrow"/>
+  <rect x="20" y="274" width="220" height="34" rx="6" fill="#0f172a" stroke="#22c55e" stroke-width="1"/>
+  <text x="130" y="294" text-anchor="middle" class="box-text">Nexplanon (etonogestrel implant) — 3 yrs</text>
+  <line x1="130" y1="308" x2="130" y2="322" class="arrow"/>
+
+  <rect x="20" y="322" width="220" height="28" rx="6" fill="rgba(34,197,94,0.1)" stroke="#22c55e" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="130" y="341" text-anchor="middle" class="box-text" fill="#22c55e">Best choice for nulliparous too!</text>
+
+  <!-- NOT LARC BRANCH (NO) -->
+  <line x1="400" y1="110" x2="630" y2="110" class="arrow-red"/>
+  <text x="510" y="104" text-anchor="middle" class="box-text" fill="#ff4d6d">NO</text>
+
+  <rect x="500" y="118" width="280" height="34" rx="8" fill="#0f172a" stroke="#f5b731" stroke-width="1.5"/>
+  <text x="640" y="139" text-anchor="middle" class="box-title" fill="#f5b731">Can patient take estrogen?</text>
+
+  <line x1="640" y1="152" x2="640" y2="168" class="arrow"/>
+  <rect x="470" y="168" width="170" height="44" rx="6" fill="#0f172a" stroke="#f5b731" stroke-width="1"/>
+  <text x="555" y="185" text-anchor="middle" class="box-text" fill="#fbbf24">Contraindications:</text>
+  <text x="555" y="200" text-anchor="middle" class="box-text" fill="#fbbf24">(check each)</text>
+
+  <line x1="470" y1="212" x2="470" y2="224" class="arrow"/>
+  <rect x="470" y="224" width="170" height="18" rx="4" fill="#050810" stroke="#334155" stroke-width="1"/>
+  <text x="555" y="237" text-anchor="middle" class="box-text" fill="#ff4d6d">Migraine with aura</text>
+  <line x1="470" y1="242" x2="470" y2="252" class="arrow"/>
+  <rect x="470" y="252" width="170" height="18" rx="4" fill="#050810" stroke="#334155" stroke-width="1"/>
+  <text x="555" y="265" text-anchor="middle" class="box-text" fill="#ff4d6d">Age &gt;35 + smoker</text>
+  <line x1="470" y1="270" x2="470" y2="280" class="arrow"/>
+  <rect x="470" y="280" width="170" height="18" rx="4" fill="#050810" stroke="#334155" stroke-width="1"/>
+  <text x="555" y="293" text-anchor="middle" class="box-text" fill="#ff4d6d">Hypertension</text>
+  <line x1="470" y1="298" x2="470" y2="308" class="arrow"/>
+  <rect x="470" y="308" width="170" height="18" rx="4" fill="#050810" stroke="#334155" stroke-width="1"/>
+  <text x="555" y="321" text-anchor="middle" class="box-text" fill="#ff4d6d">DVT/PE history</text>
+  <line x1="470" y1="326" x2="470" y2="336" class="arrow"/>
+  <rect x="470" y="336" width="170" height="18" rx="4" fill="#050810" stroke="#334155" stroke-width="1"/>
+  <text x="555" y="349" text-anchor="middle" class="box-text" fill="#ff4d6d">Breast cancer hx</text>
+
+  <!-- Estrogen OK branch (no contraindications) -->
+  <line x1="640" y1="168" x2="750" y2="168" class="arrow-yes"/>
+  <text x="710" y="162" text-anchor="middle" class="box-text" fill="#22c55e">OK</text>
+  <rect x="690" y="178" width="100" height="82" rx="8" fill="#0f172a" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="740" y="196" text-anchor="middle" class="box-title" fill="#a78bfa">Combined</text>
+  <text x="740" y="210" text-anchor="middle" class="box-title" fill="#a78bfa">Methods</text>
+  <text x="740" y="228" text-anchor="middle" class="box-text">Pill (COC)</text>
+  <text x="740" y="242" text-anchor="middle" class="box-text">Patch</text>
+  <text x="740" y="256" text-anchor="middle" class="box-text">Ring</text>
+
+  <!-- Estrogen NO branch -->
+  <line x1="640" y1="354" x2="640" y2="370" class="arrow-red"/>
+  <text x="620" y="364" text-anchor="middle" class="box-text" fill="#ff4d6d">NO estrogen</text>
+
+  <rect x="540" y="370" width="200" height="46" rx="8" fill="#0f172a" stroke="#f5b731" stroke-width="1.5"/>
+  <text x="640" y="389" text-anchor="middle" class="box-title" fill="#f5b731">Tier 2: Non-Estrogen</text>
+  <text x="640" y="406" text-anchor="middle" class="box-text" fill="#f5b731">Failure rate 6-9%</text>
+
+  <line x1="640" y1="416" x2="640" y2="432" class="arrow"/>
+  <rect x="540" y="432" width="200" height="26" rx="6" fill="#0f172a" stroke="#f5b731" stroke-width="1"/>
+  <text x="640" y="450" text-anchor="middle" class="box-text">Progestin-only pill (POP)</text>
+  <line x1="640" y1="458" x2="640" y2="470" class="arrow"/>
+  <rect x="540" y="470" width="200" height="26" rx="6" fill="#0f172a" stroke="#f5b731" stroke-width="1"/>
+  <text x="640" y="488" text-anchor="middle" class="box-text">DMPA injection (Depo-Provera)</text>
+  <line x1="640" y1="496" x2="640" y2="508" class="arrow"/>
+  <rect x="540" y="508" width="200" height="26" rx="6" fill="#0f172a" stroke="#f5b731" stroke-width="1"/>
+  <text x="640" y="526" text-anchor="middle" class="box-text">Implant (also LARC, Tier 1)</text>
+
+  <!-- Bottom: Barrier and EC -->
+  <rect x="20" y="370" width="170" height="46" rx="8" fill="#0f172a" stroke="#ff4d6d" stroke-width="1.5"/>
+  <text x="105" y="389" text-anchor="middle" class="box-title" fill="#ff4d6d">Tier 3: Barrier / EC</text>
+  <text x="105" y="406" text-anchor="middle" class="box-text" fill="#ff4d6d">Failure rate 12-24%</text>
+
+  <line x1="105" y1="416" x2="105" y2="432" class="arrow"/>
+  <rect x="20" y="432" width="170" height="26" rx="6" fill="#0f172a" stroke="#ff4d6d" stroke-width="1"/>
+  <text x="105" y="450" text-anchor="middle" class="box-text">Condoms (male &amp; female)</text>
+  <line x1="105" y1="458" x2="105" y2="470" class="arrow"/>
+  <rect x="20" y="470" width="170" height="26" rx="6" fill="#0f172a" stroke="#ff4d6d" stroke-width="1"/>
+  <text x="105" y="488" text-anchor="middle" class="box-text">Spermicide</text>
+  <line x1="105" y1="496" x2="105" y2="508" class="arrow"/>
+  <rect x="20" y="508" width="170" height="26" rx="6" fill="#0f172a" stroke="#ff4d6d" stroke-width="1"/>
+  <text x="105" y="526" text-anchor="middle" class="box-text">Copper IUD for EC</text>
+
+  <!-- EC callout -->
+  <rect x="20" y="550" width="760" height="38" rx="6" fill="#0f172a" stroke="#f5b731" stroke-width="1"/>
+  <text x="400" y="568" text-anchor="middle" class="box-text" fill="#f5b731">💡 Emergency Contraception: Copper IUD (#1, most effective) · Ulipristal acetate (ella) up to 120h · Levonorgestrel (Plan B) up to 72h</text>
+</svg>

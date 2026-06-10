@@ -1,0 +1,106 @@
+{
+  "topic": {
+    "id": "dev-milestones-infant",
+    "name": "Developmental Milestones: Infancy (0-12 months)",
+    "system": "Pediatrics",
+    "duration_min": 15,
+    "icon": "\ud83e\uddd2",
+    "color": "#38bdf8",
+    "category": "Developmental Milestones",
+    "objectives": [],
+    "lessons": [
+      {
+        "id": "dev-milestones-infant-section",
+        "title": "Developmental Milestones: Infancy (0-12 months)",
+        "duration_min": 15,
+        "content_chunks": [
+          {
+            "concept": "Newborn Reflexes (Present at Birth)",
+            "visual_description": "Imagine a newborn with automatic 'survival programs' built in",
+            "details": [
+              "**Moro Reflex (Startle)**: Baby throws arms out when startled - like catching themselves from falling. Disappears by 4-6 months.",
+              "**Rooting Reflex**: Touch baby's cheek, they turn toward it seeking food - nature's GPS for feeding. Gone by 4 months.",
+              "**Grasp Reflex**: Place finger in palm, baby grips tight - strong enough to support their weight! Fades by 6 months.",
+              "**Stepping Reflex**: Hold baby upright, legs make walking motions - practicing for later. Disappears by 2 months.",
+              "**Tonic Neck Reflex (Fencing)**: Turn baby's head, arm extends on that side - like a fencer's pose. Gone by 5-7 months."
+            ],
+            "mnemonic": "**MRGS-T** = Moro, Rooting, Grasp, Stepping, Tonic neck - the 5 primitive reflexes you MUST know"
+          },
+          {
+            "concept": "Motor Milestones: Rule of 2s, 4s, and 6s",
+            "visual_description": "Watch Emma's motor skills progress like building blocks - each level builds on the last",
+            "details": [
+              "**2 months**: Social smile (first real smile!), follows objects past midline, lifts head 45\u00b0 when prone",
+              "**4 months**: Laughs, rolls front to back, brings hands to midline, bears weight on legs when held",
+              "**6 months**: Sits with support, transfers objects hand-to-hand, stranger anxiety begins, babbles consonants",
+              "**9 months**: Sits without support, crawls, pincer grasp (picks up Cheerios!), says 'mama/dada' non-specifically",
+              "**12 months**: Cruises (walks holding furniture), 2-3 words with meaning, understands 'no', waves bye-bye"
+            ],
+            "mnemonic": "**Rule of 6s for 6-month-old**: Sits up (6 letters), 6 months old, transfers objects between SIX fingers (sort of!)"
+          },
+          {
+            "concept": "Language Development Timeline",
+            "visual_description": "Listen to Emma's voice evolve from coos to words",
+            "details": [
+              "**8 weeks**: Coos (vowel sounds: 'ooh', 'ahh')",
+              "**4 months**: Laughs out loud, squeals, orients to voice",
+              "**6 months**: Babbling (consonants: 'ba-ba', 'da-da')",
+              "**8-10 months**: Responds to name, understands 'no'",
+              "**12 months**: 2-3 words, follows simple commands",
+              "**18 months**: 10-25 words, points to body parts",
+              "**24 months**: 50+ words, 2-word phrases ('mommy up')",
+              "**5 years**: Complete sentences, tells stories"
+            ],
+            "mnemonic": "**CLBR** = Coos (2mo), Laughs (4mo), Babbles (6mo), Real words (12mo)"
+          },
+          {
+            "concept": "Social/Emotional Development",
+            "visual_description": "See how Emma learns to connect with her world",
+            "details": [
+              "**2 months**: Social smile - first intentional communication!",
+              "**6 months**: Stranger anxiety begins (cries with unfamiliar people)",
+              "**9 months**: Separation anxiety peaks (cries when parent leaves)",
+              "**12 months**: Shows preferences for people/toys, imitates gestures"
+            ],
+            "clinical_pearl": "\ud83d\udd0d **RED FLAG**: No social smile by 3 months warrants developmental screening (possible autism spectrum disorder)"
+          }
+        ],
+        "story_intro": {
+          "text": "Meet baby Emma, a 6-month-old visiting for her well-child check. Her mom anxiously asks, 'Is she developing normally?' Let's learn how to assess Emma's development using key milestones that tell us if she's on track.",
+          "visual_cue": "\ud83c\udf7c Picture Emma sitting up with support, reaching for colorful toys, and babbling 'ba-ba-ba' to her parents."
+        },
+        "quick_checks": [],
+        "mnemonics": [],
+        "clinical_pearls": [
+          "**APGAR Scores**: Assessed at 1 and 5 minutes - Appearance, Pulse, Grimace, Activity, Respiration (score 0-2 each, 7-10 normal)",
+          "**Newborn Growth Parameters**: OFC (33-35cm), Length (48-53cm), Weight (2.5-4kg), Chest circumference (30-33cm)",
+          "**Vision Development**: Newborns see 8-12 inches (face distance during feeding). Color vision develops by 3-4 months.",
+          "**Hearing Screening**: All newborns get hearing test before hospital discharge (OAE or ABR)",
+          "**Tummy Time**: Start day one! Prevents flat spots (plagiocephaly) and strengthens neck muscles"
+        ],
+        "red_flags": [
+          "\u274c **By 2 months**: No social smile, not following faces",
+          "\u274c **By 4 months**: Not bringing hands together, unable to support head",
+          "\u274c **By 6 months**: No babbling, not rolling over, not reaching for objects",
+          "\u274c **By 9 months**: No sitting without support, no stranger anxiety",
+          "\u274c **By 12 months**: Not cruising, no words, not pointing",
+          "\u26a0\ufe0f **Loss of ANY previously acquired skill = IMMEDIATE concern**"
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Ninja Nerd",
+        "title": "Developmental Milestones by Age",
+        "url": "https://www.youtube.com/watch?v=Yt2W7JXOVtY",
+        "duration": "15 min"
+      },
+      {
+        "source": "Osmosis",
+        "title": "Developmental Milestones - Pediatric Nursing",
+        "url": "https://www.youtube.com/watch?v=y4b2QuGFPVA",
+        "duration": "8 min"
+      }
+    ]
+  }
+}

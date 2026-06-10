@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dementia vs Delirium Comparison</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        .comparison-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: left;
+            font-size: 1.1em;
+            position: sticky;
+            top: 0;
+        }
+        .comparison-table td {
+            padding: 18px;
+            border-bottom: 1px solid #e0e0e0;
+            vertical-align: top;
+        }
+        .comparison-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        .feature-column {
+            font-weight: bold;
+            color: #2c3e50;
+            width: 25%;
+        }
+        .delirium-column {
+            background: rgba(220, 53, 69, 0.05);
+            border-left: 4px solid #dc3545;
+        }
+        .dementia-column {
+            background: rgba(102, 126, 234, 0.05);
+            border-left: 4px solid #667eea;
+        }
+        .depression-column {
+            background: rgba(108, 117, 125, 0.05);
+            border-left: 4px solid #6c757d;
+        }
+        .key-point {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 4px;
+        }
+        .alert-section {
+            background: #f8d7da;
+            border: 2px solid #dc3545;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+        .alert-section h2 {
+            color: #721c24;
+            margin-top: 0;
+        }
+        .delirium-types {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .type-card {
+            border-radius: 10px;
+            padding: 20px;
+            color: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .hyperactive {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        .hypoactive {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+        .mixed {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        }
+        .type-card h3 {
+            margin: 0 0 15px 0;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+            padding-bottom: 10px;
+        }
+        .management-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .management-card {
+            background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .management-card h3 {
+            margin: 0 0 15px 0;
+            color: #2c3e50;
+            border-bottom: 2px solid rgba(0,0,0,0.1);
+            padding-bottom: 8px;
+        }
+        .dementia-stages {
+            margin: 30px 0;
+        }
+        .stage {
+            background: #f8f9fa;
+            border-left: 5px solid #667eea;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+        .stage h3 {
+            margin: 0 0 12px 0;
+            color: #667eea;
+        }
+        .tips-box {
+            background: #d1ecf1;
+            border: 2px solid #bee5eb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .tips-box h3 {
+            color: #0c5460;
+            margin-top: 0;
+        }
+        .tips-box ul {
+            color: #0c5460;
+        }
+        .mnemonic-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+        .mnemonic-box h2 {
+            margin: 0 0 20px 0;
+        }
+        .mnemonic-item {
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .mnemonic-item strong {
+            font-size: 1.2em;
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 Dementia vs Delirium vs Depression 🧠</h1>
+        <p class="subtitle">The "3 D's" of Cognitive Impairment in Older Adults - D120 Study Guide</p>
+        
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th style="background: #dc3545;">DELIRIUM</th>
+                    <th style="background: #667eea;">DEMENTIA</th>
+                    <th style="background: #6c757d;">DEPRESSION (Pseudodementia)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="feature-column">Onset</td>
+                    <td class="delirium-column">
+                        <strong>ACUTE</strong><br>
+                        Hours to days<br>
+                        <div class="key-point">Sudden, identifiable point in time</div>
+                    </td>
+                    <td class="dementia-column">
+                        <strong>GRADUAL</strong><br>
+                        Months to years<br>
+                        Insidious onset
+                    </td>
+                    <td class="depression-column">
+                        <strong>Subacute</strong><br>
+                        Weeks to months<br>
+                        May coincide with life stressor
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Course/Fluctuation</td>
+                    <td class="delirium-column">
+                        <strong>FLUCTUATING</strong><br>
+                        Waxes and wanes<br>
+                        <div class="key-point">Often worse at night ("sundowning")</div>
+                        Lucid intervals possible
+                    </td>
+                    <td class="dementia-column">
+                        <strong>STABLE</strong><br>
+                        Slowly progressive<br>
+                        Gradual decline<br>
+                        No daily fluctuations (unless delirium superimposed)
+                    </td>
+                    <td class="depression-column">
+                        <strong>Stable/diurnal</strong><br>
+                        May be worse in morning<br>
+                        Consistent throughout day
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Duration</td>
+                    <td class="delirium-column">
+                        <strong>Days to weeks</strong><br>
+                        <div class="key-point">REVERSIBLE if underlying cause treated</div>
+                        Can persist longer in elderly
+                    </td>
+                    <td class="dementia-column">
+                        <strong>Months to years</strong><br>
+                        Chronic, progressive<br>
+                        <strong>Usually IRREVERSIBLE</strong>
+                    </td>
+                    <td class="depression-column">
+                        <strong>Weeks to months</strong><br>
+                        <strong>REVERSIBLE</strong> with treatment
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Attention/Alertness</td>
+                    <td class="delirium-column">
+                        <strong>IMPAIRED</strong><br>
+                        <div class="key-point">Hallmark feature: Cannot maintain attention</div>
+                        Distractible<br>
+                        Alertness fluctuates (hyper/hypoalert)
+                    </td>
+                    <td class="dementia-column">
+                        <strong>NORMAL</strong> (until late stages)<br>
+                        Can focus and attend<br>
+                        Alert
+                    </td>
+                    <td class="depression-column">
+                        <strong>Decreased</strong><br>
+                        Poor concentration<br>
+                        Lack of motivation to attend
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Consciousness Level</td>
+                    <td class="delirium-column">
+                        <strong>ALTERED</strong><br>
+                        <div class="key-point">Defining feature</div>
+                        Hyperalert OR hypoalert<br>
+                        Clouded sensorium
+                    </td>
+                    <td class="dementia-column">
+                        <strong>CLEAR</strong><br>
+                        Normal level of consciousness<br>
+                        Awake and aware
+                    </td>
+                    <td class="depression-column">
+                        <strong>Clear</strong><br>
+                        Normal consciousness
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Memory</td>
+                    <td class="delirium-column">
+                        <strong>Impaired</strong><br>
+                        Recent AND remote affected<br>
+                        Difficulty encoding new memories<br>
+                        Variable
+                    </td>
+                    <td class="dementia-column">
+                        <strong>IMPAIRED</strong><br>
+                        <div class="key-point">Recent memory affected FIRST</div>
+                        Remote memory preserved until later<br>
+                        Progressive worsening
+                    </td>
+                    <td class="depression-column">
+                        <strong>Patchy/inconsistent</strong><br>
+                        "I don't know" responses common<br>
+                        May improve with cueing<br>
+                        Effort-dependent
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Orientation</td>
+                    <td class="delirium-column">
+                        <strong>Impaired</strong><br>
+                        Disoriented to time, place, sometimes person<br>
+                        <div class="key-point">Fluctuates</div>
+                    </td>
+                    <td class="dementia-column">
+                        <strong>Impaired</strong><br>
+                        Progressive: time → place → person<br>
+                        <div class="key-point">Person orientation lost LAST</div>
+                    </td>
+                    <td class="depression-column">
+                        <strong>Usually intact</strong><br>
+                        Oriented unless severely depressed
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Speech/Language</td>
+                    <td class="delirium-column">
+                        <strong>Incoherent, rambling</strong><br>
+                        Slow or rapid<br>
+                        Disorganized<br>
+                        Word-finding difficulty
+                    </td>
+                    <td class="dementia-column">
+                        <strong>Word-finding difficulty</strong><br>
+                        Anomia (later stages)<br>
+                        Aphasia in advanced dementia<br>
+                        May confabulate to fill gaps
+                    </td>
+                    <td class="depression-column">
+                        <strong>Slow, monotone</strong><br>
+                        Low volume<br>
+                        Delayed responses<br>
+                        Normal language structure
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Thought Process</td>
+                    <td class="delirium-column">
+                        <strong>DISORGANIZED</strong><br>
+                        <div class="key-point">Incoherent, illogical</div>
+                        Tangential<br>
+                        Fragmented
+                    </td>
+                    <td class="dementia-column">
+                        <strong>Impoverished</strong><br>
+                        Concrete thinking<br>
+                        Perseveration<br>
+                        Becomes disorganized in late stages
+                    </td>
+                    <td class="depression-column">
+                        <strong>Intact but slowed</strong><br>
+                        Negative, pessimistic content<br>
+                        Rumination
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Perception</td>
+                    <td class="delirium-column">
+                        <strong>Hallucinations/Illusions COMMON</strong><br>
+                        <div class="key-point">Visual > auditory</div>
+                        Misperceptions<br>
+                        Delusions (paranoid, persecutory)
+                    </td>
+                    <td class="dementia-column">
+                        <strong>Usually absent</strong> (early stages)<br>
+                        May occur in moderate-severe dementia<br>
+                        Lewy body dementia: visual hallucinations common
+                    </td>
+                    <td class="depression-column">
+                        <strong>Rare</strong><br>
+                        May have delusions (guilt, worthlessness, somatic)<br>
+                        Psychotic features if severe
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Psychomotor Activity</td>
+                    <td class="delirium-column">
+                        <strong>Variable</strong><br>
+                        • <strong>Hyperactive:</strong> Agitated, restless, combative<br>
+                        • <strong>Hypoactive:</strong> Lethargic, withdrawn, quiet<br>
+                        • <strong>Mixed:</strong> Alternating
+                    </td>
+                    <td class="dementia-column">
+                        <strong>Normal</strong> (early)<br>
+                        May have agitation/wandering (moderate)<br>
+                        Slowed in later stages
+                    </td>
+                    <td class="depression-column">
+                        <strong>Psychomotor retardation</strong><br>
+                        Slowed movements<br>
+                        Decreased activity<br>
+                        OR agitation in some cases
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Sleep-Wake Cycle</td>
+                    <td class="delirium-column">
+                        <strong>DISRUPTED</strong><br>
+                        <div class="key-point">Day-night reversal common</div>
+                        Fragmented sleep<br>
+                        Sundowning
+                    </td>
+                    <td class="dementia-column">
+                        <strong>Fragmented</strong><br>
+                        Sundowning may occur<br>
+                        Worsens as disease progresses
+                    </td>
+                    <td class="depression-column">
+                        <strong>Insomnia or hypersomnia</strong><br>
+                        Early morning awakening<br>
+                        Difficulty falling asleep
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Mood/Affect</td>
+                    <td class="delirium-column">
+                        <strong>Variable, labile</strong><br>
+                        Anxious, fearful<br>
+                        Irritable, angry<br>
+                        Rapidly changing
+                    </td>
+                    <td class="dementia-column">
+                        <strong>Labile</strong><br>
+                        May have depression, apathy<br>
+                        Catastrophic reactions<br>
+                        Mood changes as disease progresses
+                    </td>
+                    <td class="depression-column">
+                        <strong>DEPRESSED</strong><br>
+                        <div class="key-point">Pervasive sadness</div>
+                        Anhedonia<br>
+                        Hopelessness, worthlessness
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Awareness of Deficit</td>
+                    <td class="delirium-column">
+                        <strong>Variable</strong><br>
+                        Often unaware<br>
+                        May be frightened/confused
+                    </td>
+                    <td class="dementia-column">
+                        <strong>Unaware (anosognosia)</strong><br>
+                        <div class="key-point">Lack of insight is common</div>
+                        May deny problems<br>
+                        Confabulation to cover deficits
+                    </td>
+                    <td class="depression-column">
+                        <strong>Very aware</strong><br>
+                        <div class="key-point">Emphasizes failures</div>
+                        "I don't know" frequent<br>
+                        Distressed by deficits
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Effort on Testing</td>
+                    <td class="delirium-column">
+                        <strong>Variable</strong><br>
+                        Fluctuates with alertness<br>
+                        Difficulty sustaining effort
+                    </td>
+                    <td class="dementia-column">
+                        <strong>Tries hard</strong><br>
+                        Attempts to answer<br>
+                        May confabulate<br>
+                        Uses strategies to compensate
+                    </td>
+                    <td class="depression-column">
+                        <strong>Minimal effort</strong><br>
+                        <div class="key-point">"I don't know" answers</div>
+                        Gives up easily<br>
+                        Lacks motivation
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Reversibility</td>
+                    <td class="delirium-column">
+                        <strong>REVERSIBLE</strong><br>
+                        <div class="key-point">Medical emergency - treat underlying cause!</div>
+                        May have residual cognitive deficits<br>
+                        Can unmask dementia
+                    </td>
+                    <td class="dementia-column">
+                        <strong>Usually IRREVERSIBLE</strong><br>
+                        Progressive decline<br>
+                        (Exceptions: Normal pressure hydrocephalus, B12 deficiency, hypothyroidism)
+                    </td>
+                    <td class="depression-column">
+                        <strong>REVERSIBLE</strong><br>
+                        <div class="key-point">Responds to antidepressants</div>
+                        Cognitive function returns to baseline
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="feature-column">Causes/Risk Factors</td>
+                    <td class="delirium-column">
+                        <strong>Precipitating factors:</strong><br>
+                        • Infection (UTI, pneumonia)<br>
+                        • Medications (anticholinergics, benzos, opioids)<br>
+                        • Metabolic (electrolytes, glucose)<br>
+                        • Hypoxia, hypotension<br>
+                        • Dehydration<br>
+                        • Pain<br>
+                        • Surgery/hospitalization<br>
+                        • Sensory impairment<br>
+                        • Constipation/urinary retention
+                    </td>
+                    <td class="dementia-column">
+                        <strong>Types:</strong><br>
+                        • Alzheimer's disease (most common)<br>
+                        • Vascular dementia<br>
+                        • Lewy body dementia<br>
+                        • Frontotemporal dementia<br>
+                        • Mixed dementia<br>
+                        <strong>Risk factors:</strong><br>
+                        • Age, genetics<br>
+                        • Vascular risk factors<br>
+                        • Head trauma
+                    </td>
+                    <td class="depression-column">
+                        <strong>Risk factors:</strong><br>
+                        • History of depression<br>
+                        • Social isolation<br>
+                        • Chronic illness<br>
+                        • Loss/grief<br>
+                        • Medications<br>
+                        • Pain<br>
+                        • Functional decline
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="mnemonic-box">
+            <h2>🎯 Mnemonic: I WATCH DEATH (Delirium Causes)</h2>
+            <div class="mnemonic-item">
+                <strong>I - Infection</strong>
+                UTI, pneumonia, sepsis
+            </div>
+            <div class="mnemonic-item">
+                <strong>W - Withdrawal</strong>
+                Alcohol, benzodiazepines
+            </div>
+            <div class="mnemonic-item">
+                <strong>A - Acute metabolic</strong>
+                Electrolytes, glucose, acidosis, liver/renal failure
+            </div>
+            <div class="mnemonic-item">
+                <strong>T - Trauma/Pain</strong>
+                Head injury, fracture, post-operative pain
+            </div>
+            <div class="mnemonic-item">
+                <strong>C - CNS pathology</strong>
+                Stroke, seizure, bleed, mass
+            </div>
+            <div class="mnemonic-item">
+                <strong>H - Hypoxia</strong>
+                PE, MI, CHF exacerbation, COPD, anemia
+            </div>
+            <div class="mnemonic-item">
+                <strong>D - Deficiencies</strong>
+                Thiamine (B1), B12, folate
+            </div>
+            <div class="mnemonic-item">
+                <strong>E - Endocrine</strong>
+                Hypo/hyperthyroid, hypo/hyperglycemia, Cushing's
+            </div>
+            <div class="mnemonic-item">
+                <strong>A - Acute vascular</strong>
+                Shock, MI, stroke, hypertensive emergency
+            </div>
+            <div class="mnemonic-item">
+                <strong>T - Toxins/Drugs</strong>
+                Medications, poisoning, heavy metals
+            </div>
+            <div class="mnemonic-item">
+                <strong>H - Heavy metals</strong>
+                Lead, mercury
+            </div>
+        </div>
+        
+        <h2 style="text-align: center; margin-top: 40px;">Delirium Subtypes</h2>
+        <div class="delirium-types">
+            <div class="type-card hyperactive">
+                <h3>Hyperactive Delirium (15-20%)</h3>
+                <p><strong>Presentation:</strong></p>
+                <ul>
+                    <li>Agitation, restlessness</li>
+                    <li>Hypervigilance</li>
+                    <li>Fast/loud speech</li>
+                    <li>Combative, uncooperative</li>
+                    <li>Hallucinations prominent</li>
+                    <li>Wandering, attempting to leave</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Recognition:</strong> Easily identified (disruptive)</p>
+            </div>
+            
+            <div class="type-card hypoactive">
+                <h3>Hypoactive Delirium (20-25%)</h3>
+                <p><strong>Presentation:</strong></p>
+                <ul>
+                    <li>Lethargy, withdrawn</li>
+                    <li>Decreased activity</li>
+                    <li>Slow speech/movements</li>
+                    <li>Apathy, somnolence</li>
+                    <li>Decreased alertness</li>
+                    <li>Quiet, "sleepy"</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Recognition:</strong> Often MISSED (mistaken for depression/fatigue)</p>
+            </div>
+            
+            <div class="type-card mixed">
+                <h3>Mixed Delirium (50-60%)</h3>
+                <p><strong>Presentation:</strong></p>
+                <ul>
+                    <li>Alternates between hyper/hypoactive</li>
+                    <li>Fluctuates throughout day</li>
+                    <li>Most common type</li>
+                    <li>Variable symptoms</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Recognition:</strong> Variable - may be missed during quiet periods</p>
+            </div>
+        </div>
+        
+        <div class="alert-section">
+            <h2>🚨 Clinical Assessment: CAM (Confusion Assessment Method)</h2>
+            <p><strong>Most widely used tool for delirium diagnosis - requires features 1 AND 2 AND (3 OR 4):</strong></p>
+            <ol style="font-size: 1.1em; line-height: 2;">
+                <li><strong>Acute onset and fluctuating course</strong> (required)
+                    <ul style="margin-top: 8px;">
+                        <li>Evidence of acute change in mental status from baseline</li>
+                        <li>Does behavior fluctuate during the day?</li>
+                    </ul>
+                </li>
+                <li><strong>Inattention</strong> (required)
+                    <ul style="margin-top: 8px;">
+                        <li>Difficulty focusing attention</li>
+                        <li>Easily distracted</li>
+                        <li>Cannot follow conversation</li>
+                    </ul>
+                </li>
+                <li><strong>Disorganized thinking</strong> (3 or 4 required)
+                    <ul style="margin-top: 8px;">
+                        <li>Rambling, irrelevant conversation</li>
+                        <li>Illogical flow of ideas</li>
+                        <li>Unpredictable switching between subjects</li>
+                    </ul>
+                </li>
+                <li><strong>Altered level of consciousness</strong> (3 or 4 required)
+                    <ul style="margin-top: 8px;">
+                        <li>Alert (normal)</li>
+                        <li>Vigilant (hyperalert)</li>
+                        <li>Lethargic (drowsy, easily aroused)</li>
+                        <li>Stupor (difficult to arouse)</li>
+                        <li>Coma (unarousable)</li>
+                        <li>Anything other than "alert" = abnormal</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        
+        <h2 style="text-align: center; margin-top: 40px;">Management Strategies</h2>
+        <div class="management-grid">
+            <div class="management-card">
+                <h3>🔍 Delirium Management</h3>
+                <p><strong>1. Identify & Treat Underlying Cause</strong></p>
+                <ul>
+                    <li>Review medications (stop culprits)</li>
+                    <li>Check labs: CBC, BMP, glucose, UA/culture, CXR</li>
+                    <li>Treat infection, correct metabolic abnormalities</li>
+                    <li>Adequate hydration, nutrition</li>
+                    <li>Pain management</li>
+                </ul>
+                
+                <p style="margin-top: 15px;"><strong>2. Non-Pharmacologic (FIRST-LINE)</strong></p>
+                <ul>
+                    <li>Reorientation: clocks, calendars, familiar objects</li>
+                    <li>Sensory aids: glasses, hearing aids</li>
+                    <li>Sleep hygiene: reduce nighttime interruptions</li>
+                    <li>Early mobilization</li>
+                    <li>Avoid restraints (increase agitation)</li>
+                    <li>Family/sitter presence</li>
+                    <li>Minimize room changes</li>
+                </ul>
+                
+                <p style="margin-top: 15px;"><strong>3. Pharmacologic (ONLY if safety risk)</strong></p>
+                <ul>
+                    <li><strong>Haloperidol 0.5-1 mg</strong> (hyperactive delirium with aggression)</li>
+                    <li>Atypical antipsychotics: quetiapine, risperidone (lower dose)</li>
+                    <li><strong>Use sparingly, lowest dose, short duration</strong></li>
+                    <li><strong>Avoid benzodiazepines</strong> (worsen delirium) - exception: alcohol withdrawal</li>
+                </ul>
+            </div>
+            
+            <div class="management-card">
+                <h3>🧠 Dementia Management</h3>
+                <p><strong>1. Diagnosis & Evaluation</strong></p>
+                <ul>
+                    <li>Cognitive screening: MMSE, MoCA, SLUMS</li>
+                    <li>Rule out reversible causes: B12, TSH, syphilis</li>
+                    <li>Neuroimaging: CT/MRI (stroke, tumor, NPH)</li>
+                    <li>Functional assessment: ADLs, IADLs</li>
+                </ul>
+                
+                <p style="margin-top: 15px;"><strong>2. Pharmacologic (LIMITED efficacy)</strong></p>
+                <ul>
+                    <li><strong>Cholinesterase inhibitors:</strong> donepezil, rivastigmine, galantamine
+                        <ul>
+                            <li>Mild-moderate Alzheimer's</li>
+                            <li>Modest benefit, slows decline</li>
+                        </ul>
+                    </li>
+                    <li><strong>Memantine:</strong> Moderate-severe Alzheimer's (NMDA antagonist)</li>
+                    <li><strong>Avoid antipsychotics</strong> unless severe behavioral issues (black box warning)</li>
+                </ul>
+                
+                <p style="margin-top: 15px;"><strong>3. Non-Pharmacologic (ESSENTIAL)</strong></p>
+                <ul>
+                    <li>Structured routines, familiar environment</li>
+                    <li>Cognitive stimulation activities</li>
+                    <li>Music therapy, reminiscence therapy</li>
+                    <li>Caregiver education & support</li>
+                    <li>Safety modifications: remove hazards, wandering alerts</li>
+                    <li>Advanced care planning early</li>
+                </ul>
+            </div>
+            
+            <div class="management-card">
+                <h3>😔 Depression Management</h3>
+                <p><strong>1. Screening</strong></p>
+                <ul>
+                    <li>PHQ-9, Geriatric Depression Scale (GDS)</li>
+                    <li>Screen all older adults annually</li>
+                    <li>Rule out medical causes: hypothyroid, B12, medications</li>
+                </ul>
+                
+                <p style="margin-top: 15px;"><strong>2. Pharmacologic</strong></p>
+                <ul>
+                    <li><strong>SSRIs first-line:</strong> sertraline, citalopram, escitalopram
+                        <ul>
+                            <li>Start low, go slow</li>
+                            <li>Monitor for hyponatremia, fall risk</li>
+                        </ul>
+                    </li>
+                    <li><strong>Avoid:</strong> TCAs (anticholinergic), paroxetine (anticholinergic)</li>
+                    <li>Allow 4-6 weeks for response</li>
+                </ul>
+                
+                <p style="margin-top: 15px;"><strong>3. Non-Pharmacologic</strong></p>
+                <ul>
+                    <li>Psychotherapy (CBT, IPT)</li>
+                    <li>Exercise programs</li>
+                    <li>Social engagement, activities</li>
+                    <li>Treatment of comorbid conditions</li>
+                    <li>ECT (severe, treatment-resistant)</li>
+                </ul>
+            </div>
+            
+            <div class="management-card">
+                <h3>🔄 Delirium Prevention (High-Risk Patients)</h3>
+                <p><strong>HELP (Hospital Elder Life Program) Interventions:</strong></p>
+                <ul>
+                    <li><strong>Orientation:</strong> Reorient frequently, cognitive stimulation</li>
+                    <li><strong>Sleep:</strong> Non-pharmacologic sleep protocol, reduce nighttime noise/care</li>
+                    <li><strong>Mobility:</strong> Early mobilization, ambulate 3x/day</li>
+                    <li><strong>Vision/Hearing:</strong> Ensure glasses, hearing aids available</li>
+                    <li><strong>Hydration/Nutrition:</strong> Adequate intake, avoid dehydration</li>
+                    <li><strong>Medications:</strong> Avoid high-risk meds (benzos, anticholinergics)</li>
+                    <li><strong>Pain:</strong> Adequate management (non-opioid when possible)</li>
+                    <li><strong>Bowel/Bladder:</strong> Avoid catheters, treat constipation</li>
+                </ul>
+                <p style="margin-top: 12px; font-weight: bold;">Reduces delirium incidence by 30-40% in hospitalized elderly</p>
+            </div>
+        </div>
+        
+        <div class="tips-box">
+            <h3>💡 Clinical Pearls for D120:</h3>
+            <ul>
+                <li><strong>Delirium is a MEDICAL EMERGENCY</strong> - associated with ↑ mortality, institutionalization, long-term cognitive decline</li>
+                <li><strong>Hypoactive delirium is often MISSED</strong> - don't assume quiet patient is "doing fine"</li>
+                <li><strong>Delirium can UNMASK dementia</strong> - cognitive deficits may persist after delirium resolves, revealing underlying dementia</li>
+                <li><strong>UTI does NOT always = delirium</strong> - asymptomatic bacteriuria is common in elderly; need other symptoms</li>
+                <li><strong>CAM is highly specific (>95%)</strong> - if positive, delirium is very likely present</li>
+                <li><strong>Depression + cognitive complaints = pseudodementia</strong> - reversible with antidepressant treatment</li>
+                <li><strong>Key differentiator: ATTENTION</strong> - impaired in delirium, intact in dementia/depression</li>
+                <li><strong>Sundowning occurs in BOTH</strong> - delirium AND dementia (not specific to either)</li>
+                <li><strong>Don't give benzos for delirium</strong> - worsens confusion (exception: alcohol withdrawal)</li>
+                <li><strong>Dementia + acute change = superimposed delirium</strong> - common, worsens outcomes</li>
+                <li><strong>Recent onset = NOT dementia</strong> - dementia is insidious; sudden confusion = delirium or other acute process</li>
+                <li><strong>"I don't know" answers</strong> - classic for depression (aware of deficits); dementia patients confabulate or try hard</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

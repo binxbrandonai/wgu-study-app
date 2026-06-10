@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650">
+  <defs>
+    <style>
+      text { font-family: 'Inter', -apple-system, sans-serif; fill: #e2e8f5; }
+      .title { font-size: 22px; font-weight: 700; fill: #00e5cc; }
+      .subtitle { font-size: 13px; fill: #94a3b8; }
+      .box-text { font-size: 11px; }
+      .box-title { font-size: 12px; font-weight: 700; }
+      .target { font-size: 14px; font-weight: 700; fill: #f5b731; }
+      .arrow { fill: none; stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+      .arrow-teal { fill: none; stroke: #00e5cc; stroke-width: 2; marker-end: url(#arrowhead-teal); }
+      .arrow-gold { fill: none; stroke: #f5b731; stroke-width: 2; stroke-dasharray: 5,3; marker-end: url(#arrowhead-gold); }
+      .arrow-red { fill: none; stroke: #ff4d6d; stroke-width: 2; marker-end: url(#arrowhead-red); }
+      .box-a { fill: #0b0f1c; stroke: #00e5cc; stroke-width: 1.5; rx: 8; }
+      .box-b { fill: #0b0f1c; stroke: #a78bfa; stroke-width: 1.5; rx: 8; }
+      .box-c { fill: #0b0f1c; stroke: #f5b731; stroke-width: 1.5; rx: 8; }
+      .box-d { fill: #0b0f1c; stroke: #38bdf8; stroke-width: 1.5; rx: 8; }
+      .box-e { fill: #0b0f1c; stroke: #ff4d6d; stroke-width: 1.5; rx: 8; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#334155"/>
+    </marker>
+    <marker id="arrowhead-teal" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#00e5cc"/>
+    </marker>
+    <marker id="arrowhead-gold" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#f5b731"/>
+    </marker>
+    <marker id="arrowhead-red" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#ff4d6d"/>
+    </marker>
+  </defs>
+  <rect width="800" height="650" fill="#020617"/>
+  
+  <text x="400" y="40" text-anchor="middle" class="title">📊 Type 2 Diabetes Management Algorithm</text>
+  <text x="400" y="60" text-anchor="middle" class="subtitle">ADA/EASD 2024 Guidelines · Stepwise Approach Based on Comorbidities</text>
+
+  <!-- Step 1: Diagnosis -->
+  <rect x="250" y="85" width="300" height="55" class="box-a"/>
+  <text x="400" y="108" text-anchor="middle" class="box-title" fill="#00e5cc">Step 1: Diagnose T2DM</text>
+  <text x="400" y="125" text-anchor="middle" class="box-text">A1C ≥6.5% OR FPG ≥126 OR Random ≥200 + symptoms</text>
+
+  <line x1="400" y1="140" x2="400" y2="170" class="arrow"/>
+
+  <!-- Step 2: Lifestyle + Metformin -->
+  <rect x="225" y="170" width="350" height="55" class="box-a"/>
+  <text x="400" y="193" text-anchor="middle" class="box-title" fill="#00e5cc">Step 2: Lifestyle Modification + Metformin</text>
+  <text x="400" y="210" text-anchor="middle" class="box-text">Start Metformin 500mg BID, titrate to 1000mg BID · Diet, Exercise, Weight Loss</text>
+
+  <line x1="400" y1="225" x2="400" y2="255" class="arrow"/>
+
+  <!-- Step 3: Check A1C -->
+  <rect x="275" y="255" width="250" height="40" class="box-c"/>
+  <text x="400" y="275" text-anchor="middle" class="box-title" fill="#f5b731">A1C Check at 3 Months</text>
+  <text x="400" y="290" text-anchor="middle" class="box-text">Target: A1C &lt; 7% (individualize)</text>
+
+  <!-- Branch: On Target vs Not -->
+  <rect x="80" y="320" width="250" height="55" class="box-d"/>
+  <text x="205" y="343" text-anchor="middle" class="box-title" fill="#38bdf8">✅ At Target (A1C &lt; 7%)</text>
+  <text x="205" y="360" text-anchor="middle" class="box-text">Continue Metformin · Recheck q3-6mo</text>
+  <text x="205" y="375" text-anchor="middle" class="box-text">Monitor renal function annually</text>
+
+  <rect x="470" y="320" width="250" height="55" class="box-e"/>
+  <text x="595" y="343" text-anchor="middle" class="box-title" fill="#ff4d6d">❌ Not at Target (A1C ≥ 7%)</text>
+  <text x="595" y="360" text-anchor="middle" class="box-text">Add 2nd Agent — Choose Based on Risk</text>
+
+  <!-- Branch arrows -->
+  <line x1="330" y1="295" x2="205" y2="318" class="arrow-teal"/>
+  <line x1="470" y1="295" x2="595" y2="318" class="arrow-red"/>
+
+  <!-- Comorbidity choices -->
+  <rect x="470" y="400" width="250" height="65" class="box-b"/>
+  <text x="595" y="420" text-anchor="middle" class="box-title" fill="#a78bfa">🫀 ASCVD / CKD / HF</text>
+  <text x="595" y="437" text-anchor="middle" class="box-text">Add SGLT2 Inhibitor (empagliflozin)</text>
+  <text x="595" y="452" text-anchor="middle" class="box-text">OR GLP-1 Agonist (semaglutide)</text>
+  <text x="595" y="467" text-anchor="middle" class="box-text">(Both have CV + renal benefit)</text>
+
+  <rect x="80" y="400" width="250" height="65" class="box-b"/>
+  <text x="205" y="420" text-anchor="middle" class="box-title" fill="#a78bfa">⚖️ No ASCVD / CKD / HF</text>
+  <text x="205" y="437" text-anchor="middle" class="box-text">Add GLP-1 Agonist (weight loss)</text>
+  <text x="205" y="452" text-anchor="middle" class="box-text">OR SGLT2i · OR DPP-4i · OR TZD</text>
+  <text x="205" y="467" text-anchor="middle" class="box-text">Sulfonylurea = least preferred</text>
+
+  <line x1="595" y1="375" x2="595" y2="398" class="arrow-b"/>
+  <line x1="205" y1="375" x2="205" y2="398" class="arrow-b"/>
+
+  <!-- Further intensification -->
+  <rect x="225" y="500" width="350" height="50" class="box-c"/>
+  <text x="400" y="520" text-anchor="middle" class="box-title" fill="#f5b731">Still Not at Target? Triple Therapy or Intensify</text>
+  <text x="400" y="537" text-anchor="middle" class="box-text">Add GLP-1 + SGLT2i · OR Add Basal Insulin (NPH or Glargine)</text>
+
+  <line x1="330" y1="465" x2="400" y2="498" class="arrow-teal"/>
+  <line x1="470" y1="465" x2="400" y2="498" class="arrow-teal"/>
+
+  <line x1="400" y1="550" x2="400" y2="575" class="arrow"/>
+
+  <!-- Insulin intensification -->
+  <rect x="200" y="575" width="400" height="50" class="box-e"/>
+  <text x="400" y="595" text-anchor="middle" class="box-title" fill="#ff4d6d">💉 Advanced: Basal-Bolus Insulin Regimen</text>
+  <text x="400" y="612" text-anchor="middle" class="box-text">Basal (glargine/detemir) + Prandial (lispro/aspart) + Metformin continued</text>
+</svg>

@@ -1,0 +1,908 @@
+{
+  "course": "D119",
+  "title": "Pediatric Primary Care - ADHD Optimized Lessons",
+  "description": "Interactive, story-based lessons for pediatric primary care with visual mnemonics, clinical pearls, and age-specific considerations",
+  "lessons": [
+    {
+      "id": "dev-milestones-infant",
+      "title": "Developmental Milestones: Infancy (0-12 months)",
+      "category": "Developmental Milestones",
+      "story_intro": {
+        "text": "Meet baby Emma, a 6-month-old visiting for her well-child check. Her mom anxiously asks, 'Is she developing normally?' Let's learn how to assess Emma's development using key milestones that tell us if she's on track.",
+        "visual_cue": "🍼 Picture Emma sitting up with support, reaching for colorful toys, and babbling 'ba-ba-ba' to her parents."
+      },
+      "key_concepts": [
+        {
+          "concept": "Newborn Reflexes (Present at Birth)",
+          "visual_description": "Imagine a newborn with automatic 'survival programs' built in",
+          "details": [
+            "**Moro Reflex (Startle)**: Baby throws arms out when startled - like catching themselves from falling. Disappears by 4-6 months.",
+            "**Rooting Reflex**: Touch baby's cheek, they turn toward it seeking food - nature's GPS for feeding. Gone by 4 months.",
+            "**Grasp Reflex**: Place finger in palm, baby grips tight - strong enough to support their weight! Fades by 6 months.",
+            "**Stepping Reflex**: Hold baby upright, legs make walking motions - practicing for later. Disappears by 2 months.",
+            "**Tonic Neck Reflex (Fencing)**: Turn baby's head, arm extends on that side - like a fencer's pose. Gone by 5-7 months."
+          ],
+          "mnemonic": "**MRGS-T** = Moro, Rooting, Grasp, Stepping, Tonic neck - the 5 primitive reflexes you MUST know"
+        },
+        {
+          "concept": "Motor Milestones: Rule of 2s, 4s, and 6s",
+          "visual_description": "Watch Emma's motor skills progress like building blocks - each level builds on the last",
+          "details": [
+            "**2 months**: Social smile (first real smile!), follows objects past midline, lifts head 45° when prone",
+            "**4 months**: Laughs, rolls front to back, brings hands to midline, bears weight on legs when held",
+            "**6 months**: Sits with support, transfers objects hand-to-hand, stranger anxiety begins, babbles consonants",
+            "**9 months**: Sits without support, crawls, pincer grasp (picks up Cheerios!), says 'mama/dada' non-specifically",
+            "**12 months**: Cruises (walks holding furniture), 2-3 words with meaning, understands 'no', waves bye-bye"
+          ],
+          "mnemonic": "**Rule of 6s for 6-month-old**: Sits up (6 letters), 6 months old, transfers objects between SIX fingers (sort of!)"
+        },
+        {
+          "concept": "Language Development Timeline",
+          "visual_description": "Listen to Emma's voice evolve from coos to words",
+          "details": [
+            "**8 weeks**: Coos (vowel sounds: 'ooh', 'ahh')",
+            "**4 months**: Laughs out loud, squeals, orients to voice",
+            "**6 months**: Babbling (consonants: 'ba-ba', 'da-da')",
+            "**8-10 months**: Responds to name, understands 'no'",
+            "**12 months**: 2-3 words, follows simple commands",
+            "**18 months**: 10-25 words, points to body parts",
+            "**24 months**: 50+ words, 2-word phrases ('mommy up')",
+            "**5 years**: Complete sentences, tells stories"
+          ],
+          "mnemonic": "**CLBR** = Coos (2mo), Laughs (4mo), Babbles (6mo), Real words (12mo)"
+        },
+        {
+          "concept": "Social/Emotional Development",
+          "visual_description": "See how Emma learns to connect with her world",
+          "details": [
+            "**2 months**: Social smile - first intentional communication!",
+            "**6 months**: Stranger anxiety begins (cries with unfamiliar people)",
+            "**9 months**: Separation anxiety peaks (cries when parent leaves)",
+            "**12 months**: Shows preferences for people/toys, imitates gestures"
+          ],
+          "clinical_pearl": "🔍 **RED FLAG**: No social smile by 3 months warrants developmental screening (possible autism spectrum disorder)"
+        }
+      ],
+      "clinical_pearls": [
+        "**APGAR Scores**: Assessed at 1 and 5 minutes - Appearance, Pulse, Grimace, Activity, Respiration (score 0-2 each, 7-10 normal)",
+        "**Newborn Growth Parameters**: OFC (33-35cm), Length (48-53cm), Weight (2.5-4kg), Chest circumference (30-33cm)",
+        "**Vision Development**: Newborns see 8-12 inches (face distance during feeding). Color vision develops by 3-4 months.",
+        "**Hearing Screening**: All newborns get hearing test before hospital discharge (OAE or ABR)",
+        "**Tummy Time**: Start day one! Prevents flat spots (plagiocephaly) and strengthens neck muscles"
+      ],
+      "assessment_red_flags": [
+        "❌ **By 2 months**: No social smile, not following faces",
+        "❌ **By 4 months**: Not bringing hands together, unable to support head",
+        "❌ **By 6 months**: No babbling, not rolling over, not reaching for objects",
+        "❌ **By 9 months**: No sitting without support, no stranger anxiety",
+        "❌ **By 12 months**: Not cruising, no words, not pointing",
+        "⚠️ **Loss of ANY previously acquired skill = IMMEDIATE concern**"
+      ],
+      "quick_check": [
+        {
+          "question": "A 4-month-old isn't rolling over yet. Mom is worried. What do you tell her?",
+          "answer": "Normal! Rolling typically starts 4-6 months. Check back at 6-month visit. Focus on what baby CAN do: social smile, head control, bringing hands to midline.",
+          "rationale": "Don't create anxiety over slight delays. Use milestone ranges, not rigid ages."
+        },
+        {
+          "question": "When should you worry about no babbling?",
+          "answer": "By 6 months. No consonant sounds (ba, da, ga) by 6 months warrants hearing test and developmental screening.",
+          "rationale": "Language delays can indicate hearing loss (most common), autism, or developmental delay."
+        },
+        {
+          "question": "What reflex helps you identify cerebral palsy risk in newborns?",
+          "answer": "Persistence of primitive reflexes beyond expected age (e.g., Moro reflex past 6 months suggests neurologic issues).",
+          "rationale": "Reflexes should disappear on schedule. Persistence indicates CNS dysfunction."
+        }
+      ],
+      "screening_tools": [
+        "**ASQ-3 (Ages & Stages Questionnaire)**: Parent-completed at 9, 18, 24, 30 months",
+        "**M-CHAT-R** (Modified Checklist for Autism in Toddlers): Screen at 18 and 24 months",
+        "**Bayley Infant Neurodevelopmental Screen (BINS)**: For at-risk infants",
+        "**Denver II**: Can use but ASQ-3 preferred (better sensitivity/specificity)"
+      ]
+    },
+    {
+      "id": "dev-milestones-toddler",
+      "title": "Developmental Milestones: Toddlers (1-3 years)",
+      "category": "Developmental Milestones",
+      "story_intro": {
+        "text": "Two-year-old Marcus runs into the exam room, shouting 'NO!' when asked to sit down. His exhausted dad sighs, 'Is this normal?' Welcome to the 'terrible twos' - where independence, tantrums, and rapid learning collide. Let's decode toddler development.",
+        "visual_cue": "🏃‍♂️ Picture Marcus: walking, running, climbing everything, saying 'mine!', and having a meltdown over the wrong color cup."
+      },
+      "key_concepts": [
+        {
+          "concept": "Gross Motor: From Walking to Running",
+          "visual_description": "Watch Marcus gain independence through movement",
+          "details": [
+            "**12-15 months**: Walks independently (average 13 months), stoops and recovers",
+            "**18 months**: Runs stiffly, walks up stairs with hand held",
+            "**24 months**: Jumps in place, kicks ball forward, goes up/down stairs holding rail",
+            "**30 months**: Rides tricycle using pedals, alternates feet going upstairs",
+            "**36 months**: Stands on one foot briefly, goes upstairs alternating feet"
+          ],
+          "mnemonic": "**WALK-RUN-JUMP-PEDAL** = 12mo-18mo-24mo-30mo progression"
+        },
+        {
+          "concept": "Fine Motor: Mastering Hands",
+          "visual_description": "See Marcus's hands become precision tools",
+          "details": [
+            "**15 months**: Scribbles spontaneously, stacks 2 blocks",
+            "**18 months**: Removes clothing, dumps objects from container",
+            "**24 months**: Stacks 6-7 blocks, turns pages singly, vertical/horizontal strokes",
+            "**30 months**: Holds crayon with fingers (not fist), copies circle",
+            "**36 months**: Builds tower of 9 blocks, copies cross (+), unbuttons buttons"
+          ],
+          "clinical_pearl": "🎨 Drawing progression: 2yo = vertical line, 3yo = circle, 4yo = cross (+), 5yo = square"
+        },
+        {
+          "concept": "Language Explosion",
+          "visual_description": "Hear Marcus's vocabulary explode from words to sentences",
+          "details": [
+            "**12-13 months**: 2-6 words, follows 1-step commands",
+            "**18 months**: 10-25 words, points to body parts, names pictures",
+            "**20-24 months**: 50+ words, 2-word phrases ('want cookie'), 50% intelligible",
+            "**30 months**: 3-word sentences, uses 'I/me/you', 75% intelligible",
+            "**36 months**: Speaks in complete sentences, 100% intelligible to strangers, tells stories"
+          ],
+          "mnemonic": "**50-3-100 Rule**: 50 words by 2yo, 3-word sentences by 2.5yo, 100% intelligible by 3yo"
+        },
+        {
+          "concept": "Social/Emotional: The Autonomy Battle",
+          "visual_description": "Experience the emotional rollercoaster of toddlerhood",
+          "details": [
+            "**15 months**: Parallel play (plays alongside, not with peers)",
+            "**18 months**: Imitates housework, tantrums begin, says 'no' frequently",
+            "**24 months**: Peak tantrums (every parent's favorite!), beginning symbolic play",
+            "**30 months**: Refers to self by name, beginning imaginary play",
+            "**36 months**: Cooperative play begins, takes turns, shows empathy"
+          ],
+          "clinical_pearl": "💡 Tantrums are NORMAL 1-3 years. They're learning emotional regulation. RED FLAG: Tantrums causing self-injury or lasting >15 minutes most days"
+        }
+      ],
+      "clinical_pearls": [
+        "**Toilet Training Readiness** (usually 24-36 months): Stays dry 2+ hours, shows interest, can follow 2-step commands, walks to bathroom. Average: 24-36 months start, mastery by 4 years.",
+        "**Sleep Needs**: 1-2 yo need 11-14 hours total (including naps). 2-3 yo: 10-13 hours. Naps typically drop by age 3-5.",
+        "**Nutrition**: Toddlers eat like birds! Erratic appetite is normal. Offer 3 meals + 2 snacks. Whole milk until age 2, then switch to 2%/1%.",
+        "**Stranger Danger**: Should diminish by 2-3 years. Persistent severe stranger anxiety may indicate anxiety disorder.",
+        "**'No' Phase**: 18-24 months - they're testing boundaries and asserting independence. Offer choices ('red cup or blue cup?') to reduce power struggles."
+      ],
+      "assessment_red_flags": [
+        "❌ **By 15 months**: Not walking independently (95% walk by 15 months)",
+        "❌ **By 18 months**: <10 words, doesn't point to show interest",
+        "❌ **By 24 months**: <50 words, no 2-word phrases, not imitating",
+        "❌ **By 30 months**: Speech <75% intelligible to parents",
+        "❌ **By 36 months**: Not toilet trained (daytime), no pretend play, speech unintelligible",
+        "⚠️ **Autism red flags**: No pointing by 18mo, no pretend play by 24mo, regression at any age"
+      ],
+      "quick_check": [
+        {
+          "question": "Parents worried their 2-year-old only says 15 words. What do you do?",
+          "answer": "REFER NOW! By 24 months, expect 50+ words and 2-word phrases. This is significant language delay needing hearing test and speech evaluation.",
+          "rationale": "Early intervention (before age 3) dramatically improves language outcomes. Don't 'wait and see' with language delays."
+        },
+        {
+          "question": "When should a child be able to walk up stairs independently?",
+          "answer": "By 24 months with one hand on rail, alternating feet. By 36 months, alternates feet without support going UP.",
+          "rationale": "Stair climbing assesses strength, balance, and motor planning. Delays suggest motor issues."
+        },
+        {
+          "question": "A 2.5-year-old speaks clearly but ONLY in 2-word phrases. Normal?",
+          "answer": "Borderline. By 30 months expect 3-word sentences. Monitor closely - if not improving by 3-year visit, refer to speech therapy.",
+          "rationale": "Sentence length correlates with language development. 2.5yo should be moving beyond telegraphic speech."
+        }
+      ],
+      "anticipatory_guidance": [
+        "🚗 **Safety**: Car seat rear-facing until age 2 or max height/weight. Poison-proof home. Gates on stairs.",
+        "🦷 **Dental**: First dentist visit by age 1 or first tooth. Brush 2x/day with rice-grain fluoride toothpaste.",
+        "📱 **Screen Time**: AAP recommends NO screen time <18 months (except video chat). 18-24mo: co-view only. 2-5yo: <1 hour/day.",
+        "🍎 **Nutrition**: Avoid choking hazards (grapes, hot dogs, popcorn). Whole milk 16-24oz/day. No juice needed (empty calories).",
+        "💤 **Sleep**: Consistent bedtime routine. Transitional object (blanket/stuffed animal) OK after age 1."
+      ]
+    },
+    {
+      "id": "immunizations",
+      "title": "Childhood Immunization Schedule",
+      "category": "Health Supervision",
+      "story_intro": {
+        "text": "Baby Sophia's mom pulls out a crumpled paper, 'Which shots does she need today? My friend said vaccines cause autism.' You take a deep breath - time for vaccine education! Let's master the CDC schedule and tackle vaccine hesitancy.",
+        "visual_cue": "💉 Picture Sophia's vaccine record with colorful stickers for each shot, while mom nervously scrolls through vaccine myths on her phone."
+      },
+      "key_concepts": [
+        {
+          "concept": "Birth to 6 Months: The Foundation",
+          "visual_description": "Think of vaccines as armor building up in layers",
+          "details": [
+            "**Birth**: Hepatitis B #1 (within 24 hours)",
+            "**2 months**: DTaP #1, IPV #1, Hib #1, PCV13 #1, Rotavirus #1, Hep B #2",
+            "**4 months**: DTaP #2, IPV #2, Hib #2, PCV13 #2, Rotavirus #2",
+            "**6 months**: DTaP #3, Hib #3, PCV13 #3, Rotavirus #3 (if 3-dose series), Hep B #3, start annual flu"
+          ],
+          "mnemonic": "**'2-4-6 months = All the same PLUS Hep B at 2 and 6'** - Remember most vaccines given at all three visits"
+        },
+        {
+          "concept": "12-15 Months: The MMR Milestone",
+          "visual_description": "One-year mark brings the 'big shot' series",
+          "details": [
+            "**12 months**: MMR #1, Varicella #1, Hep A #1, PCV13 #4 (final)",
+            "**15 months**: DTaP #4, Hib #4 (final)",
+            "**18 months**: Hep A #2 (6 months after #1)"
+          ],
+          "clinical_pearl": "⚠️ MMR is a LIVE vaccine - don't give if immunocompromised! Also contraindicated in pregnancy."
+        },
+        {
+          "concept": "Preschool Boosters (4-6 years)",
+          "visual_description": "Booster shots before kindergarten - immunity needs reinforcement",
+          "details": [
+            "**4-6 years**: DTaP #5 (final childhood), IPV #4 (final), MMR #2, Varicella #2",
+            "These are required for school entry in most states"
+          ],
+          "mnemonic": "**'K-5 vaccines'** = Kindergarten needs 5 vaccines (DTaP, IPV, MMR, Varicella... and you need sleep after counting to 5)"
+        },
+        {
+          "concept": "Adolescent Vaccines (11-12 years)",
+          "visual_description": "Teen vaccines protect against meningitis and HPV cancers",
+          "details": [
+            "**11-12 years**: Tdap booster (one-time), MenACWY #1, HPV series (2 doses if started before 15yo)",
+            "**16 years**: MenACWY #2, consider MenB (2 or 3-dose series)",
+            "Continue annual flu vaccine"
+          ],
+          "clinical_pearl": "🎯 HPV vaccine prevents 6 types of cancer! Start at 11-12yo for best response (before sexual debut)."
+        }
+      ],
+      "clinical_pearls": [
+        "**Vaccine Spacing Rules**: Live vaccines (MMR, Varicella) must be given same day OR 28+ days apart. Inactivated vaccines can be given anytime.",
+        "**Catch-Up Schedule**: Use CDC catch-up schedule if behind. Minimum intervals exist (don't need to restart series if late!).",
+        "**Vaccine Safety**: Vaccines DO NOT cause autism (study retracted, proven fraud). Serious reactions extremely rare (<1 in million).",
+        "**Premature Infants**: Give vaccines at chronological age (not corrected age). Only exception: Hep B if <2kg birth weight.",
+        "**Egg Allergy**: No longer contraindication for influenza vaccine (can give flu shot even with egg allergy).",
+        "**Fever Management**: Acetaminophen or ibuprofen PRN for fever/fussiness after vaccines. Pre-medicating may reduce immune response."
+      ],
+      "contraindications": [
+        "🚫 **All vaccines**: Severe allergic reaction to previous dose or component",
+        "🚫 **Live vaccines (MMR, Varicella, Rotavirus)**: Immunocompromise, pregnancy, recent immunoglobulin",
+        "🚫 **DTaP**: Encephalopathy within 7 days of previous dose",
+        "🚫 **Rotavirus**: History of intussusception, severe combined immunodeficiency (SCID)",
+        "✅ **NOT contraindications**: Mild illness, antibiotic use, prematurity, breastfeeding, recent exposure to infectious disease"
+      ],
+      "vaccine_hesitancy_responses": [
+        "**'Too many too soon?'** → Infant immune system handles thousands of antigens daily. Vaccines contain <200 antigens total. We give fewer antigens now than in 1980s despite more vaccines.",
+        "**'Autism link?'** → No credible evidence. Original study was fraud, retracted, and author lost medical license. Dozens of studies show no connection.",
+        "**'Natural immunity better?'** → True, BUT diseases can kill/disable. Why risk measles encephalitis, polio paralysis, or pertussis death for slightly better immunity?",
+        "**'Vaccine ingredients toxic?'** → Formaldehyde, aluminum, thimerosal in vaccines are minuscule amounts - less than in breast milk, food, or air we breathe.",
+        "**'My child is healthy?'** → Herd immunity protects vulnerable (babies, immunocompromised). Unvaccinated people caused measles outbreaks in US."
+      ],
+      "quick_check": [
+        {
+          "question": "Mom refuses vaccines because 'it's too many at once.' What do you say?",
+          "answer": "'I understand your concern. Babies fight off thousands of germs daily - their immune systems easily handle vaccine antigens. Delaying vaccines only extends the time your baby is vulnerable to serious diseases. Would you like to review what each vaccine protects against?'",
+          "rationale": "Use motivational interviewing. Don't argue. Provide facts, respect concerns, emphasize disease risks > vaccine risks."
+        },
+        {
+          "question": "4-month-old has fever of 101°F. Give vaccines today?",
+          "answer": "YES! Mild illness (even with fever <102°F) is NOT a contraindication. Only defer if moderate-severe illness.",
+          "rationale": "Many studies show immune response not affected by mild illness. Delaying increases vulnerability window."
+        },
+        {
+          "question": "Which vaccine must be given before 15 weeks of age?",
+          "answer": "Rotavirus first dose! Must start by 14 weeks 6 days (cannot start after 15 weeks). Finish series by 8 months.",
+          "rationale": "Theoretical risk of intussusception increases with age. Strict age limits for rotavirus."
+        }
+      ],
+      "common_side_effects": [
+        "**DTaP**: Local swelling/redness (50%), fever (30%), fussiness. Large local reaction OK - still give next dose.",
+        "**MMR**: Fever days 7-12 post-vaccine (10%), mild rash (5%). Febrile seizures rare (1 in 3,000).",
+        "**Rotavirus**: Mild diarrhea, irritability. Intussusception risk: 1 in 20,000-100,000 (much less than disease risk).",
+        "**HPV**: Injection site pain (very common), syncope (fainting) - keep patient seated 15 min post-vaccine!"
+      ]
+    },
+    {
+      "id": "well-child-visits",
+      "title": "Well-Child Visit Schedule & Components",
+      "category": "Health Supervision",
+      "story_intro": {
+        "text": "You see 'WCV 2-month' on your schedule. What exactly happens at each well-child visit? Beyond vaccines, these visits are your chance to catch problems early, educate parents, and track growth. Let's master the blueprint for each age.",
+        "visual_cue": "📋 Imagine a checklist with Growth 📏, Development 🧠, Vaccines 💉, Screening 🔍, and Anticipatory Guidance 💡 for each visit."
+      },
+      "key_concepts": [
+        {
+          "concept": "AAP Bright Futures Schedule",
+          "visual_description": "Visualize the frequency of visits decreasing as kids get older",
+          "details": [
+            "**First Year (9 visits)**: Newborn (3-5 days), 1mo, 2mo, 4mo, 6mo, 9mo, 12mo",
+            "**Second Year (3 visits)**: 15mo, 18mo, 24mo",
+            "**Ages 2-5 (1/year)**: Annual at 30mo, 3yo, 4yo, 5yo",
+            "**Ages 6-21 (1/year)**: Annual visits",
+            "**KEY**: More frequent when rapid growth/development; less frequent when stable"
+          ],
+          "mnemonic": "**'First year = NINE (like pregnancy), then yearly by age THREE'** (sort of rhymes!)"
+        },
+        {
+          "concept": "Universal Components of EVERY Visit",
+          "visual_description": "Think of it as the 'vital 5' at every visit",
+          "details": [
+            "**1. Growth Assessment**: Plot weight, length/height, BMI (≥2yo), OFC (≤36mo) on CDC growth charts",
+            "**2. Developmental Screening**: Formal screen at 9mo, 18mo, 30mo (ASQ-3). Autism screen at 18mo, 24mo (M-CHAT-R).",
+            "**3. Physical Exam**: Complete system review, age-specific focus (e.g., hip exam in infant, scoliosis in teen)",
+            "**4. Immunizations**: Per CDC schedule. Document in registry!",
+            "**5. Anticipatory Guidance**: Age-appropriate safety, nutrition, sleep, behavior advice"
+          ],
+          "clinical_pearl": "💡 If you only remember ONE thing: **Screen for depression annually age 12+** (PHQ-2 or PHQ-9A)"
+        },
+        {
+          "concept": "Age-Specific Screenings",
+          "visual_description": "Different ages, different focuses - like fishing with different bait",
+          "details": [
+            "**Newborn**: Hearing (OAE/ABR), critical congenital heart disease (pulse ox), state newborn screen (heel stick for metabolic diseases)",
+            "**3-5 days**: Bilirubin if jaundice, weight check (shouldn't lose >10% birth weight)",
+            "**9-12 months**: Hemoglobin/hematocrit (anemia screen), lead risk assessment",
+            "**12 months**: Lead level if high-risk area, tuberculin skin test if high-risk",
+            "**18-24 months**: Autism screening (M-CHAT-R)",
+            "**3-5 years**: Vision and hearing screening (before school entry)",
+            "**9-11 years**: Lipid panel (once between these ages)",
+            "**12+ years**: Depression screening (annually), STI/pregnancy screening if sexually active"
+          ],
+          "mnemonic": "**'Hear-Heart-Heel = Newborn Three'**, **'Lead-Lips-Look = Toddler Three'** (lead, lipids, vision)"
+        },
+        {
+          "concept": "Growth Chart Interpretation",
+          "visual_description": "Growth charts tell a story - read between the lines",
+          "details": [
+            "**Normal Growth**: Follows same percentile (±2 major percentiles) over time. Crossing percentiles = concerning!",
+            "**Weight-for-Length/BMI**: Underweight <5th%, Overweight 85-95th%, Obese >95th%",
+            "**Head Circumference**: <3rd% = microcephaly, >97th% = macrocephaly (both need workup)",
+            "**Birth to 2 years**: WHO growth charts (breastfed standard)",
+            "**2-20 years**: CDC growth charts (BMI becomes more important)"
+          ],
+          "clinical_pearl": "🚨 **Crossing 2+ percentiles** (up or down) = failure to thrive, obesity, or endocrine issue. Investigate!"
+        }
+      ],
+      "clinical_pearls": [
+        "**HEEADSSS Assessment (Adolescents)**: Home, Education, Eating, Activities, Drugs, Sexuality, Suicide, Safety. Screen privately (no parents in room after age 12)!",
+        "**Confidentiality in Teens**: Ages 12+ can consent for STI testing, mental health, and substance abuse treatment (varies by state). Build trust - see teen alone part of visit.",
+        "**Vaccine Discussion**: Address at EVERY visit, even if parents refuse. Document in chart. Motivational interviewing > arguing.",
+        "**Oral Health**: First dental visit by age 1 or first tooth. Fluoride varnish can be applied in primary care at visits (ages 6mo-5yo).",
+        "**Social Determinants**: Screen for food insecurity, housing instability, violence exposure. Connect to resources (WIC, housing assistance, etc.)."
+      ],
+      "anticipatory_guidance_by_age": [
+        {
+          "age": "Newborn-2 months",
+          "guidance": "🍼 Back to sleep (SIDS prevention), breastfeeding support, tummy time while awake, never shake baby, car seat rear-facing"
+        },
+        {
+          "age": "4-6 months",
+          "guidance": "🥄 Start solid foods at 6mo (iron-fortified cereal, purées), introduce allergens early, choking prevention, rolling off surfaces danger"
+        },
+        {
+          "age": "9-12 months",
+          "guidance": "🚼 Poison-proof home, gate stairs, outlet covers, whole milk at 12mo, rear-facing car seat until 2yo minimum"
+        },
+        {
+          "age": "1-2 years",
+          "guidance": "🏃 Tantrum management, discipline strategies, water safety, limited screen time (<1hr/day), brush teeth 2x/day"
+        },
+        {
+          "age": "3-5 years",
+          "guidance": "🎒 Preschool readiness, social skills, bike helmets, car booster seat when outgrow car seat, good touch/bad touch"
+        },
+        {
+          "age": "6-11 years",
+          "guidance": "📚 School performance, bullying, screen time limits (2hr/day), physical activity 1hr/day, internet safety"
+        },
+        {
+          "age": "12-21 years",
+          "guidance": "🚗 Driving safety, dating violence, substance abuse prevention, sexual health/consent, college planning, mental health check-ins"
+        }
+      ],
+      "quick_check": [
+        {
+          "question": "At what ages do you perform formal developmental screening?",
+          "answer": "9 months, 18 months, and 30 months (ASQ-3 or equivalent). Autism-specific screening at 18 and 24 months (M-CHAT-R).",
+          "rationale": "Bright Futures recommends these ages for surveillance. Early detection = early intervention = better outcomes."
+        },
+        {
+          "question": "A 15-month-old's weight dropped from 50th% to 10th%. What do you do?",
+          "answer": "Investigate immediately! Crossing 2 percentiles = failure to thrive. Get detailed diet history, social history, check for chronic illness. May need referral to gastroenterology.",
+          "rationale": "Growth deceleration is pathologic until proven otherwise. Don't attribute to 'picky eating' without thorough workup."
+        },
+        {
+          "question": "When do you start BMI screening?",
+          "answer": "Age 2 years. Plot BMI-for-age on growth chart at every visit from 2-20 years. This is when length changes to standing height.",
+          "rationale": "BMI identifies overweight/obesity early. Interventions most effective when started young."
+        }
+      ]
+    },
+    {
+      "id": "fever-management",
+      "title": "Fever in Infants and Children",
+      "category": "Infectious Disease",
+      "story_intro": {
+        "text": "It's 2 AM. An anxious mother calls: 'My baby has a fever of 101! Should I go to the ER?' Your response depends entirely on one critical question: How old is the baby? Age determines risk. Let's master the age-based fever approach.",
+        "visual_cue": "🌡️ Picture three babies: 3-week-old (PANIC - get to hospital!), 3-month-old (Concern - call office), 3-year-old (Calm - manage at home)."
+      },
+      "key_concepts": [
+        {
+          "concept": "Fever Without Source by Age: The Critical Algorithm",
+          "visual_description": "Think of three risk zones: RED (danger), YELLOW (caution), GREEN (usually safe)",
+          "details": [
+            "**<28 days (RED ZONE - EMERGENCY)**: ADMIT for sepsis workup! Get blood culture, urine culture, CSF culture, CXR. Start empiric IV antibiotics (ampicillin + gentamicin). Risk of serious bacterial infection ~10-15%.",
+            "**29-90 days (YELLOW ZONE - HIGH RISK)**: Temp >38°C (100.4°F) = workup needed. Full sepsis workup if ill-appearing OR fever >39°C. Well-appearing with fever <39°C: minimum UA/UCx, consider blood culture, CXR if respiratory symptoms. Close follow-up!",
+            "**>90 days (GREEN ZONE - LOWER RISK)**: If well-appearing, can often observe at home. Look for source (ear, throat, respiratory). Labs only if ill-appearing or localizing signs. Most fevers viral - don't over-test!"
+          ],
+          "mnemonic": "**<1 month = ADMIT, 1-3 months = ASSESS (labs + close f/u), >3 months = ASSESS APPEARANCE (well? go home!)**"
+        },
+        {
+          "concept": "Fever Definitions & Measurement",
+          "visual_description": "Not all thermometers are equal - route matters!",
+          "details": [
+            "**Fever = ≥100.4°F (38°C)** rectal (gold standard in infants)",
+            "**Rectal**: Most accurate in infants <3 years. Use for all infants <3 months.",
+            "**Oral**: Accurate in kids ≥4 years. Can eat/drink 15 min before.",
+            "**Axillary (armpit)**: LEAST accurate - tends to read low. Don't rely on this!",
+            "**Temporal artery/tympanic**: OK for screening but not definitive in young infants",
+            "**Pacifier thermometers**: Unreliable - don't use for medical decisions"
+          ],
+          "clinical_pearl": "📏 Rectal temp is 0.5-1°F higher than oral. Axillary is 0.5-1°F lower than oral. **Always specify route in documentation!**"
+        },
+        {
+          "concept": "When to Worry: Ill-Appearing Criteria",
+          "visual_description": "Picture a sick baby vs. fussy but playful baby - huge difference!",
+          "details": [
+            "**ILL-APPEARING = Any of**: Lethargic/not interactive, poor eye contact, not consolable, weak cry, cyanosis, grunting, severe respiratory distress, petechiae/purpura",
+            "**WELL-APPEARING**: Alert, playful, consolable, good eye contact, normal cry, pink, feeding normally",
+            "**When in doubt, they're ill-appearing!** Over-caution is appropriate with infants."
+          ],
+          "clinical_pearl": "👶 **Trust parental instincts**: 'She's just not acting right' from a parent is MORE sensitive than your physical exam for serious illness!"
+        },
+        {
+          "concept": "Fever Management: Antipyretics",
+          "visual_description": "Think of fever as a symptom, not the disease - treat discomfort, not the number",
+          "details": [
+            "**Acetaminophen (Tylenol)**: 10-15 mg/kg PO/PR every 4-6 hours (max 5 doses/24hr). Safe for all ages including newborns.",
+            "**Ibuprofen (Motrin/Advil)**: 10 mg/kg PO every 6-8 hours (max 40 mg/kg/day). OK for age ≥6 months only. Better for inflammatory fever.",
+            "**Alternating**: Can alternate acetaminophen and ibuprofen every 3 hours for high fevers (not routinely needed).",
+            "**DON'T USE**: Aspirin in children <18 (Reye's syndrome risk), especially with viral illness",
+            "**Cooling measures**: Lukewarm bath OK. NO ice baths, alcohol rubs (causes shivering, increases temp!)"
+          ],
+          "clinical_pearl": "💊 Goal: Make child comfortable, NOT to normalize temperature. A happy 101°F child needs nothing!"
+        }
+      ],
+      "clinical_pearls": [
+        "**Fever Phobia**: Educate parents that fever is protective (immune response), not dangerous per se. Brain damage doesn't occur until 107-108°F (almost impossible naturally).",
+        "**Febrile Seizures**: 2-5% of kids age 6 mo-5 yr. Simple febrile seizures (<15 min, generalized) are benign. Complex (>15 min, focal, recurrent in 24hr) need workup.",
+        "**Bundling Effect**: Overdressing can cause elevated temp in infants. If temp normalizes when undressed, not true fever.",
+        "**Teething Myth**: Teething does NOT cause high fever (>101°F) or diarrhea. If present, look for another cause.",
+        "**'Fever of Unknown Origin' (FUO)**: Fever >101°F for >14 days without identified cause despite appropriate workup. Think TB, Kawasaki, malignancy, autoimmune."
+      ],
+      "sepsis_workup_specifics": [
+        "**Blood culture**: 1-2 mL minimum (inadequate sample = false negative)",
+        "**Urine culture**: Catheterized or suprapubic tap (bag specimens unreliable - too many false positives)",
+        "**CSF analysis**: Cell count, glucose, protein, culture, Gram stain. MUST do if <28 days with fever!",
+        "**Chest X-ray**: If respiratory symptoms or WBC >20,000",
+        "**Stool culture**: If bloody diarrhea",
+        "**Common organisms <3 months**: E. coli (most common), Group B Strep, Listeria, Enterococcus, herpes simplex"
+      ],
+      "quick_check": [
+        {
+          "question": "A 2-week-old has rectal temp 100.6°F. Well-appearing. What do you do?",
+          "answer": "ADMIT immediately for full sepsis workup (blood, urine, CSF cultures) and empiric IV antibiotics (ampicillin + gentamicin or cefotaxime). Age <28 days = automatic admission, even if well-appearing!",
+          "rationale": "Neonates can't mount effective immune response. 'Well-appearing' can deteriorate rapidly. Serious bacterial infection rate ~12% in this age group."
+        },
+        {
+          "question": "Parent asks: 'Should I wake my child to give fever medicine at night?'",
+          "answer": "NO! If child is sleeping comfortably, sleep is more important than treating fever number. Only give antipyretics if child is uncomfortable or distressed.",
+          "rationale": "Fever itself isn't harmful. Goal is comfort, not normalized temperature. Sleep is healing."
+        },
+        {
+          "question": "5-year-old with 103°F fever for 5 days, now has unilateral cervical lymphadenopathy, strawberry tongue, cracked red lips. Diagnosis?",
+          "answer": "Kawasaki Disease! Fever ≥5 days + 4 of 5: rash, lymphadenopathy, conjunctivitis, mucositis (strawberry tongue/lips), extremity changes. REFER for IV immunoglobulin (IVIG) urgently - prevents coronary artery aneurysms!",
+          "rationale": "Kawasaki is vasculitis. Untreated, 25% develop coronary aneurysms. IVIG within 10 days of fever onset prevents cardiac complications."
+        }
+      ],
+      "red_flags_requiring_immediate_evaluation": [
+        "🚨 **Any fever in infant <28 days**",
+        "🚨 **Ill-appearing at any age** (lethargy, poor perfusion, respiratory distress)",
+        "🚨 **Petechiae or purpura** (meningococcemia concern)",
+        "🚨 **Fever >5 days** (Kawasaki disease, occult serious infection)",
+        "🚨 **Fever + severe headache/stiff neck** (meningitis)",
+        "🚨 **Fever in immunocompromised child** (cancer, sickle cell, asplenia)",
+        "🚨 **Fever >104°F (40°C) in any child** warrants evaluation"
+      ]
+    },
+    {
+      "id": "respiratory-infections",
+      "title": "Common Pediatric Respiratory Infections",
+      "category": "Respiratory",
+      "story_intro": {
+        "text": "It's fall, and your schedule is PACKED with coughs, runny noses, and worried parents asking, 'Does my child need antibiotics?' Let's distinguish viral URIs (no antibiotics!) from bacterial infections (treat!), and recognize when a cough becomes croup or bronchiolitis.",
+        "visual_cue": "🤧 Imagine a lineup: Child with clear runny nose (virus), child with green snot for 2 days (still virus!), child with stridor (croup!), infant with wheezing (bronchiolitis!)."
+      },
+      "key_concepts": [
+        {
+          "concept": "The Common Cold (Viral URI)",
+          "visual_description": "Picture the classic sick kid: runny nose, cough, low-grade fever, otherwise acting OK",
+          "details": [
+            "**Cause**: Rhinovirus most common (>100 serotypes!), also coronavirus, RSV, parainfluenza, adenovirus",
+            "**Symptoms**: Rhinorrhea (clear→yellow/green is normal progression), congestion, cough, low fever (<102°F), sore throat, duration 7-10 days",
+            "**KEY POINT**: Green/yellow mucus does NOT = bacterial infection! Normal viral progression as neutrophils fight virus.",
+            "**Treatment**: Supportive only! Hydration, nasal saline, cool mist humidifier. Honey for cough if age >1 year (1-2 tsp PRN). NO antibiotics!",
+            "**When to worry**: Fever >3 days, severe ear pain, difficulty breathing, not improving after 10 days"
+          ],
+          "clinical_pearl": "💡 'Colds beget colds' - kids average 6-8 URIs per year, daycare kids can get 12! Teach parents this is NORMAL."
+        },
+        {
+          "concept": "Strep Pharyngitis vs. Viral Pharyngitis",
+          "visual_description": "Compare side-by-side: viral (gradual, runny nose, cough) vs. strep (sudden, no cough, high fever)",
+          "details": [
+            "**Strep throat (BACTERIAL)**: Sudden onset, high fever (≥101°F), severe sore throat, NO cough, NO runny nose, headache, abdominal pain, palatal petechiae, tonsillar exudate, tender anterior cervical nodes",
+            "**Viral pharyngitis**: Gradual onset, low fever, sore throat PLUS cough/runny nose/conjunctivitis/hoarseness",
+            "**Modified Centor Score (for age ≥3)**: +1 each for: fever, no cough, tonsillar exudate, tender anterior cervical nodes, age 3-14 years. Score ≥3 = test for strep.",
+            "**Testing**: Rapid strep test (if negative, back up with culture). Don't test if viral symptoms present!",
+            "**Treatment**: Penicillin V 250mg PO BID-TID x10 days OR amoxicillin 50mg/kg once daily x10 days. If allergic: azithromycin or cephalexin (if not anaphylactic to PCN)."
+          ],
+          "mnemonic": "**'No Cough = Consider Strep'** - Cough points to viral"
+        },
+        {
+          "concept": "Otitis Media: The Ear Infection Debate",
+          "visual_description": "Picture a bulging red tympanic membrane pushing outward vs. a pink, translucent normal TM",
+          "details": [
+            "**Diagnostic Criteria (must have ALL)**: Middle ear effusion (bulging TM, decreased mobility, air-fluid level) + signs of inflammation (red/bulging) + acute symptoms (fever, ear pain, irritability)",
+            "**Common pathogens**: S. pneumoniae, H. influenzae, M. catarrhalis",
+            "**Watchful Waiting OK if**: Age ≥6 months, non-severe (mild pain, fever <102.2°F), unilateral, otherwise healthy. Follow up in 48-72 hours.",
+            "**Treat immediately if**: Age <6 months, bilateral in <2 years, severe symptoms (fever ≥102.2°F, moderate-severe pain), immunocompromised, tympanic membrane perforation",
+            "**First-line**: High-dose amoxicillin 80-90 mg/kg/day divided BID x 10 days (age <2) or 5-7 days (age ≥2)",
+            "**If PCN allergy**: Cefdinir or azithromycin. If recent amoxicillin: use amoxicillin-clavulanate."
+          ],
+          "clinical_pearl": "👂 **Red TM alone ≠ infection!** Kids cry, TMs get red. Need bulging/effusion + symptoms. Also, 80% resolve without antibiotics (but we treat to prevent complications)."
+        },
+        {
+          "concept": "Croup (Laryngotracheobronchitis)",
+          "visual_description": "Hear the classic 'seal bark' cough and inspiratory stridor - unmistakable!",
+          "details": [
+            "**Cause**: Parainfluenza virus (most common), also RSV, influenza, adenovirus",
+            "**Age**: 6 months to 3 years (peak fall/winter)",
+            "**Symptoms**: 'Seal bark' or 'brassy' cough, inspiratory stridor (worse when agitated), hoarseness, respiratory distress, worse at night",
+            "**Severity grading**: Mild (occasional stridor with activity), Moderate (stridor at rest, mild retractions), Severe (stridor at rest + significant distress + retractions + lethargy)",
+            "**Treatment**: Dexamethasone 0.6 mg/kg PO/IM/IV x1 dose (all severities!). Nebulized racemic epinephrine if moderate-severe (lasts 2 hours - observe!). Cool mist, calm environment.",
+            "**When to admit**: Severe distress, hypoxia, poor response to epinephrine, unable to tolerate PO, young age <6mo"
+          ],
+          "mnemonic": "**'CROUP = Cool mist, Racemic epi, Observe, U need dex (dexamethasone), Parent reassurance'**"
+        },
+        {
+          "concept": "Bronchiolitis: The RSV Season Scourge",
+          "visual_description": "Picture a wheezy infant with nasal flaring, working hard to breathe, barely eating",
+          "details": [
+            "**Cause**: RSV (70%), also human metapneumovirus, rhinovirus, parainfluenza",
+            "**Age**: Peak <2 years, especially <6 months",
+            "**Symptoms**: URI prodrome 2-3 days → progressive cough, wheezing, tachypnea, increased work of breathing, poor feeding, fever variable",
+            "**Exam**: Tachypnea, wheezing, crackles, nasal flaring, retractions, prolonged expiratory phase",
+            "**Treatment**: SUPPORTIVE ONLY! Hydration (IV if not tolerating PO), supplemental O2 if SpO2 <90%, nasal suctioning. NO bronchodilators, NO steroids, NO antibiotics (unless secondary bacterial infection).",
+            "**When to admit**: Age <3 months, SpO2 <90%, severe distress, dehydration, apnea, high-risk (premature, cardiac/pulmonary disease, immunocompromised)",
+            "**Prevention**: Palivizumab (Synagis) monthly IM during RSV season for high-risk infants (ex-premature <29 weeks, CHD, chronic lung disease)"
+          ],
+          "clinical_pearl": "🚫 **Bronchiolitis = DO LESS!** Studies show albuterol, steroids don't help (it's virus, not asthma). Supportive care is the only proven treatment."
+        }
+      ],
+      "clinical_pearls": [
+        "**The '10-Day Rule'**: URI symptoms >10 days without improvement may indicate bacterial sinusitis (rare in kids!). Need purulent nasal discharge AND (facial pain OR daytime cough). Treat with amoxicillin-clavulanate if criteria met.",
+        "**When NOT to use antibiotics**: Green snot (normal with viral URI), cough <14 days, low-grade fever <3 days, bronchiolitis, croup, asymptomatic rhinorrhea",
+        "**Honey for cough**: 1-2 tsp at bedtime for kids ≥1 year. As effective as dextromethorphan! Never in infants <1 year (botulism risk).",
+        "**Over-the-counter cough/cold meds**: DO NOT USE in kids <6 years (FDA warning). Ineffective and potential for overdose. Ages 6-12: can use but limited benefit.",
+        "**Pneumonia red flags**: Persistent fever >3 days, hypoxia, respiratory distress, focal findings (decreased breath sounds, dullness to percussion)"
+      ],
+      "antibiotic_pearls": [
+        "**High-dose amoxicillin**: 80-90 mg/kg/day (up from old 40-45 mg/kg/day) due to resistant S. pneumoniae. Max 3g/day.",
+        "**Amoxicillin-clavulanate**: Use if failed amoxicillin, recent antibiotic use (<30 days), or risk factors for resistance. Dose based on amoxicillin component.",
+        "**Azithromycin caveat**: Resistance increasing in strep and pneumococcus. Reserve for true PCN allergy.",
+        "**Treatment failure**: If no improvement in 48-72 hours on amoxicillin, switch to amoxicillin-clavulanate or ceftriaxone IM."
+      ],
+      "quick_check": [
+        {
+          "question": "3-year-old with runny nose, cough, low fever for 4 days. Nasal discharge now yellow-green. Parents want antibiotics. What do you do?",
+          "answer": "Reassure this is VIRAL! Yellow/green mucus is normal progression (neutrophils fighting infection). No antibiotics unless symptoms persist >10 days OR worsen after initial improvement. Supportive care only.",
+          "rationale": "Color of mucus does NOT indicate bacterial infection. Most URIs resolve 7-10 days. Antibiotics won't help and cause resistance + side effects."
+        },
+        {
+          "question": "18-month-old with fever 102°F, pulling at right ear, sleeping poorly. Right TM is red but not bulging, moves well with pneumatic otoscopy. Diagnosis?",
+          "answer": "NOT otitis media (yet). Red TM without bulging/effusion/decreased mobility = likely viral URI with referred pain or myringitis. Observe with pain control. Recheck if worsens or doesn't improve in 48-72 hours.",
+          "rationale": "Otitis media requires BOTH effusion (bulging/immobile TM) AND symptoms. Red TM alone from crying or viral inflammation doesn't warrant antibiotics."
+        },
+        {
+          "question": "2-month-old with 3 days of runny nose, now has wheezing, tachypnea (RR 70), nasal flaring, feeding only 1-2 oz per feed. SpO2 91%. Next step?",
+          "answer": "Admit for bronchiolitis! Age <3 months, respiratory distress, poor feeding, borderline hypoxia = admission for supportive care (hydration, O2, monitoring for apnea). NO albuterol or steroids.",
+          "rationale": "Young infants with bronchiolitis decompensate quickly. Risk of apnea. Need close monitoring. Bronchodilators/steroids not effective."
+        }
+      ],
+      "parent_education_scripts": [
+        "**For viral URI**: 'Your child has a cold caused by a virus. Antibiotics don't kill viruses and won't help. The green mucus is actually a good sign - it means their body is fighting the infection. Expect 7-10 days total. Call if fever >3 days, trouble breathing, or not improving by day 10.'",
+        "**For watchful waiting otitis media**: 'Your child's ear shows early signs of infection, but their body might clear it on its own in the next 2-3 days. We'll give pain medicine and watch closely. If not better in 48-72 hours, we'll start antibiotics. This approach reduces antibiotic resistance while still treating kids who need it.'",
+        "**For bronchiolitis**: 'This is a viral lung infection that causes wheezing in babies. Unfortunately, there's no medicine to cure it - antibiotics don't work on viruses, and the inhalers we use for asthma don't help this virus. Your baby will get better on their own in 5-7 days. Focus on hydration, sleep, and nasal suctioning. Watch for trouble breathing or poor feeding - that's when to call back.'"
+      ]
+    },
+    {
+      "id": "newborn-assessment",
+      "title": "Newborn Physical Examination & Common Findings",
+      "category": "Newborn Care",
+      "story_intro": {
+        "text": "You're handed a fresh 24-hour-old newborn for the first well-baby check. Parents anxiously hover: 'Is everything normal?' As you unwrap the blanket, you see blue hands, a pointy head, white dots on the nose, and a stork-bite mark on the forehead. Let's distinguish normal newborn variants from true pathology.",
+        "visual_cue": "👶 Picture a vernix-covered newborn with milia, a cephalohematoma that doesn't cross suture lines, and acrocyanosis of hands/feet while body is pink."
+      },
+      "key_concepts": [
+        {
+          "concept": "Normal Newborn Vital Signs & Measurements",
+          "visual_description": "Memorize these ranges - they're tested constantly!",
+          "details": [
+            "**Heart Rate**: 120-160 bpm (can go 100 sleeping, 180 crying)",
+            "**Respiratory Rate**: 30-60 breaths/min (periodic breathing normal - pauses <20 sec)",
+            "**Blood Pressure**: ~70/45 mmHg (systolic increases ~1 mmHg per day first week)",
+            "**Temperature**: 97.7-99.5°F (36.5-37.5°C) axillary",
+            "**Weight**: 2,500-4,000g (5.5-8.8 lbs). Lose up to 10% first 3-5 days, regain by 2 weeks.",
+            "**Length**: 48-53 cm (19-21 inches)",
+            "**Head Circumference (OFC)**: 33-37 cm (average 34-35cm). Should be 2-3cm larger than chest.",
+            "**Chest Circumference**: 30-33 cm"
+          ],
+          "mnemonic": "**'30-33-34' = Respiratory rate minimum-Chest-Head circumferences**"
+        },
+        {
+          "concept": "Head & Skull: Molding vs. Hematomas",
+          "visual_description": "Picture the baby's journey through the birth canal - head gets squeezed!",
+          "details": [
+            "**Cranial Molding**: Overlapping skull bones creating temporary 'cone head'. Resolves in days. NORMAL!",
+            "**Caput Succedaneum**: Scalp edema/swelling that CROSSES suture lines. Soft, puffy. Resolves 24-48 hours. NORMAL!",
+            "**Cephalohematoma**: Blood collection UNDER periosteum, does NOT cross suture lines. Firm edges. Takes weeks to resolve. Risk: jaundice from RBC breakdown. Usually benign.",
+            "**Subgaleal Hemorrhage**: EMERGENCY! Blood under scalp, CROSSES suture lines, enlarging head circumference, signs of hypovolemia. Rare but life-threatening. Requires NICU admission.",
+            "**Fontanelles**: Anterior (diamond, 1-4cm, closes 9-18mo), Posterior (triangle, <1cm, closes 1-2mo). Sunken = dehydration. Bulging = increased ICP."
+          ],
+          "mnemonic": "**'Caput CROSSES suture lines, Cephalohematoma does NOT'** (like their first letters: C-C, C-N)"
+        },
+        {
+          "concept": "Skin Findings: The Rainbow of Newborn Rashes",
+          "visual_description": "Imagine a newborn with a patchwork of colors and textures - most are benign!",
+          "details": [
+            "**Milia**: Tiny white papules on nose/chin (blocked sebaceous glands). Resolve spontaneously. NORMAL!",
+            "**Erythema Toxicum**: 'Flea-bitten' rash - erythematous macules/papules with central white/yellow pustule. Appears day 1-3, lasts <1 week. Benign. Contains eosinophils (not infection!).",
+            "**Acrocyanosis**: Blue hands/feet while body pink. Due to immature circulation. NORMAL first 24-48 hours.",
+            "**Central Cyanosis**: Blue lips/tongue/trunk. ABNORMAL! Indicates hypoxia - needs immediate evaluation for heart/lung disease.",
+            "**Transient Neonatal Pustular Melanosis**: Brown macules with collarette of scale, pustules. Present at birth, more common in Black infants. Benign, resolves 1-2 months.",
+            "**Jaundice**: Yellow skin/sclera. PATHOLOGIC if <24 hours old, rapidly rising bilirubin, or conjugated hyperbilirubinemia. Check bilirubin level!",
+            "**Mongolian Spots**: Blue-gray patches on sacrum/buttocks. More common in darker-skinned babies. Benign, fade over years. DOCUMENT to prevent abuse concerns later!"
+          ],
+          "clinical_pearl": "🚨 **Jaundice in first 24 hours = PATHOLOGIC until proven otherwise!** Always check bilirubin. Likely hemolysis (ABO/Rh incompatibility, G6PD deficiency)."
+        },
+        {
+          "concept": "Vascular Birthmarks",
+          "visual_description": "Differentiate the 'stork bites' (benign) from port-wine stains (need evaluation)",
+          "details": [
+            "**Nevus Simplex ('Stork Bite', 'Angel Kiss')**: Flat pink patches on nape of neck, eyelids, glabella. MOST COMMON birthmark (70-80%). Fade over months-years. Benign.",
+            "**Port-Wine Stain (Nevus Flammeus)**: Dark red-purple, flat, sharply demarcated, does NOT blanch, does NOT fade. If involves V1 trigeminal distribution (forehead/eye) → Sturge-Weber syndrome risk (get MRI, ophthalmology eval).",
+            "**Cavernous Hemangioma (Infantile Hemangioma)**: Raised, bright red 'strawberry' lesion. Not present at birth (appears weeks 1-4). Grows rapidly first 6-12 months, then involutes over years. Problematic if near eye, nose, mouth (can interfere with function) → refer to dermatology for propranolol treatment."
+          ],
+          "clinical_pearl": "⚠️ **Port-wine stain in V1 distribution = Sturge-Weber until proven otherwise!** Risk of seizures, glaucoma, developmental delay. Needs neuroimaging and ophthalmology."
+        },
+        {
+          "concept": "Cardiovascular Exam: Murmurs & Cyanosis",
+          "visual_description": "Listen carefully - distinguishing innocent from pathologic murmurs saves lives",
+          "details": [
+            "**Physiologic Split S2**: Heard at upper left sternal border, increases with inspiration. NORMAL!",
+            "**Patent Ductus Arteriosus (PDA)**: Continuous 'machine-like' murmur, bounding pulses. Usually closes by 2-3 days in term infants. Persists in preemies.",
+            "**Critical Congenital Heart Disease (CCHD) Screening**: Pulse oximetry on right hand AND one foot before discharge. PASS if both ≥95% AND difference <3%. FAIL = echocardiogram.",
+            "**Cyanosis with feeding/crying**: Think cyanotic heart disease (Tetralogy of Fallot, transposition of great vessels). Needs urgent cardiology.",
+            "**Femoral pulses**: MUST palpate! Diminished/absent = coarctation of aorta (upper extremity BP > lower extremity BP)."
+          ],
+          "clinical_pearl": "🫀 **No murmur doesn't rule out critical heart disease!** Many cyanotic lesions are ductal-dependent and present when ductus closes (day 2-7). This is why pulse ox screening is mandated."
+        },
+        {
+          "concept": "Genitourinary Exam",
+          "visual_description": "Check carefully - anatomy matters!",
+          "details": [
+            "**Hypospadias**: Urethral opening on ventral surface of penis (underside). NEVER circumcise - foreskin needed for surgical repair!",
+            "**Hydrocele**: Transilluminating scrotal swelling. Communicating (fluctuates) vs. non-communicating. Most resolve by 1 year. Surgery if persists after age 1.",
+            "**Undescended Testicle (Cryptorchidism)**: Testicle not in scrotum. Re-examine at every visit. If not descended by 6 months, refer to urology (orchiopexy by 12-18 months to preserve fertility).",
+            "**Hymenal Tag**: Small tissue projection from hymen in girls. Benign, resolves spontaneously.",
+            "**Labial Adhesions**: Fusion of labia minora in girls (more common in infancy/toddlerhood). Usually asymptomatic. Treat with estrogen cream if interfering with urination."
+          ]
+        },
+        {
+          "concept": "Musculoskeletal: Hip Dysplasia Screening",
+          "visual_description": "Feel for the 'clunk' of a dislocatable hip - early detection prevents disability",
+          "details": [
+            "**Developmental Dysplasia of the Hip (DDH)**: Hip instability/dislocation. Higher risk: breech, female, family history, firstborn.",
+            "**Barlow Maneuver**: Adduct hip while pushing posteriorly - dislocatable hip 'clunks' OUT of socket.",
+            "**Ortolani Maneuver**: Abduct hip while pulling anteriorly - dislocated hip 'clunks' back INTO socket.",
+            "**Asymmetric skin folds**: Unequal thigh creases suggest hip dislocation.",
+            "**Galeazzi Sign**: Unequal knee heights when hips/knees flexed - positive in DDH.",
+            "**If positive exam or risk factors**: Hip ultrasound <6 months old OR X-ray if >6 months. Refer to orthopedics for Pavlik harness."
+          ],
+          "mnemonic": "**'Barlow = Bad, pushes OUT. Ortolani = OK, puts back IN'**"
+        }
+      ],
+      "clinical_pearls": [
+        "**APGAR Score**: Done at 1 and 5 minutes. Appearance, Pulse, Grimace, Activity, Respiration (0-2 each). 7-10 = normal. <7 at 5 min = increased risk neurologic issues.",
+        "**First Void & Stool**: Should void within 24 hours, stool (meconium) within 48 hours. If not, consider GI obstruction (Hirschsprung, imperforate anus) or renal agenesis.",
+        "**Umbilical Cord Care**: Keep dry, fold diaper down. Cord falls off 1-3 weeks. Oozing/redness/odor = omphalitis (EMERGENCY - can lead to sepsis).",
+        "**Red Light Reflex**: Check both eyes. Absent or white reflex = retinoblastoma, congenital cataract, retinopathy of prematurity. REFER immediately to ophthalmology.",
+        "**Tongue-Tie (Ankyloglossia)**: Short lingual frenulum limiting tongue movement. If interfering with breastfeeding, refer to ENT for frenotomy."
+      ],
+      "newborn_screening": [
+        "**Hearing Screening**: Otoacoustic emissions (OAE) or auditory brainstem response (ABR) before discharge. 1-3 per 1,000 newborns have hearing loss.",
+        "**Critical Congenital Heart Disease (CCHD)**: Pulse oximetry screening (right hand + one foot). Detects 7 critical lesions before symptoms.",
+        "**Newborn Metabolic Screen**: Heel stick blood spot. Screens 30-50 disorders (varies by state). Examples: PKU, congenital hypothyroidism, sickle cell, cystic fibrosis, galactosemia.",
+        "**Timing**: Draw after 24 hours of life but before hospital discharge. Repeat at 1-2 weeks if drawn <24 hours (false negatives possible).",
+        "**Bilirubin Screening**: Transcutaneous or serum bilirubin before discharge if jaundiced. Use Bhutani nomogram to determine risk zone."
+      ],
+      "quick_check": [
+        {
+          "question": "Newborn has blue hands and feet but pink trunk and face at 12 hours of life. Heart and lung exam normal. Pulse ox on right hand 98%, left foot 97%. What's the diagnosis?",
+          "answer": "Acrocyanosis - normal newborn finding! Blue extremities with pink central body in first 24-48 hours due to immature peripheral circulation. Reassure parents it's normal and will resolve.",
+          "rationale": "Acrocyanosis is benign. Key differentiator: central body is pink, pulse ox is normal. If central cyanosis (blue lips/trunk) or low pulse ox, that's pathologic."
+        },
+        {
+          "question": "On hip exam, you push the baby's hip posteriorly and feel a 'clunk' as the hip displaces. What test did you perform and what's the next step?",
+          "answer": "Barlow test (pushes hip OUT of socket) - positive for DDH. Order hip ultrasound (if <6 months) and refer to pediatric orthopedics for Pavlik harness. Early treatment prevents lifelong disability!",
+          "rationale": "Barlow positive = dislocatable hip. Ortolani would be feeling hip relocate back into socket. Both indicate DDH needing treatment."
+        },
+        {
+          "question": "Jaundice appears at 18 hours of life in a term newborn. Mother is O+, baby is A+. What's the concern and what do you order?",
+          "answer": "Jaundice <24 hours = PATHOLOGIC! With ABO incompatibility risk (mom O, baby A), suspect hemolysis. Urgently check total and direct bilirubin, Coombs test, hematocrit. May need phototherapy or exchange transfusion if severe.",
+          "rationale": "Jaundice in first 24 hours always pathologic (usually hemolysis). ABO incompatibility causes hemolytic disease of newborn. Risk: severe hyperbilirubinemia → kernicterus (brain damage)."
+        }
+      ],
+      "red_flags": [
+        "🚨 **Jaundice <24 hours of age** - hemolysis until proven otherwise",
+        "🚨 **Central cyanosis** - critical congenital heart disease or respiratory failure",
+        "🚨 **Absent/weak femoral pulses** - coarctation of aorta",
+        "🚨 **White pupillary reflex** - retinoblastoma, cataracts (needs immediate ophthalmology)",
+        "🚨 **Bulging fontanelle** - increased intracranial pressure (meningitis, hydrocephalus)",
+        "🚨 **No urine by 24 hours or no stool by 48 hours** - GU/GI malformation",
+        "🚨 **Dusky/gray color with poor perfusion** - sepsis, shock (NICU admission!)",
+        "🚨 **Port-wine stain in V1 distribution** - Sturge-Weber syndrome (needs MRI)"
+      ]
+    },
+    {
+      "id": "adhd",
+      "title": "ADHD: Diagnosis and Management",
+      "category": "Mental Health & Behavioral",
+      "story_intro": {
+        "text": "7-year-old Jake can't sit still in class, interrupts constantly, and loses his homework daily. His frustrated teacher says, 'He needs to be tested for ADHD!' But does fidgeting = ADHD? Let's learn the DSM-5 criteria, screening tools, and when medication is appropriate.",
+        "visual_cue": "🎯 Picture Jake: bouncing in his chair, blurting out answers, doodling instead of listening, with a backpack full of crumpled papers. His teacher holds a behavior chart with more red marks than green."
+      },
+      "key_concepts": [
+        {
+          "concept": "DSM-5 Diagnostic Criteria",
+          "visual_description": "ADHD isn't just 'energetic kid' - it's a neurodevelopmental disorder with specific criteria",
+          "details": [
+            "**Must have ≥6 symptoms** (≥5 if age 17+) from inattention OR hyperactivity-impulsivity list for at least 6 months",
+            "**Symptoms present before age 12** (even if not diagnosed until later)",
+            "**Symptoms present in ≥2 settings** (home, school, sports, church, etc.) - not just school!",
+            "**Clear evidence symptoms interfere with functioning** (academic, social, occupational)",
+            "**Symptoms not better explained by another disorder** (anxiety, depression, learning disability, trauma)"
+          ],
+          "clinical_pearl": "💡 **ADHD is a DELAY in development, not absence.** Kids with ADHD are ~30% behind peers in executive function maturity. A 12yo with ADHD has executive function of ~8yo."
+        },
+        {
+          "concept": "Three Presentations",
+          "visual_description": "Not all ADHD looks like bouncing-off-walls hyperactivity!",
+          "details": [
+            "**Predominantly Inattentive**: ≥6 inattention symptoms, <6 hyperactive. The 'daydreamer' who seems 'spacey'. Often girls. Gets missed because not disruptive. Struggles academically.",
+            "**Predominantly Hyperactive-Impulsive**: ≥6 hyperactive symptoms, <6 inattentive. Can't sit still, fidgets, interrupts, acts before thinking. Classic 'hyperactive boy' stereotype. More common in preschool.",
+            "**Combined Presentation**: ≥6 from BOTH categories. Most common type. Classic ADHD - can't focus AND can't sit still."
+          ],
+          "mnemonic": "**'The 3 Faces of ADHD: Dreamer (inattentive), Mover (hyperactive), Combo (both)'**"
+        },
+        {
+          "concept": "Inattention Symptoms (need 6+)",
+          "visual_description": "Think of a kid with their head in the clouds, missing details, losing things constantly",
+          "details": [
+            "1. Careless mistakes in schoolwork, overlooks details",
+            "2. Difficulty sustaining attention in tasks/play",
+            "3. Doesn't seem to listen when spoken to directly",
+            "4. Doesn't follow through on instructions, fails to finish work",
+            "5. Difficulty organizing tasks and activities",
+            "6. Avoids/dislikes tasks requiring sustained mental effort",
+            "7. Loses things necessary for tasks (pencils, books, homework)",
+            "8. Easily distracted by extraneous stimuli",
+            "9. Forgetful in daily activities"
+          ],
+          "clinical_pearl": "📚 Inattentive type often underdiagnosed in girls - they're quiet, compliant, but struggling silently. Look for: inconsistent grades, 'not working to potential', disorganized, 'spacey'."
+        },
+        {
+          "concept": "Hyperactivity-Impulsivity Symptoms (need 6+)",
+          "visual_description": "Picture a kid who can't stop moving, talking, interrupting - like they're driven by a motor",
+          "details": [
+            "**Hyperactivity**: 1) Fidgets, squirms in seat, 2) Leaves seat when expected to sit, 3) Runs/climbs in inappropriate situations, 4) Unable to play quietly, 5) 'On the go' as if 'driven by motor', 6) Talks excessively",
+            "**Impulsivity**: 7) Blurts out answers before questions complete, 8) Difficulty waiting turn, 9) Interrupts or intrudes on others"
+          ],
+          "clinical_pearl": "⚡ Hyperactive symptoms DECREASE with age (most teens don't run around classroom anymore). Inattention symptoms PERSIST or worsen as academic demands increase. This is why many ADHD diagnoses happen in middle school when demands increase."
+        },
+        {
+          "concept": "Screening and Assessment Tools",
+          "visual_description": "Gather information from MULTIPLE sources - never diagnose from parent report alone!",
+          "details": [
+            "**Vanderbilt Assessment Scales**: Parent and teacher versions. Screens ADHD AND common comorbidities (ODD, anxiety, depression, learning disorders). Most widely used. FREE!",
+            "**Conners Rating Scales**: Parent, teacher, self-report versions. More detailed. Often requires purchase.",
+            "**NICHQ Vanderbilt**: Includes performance screening (grades, peer relationships). Helps identify school accommodations needed.",
+            "**Continuous Performance Tests (CPT)**: Computerized attention tests. NOT diagnostic alone! Use as supplemental data.",
+            "**Rule out**: Vision/hearing problems, sleep disorders, learning disabilities, anxiety/depression, trauma, thyroid disease, anemia"
+          ],
+          "clinical_pearl": "⚠️ **Teacher input is ESSENTIAL!** If symptoms only at home, consider family stressors, parenting issues, or trauma. If only at school, consider learning disability or bullying. ADHD symptoms must be present in MULTIPLE settings."
+        },
+        {
+          "concept": "Pharmacologic Treatment: Stimulants First-Line",
+          "visual_description": "Think of stimulants as 'brakes for the brain' - increase dopamine/norepinephrine to improve executive function",
+          "details": [
+            "**Methylphenidate (Ritalin, Concerta, Focalin)**: First-line. Start 5-10mg BID, titrate up. Many formulations (short-acting 3-4hr, intermediate 6-8hr, long-acting 10-12hr).",
+            "**Amphetamines (Adderall, Vyvanse)**: Alternative first-line. Adderall: mixed amphetamine salts. Vyvanse: prodrug, smoother effect, less abuse potential. Start 5-10mg, titrate up.",
+            "**When to use**: Age ≥6 years (FDA), moderate-severe symptoms interfering with function. Start low, go slow. Monitor response with rating scales.",
+            "**Response rate**: 70-80% respond to stimulants. If no response to methylphenidate, try amphetamine (different mechanism). 10-30% respond better to one class than other.",
+            "**Side effects**: Appetite suppression (give med after breakfast, drug holidays on weekends/summer if growth affected), insomnia (dose earlier in day), headache, stomachache (usually transient), tics (rare, contraindicated if Tourette's), cardiovascular (check BP/HR at follow-ups)"
+          ],
+          "mnemonic": "**'Stimulants = Paradox': They CALM hyperactive kids by stimulating the BRAKE regions of the brain (prefrontal cortex)**"
+        },
+        {
+          "concept": "Non-Stimulant Medications",
+          "visual_description": "Second-line options for kids who don't respond to or tolerate stimulants",
+          "details": [
+            "**Atomoxetine (Strattera)**: Norepinephrine reuptake inhibitor. Takes 4-6 weeks to work (unlike stimulants). Less effective than stimulants but good option if: stimulant side effects, family history of substance abuse, comorbid anxiety, tics. Dose: start 0.5 mg/kg, increase to 1.2 mg/kg daily. Black box warning: suicidal ideation (monitor!).",
+            "**Guanfacine ER (Intuniv), Clonidine ER (Kapvay)**: Alpha-2 agonists. Help with hyperactivity/impulsivity more than inattention. Useful for: comorbid tics, aggression, sleep issues. Side effects: sedation, hypotension, rebound hypertension if stopped abruptly.",
+            "**When to use non-stimulants**: Failed 2 stimulants, cardiac contraindications, substance abuse risk, significant tics/Tourette's, comorbid anxiety where stimulants worsen anxiety"
+          ],
+          "clinical_pearl": "💊 **Medication is NOT forever!** ADHD persists into adulthood in 50-60%, but many teens/adults develop coping strategies and may not need meds. Reassess annually. Try 'drug holidays' in summer to see if still needed."
+        },
+        {
+          "concept": "Behavioral Interventions",
+          "visual_description": "Medication alone is not enough! Behavioral therapy + medication = best outcomes",
+          "details": [
+            "**Behavioral Parent Training (BPT)**: Teach parents consistent discipline, positive reinforcement, clear expectations. Gold standard for preschoolers (don't medicate <6yo unless severe).",
+            "**School Accommodations (504 Plan or IEP)**: Extra time on tests, preferential seating (front row, away from distractions), break tasks into chunks, movement breaks, organizational support, notes provided.",
+            "**Organizational Skills Training**: Teach planner use, checklists, time management, study skills. Executive function coaching.",
+            "**Cognitive Behavioral Therapy (CBT)**: For older kids/teens. Address low self-esteem, frustration tolerance, emotional regulation.",
+            "**Environmental Modifications**: Minimize distractions (quiet study space), consistent routines, visual schedules, timers for transitions"
+          ],
+          "clinical_pearl": "🎓 **Preschoolers (age 4-5) with ADHD**: Parent training is FIRST-LINE treatment. Only use medication if severe impairment + parent training failed. Stimulants FDA-approved age 6+, but can use off-label if necessary."
+        }
+      ],
+      "clinical_pearls": [
+        "**ADHD is a MEDICAL diagnosis**, not a character flaw or parenting failure. It's neurodevelopmental - brain's executive function networks develop slower. Imaging shows smaller prefrontal cortex, basal ganglia.",
+        "**Comorbidities are the RULE**: 67% have at least one comorbid condition. Most common: ODD (40%), anxiety (25-35%), learning disabilities (20-30%), depression (18%), tics (11%). Always screen!",
+        "**Stimulants don't stunt growth long-term**: May slow growth 1-2 cm during active treatment, but adult height not affected. Monitor height/weight at visits. Drug holidays in summer if concerned.",
+        "**'Medication response = diagnostic test'**: If stimulants dramatically improve symptoms, supports ADHD diagnosis. If no response to 2 different stimulants at adequate doses, reconsider diagnosis.",
+        "**Gender differences**: Boys diagnosed 2-3x more than girls. Girls more likely inattentive type (less disruptive, more easily missed). Girls present later (often in middle school when demands increase).",
+        "**Sleep is CRITICAL**: Many ADHD kids have delayed sleep phase. Poor sleep worsens ADHD symptoms. Address sleep hygiene, screen time before bed, consider melatonin."
+      ],
+      "differential_diagnosis": [
+        "**Anxiety**: Inattention from worry, not ADHD. Key: anxiety symptoms (worry, physical symptoms). May coexist with ADHD.",
+        "**Depression**: Inattention, lack of motivation from low mood. Look for anhedonia, hopelessness, sleep/appetite changes.",
+        "**Learning Disability**: Struggles in specific area (reading, math, writing). Inattention limited to that subject. Needs psychoeducational testing.",
+        "**Sleep Disorder**: Sleep apnea, restless leg syndrome cause daytime hyperactivity/inattention. Get sleep history, consider sleep study.",
+        "**Trauma/PTSD**: Hypervigilance, inattention from intrusive thoughts. History of abuse, neglect, or trauma.",
+        "**Hearing/Vision Problems**: Can't pay attention if can't hear/see! Screen before diagnosing ADHD.",
+        "**Hyperthyroidism**: Hyperactivity, inattention from excess thyroid hormone. Check TSH if suspicious.",
+        "**Gifted Child**: Bored in class, appears inattentive. Excels when challenged. Consider IQ testing."
+      ],
+      "quick_check": [
+        {
+          "question": "8-year-old with inattention symptoms at home and school for 1 year. Teacher reports she's 'spacey' but not disruptive. Grades dropped from B's to D's this year. Parent Vanderbilt shows 7 inattention symptoms, 2 hyperactive. Diagnosis?",
+          "answer": "ADHD, Predominantly Inattentive Type. Meets criteria: ≥6 inattention symptoms, <6 hyperactive, symptoms in 2+ settings (home + school), duration >6 months, impaired function (grades dropped). Next: rule out learning disability, vision/hearing problems. Consider trial of stimulant medication + 504 plan at school.",
+          "rationale": "Classic inattentive ADHD in a girl. Often missed because not disruptive. Academic decline is key clue. Needs both medication and school accommodations for best outcome."
+        },
+        {
+          "question": "Parents want to start their 5-year-old on ADHD medication because preschool teacher says he won't sit at circle time and is disruptive. What's your response?",
+          "answer": "First-line for preschoolers is PARENT TRAINING, not medication! Refer to evidence-based parent training program (e.g., Incredible Years, Triple P). Only consider medication if: severe impairment + parent training failed + parents understand risks. Also screen for other causes (vision, hearing, developmental delay, trauma).",
+          "rationale": "Behavioral interventions are first-line in preschoolers per AAP guidelines. Stimulants can be used in severe cases but have more side effects in young kids. Many 'hyperactive' preschoolers don't have ADHD - just normal high energy."
+        },
+        {
+          "question": "10-year-old started on methylphenidate 10mg BID for ADHD. Two weeks later, parents report no improvement. Next step?",
+          "answer": "INCREASE THE DOSE! Methylphenidate is weight-based - may need up to 1 mg/kg/dose. Typical dosing: 5-20mg BID or TID. Titrate up every 1-2 weeks based on response and side effects. If no response at max dose, try amphetamine class. Get teacher input with rating scales to objectively assess response.",
+          "rationale": "Most common error: under-dosing stimulants. Need adequate trial (therapeutic dose for 3-4 weeks) before declaring 'failure'. Dose titration is essential."
+        }
+      ],
+      "parent_education": [
+        "**'Will medication change my child's personality?'** → No. Properly dosed stimulants help your child's TRUE personality emerge by reducing frustration, impulsivity, and attention problems. If your child seems flat/zombie-like, dose is too high - call us to adjust.",
+        "**'I'm worried about addiction.'** → Treating ADHD with medication actually REDUCES risk of substance abuse in adolescence/adulthood. Untreated ADHD has higher risk of substance use due to self-medication and impulsivity.",
+        "**'Do they need medication forever?'** → Not necessarily. We'll reassess yearly. Try 'drug holidays' on weekends or summer. Many develop coping strategies over time. 50-60% of kids have persistent symptoms into adulthood, but not all need medication lifelong.",
+        "**'Can diet changes help instead of medication?'** → No specific diet cures ADHD. Some kids sensitive to artificial colors/preservatives (rare). Omega-3 supplements have minimal effect. Avoid simple carbs/sugar which can worsen symptoms. Balanced nutrition + adequate sleep helps everyone!",
+        "**'What about side effects?'** → Most common: decreased appetite (give med after meals), trouble falling asleep (give earlier in day), headache/stomachache (usually temporary). Serious side effects rare. We'll monitor growth, heart rate, and blood pressure at every visit."
+      ]
+    }
+  ]
+}

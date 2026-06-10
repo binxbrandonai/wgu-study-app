@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      text { font-family: 'Inter', -apple-system, sans-serif; fill: #e2e8f5; }
+      .title { font-size: 22px; font-weight: 700; fill: #00e5cc; }
+      .subtitle { font-size: 13px; fill: #94a3b8; }
+      .box-text { font-size: 11px; }
+      .box-title { font-size: 12px; font-weight: 700; }
+      .arrow { fill: none; stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+      .arrow-teal { fill: none; stroke: #00e5cc; stroke-width: 2; marker-end: url(#arrowhead-teal); }
+      .arrow-red { fill: none; stroke: #ff4d6d; stroke-width: 2; marker-end: url(#arrowhead-red); }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#334155"/>
+    </marker>
+    <marker id="arrowhead-teal" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#00e5cc"/>
+    </marker>
+    <marker id="arrowhead-red" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#ff4d6d"/>
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="#020617"/>
+  
+  <text x="400" y="35" text-anchor="middle" class="title">📊 Urinary Tract Infection — Diagnosis & Management</text>
+  <text x="400" y="55" text-anchor="middle" class="subtitle">IDSA Guidelines · Uncomplicated Cystitis → Pyelonephritis Pathway</text>
+
+  <!-- Symptoms box -->
+  <rect x="225" y="75" width="350" height="50" class="box-a" stroke="#38bdf8"/>
+  <text x="400" y="95" text-anchor="middle" class="box-title" fill="#38bdf8">Symptoms: Dysuria, Frequency, Urgency, Suprapubic Pain</text>
+  <text x="400" y="112" text-anchor="middle" class="box-text">Rule out: vaginal discharge/irritation (suggests vaginitis not UTI)</text>
+
+  <line x1="400" y1="125" x2="400" y2="150" class="arrow"/>
+
+  <!-- Simple vs complicated -->
+  <rect x="100" y="150" width="250" height="85" class="box-a" stroke="#00e5cc"/>
+  <text x="225" y="170" text-anchor="middle" class="box-title" fill="#00e5cc">🟢 Uncomplicated Cystitis</text>
+  <text x="225" y="187" text-anchor="middle" class="box-text">Non-pregnant, healthy, no anatomical</text>
+  <text x="225" y="202" text-anchor="middle" class="box-text">abnormality, no recent abx, no fever</text>
+  <text x="225" y="217" text-anchor="middle" class="box-text">→ Urine dipstick: nitrite+ / LE+</text>
+  <text x="225" y="232" text-anchor="middle" class="box-text">→ UA + culture not required</text>
+
+  <rect x="450" y="150" width="250" height="85" class="box-a" stroke="#ff4d6d"/>
+  <text x="575" y="170" text-anchor="middle" class="box-title" fill="#ff4d6d">🔴 Complicated/Pyelonephritis</text>
+  <text x="575" y="187" text-anchor="middle" class="box-text">Pregnancy, male, fever, flank pain,</text>
+  <text x="575" y="202" text-anchor="middle" class="box-text">hospitalization, recent urologic procedure,</text>
+  <text x="575" y="217" text-anchor="middle" class="box-text">catheter, CKD, diabetes, immunosuppressed</text>
+  <text x="575" y="232" text-anchor="middle" class="box-text">→ UA + culture REQUIRED</text>
+
+  <line x1="350" y1="195" x2="448" y2="195" class="arrow-red"/>
+
+  <!-- Treatment -->
+  <rect x="100" y="265" width="250" height="75" class="box-a" stroke="#00e5cc"/>
+  <text x="225" y="285" text-anchor="middle" class="box-title" fill="#00e5cc">Uncomplicated Tx</text>
+  <text x="225" y="302" text-anchor="middle" class="box-text">First-line: Nitrofurantoin 100mg BID x5d</text>
+  <text x="225" y="317" text-anchor="middle" class="box-text">OR TMP-SMX DS BID x3d (if local resistance &lt;20%)</text>
+  <text x="225" y="332" text-anchor="middle" class="box-text">OR Fosfomycin 3g single dose</text>
+  <text x="225" y="347" text-anchor="middle" class="box-text">⚠️ Avoid fluoroquinolones unless no alternative</text>
+
+  <rect x="450" y="265" width="250" height="75" class="box-a" stroke="#ff4d6d"/>
+  <text x="575" y="285" text-anchor="middle" class="box-title" fill="#ff4d6d">Pyelonephritis Tx</text>
+  <text x="575" y="302" text-anchor="middle" class="box-text">Outpatient (mild): Ciprofloxacin 500mg</text>
+  <text x="575" y="317" text-anchor="middle" class="box-text">BID x7d OR Ceftriaxone 1g IM x1</text>
+  <text x="575" y="332" text-anchor="middle" class="box-text">then TMP-SMX or Cefdinir PO</text>
+  <text x="575" y="347" text-anchor="middle" class="box-text">Inpatient: IV abx → blood cultures</text>
+
+  <line x1="225" y1="235" x2="225" y2="263" class="arrow-teal"/>
+  <line x1="575" y1="235" x2="575" y2="263" class="arrow-red"/>
+
+  <!-- Special populations -->
+  <rect x="450" y="370" width="250" height="60" class="box-a" stroke="#f5b731"/>
+  <text x="575" y="390" text-anchor="middle" class="box-title" fill="#f5b731">⚠️ Non-Responsive / Recurrent</text>
+  <text x="575" y="407" text-anchor="middle" class="box-text">→ Culture-guided therapy</text>
+  <text x="575" y="422" text-anchor="middle" class="box-text">→ Urology referral if ≥3 UTIs/year</text>
+  <text x="575" y="437" text-anchor="middle" class="box-text">→ Consider post-coital prophylaxis</text>
+
+  <rect x="100" y="370" width="250" height="60" class="box-a" stroke="#a78bfa"/>
+  <text x="225" y="390" text-anchor="middle" class="box-title" fill="#a78bfa">🤰 Pregnancy Considerations</text>
+  <text x="225" y="407" text-anchor="middle" class="box-text">Screen with UA at first prenatal visit</text>
+  <text x="225" y="422" text-anchor="middle" class="box-text">Treat ASB: 2-3% → pyelo risk</text>
+  <text x="225" y="437" text-anchor="middle" class="box-text">Safe: Nitrofurantoin, cephalexins, amoxicillin</text>
+
+  <!-- Bottom tips -->
+  <rect x="100" y="465" width="600" height="55" class="box-a" stroke="#a78bfa"/>
+  <text x="400" y="483" text-anchor="middle" class="box-title" fill="#a78bfa">📌 Board Pearls</text>
+  <text x="400" y="500" text-anchor="middle" class="box-text">Nitrofurantoin: do NOT use if CrCl &lt;30 or suspected pyelo (poor tissue penetration)</text>
+  <text x="400" y="515" text-anchor="middle" class="box-text">TMP-SMX: avoid if CrCl &lt;15, K+ sparing effect, check for sulfa allergy</text>
+  <text x="400" y="530" text-anchor="middle" class="box-text">No fluoroquinolones in kids, pregnancy, or as first-line for uncomplicated UTI (FDA black box: tendon/Ao rupture, neuropathy, CNS)</text>
+</svg>

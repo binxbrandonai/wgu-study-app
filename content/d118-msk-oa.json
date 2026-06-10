@@ -1,0 +1,218 @@
+{
+  "topic": {
+    "id": "d118-msk-oa",
+    "name": "Osteoarthritis",
+    "system": "Musculoskeletal",
+    "duration_min": 22,
+    "icon": "\ud83e\uddb4",
+    "color": "#fb923c",
+    "objectives": [
+      "Differentiate OA from RA, gout, and pseudogout",
+      "Recognize classic X-ray findings of OA",
+      "Master stepwise pain management (non-pharm \u2192 topical \u2192 oral \u2192 injection)",
+      "Know joint injection indications, technique, and contraindications",
+      "Identify when to refer for joint replacement"
+    ],
+    "lessons": [
+      {
+        "id": "oa-basics",
+        "title": "\ud83c\udfaf OA 101: The Wear-and-Tear Disease",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Meet Robert: 68, retired carpenter, knees creak like an old door. He's been using OTC ibuprofen for 2 years. Now his stomach hurts. His wife says he's limping more, and he can't get down on the floor to play with grandkids. He's tried glucosamine (did nothing) and now wants 'something stronger.' OA affects 32 million US adults \u2014 #1 cause of disability in the elderly. It's one of the most common conditions you'll manage in primary care, and the FNP boards WILL test you on differentiating it from inflammatory arthritis and choosing the right stepwise treatment.",
+            "visual_desc": "X-ray showing joint space narrowing with osteophytes (bone spurs) at the medial knee compartment"
+          },
+          {
+            "type": "definition",
+            "title": "What IS Osteoarthritis?",
+            "content": "**OA** = **Degenerative** joint disease \u2014 progressive **cartilage loss** over time.\n\n**Pathophysiology**:\n1. Mechanical stress + aging \u2192 cartilage breakdown\n2. **Chondrocytes** try to repair but can't keep up\n3. Cartilage wears away \u2192 **bone rubs on bone**\n4. Body responds with **osteophytes** (bone spurs) and **sclerosis**\n5. Joint inflammation is **mild** (unlike RA which is severely inflammatory)\n\n**Primary OA** (idiopathic, age-related):\n\u2022 Most common\n\u2022 Affects **weight-bearing joints**: knees, hips, spine\n\u2022 Also **DIPs** (Heberden nodes) and **PIPs** (Bouchard nodes)\n\u2022 **NOT wrists, MCPs, elbows, ankles** (those = inflammatory arthritis until proven otherwise!)\n\n**Secondary OA** (identifiable cause):\n\u2022 Trauma (post-traumatic OA)\n\u2022 Obesity (mechanical overload)\n\u2022 Congenital deformity (hip dysplasia)\n\u2022 Metabolic (hemochromatosis, acromegaly)\n\u2022 Inflammatory joint disease (RA that damages joint \u2192 secondary OA)",
+            "mnemonic": "**OA joints = KHeD DiPS**: **K**nees, **H**ips, **D**IPs, **S**pine. **NOT** wrists/MCPs (those = RA!)",
+            "visual_desc": "Comparison grid: LEFT (OA): joint space narrowing, osteophytes, subchondral sclerosis. RIGHT (RA): erosions, juxta-articular osteopenia, symmetric involvement"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **OA vs RA on boards**: OA = **pain WITH use**, improves with rest. RA = pain **IMPROVES with use**, worse at rest with morning stiffness >30 min. OA has **crepitus** and **bony enlargement**; RA has **soft tissue swelling** and **warmth**. If a patient has OA, their ESR/CRP is NORMAL \u2014 if elevated, think inflammatory arthritis!"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "OA joints affected vs. RA joints",
+            "mnemonic": "**OA joints = KHeD DiPS**: **K**nees, **H**hips, **D**IPs, **S**pine. **NOT** wrists/MCPs (those = RA!)"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A 72-year-old woman has pain and bony swelling of DIP joints. ESR and CRP are normal. Most likely diagnosis?",
+            "a": [
+              "Rheumatoid arthritis",
+              "Osteoarthritis with Heberden nodes",
+              "Gout",
+              "Psoriatic arthritis"
+            ],
+            "correct": 1,
+            "explanation": "Bony DIP enlargement = **Heberden nodes** = classic OA. Normal inflammatory markers rule out inflammatory arthritis like RA."
+          },
+          {
+            "q": "Which joint is LEAST likely affected by primary OA?",
+            "a": [
+              "DIP joints",
+              "Knees",
+              "Hips",
+              "Wrists"
+            ],
+            "correct": 3,
+            "explanation": "Wrists are typically affected by **RA**, not OA. OA classically affects DIP/PIP, knees, hips, and spine."
+          }
+        ]
+      },
+      {
+        "id": "oa-diagnosis",
+        "title": "\ud83d\udd0d Diagnosing OA: X-Ray & Clinical Criteria",
+        "duration_min": 7,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "The Clinical Picture",
+            "content": "Meet Carol: 66, retired teacher, BMI 31. She says her knees 'ache' after walking the mall but feel better after sitting for 10 minutes. Morning stiffness lasts about 15 minutes. She hears grinding when she bends her knees. On exam: bony enlargement at both knees, crepitus with flexion, and mild varus deformity. No warmth, no erythema. This is textbook OA \u2014 mechanical pain, short AM stiffness, crepitus, and bony changes.",
+            "visual_desc": "Clinical photo showing bilateral knee bony enlargement with mild genu varum (bow-legged deformity)"
+          },
+          {
+            "type": "definition",
+            "title": "Clinical Criteria for OA Diagnosis",
+            "content": "**Diagnosis is CLINICAL** \u2014 X-ray confirms but isn't always needed!\n\n**ACR Clinical Criteria for Knee OA**:\n\u2022 **Knee pain** most days of prior month\n\u2022 **PLUS** 3 of these:\n  \u2192 Age >50\n  \u2192 Morning stiffness <30 minutes\n  \u2192 Crepitus on active motion\n  \u2192 Bony tenderness\n  \u2192 Bony enlargement\n  \u2192 No palpable warmth\n\n**X-Ray Findings** (the 'OA Tetrad'):\n1. **Joint space narrowing** (earliest sign \u2014 usually medial compartment in knee)\n2. **Osteophytes** (bone spurs \u2014 MOST SPECIFIC for OA!)\n3. **Subchondral sclerosis** (increased bone density under cartilage)\n4. **Subchondral cysts** (fluid-filled cavities in bone)\n\n**X-Ray Grade (Kellgren-Lawrence)**:\n\u2022 **Grade 1**: Doubtful narrowing, possible osteophytes\n\u2022 **Grade 2**: Definite osteophytes, possible narrowing\n\u2022 **Grade 3**: Moderate osteophytes, definite narrowing, sclerosis\n\u2022 **Grade 4**: Large osteophytes, severe narrowing, bone deformity",
+            "mnemonic": "**X-ray OA = JOSS**: **J**oint space narrowing, **O**steophytes, **S**clerosis, **S**ubchondral cysts",
+            "visual_desc": "Four-panel X-ray progression: Grade 1 (mild narrowing) \u2192 Grade 2 (osteophytes) \u2192 Grade 3 (moderate narrowing + sclerosis) \u2192 Grade 4 (severe, bone-on-bone)"
+          },
+          {
+            "type": "checklist",
+            "title": "Differential Diagnosis: OA vs. Inflammatory Arthritis",
+            "content": "**OA** (Degenerative):\n\u2705 Pain **worse with activity**, better with rest\n\u2705 Morning stiffness **<30 min**\n\u2705 **Bony** enlargement\n\u2705 **Crepitus** common\n\u2705 **Normal** ESR/CRP\n\u2705 Unilateral or asymmetric\n\n**RA** (Autoimmune):\n\ud83d\udd34 Pain **worse at rest**, better with use\n\ud83d\udd34 Morning stiffness **>30 min** (often >1 hour)\n\ud83d\udd34 **Soft tissue** swelling\n\ud83d\udd34 **Warm**, tender joints\n\ud83d\udd34 **Elevated** ESR, CRP, RF, anti-CCP\n\ud83d\udd34 **Symmetric** (same joints both sides)\n\ud83d\udd34 Affects **wrists, MCPs, PIPs** (spares DIPs!)\n\n**Gout** (Crystal):\n\ud83d\udd34 **Acute**, intense pain\n\ud83d\udd34 **Monoarticular** (classically 1st MTP)\n\ud83d\udd34 **Erythema + warmth** (looks infected!)\n\ud83d\udd34 Elevated uric acid\n\ud83d\udd34 Resolves in 5-10 days untreated\n\n**Pseudogout** (CPPD):\n\ud83d\udd34 Acute or chronic\n\ud83d\udd34 **Knees, wrists** most common\n\ud83d\udd34 Seen with hemochromatosis, hyperparathyroidism\n\ud83d\udd34 Chondrocalcinosis on X-ray (calcium in cartilage)",
+            "visual_desc": "Side-by-side chart: OA (bony, crepitus, no warmth) vs RA (swollen, warm, symmetric) vs Gout (red, hot, 1st MTP)"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Lab workup for OA = almost nothing!** OA is diagnosed clinically and with X-ray. Don't routinely order ESR, CRP, or RF in suspected OA with no red flags. But order labs if: joint is warm/erythematous (rule out infection/gout), symptoms are bilateral symmetric (rule out RA), or there's constitutional symptoms (fever, weight loss)."
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "X-ray findings in OA",
+            "mnemonic": "**X-ray OA = JOSS**: **J**oint space narrowing, **O**steophytes, **S**clerosis, **S**ubchondral cysts"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Which X-ray finding is MOST specific for osteoarthritis?",
+            "a": [
+              "Joint space narrowing",
+              "Osteophytes",
+              "Subchondral cysts",
+              "Soft tissue swelling"
+            ],
+            "correct": 1,
+            "explanation": "**Osteophytes** (bone spurs) are the MOST SPECIFIC radiographic finding for OA. Joint space narrowing is sensitive but not specific."
+          },
+          {
+            "q": "A patient has knee pain with morning stiffness lasting 45 minutes. ESR is 45. What is more likely?",
+            "a": [
+              "Osteoarthritis",
+              "Rheumatoid arthritis or inflammatory arthritis",
+              "Gout",
+              "Normal aging changes"
+            ],
+            "correct": 1,
+            "explanation": "Morning stiffness >30 minutes + elevated ESR indicates **inflammatory arthritis** (like RA), not OA. OA has stiffness <30 minutes and normal inflammatory markers."
+          }
+        ]
+      },
+      {
+        "id": "oa-treatment",
+        "title": "\ud83d\udc8a OA Treatment: The Stepped Approach",
+        "duration_min": 7,
+        "content_chunks": [
+          {
+            "type": "protocol",
+            "title": "Stepwise OA Management (ACR 2020 Guidelines)",
+            "content": "**ALWAYS start with non-pharmacologic. Meds are adjunctive!**\n\n**Step 1: Foundation (ALL patients)**\n\u2705 **Weight loss** \u2192 1 lb lost = 4 lbs pressure off knees! \n   \u2022 5% weight loss = 10% improvement in pain\n   \u2022 10% weight loss = 50% improvement!\n\u2705 **Exercise** \u2192 Strongest evidence for quad strengthening\n   \u2022 Low-impact: walking, swimming, cycling, tai chi\n   \u2022 NOT high-impact running or jumping\n\u2705 **Physical therapy** \u2192 quadriceps strengthening, gait training\n\u2705 **Activity modification** \u2192 avoid stairs, kneeling; use cane in OPPOSITE hand\n\n**Step 2: Topical (mild-moderate pain)**\n\u2705 **Topical NSAIDs** (diclofenac gel 1%): FIRST-LINE for knee/hand OA\n   \u2022 Effective as oral NSAIDs for knee OA\n   \u2022 No systemic side effects (safer in elderly!)\n\u2705 **Topical capsaicin**: alternative for patients who can't use NSAIDs\n\n**Step 3: Oral (moderate-severe pain)**\n\u2705 **Acetaminophen** \u22643000 mg/day (weak effect, but safe if no liver disease)\n\u2705 **Oral NSAIDs** (naproxen, ibuprofen, meloxicam, celecoxib)\n   \u2022 Most effective for OA pain\n   \u2022 **Naproxen** 500 mg BID = lowest CV risk among NSAIDs\n   \u2022 **Celecoxib** (COX-2 selective) = less GI bleeding, same CV risk\n   \u2022 ALWAYS add **PPI** (omeprazole 20 mg daily) if age >60 or GI risk\n   \u2022 Check renal function before starting (Cr, GFR)\n\u2705 **Duloxetine** 30-60 mg daily: SNRI for chronic OA pain\n   \u2022 Good option for patients with contraindications to NSAIDs\n   \u2022 Also treats comorbid depression/chronic pain\n\n**Step 4: Intra-articular (persistent pain despite oral meds)**\n\u2705 **Corticosteroid injection** (triamcinolone, methylprednisolone)\n   \u2022 Works in 1-3 days, lasts 4-12 weeks\n   \u2022 **Max 3-4 per year** (can accelerate cartilage loss!)\n\u2705 **Hyaluronic acid** (viscosupplementation) \u2014 controversial evidence\n   \u2022 Medicare covers, but ACR conditionally recommends AGAINST\n\n**Step 5: Surgical (severe, refractory)**\n\u2705 **Total joint arthroplasty** (hip or knee replacement)\n   \u2022 Best for end-stage OA with severe pain and functional limitation\n   \u2022 Refer when: pain disrupts sleep, can't walk 2 blocks, fails conservative Rx",
+            "mnemonic": "**OA Stepped Care = WET CAD**: **W**eight loss, **E**xercise, **T**opicals \u2192 **C**elecoxib/NSAIDs, **A**cetaminophen, **D**uloxetine \u2192 injection \u2192 surgery",
+            "visual_desc": "Stepwise pyramid: Base = weight loss + exercise + PT (largest box). Tier 2 = topicals. Tier 3 = oral meds (NSAIDs, acetaminophen, duloxetine). Tier 4 = injections. Top = surgery (smallest)"
+          },
+          {
+            "type": "medication_guide",
+            "title": "NSAID Selection & Safety (Board Gold)",
+            "content": "**NSAID Comparison (High-Yield for Boards)**:\n\n**Naproxen 500 mg BID**\n\u2022 Best CV safety profile among non-selective NSAIDs\n\u2022 Moderate GI risk\n\u2022 OTC available\n\n**Ibuprofen 600-800 mg TID**\n\u2022 Most commonly used\n\u2022 Short half-life (good for PRN use)\n\u2022 Interferes with aspirin cardioprotection!\n\n**Meloxicam 7.5-15 mg daily**\n\u2022 Once-daily dosing (compliance!)\n\u2022 Moderate selectivity\n\n**Celecoxib 100-200 mg BID**\n\u2022 **COX-2 selective** \u2014 less GI bleeding\n\u2022 SAME CV risk as other NSAIDs\n\u2022 Contraindicated in sulfa allergy\n\n**Diclofenac 50 mg TID**\n\u2022 Most hepatotoxic NSAID (watch LFTs)\n\u2022 Also available as topical gel\n\n**Safety Monitoring**:\n\u2705 Check **Cr, GFR** before starting (recheck in 2-4 weeks if elderly)\n\u2705 Check **LFTs** if using diclofenac\n\u2705 **PPI** (omeprazole 20 mg) for anyone >60 or with GI risk\n\u2705 Avoid NSAIDs if: CKD stage 3+, CHF, recent GI bleed, on anticoagulants",
+            "clinical_pearl": "\ud83d\udd25 **Naproxen is the safest NSAID for CV risk?** Yes! Naproxen has the lowest cardiovascular risk of all NSAIDs. Ibuprofen and diclofenac have higher CV risk. Celecoxib (COX-2) has the same CV risk as other NSAIDs \u2014 don't assume it's safer for the heart (it's safer for the stomach)."
+          },
+          {
+            "type": "protocol",
+            "title": "Joint Injection: When & How",
+            "content": "**Indications**:\n\u2022 Moderate-severe OA pain not controlled with oral meds\n\u2022 Acute exacerbation of OA pain\n\u2022 Bridge while awaiting surgery\n\n**Contraindications**:\n\u2022 Overlying skin infection or cellulitis\n\u2022 Joint prosthesis (refer to ortho!)\n\u2022 Uncontrolled coagulopathy or anticoagulation (relative)\n\u2022 Bacteremia or sepsis\n\u2022 Joint instability (injection won't help)\n\n**Knee Injection Technique**:\n1. **Position**: Patient supine, knee slightly flexed (pillow under knee)\n2. **Landmark**: Lateral approach \u2014 needle goes under patella, between patella and femur\n3. **Prep**: Chlorhexidine or betadine \u00d7 30 sec dry time\n4. **Needle**: 22-25 gauge, 1.5 inch\n5. **Aspirate** first (if effusion, drain it)\n6. **Inject**: Triamcinolone 40 mg (or methylprednisolone 40 mg) mixed with 1-2 mL lidocaine\n7. **Remove needle**, pressure, bandage\n8. **Post-injection**: Rest for 24-48 hours, ice, no high-impact activity for 1 week\n\n**Expected Response**: Pain relief in 24-72 hours, lasting 4-12 weeks",
+            "clinical_pearl": "\ud83d\udd25 **Don't inject through cellulitis!** If skin over knee is red/warm, DON'T inject \u2014 could seed bacteria into joint causing septic arthritis (orthopedic emergency!). Always examine injection site first."
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **What about glucosamine/chondroitin?** ACR **strongly recommends AGAINST** them \u2014 no better than placebo in large trials. Same for glucosamine, chondroitin, MSM, and most 'joint supplements.' Save your patients' money!"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "OA treatment ladder",
+            "mnemonic": "**OA Stepped Care = WET CAD**: **W**eight loss, **E**xercise, **T**opicals \u2192 **C**elecoxib/NSAIDs, **A**cetaminophen, **D**uloxetine \u2192 injection \u2192 surgery"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "First-line pharmacologic treatment for mild-moderate knee OA in a 70-year-old?",
+            "a": [
+              "Oral naproxen",
+              "Topical diclofenac gel",
+              "Intra-articular steroid injection",
+              "Tramadol"
+            ],
+            "correct": 1,
+            "explanation": "Topical NSAIDs (diclofenac gel) are FIRST-LINE for mild-moderate knee/hand OA per ACR guidelines. Effective as oral NSAIDs with minimal systemic side effects \u2014 safer in elderly!"
+          },
+          {
+            "q": "Which NSAID has the LOWEST cardiovascular risk?",
+            "a": [
+              "Ibuprofen",
+              "Diclofenac",
+              "Naproxen",
+              "Celecoxib"
+            ],
+            "correct": 2,
+            "explanation": "**Naproxen** has the lowest CV risk profile among all NSAIDs. Ibuprofen and diclofenac interfere with aspirin's antiplatelet effect and have higher CV risk."
+          },
+          {
+            "q": "Patient with severe knee OA failed all conservative care. Pain keeps her up at night. What's next?",
+            "a": [
+              "Increase NSAID dose",
+              "Try another supplement",
+              "Refer for total knee arthroplasty",
+              "Start opioid therapy"
+            ],
+            "correct": 2,
+            "explanation": "Pain disrupting sleep + failed conservative therapy = refer for **joint replacement** (TKA). Opioids are NOT recommended for chronic OA pain per ACR guidelines."
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Ninja Nerd",
+        "title": "Osteoarthritis Overview \u2014 Causes, Pathophysiology, Investigations, Treatment",
+        "url": "https://www.youtube.com/watch?v=pnKaBMvVUs0",
+        "duration": "13 min"
+      },
+      {
+        "source": "Osmosis",
+        "title": "Osteoarthritis vs. Rheumatoid Arthritis",
+        "url": "https://www.youtube.com/watch?v=OhbzcJgpTjI",
+        "duration": "8 min"
+      }
+    ]
+  }
+}

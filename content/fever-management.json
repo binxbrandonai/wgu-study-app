@@ -1,0 +1,88 @@
+{
+  "topic": {
+    "id": "fever-management",
+    "name": "Fever in Infants and Children",
+    "system": "Pediatrics",
+    "duration_min": 15,
+    "icon": "\ud83e\uddd2",
+    "color": "#38bdf8",
+    "category": "Infectious Disease",
+    "objectives": [],
+    "lessons": [
+      {
+        "id": "fever-management-section",
+        "title": "Fever in Infants and Children",
+        "duration_min": 15,
+        "content_chunks": [
+          {
+            "concept": "Fever Without Source by Age: The Critical Algorithm",
+            "visual_description": "Think of three risk zones: RED (danger), YELLOW (caution), GREEN (usually safe)",
+            "details": [
+              "**<28 days (RED ZONE - EMERGENCY)**: ADMIT for sepsis workup! Get blood culture, urine culture, CSF culture, CXR. Start empiric IV antibiotics (ampicillin + gentamicin). Risk of serious bacterial infection ~10-15%.",
+              "**29-90 days (YELLOW ZONE - HIGH RISK)**: Temp >38\u00b0C (100.4\u00b0F) = workup needed. Full sepsis workup if ill-appearing OR fever >39\u00b0C. Well-appearing with fever <39\u00b0C: minimum UA/UCx, consider blood culture, CXR if respiratory symptoms. Close follow-up!",
+              "**>90 days (GREEN ZONE - LOWER RISK)**: If well-appearing, can often observe at home. Look for source (ear, throat, respiratory). Labs only if ill-appearing or localizing signs. Most fevers viral - don't over-test!"
+            ],
+            "mnemonic": "**<1 month = ADMIT, 1-3 months = ASSESS (labs + close f/u), >3 months = ASSESS APPEARANCE (well? go home!)**"
+          },
+          {
+            "concept": "Fever Definitions & Measurement",
+            "visual_description": "Not all thermometers are equal - route matters!",
+            "details": [
+              "**Fever = \u2265100.4\u00b0F (38\u00b0C)** rectal (gold standard in infants)",
+              "**Rectal**: Most accurate in infants <3 years. Use for all infants <3 months.",
+              "**Oral**: Accurate in kids \u22654 years. Can eat/drink 15 min before.",
+              "**Axillary (armpit)**: LEAST accurate - tends to read low. Don't rely on this!",
+              "**Temporal artery/tympanic**: OK for screening but not definitive in young infants",
+              "**Pacifier thermometers**: Unreliable - don't use for medical decisions"
+            ],
+            "clinical_pearl": "\ud83d\udccf Rectal temp is 0.5-1\u00b0F higher than oral. Axillary is 0.5-1\u00b0F lower than oral. **Always specify route in documentation!**"
+          },
+          {
+            "concept": "When to Worry: Ill-Appearing Criteria",
+            "visual_description": "Picture a sick baby vs. fussy but playful baby - huge difference!",
+            "details": [
+              "**ILL-APPEARING = Any of**: Lethargic/not interactive, poor eye contact, not consolable, weak cry, cyanosis, grunting, severe respiratory distress, petechiae/purpura",
+              "**WELL-APPEARING**: Alert, playful, consolable, good eye contact, normal cry, pink, feeding normally",
+              "**When in doubt, they're ill-appearing!** Over-caution is appropriate with infants."
+            ],
+            "clinical_pearl": "\ud83d\udc76 **Trust parental instincts**: 'She's just not acting right' from a parent is MORE sensitive than your physical exam for serious illness!"
+          },
+          {
+            "concept": "Fever Management: Antipyretics",
+            "visual_description": "Think of fever as a symptom, not the disease - treat discomfort, not the number",
+            "details": [
+              "**Acetaminophen (Tylenol)**: 10-15 mg/kg PO/PR every 4-6 hours (max 5 doses/24hr). Safe for all ages including newborns.",
+              "**Ibuprofen (Motrin/Advil)**: 10 mg/kg PO every 6-8 hours (max 40 mg/kg/day). OK for age \u22656 months only. Better for inflammatory fever.",
+              "**Alternating**: Can alternate acetaminophen and ibuprofen every 3 hours for high fevers (not routinely needed).",
+              "**DON'T USE**: Aspirin in children <18 (Reye's syndrome risk), especially with viral illness",
+              "**Cooling measures**: Lukewarm bath OK. NO ice baths, alcohol rubs (causes shivering, increases temp!)"
+            ],
+            "clinical_pearl": "\ud83d\udc8a Goal: Make child comfortable, NOT to normalize temperature. A happy 101\u00b0F child needs nothing!"
+          }
+        ],
+        "story_intro": {
+          "text": "It's 2 AM. An anxious mother calls: 'My baby has a fever of 101! Should I go to the ER?' Your response depends entirely on one critical question: How old is the baby? Age determines risk. Let's master the age-based fever approach.",
+          "visual_cue": "\ud83c\udf21\ufe0f Picture three babies: 3-week-old (PANIC - get to hospital!), 3-month-old (Concern - call office), 3-year-old (Calm - manage at home)."
+        },
+        "quick_checks": [],
+        "mnemonics": [],
+        "clinical_pearls": [
+          "**Fever Phobia**: Educate parents that fever is protective (immune response), not dangerous per se. Brain damage doesn't occur until 107-108\u00b0F (almost impossible naturally).",
+          "**Febrile Seizures**: 2-5% of kids age 6 mo-5 yr. Simple febrile seizures (<15 min, generalized) are benign. Complex (>15 min, focal, recurrent in 24hr) need workup.",
+          "**Bundling Effect**: Overdressing can cause elevated temp in infants. If temp normalizes when undressed, not true fever.",
+          "**Teething Myth**: Teething does NOT cause high fever (>101\u00b0F) or diarrhea. If present, look for another cause.",
+          "**'Fever of Unknown Origin' (FUO)**: Fever >101\u00b0F for >14 days without identified cause despite appropriate workup. Think TB, Kawasaki, malignancy, autoimmune."
+        ],
+        "red_flags": []
+      }
+    ],
+    "videos": [
+      {
+        "source": "Osmosis",
+        "title": "Fever in Children - Pediatric Nursing",
+        "url": "https://www.youtube.com/watch?v=iX98rhpOYPQ",
+        "duration": "6 min"
+      }
+    ]
+  }
+}

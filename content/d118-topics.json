@@ -1,0 +1,168 @@
+{
+  "class": "D118",
+  "class_name": "Adult Primary Care - Pathopharmacology",
+  "version": "3.0",
+  "created": "2026-06-07",
+  "topics": [
+    {
+      "id": "d118-cv-htn",
+      "name": "Hypertension",
+      "system": "Cardiovascular",
+      "duration_min": 25,
+      "icon": "\u2764\ufe0f",
+      "color": "#ff4d6d",
+      "status": "complete",
+      "objectives": [
+        "Classify BP using ACC/AHA 2017 guidelines",
+        "Diagnose HTN correctly (when is 1 reading enough?)",
+        "Choose first-line meds by patient profile",
+        "Recognize resistant HTN and secondary causes"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d118-cv-chf",
+      "name": "Heart Failure",
+      "system": "Cardiovascular",
+      "duration_min": 30,
+      "icon": "\ud83d\udc94",
+      "color": "#ff4d6d",
+      "status": "complete",
+      "objectives": [
+        "Differentiate HFrEF vs HFpEF",
+        "Recognize acute decompensation signs",
+        "Master HFrEF medication regimen",
+        "Know when to hospitalize"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d118-resp-asthma",
+      "name": "Asthma",
+      "system": "Respiratory",
+      "duration_min": 28,
+      "icon": "\ud83e\udec1",
+      "color": "#38bdf8",
+      "status": "complete",
+      "objectives": [
+        "Diagnose asthma with PFTs (spirometry criteria)",
+        "Master the 5-step treatment algorithm",
+        "Identify poor control and when to step up",
+        "Know hospitalization criteria"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d118-resp-copd",
+      "name": "COPD",
+      "system": "Respiratory",
+      "duration_min": 26,
+      "icon": "\ud83e\udec1",
+      "color": "#38bdf8",
+      "status": "complete",
+      "objectives": [
+        "Classify COPD severity (GOLD criteria)",
+        "Choose inhaler combinations correctly",
+        "Recognize exacerbation needing hospitalization",
+        "Know when to use steroids vs antibiotics"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d118-endo-dm2",
+      "name": "Diabetes Mellitus Type 2",
+      "system": "Endocrine",
+      "duration_min": 35,
+      "icon": "\ud83c\udf6c",
+      "color": "#f5b731",
+      "status": "complete",
+      "objectives": [
+        "Diagnose DM (criteria: FBG, HbA1c, OGTT)",
+        "Master first-line medication (metformin)",
+        "Choose 2nd-line agents by comorbidities",
+        "Set individualized A1c goals"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d118-endo-thyroid",
+      "name": "Thyroid Disorders",
+      "system": "Endocrine",
+      "duration_min": 24,
+      "icon": "\ud83e\udd8b",
+      "color": "#f5b731",
+      "status": "complete",
+      "objectives": [
+        "Interpret TSH/T4 patterns",
+        "Differentiate Graves vs Hashimoto",
+        "Manage hypothyroidism with levothyroxine",
+        "Know when to refer hyperthyroidism"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d118-msk-oa",
+      "name": "Osteoarthritis",
+      "system": "Musculoskeletal",
+      "duration_min": 22,
+      "icon": "\ud83e\uddb4",
+      "color": "#fb923c",
+      "status": "complete",
+      "objectives": [
+        "Differentiate OA vs RA vs gout",
+        "Recognize classic X-ray findings",
+        "Master stepwise pain management",
+        "Know joint injection indications"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d118-neuro-stroke",
+      "name": "Stroke & TIA",
+      "system": "Neurologic",
+      "duration_min": 22,
+      "icon": "\ud83e\udde0",
+      "color": "#a78bfa",
+      "status": "complete",
+      "objectives": [
+        "Recognize stroke emergency (FAST)",
+        "Know tPA window and contraindications",
+        "Differentiate hemorrhagic vs ischemic",
+        "Secondary prevention strategies"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d118-gi-gerd",
+      "name": "GERD & PUD",
+      "system": "Gastrointestinal",
+      "duration_min": 20,
+      "icon": "\ud83d\udd25",
+      "color": "#4ade80",
+      "status": "complete",
+      "objectives": [
+        "Diagnose GERD clinically vs when to scope",
+        "Master PPI therapy (dose, duration)",
+        "H. pylori testing and treatment",
+        "Red flag symptoms needing referral"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d118-infx-uti",
+      "name": "UTI & Pyelonephritis",
+      "system": "Infectious Disease",
+      "duration_min": 18,
+      "icon": "\ud83d\udca7",
+      "color": "#f472b6",
+      "status": "complete",
+      "objectives": [
+        "Differentiate cystitis vs pyelo vs ASB",
+        "Choose appropriate antibiotics",
+        "Manage recurrent UTIs",
+        "When to image or refer"
+      ],
+      "lessons_available": true
+    }
+  ]
+}

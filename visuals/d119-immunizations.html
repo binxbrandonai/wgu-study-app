@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D119: Immunization Schedule Quick Reference</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 1.2em;
+        }
+        .mnemonic-box {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            border-left: 5px solid #4facfe;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .mnemonic-box h3 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        th {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-size: 1.1em;
+        }
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e0e0e0;
+            vertical-align: top;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        .age-col {
+            font-weight: bold;
+            color: #4facfe;
+            font-size: 1.2em;
+            width: 200px;
+        }
+        .section-title {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin: 30px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #4facfe;
+        }
+        .contraindication {
+            background-color: #fff5f5;
+            border-left: 4px solid #f44336;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .contraindication h4 {
+            margin: 0 0 10px 0;
+            color: #d32f2f;
+        }
+        .safe {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .safe h4 {
+            margin: 0 0 10px 0;
+            color: #2e7d32;
+        }
+        .pearl {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .pearl::before {
+            content: "💡 Clinical Pearl: ";
+            font-weight: bold;
+            color: #f57f17;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .vaccine-name {
+            font-weight: bold;
+            color: #1976d2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💉 D119: Immunization Schedule</h1>
+        <p class="subtitle">Pediatric Vaccine Timeline & Clinical Pearls</p>
+
+        <div class="mnemonic-box">
+            <h3>🎯 Mnemonic: "2-4-6-12-15-18-4-11"</h3>
+            <p><strong>2, 4, 6 months:</strong> The "big batch" visits (DTaP, IPV, Hib, PCV13, Rotavirus)</p>
+            <p><strong>12-15 months:</strong> MMR, Varicella, Hep A series begins</p>
+            <p><strong>18 months:</strong> DTaP #4, Hep A #2</p>
+            <p><strong>4-6 years:</strong> School entry boosters</p>
+            <p><strong>11-12 years:</strong> Tdap, HPV series, Meningococcal</p>
+        </div>
+
+        <div class="section-title">📅 Vaccination Schedule by Age</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Age</th>
+                    <th>Vaccines</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="age-col">Birth</td>
+                    <td>
+                        <span class="vaccine-name">Hep B #1</span> (within 24 hours)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="age-col">2 MONTHS</td>
+                    <td>
+                        <ul>
+                            <li><span class="vaccine-name">DTaP #1</span> (Diphtheria, Tetanus, Pertussis)</li>
+                            <li><span class="vaccine-name">IPV #1</span> (Inactivated Polio Vaccine)</li>
+                            <li><span class="vaccine-name">Hib #1</span> (Haemophilus influenzae type b)</li>
+                            <li><span class="vaccine-name">PCV13 #1</span> (Pneumococcal conjugate)</li>
+                            <li><span class="vaccine-name">Rotavirus #1</span> (oral, live)</li>
+                            <li><span class="vaccine-name">Hep B #2</span></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="age-col">4 MONTHS</td>
+                    <td>
+                        <ul>
+                            <li><span class="vaccine-name">DTaP #2</span></li>
+                            <li><span class="vaccine-name">IPV #2</span></li>
+                            <li><span class="vaccine-name">Hib #2</span></li>
+                            <li><span class="vaccine-name">PCV13 #2</span></li>
+                            <li><span class="vaccine-name">Rotavirus #2</span></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="age-col">6 MONTHS</td>
+                    <td>
+                        <ul>
+                            <li><span class="vaccine-name">DTaP #3</span></li>
+                            <li><span class="vaccine-name">Hib #3</span></li>
+                            <li><span class="vaccine-name">PCV13 #3</span></li>
+                            <li><span class="vaccine-name">Rotavirus #3</span> (depends on brand)</li>
+                            <li><span class="vaccine-name">Hep B #3</span> (6-18 months)</li>
+                            <li><span class="vaccine-name">Influenza</span> (annually starting at 6 months)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="age-col">12-15 MONTHS</td>
+                    <td>
+                        <ul>
+                            <li><span class="vaccine-name">MMR #1</span> (Measles, Mumps, Rubella - live)</li>
+                            <li><span class="vaccine-name">Varicella #1</span> (chickenpox - live)</li>
+                            <li><span class="vaccine-name">Hep A #1</span></li>
+                            <li><span class="vaccine-name">PCV13 #4</span></li>
+                            <li><span class="vaccine-name">Hib #4</span></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="age-col">15-18 MONTHS</td>
+                    <td>
+                        <ul>
+                            <li><span class="vaccine-name">DTaP #4</span></li>
+                            <li><span class="vaccine-name">Hep A #2</span> (6-18 months after #1)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="age-col">4-6 YEARS<br>(School Entry)</td>
+                    <td>
+                        <ul>
+                            <li><span class="vaccine-name">DTaP #5</span></li>
+                            <li><span class="vaccine-name">IPV #4</span></li>
+                            <li><span class="vaccine-name">MMR #2</span></li>
+                            <li><span class="vaccine-name">Varicella #2</span></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="age-col">11-12 YEARS</td>
+                    <td>
+                        <ul>
+                            <li><span class="vaccine-name">Tdap</span> (adolescent/adult formulation)</li>
+                            <li><span class="vaccine-name">HPV series</span> (2-dose series if started <15 yo)</li>
+                            <li><span class="vaccine-name">Meningococcal conjugate #1</span> (MenACWY)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="age-col">16 YEARS</td>
+                    <td>
+                        <span class="vaccine-name">Meningococcal #2</span> (booster)
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="section-title">🚫 Contraindications</div>
+
+        <div class="contraindication">
+            <h4>ALL VACCINES:</h4>
+            <ul>
+                <li>Severe allergic reaction to prior dose or component</li>
+                <li>Moderate-severe acute illness (defer until recovered)</li>
+            </ul>
+        </div>
+
+        <div class="contraindication">
+            <h4>LIVE VACCINES (MMR, Varicella, Rotavirus, LAIV):</h4>
+            <ul>
+                <li>Pregnancy</li>
+                <li>Immunocompromised (HIV with CD4 &lt;15%, chemotherapy, high-dose steroids &gt;2 weeks)</li>
+                <li>Recent immunoglobulin (defer MMR/Varicella 3-11 months depending on dose)</li>
+            </ul>
+        </div>
+
+        <div class="safe">
+            <h4>✅ NOT Contraindications (Safe to Vaccinate):</h4>
+            <ul>
+                <li>Mild illness (URI, diarrhea) without fever</li>
+                <li>Antibiotic use</li>
+                <li>Prematurity (use chronological age, give full dose)</li>
+                <li>Breastfeeding</li>
+                <li>Egg allergy (MMR safe, Flu vaccine safe)</li>
+                <li>Family history of adverse reaction</li>
+                <li>Recent exposure to infectious disease</li>
+            </ul>
+        </div>
+
+        <div class="pearl">
+            <strong>Catch-Up Schedules:</strong> NEVER restart a vaccine series — just continue where you left off. Most vaccines: 4 weeks minimum between doses. MMR/Varicella: 3 months if catch-up needed.
+        </div>
+
+        <div class="pearl">
+            <strong>Egg Allergy Myth:</strong> MMR is grown in chicken embryo fibroblasts (NOT egg protein). Influenza vaccine contains minimal egg protein. Both are SAFE in egg allergy patients.
+        </div>
+
+        <div class="pearl">
+            <strong>Prematurity:</strong> Use chronological age (not corrected age) for vaccine schedule. Give FULL dose — do not reduce dose for low birth weight.
+        </div>
+
+        <div class="section-title">🔬 High-Yield Vaccine Facts</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Vaccine</th>
+                    <th>Type</th>
+                    <th>Key Facts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="vaccine-name">Rotavirus</td>
+                    <td>Live (oral)</td>
+                    <td>
+                        <ul>
+                            <li>First dose: 6 weeks to 14 weeks 6 days</li>
+                            <li>Last dose: by 8 months</li>
+                            <li>Contraindicated: severe combined immunodeficiency (SCID)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="vaccine-name">MMR</td>
+                    <td>Live (injectable)</td>
+                    <td>
+                        <ul>
+                            <li>Most common side effect: fever 7-12 days post-vaccine</li>
+                            <li>Can cause transient thrombocytopenia (rare)</li>
+                            <li>NOT linked to autism (thoroughly debunked)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="vaccine-name">Varicella</td>
+                    <td>Live (injectable)</td>
+                    <td>
+                        <ul>
+                            <li>Post-exposure prophylaxis: within 3-5 days of exposure</li>
+                            <li>Can cause mild varicella-like rash at injection site</li>
+                            <li>2-dose series: 12-15 months, then 4-6 years</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="vaccine-name">HPV</td>
+                    <td>Inactivated</td>
+                    <td>
+                        <ul>
+                            <li>9-valent (Gardasil 9): covers 90% of cervical cancers</li>
+                            <li>2-dose series if started <15 yo (0, 6-12 months)</li>
+                            <li>3-dose series if started ≥15 yo or immunocompromised</li>
+                            <li>Ideally given before sexual debut</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="vaccine-name">Meningococcal</td>
+                    <td>Inactivated</td>
+                    <td>
+                        <ul>
+                            <li>MenACWY: conjugate (ages 11-12, booster at 16)</li>
+                            <li>MenB: separate vaccine for high-risk or college students</li>
+                            <li>Increased risk: college dorms, military recruits, complement deficiency</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="vaccine-name">Influenza</td>
+                    <td>Inactivated OR Live (LAIV nasal)</td>
+                    <td>
+                        <ul>
+                            <li>Annual starting at 6 months</li>
+                            <li>First-time recipients <9 yo: 2 doses 4 weeks apart</li>
+                            <li>LAIV contraindicated: <2 yo, asthma/wheezing, immunocompromised, pregnant</li>
+                            <li>Safe in egg allergy</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="pearl">
+            <strong>Immunocompromised Patients:</strong> NO live vaccines (MMR, varicella, rotavirus, LAIV). Inactivated vaccines are SAFE and recommended. Give PCV13 and PPSV23 for pneumococcal coverage.
+        </div>
+
+        <div style="text-align: center; margin-top: 50px; padding: 30px; background: #f8f9fa; border-radius: 10px;">
+            <h2 style="color: #2c3e50; margin: 0 0 15px 0;">Good luck on your D119 exam! 🎓</h2>
+            <p style="color: #555; font-size: 1.1em; margin: 0;">Immunizations = high-yield topic. Know the schedule, contraindications, and live vs inactivated.</p>
+            <p style="color: #777; margin-top: 15px; font-size: 0.9em;">Created: June 6, 2026 | <a href="../index.html">Back to Home</a></p>
+        </div>
+    </div>
+</body>
+</html>

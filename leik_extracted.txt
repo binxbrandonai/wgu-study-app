@@ -1,0 +1,1975 @@
+FAMILY
+NURSE PRACTITIONER
+CERTIFICATION
+Intensive Review
+F o u r t h  E d i t i o n MARIA T . CODINA LEIKPlus Interactive Digital Prep
+   Family Nurse Practitioner 
+Certification 
+Intensive Review  
+  Maria T. Codina Leik,  MSN, APRN, FNP-C, FNP-BC, AGPCNP-BC, is the presid ent and principal 
+lecturer at National ARNP Services, Inc. Well known for her ability to simplify complex con-
+cepts for her students, she is a popular speaker and educator. Ms. Leik previously taught in the 
+nurse practitioner program at Florida International University Graduate School of Nursing, 
+Miami, Florida. She is board certi/f_i  ed by the American Nurses Credentialing Center (ANCC) 
+and the American Academy of Nurse Practitioners Certi/f_i  cation Board (AANPCB) in two 
+specialties: family nurse practice and adult-gerontology primary care nurse practice. She has 
+more than two decades of experience in clinical practice. Ms. Leik is a member of Sigma Theta 
+Tau International Honor Society of Nursing. 
+  Family Nurse Practitioner 
+Certification 
+Intensive Review  
+ Fourth Edition
+Maria T. Codina Leik, /m.sc/s.sc/n.sc, /a.sc/p.sc/r.sc/n.sc, /f.sc/n.sc/p.sc-/c.sc, /f.sc/n.sc/p.sc-/b.sc/c.sc, /a.sc/g.sc/p.sc/c.sc/n.sc/p.sc-/b.sc/c.sc  
+ Copyright © 2021 Springer Publishing Company, LLC 
+ All rights reserved. 
+ First Springer Publishing edition 2007; subsequent editions 2013, 2018 
+ No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any 
+means, electronic, mechanical, photocopying, recording, or otherwise, without the prior permission of Springer 
+Publishing Company, LLC, or authorization through payment of the appropriate fees to the Copyright Clearance 
+Center, Inc., 222 Rosewood Drive, Danvers, MA 01923, 978-750-8400, fax 978-646-8600, info@copyright.com or on the 
+Web at  www.copyright.com.  
+ Springer Publishing Company, LL 
+ 11 West 42nd Street, New York, NY 10036 
+  www.springerpub.com  
+  connect.springerpub.com/  
+  Acquisitions Editor  : Adrianne Brigido 
+  Compositor  : Amnet Systems 
+  ISBN  : 978-0-8261-6372-1 
+  ebook ISBN  : 978-0-8261-6373-8 
+  DOI:   10.1891/9780826163738 
+ 20 21 22 23 24 / 5 4 3 2 1 
+ The author and the publisher of this Work have made every effort to use sources believed to be reliable to provide 
+information that is accurate and compatible with the standards generally accepted at the time of publication. Because 
+medical science is continually advancing, our knowledge base continues to expand. Therefore, as new information 
+becomes available, changes in procedures become necessary. We recommend that the reader always consult current 
+research and speci/f_i  c institutional policies before performing any clinical procedure or delivering any medication. The 
+author and publisher shall not be liable for any special, consequential, or exemplary damages resulting, in whole or in 
+part, from the readers’ use of, or reliance on, the information contained in this book. The publisher has no responsibil-
+ity for the persistence or accuracy of URLs for external or third-party Internet websites referred to in this publication 
+and does not guarantee that any content on such websites is, or will remain, accurate or appropriate. 
+  Library of Congress Cataloging-in-Publication Data   
+ Library of Congress Control Number: 2020917893  
+ Contact sales@springerpub.com to receive discount rates on bulk purchases. 
+  Publisher’s Note:   New and used products purchased from third-party sellers are not guaranteed for quality, authen-
+ticity, or access to any included digital components.  
+ Printed in the United States of America. 
+ What a great time to be a nurse practitioner. 
+This is  our  decade, girls (and guys). I dedicate this book to you. 
+What a privilege it is to be able to make a difference in someone’s life. 
+Wow. 
+ Of course, my grateful thanks to 
+Ed, Mary, and Chrissy. 
+
+vii  Contents  
+  Contributors and Reviewers    ix
+  Preface  xi  
+  Acknowledgments  xiii  
+  I. CERTIFICATION AND EXAM INFORMATION  
+   1. Certi/f_i  cation Exam Information  3  
+   2. Question Dissection and Analysis     21  
+  II. PHARMACOLOGY AND HEALTH SCREENING OVERVIEW  
+   3. Pharmacology Review  59  
+   4. Health Promotion, Screening, and Disease Prevention Review  95  
+  III. SYSTEMS REVIEW  
+   5. Head, Eyes, Ears, Nose, and Throat Review  113  
+   6. Integumentary System Review  143  
+   7. Cardiovascular System Review  181  
+   8. Respiratory System Review  219  
+   9. Endocrine System Review    245
+  10. Gastrointestinal System Review    263
+  11. Genitourinary and Renal System Review    283
+  12. Nervous System Review    295
+  13. Hematopoietic System Review    319
+  14. Musculoskeletal System Review    333
+  15.  Psychiatric–Mental Health Review     359
+  IV. REPRODUCTIVE REVIEW  
+  16. Male Reproductive System Review    381
+  17. Female Reproductive System Review    393
+  18. Female Reproductive System Review: Pregnancy and Childbirth    421
+  19. Sexually Transmitted Diseases and Infections Review    445
+viii    CONTENTS
+  V. PEDIATRICS AND ADOLESCENTS REVIEW  
+  20. Pediatrics Review: Newborns and Infants    465
+  21. Pediatrics Review: Toddlers (Age 2–3 Years)    487
+  22. Pediatrics Review: School-Age Children (Age 4–11 Years)    495
+  23. Adolescents Review    507
+  VI. GERONTOLOGY REVIEW  
+  24. Body and Metabolic Changes in the Older Adult    521
+  25. Common Disorders in Geriatrics    529
+  VII. PROFESSIONAL ROLE REVIEW  
+  26. Ethical Guidelines and Advanced Practice Law    551
+  27. Professional Roles and Reimbursement    565
+  28. Cultural and Spiritual Health Beliefs    573
+  29. Nursing Research    581
+  30. Evidence-Based Medicine and Epidemiology    589
+  VIII.  PRACTICE TESTS   
+  31. Practice Test I    599
+  32. Practice Test I: Answers    623
+  33. Practice Test II    643
+  34. Practice Test II: Answers    667
+  35. Practice Test III    687
+  36. Practice Test III: Answers    715
+  37. Practice Test IV    735
+  38. Practice Test IV: Answers    763
+  Abbreviations and Acronyms  785  
+  Resources  793  
+  Index  811  
+ix  Contributors and Reviewers  
+  Contributors and reviewers for the fourth and previous editions   
+ Julie Adkins, DNP , APRN, FNP-BC, FAANP 
+ Family Nurse Practitioner ,  Adkins Family Practice, LLC ,  West Frankfort, Illinois 
+ Donna Bowles, EdD, MSN, RN, CNE 
+ Associate Professor ,  Indiana University Southeast ,  New Albany, Indiana 
+ Therese Boyd, EdD, ARNP , AGPCNP-BC 
+ Nurse Practitioner,   Clinical Assistant Professor ,  Florida International University ,  Miami, Florida 
+ Linda Carman Copel, PhD, RN, PMHCNS, BC, CNE, NCC, FAPA, ANEF 
+ Professor ,  Villanova University College of Nursing ,  Philadelphia, Pennsylvania 
+ Jill C. Cash, MSN, APRN, FNP-BC 
+ Nurse Practitioner ,  Vanderbilt Medical Group at Westhaven Family Practice ,  Franklin, Tennessee , 
+ Vanderbilt University Medical Center ,  Nashville, Tennessee 
+ Tanya L. Fernandez, MS, PA-C, IBCLC 
+ Assistant Professor ,  Department of Pediatrics ,  Child Health Associate/Physician Assistant Program , 
+ University of Colorado Anschutz Medical Campus ,  Aurora, Colorado 
+ Lucille R. Ferrara, EdD, MBA, RN, FNP-BC 
+ Assistant Professor and Director ,  Family Nurse Practitioner Program ,  Lienhard School of Nursing , 
+ New York, New York 
+ Susanne W. Gibbons, PhD, C-AGNP 
+ Assistant Professor ,  Daniel K. Inouye Graduate School of Nursing ,  Uniformed Services University of 
+the Health Sciences ,  Bethesda, Maryland 
+ Frank L. Giles, PhD, CRC, CCM, NCC, LMFT 
+ President ,  Giles & Associates, Inc. ,  Madison, Mississippi 
+ Cheryl A. Glass, MSN, WHNP , BC 
+ Clinical Research Specialist ,  KEPRO ,  TennCare Medical Solutions Unit ,  Nashville, Tennessee 
+ Elizabeth Johnston Taylor, PhD, RN 
+ Professor ,  School of Nursing ,  Loma Linda University ,  Loma Linda, California 
+x    CONTRIBUTORS AND REVIEWERS
+ Pamela L. King, PhD, FNP , PNP 
+ MSN Program Director ,  Spalding University ,  Louisville, Kentucky 
+ Liza Marmo, MSN, RN-BC, CCRN, ANP-C 
+ Director, Clinical Services ,  Lehigh Valley Health Network ,  Allentown, Pennsylvania 
+ Susanne J. Pavlovich-Danis, MSN, ARNP-C, CDE, CRRN 
+ Director of Clinical Continuing Education ,  TeamHealth ,  Advanced Practice Registered Nurse , 
+ Plantation Medical Clinic; ,  Nursing Professor ,  University of Phoenix–South Florida Campus ,  Miramar, 
+Florida 
+ JoAnne M. Pearce, MS, RNC, APRN-BC 
+ Nursing Education Consultant ,  Idaho State University ,  Pocatello, Idaho 
+ Sue Polito, MSN, RN, ANPC, GNPC 
+ Specialist Professor ,  Monmouth University ,  West Long Branch, New Jersey 
+ Dana R. Sherman, DNP , ARNP , ANP-BC, FNP-BC 
+ Clinical Adjunct Faculty ,  Florida International University ,  Advanced Practice Registered Nurse , 
+ Emergency Department ,  Mount Sinai Medical Center ,  Miami Beach, Florida 
+ Cirese Webster, RN, CPN, FNP-BC 
+ Nurse Practitioner ,  Metro Medical and Midwest Physicians; ,  Certi/f_i  ed Pediatric Nurse , 
+ St. Louis Children’s Hospital ,  St. Louis, Missouri 
+xi  Preface  
+ Welcome to the fourth edition of  Family Nurse Practitioner Certi/f_i  cation Intensive Review  . This 
+review book is designed to help you study effectively and ef/f_i  ciently for the family nurse prac-
+titioner certi/f_i  cation exams of both the American Academy of Nurse Practitioners Certi/f_i  cation 
+Board (AANPCB) and American Nurses Credentialing Center (ANCC). 
+ The goal for all of my nurse practitioner (NP) certi/f_i  cation review books is to provide you, 
+the NP test-taker, with a tool to effectively and rapidly review and prepare for your exam. This 
+book is also a valuable resource for current NP students and educators. Many students credit 
+these books with helping them pass not only their certi/f_i  cation exam but also quizzes and tests 
+when they were students. Students report that the review book has helped them successfully 
+pass their school’s dreaded “exit” exam. 
+ The book’s format remains the same as in the popular and best-selling /f_i  rst three editions, 
+with the addition of several new features. The book is styled as a “mega-review” study guide 
+because it combines six different resources in one: 
+ 1. Certi/f_i  cation exam information that is highly speci/f_i  c for both the AANPCB and ANCC 
+exams 
+ 2. Useful test-taking techniques to help you prepare and strategize for exam day 
+ 3. Question dissection and analysis tools to help you break down questions for further study 
+and hone critical-thinking skills 
+ 4. A thorough review of pharmacology; health promotion, screening, and disease prevention; 
+and primary care diseases and conditions, with pertinent normal physical exam /f_i  ndings, 
+danger signals, exam tips, and clinical pearls 
+ 5.  New:   End-of-chapter “knowledge check” questions designed to help you assess knowledge 
+retention and application 
+ 6.  New:   Four full practice tests based on the blueprints for the AANPCB and ANCC certi/f_i  ca-
+tion exams, with answers and detailed rationales 
+ The fourth edition has been signi/f_i  cantly updated and features new disease topics, tables, 
+procedures, and updated clinical content that relate to the latest exam questions, as well as 
+many full-color images of dermatologic diseases and other conditions. In addition, it includes 
+ hundreds   of new practice questions.   
+ Readers receive 6 months of free digital access to the interactive digital version on 
+ExamPrepConnect (see access details on inside front cover). Features include: 
+  I All of the high-quality content from the book 
+  I Personalized study plan based on exam date 
+  I Ability to study by topic area to identify strengths and weaknesses 
+xii    PREFACE
+  I Timed practice tests that simulate the test-taking environment 
+  I Discussion board to connect with the nurse practitioner exam-prep community 
+  I Games to make studying fun 
+ This book and my  Adult-Gerontology Nurse Practitioner Certi/f_i  cation Intensive Review   have 
+become the most sought-after and relied-upon review books for use in studying for both 
+the AANPCB and ANCC certi/f_i  cation exams. The contents and procedures in this book are 
+designed for review purposes only. They are not intended for use in clinical practice. 
+ If you have any comments or suggestions for this book or would like me to teach a review 
+course at your institution, please contact me at npreviews@gmail.com. If you would like to 
+attend one of my webinars or live-review courses, visit my website at  www.npre view.com,  
+which is frequently updated with exam information,  updates , and new treatment guidelines.   
+  Maria T. Codina Leik   
+xiii  Acknowledgments  
+ To my awesome editor, Adrianne Brigido, whose endless patience and support has helped me 
+tremendously. I want to thank you and give you a big hug. I want to extend my gratitude to 
+Springer Publishing Company, New York, and its staff. 
+ I want to extend my deep gratitude to Ricardo G. Codina and Thelma Y. Codina. And, of 
+course, kudos to Angelica, my assistant, who wears so many hats.       
+
+I
+Certification and 
+Exam Information
+
+3  1   Certification Exam 
+Information  
+   AMERICAN NURSES CREDENTIALING CENTER 
+  www.nursingworld.org/ancc  
+ Credential: FNP-BC 
+ Toll-Free Phone: (800) 284-2378 
+ Mobile App: MYANCC (Apple Store/Google Play) 
+ Electronic Transcripts: aprnvalidation@ana.org 
+ The American Nurses Credentialing Center (ANCC) is the independent credentialing body of the 
+American Nurses Association (ANA). It is the largest nurse credentialing organization in the United 
+States. The current edition of the ANCC Family Nurse Practitioner (FNP) exam was released May 22, 
+2019. 
+ The ANCC currently offers certi/f_i  cation exams for the following nurse practitioner (NP) specialties: 
+Family NP (FNP-BC), Adult-Gerontology Primary Care NP (AGPCNP-BC), Adult-Gerontology Acute 
+Care NP (AGACNP-BC), and Psychiatric–Mental Health NP (PMHNP-BC). You must /f_i  rst establish an 
+online account at the ANCC website before you can apply for any of the exams. You can use the mobile 
+app MYANCC to apply or renew your certi/f_i  cation and keep track of your continuing-education (CE) 
+hours. 
+ Prometric Computer Testing Centers 
+  www.prometric.com/ANCC  
+ Toll-Free Phone: (800) 350-7076 
+ Special Conditions Department (Special Accommodations): (800) 967-1139 
+ The ANCC uses Prometric Testing Centers to administer its exams. Before you can schedule an 
+appointment, you must have your candidate eligibility number; this is pr ovided in the Authorization 
+to Test Notice letter sent to quali/f_i  ed candidates who meet eligibility requirements and have completed 
+their application documentation. 
+ You can schedule, reschedule, cancel, and/or con/f_i  rm an appointment at the website portal or by 
+telephone. Prometric has 14,000 test centers in 180 countries, including the United States, Puerto Rico, the 
+U.S. Virgin Islands, Canada, Venezuela, and the United Kingdom. There are also test centers in Africa, 
+Asia, and Europe. 
+  International Testing for Military Personnel  
+ Military nurses who want to take the exam outside the United States are allowed to take their exams at 
+one of Prometric’s “global” testing centers. 
+  Qualiﬁ  cations  
+ One must graduate from an approved master’s, postgraduate, or doctoral degree program with a 
+specialization in family NP (plus the required minimum of 500 faculty-supervised clinical practice hours) 
+from an institution of higher learning. The program must be accredited by the Commission on Collegiate 
+Nursing Education (CCNE) or the Accreditation Commission for Education in Nursing (formerly known 
+as the National League for Nursing Accrediting Commission). In addition, the candidate must possess 
+an active RN license in any state or territory of the United States. The ANCC will, on an individual basis, 
+4    I. CERTIFICATION AND EXAM INFORMATION
+accept the professional legally recognized equivalent (of NP status) from another country if the applicant 
+meets its certi/f_i  cation criteria. If the applicant is educated and/or licensed outside the United States, 
+there are additional requirements. 
+  AMERICAN ACADEMY OF NURSE PRACTITIONERS 
+CERTIFICATION BOARD 
+  www.aanpcert.org  
+ Credential: FNP-C 
+ Toll-Free Phone: (855) 822-6727 
+ Certi/f_i  cation Administration: (512) 637-0500 
+ Email: certi/f_i  cation@aanpcert.org 
+ Electronic Transcripts: transcripts@aanpcert.org (via secure electronic transmission from registrar’s 
+of/f_i ce) 
+ The American Academy of Nurse Practitioners Certi/f_i  cation Board (AANPCB) is an independent 
+organization that is af/f_i  liated with the AANP and the American Academy of Emergency Nurse 
+Practitioners (AAENP). 
+ The AANPCB is currently offering three specialty exams: Family NP (FNP-C), Adult-Gerontology 
+Primary Care NP (AGNP-C), and Emergency NP (ENP-C). The current FNP , AGNP , and ENP exams were 
+released in February 2018. Their Adult NP exam was retired in December 2015, and the Gerontologic NP 
+exam was retired in December 2012. 
+ You must /f_i  rst establish an online account at their website before you can apply for the exam. 
+Applicants enrolled in an MSN or post-master’s certi/f_i  cate program may begin the application process 
+6 months before completion of the program. If you are enrolled in a DNP program, you can begin the 
+application process as early as 1 year prior to completion of the program. But you must complete all 
+the NP program didactic courses and supervised clinical practice hour requirements before you can sit 
+for the exam. In addition, an of/f_i  cial transcript showing the doctor of nursing practice (DNP) degree 
+awarded and conferral date is required to release your exam score. The certi/f_i  cation start date will be the 
+date the score is released (not the date the examination was taken). 
+ PSI Computer Testing Centers 
+  www.psiexams.com  
+ Toll-Free Phone: (800) 733-9267 
+ Fax: (702) 932-2666 
+ The AANPCB’s exams are administered by PSI Services LLC, which has more than 300 locations across 
+the United States and Canada. Locations are listed on the PSI scheduling portal. Approved, quali/f_i  ed 
+candidates who have completed their applications (/f_i  nal transcripts included) are sent an authorization 
+to test by email from the AANPCB. Approximately 1 day after you receive the AANPCB email, PSI 
+Services will send you your PSI eligibility ID number from support@psionline.com, providing a link to 
+their online scheduling system (to schedule/reschedule/cancel/con/f_i  rm). You can also register by phone 
+(800-733-9276).   Important information about applying for the AANC and AANPCB exams is provided in 
+Table 1.1.  
+   EXAM BACKGROUND INFORMATION 
+ The ANCC usually releases a new edition of their exam every 2 years. Each ANCC exam edition has 
+several versions. The AANPCB is now releasing a new edition of their exam annually in January; each 
+edition has at least two versions. If you have failed the exam and retake it, you will get a different version 
+of the exam. The version of the exam that you are taking is assigned by the testing-center computer 
+system. For example, you may be taking a different version of the exam than your classmate even though 
+both of you are taking the same edition of the exam on the same date and time at the same testing center. 
+1. CERTIFICATION EXAM INFORMATION    5
+ Exam Format 
+ The formats on the ANCC exam include “drag and dro p”; multiple-choice question with /f_i  ve or six 
+answer options (you are asked to select all answers  that apply); “hot spot” (a picture is presented 
+that is divided into four quadrants, and you click on the correct quadrant as the answer); and colored  
+photographs of skin and eye conditions; EKG strips;  and chest x-ray /f_i  lms. These new formats are 
+discussed in Chapter 2. Most questions on the ANCC exam are still multiple choice with four answer 
+options. 
+ Similarly, most AANPCB exam questions are the classic multiple-choice format with four answer 
+options. There may be one EKG strip, a chest x-ray /f_i  lm, and some multiple-choice questions with /f_i  ve to 
+six answer options (you are asked to select two to three answers). The exams are computer-based tests 
+(CBTs). Unlike the NCLEX-RN ®  exam, which is a computer-adaptive test, the NP exams do not shut 
+down automatically after you have earned enough points. 
+ Test Content Outline and Reference List 
+ Both the ANCC and the AANPCB provide test content outlines (TCOs) and a reference list on their 
+website. It is important that you read these documents carefully and concentrate your studies on the 
+designated topic areas. 
+ Total Number of Questions and Time 
+  I  ANCC FNP Exam (released May 2019):   There are 175 total questions. Only 150 questions are graded; 
+25 are pretest questions that are not scored.  
+  GG  Total Time:   Total counted testing time is 4 hours.  
+  I  AANPCB: FNP Exam (released January 2020):   There are 150 total questions. Only 135 questions are 
+graded; 15 questions are pretest questions that are not scored.  
+  GG  Total Time:    Total counted testing time is 3 hours.  
+ Computer Tutorial 
+ For both exams, each testing session starts with a computer tutorial session of 10 to 15 minutes. This time 
+is not counted as part of the testing time; it is “free” time. When the tutorial time expires, the computer 
+will automatically start the exam, and the /f_i  rst question will appear on the screen. The countdown clock 
+(upper corner of the screen) will start counting down the time. The countdown clock will not stop for 
+“breaks,” but if you need a break, inform a testing center staff member who is monitoring the testing 
+area. Watch the time clock closely because when the allotted testing time expires, the computer will 
+automatically shut down the exam.   Table 1.1   Application Timeline for Certiﬁ  cation Exams   
+  Timeline    Recommended Activities Before Graduation  
+ 6 months before graduation  Open an account on the ANCC and/or the AANPCB website and 
+start the application process. Find out about the certiﬁ  cation 
+requirements. Download and read the General Testing Booklet, 
+Test Content Outline, and Reference List. Visit your SBON 
+website and read the licensure requirements for NPs in your state. 
+Download the licensure application. 
+ 4–6 weeks before graduation  Order three to four copies of your ofﬁ  cial ﬁ  nal transcript. 
+ 2–3 weeks before graduation  Ask the NP director of your program to sign the ANCC Education 
+Validation form. 
+ AANPCB, American Academy of Nurse Practitioners Certiﬁ  cation Board; ANCC, American Nurses Credentialing Center; NP, nurse practitioner; 
+SBON, state board of nursing. 
+6    I. CERTIFICATION AND EXAM INFORMATION
+ Time Allotted per Question 
+ For both the ANCC and AANPCB certi/f_i  cation exams, each question is allotted approximately 60 
+seconds. If you /f_i  nd yourself spending too much time on one question, pick an answer (best guess), then 
+“mark” it so that you can return to it later. Never leave any question unanswered. If you guess correctly, 
+it will be counted; if you leave it blank, it is marked as an error (0 points). 
+ Sample Exam Questions 
+ I highly recommend that you try the free sample exams at the ANCC’s website even if you are planning 
+to take only the AANPCB exam. The ANCC’s sample exam is web-based and contains 25 questions. It 
+can be taken as many times as desired at no charge (and it is scored every time). The AANPCB also has 
+free questions, which are listed on the last two pages of their candidate handbook (no answer key is 
+provided). If you want to familiarize yourself with the format of the AANPCB exam, you can purchase 
+their 75-item practice examination (timed 90 minutes), which is taken online and graded. It can be taken 
+only once. The ANCC also sells sample exam questions, but their free web-based sample exam provides 
+a good opportunity to practice using their exam formats. 
+   COMPARING THE ANCC AND AANPCB EXAMS 
+1.     What are the passing rates for the two exams?  
+ ANCC FNP exam:  87% 
+ AANPCB FNP exam:  86% 
+2.     What is the major difference between the two exams?  
+ There are two major differences between the two exams. First, the ANCC exam contains nonclinical 
+questions. Second, question formats, such as drag and dr op, photographs, EKG strip, chest x-ray /f_i  lm, 
+and multiple-choice questions with /f_i  ve to six answer options, were added beginning with the 2016 
+ANCC exams. 
+ The questions on the AANPCB exam are all on clinical topics. The current version (January 2020) 
+does not contain nonclinical topics. Most of the questions are the classic multiple-choice format with four 
+answer options, but there may be some multiple-choice questions that have /f_i  ve to six answer options 
+(you are asked to select two to three answers). An EKG strip and/or chest x-ray /f_i  lm is not always 
+included on the exam (AANCB and ANCC). 
+3.     Are there apps from the Apple Store and Google Play?  
+  AANC  : The ANCC has an app that can be used to apply for the exam. 
+  AANPCB  : The AANPCB does not have an app currently, but it may have one in the near future. 
+4.   What are the new commands in the ANCC Prometric exams?  
+ You can now “highlight” words (keywords) to help you concentrate on the best clues (that you 
+picked). You can also use the “strikeout” command, which allows you to cross out (eliminate) the answer 
+option(s) that you think is(are) wrong (distractors). These two new commands are not yet available for 
+the PSI AANPCB exam. 
+5.     If I join their respective membership organizations, will I receive a discount on my fees?  
+  ANCC:   To be eligible, you need to be a member of the ANA. If you belong to a state nursing association, 
+you may already be a member of the ANA. Check with your state’s nursing association. To apply for 
+membership, apply online at the ANA’s website ( www.nursingworld.org).  A word of warning : If you are 
+not a member, you have only 5 business days after you apply for the exam to claim the membership 
+discount. Exam discount claims received after this time are not allowed, and “refunds will not be issued.” 
+  AANPCB:   To be eligible, you must be a member of the AANP ( www.aanp.org).  If you already applied 
+for the exam as a nonmember, you have up to 30 days to apply for membership. To receive the membership 
+discount (as a refund), inform them by email that you are a member (certi/f_i  cation@aanpcert.org). 
+6.   How do I apply for the ANCC or AANPCB certi/f_i  cation exam?  
+ For both agencies, you must initially open an online account on their website. To avoid loss of 
+information, it is best to complete your online application within 30 days of starting it. The application 
+1. CERTIFICATION EXAM INFORMATION    7
+forms are in editable PDF format so you can enter the information directly on your computer and 
+then print a hardcopy for your records. If you apply by mail, do not forget to photocopy the entire 
+contents of your application package. If you plan on using the U.S. Postal Service to mail your package, 
+it is recommended that you pay the extra fee for registered mail. 
+  ANCC:   The ANCC accepts applications online and by email, standard mail, fax, and their mobile app 
+MYANCC (Apple Store/Google Play). 
+  AANPCB:   The AANPCB accepts applications online and by mail. Applying online does not expedite 
+processing. The organization automatically charges a nonrefundable paper application processing fee for 
+all paper applications (email, mail, and fax). There is no charge for processing of supporting documents 
+for certi/f_i  cation and recerti/f_i  cation (e.g., unof/f_i  cial transcripts, RN license). 
+7.   How early can I apply for the certi/f_i  cation exam?  
+  ANCC:   The ANCC allows students to apply as early as 6 months before graduation. It will not 
+process an application until payment has cleared. A completed application must contain a copy of 
+your RN license, an of/f_i  cial copy of your /f_i  nal transcripts, and the original copy of the Validation of 
+Education form, signed by your NP program director A Gap Analysis form (on website) is needed for all 
+postgraduate certi/f_i  cates or doctoral degrees and should be sent with the Validation of Education form. 
+  AANPCB:   Applicants enrolled in an MSN or post-master’s ce rti/f_i cate program may apply 6 months 
+prior to graduation. DNP students may apply up to 1 2 months before graduation, but the AANPCB will 
+not release the exam scores or grant certi/f_i  cation until the MSN or DNP degrees are issued. If you app ly 
+before you graduate, you are required to submit an of/f_i  cial copy of your current transcript (the inter im 
+transcript). The interim transcript is your most re cent transcript, which contains all the coursework that you 
+have completed up to that date. When the of/f_i  cial /f_i  nal transcript is released, either you or the regi strar’s 
+of/f_i ce of your school can mail or email it directly to  the AANPCB.   In addition, the AANPCB requires a 
+hard copy of your RN license. Do not forget to down load the State Board of Nursing Noti/f_i  cation form 
+from the board’s website so that it can release you r exam scores to your state board of nursing (SBON) . 
+8.     How long does it take to process a completed application?  
+  ANCC:   It takes about 4 to 6 weeks to process an application. Be warned that the ANCC will not 
+process an application until it is complete and all required documents have been received (copy of RN 
+license, original of the signed education validation form, /f_i  nal transcript). If there are problems with your 
+application, an email will be sent to you. Answer all the questions on the forms, and do not leave any 
+blanks. 
+  AANPCB:   It generally takes between 4 and 6 weeks after you have paid the fees and submitted all the 
+required documentation to process an application. Fill out all the questions, and do not leave any blanks 
+or forget signatures. An error can delay your application signi/f_i  cantly. 
+9.     What is the ANCC’s “expedited application” process?  
+ This option shortens the processing time to 5 business days ($200 nonrefundable fee). Download 
+and print the Certi/f_i  cation Expedite Review Request form from the ANCC website and fax it to (301) 
+628-5233. If your school has not released your /f_i  nal transcript, it will delay the expedited application. 
+The Validation of Education form can be signed by electronic signature (give your NP director’s email 
+address), and an electronic copy of your /f_i  nal transcript can be emailed directly by secure transmission 
+from your school’s registrar of/f_i  ce (aprnvalidation@ana.org). Call to verify that the ANCC has received 
+your faxed application. 
+  Note:   Mailing the ANCC “expedited” form will delay processing; it should be faxed. If you both fax 
+and mail it, you will be charged the processing fee twice. 
+ The AANPCB does not expedite applications. 
+10.   What are the /f_i  nal transcript and the “of/f_i  cial” transcript?  
+ The /f_i  nal transcript is the one that is issued after you graduate from your NP program. It 
+should/uni00A0 indicate/uni00A0 the type of degree you earned along with the NP specialty (e.g., family or adult-
+gerontology NP). 
+ A transcript is considered of/f_i  cial only if it remains inside the sealed envelope in which it was mailed 
+from your college registrar’s of/f_i  ce or if it is mailed directly from their of/f_i  ce to the certifying agency. An 
+8    I. CERTIFICATION AND EXAM INFORMATION
+electronic copy of your transcript can be transmitted directly by secure transmission from the registrars’ 
+of/f_i ce (aprnvalidation@ana.org). Order at least three to four copies of your /f_i  nal transcripts and keep the 
+extras unopened to keep them of/f_i  cial. Open one copy (yours) and check it for accuracy. 
+11.   What is the ANCC Validation of Education form?  
+ This one-page form is a requirement for ANCC applicants only. Most NP programs have this 
+document signed in bulk by the curr ent director of the NP program. Ideally, it should be distributed to 
+the students before the /f_i  nal day of school. You must send the original signed form (not a copy) to the 
+ANCC with your application. 
+  Note:   It is probably a good idea for all NP students to get this document signed, even if they plan 
+to take only the AANPCB exam. Because the ANCC requires this form, it will save you precious time 
+in the future if you decide to apply for their exam. You always have the option of applying quickly for 
+the “other” certi/f_i  cation exam if you fail the /f_i  rst. Do not forget that you will need another of/f_i  cial /f_i  nal 
+transcript (another good reason why you should have at least four copies). 
+12.   Is it possible to take the exams at any time of the year?  
+ You can take both certi/f_i  cation exams at any time of the year, whenever the Prometric and the PSI 
+testing centers are open. 
+13.   When should I schedule my exam?  
+ Do not wait until the last minute to schedule your exam because the testing centers in your area 
+may no longer have the date (or the time) that you desir e. Morning time slots tend to get /f_i  lled very 
+quickly. Both Prometric and PSI testing centers allow test takers to schedule, reschedule, or cancel an 
+appointment on their website or by phone, but you should give them notice. 
+  Prometric (ANCC):   The processing fee is charged if <30-days’ notice is given. 
+  PSI (AANPCB):   Requires a minimum of at least 2 days in advance to reschedule or cancel an exam 
+(before 5 p.m. Paci/f_i  c Standard Time). 
+  Note:   Avoid scheduling yourself at the time of day when you tend to get tired or sleepy. For most, 
+this is usually after lunchtime. Simply picking the wrong time of day can cause you to fail the exam, 
+sometimes by as little as 2 points. 
+14.   What should I do if the time slot or date that I want is no longer available?  
+ Look for another testing center as soon as possible. For some, it may mean a long drive to another 
+city, but it may well be worth the extra time and effort if your authorization-to-test letter is about to 
+expire. 
+15.   Can I take the exam if my name does not match my primary picture identi/f_i  cation?  
+ The name that you used to register must match exactly the name on your primary picture identi/f_i  cation 
+with signatur e. If it doesn’t, you will not be allowed to test. If you need to modify your name, call the 
+ANCC as soon as possible prior to scheduling your appointment. 
+16.   If I have a disability, how can I obtain special testing accommodations?  
+You can download the Special Accommodations form from each organization’s website (ANCC 
+and AANPCB). It requires a description of the disability and limitations related to testing. It should 
+be dated and signed by the provider. For example, if a student has severe test-taking anxiety, a special 
+accommodation (if approved) is an extension of the testing time. Check the agency’s website for further 
+instructions.
+  COMMON QUESTIONS ABOUT ANCC AND AANPCB EXAMS 
+1.     What are the passing scores?  
+  ANCC:   The passing score is 350 points or higher. ANCC scores range from 100 to 500 points. 
+  AANPCB:   The passing score is 500 points or higher. AANPCB scores range from 200 to 800 points. 
+1. CERTIFICATION EXAM INFORMATION    9
+2.   Will I /f_i  nd out immediately if I pass (or fail) the exam?  
+ Yes, you will. After you exit the testing area, ask the proctor to print a copy of your results (pass or fail 
+format). This is the “unof/f_i  cial” score. If you pass the exam, you will not get a number score. According 
+to the AANPCB, a preliminary “pass” score at the testing center is not considered of/f_i  cial noti/f_i  cation. It 
+does not indicate active certi/f_i  cation status, and it may not be used for employment or licensure as an NP . 
+A letter with your of/f_i  cial score will be mailed to you at a later date, indicating the type of certi/f_i  cation and 
+the starting date.   If you fail the exam, you will receive a scaled number score with diagnostic feedback 
+information for each domain such as: 
+  I  Low:   Your score from this content area is below the acceptable level. 
+  I  Medium:   Your score from this content area is marginally acceptable. 
+  I  High:   Your score from this content area is above average. 
+  I Concentrate your studies on the domain/category(s) in which you score “low” or “medium.” 
+3.   How many times a year can I retake the FNP certi/f_i  cation exam?  
+  ANCC:   You can take this exam up to three times in a 12-month calendar period. You must wait at least 
+60 days between each exam. If you fail, you can reapply online (retest application), but wait about 5 days 
+(after taking your exam) before you reapply online. 
+  AANPCB:   You can take the exam up to two times per calendar year. Although there is no wait-time 
+requirement prior to retesting, the AANPCB requires test-takers to take 15 contact hours in their area(s) 
+with the weakest score (your “areas of weakness”). Reapply for the exam online by using the Retake 
+Application form. 
+  Note:   The CE hours that you took before sitting for the certi/f_i  cation exam are not eligible. The contact 
+hours must be taken after you failed the exam. If you took a review course, it can be retaken again with 
+the new dates. When you have completed the required 15 contact hours, email or fax the certi/f_i  cate of 
+completion as proof. Call the AANPCB certi/f_i  cation of/f_i  ce /f_i  rst before faxing any documents. 
+4.   What happens if I fail the ANCC or AANPCB exam the second time?  
+ You must resubmit a full application along with all the required documentation (like the /f_i  rst time) 
+and pay the full test fee. 
+5.     What happens if my Authorization-to-Test letter expires, and I have not taken the exam?  
+ Immediately call the certifying agency for further instructions. Both the ANCC and the AANPCB will 
+allow you to r eschedule your exam (one time only). You must pay a rescheduling fee. If you fail to test 
+on your extended testing window, you must reapply like a new applicant and pay the full registration 
+fee again. 
+6.     Is it possible to extend the testing window?  
+  ANCC:   You can request (one time only) a new 90-day testing window. It must occur <6/uni00A0months from 
+the last day of the initial testing window. Your request for extension to the ANCC should be received 
+before the initial 90-day testing period expires. 
+  AANPCB:   You can request an extension (one time only) by sending an email to certi/f_i  cation@aanpcert
+.org. If an extension is granted, it will be for 60 days only. If you do not retake the exam during that time, 
+you must reapply to take the examination (like the /f_i  rst time) and pay the full fee. 
+7.   Is there a penalty for guessing on the exam?  
+ No, there is no penalty for guessing. If you are running out of time, answer the remaining questions 
+at random. Do not leave any questions “blank” or without an answer , because this will be marked as an 
+error (0 points). You may earn a few extra points if you guess correctly, which can make the difference 
+between passing and failing the exam. 
+8.     Is it possible to return to a question later and change its answer?  
+ Yes, it is, but only if you “/f_l  ag” the question. You will learn about this simple command during the 
+computer tutorial at the beginning of the exam. “Flagging” a question allows the test taker to return to 
+the question at a later time (if you want to change or review your answer). On the other hand, if you 
+indicate to the computer that your answer is “/f_i  nal,” then you will not be allowed to change the answer. 
+10    I. CERTIFICATION AND EXAM INFORMATION
+Do not worry about forgetting to “un/f_l  ag” the questions if you run out of time. As long as a question has 
+an answer, it will be graded by the computer. 
+9.     Does the certifying agency inform the SBON of my certi/f_i  cation status?  
+ The AANPCB and ANCC will not automatically send your scores to the SBON. For both certifying 
+agencies, you must sign their Release of Scor es consent form when you apply for the exam. 
+10.   How can I obtain an “of/f_i  cial” veri/f_i  cation of my national certi/f_i  cation for my employer?  
+ Both agencies have veri/f_i  cation request forms on their websites. If you just took the exam, the AANPCB 
+recommends you wait at least 10 days after your testing date. A nominal fee is charged. 
+11.      I am getting married (or divorced). Is there a problem with changing my legal name after I applied 
+for the exams using my maiden or married name?  
+ Yes, there may be a problem. The name that you use  in your application must be the same as the 
+one listed on your primary ID (e.g., your unexpir ed driver’s license, passport, or military ID). Che ck 
+the agency’s website or call for more details. If y ou get married after you applied for the exam, it i s 
+better to wait until you have taken and passed the exam before changing the name on your driver’s 
+license. 
+ COMMON QUESTIONS ABOUT CERTIFICATION RENEWAL 
+1.     How long is my certi/f_i  cation valid?  
+ Certi/f_i  cation from the ANCC as well as the AANPCB is valid for 5 years. A few months before your 
+certi/f_i  cation expires, both the ANCC and the AANPCB will send you a reminder letter. “Failure of the 
+certi/f_i  cant to receive (his or her) renewal notice does not relieve the certi/f_i  cant of his or her professional 
+responsibility for renewing their certi/f_i  cation.” 
+2.     Can I still use my professional designations  after my certi/f_i  cation expires because I forgot to renew it?  
+ No, credentials cannot be used once they have expired. 
+3.     What should I do if I change my legal name, have a new email address, have a new telephone 
+contact number , or move to a new address?  
+ You need to update your online account at the ANCC or the AANPCB website within 30 days if there 
+are any changes in your contact information, such as your legal name, residence address, email, or phone 
+number. 
+4.   Is there a time period that must be followed to renew certi/f_i  cation?  
+ Yes, there is. All of the contact hours and practice hours must be completed within the current 5-year 
+certi/f_i  cation period. 
+5.     When should I submit my renewal application?  
+ The process can be started as early as 12 months before your certi/f_i  cation expires. It is best to start 
+early because if you do not have enough CE/clinical/pharmacology contact hours, you still have enough 
+time to obtain them. Recerti/f_i  cation applications should be submitted no later than 12 weeks prior to the 
+expiration date of the current certi/f_i  cation to allow time for reviewing, processing, and issuing the new 
+certi/f_i  cate before the expiration of the current certi/f_i  cation. 
+  Note:   Save a digital or hard copy (or other proof) of all your CE hours and clinical practice hours. 
+If you are audited, you will be asked to submit proof of your CE hours (i.e., certi/f_i  cates) and clinical 
+practice hours. 
+6.   How many clinical hours of practice are required to renew my certi/f_i  cation every 5 years?  
+ The ANCC no longer requires clinical practice hours for recerti/f_i  cation, although the AANPCB does 
+require 1,000 hours of clinical practice in your area of specialty (completed in the previous 5 years before 
+1. CERTIFICATION EXAM INFORMATION    11
+recerti/f_i  cation), plus 100 hours CE, of which 25 hours must be pharmacology CE. If you plan to use your 
+clinical volunteer hours as an NP , keep a notebook to record each clinical site’s address, the number of 
+hours that you practiced, and the name/signature of the supervising NP/physician. If you do not have 
+enough clinical hours, another method you can use to recertify is to retake the examination combined 
+with the required CE hours. For  adult nurse practitioners (ANPs) and gerontological nurse practitioners 
+(GNPs) , you do not have the option to recertify by retaking the examination, because the exams for your 
+specialty have been retired. 
+7.   How many CE contact hours are required for recerti/f_i  cation?  
+  ANCC:   75 contact hours of CE are required. You also need one or more of the eight ANCC renewal 
+categories (i.e., academic credits, presentations, preceptor hours, quality improvement project, 
+professional service, practice hours, retake exam, publication or research). 
+  AANPCB:   100 contact hours of CE are required. 
+8.   How many pharmacotherapeutic contact hours are required per renewal cycle?  
+  ANCC:   Of the 75 contact hours, 25 of those hours must be in pharmacotherapeutics. If you double the 
+75 (150 contact hours), only 25 contact hours are required. 
+  AANPCB:   Of the 100 contact hours, 25 contact hours of advanced pharmacology are required. 
+9.   What happens if my certi/f_i  cation lapsed (I forgot to renew it)?  
+ There is no “grace period” or backdating. On the day when your certi/f_i  cation expires, you are 
+prohibited from using your designation after your name. In addition, you will have a gap in your 
+certi/f_i  cation dates. The ANCC recommends that you check with your state licensing board to determine 
+whether you can continue to practice as an NP . They also recommend that you check with your employer 
+and with the agencies that are reimbursing your services. 
+10.   If my specialty certi/f_i  cation exam was retired, can I continue with my specialty designation?  
+ Yes, you may. You can renew your certi/f_i  cation only through CE and clinical hours. If you let your 
+certi/f_i  cation lapse, you no longer have the examination option. Unless there are other options in the 
+future (check the websites for updates), only students who have graduated from an AGNP program are 
+permitted to take that exam. ANPs and GNPs are not allowed to take the AGNP exam. 
+11.     Is there any reciprocity between the ANCC and the AANPCB?  
+ No, there is not. Both the ANCC and the AANPCB discontinued their reciprocity program many 
+years ago. 
+   EXAM QUESTION CLASSIFICATION 
+ American Nurses Credentialing Center 
+ See Table 1.2 for the ANCC FNP exam domains.  
+  Table 1.2  ANCC FNP Exam Domains   
+  FNP Exam (Released May 2019)    % of Questions    Number of Questions  
+ Assessment  21    31 
+ Diagnosis  26    39 
+ Clinical Management  43  65 
+ Professional Role  10   15 
+ Total  100  150 scored questions 
+ ANCC, American Nurses Credentialing Center; FNP, f amily nurse practitioner. 
+12    I. CERTIFICATION AND EXAM INFORMATION
+ American Academy of Nurse Practitioners Certiﬁ  cation Board 
+ See Table 1.3 for the AANPCB FNP exam domains and Table 1.4 for breakdown by patient age group.   
+  Table 1.3  AANPCB FNP Exam: Domains   
+  FNP Exam (Released February 2018)    % of Questions    Number of Questions  
+ Assessment  36   48 
+ Diagnosis  24    33 
+ Plan  23   31 
+ Evaluation  17  23 
+ Total  100  135 scored questions 
+ ANCC, American Academy of Nurse Practitioners Certiﬁ  cation Board; FNP, family nurse practitioner. 
+  Table 1.4   AANPCB FNP Exam: Age Groups   
+  Age Group    % of Questions    Number of Questions  
+ Prenatal  3  4 
+ Pediatrics (includes newborn and infant)  14  19 
+ Adolescent (early/late)  18  24 
+ Adult  37  50 
+ Geriatric  21  29 
+ Elderly  7  9 
+ Total  100  135 scored questions 
+ AANPCB, American Academy of Nurse Practitioners Certiﬁ  cation Board; FNP, family nurse practitioner. 
+   FAST FACTS: ANCC AND AABPCB EXAMS 
+1.    The ANCC FNP exam has approximately 10% nonclinical questions, or about 15 questions (out of 
+150 graded questions). 
+2.    The current AANPCB FNP exam released in January 2020 does not contain nonclinical topics. 
+3.    The ANCC and AANPCB FNP certi/f_i  cation exams are designed for entry-level (not expert-level) 
+practice. Most test-takers who sit for the FNP certi/f_i  cation exams are new graduates. 
+4.    There are 25 pilot-test questions on the ANCC exam and 15 pilot-test questions on the AANPCB 
+exam. These questions are not graded. There is no way to identify the  graded questions from the 
+pilot-test questions . 
+5.    New clinical information (treatment guidelines or new drugs) released within the 10 months prior to 
+the current exam will most likely not be included. 
+6.    Keep in mind that the questions will be on primary care disorders (e.g., primary care clinics, public 
+health clinics). If you are guessing, avoid picking an exotic diagnosis as an answer. 
+7.    The AANPCB exams will list the normal lab results when they are pertinent to a question. 
+8.    Unlike the AANPCB, the ANCC does not list the normal lab results. If you are taking the ANCC 
+exam, it is important to memorize some normal lab results and to write them down on scratch paper 
+during the computer tutorial time period. 
+9. Expect a few questions regarding pregnancy-related topics (obstetrics).
+ IExample: Uterine involution is when the uterus contracts and shrinks in size until it returns to its 
+prepregnancy state; the process takes about 6 weeks. 
+10.     Learn the signi/f_i  cance of abnormal lab results and the type of follow-up needed to further evaluate 
+the patient. 
+ I  Example:   An elderly male patient complains of a new-onset, left-sided temporal headache 
+accompanied by scalp tenderness and indurated temporal artery. The NP suspects temporal 
+arteritis. The screening test is the sedimentation rate, which is expected to be much higher than 
+normal (elevated value). 
+1. CERTIFICATION EXAM INFORMATION    13
+ I  Example:   A patient with an elevated white blood cell (WBC >11,000/mm 3 ) count accompanied 
+by neutrophilia (>70%) and the presence of bands (“shift to the left”) most likely has a serious 
+bacterial infection. 
+11.    Expect to /f_i  nd many culture-related questions on the ANCC exam. 
+ I  Example:   If a traditional Muslim woman refuses to undress and use a hospital gown, an 
+alternative is to examine her with her clothes on (modi/f_i  ed physical exam). 
+12.     The other cultures that may be addressed on the ANCC exam are Mexicans, Cubans, Chinese, 
+Cambodians/Filipinos, and Native Americans (e.g., Navajo). Cultural topics are covered in this book 
+in the nonclinical chapters. 
+ I  Example:   A Navajo woman has an appointment for a follow-up visit, but she does not show 
+up for the appointment. The most common cause for Navajo patients to skip health visits and 
+follow-up visits is the lack of transportation. 
+13.  Sometimes there will be one unexpected question relating to a dental injury. 
+ I  Example:   A completely avulsed permanent tooth should be reimplanted as soon as possible. It 
+can be transported to the dentist in cold milk (not frozen milk). 
+14.  There may be a question on epidemiologic terms. 
+ I  Example: Sensitivity   is de/f_i  ned as the ability of a test to detect a person who has the disease. 
+ Speci/f_i  city  is de/f_i  ned as the ability of a test to detect a person who is healthy (or to detect the 
+person without the disease). 
+15.    Learn the de/f_i  nition of some of the research study designs. 
+ I  Example:   A cohort study follows a group of people who share some common characteristics 
+to observe the development of disease over time (e.g., the Framingham Nurses’ Health 
+Study). 
+16.    Several emergent conditions that may present in the primary care area will be on the exam. 
+ I  Examples:   Navicular fracture, acute myocardial infarction (MI), cauda equina syndrome, 
+anaphylaxis, angioedema, meningococcal meningitis. 
+17.    Become familiar with the names of some anatomic areas. 
+ I  Example:   Trauma to Kiesselbach’s plexus will result in an anterior nosebleed. 
+18.    Some questions may ask about the “gold-standard test” or the diagnostic test for a condition. 
+ I  Example:   The diagnostic or gold-standard test for sickle cell anemia, glucose-6-phosphate 
+dehydrogenase (G6PD) anemia, and alpha or beta thalassemia is the hemoglobin 
+electrophoresis. 
+19.     Distinguish between /f_i  rst- and second-line antibiotics.  
+ I  Example:   A 7-year-old child with acute otitis media (AOM) who is treated with amoxicillin 
+returns in 48 hours without improvement (complains of ear pain, bulging tympanic membrane). 
+The next step is to discontinue the amoxicillin and start the child on a second-line antibiotic such 
+as amoxicillin–clavulanate (Augmentin) twice a day × 10 days. 
+20.     Become knowledgeable about alternative antibiotics for penicillin-allergic patients. If the patient 
+has a gram-positive infection, possible alternatives are macrolides, clindamycin, or quinolones with 
+gram-positive activity such as levo/f_l  oxacin or moxi/f_l  oxacin. 
+21.     If a patient has an infection that responds well to macrolides, but they think they are “allergic” to 
+erythromycin (symptoms of nausea or gastrointestinal [GI] upset), inform them that they had an 
+adverse reaction, not a true allergic reaction (hives, angioedema). 
+ I  Example:   Switch the patient from erythromycin to azithromycin (usually a Z-Pack). 
+22.     If a patient fails to respond to the initial medication, add another medication (follow the steps of the 
+treatment guideline). 
+ I  Example:   A patient with chronic obstructive pulmonary disease (COPD) is prescribed 
+ipratropium bromide (Atrovent) for dyspnea. On follow-up, the patient complains that the 
+symptoms are not relieved. The next step would be to prescribe an albuterol inhaler (Ventolin) or 
+a combination inhaler. 
+23.    Disease states are usually presented in their full-blown “classic” textbook presentations. 
+ I  Example:   In a case of acute mononucleosis, the patient will most likely be a teen presenting with 
+the classic triad of sore throat, prolonged fatigue, and enlarged cervical nodes. If the patient is 
+older, but has the same signs and symptoms, it is still mononucleosis (reactivated type). 
+24.    Ethnic background may give a clue for some diseases. 
+ I  Example:   Alpha thalassemia is more common among Southeast Asians (such as Filipinos). Beta 
+thalassemia is more common in Mediterranean people. 
+14    I. CERTIFICATION AND EXAM INFORMATION
+25.    No asymptomatic or “borderline” cases of disease states are presented in the test. 
+ I  Example:   In real life, most patients with iron-de/f_i  ciency anemia are asymptomatic and do not 
+have either pica or spoon-shaped nails. In the exam, they will probably have these clinical 
+/f_i  ndings plus the other /f_i  ndings of anemia. 
+26.    Become familiar with lupus or systemic lupus erythematosus (SLE). 
+ I  Example:   A malar rash (butter/f_l  y rash) is present in most patients with lupus. These patients 
+should be advised to avoid or minimize sunlight exposure (photosensitivity). 
+27.    Become familiar with polymyalgia rheumatica (PMR). 
+ I  Example:   First-line treatment for PMR includes long-term steroids. Long-term, low-dosed 
+steroids are commonly used to control symptoms (pain, severe stiffness in shoulders and hip 
+girdle). PMR patients are also at higher risk for temporal arteritis. 
+28.     The gold-standard exam for temporal arteritis is a biopsy of the temporal artery. Refer the patient to 
+an ophthalmologist for management. 
+29.    Learn the disorders for which maneuvers are used and what a positive report signi/f_i  es. 
+ I  Example:   Finkelstein’s test—positive in De Quervain’s tenosynovitis. Anterior drawer 
+maneuver and Lachman maneuver—positive if anterior cruciate ligament (ACL) of the knee is 
+damaged. The knee may also be unstable. McMurray’s sign—positive in meniscus injuries of the 
+knee. 
+30.    Some conditions need to be evaluated with a radiologic test. 
+ I  Example:   Damaged joints: Order an x-ray /f_i  rst (but MRI is the gold standard). 
+31.     The abnormal eye /f_i  ndings in diabetes (diabetic retinopathy) and hypertension (hypertensive reti-
+nopathy) should be memorized. Learn to distinguish each one. 
+ I  Example:   Diabetic retinopathy: neovascularization, cotton wool spots, and microaneurysms. 
+Hypertensive retinopathy: atrioventricular (AV) nicking, silver and/or copper wire 
+arterioles. 
+32.    Become knowledgeable about physical exam “normal” and “abnormal” /f_i  ndings. 
+ I  Example:   When checking deep tendon re/f_l  exes (DTRs) in a patient with severe sciatica or diabetic 
+peripheral neuropathy, the ankle jerk re/f_l  ex (Achilles re/f_l  ex) may be absent or hypoactive. 
+Scoring: absent (0), hypoactive (1), normal (2), hyperactive (3), and clonus (4). 
+33.    There are only a few questions on benign or physiologic variants. 
+ I  Example:   A benign S4 heart sound may be auscultated in some elderly patients. A geographic 
+tongue, torus palatinus, and /f_i  shtail uvula may be seen during the oral exam in a few 
+patients. 
+34.    Some commonly used drugs have rare (but potentially life-threatening) adverse effects. 
+ I  Example:   A rare but serious adverse effect of angiotensin-converting enzyme inhibitors (ACEIs) is 
+angioedema. A common side effect of ACEIs is a dry cough (up to 10%). 
+35.    Learn about the preferred and/or /f_i  rst-line drug used to treat some diseases. 
+ I  Example:   ACEIs or angiotensin receptor blockers (ARBs) are the preferred drugs to treat 
+hypertension in diabetics and patients with renal disease because of their renal-protective 
+properties. 
+36.     When medications are used in the answer options, they will be listed either by name (generic and 
+brand name) or by drug class alone. 
+ I  Example:   Instead of using the generic/brand name of ipratropium (Atrovent), it may be listed as 
+a drug class (an anticholinergic). 
+37.    Most of the drugs mentioned in the exam are the well-recognized drugs. 
+ I  Examples:    Additional examples are listed in Chapters 2 and 3.
+ G Penicillin:  Amoxicillin (broad-spectrum penicillin), penicillin VK 
+ G Macrolide:  Erythromycin, azithromycin (Z-Pack), or clarithromycin (Biaxin) 
+ G Cephalosporins:  First-generation (Ke/f_l  ex), second-generation (Cefaclor, Ceftin, Cefzil), third-
+generation (Rocephin, Suprax, Omnicef) 
+ G Quinolones:  Cipro/f_l  oxacin (Cipro), o/f_l  oxacin (Floxin) 
+ G Quinolones with gram-positive coverage:  Levo/f_l  oxacin (Levaquin), moxi/f_l  oxacin (Avelox), 
+gati/f_l  oxacin (Tequin) 
+ G Sulfa:  Trimethoprim–sulfamethoxazole (Bactrim, Septra), nitrofurantoin (Macrobid) 
+ G Tetracyclines:  Tetracycline, doxycycline, minocycline (Minocin) 
+ G Nonsteroidal anti-in/f_l  ammatory drug (NSAID):  Ibuprofen, naproxen (Aleve, Anaprox) 
+ G COX-2 inhibitor: Celecoxib (Celebrex) 
+1. CERTIFICATION EXAM INFORMATION    15
+38.    Category B drugs are allowed for pregnant or lactating women. 
+ I  Example:   For pain relief, pick acetaminophen (Tylenol) instead of NSAIDs such as ibuprofen 
+(Advil) or naproxen (Aleve, Anaprox). Avoid nitrofurantoin and sulfa drugs during the third 
+trimester (these increase risk of hyperbilirubinemia). 
+39.     The preferred treatment for cutaneous anthrax is cipro/f_l  oxacin 500 mg orally twice a day for 60 days or 
+8 weeks. If the patient is allergic to cipro/f_l  oxacin, use doxycycline 100 mg twice a day. Cutaneous 
+anthrax is not contagious; it comes from touching fur or animal skins that are contaminated with 
+anthrax spores. 
+40.  Approximately 15% of the questions will be about infants and children.  
+ IExample:  The American Academy of Pediatrics (AAP) recommend s that breastfed infants should be 
+started on vitamin D during the /f_i  rst few days of l ife; then at age 4 months, iron-supplementation 
+is recommended (formula contains vitamins/minerals so no need to supplement).
+41. A common question design regarding pediatrics is to query about growth and development norms 
+(or abnormal).
+ IExample:  At the age of 6 months, infants can sit without support; roll over front to back, then 
+from back to front; transfer objects from one hand to the other; use a raking grasp; and babble.
+42. Physical exam /f_i  ndings in children that are abnormal with serious consequences might be included. 
+ IExample:  Leukocoria (white color) is noted on one eye while checking for the red re/f_l  ex. Rule out 
+retinoblastoma of the eye, which is a malignant tumor of the retina. 
+43.    There are some questions on theories and conceptual models. 
+ I  Example:   Stages of change or “decision” theory (Prochaska) include concepts such as 
+precontemplation, contemplation, preparation, action, and maintenance (see Chapter 26). 
+44.   Other health theorists who have been included on the exams in the past are (not inclusive) 
+Alfred/uni00A0Bandura (self-ef/f_i  cacy), Erik Erikson, Sigmund Freud, Elisabeth Kübler-Ross (grieving), and 
+others. 
+ I  Example:   If a small child expresses a desire to marry a parent of the opposite sex, the child is in 
+the oedipal stage (Freud). The child’s age is about 5 to 6 years (preschool to kindergarten). 
+45.     Starting at the age of about 11 years, most children can understand abstract concepts (early abstract 
+thinking) and are better at logical thinking. 
+ I  Example:   When performing the Mini-Mental State Exam, when the NP is asking about 
+“proverbs,” the nurse is assessing the patient’s ability to understand abstract concepts. 
+46.   Keep these good communication rules in mind:  Ask open-ended questions; do not reassure patients, 
+avoid angering them, and respect their culture. There may be two or three questions relating to 
+“abuse” (e.g., child abuse, domestic abuse, elderly abuse). 
+47.   Follow national treatment guidelines for certain disorders. Following is a list of treatment guidelines 
+used as references by the ANCC and the AANPCB. *  
+ I  Asthma:   Global Initiative for Asthma. (2020). 2020 GINA Report, Global Strategy for Asthma 
+Management and Prevention. https://ginasthma.org/gina-reports/. 
+ I  COPD:   Global Initiative for Chronic Obstructive Lung Disease. (2020).   Global strategy for the 
+diagnosis, management, and prevention of chronic ob structive pulmonary disease, 2020 . 
+ I  Diabetes:    American Diabetes Association Standards of medical care in diabetes. (2020). Diabetes 
+Care, 43 (Suppl. 1), S14–S31. 
+ I  Ethics:    Fowler, M. (2015). Guide to the code of ethics for nurses with interpr etive statements: 
+Development, interpretation, and application   (2nd ed.). Nursesbooks.org. 
+ I  Healthy People:   Of/f_i ce of Disease Promotion and Health Prevention. (2010).  Healthy People 2030.   
+https://health.gov/healthypeople/objectives-and-data/browse-objectives. 
+ I  Health Promotion:    U.S. Preventive Services Task Force. www.uspreventiveservicestaskforce
+.org/uspstf/ . 
+ I  Hyperlipidemia:   2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/
+NLA/PCNA Guideline on the Management of Blood Cholesterol: A Report of the ACC/AHA 
+Task Force on Practice Guidelines. Circulation , 139(25). 
+ I  Hypertension:   2017 Guideline for the Prevention, Detection, Evaluation, and Management of 
+High Blood Pressure in Adults: A Report of the American College of Cardiology/American 
+Heart Association Task Force on Clinical Practice Guidelines. (2018). Journal of the American 
+College of Cardiology , 71, e127–e248. 
+* Not an all-inclusive list.
+16    I. CERTIFICATION AND EXAM INFORMATION
+ I  Mental Health:   American Psychiatric Association. (2013).  Diagnostic and statistical manual of 
+mental disorders   (5th ed.). American Psychiatric Publishing. 
+ I  Pediatrics:   American Academy of Pediatrics. (2017).  Bright futures: Guidelines for health supervision 
+of infants, children, and adolescents   (E-book; 4th ed.). 
+ I  STDs (or Sexually Transmitted Infections):   Centers for Disease Control and Prevention. (2015). 
+ Sexually transmitted diseases treatment guidelines  . U.S. Department of Health and Human Services. 
+48.     The ANCC exam has several questions about evidence-based medicine that are designed in the drag-
+and-drop format. For important facts, review Chapter 2 to become familiar with this format, as well 
+as Chapter 30 for important facts. 
+49.     If the question is asking for the initial or screening lab test, it will probably be a “cheap” and readily 
+available test such as the complete blood count (CBC) to screen for anemia. 
+   MAXIMIZING YOUR SCORE 
+1.    The /f_i  rst answer that “pops” in your head is usually the correct answer. 
+2.    If you are guessing, pick an answer at random. Try not to change it unless you are sure. 
+3.    Use the “/f_l  ag” command so that you can return to the question later when you complete the exam. 
+4.    Avoid changing too many answers. If you are not sure, then leave the answer alone. I advise my 
+students not to change more than three answers. 
+5.    Avoid choosing exotic diseases as answers if you are guessing. Remember, these are tests for primary 
+care conditions. 
+6.    One method of guessing is to look for a pattern. Pick the answer that does not /f_i  t the pattern. Another 
+is to pick the answer that you are most “attracted” to. Go with your gut feeling, and do not change 
+the answer unless you are very sure. 
+7.    Remind yourself to read slowly and carefully thr oughout the test. Avoid reading questions too 
+rapidly. Make sure that you understand the stem of the question (usually the last sentence of a 
+question). 
+8.    If you are having problems choosing or understanding the answer options, try to read them from the 
+bottom up (from option D to A, or from 4 to 1). 
+9.    Eliminate the wrong answers after you have read all the answer options. If an answer option con-
+tains all-inclusive words ( all ,  none  ,  every  ,  never  ,  none  ), then it is probably wrong. 
+10.    Be careful with certain words such as  always  ,  exactly  ,  often  ,  sometimes  , and  mostly  . 
+11.     Assume that each question has enough information to answer it correctly. Questions and answers are 
+carefully designed. Take the facts at face value. 
+12.   The /f_i  rst few questions are usually harder to solve. This is a common test design. Do not let it shake 
+your con/f_i  dence. (Guess the answer and “mark” it so that you can return to it later.) 
+13.   Save yourself time (and mental strain) by reading the last sentence (or stem) of long questions and 
+case scenarios  /f_i rst . Then read the question again from the beginning. The advantage of this “back-
+ward reading” technique is that you know ahead of time what the question is asking for. When you 
+read it again “normally,” it becomes easier to recognize important clues that will help you answer 
+the question. 
+14.   Just because a statement or an answer is true does not mean that it is the correct answer. If it does not 
+answer the stem of the question, then it is the wrong answer. 
+15.   Design and memorize your “scratch paper” a few weeks before you take the exam. Choose what you 
+want on it wisely. Remember to keep it brief. 
+16.   Use the time left from the “free” computer tutorial time to write down the facts that you memorized 
+for your scratch paper. If you run out of time, skip this step. 
+17.   Some suggestions of facts to write down on the scratch paper are lab results (e.g., hemoglobin, hema-
+tocrit, MCV , platelets, WBC count, neutrophil percentage, potassium, urinalysis). Other popular 
+choices are the murmurs, mnemonics, and cranial nerves. 
+18.     Do not leave any of the questions unanswered, because there is no penalty for guessing. Questions 
+that are left blank are marked as errors (0 points). If you have only 30 minutes left and you are not 
+done, quickly answer the remaining questions at random. 
+19.     If you spend more than 60 seconds on a question, you are wasting time. Answer it at random and 
+then “mark” it so that you can return to it later (after you /f_i  nish the entire test). 
+20.     Consider a quick break (if you have enough time) if you get too mentally fatigued. Solving 150 to 
+175 questions is pretty intense. If you feel “fuzzy” or tired, go to the bathroom and get a drink of 
+1. CERTIFICATION EXAM INFORMATION    17
+water, and splash cold water on your face. This can take <5 minutes. You can bring bottled water, but 
+you have to leave it outside the testing area. 
+21.   The countdown clock in the computer does not stop for breaks. Do not use more than 5 minutes for 
+your quick bathroom break. 
+22.   If you have failed the test before, try not to memorize what you did on the previous exam you took. 
+The answers you remember may be wrong. Pretend that you have never seen the test before so that 
+you can start out fresh mentally. 
+23.     Do not panic or let your anxiety take over. Learn to use a calming technique, such as deep breathing, 
+to calm yourself quickly before you take the exam. 
+24.   Consider using a test-anxiety hypnosis CD and use it every night for at least 2 to 3 weeks for maxi-
+mum effect. 
+25.     One of the most important pieces of advice that I can give you is to make sure that you get enough 
+sleep the night before the exam. Aim for at least 7 to 8 hours of sleep. Better yet, make sure that you 
+get enough sleep a few nights before, not just the night before. 
+26.   Before the test, practice answering questions and check the rationales afterward. The ANCC has free 
+questions per specialty that you can take online and score. Buy practice questions from the ANCC or 
+the AANPCB (depending on which test you are taking). 
+27.   Check out the website allnurses.com and search for examination tips from others who have taken/
+failed the FNP certi/f_i  cation exam. You can also do this directly by using a search engine such as 
+Google. 
+   PREPARING FOR THE EXAM 
+ Review Timeline 
+1.    Start seriously reviewing for the exam at least 3 months in advance. Study time can range from 2 to 3 
+hours per session, or you can break it up into 1-hour segments. Be consistent. The best time to study 
+is the time of day you are most alert. 
+2.    Prepare a study schedule by organ system. Photocopy the table of contents of your primary care text-
+book. Place check marks next to the diseases that you want to concentrate on and then schedule the 
+date and time period for each organ system. 
+3.    Concentrate your studies on your weaker areas. For example, if orthopedics is one of your weak areas, 
+devote more time to it. Spend 3 days on orthopedics versus 1 day for the “easy” organ systems (since 
+you understand them better). 
+4.    I highly recommend that you attend at least one quality review course and buy CDs of another review 
+course. I teach review courses live and by webinar. You can view my class schedule at my website at 
+ www.npreview.com.  
+5.    Buy a new notebook. If you /f_i  nd that you are having a problem understanding a concept, write it 
+down in your notebook, then research it and /f_i  nd the answer to your question. 
+6.    Meet with someone in your local area or by phone who is also taking the exam. Practice quizzing each 
+other. 
+7.    Note the disease and topics that I have highlighted in this review book. Some organ systems have 
+more “weight” on the exam than others. Become more familiar with these areas. 
+8.  If you are taking the ANCC exam, I highly recommend that you devote at least 30% of your study time 
+learning about the nonclinical topics. 
+9.  If you learn better in a group, organize one. Decide ahead of time what organ systems or diseases to 
+cover together so that you do not waste time. 
+ Testing Center Details 
+After closing brie/f_l  y due to COVID-19, testing has resumed in many U.S . and Canada test centers, either at full or 
+limited occupancy (based on local and government ma ndates). While in the testing center, you must wear  a mask 
+at all times. Your temperature will be checked. If you are febrile or have COVID-like symptoms, call t he testing 
+center for advice on how to reschedule your exam. 
+1.     Call the testing center or con/f_i  rm your appointment online 4 weeks before to verify your appoint-
+ment date and time. 
+2.     Locate and drive to the testing center 1 to 2 weeks before taking the exam. Save the address of the 
+testing center on your GPS or map app. 
+18    I. CERTIFICATION AND EXAM INFORMATION
+3.     Arrive at least 45 to 60 minutes before your scheduled time so that you have enough time to park 
+your car, locate the testing center, and check in for your appointment. Do not forget to bring your 
+mask to the testing center. 
+4.     Carry acceptable forms of unexpired primary ID (photo with signature). If you do not have the 
+proper forms of identi/f_i  cation, you will not be allowed to take the exam. 
+ I Driver’s license issued by the Department of Motor Vehicles (DMV) 
+ I State ID card issued by the DMV 
+ I Passport 
+ I U.S. military ID 
+ I Your secondary ID (nonphoto):  Card with your name and signature (e.g., credit card, ATM card, 
+Social Security card, voter registration card, employee ID) 
+ I Expired IDs are not acceptable. 
+ I The name that is printed on your primary ID must match the name that you used when you 
+applied for the exam. 
+ I Check that both your primary and secondary IDs and the letter with your Prometric 
+identi/f_i  cation number match; make sure that all your IDs are inside your wallet/handbag. 
+5.     Biometrics are used for enhanced security. The test-taking room is also monitored closely by video-
+tape and microphones. Your glasses will be checked visually, and you will be asked to show your 
+arms and ankles, as well as empty your pockets from an agreed-upon safe distance. 
+6.     A whiteboard (8.5 × 11 inches) with a marker, or scratch paper and a pencil, is given to you by the 
+testing center staff (and collected after you are done). If you are given paper and tend to write a lot, 
+ask for extra paper. 
+7.    You can request noise-reducing headsets or earplugs; consider this option if you are sensitive to 
+noise. 
+8.    Cell phones, watches, cameras, pagers, jewelry (except for engagement and/or wedding ring), and 
+food or drink are not allowed inside the testing area. 
+9.    Testing computers are predetermined. Each test-taker is assigned one small cubicle with one com-
+puter. If you are having problems seeing the computer screen, bring it to the proctor’s attention as 
+soon as possible. 
+10.     Verify that you are given the correct examination as soon as you sit down. Check that the title and 
+the examination code on the screen match the information sent by the testing agency for your NP 
+specialty. 
+11.     No food or drink is allowed inside the testing room. But you can bring in a drink and food (e.g., 
+snack bar) and place it outside the locker (on top of the locker) so that you do not have to open your 
+locker. You are not permitted to unlock your locker during the testing period. 
+12.     If you need to go to the restroom, you must /f_i  rst sign out with the proctor/testing staff. Remember, 
+the time clock will continue to count down the time. It does not stop for breaks. 
+13.    Do not forget your glasses if you need them to read text on the computer. 
+ The Night Before the Exam 
+1.    Avoid eating a heavy meal or consuming alcoholic drinks the night before the exam. Avoid eating 3 to 
+4 hours before bedtime (prevents heartburn). 
+2.    Get enough sleep. Aim for at least 7 to 8 hours. Getting adequate sleep is probably one of the most 
+important things you can do to help you pass the exam. 
+3.    If you are scheduled to take your exam in the morning, set two alarms to wake you up on time. Give 
+yourself extra time if it is a weekday (traf/f_i  c congestion). 
+ The Day of the Exam 
+1.    Avoid eating a heavy breakfast or eating only simple carbs. The best meals are a combination of a pro-
+tein with a complex carbohydrate (e.g., eggs, whole-wheat bread, nuts, cheese). If you eat only simple 
+carbs, you can become hypoglycemic within 1 hour. 
+2.    If you get drowsy and “fuzzy” during the exam, there are several ways to “wake up” rapidly. Excuse 
+yourself and go the bathroom to splash cold water on your face. You can perform 10 to 20 “jumping 
+jacks.” Drinking cold water, a caffeinated beverage, or coffee can be very helpful. (However, don’t 
+drink too much.) 
+3.  Avoid drinking too much /f_l  uid and do not forget to empty your bladder before the exam. 
+1. CERTIFICATION EXAM INFORMATION    19
+4.  Wear comfortable clothing and dress in layers in case of temperature changes. 
+5.    Jewelry is not allowed inside the testing area, except for wedding and/or engagement rings. 
+   OTHER TEST-TAKING ISSUES 
+ Test Anxiety 
+ It is normal to feel anxious before taking an exam. A little anxiety helps us to become alert and vigilant, 
+but too much anxiety can wear you down both emotionally and physically. 
+ Your internal perception about how well you will do on the exam is very important. If you tend to 
+become very anxious (or you are now more anxious because you previously failed the exam), there are 
+calming methods that may prove helpful in controlling your anxiety. Following are some suggestions to 
+help reduce test-taking anxiety a few weeks before the exam. 
+1.    Make sure that you have devoted enough time for your review studies. If you feel in your gut that you 
+have not studied “enough” or that you are not ready, it will worsen anxiety. 
+2.  Consider signing up for both the ANCC and AANPCB exams. It can help to reduce your anxiety level 
+because you feel like you have a “backup” exam. 
+3.    If you have a /f_i  rm job offer, I recommend that you sign up for both the exams to decrease test-taking 
+anxiety. 
+4.  Consider taking one or two review courses. My review courses and webinars are listed at my website 
+at  www.npreview.com.  
+5.  Avoid negative “self-talk.” When you catch yourself doing it, silently tell yourself to “Stop it! Right 
+now!” 
+6.  Improve the nutritional content of your diet, especially about 4 weeks before the exam. Vitamins and 
+supplements that may be helpful to the brain include omega-3 capsules (/f_i  sh oil); B-complex vitamins; 
+vitamins C, D, and E; and choline. 
+7.  Hypnotherapy audio /f_i  les are sold online for use in portable-player devices. For maximum effective-
+ness, it is best to listen to them daily for 2 to 4 weeks. 
+8.  “Tapping” is another method used to counteract test anxiety (or increase self-con/f_i  dence). The tech-
+nique is demonstrated in videos posted on YouTube. 
+ Your Panic Button 
+ If you /f_i  nd yourself feeling panicky during the exam, try the following calming technique. Practice this 
+exercise at home until you feel comfortable doing it. 
+  Breathing Exercise  
+1.    Close your eyes. During inhalation, tell yourself gently, “I am breathing in calmness.” Then hold your 
+breath and count from 1 to 3. 
+2.  During exhalation, tell yourself gently, “I am breathing out fear,” while counting from 1 to 5. 
+3.  Inhale deeply through your nose and exhale slowly through your mouth. 
+4.    Complete one cycle of three inhalations and three exhalations. Repeat as needed.  
+
+21 2   Question Dissection  
+and Analysis    
+ EVIDENCE-BASED MEDICINE 
+ I. Discussion 
+ Questions about evidence-based medicine (EBM) are typically designed in “drag-and-drop” format on 
+the American Nurses Credentialing Center (ANCC) exam. They are presented as two boxes with three 
+sections each. The example that follows illustrates this format. On the left side, three types of article 
+summaries (or research studies) are marked A, B, and C (in the exam, they will appear as blue boxes). On 
+the right side, you will see the rankings from 1 to 3 (in the exam, they will be yellow boxes). You “drag” 
+one of the articles from the left-hand box into the correct ranking or hierarchy in the right-hand box. 
+Your job is to rank the three research article summaries as 1, 2, or 3 (best evidence, moderate evidence, 
+weakest evidence). 
+ II. Example  
+Article Summaries Strength of Evidence (strongest to weakest)
+ A.  A meta-analysis on MEDLINE and Cochrane databases that 
+found 53 RCTs about gingko biloba use in patients with early 
+dementia  1. 
+ B.  A specialty society opinion paper regarding the effectiveness of 
+gingko biloba supplementation in dementia  2. 
+ C.  An experimental study on 500 patients with early dementia 
+who were given gingko biloba daily for 6 months versus the 
+control group, which was given placebo pills  3. 
+ RCTs, randomized controlled trials. 
+ III. Correct Answer 
+ Article A is ranked 1, Article C is ranked 2, and Article B is ranked 3. 
+ IV. Question Dissection 
+  Best Clues  
+ I teach a three-step system to students in my review courses: 
+  I First, identify the research study that has the hi ghest/best level of evidence (#1 ranking). An easy 
+way to do this is by searching for keywords in the question such as  meta-analysis  ,  systematic review  , 
+or  randomized controlled trials   (RCTs) combined with  Cochrane Database of Systematic Reviews (CDSR)  , 
+ MEDLINE®  database, and/or Cumulative Index to Nursing and Allied Health Literature (CINAHL®). 
+  I Next, look for the research study that has the weakest evidence (#3 ranking). It usually contains 
+keywords such as  expert opinion   or  specialty society  . 
+  I Therefore, view the study that is leftover as having the middle ranking (#2 ranking). In addition, 
+keep in mind that if the choices do not include a meta-analysis or systemic review, then the study 
+with the highest ranking would be an RCT or an experimental study. The ANCC exams usually 
+have several of this type of question. Further discussion about EBM appears in Chapter 30. 
+  I The levels of evidence rankings are: 
+ GG Meta-analysis and/or systematic reviews (Cochrane/MEDLINE/CINAHL/PubMed) 
+22    I. CERTIFICATION AND EXAM INFORMATION
+  GG RCTs (used for testing medical treatment effectiveness, subjects assigned at random to either a 
+control or treatment group) 
+  GG Experimental studies (control group, intervention group, randomization) 
+  GG Cohort/case control studies 
+  GG Retrospective chart reviews 
+  GG Expert/specialty society opinions 
+ PHOTOGRAPHS 
+ I. Discussion 
+ On the ANCC exam, expect to see several color photographs of skin conditions and a few on the eyes/
+fundi. In the future, there may be pictures from other organ systems. The stem of the question usually 
+will ask for the possible diagnosis, differential diagnosis, or type of treatment. If you plan to take the 
+ANCC exam, you need to memorize how a skin condition or eye /f_i  nding appears in a color photo. It is a 
+good idea to use a search engine (e.g., Google) to look for the images. For example, you want to become 
+familiar with skin cancers, such as basal cell carcinoma and melanoma, and funduscopic /f_i  ndings in 
+diabetes and hypertension. 
+ II. Example 
+ The nurse practitioner (NP) is performing a routine physical exam on a 54-year-old White male farmer 
+who is an immigrant from Australia. The NP notices a round skin lesion on the patient’s head. It has a 
+/f_i rm texture with indurated edges and telangiectasia (Figure 2.1). The patient reports that the lesion does 
+not itch, but it has slowly enlarged over the past few years. Which of the following conditions is most 
+likely in this patient? 
+  A.  Nodular melanoma 
+  B.  Squamous cell carcinoma 
+  C.  Basal cell carcinoma 
+  D.  Actinic keratosis 
+   Figure 2.1   Sample exam photograph.
+Source:  National Cancer Institute  
+     III. Correct Answer: Option C 
+  C.  Basal cell carcinoma 
+ IV. Question Dissection 
+  Best Clues  
+  I Notice that the skin lesion has a pearly or waxlike (shiny) appearance with telangiectasia, which is 
+“classic” for basal cell carcinoma; some lesions may show central ulceration. 
+  I Patient has risk factors for skin cancer, such as light-colored skin, and he is from Australia, which 
+has high rates of skin cancer. 
+2. QUESTION DISSECTION AND ANALYSIS    23
+  I The skin lesion is located on a sun-exposed area. 
+  I It is probably not nodular melanoma, which usually has  pigment such as brown  or black color with 
+irregular borders. 
+  I   Actinic keratosis is a precancer of squamous cell carcinoma and is usually located on the scalp 
+(males), face, and back of the hands (dorsum); they appear as a crusty/scaly growth that slowly 
+enlarges over time. 
+  I The gold-standard test for skin cancer is the skin biopsy. 
+ MULTIPLE-CHOICE QUESTIONS WITH MORE THAN ONE 
+CORRECT RESPONSE 
+ I. Discussion 
+ Expect to see some multiple-choice questions with /f_i  ve or six answer options in both the ANCC and 
+American Academy of Nurse Practitioners Certi/f_i  cation Board (AANPCB) exams. The question will 
+ask for two or three correct answers. For example, you may be asked to pick two or three differential 
+diagnoses for a case of skin rash. The clues are given in the presentation of the signs and symptoms. 
+ II. Example 
+ A 75-year-old woman with mild dementia, hyperlipidemia, and emphysema is brought in by her middle-
+aged daughter as a walk-in patient in a community clinic with a complaint of a sudden onset of red 
+rashes on her left lower arm and hand. During the skin exam, the NP notes that there are a few blisters. 
+When the NP touches one of the blisters, it ruptures and drains clear serous /f_l  uid. Which of the following 
+three conditions should the NP consider in the differential diagnosis? 
+  A.  Contact dermatitis 
+  B.  Erysipelas 
+  C.  Psoriasis 
+  D.  Impetigo 
+  E.  Thermal burn 
+ III. Correct Answer: Options A, D, and E 
+  A.  Contact dermatitis 
+  D.  Impetigo 
+  E.  Thermal burn 
+ IV. Question Dissection 
+  Best Clues  
+  I Easily ruptured blisters (fragile) is a classic /f_i  nding for bullous impetigo, an acute bacterial skin 
+infection caused by  Staphylococcus  or  Streptococcus  . 
+  I Contact dermatitis can present with just red skin or red skin with blisters. The rash can be located 
+anywhere on the body, and it may have a pattern (like a belt) or no pattern. 
+  I The timing of the rash is very important. Is it acute or chronic? Rule out option C (psoriasis), which 
+is a chronic skin disease. 
+  I Erysipelas is a type of cellulitis caused by strep. It resembles a bright-red, warm, raised rash 
+(plaque-like) with discrete borders usually located on the face or the shins. Blistering is not present. 
+  I A thermal burn is a burn caused by heat (e.g., /f_i  re, heat). Consider a second-degree burn in the 
+differential diagnosis because of its acute onset. Also, the patient has mild dementia, which puts her 
+at a higher risk for accidents. 
+ DIAGNOSTIC IMAGING 
+ I. Discussion 
+ Questions about diagnostic imaging tests may appear on the exam. You may get a multiple-choice 
+question alone or a question that is accompanied by a chest x-ray /f_i  lm. I recommend that you use a search 
+engine (e.g., Google) to search for images of chest /f_i  lms with lobar consolidation due to community-
+acquired pneumonia (CAP), right middle lobe pneumonia, pulmonary tuberculosis (TB) infection, and 
+emphysema/chronic obstructive pulmonary disease (COPD). 
+24    I. CERTIFICATION AND EXAM INFORMATION
+ II. Example 
+ A 34-year-old male smoker presents in an urgent care clinic complaining of a productive cough, chest 
+congestion, fever, chills, and poor appetite for 1 week. Cough is productive of greenish sputum, which 
+is sometimes tinged with a small amount of blood. Vital signs are temperature of 101.2°F, pulse of 100 
+beats/min, respirations of 24 breaths/min, and blood pressure (BP) of 122/88 mmHg. A radiograph of 
+the chest is obtained (Figure 2.2). What is the most likely diagnosis in this patient? 
+      A.  Acute bronchitis 
+  B.  Right middle lobe pneumonia 
+  C.  Right lower lobe pneumonia 
+  D.  Legionella pneumonia 
+  Figure 2.2   Sample exam photo. 
+ III. Correct Answer: Option B 
+  B.  Right middle lobe pneumonia 
+ IV. Question Dissection 
+  Best Clues  
+  I The signs and symptoms of CAP include fever and cough productive of green sputum with a small 
+amount of blood (or rust-colored sputum). Rust-colored sputum is associated with  Streptococcus 
+pneumoniae   infection. 
+  I Most of the middle lobe of the right lung is in the anterior chest by the right nipple area. Notice that 
+lobar consolidation is located in the same area. 
+  I Patients with acute bronchitis may have chest congestion but not fever, chills, or productive cough 
+with purulent sputum. 
+  I Legionella pneumonia (Legionnaire’s disease) is uncommon in primary care. Look for a history of 
+exposure to “nebulized” water sources (e.g., air conditioners, fountains). Presents with pneumonia 
+signs/symptoms that are accompanied by gastrointestinal (GI) symptoms (diarrhea, nausea/
+vomiting). 
+ CULTURE 
+ I. Discussion 
+ There will be several questions on the ANCC exam that address culture. The questions will address 
+knowledge of cultural practices that in/f_l  uence health-seeking behavior. Some of the cultures that may 
+be included in the ANCC exam are Hispanic/Latino, Muslim, Chinese, Native American (Navajo), and 
+Southeast Asian (Vietnamese, Hmong, Filipinos, and others). 
+2. QUESTION DISSECTION AND ANALYSIS    25
+ II. Example 
+ An elderly woman immigrant from Vietnam who recently has been diagnosed with hypertension is 
+returning for a 4-week follow-up visit. The patient is on a prescription of hydrochlorothiazide 12.5 mg 
+daily. Her BP during the visit is 150/94 mmHg. The NP queries the patient about whether she is taking 
+her medication. The patient looks down at the /f_l  oor and does not directly answer the question. Which of 
+the following statements regarding the health behaviors of Southeast Asians is incorrect? 
+  A.  The patient may have dif/f_i  culty verbalizing questions about their treatment. 
+  B.  The patient may ask to consult with an older family member about major health decisions. 
+  C.   If the patient is not compliant with taking medications, they will not directly communicate it to the 
+health provider. 
+  D.  The patient will directly verbalize their disagreement in a loud voice. 
+ III. Correct Answer: Option D 
+  D.  The patient will directly verbalize their disagreement in a loud voice. 
+ IV. Question Dissection 
+  Best Clues  
+  I The patient’s behavior (aggressive, loud) is considered rude in most Asian cultures. 
+  NOTES  
+  1.  The Hmong ethnic group that immigrated to the United States came from several countries 
+(e.g., Laos, Vietnam, Thailand). A traditional household has a male (i.e., father) who is the head of 
+the household. The family identiﬁ  es with a clan group, which is headed by an older male. 
+  2.  For major health decisions, the head of the family is always involved. If the father is dead, then 
+another older male relative (e.g., uncle) may be consulted. 
+  3.  Most Asians have high regard for physicians (and college education). Because of this cultural value, 
+they may not directly disagree or question the healthcare provider. 
+  4.  Asian Americans and Paciﬁ  c Islanders are 8 to 13 times more likely to develop liver cancer than 
+other groups because of higher rates of chronic hepatitis B infection. 
+ LAB RESULTS AND DIAGNOSTIC TESTS 
+ I. Discussion 
+ Laboratory tests, such as hemoglobin and hematocrit, mean corpuscular volume (MCV), total white 
+blood cell (WBC) count, percentage of neutrophils in the WBC differential, thyroid-stimulating hormone 
+(TSH), prostate-speci/f_i  c antigen (PSA), and urinalysis (UA), are commonly encountered in the exams. 
+Learn the signi/f_i  cance of the abnormal results and the follow-up tests that are needed to evaluate them 
+further. 
+ The AANPCB exam does list the norms for some of the common laboratory tests. They will appear 
+only when needed to answer a question (such as an anemia question).  
+ In contrast, the ANCC does not list any of the normal results in its certi/f_i  cation exams. Therefore, if you 
+plan to take the ANCC exam, it is important that you memorize the normal results of these laboratory 
+tests. 
+ Be warned that lab results are also used as distractors; the labs listed may not be necessary to solve 
+the exam question correctly. The normal results for these labs are also included in the pertinent review 
+chapters of this book (e.g., TSH will be found in Chapter 9). 
+ II. Example 
+ An elderly man of Mediterranean descent has a routine complete blood count (CBC) done for an annual 
+physical. The following are his lab test results: hemoglobin is 12.0 g/dL, hematocrit is 39%, and MCV 
+is 72 fL. His PSA result is 3.2 ng/mL. UA shows no leukocytes and few epithelial cells. Which of the 
+following laboratory tests are indicated for this patient? 
+26    I. CERTIFICATION AND EXAM INFORMATION
+  A.    Serum iron, serum ferritin, total iron-binding capacity (TIBC), and the red cell distribution width 
+(RDW) 
+  B.   Serum vitamin B 12  and folate level with a peripheral smear 
+  C.   CBC with white cell differential and UA 
+  D.   Urine culture and sensitivity with microscopic exam of the urine (Tables 2.1 and 2.2) 
+ III. Correct Answer: Option A 
+  A.    Serum iron, serum ferritin, total iron-binding capacity (TIBC), and the red cell distribution width 
+(RDW) 
+  Table 2.1  List of Laboratory Norms (Adults)    
+  CBC    Reference Ranges   
+ Hemoglobin 
+ Males  13.0–17.5 g/dL 
+ Females  12.0–16 g/dL 
+ Hematocrit 
+ Males  40%–50% 
+ Females  36%–45% 
+ MCV  80–100 fL 
+ RDW  >14.5% 
+ Platelet count  <150,000/mm 3  (increased risk of bleeding, disseminated intravascular 
+coagulation) 
+ Reticulocytes  0.5%–1.5% of red cells ( ↑ acute bleeding), starting treatment for vitamin 
+deﬁ  ciencies (iron, B 12 , folate), acute hemolytic episodes 
+ Total WBC count  4,500–11,000/mm 3  (↑ bacterial infections) 
+ Neutrophils (or segs)  55%–70% ( ↑ bacterial infections) 
+ Band forms (immature WBCs)  >5% (↑ severe bacterial infections) 
+ Also called “shift to the left” 
+ Eosinophils  >3% (↑ allergies, parasitic diseases, cancer) 
+ CBC, complete blood count; MCV, mean corpuscular volume; RDW, red cell distribution width; WBC, white blood cell.  
+  Table 2.2   List of Blood Chemistries    
+  Laboratory Test     Reference Ranges   
+ TSH  >5.0 mU/L (hypothyroidism) 
+ <0.4 mU/L (hyperthyroidism) 
+ PSA  <4.0 ng/mL (benign prostatic hyperplasia [BPH], prostate cancer) 
+ Ferritin  <15 mcg/L (iron-deﬁ  ciency anemia) 
+ ESR; sed rate  Men 0–22 mm/hr 
+ Women 0–29 mm/hr 
+ Elevated (giant cell arteritis, rheumatoid arthritis [RA], lupus, inﬂ  ammation) 
+ CRP  Elevated (inﬂ  ammation, autoimmune diseases, a risk factor for heart disease) 
+ cTnT  Elevated in myocardial infarction, heart damage, heart failure 
+ Sensitive test for myocardial cell damage (myocardial infarction, unstable angina) 
+ BNP  Elevated (elevated in heart failure) 
+ Potassium  <3.5 or >5.5 mEq/L (critical values <2.5 or >8 mEq/L) 
+ BNP, B-type natriuretic peptide; CRP, c-reactive protein; cTnT, cardiac troponins; ESR, erythrocyte sedimentation rate; PSA, prostate-speciﬁ  c 
+antigen; TSH, thyroid-stimulating hormone.  
+2. QUESTION DISSECTION AND ANALYSIS    27
+   IV. Question Dissection 
+  Best Clues  
+  I Low hemoglobin and hematocrit for gender (male) and age (abnormal CBC result) 
+  I An MCV of 72 fL, which is indicative of microcytic anemia (assessment) 
+  I The ethnic background of the patient (demographics) 
+  I Ignore the UA and PSA tests because they are not necessary to solve the problem 
+  NOTES  
+ 1. You must go through three steps to answer this question correctly: 
+ G  First step:   A hemoglobin of <13.5 g/dL in males (but not in females) is indicative of anemia. 
+An MCV of 72 fL is indicative of microcytic anemia (norm 80–100 fL). 
+ G  Second step:   The MCV will direct you in the differential diagnosis (microcytic, normocytic, or 
+macrocytic). 
+ G  Third step:   The differential diagnosis for microcytic anemia is iron deﬁ  ciency and alpha or beta 
+thalassemia trait or minor for the exams. 
+ 2. In iron-deﬁ  ciency anemia, the following results are found: 
+ G Serum ferritin and serum iron levels: Decreased 
+ G TIBC and RDW: Elevated 
+ 3. In alpha or beta thalassemia trait or minor, the following results are found: 
+ G Serum ferritin and serum iron levels: Normal 
+ G TIBC: Normal  
+ 4. The gold-standard test to diagnose any anemia involving abnormal hemoglobin (e.g., thalassemia, 
+sickle cell) is the hemoglobin electrophoresis. 
+ 5. The RDW is a measure of the variability in size of red blood cells (RBCs; or anisocytosis). An el-
+evated RDW is one of the earliest indicators of iron-deﬁ  ciency anemia. 
+ 6. In clinical practice, rule out iron-deﬁ  ciency anemia ﬁ  rst (most common anemia in the world for all 
+ages/races/gender) before ordering a hemoglobin electrophoresis. 
+ PHARMACOLOGIC CONCEPTS 
+ I. Discussion 
+ The current version of the exams includes more topics about pharmacology. To solve a question, you 
+need to understand key terms, their de/f_i  nitions, and how they are applied. There are no math problems 
+where you must /f_i  gure out the correct dose of a drug. See Chapter 3 for further discussion. 
+ II. Examples 
+  I Deprescribing:  The process of adjusting the dose of a medication down to the minimum effective 
+dosage or stopping it when it is no longer needed (or if the patient’s health status has changed). 
+Deprescribing helps to decrease polypharmacy, especially in the geriatric population. For example, 
+there are evidence-based deprescribing guidelines for proton-pump inhibitors and benzodiazepines, 
+which can be found online.
+  IPharmacogenomics/pharmacogenetics:  Your genes affect how you respond (or do not respond) to a 
+drug. It is now known that certain genes affect how the body metabolizes certain drugs. It allows us 
+to truly “individualize” medicine. 
+  IPharmacokinetics:  The process by which a medication is absorbed, distributed, metabolized, and 
+eliminated by the body.
+  IHalf-life:  Amount of time it takes for a drug concentration to reduce to half of its original dose.
+  IFirst-pass metabolism (/f_i  rst-pass effect):  When an oral drug reaches the stomach, it goes to the small 
+intestines, then to the portal circulation where it is metabolized by the liver. After the liver has 
+metabolized the drug, it is released to the systemic circulation where it can reach the target 
+organ(s).  
+28    I. CERTIFICATION AND EXAM INFORMATION
+ WOMEN’S HEALTH 
+ I. Discussion 
+ Expect to see several questions addressing gynecological conditions. The topics that are covered include 
+recognizing and treating sexually transmitted infections or diseases (STIs or STDs), oral contraceptive 
+issues, abnormal Pap smears, menopausal conditions, threatened abortion or early pregnancy, and many 
+more. For example, there will be questions about vaginal disorders, such as bacterial vaginosis (BV), 
+candida vaginitis, trichomoniasis, and atrophic vaginitis. In pregnant patients, use only medications that 
+are FDA Category A or B or those that have no adverse effect on pregnancy and lactation. 
+ Be aware that a clinical /f_i  nding can be described in detail instead of using its common name. For 
+example, the term  clue cell   is not used in the question that follows. Instead, it is described in detail 
+(“mature squamous epithelial cells with numerous bacteria on the cell surface and borders”). 
+ II. Example 
+ An 18-year-old female student presents in the college health clinic complaining of a strong odor in her 
+vagina. She reports that she had an abortion about 3 weeks ago and recently completed her prescription 
+of antibiotics. The NP performs a vaginal speculum exam and notes a large amount of gray to off-white 
+discharge coating the patient’s vaginal walls. It has a milk-like consistency. During microscopy, the slide 
+reveals mature squamous epithelial cells with numerous bacteria on the cell surface and borders. The 
+vaginal pH is 6.0. Which of the following conditions is most likely? 
+  A.   Trichomoniasis 
+  B.   BV 
+  C.   Candida vulvovaginitis 
+  D.   Hormonal changes 
+ III. Correct Answer: Option B 
+  B.   BV 
+ IV. Question Dissection 
+  Best Clues  
+  I The vaginal pH is alkaline (pH of 6.0). 
+  I Rule out  Candida   because it is classi/f_i  ed as a yeast organism (not a bacteria). 
+  I Rule out  Trichomonas   because it is a protozoan or unicellular /f_l  agellated organism. 
+  I The odor and discharge are not due to hormonal changes in an 18-year-old. 
+  NOTES  
+ 1. BV has an alkaline pH (vagina normally has an acidic pH of 3.5–4.5). BV is the only vaginal condi-
+tion with an alkaline pH for the exam. 
+ 2. BV is not considered an STD (it is caused by an imbalance of vaginal bacteria). The sex partner does 
+not need to be treated. It is a vaginosis (not a vaginitis). 
+ 3. BV does not cause inﬂ  ammation (the vulvovagina will not be red or irritated). The microscopy slide 
+will have very few WBCs and a large number of clue cells. 
+ 4. The vaginal discharge in  Candida   infection is a white color with a thick and curdlike consistency. It 
+frequently causes redness and itching in the vulvovagina because of inﬂ  ammation. 
+ 5. The microscopy in candidiasis will show a large number of WBCs, pseudohyphae, and spores 
+(“spaghetti and meatballs”). 
+ 6. Candida yeast is a normal ﬂ  ora of the GI tract and in some women’s vaginas. 
+ 7.  Trichomonas   infection (or trichomoniasis) vaginal discharge is copious, bubbly, and green in color. It 
+causes a lot of inﬂ  ammation, resulting in itching and redness of the vulvovagina. It is considered to 
+be an STI. The sex partner also needs treatment. 
+ 8. PCR testing is now available for trichomonas and vaginal candida infections. For trichomonas, a 
+urine specimen (males or females) is used. For vaginal candida, a vaginal swab is used. 
+2. QUESTION DISSECTION AND ANALYSIS    29
+ MEDICATIONS 
+ I. Discussion 
+ When studying pharmacology for the exam, it is generally not important to memorize the speci/f_i  c drug 
+doses. What is more important is to study a drug’s “safety” issues, such as contraindications, major 
+drug/food interactions, and well-known side effects. 
+ You will need to be familiar with the drug’s indications and the duration of treatment. Become familiar 
+with a “/f_i  rst-line drug” and the alternative drug (if applicable). For example, the /f_i  rst-line (or preferred) 
+drug for treating “strep” throat is still penicillin V PO × 10 days. If the patient has a penicillin allergy, 
+macrolides and clindamycin can be used instead. 
+ The majority of the medicines seen on the exam are the well-known drugs that have been in use for 
+a few years to many decades (e.g., doxycycline, penicillin, amoxicillin). Memorize drug class and some 
+representative drugs from that class. For example, in the quinolone drug class are drugs such as o/f_l  oxacin 
+(Floxin), moxi/f_l  oxacin (Avelox), and levo/f_l  oxacin (Levaquin). A drug’s brand name may not be used 
+on the exam; instead, only the drug’s generic name or drug class may be used. In addition, you need 
+to become familiar with some of the U.S. Food and Drug Administration (FDA) category X drugs (see 
+Chapter 3). 
+ II. Examples 
+  Example A  
+ Using the drug class as the answer option: 
+ A previously healthy 30-year-old complains of an acute onset of fever and chills accompanied by a 
+productive cough with purulent sputum and a loss of appetite. The patient denies receiving an antibiotic 
+in the previous 3 months. The NP diagnoses CAP . The Infectious Diseases Society of America (IDSA) 
+and the American Thoracic Society (ATS) treatment guidelines recommend which of the following as the 
+preferred /f_i  rst-line treatment for this patient? 
+  A.   Macrolides 
+  B.   Antitussives 
+  C.   Cephalosporins 
+  D.   Fluoroquinolones with gram-positive bacteria activity 
+  Example B  
+ Which of the following antibiotics is the preferred treatment for healthy adults diagnosed with 
+uncomplicated CAP? 
+  A.   Azithromycin (Zithromax Z-Pak 250 mg) 500 mg on day 1, then 250 mg daily for 4 days 
+  B.   Dextromethorphan with guaifenesin (Robitussin DM) 1 to 2 teaspoons PO QID as needed 
+  C.   Cephalexin (Ke/f_l  ex) 500 mg PO QID × 10 days 
+  D.   Levo/f_l  oxacin (Levaquin) 500 mg PO daily × 7 days 
+  Example C  
+ The following is an example of a question about a common side effect: 
+ Which of the following are possible side effects that may be seen in a patient who is being treated with 
+hydrochlorothiazide for hypertension? 
+  A.   Dry cough and angioedema 
+  B.   Swollen ankles and headache 
+  C.   Hyperuricemia and hyperglycemia 
+  D.   Fatigue and depression 
+ III. Correct Answers 
+  Example A: Option A  
+  A.   Macrolides 
+30    I. CERTIFICATION AND EXAM INFORMATION
+  Example B: Option A  
+  A.   Azithromycin (Zithromax Z-Pak 250 mg) 500 mg on day 1, then 250 mg daily for 4 days 
+  Example C: Option C  
+  C.   Hyperuricemia and hyperglycemia 
+ IV. Question Dissection 
+  Best Clues  
+  I Lack of comorbidity (“healthy adults”) is an important clue in Examples A and B. 
+  I Your knowledge of the latest IDSA and the ATS treatment guidelines helps to correctly answer 
+Examples A and B (covered in Chapter 8). 
+  I For Example C, you must memorize the adverse side effects of thiazide diuretics. 
+  NOTES  
+ 1. According to the IDSA and the ATS treatment guideli nes, outpatient treatment of CAP in healthy 
+patients (no comorbidities) involves the macrolides  (azithromycin, clarithromycin, or erythromycin). 
+ 2. Example A is caused by angiotensin-converting enzyme (ACE) inhibitors. Look for a sudden or new 
+onset of a dry cough in a patient with hypertension (without signs of the common cold). Angio-
+edema is a rare adverse effect and can be life-threatening. 
+ 3. Example B is caused by calcium channel blockers (CCBs). Look for a hypertensive patient with swol-
+len ankles (not associated with heart failure) and headache. 
+ 4. Example C is caused by thiazide diuretics (hyperuricemia and hyperglycemia). 
+ 5. Example D is caused by beta-blockers. Look for a patient with a history of myocardial infarction 
+(MI), heart failure, and/or hypertension who complains of increased fatigue and depression 
+(avoid if possible in depressed patients, pulse <50 beats/min, second- or third-degree heart 
+block). 
+  U.S. CENTERS FOR DISEASE CONTROL 
+AND PREVENTION STATISTICS  
+ I. Discussion 
+ It is important that you memorize the following U.S. Centers for Disease Control and Prevention (CDC) 
+statistics. The questions will be short and to the point. Determine whether a question is asking about 
+the most common cause of death (mortality) or whether it is asking about the most common cause of 
+a certain disease in a population (prevalence). For example, the most common cause of cancer death 
+overall is lung cancer (mortality), but the most common cancer overall (prevalence) is skin cancer. The 
+most common type of skin cancer is basal cell skin cancer. 
+ Sometimes, a question will ask about a gender-speci/f_i  c cause. For example, the most common cancer 
+in females is breast cancer, and the most common cancer in males is prostate cancer (prevalence). But the 
+cancer causing the most deaths overall for both males and females is still lung cancer (mortality). 
+  Mortality Statistics  
+  I Disease causing the most deaths overall:  Heart disease 
+  I Cancer with the highest mortality:  Lung cancer 
+  I Cancer with the highest mortality in males and females:  Lung cancer 
+  I Most common cause of death in adolescents:  Motor vehicle crashes 
+  Prevalence  
+  I Most common cancer in females:  Breast cancer 
+  I Most common cancer in males: Prostate cancer 
+  I Most common type of cancer overall (males/females):  Skin cancer 
+  I Most common type of skin cancer (males/females):  Basal cell cancer 
+2. QUESTION DISSECTION AND ANALYSIS    31
+  I Skin cancer with the highest mortality:  Melanoma 
+  I Gynecological cancer (vulva, vagina, cervix, uterus, ovary): 
+  GG Uterine/endometrial cancer (most common gynecological cancer) 
+  GG Ovarian cancer (second most common gynecological cancer) 
+ II. Example 
+ What is the most common type of gynecological cancer? 
+  A.   Uterine cancer 
+  B.   Cervical cancer 
+  C.   Breast cancer 
+  D.   Ovarian cancer 
+ III. Correct Answer: Option A 
+  A.   Uterine cancer 
+ IV. Question Dissection 
+  Best Clues  
+  I This question is based on your recall of facts that you memorized (rote memory). 
+  I Rule out breast cancer because it is not considered a gynecological cancer. 
+  NOTES  
+ 1. There may be a question about the gynecological cancers (see example). These types of cancers are 
+located in the pelvis (labia, vagina, uterus, fallopian tubes, ovaries). 
+ 2. Breast cancer is not classiﬁ  ed as a gynecological cancer. 
+ BENIGN PHYSIOLOGIC VARIANTS 
+ I. Discussion 
+ A benign variant is a physiologic abnormality that does not interfere with bodily processes or functions. 
+There are very few questions on benign variants. Some examples of the benign variants that have 
+been seen on the exams include the geographic tongue,  t orus palatinus, and a split or /f_i  shtail uvula 
+(see Chapter 5). Benign variants are listed under the appropriate organ system. 
+   II. Example 
+ A 45-year-old female patient complains of a sore throat. Upon examination, the NP notices a bony growth 
+midline at the hard palate of the mouth. The patient denies any changes or pain. It is not red, tender, 
+or swollen. She reports a history of the same growth for many years without any change. Which of the 
+following conditions is most likely? 
+  A.   Torus palatinus 
+  B.   Geographic tongue 
+  C.   Acute glossitis 
+  D.   Leukoplakia 
+ III. Correct Answer: Option A 
+  A.   Torus palatinus 
+ IV. Question Dissection 
+  Best Clues  
+  I The description of a chronic bony growth located midline in the hard palate indicates torus 
+palatinus. 
+  I Rule out glossitis, geographic tongue, and hairy leukoplakia because they are all located on the 
+tongue and not on the hard palate (roof of the mouth) .
+32    I. CERTIFICATION AND EXAM INFORMATION
+  NOTES  
+ 1. A torus palatinus is a benign growth of bone (an exostosis) located midline on the hard palate and 
+covered with normal oral skin. It is painless and does not interfere with function. 
+ 2. A “geographic tongue” has multiple ﬁ  ssures and irregular smoother areas on its surface that make 
+it look like a topographic map. The patient may complain of soreness on the tongue after eating or 
+drinking acidic or hot foods. 
+ 3. Leukoplakia is not a benign variant. It appears as a slow-growing white plaque that has a ﬁ  rm to 
+hard surface that is slightly raised on the tongue or inside the mouth. It is considered a 
+precancerous lesion. It is due to chronic irritation of the skin or precancerous changes on the 
+tongue and inside the cheeks. Its causes include poorly ﬁ  tting dentures, chewing tobacco (snuff), 
+and using other types of tobacco. Refer the patient for a biopsy because it can sometimes become 
+malignant. 
+ 4. Oral hairy leukoplakia (OHL) of the tongue is a painless white patch (or patches) that appears cor-
+rugated. It is usually located on the lateral aspects of the tongue (or other areas inside the mouth) 
+and is associated with HIV and AIDS infection. It is caused by Epstein–Barr virus (EBV) infection of 
+the tongue. It is not considered a premalignant lesion. 
+ U.S. PREVENTIVE SERVICES  TASK FORCE 
+SCREENING GUIDELINES 
+ I. Discussion 
+ U.S. Preventive Services Task Force (USPSTF) screening guidelines are graded as A, B, C, D, or I 
+(insuf/f_i  cient evidence or evidence is lacking or of poor quality). The highest rating is a Grade A (routine 
+screening is advised—high certainty that the net bene/f_i  t is substantial). A rating of Grade D means 
+that the harm outweighs the bene/f_i  ts (or there is no bene/f_i  t) to the service and the use of the service is 
+discouraged. 
+ Both the ANCC and the AANPCB exams use the USPSTF screening recommendations. Regarding 
+breast cancer screening, the  USPSTF (2018)  currently recommends that a screening baseline mammogram 
+(with or without clinical breast exam) start at age 50 years and then every 2 years until the age of 
+74 years. For women aged 40 to 49 years, mammograms should be based on individual factors (such as 
+risk factors, preferences, risk vs. bene/f_i  ts of mammograms). 
+ II. Example 
+ What is the USPSTF screening recommendation for ovarian cancer? 
+  A.  Annual bimanual pelvic exam with pelvic ultrasound 
+  B.  Pelvic and intravaginal ultrasound 
+  C.  Intravaginal ultrasound with CA-125 tumor marker 
+  D.  The USPSTF does not recommend routine screening of women for ovarian cancer (Grade D) 
+ III. Correct Answer: Option D 
+  D.  The USPSTF does not recommend routine screening of women for ovarian cancer (Grade D) 
+ IV. Question Dissection 
+  Best Clues  
+  I Do not “overread” the question. Assume that the question is asking about routine screening of the 
+general population. 
+  I Transvaginal ultrasound and CA-125 are not used for routine screening. 
+  I Although the bimanual pelvic exam is “low tech,” it is being used as a distractor. 
+2. QUESTION DISSECTION AND ANALYSIS    33
+  NOTES  
+ 1. The  USPSTF (2018)  is against routine screening for ovarian cancer in asymptomatic women who 
+are not known to have a high risk of hereditary cancer syndrome. 
+ 2. If there is a case scenario of an older woman who complains of vague abdominal/pelvic symptoms 
+(stomach bloating, low-back ache, constipation) and is found to have a palpable ovary during the 
+bimanual exam, rule out ovarian cancer. 
+ 3. Always rule out ovarian cancer in a postmenopausal woman who has a palpable ovary. 
+ 4. The next step is to order a pelvic and intravaginal ultrasound with CA-125. Refer to an oncologist. 
+ 5. The strongest risk factor for ovarian cancer (or breast cancer) is genetic predisposition, such as 
+ BRCA1   or  BRCA2   mutations and positive family history (Table 2.3). Absolute risk of developing 
+ovarian cancer is 35% to 45% in women with  BRCA1   mutation. Other risk factors are age, obesity, 
+clomiphene (Clomid) use, and early-age menarche or late-onset  menopause. 
+  Table 2.3   USPSTF Screening Guidelines    
+  Disease     Screening Test   
+ Breast cancer (2018)  Baseline mammogram at age 50 years 
+ Screen every 2 years until age 74 years (biennial) 
+ After age 75 years (insufﬁ  cient evidence) 
+ Cervical cancer (2018)  Baseline Pap smear/cytology at age 21 years (do not screen younger) 
+ Screen every 3 years until age 65 years; at age 30–65 years, another option 
+is to screen every 5 years using hrHPV testing alone or in combination 
+with cytology (cotesting). 
+ Lung cancer (2013)  Aged 55–80 years with 30 pack-year history of smoking or quit smoking 
+up to 15 years previously 
+ Annual screening with LDCT 
+ Hysterectomy (no cervix)  Do not screen (if no history of precancer or cervical cancer) .
+ Prostate cancer (2018)  Aged 55–69 years, PSA-based screening should be individualized; ≥70 years, 
+against prostate cancer screening. 
+ Testicular cancer (2011)  Routine screening is not recommended. 
+ Colorectal cancer (2016)  Baseline screening at age 50 years 
+ Use  high-sensitivity   fecal occult blood test (yearly) or sigmoidoscopy 
+(every 5 years) or colonoscopy (every 10 years) from age 50 to 
+75 years; aged 76–85 years, individualize. 
+ Skin cancer (2016)  Current evidence insufﬁ  cient to assess beneﬁ  ts/harms of visual skin exam. 
+ Educate fair-skinned persons to avoid sunlight (10 a.m.–3 p.m.) and use 
+sunblock ≥SPF 15. 
+ Tobacco smoking (2020)  Ask all adults about tobacco use, advise them to stop smoking, and provide 
+behavioral interventions/pharmacotherapy (if not pregnant) for smoking 
+cessation. 
+ Fall prevention in community-
+dwelling older adults (2018)  Adults aged ≥65 years, exercise interventions to prevent falls in adults at 
+increased risk; against vitamin D supplementation. 
+ Ovarian cancer (2018)  Routine screening is not recommended .
+ High-risk ( BRCA   mutation, family history of breast/ovarian cancer) are 
+screened by specialist; refer for genetic counseling .
+ Abdominal aortic aneurysm (2019)  One-time screening (men aged 65–75 years) for cigarette smokers or those 
+who have quit. 
+ Screening test is ultrasound of abdomen. 
+ hrHPV, high-risk human papillomavirus; LDCT, low-dose computed tomography; SPF, sun protection factor; USPSTF, U.S. Preventive Services 
+Task Force.  
+34    I. CERTIFICATION AND EXAM INFORMATION
+  FOLLOWING UP ON A PRESCRIPTION MEDICINE 
+ I. Discussion 
+ In these cases, a patient who is taking prescription medicine is running out of their supply or does not 
+have re/f_i  lls left. The test-taker must decide what type of initial follow-up is needed. Depending on the 
+case scenario, for a patient who is fully symptomatic due to the abrupt cessation of medicine (either due 
+to running out of re/f_i  lls or due to discontinuation of health insurance), a reasonable initial action is to 
+continue the prescription medicine. 
+ II. Example 
+ A 65-year-old female smoker presents with a history of Barrett’s esophagus and gastroesophageal 
+re/f_l ux disease (GERD). The patient reports that her gastroenterologist’s prescription for esomeprazole 
+(Nexium) 40 mg daily ran out a few days ago. She is complaining of severe heartburn and a sore throat. 
+During the physical exam, the NP notes an erythematous posterior pharynx without tonsillar discharge 
+and mild dental enamel loss on the rear molars. What is the best initial action for the NP to follow? 
+  A.   Refer the patient to an oncologist for a biopsy to rule out esophageal cancer. 
+  B.    Give the patient a re/f_i  ll of her proton-pump inhibitor (PPI) prescription and advise her to schedule an 
+appointment with her gastroenterologist. 
+  C.    Recommend that the patient take over-the-counter (OTC) ranitidine (Zantac) twice a day until she 
+can be seen by her gastroenterologist. 
+  D.   Switch the patient’s prescription to another brand of PPI because her symptoms are not improving. 
+ III. Correct Answer: Option B 
+  B.   Give the patient a re/f_i  ll of her proton-pump inhibitor (PPI) prescription and advise her to schedule an 
+appointment with her gastroenterologist. 
+ IV. Question Dissection 
+  Best Clues  
+  I Rule out option A because the patient is already under the care of a gastroenterologist. 
+  I OTC ranitidine (Zantac) is not potent enough to control the symptoms of erosive esophagitis. A PPI 
+is the preferred treatment for erosive esophagitis. 
+  I Do not switch the patient to another brand of PPI. Her worsening symptoms are due to rebound 
+caused by abrupt cessation of PPI. 
+  I The best initial action in this case is to re/f_i  ll the PPI prescription because the patient is fully 
+symptomatic (erosive esophagitis) until she can see her gastroenterologist. 
+  NOTES  
+ 1. The patient’s severe symptoms are caused by the sudden discontinuation of the high-dose PPI 
+(rebound type of reaction). 
+ 2. Barrett’s esophagus is the “precancerous” lesion of esophageal cancer. It is best managed by a 
+gastroenterologist (not an oncologist). 
+ 3. Patients diagnosed with Barrett’s esophagus typically have endoscopic examinations with biopsy 
+by a gastroenterologist annually (or every 6 months for high-grade lesions). 
+ 4. Patients with Barrett’s esophagus are treated with high-dose PPIs for a “lifetime.” 
+ 5. The ﬁ  rst-line treatment of mild, uncomplicated GERD is lifestyle changes (e.g., avoid eating 
+3–4 hours before bedtime, dietary changes, weight loss if overweight). 
+ 6. If a patient is at high risk for esophageal cancer (aged 50 years or older, smoker, chronic GERD for 
+decades), consider referral to a gastroenterologist for an upper endoscopy. 
+ TANNER STAGES 
+ I. Discussion 
+ Expect to see at least one or two questions regarding Tanner stages in girls and boys. Because Tanner 
+stage I is prepuberty and Tanner stage V is the adult pattern for both boys and girls, the only stages to 
+memorize for the exams are Tanner stage II to Tanner stage IV . 
+2. QUESTION DISSECTION AND ANALYSIS    35
+ For girls, memorize the pattern of breast development, and for boys, the genital development (testes 
+and penis). It is not as important to memorize pubic hair development for both. 
+  Tanner Stages  
+ Girls 
+  I  Stage I:   Prepubertal pattern 
+  I  Stage II:   Breast bud and areola start to develop. 
+  I  Stage III:   Breast continues to grow with nipples/areola (one mound/no separation). 
+  I  Stage IV:   Nipples and areola become elevated from the breast (a secondary mound). 
+  I  Stage V:   Adult pattern 
+ Boys 
+  I  Stage I:   Prepubertal pattern 
+  I  Stage II:   Testes and scrotum start to enlarge (scrotal skin starts to get darker/more rugae). 
+  I  Stage III:   Penis grows longer (length) and testes/scrotum continues to become larger. 
+  I  Stage IV:   Penis become wider and continues growing in length (testes are larger with darker scrotal 
+skin and more rugae). 
+  I  Stage V:   Adult pattern 
+ II. Example 
+ A 14-year-old boy is brought in by his mother for a physical exam. Both are concerned about his breas t 
+enlargement. The teen denies breast tenderness. On physical exam, the NP palpates soft breast tissue 
+that is not tender. No dominant mass is noted. The skin is smooth, and there is no nipple discharge 
+with massage. The teen has a body mass index (BMI) of 29. Which of the following statements is 
+correct? 
+  A.    Advise the mother that the patient has physiologic gynecomastia and should return for a follow-up 
+exam. 
+  B.   Order an ultrasound of both breasts to further assess the patient’s breast tissue development. 
+  C.   Reassure the mother that the patient’s breast development is within normal limits. 
+  D.   Educate the mother that her son has pseudogynecomastia. 
+ III. Correct Answer: Option D 
+  D.   Educate the mother that her son has pseudogynecomastia. 
+ IV. Question Dissection 
+  Best Clues  
+  I The boy is very overweight (BMI 29) and is almost obese. 
+  I The clinical breast exam does not show palpable breast tissue. Instead, the breast palpation reveals 
+soft fatty tissue. 
+  I It is wrong to “reassure” a patient or family member in the exam (poor therapeutic communication 
+technique). 
+  NOTES  
+ 1.  Physiologic gynecomastia physical exam ﬁ  ndings will show disklike breast tissue that is mobile un-
+der each nipple/areola; the breast may be tender, and the breast can be asymmetrical (one breast 
+larger than the other). 
+ 2. A BMI of 25 to 29.9 is considered overweight. Obesity is a BMI of 30 or higher. 
+ 3. Overweight to obese males are at highest risk for pseudogynecomastia. 
+ QUESTIONS ABOUT FOOD 
+ I. Discussion 
+ There are basically three kinds of food-related questions on the exam. You may be asked to pick the foods 
+that have high levels of certain minerals, such as potassium, calcium, or magnesium. Other questions 
+36    I. CERTIFICATION AND EXAM INFORMATION
+will address food interactions (tetracycline and dairy), drug interactions (monoamine oxidase inhibitor 
+[MAOI] and high-tyramine-containing foods such as fermented foods), or foods that should be avoided 
+for a particular disease (e.g., wheat products in the case of celiac disease). 
+ Certain foods are recommended for certain diseases (e.g., salmon/omega-3 for heart disease) because 
+of their favorable effect. In contrast, certain foods are contraindicated for some conditions because of 
+their adverse or dangerous effects. 
+ II. Example 
+ Which of the following foods are known to have high potassium content? 
+  A.   Low-fat yogurt, soft cheeses, and collard greens 
+  B.   Aged cheese, red wine, and chocolate 
+  C.   Potatoes, apricots, and Brussels sprouts 
+  D.   Black beans, red meat, and citrus juice 
+ III. Correct Answer: Option C 
+  C.   Potatoes, apricots, and Brussels sprouts 
+ IV. Question Dissection 
+  Best Clues  
+  I First, look at the answer options for inconsistencies in the list of foods. 
+  I Rule out option A because it is inconsistent and these foods do not contain high levels of potassium: 
+low-fat yogurt and soft cheeses (calcium) with collard greens (vitamin K). 
+  I Rule out option B because these foods have a high tyramine, not potassium, content. 
+  I Rule out option D because it is inconsistent. Although citrus juices are high in potassium, both black 
+beans and red meat are not (iron). 
+  I If options A, B, and D are incorrect, then the only one left is option C (potatoes, apricots, and 
+Brussels sprouts). A large number of fruits and vegetables are rich in potassium and vitamins. 
+  NOTES  
+ 1. Foods with a high tyramine content can cause dangerous food–drug interactions with MAOI inhibi-
+tors (e.g., isocarboxazid [Marplan], phenelzine [Nardil], and tranylcypromine [Parnate]). 
+ 2. Foods and supplements containing stimulants, such as caffeine and ephedra, are best avoided by 
+patients with hypertension, arrhythmias, high risk for MI, hyperthyroid disease, albuterol use, am-
+phetamine use, and so on. 
+ 3. If one of the food choices in an answer option is incorrect, rule out this option because all of the 
+foods on the list have to be correlated. 
+  Examples of Food Groups  
+ 1. Gluten (avoid with celiac disease/celiac sprue):  Wheat (including spelt and kamut), rye, barley (breads, 
+cereals, pasta, cookies, cakes) 
+  GG Gluten free (safe carbohydrates):  Corn, rice, potatoes, quinoa, tapioca, soybeans 
+ 2. Plant sterols and stanols (reduce cholesterol, LDL, triglycerides):  Sterol-forti/f_i  ed spreads (Benecol spread), 
+sterol-forti/f_i  ed foods, wheat germ, sesame oil 
+ 3 . Monounsaturated fats/fatty acids (decrease risk of heart disease): 
+  GG Olive oil, canola oil, some nuts (almonds, walnuts), sun/f_l  ower oil/seeds 
+  GG Mediterranean diet, which is high in monounsaturated fats 
+ 4. Saturated fats or trans fats (increase risk of hear t disease):  Lard, beef fat (fatty steak), deep-fried fast 
+foods 
+ 5. Omega-3 or /f_i  sh oils (decrease risk of heart disease):  Fatty cold-water marine /f_i  sh (salmon), /f_i  sh oils, /f_l  ax-
+seed oil, and krill oil 
+ 6. Magnesium (decreases BP , dilates blood vessels):  Some nuts (almonds, peanuts, cashews), some beans, 
+whole wheat; also found in laxatives, antacids, milk of magnesia 
+2. QUESTION DISSECTION AND ANALYSIS    37
+ 7. Potassium (helps decrease BP):  Most fruits (especially apricot, banana, orange, prune juice), some 
+vegetables 
+ 8. Folate (decreases homocysteine levels and fetal neural tube defects):  Breakfast cereals forti/f_i  ed with folate, 
+green leafy vegetables (i.e., spinach), liver 
+ 9. Iron (treats iron-de/f_i  ciency anemia):  Beef, liver, black beans, black-eyed peas 
+ 10. Vitamin K (should control intake if on anticoagulants):  Green leafy vegetables (kale, collard greens, 
+spinach), broccoli, cabbage 
+ 11. High sodium content (increases water retention, can increase BP):  Cold cuts, pickles, preserved foods, 
+canned foods, hot dogs, chips 
+ 12. Calcium (helps with osteopenia and osteoporosis, helps decrease BP):  Low-fat dairy, low-fat milk, low-fat 
+yogurt, cheeses 
+  Common Disorders Associated With Certain Foods  
+ 1. Celiac disease 
+  GG Lifetime avoidance of gluten-containing cereals such as wheat, rye, and barley is necessary. 
+  GG Gluten free:  Rice, corn, potatoes, peanuts, soybeans, meat, dairy, all fruits/vegetables; most people 
+with celiac disease can eat oats. 
+ 2. Hypertension 
+  GG Maintain an adequate intake of calcium, magnesium, and potassium. 
+  GG Calcium:  Low-fat dairy, low-fat yogurt, cheeses 
+  GG Magnesium:  Wheat bread, nuts (almonds, peanuts, cashews), some beans 
+  GG Potassium:  Most fruits (apricot, banana, oranges, cantaloupes, raisins), green vegetables 
+  GG Avoid high-sodium foods:  Cold cuts, pickles, preserved foods, canned foods, preservatives 
+ 3. Migraine headaches and MAOIs (Marplan, Nardil, and Parnate) 
+  GG High-tyramine foods:  Aged cheeses/meats, red wine, fava beans, draft beer, fermented foods 
+ 4. Anticoagulation therapy (i.e., warfarin sodium or Coumadin) 
+  GG Avoid eating large amounts of leafy green vegetables (kale/collard greens, spinach, cabbage, 
+broccoli) and cooking with canola oil (high in vitamin K); use other oils instead. High levels of 
+vitamin K decrease the effects of warfarin sodium. 
+ CASE MANAGEMENT 
+ I. Discussion 
+ Medical case managers are experienced RNs who work for hospitals, healthcare plans, and health 
+insurance companies. Their job is essentially to coordinate the outpatient healthcare of patients with 
+high-cost chronic conditions. The goal of case management is to decrease disease exacerbations and 
+decrease the risk of hospitalization. 
+  Asthma  
+ A good outcome for children with asthma is their ability to attend school full time and to play normally 
+every day. A poor case management outcome is if the child misses school and/or is unable to play 
+because of poor control of asthma symptoms. 
+  NOTES  
+ 1. With asthma, a good case outcome is for the child (or adult) to return to normal function. For 
+children, it means the child is attending school and can play daily. If the child is not able to attend 
+school full time (frequent absences), this is a poor case management outcome. 
+ 2. The risk factors for asthma fatality include a history of ED visits, frequent use of short-acting beta-
+agonist use (i.e., albuterol), nocturnal awakenings, increased dyspnea and wheezing, respiratory 
+viral infection, and so on. 
+ 3. Diseases that are selected for case management are usually chronic conditions, such as asthma, 
+congestive heart failure (CHF), HIV infection, and chronic psychiatric conditions. A good outcome 
+will show good symptom control and no exacerbations or hospitalizations. 
+38    I. CERTIFICATION AND EXAM INFORMATION
+ ALL QUESTIONS HAVE ENOUGH INFORMATION 
+ I. Discussion 
+ Assume that all the questions on the exams contain enough information to answer them correctly. Do not 
+read too much into a question or assume that it is missing some vital information. As far as the ANCC 
+and AANPCB exams are concerned, all questions contain enough information to allow you to solve them 
+correctly. Consider a patient is in good health unless a disease or other health condition is mentioned in 
+the test question. 
+ EMERGENT CASES 
+ I. Discussion 
+ The ability to recognize and initially manage emergent conditions that may present in the primary care 
+arena is a skill that is expected of all NPs. It is important to memorize not only the presenting signs and 
+symptoms of a given condition but also its initial management in primary care. 
+ Learn how these conditions present so that you can recognize them in the exam. The following is a list 
+of emergent conditions that will be on the exam. (They are discussed in detail in the “Danger Signals” 
+sections of Chapters 5 through 17.) 
+  Danger Signals  
+ Cardiovascular System 
+  I Acute MI, unstable angina 
+  I Heart failure 
+  I Bacterial endocarditis 
+  I Abdominal aortic aneurysm (AAA) 
+ Skin and Integumentary System 
+  I Angioedema/anaphylaxis 
+  I Stevens–Johnson syndrome 
+  I Meningococcemia 
+  I Rocky Mountain spotted fever (RMSF) 
+  I Lyme disease 
+  I Herpes zoster ophthalmicus 
+  I Melanoma 
+  I Basal cell carcinoma 
+ Gastrointestinal System 
+  I Acute abdomen (surgical abdomen) 
+  I Acute appendicitis 
+  I Acute pancreatitis 
+  I Acute diverticulitis 
+  I Acute cholecystitis 
+  I  Clostridium dif/f_i  cile infection  
+  I Colon cancer 
+  Men’s Health  
+  I Testicular torsion 
+  I Priapism 
+  I Prostate cancer 
+  Psychosocial Mental Health  
+  I Depression with suicidal plan 
+  I Acute serotonin syndrome 
+  I Malignant neuroleptic syndrome 
+2. QUESTION DISSECTION AND ANALYSIS    39
+  Nervous System  
+  I Cerebrovascular accident (CVA) 
+  I Temporal arteritis headache 
+  I Subarachnoid bleeding 
+  I Acute bacterial meningitis 
+  I Subdural hematoma 
+  Head, Eyes, Ears, Nose, and Throat  
+  I Retinal detachment 
+  I Orbital cellulitis 
+  I Optic neuritis 
+  I Peritonsillar abscess 
+  I Battle sign 
+  I Herpes keratitis 
+  I Temporal arteritis 
+  I Acute angle-closure glaucoma 
+  Pulmonary System  
+  I Anaphylaxis 
+  I Severe asthmatic exacerbation (impending respiratory failure) 
+  I Pulmonary emboli 
+  I CAP 
+  I Lung cancer 
+  Renal System  
+  I Acute pyelonephritis 
+  I Acute renal failure 
+  I Bladder cancer 
+  Women’s Health  
+  I Dominant breast mass attached to surrounding tissue 
+  I Ruptured tubal ectopic pregnancy 
+  I Paget’s disease of the breast 
+  I Ovarian cancer 
+ II. Example 
+ An asthmatic male patient complains of a sudden onset of itching and coughing after taking two aspirin 
+tablets for a headache in the waiting room. The patient’s lips and eyelids are becoming swollen. The 
+patient complains of feeling hot. Bright-red wheals are noted on his chest and arms and legs. Which of 
+the following is the best initial intervention to follow? 
+  A.   Call 911. 
+  B.   Check the patient’s BP , pulse, and temperature .
+  C.    Give an injection of aqueous epinephrine 1:1,000 (1 mg/mL) 0.5 mg IM into the vastus lateralis 
+muscle immediately .
+  D.   Initiate a prescription of a potent topical steroid and a Medrol Dose Pack .
+ III. Correct Answer: Option C 
+  C.    Give an injection of aqueous epinephrine 1:1,000 dilution (1 mg/mL) 0.5 mg IM into the vastus late-
+ralis muscle immediately .
+ IV. Question Dissection 
+  Best Clues  
+  I The quick onset of symptoms, such as angioedema, after taking aspirin is a clue. 
+  I The classic signs and symptoms of anaphylaxis described in this case should be noted. 
+  I Severe anaphylactic episodes occur almost immediately or within 1 hour after exposure .
+40    I. CERTIFICATION AND EXAM INFORMATION
+  NOTES  
+ 1. Treatment of anaphylaxis (in primary care): 
+ G If only one clinician is present:  Give an injection of epinephrine 1:1,000 dilution 0.3 to 0.5 mg 
+intramuscularly  stat , and then call 911. May repeat dose within 5 minutes in case of poor response. 
+ 2. ED treatment medications:  Administer epinephrine IM, 100% oxygen by face mask, an antihista-
+mine ( H 1  antagonist ) such as diphenhydramine (Benadryl), an H 2  antagonist such as ranitidine, a 
+bronchodilator such as albuterol (short-acting beta-2 agonist), and systemic glucocorticosteroids 
+such as prednisone. 
+ 3. Patients with an atopic history (asthma, eczema, allergic rhinitis) with nasal polyps are at higher 
+risk for aspirin and nonsteroidal anti-inﬂ  ammatory drug (NSAID) allergies. 
+ 4. Anaphylaxis is classiﬁ  ed as a type I IgE-dependent reaction. 
+ 5. Biphasic anaphylaxis occurs in up to 23% of cases (symptoms recur within 8–10 hours after initial 
+episode). This is the reason why these patients are prescribed a Medrol Dose Pack and a long-acting 
+antihistamine after being discharged from the ED. 
+ 6. The most common triggers for anaphylaxis in children are foods. Medications and insect stings are 
+the most common triggers in adults. 
+ PRIORITIZING OTHER EMERGENT CASES 
+ I. Discussion 
+ During life-threatening situations, managing the airway, breathing, and circulation (the ABCs) is always 
+the top priority. If the question does not describe conditions requiring the ABCs, then the next level of 
+priority is the acute or sudden change in the mental status and the level of consciousness (LOC). One 
+of the most important clues in such problems is the acute timing of onset of symptoms or the sudden 
+change of the LOC from the patient’s “baseline.” 
+ II. Example 
+ A 16-year-old boy presents to a community clinic accompanied by his grandmother, who reports that he 
+fell off his bike this morning. The patient now complains of a headache with mild nausea. The patient’s 
+grandmother reports that he was not wearing a helmet. The health history is uneventful. Which of the 
+following statements is indicative of an emergent condition? 
+  A.   The patient complains of multiple painful abrasions that are bleeding on his arms and legs .
+  B.   The patient complains of a headache that is relieved by acetaminophen (Tylenol) .
+  C.   The patient makes eye contact occasionally and answers with brief statements .
+  D.   The patient is having dif/f_i  culty with following normal conversation and answering questions .
+ III. Correct Answer: Option D 
+  D.   The patient is having dif/f_i  culty with following normal conversation and answering questions .
+ IV. Question Dissection 
+  Best Clues  
+  I History of recent trauma that is followed by a headache with nausea. 
+  I The patient did not wear a bicycle helmet. 
+  NOTES  
+ 1. Any recent changes in LOC, even one as subtle as difﬁ  culty with normal conversation, should ring a 
+bell in your head. 
+ 2. Notice the words “normal conversation.” Do not overread the question and ask yourself what they 
+mean by “normal conversation.” Take it at face valu e. 
+ 3. Changes in LOC on the test are usually subtle changes. Signs to watch for include difﬁ  culty answer-
+ing questions, slurred speech, apparent confusion, inability to understand instructions/conversa-
+tion, being sleepy/lethargic, and so forth. 
+ 4. Even though the patient is bleeding, note that he has “abrasions,” which are superﬁ  cial. 
+ 5. The behavior described in option C is considered “normal” for an adolescent male (or female). 

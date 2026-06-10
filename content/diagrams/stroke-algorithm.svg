@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Inter', 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text { font-family: 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#334155"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#00e5cc"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#ff4d6d"/>
+    </marker>
+    <marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#f5b731"/>
+    </marker>
+    <filter id="glow-teal">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#050b1a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg-grad)"/>
+
+  <!-- Title -->
+  <text x="400" y="32" fill="#00e5cc" font-size="18" font-weight="700" text-anchor="middle" filter="url(#glow-teal)">STROKE / TIA ALGORITHM</text>
+  <line x1="320" y1="40" x2="480" y2="40" stroke="#00e5cc" stroke-width="1" opacity="0.4"/>
+
+  <!-- ======================================================================= -->
+  <!-- ROW 1: FAST Mnemonic -->
+  <!-- ======================================================================= -->
+
+  <!-- FAST Header Box -->
+  <rect x="50" y="55" width="140" height="44" rx="8" fill="#00e5cc" filter="url(#shadow)"/>
+  <text x="120" y="83" fill="#020617" font-size="14" font-weight="700" text-anchor="middle">FAST Assessment</text>
+
+  <!-- FAST Row Boxes -->
+  <rect x="210" y="55" width="100" height="44" rx="8" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="260" y="72" fill="#00e5cc" font-size="12" font-weight="700" text-anchor="middle">Face</text>
+  <text x="260" y="88" fill="#94a3b8" font-size="10" text-anchor="middle">Facial droop</text>
+
+  <rect x="320" y="55" width="100" height="44" rx="8" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="370" y="72" fill="#00e5cc" font-size="12" font-weight="700" text-anchor="middle">Arm</text>
+  <text x="370" y="88" fill="#94a3b8" font-size="10" text-anchor="middle">Arm weakness</text>
+
+  <rect x="430" y="55" width="100" height="44" rx="8" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="480" y="72" fill="#00e5cc" font-size="12" font-weight="700" text-anchor="middle">Speech</text>
+  <text x="480" y="88" fill="#94a3b8" font-size="10" text-anchor="middle">Slurred / aphasia</text>
+
+  <rect x="540" y="55" width="100" height="44" rx="8" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="590" y="72" fill="#00e5cc" font-size="12" font-weight="700" text-anchor="middle">Time</text>
+  <text x="590" y="88" fill="#94a3b8" font-size="10" text-anchor="middle">Last known well</text>
+
+  <!-- FAST arrows: header to boxes -->
+  <line x1="190" y1="77" x2="208" y2="77" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ======================================================================= -->
+  <!-- Arrow from FAST → Activation -->
+  <!-- ======================================================================= -->
+  <line x1="400" y1="99" x2="400" y2="117" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ======================================================================= -->
+  <!-- ROW 2: Stroke Code Activation -->
+  <!-- ======================================================================= -->
+  <rect x="220" y="118" width="360" height="40" rx="8" fill="#0b0f1c" stroke="#f5b731" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="400" y="134" fill="#f5b731" font-size="13" font-weight="700" text-anchor="middle">🚨 Stroke Code Activation</text>
+  <text x="400" y="150" fill="#94a3b8" font-size="10" text-anchor="middle">Page stroke team · Rapid neuro assessment · Fingerstick glucose · O₂ · IV access</text>
+
+  <!-- ======================================================================= -->
+  <!-- Arrow: Activation → CT -->
+  <!-- ======================================================================= -->
+  <line x1="400" y1="158" x2="400" y2="176" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ======================================================================= -->
+  <!-- ROW 3: CT Head Non-contrast STAT -->
+  <!-- ======================================================================= -->
+  <rect x="220" y="177" width="360" height="40" rx="8" fill="#0b0f1c" stroke="#f5b731" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="400" y="193" fill="#f5b731" font-size="13" font-weight="700" text-anchor="middle">CT Head Non-Contrast STAT</text>
+  <text x="400" y="209" fill="#94a3b8" font-size="10" text-anchor="middle">Door-to-needle goal: ≤60 min · CT within 20 min</text>
+
+  <!-- ======================================================================= -->
+  <!-- Split: Ischemic vs Hemorrhagic -->
+  <!-- ======================================================================= -->
+  <line x1="400" y1="217" x2="400" y2="235" stroke="#334155" stroke-width="1.5"/>
+  <line x1="170" y1="235" x2="630" y2="235" stroke="#334155" stroke-width="1.5"/>
+  <line x1="170" y1="235" x2="170" y2="253" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="630" y1="235" x2="630" y2="253" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Labels on branches -->
+  <text x="170" y="248" fill="#38bdf8" font-size="11" font-weight="600" text-anchor="middle">Ischemic</text>
+  <text x="630" y="248" fill="#ff4d6d" font-size="11" font-weight="600" text-anchor="middle">Hemorrhagic</text>
+
+  <!-- ======================================================================= -->
+  <!-- ROW 4 LEFT: Ischemic -->
+  <!-- ======================================================================= -->
+
+  <rect x="50" y="256" width="240" height="70" rx="8" fill="#0b0f1c" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="170" y="276" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">🧠 Ischemic Stroke</text>
+  <text x="170" y="293" fill="#94a3b8" font-size="10" text-anchor="middle">NIHSS score on arrival</text>
+  <text x="170" y="310" fill="#94a3b8" font-size="10" text-anchor="middle">Assess for thrombolysis / thrombectomy</text>
+
+  <!-- NIHSS Sub-box -->
+  <rect x="60" y="340" width="220" height="36" rx="8" fill="#0b0f1c" stroke="#334155" stroke-width="1" opacity="0.8"/>
+  <text x="170" y="357" fill="#38bdf8" font-size="11" font-weight="600" text-anchor="middle">NIHSS Score</text>
+  <text x="170" y="370" fill="#94a3b8" font-size="9" text-anchor="middle">Mild (0-4) · Moderate (5-15) · Severe (≥16)</text>
+
+  <line x1="170" y1="326" x2="170" y2="338" stroke="#334155" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- tPA Box -->
+  <rect x="50" y="390" width="110" height="60" rx="8" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1.2"/>
+  <text x="105" y="410" fill="#00e5cc" font-size="11" font-weight="600" text-anchor="middle">tPA / Alteplase</text>
+  <text x="105" y="425" fill="#94a3b8" font-size="9" text-anchor="middle">tPA ≤ 3 hrs</text>
+  <text x="105" y="438" fill="#94a3b8" font-size="9" text-anchor="middle">Tenecteplase ≤ 4.5 hrs</text>
+  <text x="105" y="448" fill="#ff4d6d" font-size="8" text-anchor="middle">No tPA if hemorrhage</text>
+
+  <line x1="170" y1="376" x2="105" y2="388" stroke="#334155" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- Thrombectomy Box -->
+  <rect x="180" y="390" width="110" height="60" rx="8" fill="#0b0f1c" stroke="#a78bfa" stroke-width="1.2"/>
+  <text x="235" y="410" fill="#a78bfa" font-size="11" font-weight="600" text-anchor="middle">Thrombectomy</text>
+  <text x="235" y="425" fill="#94a3b8" font-size="9" text-anchor="middle">Large vessel occlusion</text>
+  <text x="235" y="438" fill="#94a3b8" font-size="9" text-anchor="middle">≤ 6 hrs (up to 24)</text>
+  <text x="235" y="448" fill="#f5b731" font-size="8" text-anchor="middle">CTA / MR perfusion</text>
+
+  <line x1="170" y1="376" x2="235" y2="388" stroke="#334155" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- ======================================================================= -->
+  <!-- ROW 4 RIGHT: Hemorrhagic -->
+  <!-- ======================================================================= -->
+
+  <rect x="510" y="256" width="240" height="70" rx="8" fill="#0b0f1c" stroke="#ff4d6d" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="630" y="276" fill="#ff4d6d" font-size="12" font-weight="700" text-anchor="middle">🩸 Hemorrhagic Stroke</text>
+  <text x="630" y="293" fill="#94a3b8" font-size="10" text-anchor="middle">Intracerebral / Subarachnoid hemorrhage</text>
+  <text x="630" y="310" fill="#94a3b8" font-size="10" text-anchor="middle">Emergent management critical</text>
+
+  <!-- Reversal box -->
+  <rect x="510" y="340" width="240" height="36" rx="8" fill="#0b0f1c" stroke="#ff4d6d" stroke-width="1" opacity="0.8"/>
+  <text x="630" y="357" fill="#ff4d6d" font-size="11" font-weight="600" text-anchor="middle">Reverse Anticoagulation</text>
+  <text x="630" y="370" fill="#94a3b8" font-size="9" text-anchor="middle">FFP / PCC · Vitamin K (warfarin) · Idarucizumab (dabigatran)</text>
+
+  <line x1="630" y1="326" x2="630" y2="338" stroke="#334155" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- Neurosurgery box -->
+  <rect x="510" y="390" width="115" height="60" rx="8" fill="#0b0f1c" stroke="#f5b731" stroke-width="1.2"/>
+  <text x="567" y="410" fill="#f5b731" font-size="11" font-weight="600" text-anchor="middle">Neurosurgery</text>
+  <text x="567" y="425" fill="#94a3b8" font-size="9" text-anchor="middle">Consult STAT</text>
+  <text x="567" y="438" fill="#94a3b8" font-size="9" text-anchor="middle">EVD / hematoma evacuation</text>
+  <text x="567" y="448" fill="#94a3b8" font-size="9" text-anchor="middle">Craniectomy if needed</text>
+
+  <line x1="630" y1="376" x2="567" y2="388" stroke="#334155" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- BP control box -->
+  <rect x="635" y="390" width="115" height="60" rx="8" fill="#0b0f1c" stroke="#38bdf8" stroke-width="1.2"/>
+  <text x="692" y="410" fill="#38bdf8" font-size="11" font-weight="600" text-anchor="middle">BP Control</text>
+  <text x="692" y="425" fill="#94a3b8" font-size="9" text-anchor="middle">SBP &lt; 140 mmHg</text>
+  <text x="692" y="438" fill="#94a3b8" font-size="9" text-anchor="middle">Nicardipine / labetalol</text>
+  <text x="692" y="448" fill="#ff4d6d" font-size="8" text-anchor="middle">No antiplatelets</text>
+
+  <line x1="630" y1="376" x2="692" y2="388" stroke="#334155" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- ======================================================================= -->
+  <!-- Arrow to TIA section (between branches) -->
+  <!-- ======================================================================= -->
+  <line x1="400" y1="217" x2="400" y2="460" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ======================================================================= -->
+  <!-- ROW 5: TIA -->
+  <!-- ======================================================================= -->
+  <rect x="220" y="462" width="360" height="44" rx="8" fill="#0b0f1c" stroke="#f5b731" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="400" y="478" fill="#f5b731" font-size="13" font-weight="700" text-anchor="middle">⚠️ Transient Ischemic Attack (TIA)</text>
+  <text x="400" y="494" fill="#94a3b8" font-size="10" text-anchor="middle">Symptoms resolve within 24 hrs · No infarction on imaging</text>
+
+  <!-- ======================================================================= -->
+  <!-- Arrow down -->
+  <!-- ======================================================================= -->
+  <line x1="400" y1="506" x2="400" y2="518" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ======================================================================= -->
+  <!-- ROW 6: TIA Workup -->
+  <!-- ======================================================================= -->
+
+  <!-- ABCD2 Box -->
+  <rect x="50" y="520" width="120" height="50" rx="8" fill="#0b0f1c" stroke="#f5b731" stroke-width="1.2"/>
+  <text x="110" y="538" fill="#f5b731" font-size="11" font-weight="600" text-anchor="middle">ABCD² Score</text>
+  <text x="110" y="553" fill="#94a3b8" font-size="9" text-anchor="middle">Age · BP · Clinical</text>
+  <text x="110" y="565" fill="#94a3b8" font-size="9" text-anchor="middle">Duration · Diabetes</text>
+
+  <line x1="400" y1="518" x2="110" y2="518" stroke="#334155" stroke-width="1"/>
+  <line x1="110" y1="518" x2="110" y2="518" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Urgent Workup Box -->
+  <rect x="190" y="520" width="130" height="50" rx="8" fill="#0b0f1c" stroke="#38bdf8" stroke-width="1.2"/>
+  <text x="255" y="538" fill="#38bdf8" font-size="11" font-weight="600" text-anchor="middle">Urgent Workup</text>
+  <text x="255" y="553" fill="#94a3b8" font-size="9" text-anchor="middle">MRI brain · CTA head/neck</text>
+  <text x="255" y="565" fill="#94a3b8" font-size="9" text-anchor="middle">Transthoracic echo</text>
+
+  <line x1="400" y1="518" x2="255" y2="518" stroke="#334155" stroke-width="1"/>
+  <line x1="255" y1="518" x2="255" y2="518" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Medical Therapy Box -->
+  <rect x="340" y="520" width="130" height="50" rx="8" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1.2"/>
+  <text x="405" y="538" fill="#00e5cc" font-size="11" font-weight="600" text-anchor="middle">Medical Therapy</text>
+  <text x="405" y="553" fill="#94a3b8" font-size="9" text-anchor="middle">Antiplatelet (ASA ± DPI)</text>
+  <text x="405" y="565" fill="#94a3b8" font-size="9" text-anchor="middle">High-intensity statin</text>
+
+  <line x1="400" y1="518" x2="405" y2="518" stroke="#334155" stroke-width="1"/>
+  <line x1="405" y1="518" x2="405" y2="518" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Secondary Prevention Box (spans bottom) -->
+  <rect x="490" y="520" width="260" height="50" rx="8" fill="#0b0f1c" stroke="#a78bfa" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="620" y="538" fill="#a78bfa" font-size="11" font-weight="700" text-anchor="middle">Secondary Prevention</text>
+  <text x="620" y="553" fill="#94a3b8" font-size="9" text-anchor="middle">Antiplatelet therapy · High-intensity statin</text>
+  <text x="620" y="565" fill="#94a3b8" font-size="9" text-anchor="middle">BP control (&lt; 130/80) · Lifestyle modification</text>
+
+  <line x1="400" y1="518" x2="620" y2="518" stroke="#334155" stroke-width="1"/>
+  <line x1="620" y1="518" x2="620" y2="518" stroke="#334155" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Bottom accent line -->
+  <line x1="100" y1="580" x2="700" y2="580" stroke="#334155" stroke-width="0.5" opacity="0.3"/>
+  <text x="400" y="593" fill="#334155" font-size="8" text-anchor="middle">Stroke / TIA Algorithm v1.0</text>
+
+</svg>

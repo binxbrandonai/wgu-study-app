@@ -1,0 +1,221 @@
+{
+  "topic": {
+    "id": "d118-neuro-stroke",
+    "name": "Stroke & TIA",
+    "system": "Neurologic",
+    "duration_min": 22,
+    "icon": "\ud83e\udde0",
+    "color": "#a78bfa",
+    "objectives": [
+      "Recognize stroke emergency using FAST/BEFAST",
+      "Differentiate ischemic vs. hemorrhagic stroke",
+      "Know tPA window, eligibility, and contraindications",
+      "Understand TIA workup (ABCD\u00b2 score, urgent evaluation)",
+      "Implement secondary prevention strategies (antiplatelets, statins, BP control)"
+    ],
+    "lessons": [
+      {
+        "id": "stroke-basics",
+        "title": "\ud83e\udde0 Stroke 101: Time is Brain",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Meet James: 64, hypertensive, smoker. He was eating lunch when suddenly his right arm went numb and he couldn't speak. His wife called 911. In the ED, a CT shows no bleed. He's within the tPA window \u2014 but the clock is ticking. Every minute without treatment, 1.9 million neurons die. Stroke is the #5 cause of death and #1 cause of long-term disability in the US. 795,000 strokes occur yearly \u2014 that's one every 40 seconds. As an FNP, YOU are often the first to evaluate \u2014 your recognition speed determines outcomes.",
+            "visual_desc": "Brain clock: Normal brain hemisphere vs. ischemic hemisphere showing the 'time is brain' concept with 1.9M neurons lost per minute, with FAST acronym overlaid"
+          },
+          {
+            "type": "definition",
+            "title": "What IS a Stroke?",
+            "content": "**Stroke**: Rapidly developing focal neurologic deficit from **vascular cause** lasting >24 hours (or with infarction on imaging).\n\n**TIA** (Transient Ischemic Attack): Same symptoms but resolve in <24 hours (usually <1 hour) with NO infarction on imaging.\n\n**Two Main Types**:\n\n**ISCHEMIC STROKE** (87% of all strokes)\n\u2022 Blockage of blood vessel by clot\n\u2022 **Thrombotic**: Clot forms locally on atherosclerotic plaque\n\u2022 **Embolic**: Clot travels from elsewhere (carotid, heart \u2014 think AFib!)\n\u2022 **Lacunar**: Small vessel disease (HTN, DM \u2014 small deep infarcts)\n\n**HEMORRHAGIC STROKE** (13% of strokes, but 40% of deaths)\n\u2022 Blood vessel ruptures\n\u2022 **Intracerebral hemorrhage (ICH)**: HTN most common cause\n\u2022 **Subarachnoid hemorrhage (SAH)**: from aneurysm rupture \u2014 'worst headache of my life'\n\n**Key point**: YOU CAN'T tell ischemic vs. hemorrhagic clinically \u2014 need CT scan! tPA given to hemorrhagic = disaster!",
+            "mnemonic": "**ISCHemic = block** (I've got a **block**). **HEMorrhagic = bleed** (**HEM**atoma = bleed).",
+            "visual_desc": "Side-by-side brain slices: LEFT (ischemic): dark area of infarction. RIGHT (hemorrhagic): bright white blood in brain tissue"
+          },
+          {
+            "type": "protocol",
+            "title": "FAST: The Stroke Recognition Tool",
+            "content": "**FAST** (the gold standard for public + providers):\n\n**F \u2014 Face**: Ask them to smile. Is one side drooping? (facial asymmetry)\n\n**A \u2014 Arms**: Ask them to raise both arms. Does one drift down? (arm drift)\n\n**S \u2014 Speech**: Ask them to say a full sentence ('You can't teach an old dog new tricks'). Is it slurred? Garbled? Word-finding? (aphasia/dysarthria)\n\n**T \u2014 Time**: Time of **LAST KNOWN WELL** = when they were last seen normal \u2014 this determines tPA eligibility! Don't ask 'when did symptoms start' \u2014 ask 'when were they last seen normal?'\n\n**BEFAST** (expanded version):\n**B** \u2014 Balance (sudden dizziness, loss of coordination)\n**E** \u2014 Eyes (sudden vision loss, double vision, visual field cut)\n**F, A, S, T** as above\n\n**Stroke Mimics** (things that look like stroke but aren't):\n\u2022 Hypoglycemia (always check fingerstick!)\n\u2022 Seizure with post-ictal paralysis (Todd paralysis)\n\u2022 Migraine with aura\n\u2022 Bell's palsy (peripheral vs. central face \u2014 forehead spared in stroke)\n\u2022 Conversion disorder\n\u2022 Electrolyte abnormalities",
+            "clinical_pearl": "\ud83d\udd25 **Always check fingerstick glucose FIRST!** Severe hypoglycemia (glucose <50) can exactly mimic stroke symptoms. Treating hypoglycemia as 'stroke' with tPA would be catastrophic \u2014 and it's such an easy fix!"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "What percentage of strokes are ischemic?",
+            "a": [
+              "50%",
+              "67%",
+              "87%",
+              "95%"
+            ],
+            "correct": 2,
+            "explanation": "**87%** of strokes are ischemic (blockage). 13% are hemorrhagic (bleed). But hemorrhagic causes 40% of stroke deaths!"
+          },
+          {
+            "q": "A patient with sudden right-sided weakness and aphasia arrives 3 hours after last seen normal. Fingerstick glucose = 92. Best first step?",
+            "a": [
+              "Start aspirin immediately",
+              "Order stat non-contrast CT head",
+              "Give tPA now",
+              "Start heparin drip"
+            ],
+            "correct": 1,
+            "explanation": "**Stat non-contrast CT head** is the VERY FIRST step after ABCs and fingerstick. Must rule out hemorrhage before any anticoagulation or tPA!"
+          }
+        ]
+      },
+      {
+        "id": "stroke-emergency",
+        "title": "\ud83d\udea8 Stroke Codes: tPA & Emergency Management",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "The Golden Hour",
+            "content": "Maria arrives at the ED. CT shows no hemorrhage. She's 72, hypertensive, and was last normal at 4 PM \u2014 it's now 6:30 PM (symptoms started ~2.5 hours ago). She's a tPA candidate! But wait \u2014 she had knee replacement surgery 10 days ago. Does that preclude tPA? What about her BP of 195/110? The clock keeps ticking. Every decision you make \u2014 or delay \u2014 costs brain cells. This is stroke code. This is high-stakes medicine.",
+            "visual_desc": "Decision tree: Stroke patient \u2192 CT non-contrast \u2192 No bleed \u2192 Check tPA eligibility (time, BP, anticoag, recent surgery) \u2192 Eligible \u2192 tPA infusion"
+          },
+          {
+            "type": "protocol",
+            "title": "tPA (Alteplase) Protocol: The 3-Hour Window",
+            "content": "**tPA Eligibility Criteria** (must meet ALL):\n\n\u2705 **Age \u226518** (no upper age limit!)\n\u2705 **Time**: Last known normal <3 hours (can extend to 4.5 hours in some cases)\n\u2705 **CT**: No intracranial hemorrhage on non-contrast CT\n\u2705 **NIH Stroke Scale**: Measurable neurologic deficit\n\n**tPA EXCLUSIONS (Know These Cold!)**\n\n**Absolute Contraindications** (DO NOT GIVE):\n\ud83d\udd34 ICH on CT (any bleed!)\n\ud83d\udd34 Acute intracranial hemorrhage history\n\ud83d\udd34 **BP >185/110** despite treatment (must lower BP first!)\n\ud83d\udd34 Active internal bleeding (GI, GU bleed within 21 days)\n\ud83d\udd34 Recent **major surgery** (<14 days) or **head trauma** (<3 months)\n\ud83d\udd34 **Intracranial surgery** (<3 months)\n\ud83d\udd34 **INR >1.7** or PT >15 sec\n\ud83d\udd34 **Platelets <100,000**\n\ud83d\udd34 **Glucose <50 or >400** (treat hypoglycemia first!)\n\ud83d\udd34 Known bleeding diathesis\n\ud83d\udd34 Recent lumbar puncture (<7 days)\n\n**Relative Contraindications** (weigh risk/benefit):\n\u26a0\ufe0f **Age >80** (for 3-4.5 hour window)\n\u26a0\ufe0f **NIHSS >25** (massive stroke = higher bleed risk)\n\u26a0\ufe0f **Seizure** at onset\n\u26a0\ufe0f **Recent MI** (<3 months)\n\u26a0\ufe0f **Pregnancy**\n\u26a0\ufe0f **Rapidly improving symptoms** (but don't wait too long!)\n\n**Dosing**: 0.9 mg/kg (max 90 mg)\n\u2022 10% as bolus over 1 minute\n\u2022 Remaining 90% over 60 minutes\n\n**Post-tPA Monitoring**:\n\u2022 **BP <180/105** for 24 hours\n\u2022 Neuro checks q15min \u00d7 2 hours, then q30min \u00d7 6 hours, then hourly\n\u2022 No aspirin, heparin, or anticoag for 24 hours\n\u2022 Hold all needles/NG tubes/arterial lines\n\u2022 Stat CT if: worsening neuro status, severe headache, vomiting, BP surge",
+            "mnemonic": "**tPA NO = BATH BAGS**: **B**P >185/110, **A**nticoagulated (INR >1.7), **T**rauma/surgery <14d, **H**emorrhage on CT, **B**leeding active, **A**ge >80 (relative), **G**lucose <50/>400, **S**eizure at onset",
+            "visual_desc": "Color-coded checklist: GREEN box (eligible criteria) on left, RED box (absolute contraindications) with skull-and-crossbones icons, YELLOW box (relative contraindications) with caution icons"
+          },
+          {
+            "type": "definition",
+            "title": "Hemorrhagic Stroke: The Other Side",
+            "content": "**Intracerebral Hemorrhage (ICH)** \u2014 know the differences from ischemic!\n\n**Presentation**:\n\u2022 **Severe headache** (most common symptom)\n\u2022 Nausea/vomiting (more common than ischemic)\n\u2022 **Decreased consciousness** (worse than ischemic)\n\u2022 Rapid deterioration\n\u2022 Hypertension (extremely high BP)\n\n**Causes**:\n\u2022 **Hypertension** (most common \u2014 causes small vessel rupture)\n\u2022 Anticoagulation (warfarin, DOACs \u2014 MUCH worse outcomes)\n\u2022 Cerebral amyloid angiopathy (elderly)\n\u2022 AV malformations, aneurysms\n\u2022 Trauma\n\u2022 Cocaine/amphetamines (severe HTN spike)\n\n**Management**:\n1. **STOP anticoagulation** (reverse!):\n   \u2022 Warfarin: **Vitamin K** IV + **PCC** (4-factor prothrombin complex concentrate) or FFP\n   \u2022 DOACs: **Andexanet alfa** (for apixaban/rivarelbant), **idarucizumab** (for dabigatran)\n2. **BP control**: SBP <140 (intensive lowering improves outcomes)\n3. **Neurosurgery consult**: for posterior fossa bleeds, large lobar bleeds, or if herniating\n4. **Seizure prophylaxis**: Avoid (no benefit) \u2014 but treat if seizures occur\n5. **Intracranial pressure monitoring**: if GCS \u22648\n\n**Worse prognosis with**: Age >80, ICH volume >30 mL, infratentorial location, intraventricular extension, anticoagulation use",
+            "clinical_pearl": "\ud83d\udd25 **Warfarin-related ICH is the WORST** \u2014 risk of hematoma expansion is HIGH. Give **Vitamin K 10 mg IV + PCC** stat. PCC works faster than FFP (minutes vs. hours needed to thaw and infuse!). Don't wait for INR to normalize \u2014 give PCC immediately!"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **'Wake-up' strokes** \u2014 patient goes to bed normal, wakes with deficits. Time of last known well = bedtime. Most wake-up strokes are NOT tPA-eligible unless advanced imaging (MRI DWI/perfusion mismatch) shows salvageable tissue. Some centers use CT perfusion to extend window up to 24 hours \u2014 but this is specialized."
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "tPA contraindications",
+            "mnemonic": "**tPA NO = BATH BAGS**: **B**P >185/110, **A**nticoagulated (INR >1.7), **T**rauma/surgery <14d, **H**emorrhage on CT, **B**leeding active, **A**ge >80 (relative), **G**lucose <50/>400, **S**eizure at onset"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Patient with ischemic stroke 2 hours ago, BP 200/110. Can you give tPA?",
+            "a": [
+              "Yes, give tPA now",
+              "No, must lower BP to <185/110 first, then reassess",
+              "Yes, but give half dose",
+              "No, BP is never a contraindication"
+            ],
+            "correct": 1,
+            "explanation": "BP must be **<185/110** before tPA. Give IV labetalol or nicardipine to lower. Once controlled, can give tPA. But if BP remains refractory, tPA is contraindicated."
+          },
+          {
+            "q": "Which is a contraindication to tPA regardless of time window?",
+            "a": [
+              "Age 82",
+              "INR 1.8",
+              "NIHSS score of 10",
+              "Atrial fibrillation"
+            ],
+            "correct": 1,
+            "explanation": "**INR >1.7** is an absolute contraindication (increased bleeding risk). Age >80 is only a relative contraindication (for 3-4.5 hr window). NIHSS 10 is treatable. AFib is an indication, not contraindication!"
+          }
+        ]
+      },
+      {
+        "id": "tia-secondary",
+        "title": "\u26a0\ufe0f TIA & Secondary Prevention: Don't Miss the Warning Shot",
+        "duration_min": 6,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "The Warning Shot",
+            "content": "Meet Fred: 67, diabetic, hypertensive. Last week his left arm went numb and he couldn't see out of his left eye for 10 minutes. Then it resolved completely. He didn't go to the ER because 'it went away.' He's telling you about it today at his annual physical. This is a classic **TIA** \u2014 specifically **amaurosis fugax** (transient monocular vision loss from carotid emboli). His risk of stroke in the next 90 days is 10-20% without treatment. This is your chance to prevent a catastrophic stroke.",
+            "visual_desc": "Timeline: TIA (symptoms resolve <24h) \u2192 High-risk period \u2192 10-20% stroke risk in 90 days \u2192 Preventive treatment blocks progression to full stroke"
+          },
+          {
+            "type": "definition",
+            "title": "TIA: What It Is & Why It Matters",
+            "content": "**TIA** (Transient Ischemic Attack): Temporary episode of neurologic dysfunction caused by **focal brain ischemia** without infarction.\n\n**Key Features**:\n\u2022 Symptoms resolve **completely** (usually within 5-60 minutes)\n\u2022 **By definition** <24 hours (most <1 hour)\n\u2022 No stroke on **MRI DWI** (if DWI shows infarction = stroke, not TIA!)\n\n**HIGH-YEAR: Symptoms by Vascular Territory**:\n\n**Carotid (Anterior Circulation)** \u2014 internal carotid / MCA:\n\u2022 **Contralateral weakness** (face, arm, leg)\n\u2022 **Contralateral sensory loss**\n\u2022 **Aphasia** (dominant hemisphere = left side)\n\u2022 **Neglect** (non-dominant = right side)\n\u2022 **Amaurosis fugax** (temporary monocular blindness \u2014 'curtain coming down')\n\u2022 **Homonymous hemianopia** (vision loss on same side in both eyes)\n\n**Vertebrobasilar (Posterior Circulation)** \u2014 brainstem, cerebellum, occipital:\n\u2022 **Dizziness/vertigo** (most common)\n\u2022 **Diplopia** (double vision)\n\u2022 **Dysarthria** (slurred speech)\n\u2022 **Dysphagia** (difficulty swallowing)\n\u2022 **Ataxia** (coordination problems)\n\u2022 **Crossed signs** (ipsilateral face + contralateral body = brainstem!)\n\u2022 **Drop attacks** (sudden collapse without LOC)\n\n**TIA Mimics**: Migraine with aura, seizure, transient hypoglycemia, syncope, anxiety",
+            "mnemonic": "**TIA = ABCDEF**: **A**maurosis fugax, **B**alance loss, **C**onfusion/aphasia, **D**iplopia, **E**xtremity weakness, **F**acial droop",
+            "visual_desc": "Brain vascular map: LEFT (carotid/MCA): motor cortex, speech area. RIGHT (vertebrobasilar): brainstem, cerebellum, occipital lobe with corresponding symptoms"
+          },
+          {
+            "type": "protocol",
+            "title": "ABCD\u00b2 Score: TIA Risk Stratification",
+            "content": "**ABCD\u00b2 Score** \u2014 predicts 90-day stroke risk after TIA. **Board favorite!**\n\n**A \u2014 Age**: \u226560 = 1 point\n\n**B \u2014 BP**: SBP \u2265140 or DBP \u226590 = 1 point\n\n**C \u2014 Clinical features**:\n\u2022 Unilateral weakness = **2 points**\n\u2022 Speech disturbance without weakness = **1 point**\n\u2022 Other = 0 points\n\n**D \u2014 Duration**:\n\u2022 \u226560 minutes = **2 points**\n\u2022 10-59 minutes = **1 point**\n\u2022 <10 minutes = 0\n\n**D \u2014 Diabetes**: Present = 1 point\n\n**Total: 0-7 points**\n\n**Risk Stratification**:\n\u2022 **Low risk** (0-3): 1% 90-day stroke risk \u2192 outpatient workup OK\n\u2022 **Moderate risk** (4-5): 4% risk \u2192 urgent outpatient (within 1 week)\n\u2022 **High risk** (6-7): 8% risk \u2192 **ADMIT** for inpatient workup!\n\n**Regardless of score**: Anyone with crescendo TIA (multiple TIAs in 48h) or TIA with AFib \u2192 ADMIT!",
+            "clinical_pearl": "\ud83d\udd25 **ABCD\u00b2 \u22654 = URGENT workup.** Even 'low risk' TIA needs evaluation within 48 hours. The highest stroke risk is in the FIRST 48 hours after TIA, so don't delay! Either admit or arrange urgent carotid imaging + echo."
+          },
+          {
+            "type": "checklist",
+            "title": "Secondary Prevention: The Stroke Recurrence Busters",
+            "content": "**For ALL stroke/TIA patients** (ABCDEFG approach):\n\n**\u2705 A \u2014 Antiplatelet therapy**\n\u2022 **Non-cardioembolic** (most strokes):\n  \u2192 **Aspirin 81-325 mg daily** OR\n  \u2192 **Aspirin + extended-release dipyridamole** (Aggrenox) OR\n  \u2192 **Clopidogrel 75 mg** daily\n  \u2192 Recent evidence: **Aspirin + clopidogrel** for 21 days for MINOR stroke/TIA (CHANCE-2 trial)\n\u2022 **Cardioembolic** (AFib, mechanical valve):\n  \u2192 **Anticoagulation** (warfarin, apixaban, rivaroxaban, edoxaban, dabigatran)\n  \u2192 DOACs preferred over warfarin in non-valvular AFib\n\n**\u2705 B \u2014 BP Control**\n\u2022 Goal <130/80 for most\n\u2022 Start or intensify antihypertensive 24-48h after ischemic stroke (once stable!)\n\u2022 Thiazide + ACE-I have best evidence for secondary stroke prevention\n\n**\u2705 C \u2014 Cholesterol management**\n\u2022 **High-intensity statin** (atorvastatin 40-80 mg or rosuvastatin 20-40 mg)\n\u2022 LDL goal <70 (or <55 if very high risk)\n\u2022 Start ASAP \u2014 even during hospitalization!\n\n**\u2705 D \u2014 Diabetes control**\n\u2022 HbA1c <7% (individualize)\n\u2022 SGLT2i or GLP-1 preferred (CV benefit)\n\n**\u2705 E \u2014 Exercise & lifestyle**\n\u2022 150 min/week moderate aerobic activity\n\u2022 Mediterranean diet (shown to reduce recurrent stroke!)\n\n**\u2705 F \u2014 Follow-up imaging**\n\u2022 **Carotid duplex**: For anterior circulation TIA/stroke \u2192 if stenosis \u226570% \u2192 consider **carotid endarterectomy (CEA)** or **stenting (CAS)**\n\u2022 **Echocardiogram**: TTE + bubble study (to rule out PFO); TEE if high suspicion of cardioembolic source\n\u2022 **Telemetry/Holter**: Rule out AFib (paroxysmal AFib = the hidden culprit!)\n\n**\u2705 G \u2014 Glucose check**\n\u2022 Hold metformin for 48h post-contrast if GFR <60\n\n**Lifestyle counseling**:\n\u2022 **Smoking cessation** (#1 modifiable risk \u2014 doubles recurrence risk!)\n\u2022 **Alcohol moderation** (\u22641 drink/day women, \u22642 men)\n\u2022 **Weight loss if BMI >25**\n\u2022 **Sleep apnea screening** (treat with CPAP \u2014 reduces stroke recurrence!)",
+            "mnemonic": "**Secondary Prevention = ABCDEFG**: **A**ntiplatelet, **B**P control, **C**holesterol (statin), **D**iabetes, **E**xercise/lifestyle, **F**ollow-up imaging, **G**lucose/weight management",
+            "visual_desc": "7-pillar diagram: Central 'Stroke Prevention' surrounded by A (aspirin), B (BP target 130/80), C (statin LDL <70), D (diabetes control), E (exercise), F (imaging follow-up), G (GLP-1/SGLT2i if diabetic)"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Carotid stenosis management**: For **symptomatic** stenosis (TIA or stroke in that carotid territory) \u226570% \u2192 **CEA within 2 weeks** of the event! Earlier = better (need a 'cooling off' period of a few days post-stroke). For asymptomatic stenosis \u226560% \u2192 medical management with consideration of CEA if life expectancy >5 years."
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "Secondary stroke prevention",
+            "mnemonic": "**Secondary Prevention = ABCDEFG**: **A**ntiplatelet, **B**P control, **C**holesterol (statin), **D**iabetes, **E**xercise/lifestyle, **F**ollow-up imaging, **G**lucose/weight management"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "68-year-old had 20 minutes of right arm weakness and slurred speech yesterday. Now normal. ABCD\u00b2: Age=1, BP=0 (128/76), Clinical=2 (weakness), Duration=2, Diabetes=1. Total score: 6. Next step?",
+            "a": [
+              "Reassure, no further workup needed",
+              "Outpatient carotid ultrasound within 2 weeks",
+              "Admit for inpatient stroke workup",
+              "Start aspirin and see in 1 month"
+            ],
+            "correct": 2,
+            "explanation": "ABCD\u00b2 score of **6 = high risk** (8% 90-day stroke risk). This patient needs **ADMISSION** for urgent stroke workup: brain MRI, carotid imaging, echo, telemetry."
+          },
+          {
+            "q": "Which antiplatelet regimen is recommended for a patient with acute minor ischemic stroke?",
+            "a": [
+              "Aspirin 81 mg alone",
+              "Clopidogrel 75 mg alone",
+              "Aspirin + clopidogrel for 21 days, then single agent",
+              "Warfarin"
+            ],
+            "correct": 2,
+            "explanation": "For **minor ischemic stroke** (NIHSS \u22643) or high-risk TIA, **dual antiplatelet therapy (Aspirin + Clopidogrel) for 21 days** then switch to single agent reduces recurrent stroke risk (CHANCE-2/POINT trials)."
+          },
+          {
+            "q": "Patient with AFib has TIA. Best choice for secondary prevention?",
+            "a": [
+              "Aspirin 325 mg daily",
+              "Clopidogrel 75 mg daily",
+              "Apixaban (DOAC)",
+              "Aspirin + dipyridamole"
+            ],
+            "correct": 2,
+            "explanation": "**Cardioembolic** strokes from AFib need **ANTICOAGULATION**, not antiplatelets. DOACs (apixaban, rivaroxaban, edoxaban, dabigatran) are preferred over warfarin for non-valvular AFib."
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Ninja Nerd",
+        "title": "Acute Ischemic Stroke \u2014 Etiology, Pathophysiology, Clinical Features",
+        "url": "https://www.youtube.com/watch?v=abxcrAvw-O0",
+        "duration": "47 min"
+      },
+      {
+        "source": "Ninja Nerd",
+        "title": "Ischemic and Hemorrhagic Strokes | High Yield",
+        "url": "https://www.youtube.com/watch?v=7lpqxDEfszY",
+        "duration": "33 min"
+      }
+    ]
+  }
+}

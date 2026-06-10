@@ -1,0 +1,203 @@
+{
+  "topic": {
+    "id": "d120-geriatrics",
+    "name": "Geriatric Care",
+    "system": "Special Populations",
+    "duration_min": 25,
+    "icon": "\ud83d\udc74",
+    "color": "#a78bfa",
+    "objectives": [
+      "Apply the Beer's Criteria to identify potentially inappropriate medications in older adults",
+      "Implement fall risk screening (TUG test, STEADI) and multifactorial prevention strategies",
+      "Differentiate types of cognitive impairment (MCI, dementia, delirium) using screening tools",
+      "Recognize frailty and sarcopenia using the FRAIL scale and implement management strategies"
+    ],
+    "lessons": [
+      {
+        "id": "geriatrics-polypharmacy",
+        "title": "\ud83d\udc8a Polypharmacy: The American Geriatrics Society Beer's Criteria",
+        "duration_min": 9,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Harold, 82, comes in with his daughter after a fall. She brings a brown paper bag with 14 prescription bottles. 'He's seeing a cardiologist, a urologist, a rheumatologist, and his PCP. I don't think anyone knows everything he's on.' Harold is on amitriptyline (for 'nerve pain'), diazepam (for 'muscle spasms'), diphenhydramine (OTC for sleep), and glipizide (which caused a hypoglycemic last week). Four potentially inappropriate medications \u2014 and the fall was predictable. Polypharmacy is the #1 modifiable risk factor for adverse events in older adults.",
+            "visual_desc": "Drawing of a paper bag overflowing with pill bottles, with warning signs around certain medications"
+          },
+          {
+            "type": "definition",
+            "title": "Polypharmacy & Beer's Criteria 2023",
+            "content": "**Polypharmacy** = \u22655 medications (often associated with higher risk of adverse outcomes)\n**Hyperpolypharmacy** = \u226510 medications\n\n**Beer's Criteria 2023 (AGS)**: Potentially Inappropriate Medications (PIMs) to avoid or use with caution in adults \u226565.\n\n**HIGH-RISK PIMs to AVOID** \u2014 memorize these for boards:\n\n| Drug | Why Avoid | Better Alternative |\n|---|---|---|\n| **Anticholinergics** (diphenhydramine, hydroxyzine, oxybutynin, amitriptyline) | Confusion, falls, constipation, urinary retention | Non-sedating antihistamines, gabapentin, topical oxybutynin |\n| **Benzodiazepines** (diazepam, lorazepam, alprazolam) | Falls, cognitive impairment, tolerance, withdrawal | SSRI/SNRI for anxiety, melatonin for sleep |\n| **Z-drugs** (zolpidem, zaleplon) | Same fall risk as benzos! | CBT-I, melatonin, trazodone low dose |\n| **NSAIDs** (chronic use) | GI bleed, AKI, HTN, HF exacerbation | Acetaminophen, topical analgesics |\n| **Sulfonylureas** (glyburide/glibenclamide) | Prolonged hypoglycemia (especially glyburide!) | Metformin, DPP-4 inhibitors, low-dose glipizide |\n| **Skeletal muscle relaxants** (cyclobenzaprine, carisoprodol) | Anticholinergic, sedation, falls | PT, massage, acetaminophen |\n| **PPIs** beyond 8 weeks (without indication) | C. diff, osteoporosis, B12 deficiency, CKD | H2 blockers, deprescribe when appropriate |\n\n**Anticholinergic Burden**: Higher total anticholinergic load = more cognitive impairment, falls, mortality.",
+            "mnemonic": "**BAD FALL**: **B**enzos, **A**nticholinergics, **D**iphenhydramine, **F**lexeril (cyclobenzaprine), **A**lcohol (interactions), **L**ong-acting sulfonylureas, **L**ong-term PPIs",
+            "visual_desc": "Table format with three columns: Medication, Why Avoid (with icon), Alternative (green checkmark)"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **Deprescribing is a skill**: Don't stop everything at once. Taper benzodiazepines (don't cold-turkey \u2014 withdrawal seizures!), stop one drug at a time and monitor. Use the **STOPP/START criteria** alongside Beer's for a comprehensive medication review. And remember: **'Start low, go slow, but GO'** \u2014 under-treating is also harmful."
+          },
+          {
+            "type": "checklist",
+            "title": "Medication Reconciliation: The Brown Bag Review",
+            "content": "**Do this at EVERY visit for patients \u226565 on \u22655 meds**:\n\n\u2705 Ask patient to bring ALL medications (Rx, OTC, supplements, herbals) in a bag\n\u2705 Review each medication for: indication, dose, duration, adherence\n\u2705 Apply **Beer's Criteria** \u2014 flag PIMs\n\u2705 Apply **STOPP Criteria** (Screening Tool of Older Persons' Prescriptions)\n\u2705 Apply **START Criteria** (Screening Tool to Alert to Right Treatment) \u2014 are they missing indicated meds? (e.g., osteoporosis Tx, statin)\n\u2705 Check for **drug-drug interactions** (use online checker or consult pharmacist)\n\u2705 Check **renal function** \u2014 adjust doses for CrCl <30\n\u2705 **One new medication?** Consider stopping an old one (the 'one in, one out' rule)\n\u2705 **Document rationale** for each continued potentially inappropriate medication (shared decision-making)\n\u2705 Set a **deprescribing plan** with timeline and follow-up",
+            "visual_desc": "Stepwise flowchart showing the brown bag review process with decision points for each medication: Indicated? Effective? Safe? Can we stop/reduce?"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "An 80-year-old man is on amitriptyline 50mg for neuropathy. According to Beer's Criteria, what should you do?",
+            "answers": [
+              "Increase dose for better pain control",
+              "Continue - it's approved for neuropathy",
+              "Taper and switch to gabapentin or duloxetine",
+              "Add diphenhydramine for sleep"
+            ],
+            "correct": 2,
+            "explanation": "Amitriptyline is a high-risk anticholinergic per Beer's Criteria. Alternatives for neuropathy include gabapentin, pregabalin, or duloxetine \u2014 less anticholinergic burden."
+          },
+          {
+            "q": "Which statement about deprescribing in older adults is TRUE?",
+            "answers": [
+              "Stop all potentially inappropriate medications at once",
+              "Taper benzodiazepines gradually to prevent withdrawal",
+              "Never stop medications started by a specialist",
+              "Supplements don't count in medication review"
+            ],
+            "correct": 1,
+            "explanation": "Benzodiazepines require gradual tapering to prevent withdrawal seizures/rebound anxiety. Stopping all meds at once is dangerous. Always coordinate with specialists when deprescribing."
+          }
+        ]
+      },
+      {
+        "id": "geriatrics-falls",
+        "title": "\ud83e\uddb6 Falls Prevention: Screening, Assessment, Intervention",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Edna, 78, 'just tripped over the rug' and fractured her hip. She went from independent living to a skilled nursing facility. Six months later, she's still there \u2014 deconditioned, depressed, and at high risk for another fall. Falls are the LEADING cause of fatal and non-fatal injuries in adults \u226565. 1 in 4 older adults falls each year. Of those who fall, 50% can't get up without help \u2014 leading to 'long lies' (hypothermia, dehydration, rhabdomyolysis). Every well-check includes fall screening for a reason.",
+            "visual_desc": "Infographic showing the cascade: Fall \u2192 Hip fracture \u2192 Surgery \u2192 Immobilization \u2192 Deconditioning \u2192 Loss of independence \u2192 Nursing home"
+          },
+          {
+            "type": "definition",
+            "title": "Fall Risk Assessment: STEADI Algorithm",
+            "content": "**CDC STEADI** (Stopping Elderly Accidents, Deaths & Injuries):\n\n**Screen ALL adults \u226565 annually**: \"Have you fallen in the past year?\"\n\n**If YES**:\n\u2192 Assess gait/balance with **Timed Up and Go (TUG)** test\n\u2192 Multifactorial risk assessment\n\u2192 Individualized intervention\n\n**If NO** but unsteady gait or fear of falling:\n\u2192 TUG test + focused prevention\n\n**Timed Up and Go (TUG) Test**:\n\u2022 Patient stands from chair, walks 10 ft, turns, walks back, sits down\n\u2022 **Normal**: <12 seconds\n\u2022 **Impaired**: \u226512 seconds (high fall risk!)\n\u2022 **Cutoff for frailty**: \u226513.5 seconds\n\n**Other Screening Tools**:\n\u2022 **Morse Fall Scale**: Inpatient assessment (score \u226545 = high risk)\n\u2022 **Berg Balance Scale**: 14-item balance assessment (higher score = better)\n\u2022 **4-Stage Balance Test**: Can they stand with feet side-by-side, semi-tandem, tandem, and single-leg?",
+            "mnemonic": "**TUG Test**: **T**ime **U**p and **G**o \u2014 12 seconds or more = **F**all risk, **L**ost balance, **A**ssistance needed, **L**ow mobility",
+            "visual_desc": "Diagram showing TUG test path: Chair \u2192 10 ft walk \u2192 Turn \u2192 Walk back \u2192 Sit. Timer icon showing <12s = normal, \u226512s = fall risk"
+          },
+          {
+            "type": "protocol",
+            "title": "Multifactorial Fall Prevention",
+            "content": "**Falls are MULTIFACTORIAL** \u2014 address ALL contributing factors:\n\n| Domain | Assess For | Intervention |\n|---|---|---|\n| **Medications** | Beer's PIMs (benzos, anticholinergics, sedatives, antihypertensives) | Deprescribe, reduce, or substitute |\n| **Vision** | Cataracts, glaucoma, macular degeneration, bifocal issues | Ophthalmology referral, update glasses, avoid bifocals when walking |\n| **Home hazards** | Throw rugs, poor lighting, cords, clutter, grab bars, railings | Home safety evaluation (OT referral), remove rugs, nightlights |\n| **Orthostatic BP** | Check lying + standing BP (drop >20 systolic = abnormal) | Hydrate, reduce antihypertensives, compression stockings |\n| **Gait/balance** | TUG test, 4-stage balance test | PT/OT referral, strength training, Tai Chi, walking program |\n| **Footwear** | Ill-fitting shoes, barefoot, slippers | Proper footwear with nonslip soles |\n| **Bone health** | Osteoporosis screening (DXA) | Calcium, vitamin D, bisphosphonates if indicated |\n| **Vitamin D** | Deficiency common | \u2265800 IU/day vitamin D reduces fall risk (USPSTF: clear benefit only with vitamin D + calcium) |\n\n**Hip Fracture Prevention**: Osteoporosis treatment + fall prevention = 50% reduction.\n\n**After a fall**: Assess for injury (X-ray if focal pain, CT head if anticoagulated + head strike), fear of falling (activity restriction causes MORE deconditioning \u2192 MORE falls), and consider alert system (Life Alert).",
+            "visual_desc": "Wheel diagram with 8 spokes: each spoke is a risk domain with assessment tool and intervention"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **Orthostatic hypotension is underdiagnosed**: Check orthostatics in EVERY older patient \u2014 especially if on antihypertensives, diuretics, or alpha-blockers (tamsulosin!). BP drop >20/10 or symptoms upon standing = abnormal. Don't just check it once; symptoms are often post-prandial (after meals) or in the morning. Also: **Vitamin D 800 IU/day + calcium reduces falls by ~20%** \u2014 cheap, safe, effective."
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A 75-year-old woman completes the TUG test in 15 seconds. What does this indicate?",
+            "answers": [
+              "Normal gait and balance",
+              "Mild impairment, no intervention needed",
+              "High fall risk \u2014 need multifactorial assessment",
+              "Results are invalid, repeat test"
+            ],
+            "correct": 2,
+            "explanation": "TUG \u226512 seconds = impaired mobility/high fall risk. 15 seconds warrants full multifactorial fall risk assessment and individualized intervention plan."
+          },
+          {
+            "q": "Which of the following is the STRONGEST modifiable risk factor for falls in older adults?",
+            "answers": [
+              "Cataracts requiring surgery",
+              "Use of benzodiazepines or anticholinergics",
+              "Lack of handrails in bathroom",
+              "Poorly fitting shoes"
+            ],
+            "correct": 1,
+            "explanation": "Medications \u2014 particularly benzodiazepines, anticholinergics, and sedatives \u2014 are among the strongest modifiable risk factors for falls. Deprescribing these has a major impact."
+          }
+        ]
+      },
+      {
+        "id": "geriatrics-cognition-frailty",
+        "title": "\ud83e\udde0 Cognitive Impairment & Frailty: Beyond 'Getting Old'",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Robert, 74, was a retired accountant who 'was always sharp.' His wife noticed he was repeating stories, missing bill payments, and getting lost driving to the grocery store. 'I thought it was just old age,' she said during the visit. It wasn't \u2014 it was Mild Cognitive Impairment (MCI) that progressed to Alzheimer's dementia over 3 years. Differentiating normal aging from MCI from dementia \u2014 and frailty from simple deconditioning \u2014 determines whether you can intervene early, when treatments matter most.",
+            "visual_desc": "Three-panel comparison: Normal aging (mild forgetfulness, no functional decline), MCI (noticeable memory changes, preserved function), Dementia (memory + functional decline)"
+          },
+          {
+            "type": "definition",
+            "title": "Normal Aging vs. MCI vs. Dementia",
+            "content": "**Normal Cognitive Aging**:\n\u2022 Slower processing speed, occasional word-finding difficulty\n\u2022 **Intact**: Daily function, independence, ability to learn new information\n\u2022 Memory: Forgets details but recalls later, remembers recent conversations\n\n**Mild Cognitive Impairment (MCI)** \u2014 'The Gray Zone':\n\u2022 **Objective cognitive decline** (reported by patient or informant)\n\u2022 **Preserved functional independence** (can manage meds, finances, driving \u2014 just slower/harder)\n\u2022 Does NOT meet criteria for dementia\n\u2022 **Subtypes**: Amnestic (memory-predominant) vs. non-amnestic (executive function, language, visuospatial)\n\u2022 **Progression**: 10-15% per year convert to dementia\n\n**Dementia**:\n\u2022 Cognitive decline in \u22652 domains (memory, language, executive function, visuospatial)\n\u2022 **Functional impairment** \u2014 CANNOT manage daily activities independently\n\u2022 Multiple types: Alzheimer's (60-80%), Vascular, Lewy Body, Frontotemporal\n\n**Screening Tools**:\n\u2022 **Mini-Cog** (3-item recall + clock draw) \u2014 3 minutes, sensitivity 76-99%\n\u2022 **MoCA** (Montreal Cognitive Assessment) \u2014 10 minutes, more sensitive for MCI\n\u2022 **SLUMS** (Saint Louis University Mental Status) \u2014 good alternative to MMSE\n\u2022 **MMSE** \u2014 widely known but less sensitive for MCI, copyright issues\n\n**When to screen**: Medicare Annual Wellness Visit requires cognitive screening if concerns reported or observed.",
+            "mnemonic": "**DEMENTIA vs MCI**: Does the patient still **M**anage **C**ash and **I**ndependent living? If **NO** \u2192 Dementia. If **YES** \u2192 consider MCI.",
+            "visual_desc": "Venn diagram showing overlap and differences between normal aging, MCI, and dementia with functional independence as key differentiator"
+          },
+          {
+            "type": "protocol",
+            "title": "Frailty: The FRAIL Scale & Sarcopenia",
+            "content": "**Frailty** \u2260 disability or comorbidity. It's a biologic syndrome of decreased physiologic reserve and vulnerability to stressors.\n\n**FRAIL Scale** (5 questions, each 1 point):\n1. **F**atigue: 'How much of the time did you feel tired in the past month?' (most/all of the time)\n2. **R**esistance: Difficulty walking up 10 steps without resting\n3. **A**mbulation: Difficulty walking several blocks alone\n4. **I**llness: >5 comorbidities\n5. **L**oss of weight: >5% body weight in past year\n\n**Score**: 0 = Robust, 1-2 = Pre-frail, \u22653 = Frail\n\n**Sarcopenia** = Age-related loss of muscle mass + strength + function\n\u2022 **Diagnosis**: Low muscle mass (DXA, BIA, calf circumference <31cm), low handgrip strength (<16kg women, <27kg men), slow gait speed (<0.8 m/s)\n\u2022 **Consequences**: Falls, fractures, disability, mortality\n\n**Management**:\n\u2022 **Resistance training** \u2014 STRONGEST intervention for sarcopenia (2-3\u00d7/week)\n\u2022 **Protein intake** \u22651.2 g/kg/day (versus 0.8 for younger adults)\n\u2022 **Vitamin D** \u2265800 IU/day\n\u2022 **Treat underlying causes**: Hypogonadism (testosterone if indicated), thyroid disease, vitamin B12 deficiency\n\u2022 **Avoid**: Routine use of appetite stimulants (limited evidence, more side effects)",
+            "visual_desc": "Visual of the FRAIL scale as a 5-rung ladder with icons for each letter, showing progression from robust to frail"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **Delirium is a MEDICAL EMERGENCY** \u2014 it is NOT dementia! Acute onset, fluctuating consciousness, inattention = delirium until proven otherwise. Common causes: **DELIRIUM** mnemonic = **D**rugs, **E**lectrolyte, **L**ow oxygen, **I**nfection, **R**etention (urinary/fecal), **I**mpaction, **U**ncontrolled pain, **M**etabolic. And **don't miss thyroid** \u2014 myxedema coma can present as dementia in older adults."
+          },
+          {
+            "type": "checklist",
+            "title": "Differential for Cognitive Decline: The 'DEMENTIA' Workup",
+            "content": "**Rule OUT reversible causes before diagnosing dementia**:\n\n\u2705 **Vitamin B12** \u2014 deficiency causes reversible cognitive decline\n\u2705 **TSH** \u2014 hypothyroidism mimics dementia\n\u2705 **BMP** \u2014 electrolyte abnormalities, hypercalcemia, hyponatremia\n\u2705 **Lyme** (if endemic) \u2014 neuroborreliosis\n\u2705 **RPR or syphilis screen** \u2014 neurosyphilis (rare but reversible)\n\u2705 **CT/MRI head** \u2014 rule out: normal pressure hydrocephalus, subdural hematoma, tumor, stroke, extensive white matter disease\n\u2705 **HIV screen** (if risk factors) \u2014 HIV-associated neurocognitive disorder (HAND)\n\u2705 **Medication review** \u2014 anticholinergics, benzodiazepines, opioids are COMMON causes of pseudo-dementia\n\u2705 **Depression screening** \u2014 pseudodementia of depression (treat depression and cognition improves!)\n\u2705 **Sleep apnea screen** \u2014 STOP-BANG questionnaire",
+            "visual_desc": "Organized checklist with lab tube icons for blood tests and brain icon for imaging, each with checkmark space"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "An 80-year-old man can still manage his finances and medications independently, but his wife reports he repeats stories. What is the MOST likely classification?",
+            "answers": [
+              "Normal aging",
+              "Mild Cognitive Impairment (MCI)",
+              "Dementia",
+              "Delirium"
+            ],
+            "correct": 1,
+            "explanation": "MCI = objective cognitive decline with preserved functional independence. Dementia requires functional impairment (can't manage daily activities). Delirium has acute onset with fluctuating consciousness."
+          },
+          {
+            "q": "According to the FRAIL scale, a patient with a score of 3 out of 5 is classified as:",
+            "answers": [
+              "Robust",
+              "Pre-frail",
+              "Frail",
+              "Disabled"
+            ],
+            "correct": 2,
+            "explanation": "FRAIL scale: 0 = Robust, 1-2 = Pre-frail, \u22653 = Frail. Frail patients are at highest risk for falls, hospitalization, and mortality."
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Osmosis",
+        "title": "Geriatric Assessment - Polypharmacy, Falls, Dementia",
+        "url": "https://www.youtube.com/watch?v=kBx0v-AoVbs",
+        "duration": "14 min"
+      },
+      {
+        "source": "Ninja Nerd",
+        "title": "Alzheimer Disease & Dementia | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=GLCdAvPBrbs",
+        "duration": "40 min"
+      }
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "topic": {
+    "id": "d118-endo-dm2",
+    "name": "Type 2 Diabetes",
+    "system": "Endocrine",
+    "duration_min": 35,
+    "icon": "\ud83c\udf6c",
+    "color": "#f72585",
+    "objectives": [
+      "Apply diagnostic criteria (fasting glucose, HbA1c, OGTT)",
+      "Screen appropriately (who, when, how often)",
+      "Set individualized HbA1c goals",
+      "Initiate metformin and add second-line agents appropriately",
+      "Recognize and manage hypoglycemia",
+      "Screen for complications (retinopathy, nephropathy, neuropathy)"
+    ],
+    "lessons": [
+      {
+        "id": "dm2-basics",
+        "title": "\ud83c\udf6c Type 2 Diabetes 101: The Insulin Resistance Epidemic",
+        "duration_min": 10,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Meet Maria: 52, BMI 34, family history of diabetes. Feels fine. Routine labs show fasting glucose 142 mg/dL. 'Must be a lab error,' she thinks. Repeat: 148. HbA1c: 7.2%. Maria has type 2 diabetes (T2DM) and didn't know it. She's one of 37 million Americans with diabetes (11% of population), and 1 in 5 don't know they have it. T2DM is the #1 cause of blindness, kidney failure, and non-traumatic amputations. Early detection + treatment prevents these complications!",
+            "visual_desc": "Infographic: Glucose molecule \u2192 insulin resistance \u2192 complications tree (eyes, kidneys, nerves, heart, feet)"
+          },
+          {
+            "type": "definition",
+            "title": "What IS Type 2 Diabetes?",
+            "content": "**Type 2 Diabetes**: Chronic metabolic disorder characterized by:\n1. **Insulin resistance** - cells don't respond well to insulin\n2. **Relative insulin deficiency** - pancreas can't keep up with demand\n3. **Hyperglycemia** - persistently high blood glucose\n\n**Pathophysiology**:\n\u2022 Early: Pancreas compensates by making MORE insulin (hyperinsulinemia)\n\u2022 Middle: Beta cells start to fail, insulin production drops\n\u2022 Late: Severe insulin deficiency (may need insulin therapy)\n\n**Risk Factors**:\n\u2022 **Obesity** (80-90% of T2DM patients are overweight/obese)\n\u2022 **Age** \u226545\n\u2022 **Family history** (first-degree relative)\n\u2022 **Sedentary lifestyle**\n\u2022 **Race**: higher in Black, Hispanic, Native American, Asian, Pacific Islander\n\u2022 **History of gestational diabetes**\n\u2022 **PCOS** (polycystic ovarian syndrome)\n\u2022 **Hypertension**, **dyslipidemia**, **CVD**\n\u2022 **Prediabetes** (HbA1c 5.7-6.4%)",
+            "mnemonic": "**T2DM Risk = FAMILY OB**: **F**amily history, **A**ge >45, **M**etabolic syndrome, **I**nactive lifestyle, **L**ipids abnormal, **Y**ears with prediabetes, **O**besity, **BP** elevated",
+            "visual_desc": "Diagram: Insulin trying to unlock cell door, but lock is jammed (insulin resistance) \u2192 glucose piles up in bloodstream \u2192 high blood sugar"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **T2DM is often ASYMPTOMATIC for years!** Classic symptoms (polyuria, polydipsia, polyphagia, weight loss) appear late when glucose is VERY high (>200-300 mg/dL). This is why SCREENING is critical - most patients feel fine at diagnosis!"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "Type 2 diabetes risk factors",
+            "mnemonic": "**T2DM Risk = FAMILY OB**: **F**amily history, **A**ge >45, **M**etabolic syndrome, **I**nactive lifestyle, **L**ipids abnormal, **Y**ears with prediabetes, **O**besity, **BP** elevated"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Which is the PRIMARY defect in early Type 2 diabetes?",
+            "a": [
+              "Insulin deficiency",
+              "Insulin resistance",
+              "Autoimmune destruction",
+              "Glucagon excess"
+            ],
+            "correct": 1,
+            "explanation": "Early T2DM = INSULIN RESISTANCE (cells don't respond to insulin). Pancreas compensates by making more, but eventually can't keep up."
+          },
+          {
+            "q": "Most T2DM patients at diagnosis are:",
+            "a": [
+              "Symptomatic with weight loss",
+              "Asymptomatic, found on screening",
+              "In DKA",
+              "Normal weight"
+            ],
+            "correct": 1,
+            "explanation": "Most T2DM patients are ASYMPTOMATIC at diagnosis! Found on routine screening. Classic symptoms appear late/severe."
+          }
+        ]
+      },
+      {
+        "id": "dm2-diagnosis",
+        "title": "\ud83d\udd0d Diagnosis & Screening: Know the Numbers",
+        "duration_min": 12,
+        "content_chunks": [
+          {
+            "type": "definition",
+            "title": "Diagnostic Criteria (ADA 2023)",
+            "content": "**Diagnosis of DIABETES** (need ANY ONE of the following):\n\n**1. HbA1c \u22656.5%**\n\u2022 Reflects average glucose over 2-3 months\n\u2022 CLIA-certified lab\n\u2022 Repeat to confirm (unless symptomatic + glucose >200)\n\n**2. Fasting Plasma Glucose (FPG) \u2265126 mg/dL**\n\u2022 Fasting = no calories for \u22658 hours\n\u2022 Repeat to confirm\n\n**3. 2-Hour OGTT \u2265200 mg/dL**\n\u2022 Oral glucose tolerance test (75g glucose load)\n\u2022 Rarely used in adults (mainly pregnancy screening)\n\n**4. Random glucose \u2265200 mg/dL + symptoms**\n\u2022 Symptoms: polyuria, polydipsia, unexplained weight loss\n\u2022 No repeat needed if symptomatic\n\n**PREDIABETES** (high risk, prevent progression!):\n\u2022 HbA1c **5.7-6.4%**\n\u2022 FPG **100-125 mg/dL** (impaired fasting glucose)\n\u2022 2-hr OGTT **140-199 mg/dL** (impaired glucose tolerance)\n\n**NORMAL**:\n\u2022 HbA1c <5.7%\n\u2022 FPG <100 mg/dL",
+            "mnemonic": "**Diabetes diagnosis = 6-1-2**: HbA1c \u2265**6**.5%, Fasting \u2265**1**26, **2**-hr OGTT \u2265**200**, Random \u2265**200** (with symptoms)",
+            "visual_desc": "Three-zone diagram: GREEN (normal: HbA1c <5.7), YELLOW (prediabetes: 5.7-6.4), RED (diabetes: \u22656.5)"
+          },
+          {
+            "type": "protocol",
+            "title": "Who to Screen & When (USPSTF/ADA Guidelines)",
+            "content": "**Screen ALL adults** if:\n\u2022 **Age 35-70** AND **overweight/obese** (BMI \u226525 or \u226523 in Asian Americans)\n\u2022 OR **ANY age** if additional risk factors:\n  - First-degree relative with diabetes\n  - High-risk race/ethnicity (Black, Hispanic, Native American, Asian, Pacific Islander)\n  - History of CVD\n  - HTN (\u2265140/90 or on therapy)\n  - HDL <35 or triglycerides >250\n  - PCOS\n  - Physical inactivity\n  - History of gestational diabetes or baby >9 lbs\n\n**How often?**\n\u2022 If normal \u2192 rescreen every **3 years**\n\u2022 If prediabetes \u2192 rescreen **yearly** + intensive lifestyle intervention!\n\n**Preferred test**: **HbA1c** (convenient, no fasting) OR **fasting glucose**",
+            "visual_desc": "Screening flowchart: Age 35-70 + overweight OR risk factors \u2192 Screen with HbA1c or FPG \u2192 Normal (rescreen q3y), Prediabetes (rescreen yearly + lifestyle), Diabetes (confirm + treat)"
+          },
+          {
+            "type": "definition",
+            "title": "Prediabetes: The Last Warning!",
+            "content": "**Why it matters**: 5-10% of prediabetics progress to diabetes EACH YEAR. But progression is NOT inevitable!\n\n**Treatment for Prediabetes**:\n\n**1\ufe0f\u20e3 Lifestyle Intervention** (FIRST-LINE - proven to work!)\n\u2022 **Weight loss**: 7% of body weight (e.g., 14 lbs if 200 lbs)\n\u2022 **Exercise**: 150 min/week moderate activity (brisk walking)\n\u2022 **Diabetes Prevention Program (DPP)**: 58% reduction in diabetes risk!\n\n**2\ufe0f\u20e3 Metformin** (if high risk):\n\u2022 Consider if: Age <60, BMI \u226535, history of gestational diabetes, or HbA1c rising toward 6.4%\n\u2022 Metformin 850 mg BID (31% risk reduction in DPP trial)\n\n**3\ufe0f\u20e3 Monitor**: Recheck HbA1c yearly",
+            "clinical_pearl": "Lifestyle modification (7% weight loss + 150 min/week exercise) is MORE effective than metformin for preventing diabetes (58% vs 31% risk reduction). Always start with lifestyle!"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **HbA1c can be FALSELY low** in: hemolytic anemia, recent blood loss, hemoglobinopathies (sickle cell), pregnancy, recent transfusion. **Falsely high** in: iron deficiency, B12 deficiency, uremia. If mismatch with glucose levels, use glucose-based criteria instead!"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "Diabetes diagnostic cutoffs",
+            "mnemonic": "**Diabetes diagnosis = 6-1-2**: HbA1c \u2265**6**.5%, Fasting \u2265**1**26, **2**-hr OGTT \u2265**200**, Random \u2265**200** (with symptoms)"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Patient has HbA1c 6.1%, fasting glucose 108 mg/dL. Diagnosis?",
+            "a": [
+              "Normal",
+              "Prediabetes",
+              "Type 2 diabetes",
+              "Need more testing"
+            ],
+            "correct": 1,
+            "explanation": "HbA1c 5.7-6.4% = PREDIABETES. FPG 100-125 also confirms prediabetes. Start intensive lifestyle intervention + yearly monitoring!"
+          },
+          {
+            "q": "40yo with BMI 32, fasting glucose 118 mg/dL. Next step?",
+            "a": [
+              "Reassure, normal",
+              "Start metformin",
+              "Intensive lifestyle intervention",
+              "Insulin"
+            ],
+            "correct": 2,
+            "explanation": "FPG 100-125 = prediabetes. First-line is LIFESTYLE (7% weight loss + 150 min/week exercise). Metformin is second-line."
+          },
+          {
+            "q": "Which scenario does NOT require repeat testing to diagnose diabetes?",
+            "a": [
+              "HbA1c 6.8%",
+              "Fasting glucose 142 mg/dL",
+              "Random glucose 245 mg/dL with polyuria/polydipsia",
+              "2-hr OGTT 215 mg/dL"
+            ],
+            "correct": 2,
+            "explanation": "Random glucose \u2265200 mg/dL WITH classic symptoms = diabetes, no repeat needed! All others need confirmation."
+          }
+        ]
+      },
+      {
+        "id": "dm2-treatment",
+        "title": "\ud83d\udc8a Treatment: Lifestyle + Metformin + More",
+        "duration_min": 13,
+        "content_chunks": [
+          {
+            "type": "protocol",
+            "title": "Treatment Goals (Individualize!)",
+            "content": "**HbA1c Goals** (ADA 2023):\n\n**<7.0%** for MOST adults\n\u2022 Newly diagnosed\n\u2022 Long life expectancy\n\u2022 No significant CVD\n\u2022 Low hypoglycemia risk\n\n**<6.5%** (more stringent) if:\n\u2022 Short diabetes duration\n\u2022 Can achieve without significant hypoglycemia\n\u2022 No CVD\n\n**<8.0%** (less stringent) if:\n\u2022 History of severe hypoglycemia\n\u2022 Limited life expectancy\n\u2022 Advanced complications\n\u2022 Extensive comorbidities\n\u2022 Long-standing diabetes, hard to control\n\n**Individualize** based on: patient preference, resources, support system, hypoglycemia risk\n\n**Other goals**:\n\u2022 **BP <130/80** (most diabetics)\n\u2022 **LDL <100 mg/dL** (or <70 if ASCVD)\n\u2022 **Statin** for primary prevention if age >40 OR other ASCVD risk factors",
+            "visual_desc": "Target dartboard: Bullseye (HbA1c <6.5%), middle ring (<7%), outer ring (<8%), with patient factors determining which target to aim for"
+          },
+          {
+            "type": "medication_guide",
+            "title": "Step 1: Lifestyle + Metformin",
+            "content": "**Lifestyle Modifications** (start at diagnosis!):\n\u2022 **Weight loss**: 5-10% (if overweight)\n\u2022 **Exercise**: 150 min/week moderate + 2 days resistance training\n\u2022 **Mediterranean or DASH diet**\n\u2022 **Limit refined carbs/added sugars**\n\u2022 **Diabetes self-management education (DSME)**\n\n**METFORMIN** = **FIRST-LINE medication** (unless contraindicated)\n\n**Why metformin?**\n\u2022 \u2193 hepatic glucose production\n\u2022 \u2191 insulin sensitivity\n\u2022 **Weight neutral** or modest weight loss\n\u2022 **No hypoglycemia** (doesn't increase insulin)\n\u2022 **Cheap**\n\u2022 Proven CV benefits\n\n**Dosing**:\n\u2022 Start **500 mg PO daily or BID** with meals\n\u2022 Titrate up every 1-2 weeks\n\u2022 Target: **2000 mg/day** (divided BID) - max 2550 mg\n\u2022 Use **extended-release (ER)** if GI intolerance\n\n**Side Effects**:\n\u2022 **GI upset** (50%): nausea, diarrhea, cramping (improves over weeks - start low, go slow!)\n\u2022 **Vitamin B12 deficiency** (long-term): check B12 yearly\n\u2022 **Lactic acidosis** (RARE): avoid if eGFR <30\n\n**Contraindications**:\n\u2022 eGFR <30 mL/min (stop if <30, be cautious if 30-45)\n\u2022 Severe liver disease\n\u2022 Acute illness (hold during hospitalization for surgery, contrast studies)",
+            "visual_desc": "Metformin mechanism diagram: blocks liver glucose production (gluconeogenesis) + increases muscle glucose uptake"
+          },
+          {
+            "type": "medication_guide",
+            "title": "Step 2: Adding Second-Line Agents",
+            "content": "**When?** If HbA1c not at goal after 3 months on metformin + lifestyle\n\n**CHOOSING THE NEXT MED** (depends on patient factors):\n\n**IF ASCVD or high CV risk** \u2192 **GLP-1 RA** or **SGLT2i** (proven CV benefit!)\n\n**IF Heart Failure or CKD** \u2192 **SGLT2i** (proven benefit!)\n\n**IF Main goal is weight loss** \u2192 **GLP-1 RA** (best for weight!)\n\n**IF Cost is major concern** \u2192 **Sulfonylurea** (cheap but causes hypoglycemia)\n\n---\n\n**GLP-1 Receptor Agonists** (incretin mimetics)\n\u2022 **Examples**: semaglutide (Ozempic, weekly), dulaglutide (Trulicity, weekly), liraglutide (Victoza, daily)\n\u2022 **Mechanism**: \u2191 insulin, \u2193 glucagon, \u2193 appetite, slow gastric emptying\n\u2022 **Benefits**: \n  - **Weight loss 5-15 lbs** (semaglutide up to 15%!)\n  - **CV benefit** (\u2193 MACE in high-risk patients)\n\u2022 **Side effects**: Nausea (common initially), diarrhea, pancreatitis (rare)\n\u2022 **Avoid**: Personal/family history of medullary thyroid cancer or MEN 2\n\u2022 **Route**: Subcutaneous injection (once weekly preferred)\n\n**SGLT2 Inhibitors** (gliflozins)\n\u2022 **Examples**: empagliflozin (Jardiance), dapagliflozin (Farxiga), canagliflozin (Invokana)\n\u2022 **Mechanism**: Block glucose reabsorption in kidney \u2192 pee out glucose!\n\u2022 **Benefits**:\n  - **CV benefit** (\u2193 MACE, \u2193 HF hospitalization)\n  - **Renal protection** (\u2193 CKD progression)\n  - **Weight loss** 5-10 lbs\n  - **BP reduction** (diuretic effect)\n\u2022 **Side effects**: Genital yeast infections (10%), UTIs, DKA (rare but serious!), Fournier's gangrene (very rare)\n\u2022 **Avoid**: eGFR <30 (or <45 for some)\n\n**Sulfonylureas** (older, cheap)\n\u2022 **Examples**: glipizide, glyburide, glimepiride\n\u2022 **Mechanism**: \u2191 insulin secretion from pancreas\n\u2022 **Benefits**: Cheap, effective (\u2193 HbA1c ~1.5%)\n\u2022 **Side effects**: **HYPOGLYCEMIA** (major risk!), weight gain\n\u2022 **Avoid**: Elderly, erratic eating, renal/hepatic impairment\n\n**DPP-4 Inhibitors** (gliptins)\n\u2022 **Examples**: sitagliptin (Januvia), linagliptin (Tradjenta)\n\u2022 **Mechanism**: \u2191 GLP-1 (prevents its breakdown)\n\u2022 **Benefits**: Weight neutral, no hypoglycemia, oral\n\u2022 **Cons**: Modest HbA1c reduction (~0.5-0.8%), expensive, no CV benefit\n\n**Insulin**\n\u2022 Reserve for: HbA1c >10%, symptomatic hyperglycemia, pregnancy, T1DM\n\u2022 Start with basal insulin (glargine, detemir) at bedtime\n\u2022 Titrate based on fasting glucose",
+            "visual_desc": "Decision tree: If ASCVD/HF/CKD \u2192 SGLT2i or GLP-1. If weight loss priority \u2192 GLP-1. If cost priority \u2192 sulfonylurea. All stay on metformin!"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Don't wait to intensify!** If HbA1c not at goal after 3 months, ADD another agent (don't just increase metformin dose if already at 2000 mg). 'Clinical inertia' (waiting too long to adjust) is a huge problem in diabetes care!"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "Metformin contraindication",
+            "mnemonic": "**Metformin eGFR: 30 is the line** (stop if <30, caution if 30-45)"
+          },
+          {
+            "trigger": "Second-line diabetes meds with CV benefit",
+            "mnemonic": "**Heart loves SGLT-GLP**: **SGLT2i** and **GLP-1 RA** have proven CV benefit!"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Newly diagnosed T2DM, HbA1c 7.8%, BMI 31, no CVD. First medication?",
+            "a": [
+              "Insulin",
+              "Metformin",
+              "GLP-1 RA",
+              "Sulfonylurea"
+            ],
+            "correct": 1,
+            "explanation": "METFORMIN is first-line for nearly all T2DM patients (unless contraindicated). Start with lifestyle + metformin!"
+          },
+          {
+            "q": "T2DM on metformin, HbA1c still 8.2%, has heart failure. Best add-on?",
+            "a": [
+              "Sulfonylurea",
+              "DPP-4 inhibitor",
+              "SGLT2 inhibitor",
+              "Insulin"
+            ],
+            "correct": 2,
+            "explanation": "SGLT2 inhibitors have PROVEN benefit in heart failure (\u2193 HF hospitalization). Best choice for diabetic with HF!"
+          },
+          {
+            "q": "Why is metformin contraindicated in eGFR <30?",
+            "a": [
+              "Causes kidney damage",
+              "Ineffective at low GFR",
+              "Risk of lactic acidosis",
+              "Causes hypoglycemia"
+            ],
+            "correct": 2,
+            "explanation": "Metformin accumulates with poor renal function \u2192 risk of LACTIC ACIDOSIS (rare but life-threatening). Stop if eGFR <30."
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Ninja Nerd",
+        "title": "Diabetes Mellitus | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=rh8ycjPCj18",
+        "duration": "57 min"
+      },
+      {
+        "source": "Osmosis",
+        "title": "Diabetes Mellitus (Type 1, Type 2) & Diabetic Ketoacidosis (DKA)",
+        "url": "https://www.youtube.com/watch?v=-B-RVybvffU",
+        "duration": "19 min"
+      }
+    ]
+  }
+}

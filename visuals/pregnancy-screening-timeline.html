@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Screening Timeline</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 40px;
+            font-size: 1.2em;
+        }
+        .preconception {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+        .preconception h2 {
+            margin: 0 0 20px 0;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+            padding-bottom: 10px;
+        }
+        .preconception-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .preconception-card {
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            padding: 15px;
+        }
+        .preconception-card h3 {
+            margin: 0 0 12px 0;
+            font-size: 1.1em;
+        }
+        .timeline {
+            margin: 40px 0;
+            position: relative;
+        }
+        .trimester-section {
+            margin: 40px 0;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .first-tri {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+        }
+        .second-tri {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+        }
+        .third-tri {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        }
+        .trimester-header {
+            font-size: 2em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin: 0 0 10px 0;
+            border-bottom: 3px solid rgba(0,0,0,0.1);
+            padding-bottom: 10px;
+        }
+        .week-range {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+        .visit-container {
+            display: grid;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .visit-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            border-left: 5px solid #667eea;
+        }
+        .visit-card h3 {
+            color: #667eea;
+            margin: 0 0 15px 0;
+            font-size: 1.3em;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .week-badge {
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+        }
+        .screening-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .screening-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 3px solid #28a745;
+        }
+        .screening-item h4 {
+            margin: 0 0 8px 0;
+            color: #28a745;
+            font-size: 1em;
+        }
+        .screening-item p {
+            margin: 5px 0;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        .screening-item ul {
+            margin: 8px 0;
+            padding-left: 20px;
+        }
+        .screening-item li {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        .lab-category {
+            background: #e7f3ff;
+            border-left: 3px solid #007bff;
+        }
+        .lab-category h4 {
+            color: #007bff;
+        }
+        .imaging-category {
+            background: #f3e7ff;
+            border-left: 3px solid #6f42c1;
+        }
+        .imaging-category h4 {
+            color: #6f42c1;
+        }
+        .special-category {
+            background: #fff3e7;
+            border-left: 3px solid #fd7e14;
+        }
+        .special-category h4 {
+            color: #fd7e14;
+        }
+        .counseling-category {
+            background: #e7f9f5;
+            border-left: 3px solid #20c997;
+        }
+        .counseling-category h4 {
+            color: #20c997;
+        }
+        .alert-box {
+            background: #f8d7da;
+            border: 2px solid #dc3545;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .alert-box h4 {
+            color: #721c24;
+            margin: 0 0 12px 0;
+        }
+        .alert-box ul {
+            color: #721c24;
+            margin: 8px 0;
+        }
+        .info-box {
+            background: #d1ecf1;
+            border: 2px solid #bee5eb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .info-box h4 {
+            color: #0c5460;
+            margin: 0 0 12px 0;
+        }
+        .postpartum {
+            background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 40px 0;
+        }
+        .postpartum h2 {
+            color: #2c3e50;
+            margin: 0 0 20px 0;
+            border-bottom: 3px solid rgba(0,0,0,0.1);
+            padding-bottom: 10px;
+        }
+        .quick-ref-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        .quick-ref-table th {
+            background: #667eea;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-size: 1em;
+        }
+        .quick-ref-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e0e0e0;
+            vertical-align: top;
+        }
+        .quick-ref-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        .tips-box {
+            background: #d1ecf1;
+            border: 2px solid #bee5eb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 30px 0;
+        }
+        .tips-box h3 {
+            color: #0c5460;
+            margin-top: 0;
+        }
+        .tips-box ul {
+            color: #0c5460;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤰 Prenatal Screening Timeline 🤰</h1>
+        <p class="subtitle">Comprehensive Guide for D120 - From Preconception to Postpartum</p>
+        
+        <div class="preconception">
+            <h2>Preconception Care (Before Pregnancy)</h2>
+            <p style="font-size: 1.1em; margin-bottom: 20px;">Optimize maternal health BEFORE conception to improve outcomes</p>
+            
+            <div class="preconception-grid">
+                <div class="preconception-card">
+                    <h3>📋 Medical History & Screening</h3>
+                    <ul>
+                        <li>Complete medical/surgical history</li>
+                        <li>Family history (genetic conditions)</li>
+                        <li>Medication review (teratogenic meds)</li>
+                        <li>Immunization status</li>
+                        <li>Mental health screening</li>
+                        <li>Substance use assessment</li>
+                    </ul>
+                </div>
+                
+                <div class="preconception-card">
+                    <h3>🩺 Labs & Tests</h3>
+                    <ul>
+                        <li><strong>CBC:</strong> Screen for anemia</li>
+                        <li><strong>Blood type & Rh:</strong> Identify Rh negativity</li>
+                        <li><strong>Rubella immunity:</strong> Vaccinate if non-immune (wait 1 month to conceive)</li>
+                        <li><strong>Varicella immunity:</strong> Vaccinate if non-immune</li>
+                        <li><strong>TSH:</strong> Screen thyroid function</li>
+                        <li><strong>STI screening:</strong> HIV, syphilis, gonorrhea, chlamydia</li>
+                        <li><strong>Hepatitis B & C</strong></li>
+                    </ul>
+                </div>
+                
+                <div class="preconception-card">
+                    <h3>💊 Supplementation & Lifestyle</h3>
+                    <ul>
+                        <li><strong>Folic acid 400-800 mcg/day</strong> (start 1 month before conception)
+                            <ul>
+                                <li>4 mg/day if history of NTD</li>
+                            </ul>
+                        </li>
+                        <li>Optimize chronic conditions (diabetes, HTN, thyroid)</li>
+                        <li>Achieve healthy weight (BMI 18.5-24.9)</li>
+                        <li>Smoking cessation</li>
+                        <li>Avoid alcohol</li>
+                        <li>Genetic counseling if indicated</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <h2 style="text-align: center; margin: 40px 0 20px 0; font-size: 2.2em; color: #2c3e50;">Trimester-by-Trimester Screening</h2>
+        
+        <div class="trimester-section first-tri">
+            <div class="trimester-header">First Trimester</div>
+            <div class="week-range">Weeks 0-13</div>
+            
+            <div class="visit-container">
+                <div class="visit-card">
+                    <h3>
+                        Initial Prenatal Visit
+                        <span class="week-badge">Week 6-10</span>
+                    </h3>
+                    
+                    <div class="screening-grid">
+                        <div class="screening-item">
+                            <h4>📝 History & Physical</h4>
+                            <ul>
+                                <li>Confirm pregnancy (urine/serum βhCG)</li>
+                                <li>Calculate estimated due date (EDD)</li>
+                                <li>Complete medical/OB/surgical history</li>
+                                <li>Medication review</li>
+                                <li>Complete physical exam + pelvic exam</li>
+                                <li>Baseline vital signs, weight, BMI</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item lab-category">
+                            <h4>🔬 Initial Labs (Comprehensive)</h4>
+                            <ul>
+                                <li><strong>CBC:</strong> Baseline, screen for anemia</li>
+                                <li><strong>Blood type & Rh with antibody screen</strong></li>
+                                <li><strong>Rubella IgG:</strong> Immunity status</li>
+                                <li><strong>Syphilis (RPR or VDRL)</strong></li>
+                                <li><strong>Hepatitis B surface antigen (HBsAg)</strong></li>
+                                <li><strong>HIV (offer to all)</strong></li>
+                                <li><strong>Urinalysis & urine culture</strong></li>
+                                <li><strong>Pap smear</strong> (if due per guidelines)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item lab-category">
+                            <h4>🧬 Additional Labs (Risk-Based)</h4>
+                            <ul>
+                                <li><strong>Varicella IgG:</strong> If no history of chickenpox/vaccine</li>
+                                <li><strong>Hepatitis C:</strong> Universal screening now recommended (ACOG 2021)</li>
+                                <li><strong>Gonorrhea/Chlamydia:</strong> Age <25 or high risk</li>
+                                <li><strong>TSH:</strong> If thyroid disorder history or symptoms</li>
+                                <li><strong>Hemoglobin electrophoresis:</strong> If at risk for sickle cell/thalassemia</li>
+                                <li><strong>Tuberculin skin test:</strong> If high-risk</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item imaging-category">
+                            <h4>🔊 Dating Ultrasound</h4>
+                            <p><strong>Timing:</strong> Week 8-13 (optimal)</p>
+                            <p><strong>Purpose:</strong></p>
+                            <ul>
+                                <li>Confirm intrauterine pregnancy</li>
+                                <li>Establish/confirm gestational age (most accurate)</li>
+                                <li>Determine number of fetuses</li>
+                                <li>Assess fetal viability (cardiac activity)</li>
+                                <li>Screen for major anomalies</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item counseling-category">
+                            <h4>💬 Counseling & Education</h4>
+                            <ul>
+                                <li>Nutrition counseling</li>
+                                <li>Weight gain goals (based on BMI)</li>
+                                <li>Folic acid supplementation</li>
+                                <li>Prenatal vitamins</li>
+                                <li>Activity/exercise recommendations</li>
+                                <li>Warning signs (bleeding, cramping)</li>
+                                <li>Genetic screening options</li>
+                                <li>Avoid teratogens (alcohol, tobacco, drugs)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item special-category">
+                            <h4>🧬 Genetic Screening Options</h4>
+                            <p><strong>Cell-Free DNA (cfDNA/NIPT):</strong></p>
+                            <ul>
+                                <li><strong>Timing:</strong> Week 10+</li>
+                                <li>Screens: Trisomy 21, 18, 13, sex chromosome abnormalities</li>
+                                <li>High sensitivity/specificity</li>
+                                <li>Non-invasive (maternal blood)</li>
+                            </ul>
+                            <p style="margin-top: 10px;"><strong>First Trimester Combined Screen:</strong></p>
+                            <ul>
+                                <li><strong>Timing:</strong> Week 11-13</li>
+                                <li>NT (nuchal translucency) ultrasound</li>
+                                <li>Maternal serum: PAPP-A, βhCG</li>
+                                <li>Screens for trisomy 21, 18</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="alert-box">
+                        <h4>⚠️ First Trimester Red Flags</h4>
+                        <ul>
+                            <li>Vaginal bleeding (rule out miscarriage, ectopic)</li>
+                            <li>Severe abdominal pain (ectopic pregnancy)</li>
+                            <li>Hyperemesis gravidarum (severe N/V, dehydration)</li>
+                            <li>Abnormal βhCG levels</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="trimester-section second-tri">
+            <div class="trimester-header">Second Trimester</div>
+            <div class="week-range">Weeks 14-27</div>
+            
+            <div class="visit-container">
+                <div class="visit-card">
+                    <h3>
+                        Routine Visits
+                        <span class="week-badge">Every 4 weeks</span>
+                    </h3>
+                    
+                    <div class="screening-grid">
+                        <div class="screening-item">
+                            <h4>📋 At Each Visit</h4>
+                            <ul>
+                                <li>Weight, blood pressure</li>
+                                <li>Urine dipstick (protein, glucose)</li>
+                                <li>Fundal height measurement (starting ~20 weeks)</li>
+                                <li>Fetal heart tones (Doppler)</li>
+                                <li>Assess fetal movement (after quickening ~18-20 weeks)</li>
+                                <li>Review symptoms, concerns</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item special-category">
+                            <h4>🧬 Quad Screen (if not done cfDNA)</h4>
+                            <p><strong>Timing:</strong> Week 15-20 (optimal 16-18)</p>
+                            <p><strong>Measures 4 markers:</strong></p>
+                            <ul>
+                                <li>AFP (alpha-fetoprotein)</li>
+                                <li>βhCG</li>
+                                <li>Unconjugated estriol</li>
+                                <li>Inhibin A</li>
+                            </ul>
+                            <p><strong>Screens for:</strong></p>
+                            <ul>
+                                <li>Trisomy 21 (Down syndrome)</li>
+                                <li>Trisomy 18 (Edwards syndrome)</li>
+                                <li>Neural tube defects (NTDs)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item imaging-category">
+                            <h4>🔊 Anatomy Ultrasound</h4>
+                            <p><strong>Timing:</strong> Week 18-22 (typically week 20)</p>
+                            <p><strong>Purpose:</strong></p>
+                            <ul>
+                                <li>Detailed fetal anatomy survey</li>
+                                <li>Screen for structural anomalies</li>
+                                <li>Assess placental location</li>
+                                <li>Amniotic fluid volume</li>
+                                <li>Cervical length (if indicated)</li>
+                                <li>Fetal biometry, growth</li>
+                                <li>Sex determination (if desired)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item lab-category">
+                            <h4>🔬 Glucose Screening</h4>
+                            <p><strong>Timing:</strong> Week 24-28</p>
+                            <p><strong>1-hour Glucose Challenge Test (GCT):</strong></p>
+                            <ul>
+                                <li>50g glucose load, check glucose at 1 hour</li>
+                                <li>No fasting required</li>
+                                <li><strong>If ≥140 mg/dL:</strong> Proceed to 3-hour GTT</li>
+                            </ul>
+                            <p><strong>3-hour Glucose Tolerance Test (if abnormal GCT):</strong></p>
+                            <ul>
+                                <li>100g glucose load after overnight fast</li>
+                                <li>Check glucose: fasting, 1h, 2h, 3h</li>
+                                <li>2+ abnormal values = gestational diabetes</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item lab-category">
+                            <h4>🩸 Repeat/Additional Labs</h4>
+                            <p><strong>Week 24-28:</strong></p>
+                            <ul>
+                                <li><strong>CBC:</strong> Screen for anemia (repeat)</li>
+                                <li><strong>Antibody screen:</strong> If Rh negative (repeat)</li>
+                            </ul>
+                            <p><strong>If Rh negative:</strong></p>
+                            <ul>
+                                <li><strong>RhoGAM at 28 weeks</strong> (if antibody screen negative)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item counseling-category">
+                            <h4>💬 Counseling Topics</h4>
+                            <ul>
+                                <li>Fetal movement monitoring</li>
+                                <li>Preterm labor warning signs</li>
+                                <li>Breastfeeding education</li>
+                                <li>Childbirth classes</li>
+                                <li>Labor/delivery preferences (birth plan)</li>
+                                <li>Infant car seat, safe sleep</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="alert-box">
+                        <h4>⚠️ Second Trimester Red Flags</h4>
+                        <ul>
+                            <li>Vaginal bleeding (placenta previa, abruption)</li>
+                            <li>Preterm labor signs: contractions, pelvic pressure, fluid leakage</li>
+                            <li>Decreased fetal movement</li>
+                            <li>Severe headache, vision changes (preeclampsia)</li>
+                            <li>Rapid weight gain, edema</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="trimester-section third-tri">
+            <div class="trimester-header">Third Trimester</div>
+            <div class="week-range">Weeks 28-40+</div>
+            
+            <div class="visit-container">
+                <div class="visit-card">
+                    <h3>
+                        Routine Visits
+                        <span class="week-badge">Every 2 weeks (28-36), Weekly (36+)</span>
+                    </h3>
+                    
+                    <div class="screening-grid">
+                        <div class="screening-item">
+                            <h4>📋 At Each Visit</h4>
+                            <ul>
+                                <li>Weight, blood pressure (watch for preeclampsia)</li>
+                                <li>Urine dipstick (protein)</li>
+                                <li>Fundal height measurement</li>
+                                <li>Fetal heart rate</li>
+                                <li>Fetal position (Leopold's maneuvers)</li>
+                                <li>Assess fetal movement</li>
+                                <li>Assess for contractions, labor signs</li>
+                                <li>Cervical exam (if indicated, usually >36 weeks)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item lab-category">
+                            <h4>🔬 Labs - Week 28</h4>
+                            <ul>
+                                <li><strong>CBC:</strong> Screen for anemia (3rd check)</li>
+                                <li><strong>Glucose screening</strong> (if not done week 24-28)</li>
+                                <li><strong>Antibody screen</strong> (Rh negative patients)</li>
+                                <li><strong>RhoGAM administration</strong> (if Rh negative, antibody negative)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item lab-category">
+                            <h4>🦠 GBS Screening</h4>
+                            <p><strong>Timing:</strong> Week 35-37</p>
+                            <p><strong>Group B Streptococcus (GBS) culture:</strong></p>
+                            <ul>
+                                <li>Vaginal-rectal swab</li>
+                                <li>If positive → Intrapartum antibiotic prophylaxis during labor</li>
+                                <li>If negative → No treatment needed</li>
+                                <li>If unknown/not done → Treat based on risk factors</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item lab-category">
+                            <h4>🩺 Repeat STI Screening (High-Risk)</h4>
+                            <p><strong>Week 36:</strong></p>
+                            <ul>
+                                <li><strong>HIV:</strong> Repeat in 3rd trimester (high-risk or opt-out states)</li>
+                                <li><strong>Syphilis:</strong> Repeat if high-risk</li>
+                                <li><strong>Gonorrhea/Chlamydia:</strong> Age <25 or high-risk</li>
+                                <li><strong>Hepatitis C:</strong> If risk factors developed</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item imaging-category">
+                            <h4>🔊 Ultrasounds (Indicated)</h4>
+                            <p><strong>Not routine, but may be done for:</strong></p>
+                            <ul>
+                                <li>Fetal growth assessment (IUGR concern)</li>
+                                <li>Amniotic fluid volume (oligohydramnios/polyhydramnios)</li>
+                                <li>Placental location (if previa earlier)</li>
+                                <li>Fetal presentation (breech at 36+ weeks)</li>
+                                <li>Biophysical profile (BPP) if post-dates or high-risk</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item special-category">
+                            <h4>📊 Antenatal Testing (High-Risk)</h4>
+                            <p><strong>Non-Stress Test (NST):</strong></p>
+                            <ul>
+                                <li>Monitor fetal heart rate response to movement</li>
+                                <li><strong>Reactive (normal):</strong> 2+ accelerations in 20 min</li>
+                                <li>Start week 32+ if high-risk</li>
+                            </ul>
+                            <p><strong>Biophysical Profile (BPP):</strong></p>
+                            <ul>
+                                <li>NST + ultrasound (movement, tone, breathing, fluid)</li>
+                                <li>Score 0-10 (8-10 = normal)</li>
+                            </ul>
+                            <p><strong>Indications for testing:</strong></p>
+                            <ul>
+                                <li>Post-dates (≥41 weeks)</li>
+                                <li>Gestational diabetes, preeclampsia</li>
+                                <li>IUGR, decreased fetal movement</li>
+                                <li>Maternal conditions (HTN, lupus, renal disease)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item counseling-category">
+                            <h4>💬 Late Pregnancy Counseling</h4>
+                            <ul>
+                                <li>Labor signs (contractions, water breaking, bloody show)</li>
+                                <li>When to go to hospital (5-1-1 rule)</li>
+                                <li>Pain management options</li>
+                                <li>C-section indications</li>
+                                <li>Postpartum care, recovery</li>
+                                <li>Newborn care basics</li>
+                                <li>Postpartum depression screening plan</li>
+                                <li>Contraception plans</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item special-category">
+                            <h4>💉 Immunizations</h4>
+                            <ul>
+                                <li><strong>Tdap:</strong> Week 27-36 each pregnancy (protect infant from pertussis)</li>
+                                <li><strong>Influenza vaccine:</strong> Any trimester during flu season</li>
+                                <li><strong>COVID-19:</strong> Recommended any trimester</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="alert-box">
+                        <h4>⚠️ Third Trimester Emergency Signs</h4>
+                        <ul>
+                            <li><strong>Preeclampsia:</strong> Severe headache, vision changes, RUQ pain, BP ≥140/90</li>
+                            <li><strong>Placental abruption:</strong> Vaginal bleeding + abdominal pain + contractions</li>
+                            <li><strong>Preterm labor:</strong> Regular contractions <37 weeks, cervical change</li>
+                            <li><strong>Decreased fetal movement:</strong> <10 movements in 2 hours</li>
+                            <li><strong>Rupture of membranes:</strong> Fluid leakage (especially if <37 weeks)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="visit-card">
+                    <h3>
+                        Post-Dates Management
+                        <span class="week-badge">Week 40-42</span>
+                    </h3>
+                    
+                    <div class="info-box">
+                        <h4>📅 If Pregnancy Continues Past Due Date</h4>
+                        <ul>
+                            <li><strong>Week 40-41:</strong> Twice-weekly NSTs or BPPs</li>
+                            <li><strong>Week 41:</strong> Offer induction (discuss risks/benefits)</li>
+                            <li><strong>Week 42:</strong> Strongly recommend induction (↑ stillbirth risk)</li>
+                            <li>Confirm dating with early ultrasound</li>
+                            <li>Assess cervical favorability (Bishop score)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="postpartum">
+            <h2>Postpartum Care</h2>
+            
+            <div class="visit-container">
+                <div class="visit-card">
+                    <h3>
+                        Immediate Postpartum (Hospital)
+                        <span class="week-badge">0-3 days</span>
+                    </h3>
+                    
+                    <div class="screening-grid">
+                        <div class="screening-item">
+                            <h4>👶 Newborn Screening</h4>
+                            <ul>
+                                <li>Newborn metabolic screen (heel stick) 24-48 hours</li>
+                                <li>Hearing screen</li>
+                                <li>Pulse oximetry (CCHD screening)</li>
+                                <li>Vitamin K injection</li>
+                                <li>Erythromycin eye ointment</li>
+                                <li>Hepatitis B vaccine (1st dose)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item lab-category">
+                            <h4>🩸 Maternal Labs/Assessments</h4>
+                            <ul>
+                                <li>Monitor bleeding, vital signs</li>
+                                <li>Check hemoglobin if significant blood loss</li>
+                                <li><strong>If Rh negative + baby Rh positive:</strong> RhoGAM within 72 hours</li>
+                                <li>Assess perineal/C-section incision</li>
+                                <li>Breastfeeding support</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item counseling-category">
+                            <h4>💬 Education & Counseling</h4>
+                            <ul>
+                                <li>Warning signs (hemorrhage, infection, DVT)</li>
+                                <li>Breastfeeding techniques</li>
+                                <li>Newborn care, safe sleep</li>
+                                <li>Contraception counseling</li>
+                                <li>Postpartum depression education</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item special-category">
+                            <h4>🩺 Special Situations</h4>
+                            <ul>
+                                <li><strong>GBS positive:</strong> Ensure adequate intrapartum antibiotics given</li>
+                                <li><strong>Diabetes:</strong> Check glucose postpartum, plan for follow-up</li>
+                                <li><strong>Hypertension:</strong> Monitor BP, assess for postpartum preeclampsia</li>
+                                <li><strong>HIV positive:</strong> No breastfeeding, infant prophylaxis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="visit-card">
+                    <h3>
+                        Postpartum Visit
+                        <span class="week-badge">Week 6 (earlier if complications)</span>
+                    </h3>
+                    
+                    <div class="screening-grid">
+                        <div class="screening-item">
+                            <h4>📋 Assessment</h4>
+                            <ul>
+                                <li>Physical exam, vital signs</li>
+                                <li>Pelvic exam (healing assessment)</li>
+                                <li>Breastfeeding assessment/support</li>
+                                <li>Return of menses, lochia</li>
+                                <li>Mood screening (Edinburgh PPD scale)</li>
+                                <li>Sleep, energy levels</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item lab-category">
+                            <h4>🔬 Labs & Follow-Up</h4>
+                            <ul>
+                                <li><strong>If GDM:</strong> 75g OGTT at 6-12 weeks postpartum</li>
+                                <li><strong>If hypertension:</strong> Check BP, may need continued treatment</li>
+                                <li><strong>CBC if anemic:</strong> Assess recovery</li>
+                                <li><strong>TSH if thyroid disorder</strong></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item counseling-category">
+                            <h4>💬 Counseling</h4>
+                            <ul>
+                                <li><strong>Contraception:</strong> Initiate method if desired</li>
+                                <li>Interpregnancy interval (18-24 months optimal)</li>
+                                <li>Return to exercise, activity</li>
+                                <li>Sexual activity resumption</li>
+                                <li>Weight loss goals</li>
+                                <li>Mental health support</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="screening-item">
+                            <h4>📅 Future Health</h4>
+                            <ul>
+                                <li>Return to routine preventive care</li>
+                                <li>Pap smear (if due)</li>
+                                <li>Mammogram (if age-appropriate)</li>
+                                <li>Chronic disease management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <h2 style="text-align: center; margin-top: 50px;">Quick Reference: Screening Timeline</h2>
+        <table class="quick-ref-table">
+            <thead>
+                <tr>
+                    <th>Timing</th>
+                    <th>Screening/Test</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Preconception</strong></td>
+                    <td>Folic acid, immunizations, optimize health</td>
+                    <td>Prevent NTDs, ensure immunity, optimize chronic conditions</td>
+                </tr>
+                <tr>
+                    <td><strong>First visit (6-10 weeks)</strong></td>
+                    <td>CBC, blood type/Rh, rubella, syphilis, HIV, HBsAg, HCV, UA/culture, dating ultrasound</td>
+                    <td>Baseline labs, confirm pregnancy, establish EDD</td>
+                </tr>
+                <tr>
+                    <td><strong>10-13 weeks</strong></td>
+                    <td>Cell-free DNA (cfDNA/NIPT) OR First trimester screen (NT + PAPP-A/βhCG)</td>
+                    <td>Screen for aneuploidy (trisomy 21, 18, 13)</td>
+                </tr>
+                <tr>
+                    <td><strong>15-20 weeks</strong></td>
+                    <td>Quad screen (if not cfDNA)</td>
+                    <td>Screen for aneuploidy, NTDs</td>
+                </tr>
+                <tr>
+                    <td><strong>18-22 weeks</strong></td>
+                    <td>Anatomy ultrasound</td>
+                    <td>Detailed fetal anatomy, screen for anomalies</td>
+                </tr>
+                <tr>
+                    <td><strong>24-28 weeks</strong></td>
+                    <td>Glucose screening (GCT), CBC, antibody screen, RhoGAM (if Rh neg)</td>
+                    <td>Screen for gestational diabetes, anemia; prevent Rh alloimmunization</td>
+                </tr>
+                <tr>
+                    <td><strong>27-36 weeks</strong></td>
+                    <td>Tdap vaccine</td>
+                    <td>Protect infant from pertussis</td>
+                </tr>
+                <tr>
+                    <td><strong>28 weeks</strong></td>
+                    <td>CBC (3rd check), antibody screen, RhoGAM</td>
+                    <td>Monitor anemia, Rh status</td>
+                </tr>
+                <tr>
+                    <td><strong>35-37 weeks</strong></td>
+                    <td>GBS culture (vaginal-rectal swab)</td>
+                    <td>Determine need for intrapartum antibiotics</td>
+                </tr>
+                <tr>
+                    <td><strong>36 weeks</strong></td>
+                    <td>Repeat HIV, syphilis, GC/CT (if high-risk)</td>
+                    <td>Identify late infections</td>
+                </tr>
+                <tr>
+                    <td><strong>36+ weeks</strong></td>
+                    <td>Weekly visits, cervical checks (if indicated), fetal monitoring (if high-risk)</td>
+                    <td>Monitor for labor, assess fetal well-being</td>
+                </tr>
+                <tr>
+                    <td><strong>40-42 weeks</strong></td>
+                    <td>NST/BPP, offer/recommend induction</td>
+                    <td>Prevent stillbirth in post-dates pregnancy</td>
+                </tr>
+                <tr>
+                    <td><strong>6 weeks postpartum</strong></td>
+                    <td>Postpartum visit, mood screening, contraception, OGTT (if GDM)</td>
+                    <td>Assess recovery, screen for PPD, future pregnancy planning</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="tips-box">
+            <h3>💡 Clinical Pearls for D120:</h3>
+            <ul>
+                <li><strong>Dating ultrasound most accurate in 1st trimester</strong> (within 5-7 days) - use for EDD if discrepancy >7 days from LMP</li>
+                <li><strong>Folic acid 400-800 mcg daily</strong> starting 1 month before conception - prevents 50-70% of NTDs</li>
+                <li><strong>RhoGAM at 28 weeks AND within 72 hours postpartum</strong> if Rh negative + baby Rh positive</li>
+                <li><strong>GBS screening 35-37 weeks</strong> - if positive, give intrapartum PCN (or alternative if allergic)</li>
+                <li><strong>Glucose screening 24-28 weeks</strong> - 1-hour GCT, if abnormal → 3-hour GTT</li>
+                <li><strong>Tdap each pregnancy 27-36 weeks</strong> - maternal antibodies protect newborn from pertussis</li>
+                <li><strong>Anatomy ultrasound at 20 weeks</strong> - best time to visualize fetal structures</li>
+                <li><strong>cfDNA/NIPT can be done as early as 10 weeks</strong> - high sensitivity for trisomy 21</li>
+                <li><strong>Universal HIV, syphilis, HBsAg screening</strong> - offer to all, mandatory in many states</li>
+                <li><strong>Hepatitis C screening now universal</strong> (ACOG 2021) - high prevalence, vertical transmission risk</li>
+                <li><strong>Postpartum visit at 6 weeks</strong> - but earlier contact (3 weeks) recommended by ACOG for high-risk</li>
+                <li><strong>OGTT 6-12 weeks postpartum if GDM</strong> - 50% develop T2DM within 5 years</li>
+                <li><strong>Induction recommended by 42 weeks</strong> - ↑ stillbirth risk after 42 weeks</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

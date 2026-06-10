@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <defs>
+    <style>
+      text { font-family: 'Inter', -apple-system, sans-serif; fill: #e2e8f5; }
+      .title { font-size: 22px; font-weight: 700; fill: #00e5cc; }
+      .subtitle { font-size: 13px; fill: #94a3b8; }
+      .box-text { font-size: 11px; }
+      .box-title { font-size: 12px; font-weight: 700; }
+      .age-label { font-size: 11px; font-weight: 700; fill: #f5b731; }
+      .vaccine-label { font-size: 10px; }
+      .arrow { fill: none; stroke: #334155; stroke-width: 1.5; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="#334155"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="700" fill="#050810" rx="0"/>
+
+  <!-- Title -->
+  <text x="450" y="38" text-anchor="middle" class="title" filter="url(#glow)">CDC Pediatric Immunization Schedule (Birth - 18 Years)</text>
+  <text x="450" y="56" text-anchor="middle" class="subtitle">Catch-up schedule: use minimum intervals — never restart a series</text>
+
+  <!-- Age column headers -->
+  <rect x="20" y="72" width="90" height="28" rx="6" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1"/>
+  <text x="65" y="90" text-anchor="middle" class="box-title" fill="#00e5cc">Age</text>
+
+  <rect x="120" y="72" width="160" height="28" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="200" y="90" text-anchor="middle" class="box-title">Vaccines Given</text>
+
+  <rect x="290" y="72" width="90" height="28" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="335" y="90" text-anchor="middle" class="box-title">Route</text>
+
+  <!-- Row 1: Birth -->
+  <rect x="20" y="108" width="90" height="40" rx="6" fill="#0b0f1c" stroke="#f5b731" stroke-width="1.5"/>
+  <text x="65" y="126" text-anchor="middle" class="age-label">Birth</text>
+  <text x="65" y="140" text-anchor="middle" class="box-text" fill="#94a3b8">(within 24hr)</text>
+
+  <rect x="120" y="108" width="160" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="200" y="126" text-anchor="middle" class="box-text" fill="#4ade80">HepB #1</text>
+  <text x="200" y="141" text-anchor="middle" class="box-text" fill="#94a3b8">Hepatitis B (1st dose)</text>
+
+  <rect x="290" y="108" width="90" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="335" y="134" text-anchor="middle" class="box-text">IM</text>
+
+  <!-- Row 2: 1-2 months -->
+  <rect x="20" y="156" width="90" height="40" rx="6" fill="#0b0f1c" stroke="#f5b731" stroke-width="1"/>
+  <text x="65" y="178" text-anchor="middle" class="age-label">1-2 months</text>
+
+  <rect x="120" y="156" width="160" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="200" y="174" text-anchor="middle" class="box-text" fill="#4ade80">HepB #2</text>
+  <text x="200" y="189" text-anchor="middle" class="box-text" fill="#94a3b8">(if not given at birth)</text>
+
+  <rect x="290" y="156" width="90" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="335" y="182" text-anchor="middle" class="box-text">IM</text>
+
+  <!-- Row 3: 2 months -->
+  <rect x="20" y="204" width="90" height="52" rx="6" fill="#0b0f1c" stroke="#ff4d6d" stroke-width="1.5"/>
+  <text x="65" y="224" text-anchor="middle" class="age-label">2 months</text>
+
+  <rect x="120" y="204" width="160" height="52" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="200" y="221" text-anchor="middle" class="box-text" fill="#4ade80">DTaP#1 · IPV#1 · Hib#1</text>
+  <text x="200" y="236" text-anchor="middle" class="box-text" fill="#4ade80">PCV13#1 · RV#1 · HepB#2</text>
+  <text x="200" y="251" text-anchor="middle" class="box-text" fill="#94a3b8">The "Big 6" foundation</text>
+
+  <rect x="290" y="204" width="90" height="52" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="335" y="221" text-anchor="middle" class="box-text">IM/PO</text>
+  <text x="335" y="239" text-anchor="middle" class="box-text" fill="#94a3b8">(RV oral)</text>
+
+  <!-- Row 4: 4 months -->
+  <rect x="20" y="264" width="90" height="40" rx="6" fill="#0b0f1c" stroke="#f5b731" stroke-width="1"/>
+  <text x="65" y="286" text-anchor="middle" class="age-label">4 months</text>
+
+  <rect x="120" y="264" width="160" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="200" y="282" text-anchor="middle" class="box-text" fill="#4ade80">DTaP#2 · IPV#2 · Hib#2</text>
+  <text x="200" y="297" text-anchor="middle" class="box-text" fill="#4ade80">PCV13#2 · RV#2</text>
+
+  <rect x="290" y="264" width="90" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="335" y="290" text-anchor="middle" class="box-text">IM/PO</text>
+
+  <!-- Row 5: 6 months -->
+  <rect x="20" y="312" width="90" height="40" rx="6" fill="#0b0f1c" stroke="#f5b731" stroke-width="1"/>
+  <text x="65" y="334" text-anchor="middle" class="age-label">6 months</text>
+
+  <rect x="120" y="312" width="160" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="200" y="330" text-anchor="middle" class="box-text" fill="#4ade80">DTaP#3 · Hib#3 · PCV13#3</text>
+  <text x="200" y="345" text-anchor="middle" class="box-text" fill="#4ade80">RV#3 · HepB#3 · Flu</text>
+
+  <rect x="290" y="312" width="90" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="335" y="338" text-anchor="middle" class="box-text">IM/PO</text>
+
+  <!-- Row 6: 12-15 months -->
+  <rect x="20" y="360" width="90" height="52" rx="6" fill="#0b0f1c" stroke="#ff4d6d" stroke-width="1.5"/>
+  <text x="65" y="380" text-anchor="middle" class="age-label">12-15 months</text>
+
+  <rect x="120" y="360" width="160" height="52" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="200" y="377" text-anchor="middle" class="box-text" fill="#4ade80">MMR#1 · Varicella#1</text>
+  <text x="200" y="392" text-anchor="middle" class="box-text" fill="#4ade80">HepA#1 · PCV13#4</text>
+  <text x="200" y="407" text-anchor="middle" class="box-text" fill="#94a3b8">Live vaccines start here</text>
+
+  <rect x="290" y="360" width="90" height="52" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="335" y="377" text-anchor="middle" class="box-text">SC</text>
+  <text x="335" y="395" text-anchor="middle" class="box-text" fill="#94a3b8">(subcut)</text>
+
+  <!-- Row 7: 18 months -->
+  <rect x="20" y="420" width="90" height="40" rx="6" fill="#0b0f1c" stroke="#f5b731" stroke-width="1"/>
+  <text x="65" y="442" text-anchor="middle" class="age-label">18 months</text>
+
+  <rect x="120" y="420" width="160" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="200" y="438" text-anchor="middle" class="box-text" fill="#4ade80">DTaP#4 · Hib#4</text>
+  <text x="200" y="453" text-anchor="middle" class="box-text" fill="#4ade80">HepA#2</text>
+
+  <rect x="290" y="420" width="90" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="335" y="446" text-anchor="middle" class="box-text">IM</text>
+
+  <!-- Row 8: 4-6 years -->
+  <rect x="20" y="468" width="90" height="52" rx="6" fill="#0b0f1c" stroke="#ff4d6d" stroke-width="1.5"/>
+  <text x="65" y="488" text-anchor="middle" class="age-label">4-6 years</text>
+
+  <rect x="120" y="468" width="160" height="52" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="200" y="485" text-anchor="middle" class="box-text" fill="#4ade80">DTaP#5 · IPV#4</text>
+  <text x="200" y="500" text-anchor="middle" class="box-text" fill="#4ade80">MMR#2 · Varicella#2</text>
+  <text x="200" y="515" text-anchor="middle" class="box-text" fill="#94a3b8">School entry requirements</text>
+
+  <rect x="290" y="468" width="90" height="52" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="335" y="485" text-anchor="middle" class="box-text">IM/SC</text>
+  <text x="335" y="503" text-anchor="middle" class="box-text" fill="#94a3b8">Booster doses</text>
+
+  <!-- Row 9: 11-12 years -->
+  <rect x="20" y="528" width="90" height="40" rx="6" fill="#0b0f1c" stroke="#f5b731" stroke-width="1.5"/>
+  <text x="65" y="550" text-anchor="middle" class="age-label">11-12 years</text>
+
+  <rect x="120" y="528" width="160" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="200" y="546" text-anchor="middle" class="box-text" fill="#4ade80">Tdap · MenACWY#1</text>
+  <text x="200" y="561" text-anchor="middle" class="box-text" fill="#4ade80">HPV (2-3 doses)</text>
+
+  <rect x="290" y="528" width="90" height="40" rx="6" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="335" y="554" text-anchor="middle" class="box-text">IM</text>
+
+  <!-- Key Box -->
+  <rect x="420" y="80" width="460" height="160" rx="8" fill="#0b0f1c" stroke="#334155" stroke-width="1"/>
+  <text x="650" y="100" text-anchor="middle" class="box-title" fill="#00e5cc">Key Clinical Pearls</text>
+  
+  <text x="435" y="120" class="box-text">• <tspan fill="#4ade80">Live vaccines</tspan> (MMR, Varicella, LAIV): give same day</text>
+  <text x="435" y="135" class="box-text">  or space ≥28 days apart</text>
+  <text x="435" y="155" class="box-text">• <tspan fill="#f5b731">Rotavirus</tspan> must start by 14wks 6 days</text>
+  <text x="435" y="170" class="box-text">  Complete series by 8 months of age</text>
+  <text x="435" y="190" class="box-text">• <tspan fill="#ff4d6d">Contraindications</tspan>: Anaphylaxis to prior dose</text>
+  <text x="435" y="205" class="box-text">  or component; encephalopathy &lt;7d post-DTaP</text>
+  <text x="435" y="225" class="box-text">• <tspan fill="#a78bfa">HPV</tspan> prevents 6 cancers — start ages 11-12</text>
+  <text x="435" y="240" class="box-text">• Premature infants: vaccinate at <tspan fill="#a78bfa">chronological</tspan> age</text>
+
+  <!-- Bottom summary bar -->
+  <rect x="20" y="580" width="860" height="40" rx="8" fill="#0b0f1c" stroke="#00e5cc" stroke-width="1"/>
+  <text x="450" y="600" text-anchor="middle" class="box-text" fill="#00e5cc">💡 Mnemonic: "Birth = B (HepB), 2-4-6mo = Big 6 (DTaP, IPV, Hib, PCV, RV, HepB), 12mo = MMR/Varicella/HepA, 4yr = School boosters, 11yr = Tdap/Men/HPV"</text>
+
+  <!-- Catch-up note -->
+  <rect x="20" y="630" width="860" height="50" rx="8" fill="#0b0f1c" stroke="#f5b731" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="450" y="650" text-anchor="middle" class="box-text" fill="#f5b731">⚠️ Catch-up: Use minimum intervals between doses. Never restart a series — continue from where you left off.</text>
+  <text x="450" y="667" text-anchor="middle" class="box-text" fill="#94a3b8">CDC catch-up schedule available at www.cdc.gov/vaccines/schedules/hcp/imz/catchup.html</text>
+</svg>

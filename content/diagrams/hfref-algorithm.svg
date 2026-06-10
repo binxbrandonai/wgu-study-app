@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      text { font-family: 'Inter', -apple-system, sans-serif; fill: #e2e8f5; }
+      .title { font-size: 22px; font-weight: 700; fill: #00e5cc; }
+      .subtitle { font-size: 13px; fill: #94a3b8; }
+      .box-text { font-size: 11.5px; }
+      .box-title { font-size: 13px; font-weight: 700; }
+      .small { font-size: 10.5px; fill: #94a3b8; }
+      .arrow { fill: none; stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+      .arrow-teal { fill: none; stroke: #00e5cc; stroke-width: 2; marker-end: url(#arrowhead-teal); }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#334155"/>
+    </marker>
+    <marker id="arrowhead-teal" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#00e5cc"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#050810" rx="0"/>
+
+  <!-- Title -->
+  <text x="400" y="34" text-anchor="middle" class="title" filter="url(#glow)">HFrEF GDMT Algorithm</text>
+  <text x="400" y="52" text-anchor="middle" class="subtitle">New York Heart Association (NYHA) Class II-IV · LVEF ≤40%</text>
+
+  <!-- Step 1: Foundation Quadruple Therapy -->
+  <rect x="60" y="62" width="680" height="56" rx="8" fill="#0f172a" stroke="#00e5cc" stroke-width="2"/>
+  <text x="400" y="80" text-anchor="middle" class="box-title" fill="#00e5cc" filter="url(#glow)">⬢ Foundation: Start All 4 Pillars (can overlap)</text>
+
+  <!-- 4 Pillar Boxes -->
+  <rect x="65" y="86" width="158" height="28" rx="4" fill="rgba(0,229,204,0.1)" stroke="#00e5cc" stroke-width="1"/>
+  <text x="144" y="103" text-anchor="middle" class="box-text" fill="#00e5cc">ACE-I / ARNI</text>
+
+  <rect x="232" y="86" width="158" height="28" rx="4" fill="rgba(56,189,248,0.1)" stroke="#38bdf8" stroke-width="1"/>
+  <text x="311" y="103" text-anchor="middle" class="box-text" fill="#38bdf8">Beta Blocker</text>
+
+  <rect x="399" y="86" width="158" height="28" rx="4" fill="rgba(245,183,49,0.1)" stroke="#f5b731" stroke-width="1"/>
+  <text x="478" y="103" text-anchor="middle" class="box-text" fill="#f5b731">MRA</text>
+
+  <rect x="566" y="86" width="158" height="28" rx="4" fill="rgba(167,139,250,0.1)" stroke="#a78bfa" stroke-width="1"/>
+  <text x="645" y="103" text-anchor="middle" class="box-text" fill="#a78bfa">SGLT2i</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="120" x2="400" y2="140" class="arrow"/>
+
+  <!-- Loop Diuretic sidebar -->
+  <rect x="580" y="128" width="160" height="46" rx="6" fill="#0f172a" stroke="#f5b731" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="660" y="146" text-anchor="middle" class="box-text" fill="#f5b731">➕ Loop Diuretic</text>
+  <text x="660" y="160" text-anchor="middle" class="small">For volume management PRN</text>
+
+  <line x1="490" y1="140" x2="580" y2="140" class="arrow" stroke-dasharray="4,2"/>
+
+  <!-- Target Doses Section -->
+  <rect x="60" y="140" width="680" height="68" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+
+  <text x="400" y="158" text-anchor="middle" class="box-title" fill="#00e5cc">Target Daily Doses</text>
+
+  <!-- Dose sub-boxes -->
+  <rect x="65" y="164" width="330" height="38" rx="4" fill="#050810" stroke="#1e293b" stroke-width="1"/>
+  <text x="80" y="178" class="box-text" fill="#00e5cc">ACE-I: Lisinopril 20-40mg</text>
+  <text x="80" y="192" class="box-text" fill="#00e5cc">ARNI: Sacubitril/valsartan 97/103mg BID</text>
+
+  <rect x="405" y="164" width="330" height="38" rx="4" fill="#050810" stroke="#1e293b" stroke-width="1"/>
+  <text x="420" y="178" class="box-text" fill="#38bdf8">BB: Carvedilol 25mg BID · Metoprolol succ 200mg</text>
+  <text x="420" y="192" class="box-text" fill="#f5b731">MRA: Spironolactone 25mg · SGLT2i: Dapagliflozin 10mg</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="210" x2="400" y2="230" class="arrow"/>
+
+  <!-- Assess symptoms -->
+  <rect x="180" y="230" width="440" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="400" y="250" text-anchor="middle" class="box-text" font-weight="700">Re-evaluate at 3-6 months: Still symptomatic (NYHA II-IV)?</text>
+
+  <!-- Yes arrow -->
+  <line x1="400" y1="262" x2="400" y2="280" class="arrow"/>
+  <text x="320" y="274" text-anchor="middle" class="box-text" fill="#64748b">Yes →</text>
+
+  <!-- Add-on options -->
+  <rect x="60" y="280" width="680" height="44" rx="8" fill="#0f172a" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="400" y="299" text-anchor="middle" class="box-title" fill="#a78bfa">Add-on Therapy (individualize)</text>
+  <text x="400" y="315" text-anchor="middle" class="box-text">Hydralazine/ISDN (especially Black patients) · Digoxin · CRT · LVAD · Transplant</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="324" x2="400" y2="342" class="arrow"/>
+
+  <!-- Hydralazine/ISDN detail -->
+  <rect x="60" y="342" width="320" height="52" rx="6" fill="#0f172a" stroke="#a78bfa" stroke-width="1"/>
+  <text x="220" y="360" text-anchor="middle" class="box-title" fill="#a78bfa">Hydralazine + Isosorbide Dinitrate</text>
+  <text x="220" y="378" text-anchor="middle" class="box-text">Indicated for Black patients with NYHA III-IV</text>
+  <text x="220" y="390" text-anchor="middle" class="small">Hydral 25-100mg TID + ISDN 20-40mg TID</text>
+
+  <!-- Digoxin detail -->
+  <rect x="420" y="342" width="320" height="52" rx="6" fill="#0f172a" stroke="#f5b731" stroke-width="1"/>
+  <text x="580" y="360" text-anchor="middle" class="box-title" fill="#f5b731">Digoxin</text>
+  <text x="580" y="378" text-anchor="middle" class="box-text">For symptom relief, reduces hospitalizations</text>
+  <text x="580" y="390" text-anchor="middle" class="small">No mortality benefit · Levels: 0.5-0.9 ng/mL</text>
+
+  <!-- Arrow down -->
+  <line x1="220" y1="394" x2="220" y2="415" class="arrow"/>
+  <line x1="580" y1="394" x2="580" y2="415" class="arrow"/>
+  <line x1="220" y1="415" x2="580" y2="415" class="arrow"/>
+  <line x1="400" y1="415" x2="400" y2="430" class="arrow"/>
+
+  <!-- Advanced therapies -->
+  <rect x="60" y="430" width="680" height="44" rx="8" fill="#0f172a" stroke="#ff4d6d" stroke-width="1.5"/>
+  <text x="400" y="449" text-anchor="middle" class="box-title" fill="#ff4d6d">Advanced Therapies (if still NYHA III-IV despite GDMT)</text>
+
+  <line x1="400" y1="474" x2="400" y2="490" class="arrow"/>
+
+  <!-- Bottom 3 boxes -->
+  <rect x="60" y="490" width="210" height="50" rx="6" fill="#0f172a" stroke="#ff4d6d" stroke-width="1"/>
+  <text x="165" y="510" text-anchor="middle" class="box-title" fill="#ff4d6d">CRT</text>
+  <text x="165" y="528" text-anchor="middle" class="box-text">LBBB + QRS &gt;150ms</text>
+
+  <rect x="295" y="490" width="210" height="50" rx="6" fill="#0f172a" stroke="#ff4d6d" stroke-width="1"/>
+  <text x="400" y="510" text-anchor="middle" class="box-title" fill="#ff4d6d">LVAD</text>
+  <text x="400" y="528" text-anchor="middle" class="box-text">Bridge or destination therapy</text>
+
+  <rect x="530" y="490" width="210" height="50" rx="6" fill="#0f172a" stroke="#ff4d6d" stroke-width="1"/>
+  <text x="635" y="510" text-anchor="middle" class="box-title" fill="#ff4d6d">Transplant</text>
+  <text x="635" y="528" text-anchor="middle" class="box-text">Definitive for eligible patients</text>
+
+  <!-- No branch -->
+  <line x1="530" y1="250" x2="720" y2="250" class="arrow"/>
+  <rect x="620" y="238" width="160" height="24" rx="12" fill="#0f172a" stroke="#22c55e" stroke-width="1"/>
+  <text x="700" y="254" text-anchor="middle" class="box-text" fill="#22c55e">No → Continue current</text>
+</svg>

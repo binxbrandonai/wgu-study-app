@@ -1,0 +1,143 @@
+{
+  "topic": {
+    "id": "adhd",
+    "name": "ADHD: Diagnosis and Management",
+    "system": "Pediatrics",
+    "duration_min": 15,
+    "icon": "\ud83e\uddd2",
+    "color": "#38bdf8",
+    "category": "Mental Health & Behavioral",
+    "objectives": [],
+    "lessons": [
+      {
+        "id": "adhd-section",
+        "title": "ADHD: Diagnosis and Management",
+        "duration_min": 15,
+        "content_chunks": [
+          {
+            "concept": "DSM-5 Diagnostic Criteria",
+            "visual_description": "ADHD isn't just 'energetic kid' - it's a neurodevelopmental disorder with specific criteria",
+            "details": [
+              "**Must have \u22656 symptoms** (\u22655 if age 17+) from inattention OR hyperactivity-impulsivity list for at least 6 months",
+              "**Symptoms present before age 12** (even if not diagnosed until later)",
+              "**Symptoms present in \u22652 settings** (home, school, sports, church, etc.) - not just school!",
+              "**Clear evidence symptoms interfere with functioning** (academic, social, occupational)",
+              "**Symptoms not better explained by another disorder** (anxiety, depression, learning disability, trauma)"
+            ],
+            "clinical_pearl": "\ud83d\udca1 **ADHD is a DELAY in development, not absence.** Kids with ADHD are ~30% behind peers in executive function maturity. A 12yo with ADHD has executive function of ~8yo."
+          },
+          {
+            "concept": "Three Presentations",
+            "visual_description": "Not all ADHD looks like bouncing-off-walls hyperactivity!",
+            "details": [
+              "**Predominantly Inattentive**: \u22656 inattention symptoms, <6 hyperactive. The 'daydreamer' who seems 'spacey'. Often girls. Gets missed because not disruptive. Struggles academically.",
+              "**Predominantly Hyperactive-Impulsive**: \u22656 hyperactive symptoms, <6 inattentive. Can't sit still, fidgets, interrupts, acts before thinking. Classic 'hyperactive boy' stereotype. More common in preschool.",
+              "**Combined Presentation**: \u22656 from BOTH categories. Most common type. Classic ADHD - can't focus AND can't sit still."
+            ],
+            "mnemonic": "**'The 3 Faces of ADHD: Dreamer (inattentive), Mover (hyperactive), Combo (both)'**"
+          },
+          {
+            "concept": "Inattention Symptoms (need 6+)",
+            "visual_description": "Think of a kid with their head in the clouds, missing details, losing things constantly",
+            "details": [
+              "1. Careless mistakes in schoolwork, overlooks details",
+              "2. Difficulty sustaining attention in tasks/play",
+              "3. Doesn't seem to listen when spoken to directly",
+              "4. Doesn't follow through on instructions, fails to finish work",
+              "5. Difficulty organizing tasks and activities",
+              "6. Avoids/dislikes tasks requiring sustained mental effort",
+              "7. Loses things necessary for tasks (pencils, books, homework)",
+              "8. Easily distracted by extraneous stimuli",
+              "9. Forgetful in daily activities"
+            ],
+            "clinical_pearl": "\ud83d\udcda Inattentive type often underdiagnosed in girls - they're quiet, compliant, but struggling silently. Look for: inconsistent grades, 'not working to potential', disorganized, 'spacey'."
+          },
+          {
+            "concept": "Hyperactivity-Impulsivity Symptoms (need 6+)",
+            "visual_description": "Picture a kid who can't stop moving, talking, interrupting - like they're driven by a motor",
+            "details": [
+              "**Hyperactivity**: 1) Fidgets, squirms in seat, 2) Leaves seat when expected to sit, 3) Runs/climbs in inappropriate situations, 4) Unable to play quietly, 5) 'On the go' as if 'driven by motor', 6) Talks excessively",
+              "**Impulsivity**: 7) Blurts out answers before questions complete, 8) Difficulty waiting turn, 9) Interrupts or intrudes on others"
+            ],
+            "clinical_pearl": "\u26a1 Hyperactive symptoms DECREASE with age (most teens don't run around classroom anymore). Inattention symptoms PERSIST or worsen as academic demands increase. This is why many ADHD diagnoses happen in middle school when demands increase."
+          },
+          {
+            "concept": "Screening and Assessment Tools",
+            "visual_description": "Gather information from MULTIPLE sources - never diagnose from parent report alone!",
+            "details": [
+              "**Vanderbilt Assessment Scales**: Parent and teacher versions. Screens ADHD AND common comorbidities (ODD, anxiety, depression, learning disorders). Most widely used. FREE!",
+              "**Conners Rating Scales**: Parent, teacher, self-report versions. More detailed. Often requires purchase.",
+              "**NICHQ Vanderbilt**: Includes performance screening (grades, peer relationships). Helps identify school accommodations needed.",
+              "**Continuous Performance Tests (CPT)**: Computerized attention tests. NOT diagnostic alone! Use as supplemental data.",
+              "**Rule out**: Vision/hearing problems, sleep disorders, learning disabilities, anxiety/depression, trauma, thyroid disease, anemia"
+            ],
+            "clinical_pearl": "\u26a0\ufe0f **Teacher input is ESSENTIAL!** If symptoms only at home, consider family stressors, parenting issues, or trauma. If only at school, consider learning disability or bullying. ADHD symptoms must be present in MULTIPLE settings."
+          },
+          {
+            "concept": "Pharmacologic Treatment: Stimulants First-Line",
+            "visual_description": "Think of stimulants as 'brakes for the brain' - increase dopamine/norepinephrine to improve executive function",
+            "details": [
+              "**Methylphenidate (Ritalin, Concerta, Focalin)**: First-line. Start 5-10mg BID, titrate up. Many formulations (short-acting 3-4hr, intermediate 6-8hr, long-acting 10-12hr).",
+              "**Amphetamines (Adderall, Vyvanse)**: Alternative first-line. Adderall: mixed amphetamine salts. Vyvanse: prodrug, smoother effect, less abuse potential. Start 5-10mg, titrate up.",
+              "**When to use**: Age \u22656 years (FDA), moderate-severe symptoms interfering with function. Start low, go slow. Monitor response with rating scales.",
+              "**Response rate**: 70-80% respond to stimulants. If no response to methylphenidate, try amphetamine (different mechanism). 10-30% respond better to one class than other.",
+              "**Side effects**: Appetite suppression (give med after breakfast, drug holidays on weekends/summer if growth affected), insomnia (dose earlier in day), headache, stomachache (usually transient), tics (rare, contraindicated if Tourette's), cardiovascular (check BP/HR at follow-ups)"
+            ],
+            "mnemonic": "**'Stimulants = Paradox': They CALM hyperactive kids by stimulating the BRAKE regions of the brain (prefrontal cortex)**"
+          },
+          {
+            "concept": "Non-Stimulant Medications",
+            "visual_description": "Second-line options for kids who don't respond to or tolerate stimulants",
+            "details": [
+              "**Atomoxetine (Strattera)**: Norepinephrine reuptake inhibitor. Takes 4-6 weeks to work (unlike stimulants). Less effective than stimulants but good option if: stimulant side effects, family history of substance abuse, comorbid anxiety, tics. Dose: start 0.5 mg/kg, increase to 1.2 mg/kg daily. Black box warning: suicidal ideation (monitor!).",
+              "**Guanfacine ER (Intuniv), Clonidine ER (Kapvay)**: Alpha-2 agonists. Help with hyperactivity/impulsivity more than inattention. Useful for: comorbid tics, aggression, sleep issues. Side effects: sedation, hypotension, rebound hypertension if stopped abruptly.",
+              "**When to use non-stimulants**: Failed 2 stimulants, cardiac contraindications, substance abuse risk, significant tics/Tourette's, comorbid anxiety where stimulants worsen anxiety"
+            ],
+            "clinical_pearl": "\ud83d\udc8a **Medication is NOT forever!** ADHD persists into adulthood in 50-60%, but many teens/adults develop coping strategies and may not need meds. Reassess annually. Try 'drug holidays' in summer to see if still needed."
+          },
+          {
+            "concept": "Behavioral Interventions",
+            "visual_description": "Medication alone is not enough! Behavioral therapy + medication = best outcomes",
+            "details": [
+              "**Behavioral Parent Training (BPT)**: Teach parents consistent discipline, positive reinforcement, clear expectations. Gold standard for preschoolers (don't medicate <6yo unless severe).",
+              "**School Accommodations (504 Plan or IEP)**: Extra time on tests, preferential seating (front row, away from distractions), break tasks into chunks, movement breaks, organizational support, notes provided.",
+              "**Organizational Skills Training**: Teach planner use, checklists, time management, study skills. Executive function coaching.",
+              "**Cognitive Behavioral Therapy (CBT)**: For older kids/teens. Address low self-esteem, frustration tolerance, emotional regulation.",
+              "**Environmental Modifications**: Minimize distractions (quiet study space), consistent routines, visual schedules, timers for transitions"
+            ],
+            "clinical_pearl": "\ud83c\udf93 **Preschoolers (age 4-5) with ADHD**: Parent training is FIRST-LINE treatment. Only use medication if severe impairment + parent training failed. Stimulants FDA-approved age 6+, but can use off-label if necessary."
+          }
+        ],
+        "story_intro": {
+          "text": "7-year-old Jake can't sit still in class, interrupts constantly, and loses his homework daily. His frustrated teacher says, 'He needs to be tested for ADHD!' But does fidgeting = ADHD? Let's learn the DSM-5 criteria, screening tools, and when medication is appropriate.",
+          "visual_cue": "\ud83c\udfaf Picture Jake: bouncing in his chair, blurting out answers, doodling instead of listening, with a backpack full of crumpled papers. His teacher holds a behavior chart with more red marks than green."
+        },
+        "quick_checks": [],
+        "mnemonics": [],
+        "clinical_pearls": [
+          "**ADHD is a MEDICAL diagnosis**, not a character flaw or parenting failure. It's neurodevelopmental - brain's executive function networks develop slower. Imaging shows smaller prefrontal cortex, basal ganglia.",
+          "**Comorbidities are the RULE**: 67% have at least one comorbid condition. Most common: ODD (40%), anxiety (25-35%), learning disabilities (20-30%), depression (18%), tics (11%). Always screen!",
+          "**Stimulants don't stunt growth long-term**: May slow growth 1-2 cm during active treatment, but adult height not affected. Monitor height/weight at visits. Drug holidays in summer if concerned.",
+          "**'Medication response = diagnostic test'**: If stimulants dramatically improve symptoms, supports ADHD diagnosis. If no response to 2 different stimulants at adequate doses, reconsider diagnosis.",
+          "**Gender differences**: Boys diagnosed 2-3x more than girls. Girls more likely inattentive type (less disruptive, more easily missed). Girls present later (often in middle school when demands increase).",
+          "**Sleep is CRITICAL**: Many ADHD kids have delayed sleep phase. Poor sleep worsens ADHD symptoms. Address sleep hygiene, screen time before bed, consider melatonin."
+        ],
+        "red_flags": []
+      }
+    ],
+    "videos": [
+      {
+        "source": "Osmosis",
+        "title": "ADHD - Causes, Symptoms, Diagnosis, Treatment",
+        "url": "https://www.youtube.com/watch?v=dCgydsIF6r8",
+        "duration": "8 min"
+      },
+      {
+        "source": "Ninja Nerd",
+        "title": "ADHD Therapeutics",
+        "url": "https://www.youtube.com/watch?v=S6Ft7XLPtP8",
+        "duration": "30 min"
+      }
+    ]
+  }
+}

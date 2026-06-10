@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <style>
+      .title { font-size: 18px; font-weight: 700; fill: #0f172a; }
+      .box-label { font-size: 12px; font-weight: 700; fill: white; }
+      .box-text { font-size: 11px; fill: white; }
+      .diamond-text { font-size: 12px; font-weight: 700; fill: #0f172a; }
+      .yes-no { font-size: 11px; font-weight: 700; fill: #64748b; }
+      .step-text { font-size: 11px; fill: #1e293b; line-height: 1.5; }
+      .note { font-size: 10px; fill: #64748b; font-style: italic; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="920" fill="#f8fafc" rx="12"/>
+  <rect x="12" y="12" width="776" height="896" fill="white" rx="10" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="44" text-anchor="middle" class="title">Acute Bronchitis — Clinical Algorithm</text>
+  <text x="400" y="62" text-anchor="middle" font-size="11" fill="#64748b">FNP D118 | Adult Primary Care</text>
+  <line x1="40" y1="72" x2="760" y2="72" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- START: Presentation box -->
+  <rect x="260" y="86" width="280" height="60" rx="10" fill="#1e40af"/>
+  <text x="400" y="108" text-anchor="middle" class="box-label">PATIENT PRESENTATION</text>
+  <text x="400" y="124" text-anchor="middle" class="box-text">Cough ± sputum after URI symptoms</text>
+  <text x="400" y="139" text-anchor="middle" class="box-text">+/- low-grade fever, wheeze, dyspnea</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="146" x2="400" y2="178" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Diamond: RED FLAGS? -->
+  <polygon points="400,180 510,220 400,260 290,220" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+  <text x="400" y="215" text-anchor="middle" class="diamond-text">RED FLAGS</text>
+  <text x="400" y="232" text-anchor="middle" font-size="10" fill="#92400e">PRESENT?</text>
+
+  <!-- Red flags legend (right side) -->
+  <rect x="536" y="186" width="210" height="80" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="641" y="202" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">Red Flags (→ get CXR):</text>
+  <text x="546" y="216" font-size="10" fill="#7f1d1d">• Fever &gt;38°C (100.4°F)</text>
+  <text x="546" y="229" font-size="10" fill="#7f1d1d">• HR &gt;100 or RR &gt;24</text>
+  <text x="546" y="242" font-size="10" fill="#7f1d1d">• Hypoxia / focal lung exam</text>
+  <text x="546" y="255" font-size="10" fill="#7f1d1d">• Age &gt;75 or immunocompromised</text>
+  <line x1="510" y1="220" x2="536" y2="220" stroke="#ca8a04" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- YES → CXR path (left) -->
+  <line x1="290" y1="220" x2="140" y2="220" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="215" y="212" text-anchor="middle" class="yes-no">YES</text>
+  <rect x="50" y="234" width="180" height="50" rx="8" fill="#dc2626"/>
+  <text x="140" y="254" text-anchor="middle" class="box-label">GET CHEST X-RAY</text>
+  <text x="140" y="270" text-anchor="middle" class="box-text">Rule out pneumonia</text>
+
+  <!-- Arrow down from CXR -->
+  <line x1="140" y1="284" x2="140" y2="314" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="50" y="314" width="180" height="60" rx="8" fill="#7f1d1d"/>
+  <text x="140" y="333" text-anchor="middle" font-size="11" font-weight="700" fill="white">If infiltrate found:</text>
+  <text x="140" y="348" text-anchor="middle" font-size="10" fill="#fca5a5">→ Diagnose PNEUMONIA</text>
+  <text x="140" y="362" text-anchor="middle" font-size="10" fill="#fca5a5">→ Treat appropriately</text>
+
+  <!-- NO → Acute Bronchitis path (center) -->
+  <line x1="400" y1="260" x2="400" y2="295" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="418" y="282" class="yes-no">NO</text>
+
+  <!-- Diagnosis box -->
+  <rect x="255" y="295" width="290" height="55" rx="10" fill="#065f46"/>
+  <text x="400" y="316" text-anchor="middle" class="box-label">✓ ACUTE BRONCHITIS</text>
+  <text x="400" y="332" text-anchor="middle" class="box-text">Clinical diagnosis — viral etiology &gt;95%</text>
+  <text x="400" y="347" text-anchor="middle" class="box-text">Cough typically lasts 1–3 weeks</text>
+
+  <!-- Arrow -->
+  <line x1="400" y1="350" x2="400" y2="380" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Diamond: WHEEZING? -->
+  <polygon points="400,382 490,412 400,442 310,412" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="400" y="407" text-anchor="middle" class="diamond-text">WHEEZING</text>
+  <text x="400" y="422" text-anchor="middle" font-size="10" fill="#0369a1">PRESENT?</text>
+
+  <!-- YES wheezing → albuterol (left) -->
+  <line x1="310" y1="412" x2="195" y2="412" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="252" y="404" text-anchor="middle" class="yes-no">YES</text>
+  <rect x="55" y="396" width="140" height="42" rx="8" fill="#0c4a6e"/>
+  <text x="125" y="412" text-anchor="middle" font-size="11" font-weight="700" fill="white">Add Albuterol</text>
+  <text x="125" y="426" text-anchor="middle" font-size="10" fill="#bae6fd">MDI 2 puffs q4-6h PRN</text>
+
+  <!-- NO wheezing arrow -->
+  <line x1="400" y1="442" x2="400" y2="472" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="418" y="460" class="yes-no">NO</text>
+
+  <!-- Symptomatic Treatment box -->
+  <rect x="140" y="472" width="520" height="130" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+  <text x="400" y="493" text-anchor="middle" font-size="13" font-weight="700" fill="#14532d">💊 SYMPTOMATIC TREATMENT</text>
+  <line x1="160" y1="499" x2="640" y2="499" stroke="#86efac" stroke-width="1"/>
+
+  <!-- Treatment columns -->
+  <text x="220" y="515" text-anchor="middle" font-size="11" font-weight="700" fill="#166534">Cough</text>
+  <text x="160" y="530" font-size="10" fill="#15803d">• Honey 1-2 tsp PRN</text>
+  <text x="160" y="544" font-size="10" fill="#15803d">  (age &gt;1yr only)</text>
+  <text x="160" y="558" font-size="10" fill="#15803d">• Dextromethorphan</text>
+  <text x="160" y="572" font-size="10" fill="#15803d">  10-30mg q4-8h</text>
+  <text x="160" y="586" font-size="10" fill="#15803d">• Guaifenesin (expectorant)</text>
+
+  <text x="430" y="515" text-anchor="middle" font-size="11" font-weight="700" fill="#166534">Comfort</text>
+  <text x="370" y="530" font-size="10" fill="#15803d">• Hydration (fluids)</text>
+  <text x="370" y="544" font-size="10" fill="#15803d">• NSAIDs / acetaminophen</text>
+  <text x="370" y="558" font-size="10" fill="#15803d">  for fever/myalgias</text>
+  <text x="370" y="572" font-size="10" fill="#15803d">• Cool mist humidifier</text>
+  <text x="370" y="586" font-size="10" fill="#15803d">• Rest</text>
+
+  <!-- Antibiotics NOT box -->
+  <rect x="510" y="506" width="140" height="84" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="2"/>
+  <text x="580" y="522" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">🚫 NO ANTIBIOTICS</text>
+  <text x="515" y="537" font-size="10" fill="#991b1b">• Viral in &gt;95% of cases</text>
+  <text x="515" y="551" font-size="10" fill="#991b1b">• No benefit shown</text>
+  <text x="515" y="565" font-size="10" fill="#991b1b">• Promotes resistance</text>
+  <text x="515" y="579" font-size="10" fill="#991b1b">• May cause C. diff</text>
+
+  <!-- Arrow -->
+  <line x1="400" y1="602" x2="400" y2="630" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Diamond: Cough >3 weeks? -->
+  <polygon points="400,632 510,662 400,692 290,662" fill="#faf5ff" stroke="#a855f7" stroke-width="2"/>
+  <text x="400" y="656" text-anchor="middle" class="diamond-text">COUGH &gt; 3 WEEKS?</text>
+  <text x="400" y="672" text-anchor="middle" font-size="10" fill="#7e22ce">or worsening symptoms?</text>
+
+  <!-- YES → Workup (right) -->
+  <line x1="510" y1="662" x2="590" y2="662" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="550" y="654" text-anchor="middle" class="yes-no">YES</text>
+  <rect x="590" y="636" width="170" height="90" rx="8" fill="#4a1d96"/>
+  <text x="675" y="654" text-anchor="middle" font-size="11" font-weight="700" fill="white">Extended Workup:</text>
+  <text x="598" y="669" font-size="10" fill="#e9d5ff">• NP PCR for Pertussis</text>
+  <text x="598" y="683" font-size="10" fill="#e9d5ff">• Mycoplasma IgM</text>
+  <text x="598" y="697" font-size="10" fill="#e9d5ff">• Consider spirometry</text>
+  <text x="598" y="711" font-size="10" fill="#e9d5ff">  (rule out asthma/COPD)</text>
+
+  <!-- NO → Reassurance (left) -->
+  <line x1="290" y1="662" x2="195" y2="662" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="242" y="654" text-anchor="middle" class="yes-no">NO</text>
+  <rect x="50" y="636" width="145" height="60" rx="8" fill="#065f46"/>
+  <text x="122" y="655" text-anchor="middle" font-size="11" font-weight="700" fill="white">Reassure &amp; Follow-up</text>
+  <text x="58" y="671" font-size="10" fill="#a7f3d0">Expected resolution in</text>
+  <text x="58" y="685" font-size="10" fill="#a7f3d0">18 days (median)</text>
+
+  <!-- Arrow center -->
+  <line x1="400" y1="692" x2="400" y2="720" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- PERTUSSIS WARNING BOX -->
+  <rect x="100" y="720" width="600" height="90" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+  <text x="400" y="740" text-anchor="middle" font-size="13" font-weight="700" fill="#92400e">⚠️ SUSPECT PERTUSSIS IF:</text>
+  <line x1="120" y1="746" x2="680" y2="746" stroke="#f59e0b" stroke-width="1"/>
+  <text x="160" y="762" font-size="11" fill="#78350f">• Paroxysmal cough &gt;3 weeks + inspiratory "whoop"</text>
+  <text x="160" y="777" font-size="11" fill="#78350f">• Post-tussive vomiting</text>
+  <text x="160" y="792" font-size="11" fill="#78350f">• Lymphocytosis on CBC</text>
+  <text x="430" y="762" font-size="11" fill="#78350f">• Close contact with confirmed case</text>
+  <text x="430" y="777" font-size="11" font-weight="700" fill="#92400e">Tx: Azithromycin 500mg x1, then 250mg x4 days</text>
+  <text x="430" y="792" font-size="11" fill="#78350f">Report to public health department</text>
+
+  <!-- Bottom legend -->
+  <rect x="40" y="828" width="720" height="56" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="400" y="846" text-anchor="middle" font-size="11" font-weight="700" fill="#1e293b">KEY MEMORY POINTS</text>
+  <text x="80" y="862" font-size="10" fill="#475569">🎯 >95% viral — antibiotics never indicated</text>
+  <text x="80" y="876" font-size="10" fill="#475569">🎯 Cough lasting 18 days is NORMAL — warn patients upfront</text>
+  <text x="400" y="862" font-size="10" fill="#475569">🎯 CXR only if Heckerling red flags present</text>
+  <text x="400" y="876" font-size="10" fill="#475569">🎯 Honey = evidence-based for cough (age &gt;1yr only)</text>
+</svg>

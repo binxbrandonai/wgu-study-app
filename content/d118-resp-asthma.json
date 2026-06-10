@@ -1,0 +1,224 @@
+{
+  "topic": {
+    "id": "d118-resp-asthma",
+    "name": "Asthma",
+    "system": "Respiratory",
+    "duration_min": 25,
+    "icon": "\ud83e\udec1",
+    "color": "#4895ef",
+    "objectives": [
+      "Recognize asthma symptoms and triggers",
+      "Interpret spirometry (FEV1/FVC ratio, reversibility)",
+      "Classify asthma severity (intermittent vs. persistent)",
+      "Apply stepwise medication approach (SABA, ICS, LABA)",
+      "Develop asthma action plan",
+      "Know when to refer or admit"
+    ],
+    "lessons": [
+      {
+        "id": "asthma-basics",
+        "title": "\ud83e\udec1 Asthma 101: The Reactive Airway",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Meet Jamie: 12 years old, coughs at soccer practice, has to use inhaler. Mom says 'It's just exercise-induced.' But Jamie also wakes up coughing at night, wheezes when visiting grandma (who has cats), and missed 15 school days last year. This is CLASSIC poorly controlled asthma. 25 million Americans have asthma (8% of population), and 3,500 die yearly from it. Most deaths are preventable with proper treatment.",
+            "visual_desc": "Normal airway vs. asthmatic airway: LEFT (normal): open, clear. RIGHT (asthma attack): inflamed walls, mucus plugs, bronchoconstriction, narrowed lumen"
+          },
+          {
+            "type": "definition",
+            "title": "What IS Asthma?",
+            "content": "**Asthma**: Chronic inflammatory disease of the airways causing:\n1. **Bronchoconstriction** (airway smooth muscle tightens)\n2. **Inflammation** (airway swelling)\n3. **Mucus production**\n4. **Airway hyperresponsiveness** (twitchy airways react to triggers)\n\n**Key Features**:\n\u2022 **Reversible** airflow obstruction (vs. COPD which is fixed)\n\u2022 **Episodic** symptoms (not constant)\n\u2022 Responds to bronchodilators\n\n**Classic Triad**:\n1. Wheezing\n2. Dyspnea\n3. Chest tightness\n\n**Common Triggers**: Exercise, cold air, allergens (pollen, dust mites, pets), viral infections, smoke, strong odors",
+            "mnemonic": "**Asthma = WHIMPCS**: **WH**eezing, **I**nflammation, **M**ucus, **P**eriodic (episodic), **C**ough, **S**hortness of breath",
+            "visual_desc": "Circular diagram showing asthma triggers (center) with arrows pointing outward: exercise, cold air, allergens, viral infection, smoke, NSAIDs"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Asthma symptoms WORSE at night or early morning** = classic! If patient says 'I cough every night around 3 AM' or 'I wake up wheezing,' think asthma until proven otherwise. This nocturnal pattern is super specific."
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "Asthma key features",
+            "mnemonic": "**Asthma = WHIMPCS**: **WH**eezing, **I**nflammation, **M**ucus, **P**eriodic (episodic), **C**ough, **S**hortness of breath"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Which feature distinguishes asthma from COPD?",
+            "a": [
+              "Wheezing",
+              "Reversible obstruction",
+              "Dyspnea",
+              "Chronic cough"
+            ],
+            "correct": 1,
+            "explanation": "Asthma = REVERSIBLE obstruction (responds to bronchodilators). COPD = largely irreversible/fixed obstruction."
+          },
+          {
+            "q": "Patient wheezes only during soccer, fine otherwise. Most likely?",
+            "a": [
+              "Exercise-induced bronchoconstriction",
+              "COPD",
+              "Heart failure",
+              "Pneumonia"
+            ],
+            "correct": 0,
+            "explanation": "Exercise is a classic asthma trigger. Exercise-induced bronchoconstriction (EIB) is a form of asthma."
+          }
+        ]
+      },
+      {
+        "id": "asthma-diagnosis",
+        "title": "\ud83d\udd0d Diagnosing Asthma: Spirometry is King",
+        "duration_min": 9,
+        "content_chunks": [
+          {
+            "type": "protocol",
+            "title": "Clinical Diagnosis (History & Exam)",
+            "content": "**Symptoms** (need pattern, not single episode):\n\u2022 **Wheeze** (musical, high-pitched expiratory sound)\n\u2022 **Cough** (often worse at night, non-productive or minimal sputum)\n\u2022 **Dyspnea** (episodic, triggered)\n\u2022 **Chest tightness**\n\n**Red flags for asthma**:\n\u2022 Symptoms >2 days/week\n\u2022 Nighttime awakenings >2\u00d7/month\n\u2022 SABA use >2 days/week\n\u2022 Activity limitation\n\n**Physical exam** (often NORMAL between attacks!):\n\u2022 **Wheeze** on auscultation (expiratory > inspiratory)\n\u2022 **Prolonged expiratory phase**\n\u2022 **Tachypnea**, use of accessory muscles (acute attack)\n\u2022 **Hyperresonance** to percussion\n\n**Key Point**: Normal exam doesn't rule out asthma! Need objective testing.",
+            "visual_desc": "Timeline showing episodic asthma symptoms: normal \u2192 trigger exposure \u2192 symptoms (wheeze, cough, SOB) \u2192 medication \u2192 back to normal"
+          },
+          {
+            "type": "protocol",
+            "title": "Spirometry: The Gold Standard",
+            "content": "**What to look for**:\n\n**1. Obstructive Pattern**:\n\u2022 **FEV1/FVC ratio <0.70** (<70%) = obstruction\n\u2022 FEV1 = Forced Expiratory Volume in 1 second\n\u2022 FVC = Forced Vital Capacity (total volume exhaled)\n\n**2. Reversibility** (DIAGNOSTIC for asthma!):\n\u2022 Give SABA (albuterol), repeat spirometry in 15 min\n\u2022 **Positive if FEV1 improves \u226512% AND \u2265200 mL**\n\u2022 This proves obstruction is reversible = ASTHMA\n\n**Alternative tests** (if spirometry unavailable or patient <5 years old):\n\u2022 **Peak flow meter** - measures PEFR (peak expiratory flow rate)\n\u2022 **Bronchoprovocation** (methacholine challenge) - if spirometry normal but high suspicion\n\u2022 **Exhaled nitric oxide (FeNO)** - marker of eosinophilic inflammation",
+            "mnemonic": "**Asthma spirometry = 70-12-200**: FEV1/FVC <**70**%, improves \u2265**12**% AND \u2265**200** mL post-bronchodilator",
+            "visual_desc": "Spirometry graph: Before bronchodilator (low FEV1), After bronchodilator (FEV1 jumps up 12%+), with normal reference curve for comparison"
+          },
+          {
+            "type": "definition",
+            "title": "Classifying Severity (Initial Diagnosis)",
+            "content": "**Intermittent Asthma**:\n\u2022 Symptoms \u22642 days/week\n\u2022 Nighttime awakenings \u22642\u00d7/month\n\u2022 SABA use \u22642 days/week\n\u2022 No interference with activity\n\u2022 FEV1 >80% predicted\n\n**Mild Persistent**:\n\u2022 Symptoms >2 days/week (but not daily)\n\u2022 Nighttime awakenings 3-4\u00d7/month\n\u2022 SABA use >2 days/week (but not daily)\n\u2022 Minor interference with activity\n\u2022 FEV1 >80%\n\n**Moderate Persistent**:\n\u2022 **Daily** symptoms\n\u2022 Nighttime awakenings >1\u00d7/week (but not nightly)\n\u2022 Daily SABA use\n\u2022 Some limitation of activity\n\u2022 FEV1 60-80%\n\n**Severe Persistent**:\n\u2022 Symptoms **throughout the day**\n\u2022 Nighttime awakenings **nightly**\n\u2022 SABA use **several times per day**\n\u2022 Extremely limited activity\n\u2022 FEV1 <60%",
+            "mnemonic": "**Severity = frequency**: Intermittent = \u2264**2**/week. Mild = >**2**/week. Moderate = **Daily**. Severe = **All day**",
+            "visual_desc": "Staircase showing escalating frequency: Intermittent (\u22642/week) \u2192 Mild Persistent (>2/week) \u2192 Moderate (daily) \u2192 Severe (all day)"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Asthma-COPD Overlap Syndrome (ACOS)**: Some patients have features of both (smoking history + reversibility). Treat like asthma (ICS + LABA) but counsel on smoking cessation!"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "Spirometry criteria for asthma",
+            "mnemonic": "**Asthma spirometry = 70-12-200**: FEV1/FVC <**70**%, improves \u2265**12**% AND \u2265**200** mL post-bronchodilator"
+          },
+          {
+            "trigger": "Asthma severity classification",
+            "mnemonic": "**Severity = frequency**: Intermittent = \u2264**2**/week. Mild = >**2**/week. Moderate = **Daily**. Severe = **All day**"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Spirometry shows FEV1/FVC 0.65. Post-albuterol, FEV1 increases 15% and 250 mL. Diagnosis?",
+            "a": [
+              "COPD",
+              "Asthma",
+              "Normal",
+              "Restrictive disease"
+            ],
+            "correct": 1,
+            "explanation": "Obstruction (ratio <0.70) + reversibility (\u226512% AND \u2265200 mL improvement) = ASTHMA!"
+          },
+          {
+            "q": "Patient uses albuterol 4 days/week, symptoms 5 days/week, FEV1 85%. Severity?",
+            "a": [
+              "Intermittent",
+              "Mild persistent",
+              "Moderate persistent",
+              "Severe persistent"
+            ],
+            "correct": 1,
+            "explanation": "Symptoms >2 days/week (but not daily) = Mild persistent. SABA use >2\u00d7/week also confirms mild persistent."
+          }
+        ]
+      },
+      {
+        "id": "asthma-treatment",
+        "title": "\ud83d\udc8a Treatment: Stepwise Approach",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "medication_guide",
+            "title": "The Stepwise Ladder (GINA 2023)",
+            "content": "**Step 1: Intermittent Asthma**\n\u2022 **As-needed SABA** (albuterol 2 puffs PRN)\n\u2022 Consider low-dose ICS if symptoms >2\u00d7/month\n\n**Step 2: Mild Persistent**\n\u2022 **Daily low-dose ICS** (inhaled corticosteroid)\n\u2022 Examples: fluticasone 88-176 mcg, budesonide 180-360 mcg\n\u2022 PLUS as-needed SABA\n\n**Step 3: Moderate Persistent**\n\u2022 **Low-dose ICS + LABA** (long-acting beta agonist)\n\u2022 Examples: fluticasone/salmeterol (Advair), budesonide/formoterol (Symbicort)\n\u2022 OR medium-dose ICS alone\n\u2022 PLUS as-needed SABA\n\n**Step 4: Moderate-Severe Persistent**\n\u2022 **Medium-dose ICS + LABA**\n\u2022 Consider adding tiotropium (LAMA) or leukotriene modifier\n\u2022 PLUS as-needed SABA\n\n**Step 5: Severe Persistent**\n\u2022 **High-dose ICS + LABA + oral corticosteroid** (if needed)\n\u2022 Consider biologics: omalizumab (anti-IgE), mepolizumab (anti-IL5)\n\u2022 Refer to pulmonology!",
+            "visual_desc": "Staircase with 5 steps, each showing medication intensity increasing: Step 1 (SABA PRN) \u2192 Step 5 (high-dose ICS+LABA+steroids+biologics)"
+          },
+          {
+            "type": "protocol",
+            "title": "Key Medications to Know",
+            "content": "**SABA** (Short-Acting Beta Agonist) - **RESCUE**\n\u2022 **Albuterol** (ProAir, Ventolin) 2 puffs q4-6h PRN\n\u2022 **Mechanism**: Bronchodilation (quick relief in 5 min)\n\u2022 **Use**: Acute symptoms, pre-exercise\n\u2022 **Pearl**: If using >2 days/week \u2192 asthma not controlled, need controller!\n\n**ICS** (Inhaled Corticosteroid) - **CONTROLLER** (MOST IMPORTANT!)\n\u2022 **Examples**: fluticasone, budesonide, mometasone\n\u2022 **Mechanism**: Reduce airway inflammation\n\u2022 **Side effects**: Thrush (rinse mouth after!), hoarseness\n\u2022 **Pearl**: Takes 2-4 weeks for full effect. Use DAILY even when feeling fine!\n\n**LABA** (Long-Acting Beta Agonist) - **CONTROLLER**\n\u2022 **Examples**: salmeterol, formoterol\n\u2022 **Mechanism**: Long-acting bronchodilation (12 hours)\n\u2022 **BLACK BOX WARNING**: NEVER use alone! Must combine with ICS (risk of asthma death)\n\u2022 **Pearl**: Usually combined in one inhaler (Advair, Symbicort)\n\n**Leukotriene Modifiers** - **CONTROLLER** (alternative/add-on)\n\u2022 **Montelukast (Singulair)** 10 mg PO daily\n\u2022 **Good for**: Exercise-induced, aspirin-sensitive asthma, allergic rhinitis\n\u2022 **Pearl**: Oral (easier for kids), but less effective than ICS",
+            "mnemonic": "**SABA = Save me now. ICS = Invest in Control. LABA = Long-term Aid (but never alone!)**",
+            "visual_desc": "Medication pyramid: Base (ICS - foundation of control), Middle (add LABA or leukotriene), Peak (add-ons, biologics), Rescue (SABA) shown as parachute on side"
+          },
+          {
+            "type": "checklist",
+            "title": "Asthma Action Plan (Give to ALL Patients!)",
+            "content": "**GREEN ZONE** (Good control):\n\u2022 No symptoms or minimal symptoms\n\u2022 Peak flow >80% personal best\n\u2022 **Action**: Continue daily controller meds\n\n**YELLOW ZONE** (Caution - asthma getting worse):\n\u2022 Cough, wheeze, chest tightness, or SOB\n\u2022 Peak flow 50-80% personal best\n\u2022 Waking at night\n\u2022 **Action**: \n  - Increase SABA (albuterol 2-4 puffs q20min \u00d7 3 doses)\n  - Continue controller\n  - Call provider if no improvement in 24 hours\n\n**RED ZONE** (Medical Alert!):\n\u2022 Severe SOB, can't speak in full sentences\n\u2022 Peak flow <50% personal best\n\u2022 SABA not helping\n\u2022 Lips/nails blue\n\u2022 **Action**: Take SABA, call 911 or go to ER NOW!",
+            "visual_desc": "Traffic light: Green (all good), Yellow (warning signs), Red (emergency)"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Rinse mouth after ICS use** to prevent oral thrush! Also use **spacer with MDI** - improves drug delivery to lungs (not mouth/throat), reduces thrush risk and systemic absorption."
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "Asthma medication roles",
+            "mnemonic": "**SABA = Save me now. ICS = Invest in Control. LABA = Long-term Aid (but never alone!)**"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Patient with moderate persistent asthma. Best initial controller?",
+            "a": [
+              "Albuterol PRN",
+              "Low-dose ICS",
+              "Low-dose ICS + LABA",
+              "Montelukast"
+            ],
+            "correct": 2,
+            "explanation": "Moderate persistent (daily symptoms) = Step 3 = Low-dose ICS + LABA or medium-dose ICS alone. Combination preferred!"
+          },
+          {
+            "q": "Patient using albuterol 5 days/week. What does this mean?",
+            "a": [
+              "Asthma is well controlled",
+              "Need to add/increase controller medication",
+              "Should stop ICS",
+              "Normal for asthma"
+            ],
+            "correct": 1,
+            "explanation": "SABA use >2 days/week = POOR CONTROL. Need to step up controller therapy (add or increase ICS/LABA)!"
+          },
+          {
+            "q": "Why must LABA always be combined with ICS?",
+            "a": [
+              "Better bronchodilation",
+              "Prevents thrush",
+              "BLACK BOX WARNING: increased asthma deaths with LABA alone",
+              "Cost savings"
+            ],
+            "correct": 2,
+            "explanation": "LABA monotherapy increased asthma-related deaths in trials. Must ALWAYS combine with ICS. Never prescribe LABA alone!"
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Ninja Nerd",
+        "title": "Asthma | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=P7Fkg7_yXL0",
+        "duration": "49 min"
+      },
+      {
+        "source": "Osmosis",
+        "title": "Understanding Asthma \u2014 Pathophysiology and Treatment",
+        "url": "https://www.youtube.com/watch?v=rkkDtwItWDk",
+        "duration": "10 min"
+      }
+    ]
+  }
+}

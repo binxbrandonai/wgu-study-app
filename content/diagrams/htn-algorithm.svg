@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      text { font-family: 'Inter', -apple-system, sans-serif; fill: #e2e8f5; }
+      .title { font-size: 22px; font-weight: 700; fill: #00e5cc; }
+      .subtitle { font-size: 13px; fill: #94a3b8; }
+      .box-text { font-size: 12px; }
+      .box-title { font-size: 13px; font-weight: 700; }
+      .target { font-size: 14px; font-weight: 700; fill: #f5b731; }
+      .arrow { fill: none; stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+      .arrow-teal { fill: none; stroke: #00e5cc; stroke-width: 2; marker-end: url(#arrowhead-teal); }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#334155"/>
+    </marker>
+    <marker id="arrowhead-teal" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#00e5cc"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#050810" rx="0"/>
+
+  <!-- Title -->
+  <text x="400" y="38" text-anchor="middle" class="title" filter="url(#glow)">HTN Treatment Algorithm</text>
+  <text x="400" y="56" text-anchor="middle" class="subtitle">ACC/AHA 2017 Guidelines — Target BP &lt;130/80 for All</text>
+
+  <!-- Start Box: Measure BP -->
+  <rect x="300" y="68" width="200" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="400" y="88" text-anchor="middle" class="box-text" font-weight="700">Measure Office BP</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="100" x2="400" y2="120" class="arrow"/>
+
+  <!-- Split: Stage 1 vs Stage 2 -->
+  <rect x="80" y="120" width="280" height="52" rx="8" fill="#1e293b" stroke="#f5b731" stroke-width="1.5"/>
+  <text x="220" y="140" text-anchor="middle" class="box-title" fill="#f5b731">Stage 1 HTN</text>
+  <text x="220" y="158" text-anchor="middle" class="box-text">130-139 / 80-89 mmHg</text>
+
+  <rect x="440" y="120" width="280" height="52" rx="8" fill="#1e293b" stroke="#ff4d6d" stroke-width="1.5"/>
+  <text x="580" y="140" text-anchor="middle" class="box-title" fill="#ff4d6d">Stage 2 HTN</text>
+  <text x="580" y="158" text-anchor="middle" class="box-text">≥140 / ≥90 mmHg</text>
+
+  <!-- Arrows from start to splits -->
+  <line x1="400" y1="120" x2="220" y2="120" class="arrow"/>
+  <line x1="400" y1="120" x2="580" y2="120" class="arrow"/>
+
+  <!-- Stage 1 branch -->
+  <line x1="220" y1="172" x2="220" y2="195" class="arrow"/>
+  <rect x="60" y="195" width="320" height="48" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="220" y="214" text-anchor="middle" class="box-text" font-weight="700">Lifestyle Modification</text>
+  <text x="220" y="232" text-anchor="middle" class="box-text">Consider meds if ASCVD risk &gt;10%</text>
+
+  <line x1="220" y1="243" x2="220" y2="268" class="arrow"/>
+  <rect x="60" y="268" width="320" height="36" rx="8" fill="#0f172a" stroke="#f5b731" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="220" y="290" text-anchor="middle" class="box-text">Check BP in 4 weeks</text>
+
+  <!-- Stage 2 branch -->
+  <line x1="580" y1="172" x2="580" y2="195" class="arrow"/>
+  <rect x="420" y="195" width="320" height="48" rx="8" fill="#0f172a" stroke="#ff4d6d" stroke-width="1"/>
+  <text x="580" y="214" text-anchor="middle" class="box-text" font-weight="700">Lifestyle + Start Meds Immediately</text>
+  <text x="580" y="232" text-anchor="middle" class="box-text">Start with 2 agents if BP &gt;160/100</text>
+
+  <line x1="580" y1="243" x2="580" y2="268" class="arrow"/>
+  <rect x="420" y="268" width="320" height="36" rx="8" fill="#0f172a" stroke="#ff4d6d" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="580" y="290" text-anchor="middle" class="box-text">Check BP in 4 weeks</text>
+
+  <!-- Merge -->
+  <line x1="220" y1="304" x2="220" y2="330" class="arrow"/>
+  <line x1="580" y1="304" x2="580" y2="330" class="arrow"/>
+  <line x1="220" y1="330" x2="580" y2="330" class="arrow"/>
+  <line x1="400" y1="330" x2="400" y2="345" class="arrow"/>
+
+  <!-- Drug Selection -->
+  <rect x="100" y="348" width="600" height="52" rx="8" fill="#1e293b" stroke="#00e5cc" stroke-width="1.5"/>
+  <text x="400" y="368" text-anchor="middle" class="box-title" fill="#00e5cc">Choose First-Line Agent by Patient Profile</text>
+  <text x="400" y="386" text-anchor="middle" class="box-text">Thiazide · ACE-Inhibitor · ARB · CCB (all equally good for non-Black)</text>
+
+  <!-- Sub-branches -->
+  <line x1="400" y1="400" x2="400" y2="415" class="arrow"/>
+  
+  <rect x="50" y="418" width="220" height="42" rx="6" fill="#0f172a" stroke="#a78bfa" stroke-width="1"/>
+  <text x="160" y="436" text-anchor="middle" class="box-title" fill="#a78bfa">Black Patients</text>
+  <text x="160" y="451" text-anchor="middle" class="box-text">CCB or Thiazide</text>
+
+  <rect x="290" y="418" width="220" height="42" rx="6" fill="#0f172a" stroke="#a78bfa" stroke-width="1"/>
+  <text x="400" y="436" text-anchor="middle" class="box-title" fill="#a78bfa">CKD or Diabetes</text>
+  <text x="400" y="451" text-anchor="middle" class="box-text">ACE-I or ARB</text>
+
+  <rect x="530" y="418" width="220" height="42" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="640" y="436" text-anchor="middle" class="box-title" fill="#94a3b8">General</text>
+  <text x="640" y="451" text-anchor="middle" class="box-text">Thiazide, ACE-I, ARB, or CCB</text>
+
+  <line x1="160" y1="460" x2="160" y2="475" class="arrow"/>
+  <line x1="400" y1="460" x2="400" y2="475" class="arrow"/>
+  <line x1="640" y1="460" x2="640" y2="475" class="arrow"/>
+
+  <!-- Not at target -->
+  <rect x="100" y="478" width="600" height="32" rx="8" fill="#0f172a" stroke="#f5b731" stroke-width="1.5"/>
+  <text x="400" y="498" text-anchor="middle" class="box-text" font-weight="700" fill="#f5b731">Not at target in 4 weeks? → Add second agent (not same class)</text>
+
+  <line x1="400" y1="510" x2="400" y2="530" class="arrow-teal"/>
+
+  <!-- Target -->
+  <rect x="250" y="533" width="300" height="42" rx="21" fill="rgba(0,229,204,0.15)" stroke="#00e5cc" stroke-width="2"/>
+  <text x="400" y="550" text-anchor="middle" class="box-title" fill="#00e5cc" filter="url(#glow)">Target: All Patients &lt;130/80</text>
+  <text x="400" y="565" text-anchor="middle" class="box-text" fill="#00e5cc">Recheck every 4 weeks until controlled</text>
+</svg>

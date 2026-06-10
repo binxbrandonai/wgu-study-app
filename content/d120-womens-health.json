@@ -1,0 +1,203 @@
+{
+  "topic": {
+    "id": "d120-womens-health",
+    "name": "Women's Health: Contraception & Menopause",
+    "system": "Special Populations",
+    "duration_min": 25,
+    "icon": "\ud83d\udc69",
+    "color": "#f472b6",
+    "objectives": [
+      "Compare contraceptive methods using efficacy rates and patient-specific factors",
+      "Diagnose and manage menopausal symptoms with hormonal and non-hormonal therapies",
+      "Identify and treat common causes of vaginitis using Amsel's criteria and microscopy",
+      "Interpret abnormal Pap smears and manage according to ASCCP guidelines"
+    ],
+    "lessons": [
+      {
+        "id": "womens-contraception",
+        "title": "\ud83c\udfaf Contraception: Choosing the Right Method",
+        "duration_min": 9,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Maria, 24, comes in saying she 'doesn't want to be on the pill' because it made her gain weight and feel moody. Her sister just had an IUD placed and loves it, but Maria heard 'it can perforate your uterus.' She's sexually active with one partner and wants something 'set it and forget it.' Every day in primary care, you'll help patients navigate these choices \u2014 and getting it right means preventing unintended pregnancy AND keeping them coming back for care.",
+            "visual_desc": "Decision tree showing patient preferences branching to different contraceptive options with efficacy rates"
+          },
+          {
+            "type": "definition",
+            "title": "Contraceptive Efficacy: The Tier System",
+            "content": "**CDC Medical Eligibility Criteria (MEC)** categorizes methods by **typical-use efficacy**:\n\n**Tier 1 \u2014 Most Effective (>99%)**:\n\u2022 **LARC (Long-Acting Reversible Contraception)** \u2014 IUDs (Mirena, Paragard, Kyleena, Liletta) and implant (Nexplanon)\n\u2022 **Sterilization** \u2014 tubal ligation, vasectomy\n\u2022 Failure rate: <1 per 100 woman-years\n\n**Tier 2 \u2014 Effective (91-94%)**:\n\u2022 **Oral contraceptive pills** (COCs + POPs)\n\u2022 **Contraceptive patch** (Xulane, Twirla)\n\u2022 **Vaginal ring** (NuvaRing, Annovera)\n\u2022 **DMPA injection** (Depo-Provera)\n\n**Tier 3 \u2014 Less Effective (72-88%)**:\n\u2022 **Condoms** (male + female)\n\u2022 **Diaphragm**, **cervical cap**, **sponge**\n\u2022 **Withdrawal**, **rhythm method**\n\n**Key Point**: LARC has HIGHEST satisfaction and continuation rates. ACOG recommends LARC as first-line for MOST adolescents and women.",
+            "mnemonic": "**LARC First**: **L**ong-**A**cting **R**eversible **C**ontraception = **L**owest failure, **A**ll ages, **R**eally effective, **C**ost-effective over time",
+            "visual_desc": "Pyramid graphic with tiers \u2014 Tier 1 (LARC/sterilization) at top with >99%, Tier 2 (pills/patch/ring/DMPA) with 91-94%, Tier 3 (condoms/barrier) with 72-88%"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **LARC myths debunked**: IUDs do NOT cause infertility, pelvic infection (except at insertion if active STI), or perforation (risk 1/1000, usually at insertion). Nexplanon insertion/removal is faster than a Pap smear. **Mirena is FDA-approved for heavy menstrual bleeding** \u2014 a two-for-one win in perimenopausal patients."
+          },
+          {
+            "type": "protocol",
+            "title": "Quick-Start Contraception Protocol",
+            "content": "**Quick-Start** \u2014 start hormones the day of visit (no need to wait for menses) IF:\n\u2022 Reasonably certain not pregnant (no recent unprotected sex, no signs of pregnancy)\n\u2022 **Urine pregnancy test negative** (obtain first!)\n\u2022 If started >5 days after menses onset \u2192 use backup (condoms) for 7 days\n\n**IUD Insertion Checklist**:\n\u2705 CBC if heavy menses\n\u2705 **Chlamydia/gonorrhea screening** (treat before insertion if positive)\n\u2705 Bimanual exam to determine uterine position\n\u2705 Insert during menses for easier cervix (optional, can do anytime)\n\u2705 Counsel on expected cramping/spotting for 1-3 months\n\u2705 Ultrasound guidance if difficult insertion or uncertain position\n\n**When to REFER**: Uterine anomaly, recent postpartum <4 weeks, active PID, cervical or endometrial cancer",
+            "visual_desc": "Flowchart: Patient wants contraception \u2192 Pregnancy test \u2192 Negative \u2192 Assess preferences \u2192 Choose method \u2192 If LARC: STI screening \u2192 Insert \u2192 Follow-up in 4-6 weeks"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Which contraceptive method has the HIGHEST typical-use efficacy and continuation rate?",
+            "answers": [
+              "Oral contraceptive pills",
+              "Depo-Provera injection",
+              "LARC (IUD/implant)",
+              "Male condoms"
+            ],
+            "correct": 2,
+            "explanation": "LARC methods have >99% efficacy and highest satisfaction + continuation rates per ACOG. Pills have 91% typical use and high discontinuation due to daily adherence."
+          },
+          {
+            "q": "A 19-year-old wants IUD placement. What MUST you do first?",
+            "answers": [
+              "Order pelvic ultrasound",
+              "Screen for chlamydia and gonorrhea",
+              "Start antibiotics prophylactically",
+              "Wait until she has had a child"
+            ],
+            "correct": 1,
+            "explanation": "Screen for STIs before IUD insertion. If positive, treat first. Prophylactic antibiotics are NOT recommended. Nulliparity is NOT a contraindication to IUDs."
+          }
+        ]
+      },
+      {
+        "id": "womens-menopause",
+        "title": "\ud83d\udd25 Menopause: Navigating the Transition",
+        "duration_min": 9,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Susan, 52, hasn't slept through the night in 6 months. She wakes up drenched in sweat, her mood is unpredictable ('my family walks on eggshells'), and she's gaining weight around her middle despite no change in diet. Her mother had a 'really bad menopause' and Susan says, 'I guess I just have to suffer through it like she did.' She doesn't \u2014 and neither do your patients. Menopause management is one of the most rewarding parts of primary care.",
+            "visual_desc": "Illustration of a woman with heat symbols around her head and chest, moon/crescent for disrupted sleep, and thought bubbles showing frustration and confusion"
+          },
+          {
+            "type": "definition",
+            "title": "The Menopause Transition: STRAW+10 Staging",
+            "content": "**STRAW+10 Staging System** (the standard):\n\n\u2022 **Late Reproductive Stage**: Regular cycles, subtle FSH rise, declining fertility\n\u2022 **Early Menopause Transition**: Variable cycle length (\u22657 days difference from normal), elevated FSH\n\u2022 **Late Menopause Transition**: \u22652 skipped cycles AND \u22651 interval of amenorrhea \u226560 days, FSH >25 IU/L\n\u2022 **Early Menopause**: 12 months of amenorrhea (no other cause), FSH >40 IU/L\n\u2022 **Late Menopause**: Begins 5 years after final menstrual period \u2014 urogenital symptoms dominant\n\n**Perimenopause** = the transition period + first year after final period (3-8 years total)\n\n**Key Symptoms**: Vasomotor symptoms (hot flashes, night sweats) \u2014 affect 75% of women. Sleep disturbance, mood changes, vaginal dryness, joint pain, brain fog.",
+            "mnemonic": "**STRAW Stick**: **S**tage the transition: **T**racking cycles \u2192 **R**ising FSH \u2192 **A**menorrhea 60+ days \u2192 **W**hole year no period",
+            "visual_desc": "Timeline graphic from late reproductive through late menopause with cycle patterns, FSH levels, and symptom prevalence shown along the continuum"
+          },
+          {
+            "type": "protocol",
+            "title": "Hormone Therapy: When, How, and For Whom",
+            "content": "**Menopausal Hormone Therapy (MHT) \u2014 Indications**:\n\u2022 Moderate-to-severe vasomotor symptoms (hot flashes, night sweats)\n\u2022 Prevention of bone loss (in patients at high risk who can't take bisphosphonates)\n\u2022 Genitourinary syndrome of menopause (GSM) \u2014 vaginal estrogen is FIRST-LINE\n\n**The 'Window of Opportunity'**: Start MHT within **10 years of menopause** or age <60 for best risk-benefit ratio\n\n**Regimens**:\n| Patient Type | Regimen | Example |\n|---|---|---|\n| **With uterus** | Estrogen + Progestogen (protects endometrium) | Estradiol 0.5-1mg + micronized progesterone 100-200mg |\n| **Without uterus** | Estrogen alone | Estradiol 0.5-1mg daily |\n| **Vaginal symptoms only** | Low-dose vaginal estrogen | Estradiol vaginal cream/ring/tablet \u2014 minimal systemic absorption |\n\n**Contraindications to MHT**:\n\u274c Breast cancer (current or history)\n\u274c Endometrial cancer\n\u274c Unexplained vaginal bleeding\n\u274c Active VTE or liver disease\n\u274c H/o coronary artery disease (if starting at age >60)\n\n**Non-Hormonal Options for Hot Flashes**:\n\u2022 **SSRI/SNRI**: Paroxetine 7.5mg (Brisdelle \u2014 FDA-approved!), venlafaxine 37.5-75mg\n\u2022 **Gabapentin** 300-900mg (especially for nighttime hot flashes)\n\u2022 **Oxybutynin** 2.5-5mg (emerging evidence)\n\u2022 **Cognitive behavioral therapy** \u2014 reduces hot flash bother by 50%",
+            "visual_desc": "Decision matrix: Patient with vasomotor symptoms \u2192 Age/symptom severity \u2192 Uterus (yes/no) \u2192 Choose regimen \u2192 Reassess at 3 months then annually"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **Vaginal estrogen is SAFE** \u2014 minimal systemic absorption, does NOT require progestogen protection, and is safe even for breast cancer survivors (though discuss with oncologist). Don't deny this to women with only urogenital symptoms just because they 'can't take systemic hormones.' Also: **Testosterone is NOT FDA-approved for low libido in women** \u2014 off-label use requires counseling on risks (acne, hirsutism, voice changes) and monitoring labs."
+          },
+          {
+            "type": "checklist",
+            "title": "Perimenopause Workup",
+            "content": "**When to work up symptoms before attributing to menopause**:\n\n\u2705 **TSH** \u2014 thyroid disease mimics menopause (fatigue, weight gain, mood changes)\n\u2705 **FSH** (not diagnostic alone \u2014 fluctuates! But helpful if >25 in transition)\n\u2705 **Pregnancy test** \u2014 always! Amenorrhea \u2260 menopause until proven\n\u2705 **CBC, iron panel** \u2014 heavy menstrual bleeding can cause iron deficiency\n\u2705 **Lipid panel, glucose** \u2014 CV risk increases after menopause (estrogen withdrawal)\n\u2705 **Bone density (DXA)** at menopause if risk factors: smoking, family h/o osteoporosis, BMI <20, steroid use\n\u2705 **Mammogram** \u2014 up to date before starting MHT",
+            "visual_desc": "Checklist-style infographic with a stethoscope, showing all screening items to rule out mimics before attributing symptoms to menopause"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A 54-year-old woman with an intact uterus wants MHT for severe hot flashes. What's the BEST regimen?",
+            "answers": [
+              "Estrogen alone",
+              "Estrogen + progestogen",
+              "Progestogen alone",
+              "Testosterone + estrogen"
+            ],
+            "correct": 1,
+            "explanation": "Women with a uterus NEED progestogen to prevent endometrial hyperplasia/cancer from unopposed estrogen. Estrogen-only is for women s/p hysterectomy."
+          },
+          {
+            "q": "A 62-year-old breast cancer survivor has vaginal dryness and dyspareunia. What's the BEST option?",
+            "answers": [
+              "Systemic estrogen therapy",
+              "Vaginal estrogen cream",
+              "Testosterone therapy",
+              "No treatment available"
+            ],
+            "correct": 1,
+            "explanation": "Vaginal estrogen has minimal systemic absorption. It's considered safe in most breast cancer survivors (though discuss with oncologist). Systemic estrogen is contraindicated in hormone-positive breast cancer."
+          }
+        ]
+      },
+      {
+        "id": "womens-vaginitis-pap",
+        "title": "\ud83d\udd2c Vaginitis & Abnormal Pap: From Symptoms to Management",
+        "duration_min": 7,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Jasmine, 28, comes in embarrassed: 'I have this fishy smell and it's worse after sex. My partner says I'm fine but I'm so self-conscious.' She's tried OTC yeast treatments (Monistat \u00d7 3) with no improvement. She's worried something is 'seriously wrong.' Differentiating vaginitis types by history and office microscopy is a core FNP skill \u2014 treat the wrong thing and you make patients miserable (and waste their money on unnecessary OTC products).",
+            "visual_desc": "Microscopy comparison images: clue cells (BV), pseudohyphae (yeast), trichomonads (trich) side by side with labeled features"
+          },
+          {
+            "type": "definition",
+            "title": "The Big Three: BV, Candidiasis, Trichomoniasis",
+            "content": "**Bacterial Vaginosis (BV)** \u2014 MOST common cause of abnormal discharge\n\u2022 **Cause**: Replacement of lactobacilli by Gardnerella, Atopobium, etc.\n\u2022 **Amsel's Criteria** (\u22653 of 4 needed):\n  1. Thin, gray-white, homogeneous discharge\n  2. **Whiff test positive** (fishy odor with KOH)\n  3. pH >4.5\n  4. **Clue cells** on wet mount (>20% of epithelial cells)\n\u2022 **Treatment**: Metronidazole 500mg BID \u00d77 days OR metronidazole gel 0.75% \u00d75 days\n\u2022 **Nugent Score**: Gold standard Gram stain (0-10; \u22657 = BV)\n\n**Vulvovaginal Candidiasis (VVC)**\n\u2022 **Cause**: Candida albicans (90%), C. glabrata (resistant!)\n\u2022 **Symptoms**: Thick, white, 'cottage cheese' discharge + pruritus + erythema\n\u2022 **Diagnosis**: KOH wet mount \u2192 pseudohyphae visible\n\u2022 **Treatment**: \n  - Uncomplicated: Fluconazole 150mg PO \u00d71 or OTC azole \u00d71-7 days\n  - Complicated (recurrent, severe, non-albicans): Fluconazole 150mg q72h \u00d73 doses + maintenance \u00d76 months\n\n**Trichomoniasis** \u2014 STI, MUST treat partner!\n\u2022 **Cause**: Trichomonas vaginalis (flagellated protozoan)\n\u2022 **Symptoms**: Frothy, yellow-green, malodorous discharge, strawberry cervix, dysuria\n\u2022 **Diagnosis**: Wet mount \u2192 motile trichomonads (low sensitivity 60-70%); NAAT is gold standard\n\u2022 **Treatment**: Metronidazole 2g PO \u00d71 OR Tinidazole 2g PO \u00d71\n\u2022 **Key**: Treat partner! Screen for HIV and other STIs.",
+            "mnemonic": "**VAGINAL**: **V**aginitis = **A**msel's (BV), **G**reen frothy (Trich), **I**tchy cottage cheese (Yeast), **N**-AAT for Trich, **A**zoles for yeast, **L**actobacillus repletion",
+            "visual_desc": "Three-column comparison table: Discharge appearance, pH, KOH whiff test, microscopy findings, treatment for each condition"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **Don't treat BV or Trich with just the patient \u2014 partners matter!** Trich requires partner treatment (metronidazole 2g \u00d71) or reinfection is guaranteed. BV: no clear benefit from routine partner treatment, but recommend condoms during treatment. **Also**: Fluconazole is CONTRAINDICATED in pregnancy (high-dose linked to miscarriage). Use vaginal azoles instead for pregnant patients."
+          },
+          {
+            "type": "protocol",
+            "title": "Abnormal Pap Smear: ASCCP 2019 Guidelines",
+            "content": "**Cervical Cancer Screening Schedule** (USPSTF/ACOG):\n\u2022 Age 21-29: Pap alone q3 years\n\u2022 Age 30-65: Pap + HPV co-testing q5 years (preferred) OR Pap alone q3 years\n\u2022 Age >65: Discontinue if adequate negative prior screening\n\n**Interpreting Results**:\n\n| Result | Next Step |\n|---|---|\n| **NILM** (negative) | Routine screening |\n| **ASC-US** + HPV neg | Routine screening (co-test) or repeat Pap in 1yr (cytology alone) |\n| **ASC-US** + HPV pos | **Colposcopy** |\n| **LSIL** | Colposcopy (or reflex HPV triage if cotesting shows HPV+) |\n| **ASC-H** | Colposcopy + endocervical sampling |\n| **HSIL** | Colposcopy + endocervical sampling \u2192 risk of CIN2+ is high |\n| **AGC** (atypical glandular) | Colposcopy + endocervical sampling + endometrial biopsy (if >35 or bleeding) |\n\n**Management of CIN**:\n\u2022 **CIN 1** (mild dysplasia): Observation if ASC-US/LSIL and colposcopy adequate (80% regress in 2 years)\n\u2022 **CIN 2/3**: Excision (LEEP, cold knife cone) \u2014 do not observe unless pregnant or special circumstances\n\u2022 **HPV 16/18**: Higher risk of progression \u2014 more aggressive follow-up\n\n**HPV Vaccine**: Gardasil-9 covers 9 high-risk types. Recommended ages 9-26 (catch-up 27-45 with shared decision-making). Prevents 90% of cervical cancers!",
+            "visual_desc": "Algorithm flowchart from Pap result \u2192 ASC-US/LSIL/ASC-H/HSIL/AGC \u2192 Colposcopy vs follow-up timing \u2192 Management by pathology result"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A 32-year-old has frothy yellow-green discharge, pH 6.0, and a strawberry cervix. What is the most likely diagnosis?",
+            "answers": [
+              "Bacterial vaginosis",
+              "Candidiasis",
+              "Trichomoniasis",
+              "Cervicitis from gonorrhea"
+            ],
+            "correct": 2,
+            "explanation": "Frothy yellow-green discharge, elevated pH, and strawberry cervix (petechiae) are classic for Trichomonas vaginalis. Confirm with NAAT and treat with metronidazole 2g PO \u00d71."
+          },
+          {
+            "q": "A 35-year-old patient has ASC-US on Pap with positive high-risk HPV. Next step?",
+            "answers": [
+              "Repeat Pap in 1 year",
+              "HPV vaccine now",
+              "Colposcopy",
+              "LEEP procedure"
+            ],
+            "correct": 2,
+            "explanation": "Per ASCCP 2019 guidelines: ASC-US + HPV positive \u2192 colposcopy. LEEP is treatment for CIN2+, not the initial diagnostic step."
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Ninja Nerd",
+        "title": "Female Reproductive System | Contraception",
+        "url": "https://www.youtube.com/watch?v=2D6dXuXx_2Y",
+        "duration": "40 min"
+      },
+      {
+        "source": "Osmosis",
+        "title": "Contraception - Types, Methods, and Counseling",
+        "url": "https://www.youtube.com/watch?v=mMEeeQ7s4pE",
+        "duration": "12 min"
+      }
+    ]
+  }
+}

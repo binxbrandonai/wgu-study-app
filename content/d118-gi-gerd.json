@@ -1,0 +1,209 @@
+{
+  "topic": {
+    "id": "d118-gi-gerd",
+    "name": "GERD & PUD",
+    "system": "Gastrointestinal",
+    "duration_min": 20,
+    "icon": "\ud83d\udd25",
+    "color": "#4ade80",
+    "objectives": [
+      "Diagnose GERD clinically vs when to scope",
+      "Master PPI therapy (dose, timing, duration)",
+      "H. pylori testing and eradication treatment",
+      "Red flag symptoms needing urgent referral"
+    ],
+    "lessons": [
+      {
+        "id": "gerd-basics",
+        "title": "\ud83d\udd25 GERD 101: When the Sphincter Fails",
+        "duration_min": 7,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Maria, 45, has had 'heartburn' for 3 years. She buys OTC antacids weekly. Recently she noticed food getting stuck in her chest when swallowing\u2014she has to drink water to push it down. She lost 8 lbs without trying. Maria has classic GERD that's progressed to dysphagia\u2014a RED FLAG that demands EGD to rule out Barrett's esophagus or esophageal cancer. 20% of US adults have GERD symptoms weekly. You'll see this every single day in primary care.",
+            "visual_desc": "Diagram showing lower esophageal sphincter (LES) relaxed/open with stomach acid splashing up into esophagus, contrasted with a competent closed LES"
+          },
+          {
+            "type": "definition",
+            "title": "What is GERD?",
+            "content": "**GERD** = chronic retrograde flow of gastric contents causing **troublesome symptoms** or **mucosal damage**.\n\n**Pathophysiology**: The **lower esophageal sphincter (LES)** is weak or inappropriately relaxes. Other contributors: hiatal hernia, delayed gastric emptying, obesity, pregnancy.\n\n**Classic Symptoms**:\n\u2022 **Heartburn** (retrosternal burning, worse after meals, lying down)\n\u2022 **Regurgitation** (acid or food comes up to throat)\n\u2022 **Water brash** (excessive salivation due to acid stimulation)\n\n**Atypical Symptoms** (easy to miss!):\n\u2022 **Chronic cough** (second most common cause after post-nasal drip)\n\u2022 **Globus sensation** (lump in throat)\n\u2022 **Hoarseness** (morning worse)\n\u2022 **Asthma-like wheezing**\n\u2022 **Non-cardiac chest pain** (must rule out heart first!)\n\n**Montreal Classification**: GERD diagnosed if mild symptoms \u22652\u00d7/week OR moderate-severe symptoms \u22651\u00d7/week",
+            "visual_desc": "Anatomy diagram: esophagus, LES (weak/relaxed arrow), stomach, with acid reflux shown splashing into lower esophagus"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "\ud83d\udd34 ALARM SYMPTOMS \u2014 Require EGD Before Starting PPI!",
+            "content": "**'Dysphagia, Odynophagia, Weight loss, GI bleeding'** \u2014 memorize this cold!\n\n**Alarm (Red Flag) Symptoms requiring EGD**:\n\u2022 **Dysphagia** (trouble swallowing \u2014 food sticks)\n\u2022 **Odynophagia** (painful swallowing)\n\u2022 **Unintentional weight loss**\n\u2022 **GI bleeding** (hematemesis, melena, hematochezia)\n\u2022 **Iron deficiency anemia**\n\u2022 **Persistent vomiting**\n\u2022 **Family history** of esophageal or gastric cancer\n\u2022 **Age >60** with new-onset dyspepsia\n\n**Why?** To rule out **Barrett's esophagus** (pre-cancerous intestinal metaplasia) and **esophageal adenocarcinoma**. Risk of Barrett's: 10-15% of chronic GERD patients. Risk of adenocarcinoma: 0.5% per year in Barrett's."
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "GERD alarm symptoms needing EGD",
+            "mnemonic": "**DOW-GI-VA**: **D**ysphagia, **O**dynophagia, **W**eight loss, **GI** bleeding, **V**omiting (persistent), **A**nemia / **A**ge >60"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Which patient needs EGD before starting PPI?",
+            "a": [
+              "25yo with heartburn 2x/week",
+              "35yo with regurgitation only",
+              "55yo with dysphagia and weight loss",
+              "45yo with globus sensation"
+            ],
+            "correct": 2,
+            "explanation": "Alarm symptoms (dysphagia + weight loss) require EGD to rule out Barrett's/esophageal cancer before starting symptom management."
+          },
+          {
+            "q": "Which is an ATYPICAL GERD symptom?",
+            "a": [
+              "Heartburn after spicy meals",
+              "Regurgitation when bending over",
+              "Chronic cough worse at night",
+              "Water brash"
+            ],
+            "correct": 2,
+            "explanation": "Chronic cough, hoarseness, globus, and asthma-like wheezing are atypical presentations. Classic symptoms are heartburn and regurgitation."
+          }
+        ]
+      },
+      {
+        "id": "gerd-treatment",
+        "title": "\ud83d\udc8a GERD Treatment: Putting Out the Fire",
+        "duration_min": 7,
+        "content_chunks": [
+          {
+            "type": "protocol",
+            "title": "Lifestyle First (Works Better Than You Think)",
+            "content": "**These measures can eliminate the need for daily PPI in MILD GERD**:\n\n1. **Elevate head of bed 6-8 inches** (use blocks, not extra pillows!)\n   \u2022 Pillows only increase abdominal pressure \u2192 WORSE reflux\n\n2. **Avoid lying down within 3 hours of eating**\n   \u2022 Gravity is your friend!\n\n3. **Weight loss** if BMI >25\n   \u2022 Each 5 kg/m\u00b2 increase = 2\u00d7 risk of GERD symptoms\n\n4. **Avoid trigger foods**:\n   \u2022 Fatty/greasy foods (delay gastric emptying)\n   \u2022 Chocolate, caffeine, alcohol, peppermint (LOWER LES pressure)\n   \u2022 Spicy foods, citrus, tomato sauce (irritate esophagus directly)\n   \u2022 Carbonated beverages (distend stomach \u2192 reflux)\n\n5. **Smaller, more frequent meals** (don't stretch the stomach)\n\n6. **Stop smoking** (nicotine relaxes the LES)\n\n**How effective?** Weight loss + head-of-bed elevation + dietary changes = comparable to PPI in mild intermittent GERD!",
+            "visual_desc": "Side-by-side: LEFT (wrong): patient lying flat after big meal with acid reaching upper esophagus. RIGHT (correct): bed head elevated with blocks, patient upright after meal, small portions"
+          },
+          {
+            "type": "medication_guide",
+            "title": "PPIs: The Heavy Hitters (Know This Cold)",
+            "content": "**PPIs** are first-line for moderate-severe GERD. They're the MOST potent acid suppressants.\n\n**Mechanism**: Irreversibly block H+/K+-ATPase (proton pump) in gastric parietal cells \u2192 profound acid suppression.\n\n**Examples & Dosing**:\n\u2022 **Omeprazole** (Prilosec) 20 mg daily\n\u2022 **Pantoprazole** (Protonix) 40 mg daily\n\u2022 **Esomeprazole** (Nexium) 40 mg daily\n\u2022 **Lansoprazole** (Prevacid) 30 mg daily\n\u2022 **Dexlansoprazole** (Dexilant) 60 mg daily \u2014 dual delayed release\n\n**\u23f0 CRITICAL Dosing Rules**:\n\u2022 **Take 30-60 min BEFORE breakfast** (on empty stomach!)\n\u2022 PPIs work best when taken before a meal \u2014 food activates the pumps, and PPIs need active pumps to work\n\u2022 If once daily doesn't control symptoms \u2192 add SECOND dose before dinner (don't double the AM dose!)\n\n**Duration of therapy**:\n\u2022 GERD: 8-12 week course, then try to step down or stop\n\u2022 Erosive esophagitis: 8-12 week course (may need maintenance)\n\u2022 Barrett's esophagus: indefinite (protects against progression)\n\n**Safety concerns (don't overuse PPIs!)**:\n\u2022 Long-term use (\u22651 year) \u2192 \u2191 risk of:\n  - C. diff infection (2-3\u00d7 higher risk!)\n  - Pneumonia (community-acquired)\n  - Osteoporosis/fractures (hip, wrist, spine)\n  - Vitamin B12 deficiency (impaired absorption)\n  - Hypomagnesemia\n  - CKD (possible association)\n  - Gastric fundic gland polyps (benign but annoying)\n\u2022 **Best practice**: Use lowest effective dose, try to stop after 8-12 weeks, or step down to H2RA as needed!",
+            "visual_desc": "Clock diagram: 6:30 AM = take PPI, 7:00 AM = eat breakfast (pumps activate, PPI blocks them), 7:30 PM = if needed, second dose before dinner"
+          },
+          {
+            "type": "protocol",
+            "title": "H2RAs & Antacids: The Alternatives",
+            "content": "**H2 Receptor Antagonists** (H2RAs):\n\u2022 **Mechanism**: Block histamine at parietal cell \u2192 \u2193 acid production (less potent than PPIs)\n\u2022 **Examples**: famotidine (Pepcid) 20 mg BID, nizatidine, cimetidine (rarely used \u2014 CYP interactions)\n\u2022 **Best for**: Mild GERD, breakthrough symptoms on PPI, nighttime breakthrough\n\u2022 **Key difference**: Faster onset than PPIs but less acid suppression. Tolerance develops in 2-6 weeks!\n\u2022 **Pearl**: Add famotidine 20-40 mg at bedtime for nighttime reflux breakthrough in patients already on AM PPI\n\n**Antacids**:\n\u2022 **Examples**: Tums (calcium carbonate), Maalox/Mylanta (aluminum/magnesium)\n\u2022 **Use**: Immediate PRN relief only (don't heal esophagitis)\n\u2022 **Quick**: Onset in 2-5 minutes, lasts 1-2 hours\n\u2022 **Pearl**: Great for mild intermittent symptoms, but if using >2\u00d7/week \u2192 patient needs step-up therapy\n\n**Treatment Ladder**:\nMild intermittent \u2192 Antacids PRN\nMild persistent \u2192 H2RA PRN or scheduled\nModerate-severe \u2192 PPI daily \u00d7 8-12 weeks\nSevere/erosive \u2192 PPI BID \u00d7 12 weeks \u2192 EGD to confirm healing"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "PPI timing",
+            "mnemonic": "**AM-PPI = Before Breakfast**: take PPI **30-60 min before the FIRST meal of the day** (usually breakfast)"
+          },
+          {
+            "trigger": "GERD treatment ladder",
+            "mnemonic": "**GO-TO-PPI**: **G**oals (mild = antacid, ongoing = H2RA, **T**reatment = PPI, **O**ptimal = step down when better)"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "When should you instruct a patient to take their omeprazole?",
+            "a": [
+              "With dinner",
+              "30-60 minutes before breakfast",
+              "At bedtime with a snack",
+              "With the largest meal of the day"
+            ],
+            "correct": 1,
+            "explanation": "PPIs must be taken 30-60 min BEFORE breakfast on an empty stomach. Food activates proton pumps, and PPIs need active pumps to work."
+          },
+          {
+            "q": "Patient with moderate GERD has completed 10 weeks of PPI with good control. Best next step?",
+            "a": [
+              "Continue PPI indefinitely",
+              "Try to step down or stop",
+              "Double the PPI dose",
+              "Add a second PPI"
+            ],
+            "correct": 1,
+            "explanation": "Best practice: use lowest effective dose for shortest duration. After 8-12 weeks, try step-down (lower dose, then H2RA, then PRN) or stop."
+          }
+        ]
+      },
+      {
+        "id": "pud-and-hpylori",
+        "title": "\ud83e\udda0 PUD & H. pylori: The Ulcer Duo",
+        "duration_min": 6,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "James, 52, comes in with gnawing epigastric pain that wakes him at 2 AM. Eating makes it feel better for about an hour, then it comes back. He takes ibuprofen daily for 'achy joints.' His stool is dark and tarry. James has a classic **duodenal ulcer** caused by NSAIDs + possible H. pylori. He's now bleeding \u2014 this is a medical emergency. Peptic ulcer disease affects 4 million Americans yearly. H. pylori causes 80% of gastric ulcers and 90% of duodenal ulcers. This is a treatable, curable infectious disease \u2014 and you can prevent cancer!",
+            "visual_desc": "Endoscopic view: ulcer crater in duodenal wall with visible inflammation, contrasted with normal healthy duodenal mucosa"
+          },
+          {
+            "type": "definition",
+            "title": "Gastric vs. Duodenal Ulcers (Boards LOVE This)",
+            "content": "**Peptic Ulcer Disease (PUD)** = break in the gastric or duodenal mucosa \u22655 mm with visible depth.\n\n**Causes (the two big ones)**:\n1. **H. pylori infection** (60-80% of ulcers \u2014 treatable!)\n2. **NSAIDs** (20-30% of ulcers \u2014 preventable!)\n3. Rare: Zollinger-Ellison syndrome (gastrinoma), Crohn's, stress\n\n**Gastric Ulcer vs. Duodenal Ulcer \u2014 KEY DIFFERENCES**:\n\n| Feature | Gastric Ulcer | Duodenal Ulcer |\n|---------|---------------|----------------|\n| **Pain timing** | Worse WITH eating (30-60 min after) | Worse on EMPTY stomach, relieved by food |\n| **Pain pattern** | 'Food makes it hurt' | 'Food makes it better' (2-5 AM pain) |\n| **Location** | Lesser curvature of stomach | Duodenal bulb (first part) |\n| **Cancer risk** | YES (needs biopsy at EGD!) | NO (never malignant) |\n| **H. pylori link** | 60-80% | 90% |\n| **Age** | Older (50-70) | Younger (30-60) |\n\n**Key Point**: Gastric ulcers need ENDOSCOPY WITH BIOPSY to rule out malignancy. Duodenal ulcers almost never malignant.\n\n**Complications**: **Bleeding** (most common \u2014 melena, hematemesis), **Perforation** (acute abdomen, board-like rigidity \u2014 surgical emergency!), **Gastric outlet obstruction**.",
+            "visual_desc": "Split diagram: LEFT \u2014 stomach with gastric ulcer on lesser curvature, food entering. RIGHT \u2014 duodenal bulb with ulcer, pancreatic secretions flowing"
+          },
+          {
+            "type": "protocol",
+            "title": "H. pylori \u2014 Test and Treat!",
+            "content": "**Who to test?**\n\u2022 Active PUD (found on EGD) \u2014 TEST EVERYONE!\n\u2022 History of PUD (if not previously treated)\n\u2022 **MALT lymphoma** (gastric \u2014 eradication cures 60-80%!)\n\u2022 Early gastric cancer (post-resection)\n\u2022 Dyspepsia with alarm symptoms \u2192 scope + biopsy\n\u2022 Uninvestigated dyspepsia in high-risk populations?\n\n**Best testing methods**:\n| Test | Sensitivity | Specificity | Best for |\n|------|-------------|-------------|---------|\n| **Urea breath test** | 95% | 95% | Confirms active infection, confirms eradication |\n| **Stool antigen** | 94% | 97% | Active infection test, good for eradication check |\n| **EGD with biopsy** | Gold standard | \u2014 | Needed for diagnosis of PUD + can test histology |\n| **Serology (blood IgG)** | 85% | 79% | \u274c CANNOT confirm active vs. past infection. Don't use! |\n\n**\u26a0\ufe0f Rule**: Stop PPI for 2 weeks before testing (false negatives!). Also stop bismuth and antibiotics for 4 weeks.\n\n**First-line Eradication Therapy** (local resistance permitting):\n\n**Triple Therapy** (7-14 days):\n\u2022 **PPI** BID (e.g., omeprazole 20 mg BID)\n\u2022 **Amoxicillin** 1 gram BID\n\u2022 **Clarithromycin** 500 mg BID\n\n**Quadruple Therapy** (if clarithromycin resistance suspected or prior treatment failure):\n\u2022 **PPI** BID\n\u2022 **Bismuth subsalicylate** 524 mg QID\n\u2022 **Metronidazole** 500 mg TID-QID\n\u2022 **Tetracycline** 500 mg QID\n\n**Confirm eradication**: Urea breath test or stool antigen 4+ weeks AFTER completing therapy (off PPI too!).\n\n**If first-line fails**: Switch to quadruple therapy or refer to GI.",
+            "visual_desc": "Treatment algorithm: Diagnose PUD \u2192 Test for H. pylori \u2192 If positive: Triple therapy (PPI + amoxicillin + clarithromycin) \u00d7 14 days \u2192 Confirm eradication 4 weeks later \u2192 If still positive: Quadruple therapy"
+          },
+          {
+            "type": "checklist",
+            "title": "PUD Management & Prevention Checklist",
+            "content": "**Active PUD Treatment**:\n\u2705 PPI daily \u00d7 8-12 weeks (heals most duodenal ulcers in 4-6 weeks, gastric in 8-12 weeks)\n\u2705 H. pylori eradication if positive\n\u2705 STOP NSAIDs! Switch to acetaminophen if possible\n\u2705 If NSAIDs needed: use COX-2 selective (celecoxib) + PPI co-therapy\n\n**Prevention (High-Risk Patients on NSAIDs)**:\n\ud83d\udd34 **Who needs GI protection with NSAIDs?**\n\u2022 Age >65\n\u2022 History of PUD or GI bleeding\n\u2022 On anticoagulants or antiplatelets (warfarin, DOACs, aspirin, clopidogrel)\n\u2022 On corticosteroids\n\u2022 High-dose or multiple NSAIDs\n\u2705 **Co-prescribe PPI** (omeprazole 20 mg daily) for any above risks\n\n**When to refer/ER (RIGHT NOW)**:\n\u2022 **Active GI bleed**: hematemesis, melena, hematochezia + hypotension/tachycardia\n\u2022 **Perforation**: sudden severe epigastric pain, board-like rigid abdomen, free air under diaphragm on X-ray\n\u2022 **Gastric outlet obstruction**: projectile vomiting, early satiety, weight loss\n\u2022 **Failed H. pylori eradication** after 2 courses \u2192 GI referral\n\u2022 **Gastric ulcer with atypical appearance** \u2192 needs EGD with biopsy\n\n**Patient education**:\n\u2022 Take NSAIDs with food\n\u2022 Report black/tarry stools immediately\n\u2022 Complete the full H. pylori treatment (7-14 days) even if symptoms resolve!",
+            "visual_desc": "Infographic: High-risk patient icons (age >65, ulcer history, anticoagulant user, steroid user) \u2192 shield icon labeled 'PPI' \u2192 arrow to 'Protected'"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "Gastric vs duodenal ulcer pain timing",
+            "mnemonic": "**Duodenal = D**istal = **D**inner time (empty, wakes at night, food helps). **Gastric = G**reater curve = eating **G**rieves (pain after meals)"
+          },
+          {
+            "trigger": "H. pylori eradication triple therapy",
+            "mnemonic": "**PAC**-man kills H. pylori: **P**PI, **A**moxicillin, **C**larithromycin. If fails: **BMT** \u2014 **B**ismuth, **M**etronidazole, **T**etracycline"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A patient's epigastric pain is relieved by eating but returns 2-3 hours later and wakes them at night. Most likely diagnosis?",
+            "a": [
+              "Gastric ulcer",
+              "Duodenal ulcer",
+              "GERD",
+              "Pancreatitis"
+            ],
+            "correct": 1,
+            "explanation": "Duodenal ulcer pain: empty stomach = pain, food = relief, nighttime awakening is classic. Gastric ulcer = pain WITH eating."
+          },
+          {
+            "q": "Which H. pylori test should you NOT use to confirm eradication after treatment?",
+            "a": [
+              "Urea breath test",
+              "Stool antigen",
+              "Serology (blood IgG)",
+              "EGD with biopsy"
+            ],
+            "correct": 2,
+            "explanation": "Serology tests IgG antibodies \u2014 cannot distinguish active from past infection. A positive result could be from a prior treated infection. Use breath test or stool antigen at 4+ weeks post-treatment."
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Ninja Nerd",
+        "title": "GERD | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=DZuvYkxWLq8",
+        "duration": "49 min"
+      },
+      {
+        "source": "Ninja Nerd",
+        "title": "Stomach Disorders \u2014 PUD, Gastric Cancer, GERD | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=mFOz0C6sI_I",
+        "duration": "57 min"
+      }
+    ]
+  }
+}

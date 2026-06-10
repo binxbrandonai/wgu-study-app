@@ -1,0 +1,113 @@
+{
+  "topic": {
+    "id": "respiratory-infections",
+    "name": "Common Pediatric Respiratory Infections",
+    "system": "Pediatrics",
+    "duration_min": 15,
+    "icon": "\ud83e\uddd2",
+    "color": "#38bdf8",
+    "category": "Respiratory",
+    "objectives": [],
+    "lessons": [
+      {
+        "id": "respiratory-infections-section",
+        "title": "Common Pediatric Respiratory Infections",
+        "duration_min": 15,
+        "content_chunks": [
+          {
+            "concept": "The Common Cold (Viral URI)",
+            "visual_description": "Picture the classic sick kid: runny nose, cough, low-grade fever, otherwise acting OK",
+            "details": [
+              "**Cause**: Rhinovirus most common (>100 serotypes!), also coronavirus, RSV, parainfluenza, adenovirus",
+              "**Symptoms**: Rhinorrhea (clear\u2192yellow/green is normal progression), congestion, cough, low fever (<102\u00b0F), sore throat, duration 7-10 days",
+              "**KEY POINT**: Green/yellow mucus does NOT = bacterial infection! Normal viral progression as neutrophils fight virus.",
+              "**Treatment**: Supportive only! Hydration, nasal saline, cool mist humidifier. Honey for cough if age >1 year (1-2 tsp PRN). NO antibiotics!",
+              "**When to worry**: Fever >3 days, severe ear pain, difficulty breathing, not improving after 10 days"
+            ],
+            "clinical_pearl": "\ud83d\udca1 'Colds beget colds' - kids average 6-8 URIs per year, daycare kids can get 12! Teach parents this is NORMAL."
+          },
+          {
+            "concept": "Strep Pharyngitis vs. Viral Pharyngitis",
+            "visual_description": "Compare side-by-side: viral (gradual, runny nose, cough) vs. strep (sudden, no cough, high fever)",
+            "details": [
+              "**Strep throat (BACTERIAL)**: Sudden onset, high fever (\u2265101\u00b0F), severe sore throat, NO cough, NO runny nose, headache, abdominal pain, palatal petechiae, tonsillar exudate, tender anterior cervical nodes",
+              "**Viral pharyngitis**: Gradual onset, low fever, sore throat PLUS cough/runny nose/conjunctivitis/hoarseness",
+              "**Modified Centor Score (for age \u22653)**: +1 each for: fever, no cough, tonsillar exudate, tender anterior cervical nodes, age 3-14 years. Score \u22653 = test for strep.",
+              "**Testing**: Rapid strep test (if negative, back up with culture). Don't test if viral symptoms present!",
+              "**Treatment**: Penicillin V 250mg PO BID-TID x10 days OR amoxicillin 50mg/kg once daily x10 days. If allergic: azithromycin or cephalexin (if not anaphylactic to PCN)."
+            ],
+            "mnemonic": "**'No Cough = Consider Strep'** - Cough points to viral"
+          },
+          {
+            "concept": "Otitis Media: The Ear Infection Debate",
+            "visual_description": "Picture a bulging red tympanic membrane pushing outward vs. a pink, translucent normal TM",
+            "details": [
+              "**Diagnostic Criteria (must have ALL)**: Middle ear effusion (bulging TM, decreased mobility, air-fluid level) + signs of inflammation (red/bulging) + acute symptoms (fever, ear pain, irritability)",
+              "**Common pathogens**: S. pneumoniae, H. influenzae, M. catarrhalis",
+              "**Watchful Waiting OK if**: Age \u22656 months, non-severe (mild pain, fever <102.2\u00b0F), unilateral, otherwise healthy. Follow up in 48-72 hours.",
+              "**Treat immediately if**: Age <6 months, bilateral in <2 years, severe symptoms (fever \u2265102.2\u00b0F, moderate-severe pain), immunocompromised, tympanic membrane perforation",
+              "**First-line**: High-dose amoxicillin 80-90 mg/kg/day divided BID x 10 days (age <2) or 5-7 days (age \u22652)",
+              "**If PCN allergy**: Cefdinir or azithromycin. If recent amoxicillin: use amoxicillin-clavulanate."
+            ],
+            "clinical_pearl": "\ud83d\udc42 **Red TM alone \u2260 infection!** Kids cry, TMs get red. Need bulging/effusion + symptoms. Also, 80% resolve without antibiotics (but we treat to prevent complications)."
+          },
+          {
+            "concept": "Croup (Laryngotracheobronchitis)",
+            "visual_description": "Hear the classic 'seal bark' cough and inspiratory stridor - unmistakable!",
+            "details": [
+              "**Cause**: Parainfluenza virus (most common), also RSV, influenza, adenovirus",
+              "**Age**: 6 months to 3 years (peak fall/winter)",
+              "**Symptoms**: 'Seal bark' or 'brassy' cough, inspiratory stridor (worse when agitated), hoarseness, respiratory distress, worse at night",
+              "**Severity grading**: Mild (occasional stridor with activity), Moderate (stridor at rest, mild retractions), Severe (stridor at rest + significant distress + retractions + lethargy)",
+              "**Treatment**: Dexamethasone 0.6 mg/kg PO/IM/IV x1 dose (all severities!). Nebulized racemic epinephrine if moderate-severe (lasts 2 hours - observe!). Cool mist, calm environment.",
+              "**When to admit**: Severe distress, hypoxia, poor response to epinephrine, unable to tolerate PO, young age <6mo"
+            ],
+            "mnemonic": "**'CROUP = Cool mist, Racemic epi, Observe, U need dex (dexamethasone), Parent reassurance'**"
+          },
+          {
+            "concept": "Bronchiolitis: The RSV Season Scourge",
+            "visual_description": "Picture a wheezy infant with nasal flaring, working hard to breathe, barely eating",
+            "details": [
+              "**Cause**: RSV (70%), also human metapneumovirus, rhinovirus, parainfluenza",
+              "**Age**: Peak <2 years, especially <6 months",
+              "**Symptoms**: URI prodrome 2-3 days \u2192 progressive cough, wheezing, tachypnea, increased work of breathing, poor feeding, fever variable",
+              "**Exam**: Tachypnea, wheezing, crackles, nasal flaring, retractions, prolonged expiratory phase",
+              "**Treatment**: SUPPORTIVE ONLY! Hydration (IV if not tolerating PO), supplemental O2 if SpO2 <90%, nasal suctioning. NO bronchodilators, NO steroids, NO antibiotics (unless secondary bacterial infection).",
+              "**When to admit**: Age <3 months, SpO2 <90%, severe distress, dehydration, apnea, high-risk (premature, cardiac/pulmonary disease, immunocompromised)",
+              "**Prevention**: Palivizumab (Synagis) monthly IM during RSV season for high-risk infants (ex-premature <29 weeks, CHD, chronic lung disease)"
+            ],
+            "clinical_pearl": "\ud83d\udeab **Bronchiolitis = DO LESS!** Studies show albuterol, steroids don't help (it's virus, not asthma). Supportive care is the only proven treatment."
+          }
+        ],
+        "story_intro": {
+          "text": "It's fall, and your schedule is PACKED with coughs, runny noses, and worried parents asking, 'Does my child need antibiotics?' Let's distinguish viral URIs (no antibiotics!) from bacterial infections (treat!), and recognize when a cough becomes croup or bronchiolitis.",
+          "visual_cue": "\ud83e\udd27 Imagine a lineup: Child with clear runny nose (virus), child with green snot for 2 days (still virus!), child with stridor (croup!), infant with wheezing (bronchiolitis!)."
+        },
+        "quick_checks": [],
+        "mnemonics": [],
+        "clinical_pearls": [
+          "**The '10-Day Rule'**: URI symptoms >10 days without improvement may indicate bacterial sinusitis (rare in kids!). Need purulent nasal discharge AND (facial pain OR daytime cough). Treat with amoxicillin-clavulanate if criteria met.",
+          "**When NOT to use antibiotics**: Green snot (normal with viral URI), cough <14 days, low-grade fever <3 days, bronchiolitis, croup, asymptomatic rhinorrhea",
+          "**Honey for cough**: 1-2 tsp at bedtime for kids \u22651 year. As effective as dextromethorphan! Never in infants <1 year (botulism risk).",
+          "**Over-the-counter cough/cold meds**: DO NOT USE in kids <6 years (FDA warning). Ineffective and potential for overdose. Ages 6-12: can use but limited benefit.",
+          "**Pneumonia red flags**: Persistent fever >3 days, hypoxia, respiratory distress, focal findings (decreased breath sounds, dullness to percussion)"
+        ],
+        "red_flags": []
+      }
+    ],
+    "videos": [
+      {
+        "source": "Osmosis",
+        "title": "Bronchiolitis (RSV) - Pediatric Nursing",
+        "url": "https://www.youtube.com/watch?v=ABYX6qq5p-0",
+        "duration": "6 min"
+      },
+      {
+        "source": "Ninja Nerd",
+        "title": "Croup vs Epiglottitis | Pediatrics",
+        "url": "https://www.youtube.com/watch?v=z64-u4Cn0jw",
+        "duration": "20 min"
+      }
+    ]
+  }
+}

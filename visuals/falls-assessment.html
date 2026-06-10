@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falls Assessment & Prevention</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        .stat-banner {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .stat-banner h2 {
+            margin: 0 0 15px 0;
+        }
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .stat-item {
+            background: rgba(255,255,255,0.2);
+            border-radius: 8px;
+            padding: 15px;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .flowchart {
+            margin: 30px 0;
+        }
+        .flow-step {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            position: relative;
+            border-left: 5px solid #f5576c;
+        }
+        .flow-step::after {
+            content: '⬇';
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 24px;
+            color: #f5576c;
+        }
+        .flow-step:last-child::after {
+            content: '';
+        }
+        .step-header {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .risk-factors {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .risk-category {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        .risk-intrinsic {
+            border-left: 5px solid #dc3545;
+        }
+        .risk-extrinsic {
+            border-left: 5px solid #ffc107;
+        }
+        .risk-medication {
+            border-left: 5px solid #6f42c1;
+        }
+        .risk-category h3 {
+            margin: 0 0 12px 0;
+            font-size: 1.1em;
+        }
+        .risk-category ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .risk-category li {
+            margin: 8px 0;
+            line-height: 1.5;
+        }
+        .assessment-section {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+        .assessment-section h2 {
+            color: #856404;
+            margin-top: 0;
+        }
+        .assessment-tools {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .tool-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        .tool-card h3 {
+            color: #f5576c;
+            margin: 0 0 12px 0;
+        }
+        .intervention-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .intervention-card {
+            background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .intervention-card h3 {
+            margin: 0 0 15px 0;
+            color: #2c3e50;
+            border-bottom: 2px solid rgba(0,0,0,0.1);
+            padding-bottom: 8px;
+        }
+        .intervention-card ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .intervention-card li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+        .alert-box {
+            background: #f8d7da;
+            border: 2px solid #dc3545;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .alert-box h3 {
+            color: #721c24;
+            margin-top: 0;
+        }
+        .tips-box {
+            background: #d1ecf1;
+            border: 2px solid #bee5eb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .tips-box h3 {
+            color: #0c5460;
+            margin-top: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th {
+            background: #f5576c;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚨 Falls Assessment & Prevention in Older Adults 🚨</h1>
+        <p class="subtitle">Comprehensive Guide for D120</p>
+        
+        <div class="stat-banner">
+            <h2>Why Falls Matter</h2>
+            <div class="stat-grid">
+                <div class="stat-item">
+                    <div class="stat-number">1 in 3</div>
+                    <div>Adults 65+ fall annually</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">#1</div>
+                    <div>Cause of injury-related death in elderly</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">20-30%</div>
+                    <div>Falls cause moderate to severe injuries</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">$50B</div>
+                    <div>Annual healthcare costs from falls</div>
+                </div>
+            </div>
+        </div>
+        
+        <h2 style="text-align: center; margin-top: 40px;">Falls Risk Factors</h2>
+        <div class="risk-factors">
+            <div class="risk-category risk-intrinsic">
+                <h3 style="color: #dc3545;">🧍 Intrinsic (Patient) Factors</h3>
+                <ul>
+                    <li><strong>Age:</strong> Risk ↑ with age (>80 highest risk)</li>
+                    <li><strong>History of falls:</strong> Strongest predictor of future falls</li>
+                    <li><strong>Gait/balance impairment:</strong> Muscle weakness, poor balance</li>
+                    <li><strong>Vision problems:</strong> Cataracts, macular degeneration, glaucoma</li>
+                    <li><strong>Orthostatic hypotension:</strong> ↓ BP on standing (drop >20 systolic or >10 diastolic)</li>
+                    <li><strong>Chronic conditions:</strong> Stroke, Parkinson's, arthritis, dementia, diabetes (neuropathy)</li>
+                    <li><strong>Cognitive impairment:</strong> Dementia, delirium</li>
+                    <li><strong>Urinary incontinence/frequency:</strong> Rushing to bathroom</li>
+                    <li><strong>Fear of falling:</strong> Leads to activity restriction → deconditioning</li>
+                    <li><strong>Foot problems:</strong> Pain, deformities, poor footwear</li>
+                </ul>
+            </div>
+            
+            <div class="risk-category risk-extrinsic">
+                <h3 style="color: #ffc107;">🏠 Extrinsic (Environmental) Factors</h3>
+                <ul>
+                    <li><strong>Home hazards:</strong> Clutter, throw rugs, cords</li>
+                    <li><strong>Poor lighting:</strong> Dim hallways, stairs</li>
+                    <li><strong>Bathroom hazards:</strong> Wet floors, no grab bars</li>
+                    <li><strong>Stairs:</strong> Without railings, uneven steps</li>
+                    <li><strong>Slippery surfaces:</strong> Wet floors, ice</li>
+                    <li><strong>Improper footwear:</strong> Slippers, loose shoes, high heels</li>
+                    <li><strong>Pets:</strong> Tripping hazard</li>
+                    <li><strong>Assistive device issues:</strong> Improper use or maintenance</li>
+                </ul>
+            </div>
+            
+            <div class="risk-category risk-medication">
+                <h3 style="color: #6f42c1;">💊 High-Risk Medications</h3>
+                <ul>
+                    <li><strong>Sedatives/hypnotics:</strong> Benzodiazepines, zolpidem</li>
+                    <li><strong>Antipsychotics:</strong> All types</li>
+                    <li><strong>Antidepressants:</strong> SSRIs, TCAs (anticholinergic)</li>
+                    <li><strong>Opioids:</strong> Any dose</li>
+                    <li><strong>Anticholinergics:</strong> Antihistamines, bladder antimuscarinics</li>
+                    <li><strong>Antihypertensives:</strong> Especially alpha-blockers</li>
+                    <li><strong>Anticonvulsants:</strong> Sedating effects</li>
+                    <li><strong>Polypharmacy:</strong> ≥4 medications ↑ fall risk</li>
+                </ul>
+                <p style="margin-top: 12px; font-weight: bold; color: #6f42c1;">Risk ↑ with each additional medication</p>
+            </div>
+        </div>
+        
+        <h2 style="text-align: center; margin-top: 40px;">Falls Assessment Flowchart</h2>
+        <div class="flowchart">
+            <div class="flow-step">
+                <div class="step-header">STEP 1: Screen All Older Adults</div>
+                <p><strong>Ask 3 questions at every visit (age 65+):</strong></p>
+                <ol>
+                    <li>Have you fallen in the past year?</li>
+                    <li>Do you feel unsteady when standing or walking?</li>
+                    <li>Are you worried about falling?</li>
+                </ol>
+                <p style="margin-top: 15px;"><strong>Action:</strong></p>
+                <ul>
+                    <li><strong>NO to all 3:</strong> Low risk → Provide fall prevention education, reassess annually</li>
+                    <li><strong>YES to any:</strong> Proceed to comprehensive fall assessment (Step 2)</li>
+                </ul>
+            </div>
+            
+            <div class="flow-step">
+                <div class="step-header">STEP 2: Comprehensive Fall Risk Assessment</div>
+                <p><strong>Perform detailed multifactorial assessment:</strong></p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Assessment Component</th>
+                            <th>What to Evaluate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Fall History</strong></td>
+                            <td>Number, location, circumstances, injuries, witnesses, symptoms before fall</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Medications</strong></td>
+                            <td>Complete list, high-risk meds, recent changes, polypharmacy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Vision</strong></td>
+                            <td>Visual acuity, cataracts, glasses current, ophthalmology referral if needed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Cardiovascular</strong></td>
+                            <td>Orthostatic BP (lying, sitting, standing at 1 & 3 min), arrhythmias, cardiac exam</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Neurological</strong></td>
+                            <td>Cognitive screen (MMSE, MoCA), sensory (proprioception, neuropathy), Parkinson's signs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Musculoskeletal</strong></td>
+                            <td>Muscle strength, joint range of motion, arthritis, foot problems</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Functional</strong></td>
+                            <td>ADLs, IADLs, assistive devices, activity level</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Environmental</strong></td>
+                            <td>Home safety assessment (or referral for one)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="flow-step">
+                <div class="step-header">STEP 3: Perform Gait & Balance Testing</div>
+                <div class="assessment-section">
+                    <h2>Functional Assessment Tools</h2>
+                    <div class="assessment-tools">
+                        <div class="tool-card">
+                            <h3>Timed Up and Go (TUG)</h3>
+                            <p><strong>Procedure:</strong></p>
+                            <ol>
+                                <li>Patient starts seated in chair with armrests</li>
+                                <li>Stand up, walk 10 feet (3 meters)</li>
+                                <li>Turn around, walk back, sit down</li>
+                                <li>Time the entire sequence</li>
+                            </ol>
+                            <p><strong>Interpretation:</strong></p>
+                            <ul>
+                                <li><strong><10 seconds:</strong> Normal</li>
+                                <li><strong>10-14 seconds:</strong> Low fall risk</li>
+                                <li><strong>>14 seconds:</strong> High fall risk</li>
+                                <li><strong>>20 seconds:</strong> Very high risk, significant mobility impairment</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tool-card">
+                            <h3>30-Second Chair Stand</h3>
+                            <p><strong>Procedure:</strong></p>
+                            <ol>
+                                <li>Patient starts seated, arms crossed over chest</li>
+                                <li>Stand up and sit down as many times as possible in 30 seconds</li>
+                                <li>Count number of stands</li>
+                            </ol>
+                            <p><strong>Interpretation:</strong></p>
+                            <ul>
+                                <li><strong>Men 60-69:</strong> <14 stands = below normal</li>
+                                <li><strong>Women 60-69:</strong> <12 stands = below normal</li>
+                                <li><strong>Lower = ↑ fall risk</strong></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tool-card">
+                            <h3>Berg Balance Scale</h3>
+                            <p><strong>Description:</strong> 14-item objective measure of static and dynamic balance</p>
+                            <p><strong>Tasks include:</strong></p>
+                            <ul>
+                                <li>Sitting/standing balance</li>
+                                <li>Transfers</li>
+                                <li>Reaching, bending</li>
+                                <li>Turning, standing on one foot</li>
+                            </ul>
+                            <p><strong>Scoring:</strong></p>
+                            <ul>
+                                <li>0-4 points per item (max 56)</li>
+                                <li><strong><45:</strong> High fall risk</li>
+                                <li><strong>45-50:</strong> Moderate risk</li>
+                                <li><strong>>50:</strong> Low risk</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tool-card">
+                            <h3>Functional Reach Test</h3>
+                            <p><strong>Procedure:</strong></p>
+                            <ol>
+                                <li>Patient stands arm extended forward at 90°</li>
+                                <li>Reach forward as far as possible without stepping</li>
+                                <li>Measure distance reached</li>
+                            </ol>
+                            <p><strong>Interpretation:</strong></p>
+                            <ul>
+                                <li><strong>>10 inches (25 cm):</strong> Low risk</li>
+                                <li><strong>6-10 inches:</strong> Moderate risk</li>
+                                <li><strong><6 inches:</strong> High fall risk</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-step">
+                <div class="step-header">STEP 4: Identify Specific Risk Factors</div>
+                <p><strong>Based on assessment, identify modifiable risk factors:</strong></p>
+                <ul>
+                    <li>✅ High-risk medications</li>
+                    <li>✅ Gait/balance impairment</li>
+                    <li>✅ Muscle weakness</li>
+                    <li>✅ Orthostatic hypotension</li>
+                    <li>✅ Visual impairment</li>
+                    <li>✅ Environmental hazards</li>
+                    <li>✅ Footwear issues</li>
+                    <li>✅ Vitamin D deficiency</li>
+                    <li>✅ Cognitive impairment</li>
+                    <li>✅ Postural instability</li>
+                </ul>
+            </div>
+            
+            <div class="flow-step">
+                <div class="step-header">STEP 5: Implement Multifactorial Interventions</div>
+                <p style="margin-bottom: 20px;"><strong>Tailor interventions to individual risk factors - multifactorial approach is most effective</strong></p>
+            </div>
+        </div>
+        
+        <h2 style="text-align: center; margin-top: 40px;">Evidence-Based Interventions</h2>
+        <div class="intervention-grid">
+            <div class="intervention-card">
+                <h3>💊 Medication Management</h3>
+                <ul>
+                    <li><strong>Medication review:</strong> Identify high-risk medications</li>
+                    <li><strong>Deprescribe:</strong> Taper/discontinue benzodiazepines, sedatives, anticholinergics</li>
+                    <li><strong>Minimize polypharmacy:</strong> Target <4 medications if possible</li>
+                    <li><strong>Review timing:</strong> Avoid doses before bedtime/nighttime bathroom trips</li>
+                    <li><strong>Treat orthostatic hypotension:</strong> Adjust BP meds, hydration, compression stockings</li>
+                </ul>
+            </div>
+            
+            <div class="intervention-card">
+                <h3>💪 Exercise Programs</h3>
+                <ul>
+                    <li><strong>Most effective intervention!</strong> Reduces falls by 20-30%</li>
+                    <li><strong>Balance training:</strong> Tai Chi (evidence-based), yoga, standing exercises</li>
+                    <li><strong>Strength training:</strong> Lower extremity focus, resistance exercises</li>
+                    <li><strong>Gait training:</strong> Physical therapy referral</li>
+                    <li><strong>Duration:</strong> 2-3 sessions/week for ≥3 months</li>
+                    <li><strong>Group classes:</strong> Improve compliance, social benefits</li>
+                </ul>
+            </div>
+            
+            <div class="intervention-card">
+                <h3>🏠 Home Safety Modifications</h3>
+                <ul>
+                    <li><strong>Lighting:</strong> Bright, night lights in hallways/bathrooms</li>
+                    <li><strong>Remove hazards:</strong> Throw rugs, clutter, cords, low furniture</li>
+                    <li><strong>Bathroom:</strong> Grab bars, non-slip mats, raised toilet seat, shower chair</li>
+                    <li><strong>Stairs:</strong> Handrails on both sides, non-slip treads, good lighting</li>
+                    <li><strong>Flooring:</strong> Secure carpets, repair uneven surfaces</li>
+                    <li><strong>OT referral:</strong> For comprehensive home assessment</li>
+                </ul>
+            </div>
+            
+            <div class="intervention-card">
+                <h3>👁️ Vision Correction</h3>
+                <ul>
+                    <li><strong>Annual eye exams:</strong> Update prescriptions</li>
+                    <li><strong>Cataract surgery:</strong> If indicated - reduces fall risk</li>
+                    <li><strong>Avoid multifocal glasses:</strong> For walking/stairs (bifocals ↑ falls)</li>
+                    <li><strong>Treat glaucoma/AMD:</strong> Preserve remaining vision</li>
+                    <li><strong>Proper lighting:</strong> Compensate for vision changes</li>
+                </ul>
+            </div>
+            
+            <div class="intervention-card">
+                <h3>🦶 Footwear & Foot Care</h3>
+                <ul>
+                    <li><strong>Proper footwear:</strong> Low heel, non-slip soles, good support</li>
+                    <li><strong>Avoid:</strong> Slippers, loose shoes, high heels, shoes with slick soles</li>
+                    <li><strong>Podiatry referral:</strong> For foot pain, deformities, nail care</li>
+                    <li><strong>Orthotics:</strong> If indicated for stability</li>
+                    <li><strong>Treat foot problems:</strong> Corns, calluses, bunions</li>
+                </ul>
+            </div>
+            
+            <div class="intervention-card">
+                <h3>🩺 Medical Management</h3>
+                <ul>
+                    <li><strong>Vitamin D:</strong> 800-1000 IU/day (reduces falls in deficient patients)</li>
+                    <li><strong>Calcium:</strong> 1200 mg/day for bone health</li>
+                    <li><strong>Treat chronic conditions:</strong> Parkinson's, arthritis pain, neuropathy</li>
+                    <li><strong>Manage orthostatic hypotension:</strong> Hydration, salt, compression, medication adjustment</li>
+                    <li><strong>Cardiac evaluation:</strong> If syncope/pre-syncope</li>
+                </ul>
+            </div>
+            
+            <div class="intervention-card">
+                <h3>🧠 Cognitive & Behavioral</h3>
+                <ul>
+                    <li><strong>Cognitive screening:</strong> Treat reversible causes</li>
+                    <li><strong>Address fear of falling:</strong> Reassurance, graduated activity</li>
+                    <li><strong>Education:</strong> Fall risk awareness, prevention strategies</li>
+                    <li><strong>Avoid activity restriction:</strong> Deconditioning ↑ fall risk</li>
+                    <li><strong>Toileting schedule:</strong> Reduce urgency-related falls</li>
+                </ul>
+            </div>
+            
+            <div class="intervention-card">
+                <h3>🛡️ Assistive Devices & Technology</h3>
+                <ul>
+                    <li><strong>Proper assistive device:</strong> Cane, walker if indicated (PT assessment)</li>
+                    <li><strong>Device training:</strong> Correct use, maintenance</li>
+                    <li><strong>Hip protectors:</strong> For very high-risk patients (limited evidence)</li>
+                    <li><strong>Personal alarm:</strong> Medical alert system for fall detection</li>
+                    <li><strong>Avoid restraints:</strong> ↑ injury risk, loss of independence</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="alert-box">
+            <h3>🚨 Post-Fall Assessment (If Fall Occurred)</h3>
+            <p><strong>IMMEDIATE assessment needed - don't just assume "they're OK"</strong></p>
+            <ul>
+                <li><strong>Injuries:</strong> Fractures (hip, wrist, spine), head injury, lacerations</li>
+                <li><strong>Vital signs:</strong> BP (orthostatic), HR (arrhythmia?)</li>
+                <li><strong>Neurological exam:</strong> Mental status, focal deficits (stroke?)</li>
+                <li><strong>Circumstances:</strong> Where, when, what happened, witnessed?</li>
+                <li><strong>Symptoms before fall:</strong> Dizziness, chest pain, palpitations, confusion</li>
+                <li><strong>Long lie?</strong> Time on ground (rhabdomyolysis, dehydration, pressure ulcers)</li>
+                <li><strong>Labs if indicated:</strong> CBC, BMP, glucose, ECG, cardiac enzymes</li>
+                <li><strong>Imaging:</strong> X-rays for suspected fractures, head CT if head injury/anticoagulated</li>
+            </ul>
+            <p style="margin-top: 15px; font-weight: bold;">⚠️ Hip fractures are often missed initially - low threshold for imaging if hip/groin pain after fall</p>
+        </div>
+        
+        <div class="tips-box">
+            <h3>💡 Clinical Pearls for D120:</h3>
+            <ul>
+                <li><strong>Screen ALL older adults annually</strong> - falls are not a normal part of aging</li>
+                <li><strong>Multifactorial interventions work best</strong> - address multiple risk factors simultaneously</li>
+                <li><strong>Exercise is #1 evidence-based intervention</strong> - specifically balance training (Tai Chi has best evidence)</li>
+                <li><strong>Vitamin D supplementation reduces falls</strong> - especially in deficient patients</li>
+                <li><strong>One fall = high risk for another</strong> - history of falls strongest predictor</li>
+                <li><strong>Check orthostatic BP properly:</strong> Lying → standing at 1 min and 3 min (delayed orthostatic hypotension common)</li>
+                <li><strong>Medication review is critical</strong> - polypharmacy and psychotropics are major modifiable risk factors</li>
+                <li><strong>Don't restrict activity</strong> - deconditioning increases fall risk; keep patients active with safety measures</li>
+                <li><strong>Home assessment by OT</strong> - most cost-effective for high-risk patients</li>
+                <li><strong>Hip fractures have high mortality</strong> - 20-30% die within 1 year, many lose independence</li>
+                <li><strong>Educate caregivers</strong> - they play key role in environmental modifications and supervision</li>
+                <li><strong>TUG >14 seconds = high risk</strong> - simple, quick screening tool for every visit</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

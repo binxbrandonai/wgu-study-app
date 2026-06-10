@@ -1,0 +1,191 @@
+{
+  "topic": {
+    "id": "d120-adolescent",
+    "name": "Adolescent Health",
+    "system": "Special Populations",
+    "duration_min": 25,
+    "icon": "\ud83e\uddd1",
+    "color": "#38bdf8",
+    "objectives": [
+      "Apply laws and best practices for confidential adolescent care including minor consent and HIPAA",
+      "Perform a sports pre-participation physical using the PPE monograph guidelines",
+      "Screen for high-risk behaviors using HEADSSS assessment framework",
+      "Identify red flags for substance use, eating disorders, and mental health crises in adolescents"
+    ],
+    "lessons": [
+      {
+        "id": "adolescent-confidentiality",
+        "title": "\ud83e\udd1d Confidential Care: Legal & Ethical Essentials",
+        "duration_min": 9,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Jordan, 16, asks to 'talk to you alone' while mom is still in the room. Mom looks offended. 'We don't keep secrets from each other,' she says. Jordan's face falls. How you handle this moment determines whether Jordan ever tells you about the vaping, the unprotected sex, or the suicidal thoughts they've been having. Studies show that adolescents are LESS likely to access care if they fear their parents will be told. Confidentiality isn't optional \u2014 it's the foundation of adolescent medicine.",
+            "visual_desc": "Office scene: doctor asking parent to step out, teen looking relieved, balancing trust and transparency"
+          },
+          {
+            "type": "definition",
+            "title": "Minor Consent & Confidentiality: What You CAN Keep Private",
+            "content": "**HIPAA Privacy Rule**: Adolescents can consent for their own care in certain situations. In those cases, they control their own health information.\n\n**Services Minors Can Consent For (varies by state, but generally)**:\n\u2022 **STI testing and treatment** \u2014 ALL 50 states\n\u2022 **Contraceptive services** \u2014 most states (some allow pharmacy access without parental consent)\n\u2022 **Pregnancy testing and prenatal care**\n\u2022 **Mental health counseling** \u2014 varies (typically 12+ sessions or specific conditions)\n\u2022 **Substance use treatment** \u2014 most states\n\u2022 **HIV testing** \u2014 ALL 50 states\n\n**What MUST be disclosed**:\n\u2705 **Abuse** (physical, sexual, emotional, neglect) \u2014 mandatory reporting in ALL states\n\u2705 **Risk of serious harm to self or others** \u2014 duty to protect\n\u2705 **Certain infectious diseases** \u2014 public health reporting (varies by state)\n\n**Confidentiality Counseling Model**:\n1. Start with parent present: 'I'd like to speak with Jordan alone for a few minutes, then we'll all talk together.'\n2. Set ground rules with teen: 'Everything we discuss is private between us UNLESS you're going to hurt yourself, someone is hurting you, or someone is hurting you.'\n3. Encourage parent-teen communication: 'It's often helpful to talk to your parents about these things. Can we think about how to do that together?'\n4. Bill appropriately: Use confidential billing codes. Some states require explanation of benefits (EOBs) to be sent privately.\n\n**Key boards point**: FNP must know STATE-specific minor consent laws. When in doubt, consult legal counsel or your state's minor consent statute.",
+            "mnemonic": "**CONFIDENT**: **C**ontraception, **O**bstetrics (pregnancy), **N**otifiable STIs, **F**amily planning, **I**nfections (HIV), **D**rug/alcohol treatment, **E**motional (mental health), **N**eglect reporting, **T**een friendly",
+            "visual_desc": "Flowchart: Teen enters clinic \u2192 Check-in \u2192 Parent in room \u2192 Ask parent to step out \u2192 Confidential interview \u2192 Set limits \u2192 Discuss concerns \u2192 Invite parent back for summary"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **EOBs can break confidentiality**: Even if you don't tell parents, an Explanation of Benefits from insurance listing 'chlamydia test' or 'contraceptive counseling' going to the policyholder (parent) can disclose sensitive services. Know your state's EOB confidentiality protections or work with Title X-funded clinics that provide free/low-cost confidential care. Also: **Don't assume** \u2014 ask the teen directly about what they want shared."
+          },
+          {
+            "type": "checklist",
+            "title": "Setting Up a Confidential Adolescent Visit",
+            "content": "\u2705 **Front desk**: Ask if teen has privacy concerns about EOBs/phone calls\n\u2705 **Vitals room**: Give confidential screening questionnaire (HEADSSS, PHQ-9, CRAFFT)\n\u2705 **Exam room, alone**: 'Your mom/dad will join us at the end, but first I'd like to talk with you alone'\n\u2705 **State limits clearly**: 'The only exceptions are if you're being hurt, might hurt yourself, or might hurt someone else'\n\u2705 **Assess confidentiality understanding**: 'Do you understand what I've said?'\n\u2705 **Complete HEADSSS assessment**\n\u2705 **Offer parent summary**: 'What would you like me to share with your parent?'\n\u2705 **Invite parent back**: Share agreed-upon info, provide general health guidance\n\u2705 **Document**: Note confidentiality agreement in chart, avoid documenting sensitive details if parent has chart access",
+            "visual_desc": "Step-by-step visual guide through the adolescent visit workflow with confidentiality flags at each stage"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A 15-year-old tests positive for chlamydia. Which statement is TRUE regarding confidentiality?",
+            "answers": [
+              "Parent MUST be informed before treatment",
+              "Minor can consent to STI treatment without parental knowledge in all 50 states",
+              "I can only treat if parent is present",
+              "Must report to police for statutory reasons"
+            ],
+            "correct": 1,
+            "explanation": "ALL 50 states allow minors to consent to STI diagnosis and treatment. The teen has the right to confidentiality, though encouraging parent communication is always best practice."
+          },
+          {
+            "q": "A 17-year-old admits to suicidal thoughts with a plan. What is your legal obligation?",
+            "answers": [
+              "Maintain confidentiality \u2014 it was a private conversation",
+              "Call only the police",
+              "Breach confidentiality to protect the minor and notify parents/guardians",
+              "Wait until next visit to reassess severity"
+            ],
+            "correct": 2,
+            "explanation": "Duty to protect overrides confidentiality. When a minor is at imminent risk of self-harm, you must breach confidentiality to ensure safety \u2014 notify parents and/or emergency services."
+          }
+        ]
+      },
+      {
+        "id": "adolescent-sports-physical",
+        "title": "\u26bd Sports Physical: The PPE Monograph",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Marcus, 14, star point guard, comes in for his 'sports physical' \u2014 he needs the form signed by Friday. He's 'totally healthy.' Mom mentions he passed out during practice last week but 'it was just dehydration.' Except it wasn't \u2014 Marcus has hypertrophic cardiomyopathy (HCM), the #1 cause of sudden cardiac death in young athletes. The sports physical (PPE) isn't just a checkbox; it's a screening that can save lives. You'll do dozens of these a month in primary care.",
+            "visual_desc": "Sports physical form with highlighted sections: cardiac screening questions (HCM red flags), musculoskeletal exam, concussion history"
+          },
+          {
+            "type": "definition",
+            "title": "Pre-Participation Physical Evaluation (PPE) Monograph \u2014 6th Edition",
+            "content": "**Purpose**: Not to disqualify, but to IDENTIFY conditions that may increase risk and MANAGE them.\n\n**Key Components**:\n1. **Medical History** (most important part!):\n   \u2022 Prior cardiac symptoms: chest pain, syncope/near-syncope, palpitations, excessive SOB with exercise\n   \u2022 Family history: sudden cardiac death before age 50, HCM, long QT, Marfan syndrome\n   \u2022 Prior concussion, hospitalizations, surgeries, medications\n\n2. **Cardiac Screening** \u2014 14-Element AHA Screening Questions:\n   \u2022 Any chest pain or discomfort with exercise?\n   \u2022 Ever passed out or nearly passed out during/after exercise?\n   \u2022 Ever had high blood pressure or heart murmur?\n   \u2022 Family member with HCM, long QT, Marfan, or sudden cardiac death <50yo?\n   \u2022 Any unexplained death in family <50yo?\n   **Any \u2018YES\u2019** \u2192 ECG and/or cardiology referral\n\n3. **Physical Exam**:\n   \u2022 BP, HR, auscultation (sitting, supine, standing \u2014 looking for HCM murmur that changes)\n   \u2022 Visual acuity\n   \u2022 MSK screening: Duck-Waddle test, strength, flexibility\n   \u2022 Skin: caf\u00e9-au-lait spots (neurofibromatosis), acanthosis nigricans (DM risk)\n   \u2022 Genital exam/hernia check: especially for contact sports (varies by state/sport)\n\n4. **Concussion History**: Number, severity, prolonged symptoms, loss of consciousness\n\n**When to DISQUALIFY (temporarily)**:\n\u2022 Active cardiac symptoms (syncope, chest pain) \u2192 cardiology eval needed first\n\u2022 Untreated hypertension (Stage 2)\n\u2022 Acute illness (fever, myocarditis)\n\u2022 Recent concussion (not cleared yet)\n\u2022 Single functioning organ (kidney, eye, testis) \u2192 shared decision-making, protective equipment",
+            "mnemonic": "**SCUBA D** for cardiac screening: **S**yncope, **C**hest pain, **U**nexplained SOB, **B**lood pressure high, **A**bnormal family history (sudden death), **D**isqualify if any YES",
+            "visual_desc": "Sports physical form with the 14 AHA cardiac screening questions highlighted in a red box"
+          },
+          {
+            "type": "protocol",
+            "title": "Concussion Evaluation & Return-to-Play (RTP)",
+            "content": "**Concussion Basics**:\n\u2022 Traumatically induced transient disturbance of brain function\n\u2022 **Symptoms**: Headache, dizziness, confusion, blurred vision, nausea, sensitivity to light/noise\n\u2022 **Red flags (need ED/imaging)**: Loss of consciousness >1 min, focal neuro deficit, worsening HA, vomiting, seizure, GCS <15\n\n**SCAT-5 (Sports Concussion Assessment Tool)**: Standardized sideline assessment\n\u2022 Immediate memory, concentration, balance, coordination\n\u2022 Must be done by trained professional\n\n**Return-to-Play Protocol (5-stage, minimum 24 hrs per stage)**:\n1. **Rest** \u2014 No activity, cognitive rest (no screens, school work, exercise)\n2. **Light aerobic** \u2014 Walking, stationary bike (HR <70% max)\n3. **Sport-specific** \u2014 Running drills, no contact\n4. **Non-contact drills** \u2014 Full practice, no contact\n5. **Full contact practice** \u2014 Full practice with contact\n6. **Return to play** \u2014 Game clearance\n\n**Key**: If symptoms return at ANY stage, stop and go back to previous stage. Do NOT advance until symptom-free at current stage.\n\n**Children/Adolescents**: Take LONGER to recover than adults (up to 30 days). More conservative approach needed.\n\n**Second Impact Syndrome**: Rare but devastating \u2014 second concussion before first resolves \u2192 diffuse cerebral swelling, 50% mortality. THIS is why RTP protocols exist!",
+            "visual_desc": "Ladder diagram showing 6 stages of RTP with arrows showing progression and 'symptom recurrence \u2192 go back down' pathways"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **Don't clear an athlete for sports the same day as a concussion** \u2014 pediatric guidelines say NO same-day RTP. Also: **ECG is NOT mandatory for all athletes** per PPE monograph (only if history/exam positive), but some states mandate it. Know your state law. And **BNP/NT-proBNP is NOT a cardiac screening tool in athletes** \u2014 don't order it."
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A 16-year-old athlete reports passing out during basketball practice. What should you do?",
+            "answers": [
+              "Clear for play if ECG is normal",
+              "Refer to cardiology before clearing for sports",
+              "It's probably dehydration, clear with hydration instructions",
+              "Order echocardiogram in office"
+            ],
+            "correct": 1,
+            "explanation": "Exercise-induced syncope is a RED FLAG for HCM, arrhythmogenic RV cardiomyopathy, or long QT. Must get cardiology eval (ECG, echo) before clearing for sports."
+          },
+          {
+            "q": "A 15-year-old soccer player with a concussion feels better 3 days later. When can she return to play?",
+            "answers": [
+              "Tomorrow if completely symptom-free",
+              "One week of rest then full clearance",
+              "Wait minimum 24 hours then start staged RTP protocol, advancing only if symptom-free at each stage",
+              "Return to play immediately if SCAT-5 is normal"
+            ],
+            "correct": 2,
+            "explanation": "RTP requires staged progression with minimum 24 hours per stage. No same-day return. Adolescents need more conservative management \u2014 rushing RTP risks second impact syndrome."
+          }
+        ]
+      },
+      {
+        "id": "adolescent-risk-behaviors",
+        "title": "\ud83d\udea8 HEADSSS: Identifying High-Risk Behaviors",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Aaliyah, 17, is brought in by mom because she's 'acting moody.' Mom leaves the room. Aaliyah stares at the floor. 'Everyone asks me stuff. My grades are fine. I'm fine.' But she picks at her cuticles, avoids eye contact, and her hoodie hides significant weight loss. The HEADSSS assessment \u2014 a structured tool you'll use every single day \u2014 reveals she's been restricting calories for 8 months, vaping THC daily, and has a boyfriend who 'gets upset when I don't answer texts right away.' Three problems uncovered in 10 minutes because you asked the right questions the right way.",
+            "visual_desc": "HEADSSS wheel diagram with home, education, activities, drugs, sexuality, suicide/safety as spokes"
+          },
+          {
+            "type": "definition",
+            "title": "HEADSSS Assessment: The Adolescent Psychosocial Interview",
+            "content": "**H** \u2014 **Home**: Who lives at home? Relationship with family? Any recent moves, changes, conflicts?\n**E** \u2014 **Education/Employment**: School performance, favorite subjects, any recent drop? Bullying? Job?\n**A** \u2014 **Activities**: Friends, hobbies, sports, clubs? Who do you hang out with? What do you do for fun?\n**D** \u2014 **Drugs**: Alcohol, tobacco, vaping, marijuana, other substances? Ask about friends\u2019 use first (less threatening), then personal use\n**S** \u2014 **Sexuality**: Attractions, relationships, sexual activity, contraception, STI screening, pregnancy?\n**S** \u2014 **Suicide/Safety**: Depression, self-harm, suicidal thoughts/plans/attempts? Also: violence, safety at home/school/online\n**S** \u2014 **Strengths**: What are you good at? What do you enjoy? What makes you proud? (End on positive note!)\n\n**Timing**: Once/year for ALL adolescents starting around age 11-12, always without parent present\n\n**CRAFFT 2.0** \u2014 Substance Use Screening (for age 12-21):\n**C** \u2014 Have you ever ridden in a **C**ar driven by someone (including yourself) who was high?\n**R** \u2014 Do you ever use alcohol/drugs to **R**elax?\n**A** \u2014 Do you ever use alcohol/drugs **A**lone?\n**F** \u2014 Do you ever **F**orget things you did while using?\n**F** \u2014 Do your **F**amily/Friends ever tell you to cut down?\n**T** \u2014 Have you ever gotten into **T**rouble while using?\n**\u22652 positive** \u2192 high risk for substance use disorder",
+            "mnemonic": "**HEADSSS** \u2014 **H**ome, **E**ducation, **A**ctivities, **D**rugs, **S**exuality, **S**uicide/Safety, **S**trengths. Add **+S** for **S**trengths (end positive!)",
+            "visual_desc": "Mind map centered on 'HEADSSS' with branches showing specific questions for each domain"
+          },
+          {
+            "type": "protocol",
+            "title": "Red Flags & When to Intervene",
+            "content": "**Eating Disorders**:\n\u2022 **Screen**: \"Are you worried about your weight?\" \"Do you ever binge eat or purge?\" (SCOFF questionnaire)\n\u2022 **SCOFF** (1 point each, \u22652 = concern):\n  - Do you make yourself **S**ick (vomit) because of fullness?\n  - Do you worry about losing **C**ontrol over eating?\n  - Have you recently lost >15 lbs (**O**ne stone) in 3 months?\n  - Do you believe you're **F**at when others say you're thin?\n  - Does **F**ood dominate your life?\n\u2022 **Red flags**: BMI <5th percentile, bradycardia (<50 bpm), orthostatic vital changes, lanugo, electrolyte abnormalities, amenorrhea, QT prolongation on ECG\n\n**Self-Harm / Suicidality**:\n\u2022 **Ask directly**: \"Have you ever thought about hurting yourself or ending your life?\" (Asking does NOT increase risk!)\n\u2022 **If YES**: Assess plan, means, timeline, intent. Past attempts = highest risk factor\n\u2022 **Actions**: Create safety plan, remove means (guns, meds), involve trusted adult, refer to mental health, consider ER if imminent\n\n**Vaping / E-Cigarettes**:\n\u2022 **Most common substance used by teens** \u2014 20% of high schoolers report current use\n\u2022 **EVALI** (E-cigarette/Vaping-Associated Lung Injury): Respiratory symptoms + GI symptoms + fever + bilateral infiltrates on CXR\n\u2022 **Management**: Screen all teens. Offer cessation resources (This is Quitting text program: 88709)\n\n**Bullying / Cyberbullying**:\n\u2022 Screen: \"Has anyone at school or online ever made you feel scared, humiliated, or unsafe?\"\n\u2022 Associated with: Depression, suicide risk, school avoidance, somatic symptoms\n\u2022 Action: Report to school, involve parents, assess for safety\n\n**HPV Vaccine**: Strongly recommend at 11-12. Can start at age 9. Catch-up through 26.",
+            "visual_desc": "Triage grid with severity levels: Green (screen/reassure), Yellow (counsel/monitor), Red (immediate intervention/referral)"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **Asking about suicide does NOT plant the idea** \u2014 this is a myth. Teens feel RELIEVED when someone asks directly. Use the **Columbia-Suicide Severity Rating Scale (C-SSRS)** for structured assessment. Also: **Vaping is NOT 'just water vapor'** \u2014 e-liquids contain propylene glycol, glycerol, flavoring chemicals, and often heavy metals. Most 'nicotine-free' vapes still contain nicotine."
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A 14-year-old answers YES to 3 of 6 CRAFFT questions. What does this indicate?",
+            "answers": [
+              "Low risk, provide anticipatory guidance",
+              "Moderate risk, requires brief intervention",
+              "High risk for substance use disorder, needs further assessment and intervention",
+              "CRAFFT is invalid in this age group"
+            ],
+            "correct": 2,
+            "explanation": "\u22652 positive on CRAFFT = high risk for substance use disorder. Needs further assessment, brief intervention, and possibly referral to treatment."
+          },
+          {
+            "q": "Which statement about adolescent suicide screening is TRUE?",
+            "answers": [
+              "Asking about suicide increases risk of attempts",
+              "Only screen if parents report concerns",
+              "Asking directly does NOT increase risk and may be therapeutic",
+              "Screening is only recommended for high-risk groups"
+            ],
+            "correct": 2,
+            "explanation": "Decades of research show that asking about suicide does not increase suicidal ideation or attempts. It is recommended for ALL adolescents annually as part of HEADSSS."
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Osmosis",
+        "title": "Adolescent Health - Confidentiality, Screening, Immunizations",
+        "url": "https://www.youtube.com/watch?v=yF5hprd4JcA",
+        "duration": "8 min"
+      }
+    ]
+  }
+}

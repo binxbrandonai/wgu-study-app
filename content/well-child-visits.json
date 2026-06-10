@@ -1,0 +1,94 @@
+{
+  "topic": {
+    "id": "well-child-visits",
+    "name": "Well-Child Visit Schedule & Components",
+    "system": "Pediatrics",
+    "duration_min": 15,
+    "icon": "\ud83e\uddd2",
+    "color": "#38bdf8",
+    "category": "Health Supervision",
+    "objectives": [],
+    "lessons": [
+      {
+        "id": "well-child-visits-section",
+        "title": "Well-Child Visit Schedule & Components",
+        "duration_min": 15,
+        "content_chunks": [
+          {
+            "concept": "AAP Bright Futures Schedule",
+            "visual_description": "Visualize the frequency of visits decreasing as kids get older",
+            "details": [
+              "**First Year (9 visits)**: Newborn (3-5 days), 1mo, 2mo, 4mo, 6mo, 9mo, 12mo",
+              "**Second Year (3 visits)**: 15mo, 18mo, 24mo",
+              "**Ages 2-5 (1/year)**: Annual at 30mo, 3yo, 4yo, 5yo",
+              "**Ages 6-21 (1/year)**: Annual visits",
+              "**KEY**: More frequent when rapid growth/development; less frequent when stable"
+            ],
+            "mnemonic": "**'First year = NINE (like pregnancy), then yearly by age THREE'** (sort of rhymes!)"
+          },
+          {
+            "concept": "Universal Components of EVERY Visit",
+            "visual_description": "Think of it as the 'vital 5' at every visit",
+            "details": [
+              "**1. Growth Assessment**: Plot weight, length/height, BMI (\u22652yo), OFC (\u226436mo) on CDC growth charts",
+              "**2. Developmental Screening**: Formal screen at 9mo, 18mo, 30mo (ASQ-3). Autism screen at 18mo, 24mo (M-CHAT-R).",
+              "**3. Physical Exam**: Complete system review, age-specific focus (e.g., hip exam in infant, scoliosis in teen)",
+              "**4. Immunizations**: Per CDC schedule. Document in registry!",
+              "**5. Anticipatory Guidance**: Age-appropriate safety, nutrition, sleep, behavior advice"
+            ],
+            "clinical_pearl": "\ud83d\udca1 If you only remember ONE thing: **Screen for depression annually age 12+** (PHQ-2 or PHQ-9A)"
+          },
+          {
+            "concept": "Age-Specific Screenings",
+            "visual_description": "Different ages, different focuses - like fishing with different bait",
+            "details": [
+              "**Newborn**: Hearing (OAE/ABR), critical congenital heart disease (pulse ox), state newborn screen (heel stick for metabolic diseases)",
+              "**3-5 days**: Bilirubin if jaundice, weight check (shouldn't lose >10% birth weight)",
+              "**9-12 months**: Hemoglobin/hematocrit (anemia screen), lead risk assessment",
+              "**12 months**: Lead level if high-risk area, tuberculin skin test if high-risk",
+              "**18-24 months**: Autism screening (M-CHAT-R)",
+              "**3-5 years**: Vision and hearing screening (before school entry)",
+              "**9-11 years**: Lipid panel (once between these ages)",
+              "**12+ years**: Depression screening (annually), STI/pregnancy screening if sexually active"
+            ],
+            "mnemonic": "**'Hear-Heart-Heel = Newborn Three'**, **'Lead-Lips-Look = Toddler Three'** (lead, lipids, vision)"
+          },
+          {
+            "concept": "Growth Chart Interpretation",
+            "visual_description": "Growth charts tell a story - read between the lines",
+            "details": [
+              "**Normal Growth**: Follows same percentile (\u00b12 major percentiles) over time. Crossing percentiles = concerning!",
+              "**Weight-for-Length/BMI**: Underweight <5th%, Overweight 85-95th%, Obese >95th%",
+              "**Head Circumference**: <3rd% = microcephaly, >97th% = macrocephaly (both need workup)",
+              "**Birth to 2 years**: WHO growth charts (breastfed standard)",
+              "**2-20 years**: CDC growth charts (BMI becomes more important)"
+            ],
+            "clinical_pearl": "\ud83d\udea8 **Crossing 2+ percentiles** (up or down) = failure to thrive, obesity, or endocrine issue. Investigate!"
+          }
+        ],
+        "story_intro": {
+          "text": "You see 'WCV 2-month' on your schedule. What exactly happens at each well-child visit? Beyond vaccines, these visits are your chance to catch problems early, educate parents, and track growth. Let's master the blueprint for each age.",
+          "visual_cue": "\ud83d\udccb Imagine a checklist with Growth \ud83d\udccf, Development \ud83e\udde0, Vaccines \ud83d\udc89, Screening \ud83d\udd0d, and Anticipatory Guidance \ud83d\udca1 for each visit."
+        },
+        "quick_checks": [],
+        "mnemonics": [],
+        "clinical_pearls": [
+          "**HEEADSSS Assessment (Adolescents)**: Home, Education, Eating, Activities, Drugs, Sexuality, Suicide, Safety. Screen privately (no parents in room after age 12)!",
+          "**Confidentiality in Teens**: Ages 12+ can consent for STI testing, mental health, and substance abuse treatment (varies by state). Build trust - see teen alone part of visit.",
+          "**Vaccine Discussion**: Address at EVERY visit, even if parents refuse. Document in chart. Motivational interviewing > arguing.",
+          "**Oral Health**: First dental visit by age 1 or first tooth. Fluoride varnish can be applied in primary care at visits (ages 6mo-5yo).",
+          "**Social Determinants**: Screen for food insecurity, housing instability, violence exposure. Connect to resources (WIC, housing assistance, etc.)."
+        ],
+        "red_flags": []
+      }
+    ],
+    "videos": [
+      {
+        "source": "Osmosis",
+        "title": "Pediatric Well Child Visits",
+        "url": "https://www.youtube.com/watch?v=jGqMvk2IuOc",
+        "duration": "10 min"
+      }
+    ]
+  }
+}

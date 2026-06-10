@@ -1,0 +1,217 @@
+{
+  "topic": {
+    "id": "d118-cv-chf",
+    "name": "Heart Failure",
+    "system": "Cardiovascular",
+    "duration_min": 30,
+    "icon": "\ud83d\udc94",
+    "color": "#c1121f",
+    "objectives": [
+      "Distinguish HFrEF vs. HFpEF (systolic vs. diastolic failure)",
+      "Recognize clinical presentation: dyspnea, edema, JVD, rales",
+      "Apply NYHA classification system",
+      "Order appropriate diagnostic tests (BNP, echo, CXR)",
+      "Initiate guideline-directed medical therapy (GDMT)",
+      "Know when to refer to cardiology or admit"
+    ],
+    "lessons": [
+      {
+        "id": "chf-basics",
+        "title": "\ud83d\udc94 Heart Failure 101: When the Pump Fails",
+        "duration_min": 10,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Meet Tom: 68, former trucker, type 2 diabetes, MI 5 years ago. He's been getting more short of breath walking to his mailbox. 'Getting old,' he figures. Then he wakes up gasping at 2 AM, has to sleep in his recliner. Shoes don't fit anymore\u2014ankles are huge. This is classic heart failure. 6.2 million Americans have it, and it has a WORSE 5-year mortality than many cancers (50%). Early recognition = better outcomes.",
+            "visual_desc": "Before/After comparison: LEFT: Normal heart pumping efficiently (EF 60%). RIGHT: Failing heart (dilated, EF 25%) with backup congestion to lungs and body"
+          },
+          {
+            "type": "definition",
+            "title": "What IS Heart Failure?",
+            "content": "**Heart Failure (HF)**: The heart can't pump enough blood to meet the body's needs.\n\n**Two Main Types**:\n\n**HFrEF** (Heart Failure with **Reduced** Ejection Fraction)\n\u2022 **EF <40%** (systolic dysfunction)\n\u2022 Heart muscle is WEAK\u2014can't squeeze properly\n\u2022 Most common type (more treatment options)\n\u2022 Main causes: MI, ischemic cardiomyopathy, dilated cardiomyopathy\n\n**HFpEF** (Heart Failure with **Preserved** Ejection Fraction)\n\u2022 **EF \u226550%** (diastolic dysfunction)\n\u2022 Heart muscle is STIFF\u2014can't relax/fill properly\n\u2022 About 50% of HF cases now\n\u2022 Main causes: HTN, diabetes, obesity, aging\n\u2022 FEWER proven treatments (frustrating!)\n\n**Key Point**: Same symptoms, different mechanisms, different treatments!",
+            "mnemonic": "**rEF = wEak** (HFrEF = weak squeeze). **pEF = stIFF** (HFpEF = stiff muscle)",
+            "visual_desc": "Side-by-side heart diagrams: LEFT (HFrEF): dilated, thin walls, weak contraction. RIGHT (HFpEF): thick walls, small chamber, can't relax"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **BNP/NT-proBNP** is your best friend for diagnosing HF! BNP >100 pg/mL or NT-proBNP >125 pg/mL = very likely HF. BNP <100 = HF unlikely (NPV >90%). Order it on everyone with unexplained dyspnea or edema!"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "HFrEF vs HFpEF",
+            "mnemonic": "**rEF = wEak** (HFrEF = weak squeeze). **pEF = stIFF** (HFpEF = stiff muscle)"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Echo shows EF 35% with dilated LV. This is:",
+            "a": [
+              "HFrEF (systolic)",
+              "HFpEF (diastolic)",
+              "Normal heart function"
+            ],
+            "correct": 0,
+            "explanation": "EF <40% = HFrEF (reduced/systolic failure). Heart is weak and can't squeeze effectively."
+          },
+          {
+            "q": "Best initial test to rule OUT heart failure in dyspneic patient?",
+            "a": [
+              "Chest X-ray",
+              "BNP",
+              "Echocardiogram",
+              "Troponin"
+            ],
+            "correct": 1,
+            "explanation": "BNP <100 has excellent negative predictive value (>90%) for ruling OUT HF. Much cheaper and faster than echo!"
+          }
+        ]
+      },
+      {
+        "id": "chf-diagnosis",
+        "title": "\ud83d\udd0d Diagnosing HF: Classic Presentations",
+        "duration_min": 10,
+        "content_chunks": [
+          {
+            "type": "protocol",
+            "title": "Classic Symptoms & Signs (Boards Gold)",
+            "content": "**Symptoms** (what patient tells you):\n\u2022 **Dyspnea on exertion** (earliest symptom)\n\u2022 **Orthopnea** (SOB lying flat - asks 'How many pillows?')\n\u2022 **Paroxysmal nocturnal dyspnea (PND)** - wakes up gasping at 2-3 AM\n\u2022 **Fatigue** - can't do usual activities\n\u2022 **Weight gain** (>2-3 lbs in 1 day or >5 lbs in 1 week = fluid overload!)\n\n**Signs** (what YOU find):\n\u2022 **Bilateral ankle edema** (pitting - press for 5 sec, leaves dent)\n\u2022 **Crackles/rales** in lung bases (pulmonary congestion)\n\u2022 **Elevated JVP** (jugular venous pressure >8 cm)\n\u2022 **S3 gallop** ('Kentucky' - ventricular gallop, very specific for HF)\n\u2022 **Hepatomegaly** (RV failure backs up into liver)\n\u2022 **Ascites** (severe RV failure)\n\n**Framingham Criteria**: Need 2 major OR 1 major + 2 minor to diagnose clinically",
+            "visual_desc": "Human body diagram with arrows pointing to: lungs (rales), neck (JVD), heart (S3), liver (hepatomegaly), legs (edema)"
+          },
+          {
+            "type": "definition",
+            "title": "NYHA Classification (Memorize This!)",
+            "content": "**New York Heart Association Functional Classes**:\n\n**Class I**: HF present but NO symptoms with ordinary activity\n\u2022 'I feel fine!'\n\n**Class II**: Slight limitation - comfortable at rest, symptoms with ORDINARY activity\n\u2022 'I get short of breath walking upstairs'\n\n**Class III**: Marked limitation - comfortable at rest, symptoms with LESS than ordinary activity\n\u2022 'I get winded walking to the bathroom'\n\n**Class IV**: Unable to do ANY activity without symptoms, or symptoms at REST\n\u2022 'I can't breathe just sitting here'\n\n**Why it matters**: Guides treatment intensity and prognosis",
+            "mnemonic": "**NYHA 1-2-3-4 = NO-ORDINARY-LESS-ANY**: Class **1** = **NO** symptoms, Class **2** = **ORDINARY** activity limited, Class **3** = **LESS** than ordinary, Class **4** = **ANY** activity or rest",
+            "visual_desc": "Staircase diagram: Class I at top (walking upstairs easily), Class II (struggling on stairs), Class III (struggling on flat ground), Class IV (sitting in chair, struggling)"
+          },
+          {
+            "type": "checklist",
+            "title": "Diagnostic Workup",
+            "content": "\u2705 **BNP or NT-proBNP** - screening test, severity marker\n\u2022 BNP >400 or NT-proBNP >450 = likely acute decompensation\n\n\u2705 **Transthoracic Echo** - REQUIRED for diagnosis!\n\u2022 Determines EF (HFrEF vs HFpEF)\n\u2022 Assesses valves, wall motion, chamber sizes\n\n\u2705 **Chest X-ray**\n\u2022 Cardiomegaly (heart >50% thoracic width)\n\u2022 Pulmonary edema (Kerley B lines, cephalization, pleural effusions)\n\n\u2705 **ECG**\n\u2022 Look for: MI, LVH, arrhythmias (AFib common!)\n\n\u2705 **Labs**\n\u2022 **BMP**: Check renal function (Cr, GFR), electrolytes\n\u2022 **CBC**: Anemia can worsen HF\n\u2022 **TSH**: Hyperthyroid can cause high-output HF\n\u2022 **Lipid panel**: CAD risk\n\u2022 **Troponin**: Rule out ACS if acute presentation\n\n\u2705 **Consider coronary angiography** if ischemic cause suspected (most common!)",
+            "visual_desc": "Diagnostic flowchart: Suspect HF \u2192 BNP + CXR + ECG \u2192 Echo (definitive) \u2192 Labs \u2192 Determine cause"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **S3 gallop** = 'Ken-TUC-ky' (3 sounds). **S4** = 'TEN-nes-see' (4 sounds, heard in HTN/stiff ventricle). S3 is VERY specific for volume overload/HF. If you hear it, think fluid!"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "NYHA classes",
+            "mnemonic": "**NYHA 1-2-3-4 = NO-ORDINARY-LESS-ANY**: Class **1** = **NO** symptoms, Class **2** = **ORDINARY** activity limited, Class **3** = **LESS** than ordinary, Class **4** = **ANY** activity or rest"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Patient has dyspnea climbing stairs but fine at rest. NYHA class?",
+            "a": [
+              "Class I",
+              "Class II",
+              "Class III",
+              "Class IV"
+            ],
+            "correct": 1,
+            "explanation": "Class II = symptoms with ORDINARY activity (like stairs). Comfortable at rest."
+          },
+          {
+            "q": "Which finding is MOST specific for HF diagnosis?",
+            "a": [
+              "Bilateral crackles",
+              "S3 gallop",
+              "Peripheral edema",
+              "Dyspnea"
+            ],
+            "correct": 1,
+            "explanation": "S3 gallop is highly specific for volume overload/HF. Other findings are sensitive but less specific."
+          }
+        ]
+      },
+      {
+        "id": "chf-treatment",
+        "title": "\ud83d\udc8a Treatment: GDMT & Diuretics",
+        "duration_min": 10,
+        "content_chunks": [
+          {
+            "type": "medication_guide",
+            "title": "HFrEF: The 'Fantastic Four' (GDMT)",
+            "content": "**Guideline-Directed Medical Therapy** for HFrEF (ALL patients need these unless contraindicated!):\n\n**1\ufe0f\u20e3 ACE-I or ARB** (or ARNI)\n\u2022 **Goal**: Block harmful remodeling, \u2193mortality 20-30%\n\u2022 **Examples**: lisinopril 5-40 mg daily, sacubitril/valsartan (Entresto)\n\u2022 **Monitoring**: Cr, K+ at 1-2 weeks (tolerate Cr increase <30%, K+ <5.5)\n\n**2\ufe0f\u20e3 Beta Blockers** (specific ones only!)\n\u2022 **Approved**: carvedilol, metoprolol succinate (NOT tartrate!), bisoprolol\n\u2022 **Goal**: \u2193mortality 30%, prevents remodeling\n\u2022 **Start low, go slow** - can worsen HF initially\n\u2022 **Pearl**: Start AFTER diuresis (never in acute decompensation)\n\n**3\ufe0f\u20e3 Mineralocorticoid Receptor Antagonists (MRA)**\n\u2022 **Examples**: spironolactone 12.5-25 mg, eplerenone\n\u2022 **Use if**: NYHA Class II-IV with EF \u226435%\n\u2022 **Watch**: Hyperkalemia (K+ >5.5 = stop), gynecomastia (spironolactone)\n\n**4\ufe0f\u20e3 SGLT2 Inhibitors** (NEW in 2022!)\n\u2022 **Examples**: dapagliflozin 10 mg, empagliflozin 10 mg\n\u2022 **Goal**: \u2193HF hospitalization 30%, works in HFrEF AND HFpEF!\n\u2022 **Bonus**: Also great for diabetes\n\n**The Goal**: Start ALL four classes! Mortality drops 50-75% with full GDMT vs. none.",
+            "visual_desc": "Four pillars holding up 'Survival' platform: ACE-I/ARB, Beta Blocker, MRA, SGLT2i"
+          },
+          {
+            "type": "protocol",
+            "title": "Diuretics: Symptom Relief",
+            "content": "**Loop Diuretics** (for congestion/edema):\n\u2022 **Examples**: furosemide (Lasix) 20-240 mg daily, bumetanide, torsemide\n\u2022 **Goal**: Remove excess fluid, improve symptoms\n\u2022 **DON'T improve mortality** (unlike GDMT above)\n\u2022 **Monitoring**: Daily weights, K+, Mg++, Cr\n\n**When to use**:\n\u2022 Start when patient has volume overload (edema, rales, JVD)\n\u2022 Titrate to **euvolemia** (dry weight, no edema)\n\u2022 Once stable, can often reduce or stop\n\n**Patient education**:\n\u2022 Weigh daily (same time, same scale)\n\u2022 If weight \u2191 2-3 lbs in 1 day or 5 lbs in 1 week \u2192 call provider\n\u2022 Low-sodium diet (<2g/day)",
+            "clinical_pearl": "Loop diuretics make patients FEEL better but don't make them LIVE longer. GDMT (ACE-I, BB, MRA, SGLT2i) does both!"
+          },
+          {
+            "type": "checklist",
+            "title": "When to Admit vs. Manage Outpatient",
+            "content": "**ADMIT if** (acute decompensated HF):\n\u2022 Hypoxia (O2 sat <90%)\n\u2022 Respiratory distress\n\u2022 Hypotension (SBP <90)\n\u2022 Acute kidney injury\n\u2022 Troponin elevation (ACS)\n\u2022 Arrhythmia (new AFib, VT)\n\u2022 Refractory symptoms despite outpatient treatment\n\n**Outpatient management** if:\n\u2022 Mild volume overload\n\u2022 Stable vital signs\n\u2022 Adequate diuresis possible with oral meds\n\u2022 Good follow-up available\n\u2022 Patient reliable\n\n**Follow-up**: See in 1-2 weeks after new diagnosis or med change",
+            "visual_desc": "Decision tree: Acute HF presentation \u2192 Check O2, BP, renal function \u2192 Unstable = ADMIT, Stable = Outpatient with close follow-up"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **HFpEF treatment is LIMITED**: No proven mortality benefit from ACE-I/ARB or beta blockers. DO use: diuretics for symptoms, SGLT2i (dapagliflozin/empagliflozin - proven!), and treat underlying causes (HTN control!). Main goal = manage comorbidities."
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "HFrEF GDMT medications",
+            "mnemonic": "**ARBS** save lives: **A**CE-I/**ARB**, **R**eceptor blocker (beta), **B**lockade of aldosterone (MRA), **S**GLT2 inhibitor"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Which med improves symptoms BUT NOT mortality in HFrEF?",
+            "a": [
+              "ACE inhibitor",
+              "Beta blocker",
+              "Loop diuretic",
+              "Spironolactone"
+            ],
+            "correct": 2,
+            "explanation": "Loop diuretics (furosemide) improve congestion/symptoms but don't reduce mortality. GDMT meds (ACE-I, BB, MRA) do both!"
+          },
+          {
+            "q": "Patient with new HFrEF (EF 30%). Which beta blocker?",
+            "a": [
+              "Metoprolol tartrate",
+              "Metoprolol succinate",
+              "Atenolol",
+              "Propranolol"
+            ],
+            "correct": 1,
+            "explanation": "Only 3 beta blockers proven in HF: carvedilol, metoprolol SUCCINATE (ER), bisoprolol. NOT tartrate (immediate release)!"
+          },
+          {
+            "q": "HFpEF patient. Which med has PROVEN mortality benefit?",
+            "a": [
+              "Lisinopril",
+              "Metoprolol",
+              "Dapagliflozin (SGLT2i)",
+              "Furosemide"
+            ],
+            "correct": 2,
+            "explanation": "SGLT2 inhibitors (dapagliflozin, empagliflozin) are the ONLY meds with proven benefit in HFpEF! Game-changer in 2022."
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Ninja Nerd",
+        "title": "Congestive Heart Failure | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=Gsu8NT1yYes",
+        "duration": "53 min"
+      },
+      {
+        "source": "Osmosis",
+        "title": "Congestive Heart Failure (CHF) \u2014 Systolic, Diastolic, Left & Right",
+        "url": "https://www.youtube.com/watch?v=ypYI_lmLD7g",
+        "duration": "5 min"
+      }
+    ]
+  }
+}

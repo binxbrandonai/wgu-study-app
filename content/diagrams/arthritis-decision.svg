@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      text { font-family: 'Inter', -apple-system, sans-serif; fill: #e2e8f5; }
+      .title { font-size: 22px; font-weight: 700; fill: #00e5cc; }
+      .subtitle { font-size: 13px; fill: #94a3b8; }
+      .box-text { font-size: 11.5px; }
+      .box-title { font-size: 13px; font-weight: 700; }
+      .label { font-size: 10px; fill: #64748b; }
+      .arrow { fill: none; stroke: #334155; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#334155"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#050810" rx="0"/>
+
+  <!-- Title -->
+  <text x="400" y="34" text-anchor="middle" class="title" filter="url(#glow)">Joint Pain: OA vs RA vs Gout</text>
+  <text x="400" y="52" text-anchor="middle" class="subtitle">Key Differentiating Features for Primary Care</text>
+
+  <!-- Start -->
+  <rect x="310" y="62" width="180" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="400" y="81" text-anchor="middle" class="box-text" font-weight="700">Patient presents with joint pain</text>
+
+  <line x1="400" y1="92" x2="400" y2="108" class="arrow"/>
+
+  <!-- Three columns -->
+  <!-- OA Column (left) -->
+  <rect x="20" y="108" width="240" height="32" rx="8" fill="#0f172a" stroke="#fb923c" stroke-width="1.5"/>
+  <text x="140" y="128" text-anchor="middle" class="box-title" fill="#fb923c">🦴 Osteoarthritis</text>
+
+  <line x1="140" y1="140" x2="140" y2="155" class="arrow"/>
+  
+  <rect x="20" y="155" width="240" height="34" rx="6" fill="#0f172a" stroke="#fb923c" stroke-width="1"/>
+  <text x="140" y="170" text-anchor="middle" class="box-text">Pain with use · Worse later in day</text>
+  <text x="140" y="183" text-anchor="middle" class="box-text" fill="#fbbf24">Stiffness &lt;30 min AM</text>
+
+  <line x1="140" y1="189" x2="140" y2="204" class="arrow"/>
+
+  <rect x="20" y="204" width="240" height="34" rx="6" fill="#0f172a" stroke="#fb923c" stroke-width="1"/>
+  <text x="140" y="219" text-anchor="middle" class="box-text">DIP, PIP, Knees, Hips, C-spine</text>
+  <text x="140" y="232" text-anchor="middle" class="box-text">Crepitus · No systemic Sx</text>
+
+  <line x1="140" y1="238" x2="140" y2="253" class="arrow"/>
+
+  <rect x="20" y="253" width="240" height="34" rx="6" fill="#0f172a" stroke="#fb923c" stroke-width="1"/>
+  <text x="140" y="268" text-anchor="middle" class="box-text">Heberden nodes (DIP)</text>
+  <text x="140" y="281" text-anchor="middle" class="box-text">Bouchard nodes (PIP)</text>
+
+  <line x1="140" y1="287" x2="140" y2="302" class="arrow"/>
+
+  <rect x="20" y="302" width="240" height="28" rx="6" fill="#0f172a" stroke="#fb923c" stroke-width="1"/>
+  <text x="140" y="320" text-anchor="middle" class="box-text" fill="#fb923c">X-ray: Joint space narrowing, osteophytes</text>
+
+  <!-- RA Column (center) -->
+  <rect x="280" y="108" width="240" height="32" rx="8" fill="#0f172a" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="400" y="128" text-anchor="middle" class="box-title" fill="#a78bfa">🦋 Rheumatoid Arthritis</text>
+
+  <line x1="400" y1="140" x2="400" y2="155" class="arrow"/>
+
+  <rect x="280" y="155" width="240" height="34" rx="6" fill="#0f172a" stroke="#a78bfa" stroke-width="1"/>
+  <text x="400" y="170" text-anchor="middle" class="box-text">Pain improves with use</text>
+  <text x="400" y="183" text-anchor="middle" class="box-text" fill="#fbbf24">Stiffness &gt;60 min AM</text>
+
+  <line x1="400" y1="189" x2="400" y2="204" class="arrow"/>
+
+  <rect x="280" y="204" width="240" height="34" rx="6" fill="#0f172a" stroke="#a78bfa" stroke-width="1"/>
+  <text x="400" y="219" text-anchor="middle" class="box-text">MCP, PIP (spares DIP)</text>
+  <text x="400" y="232" text-anchor="middle" class="box-text">Wrists, elbows, shoulders, knees</text>
+
+  <line x1="400" y1="238" x2="400" y2="253" class="arrow"/>
+
+  <rect x="280" y="253" width="240" height="34" rx="6" fill="#0f172a" stroke="#a78bfa" stroke-width="1"/>
+  <text x="400" y="268" text-anchor="middle" class="box-text">Soft tissue swelling</text>
+  <text x="400" y="281" text-anchor="middle" class="box-text">Fatigue · Fever · Weight loss</text>
+
+  <line x1="400" y1="287" x2="400" y2="302" class="arrow"/>
+
+  <rect x="280" y="302" width="240" height="28" rx="6" fill="#0f172a" stroke="#a78bfa" stroke-width="1"/>
+  <text x="400" y="320" text-anchor="middle" class="box-text" fill="#a78bfa">+RF, +Anti-CCP, ↑ESR/CRP</text>
+
+  <!-- Gout Column (right) -->
+  <rect x="540" y="108" width="240" height="32" rx="8" fill="#0f172a" stroke="#ff4d6d" stroke-width="1.5"/>
+  <text x="660" y="128" text-anchor="middle" class="box-title" fill="#ff4d6d">💎 Gout</text>
+
+  <line x1="660" y1="140" x2="660" y2="155" class="arrow"/>
+
+  <rect x="540" y="155" width="240" height="34" rx="6" fill="#0f172a" stroke="#ff4d6d" stroke-width="1"/>
+  <text x="660" y="170" text-anchor="middle" class="box-text">Acute onset (hours)</text>
+  <text x="660" y="183" text-anchor="middle" class="box-text" fill="#fbbf24">Excruciating pain</text>
+
+  <line x1="660" y1="189" x2="660" y2="204" class="arrow"/>
+
+  <rect x="540" y="204" width="240" height="34" rx="6" fill="#0f172a" stroke="#ff4d6d" stroke-width="1"/>
+  <text x="660" y="219" text-anchor="middle" class="box-text">1st MTP (podagra) &gt;80%</text>
+  <text x="660" y="232" text-anchor="middle" class="box-text">Ankle, knee, midfoot</text>
+
+  <line x1="660" y1="238" x2="660" y2="253" class="arrow"/>
+
+  <rect x="540" y="253" width="240" height="34" rx="6" fill="#0f172a" stroke="#ff4d6d" stroke-width="1"/>
+  <text x="660" y="268" text-anchor="middle" class="box-text">Erythema · Warmth · Swelling</text>
+  <text x="660" y="281" text-anchor="middle" class="box-text">Tophi (chronic)</text>
+
+  <line x1="660" y1="287" x2="660" y2="302" class="arrow"/>
+
+  <rect x="540" y="302" width="240" height="28" rx="6" fill="#0f172a" stroke="#ff4d6d" stroke-width="1"/>
+  <text x="660" y="320" text-anchor="middle" class="box-text" fill="#ff4d6d">+Urate crystals (neg birefringent)</text>
+
+  <!-- Column headers -->
+  <text x="140" y="355" text-anchor="middle" class="label">DEGENERATIVE</text>
+  <text x="400" y="355" text-anchor="middle" class="label">AUTOIMMUNE</text>
+  <text x="660" y="355" text-anchor="middle" class="label">CRYSTAL</text>
+
+  <!-- Bottom: Quick Reference Table -->
+  <rect x="20" y="370" width="760" height="210" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Table Header -->
+  <rect x="20" y="370" width="190" height="32" rx="8" fill="#1e293b"/>
+  <text x="115" y="391" text-anchor="middle" class="box-text" font-weight="700" fill="#00e5cc">Feature</text>
+  <rect x="210" y="370" width="190" height="32" fill="#1e293b"/>
+  <text x="305" y="391" text-anchor="middle" class="box-text" font-weight="700" fill="#fb923c">OA</text>
+  <rect x="400" y="370" width="190" height="32" fill="#1e293b"/>
+  <text x="495" y="391" text-anchor="middle" class="box-text" font-weight="700" fill="#a78bfa">RA</text>
+  <rect x="590" y="370" width="190" height="32" rx="0 8 0 0" fill="#1e293b"/>
+  <text x="685" y="391" text-anchor="middle" class="box-text" font-weight="700" fill="#ff4d6d">Gout</text>
+
+  <!-- Row 1: Onset -->
+  <text x="115" y="415" text-anchor="middle" class="box-text" font-weight="700">Onset</text>
+  <text x="305" y="415" text-anchor="middle" class="box-text">Gradual, years</text>
+  <text x="495" y="415" text-anchor="middle" class="box-text">Subacute, weeks</text>
+  <text x="685" y="415" text-anchor="middle" class="box-text">Acute, hours</text>
+  <line x1="20" y1="422" x2="780" y2="422" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Row 2: AM stiffness -->
+  <text x="115" y="438" text-anchor="middle" class="box-text" font-weight="700">AM Stiffness</text>
+  <text x="305" y="438" text-anchor="middle" class="box-text">&lt;30 minutes</text>
+  <text x="495" y="438" text-anchor="middle" class="box-text">&gt;60 minutes</text>
+  <text x="685" y="438" text-anchor="middle" class="box-text">None (acute)</text>
+  <line x1="20" y1="445" x2="780" y2="445" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Row 3: Joints -->
+  <text x="115" y="461" text-anchor="middle" class="box-text" font-weight="700">Typical Joints</text>
+  <text x="305" y="461" text-anchor="middle" class="box-text">DIP, PIP, knees, hips</text>
+  <text x="495" y="461" text-anchor="middle" class="box-text">MCP, PIP, wrists</text>
+  <text x="685" y="461" text-anchor="middle" class="box-text">1st MTP, ankle</text>
+  <line x1="20" y1="468" x2="780" y2="468" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Row 4: Physical exam -->
+  <text x="115" y="484" text-anchor="middle" class="box-text" font-weight="700">Physical Exam</text>
+  <text x="305" y="484" text-anchor="middle" class="box-text">Crepitus, nodes</text>
+  <text x="495" y="484" text-anchor="middle" class="box-text">Soft tissue swelling</text>
+  <text x="685" y="484" text-anchor="middle" class="box-text">Erythema, warmth</text>
+  <line x1="20" y1="491" x2="780" y2="491" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Row 5: Labs -->
+  <text x="115" y="507" text-anchor="middle" class="box-text" font-weight="700">Labs / Imaging</text>
+  <text x="305" y="507" text-anchor="middle" class="box-text">X-ray: osteophytes</text>
+  <text x="495" y="507" text-anchor="middle" class="box-text">+RF, +Anti-CCP</text>
+  <text x="685" y="507" text-anchor="middle" class="box-text">+Urate crystals</text>
+  <line x1="20" y1="514" x2="780" y2="514" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Row 6: Treatment -->
+  <text x="115" y="530" text-anchor="middle" class="box-text" font-weight="700">1st-Line Treatment</text>
+  <text x="305" y="530" text-anchor="middle" class="box-text">Acetaminophen, NSAIDs</text>
+  <text x="495" y="530" text-anchor="middle" class="box-text">Methotrexate</text>
+  <text x="685" y="530" text-anchor="middle" class="box-text">NSAIDs, colchicine</text>
+  <line x1="20" y1="537" x2="780" y2="537" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Row 7: Systemic -->
+  <text x="115" y="554" text-anchor="middle" class="box-text" font-weight="700">Systemic Sx</text>
+  <text x="305" y="554" text-anchor="middle" class="box-text" fill="#22c55e">❌ None</text>
+  <text x="495" y="554" text-anchor="middle" class="box-text" fill="#fbbf24">✅ Fatigue, fever</text>
+  <text x="685" y="554" text-anchor="middle" class="box-text" fill="#fbbf24">✅ Fever in flares</text>
+
+  <!-- Table vertical dividers -->
+  <line x1="210" y1="370" x2="210" y2="565" stroke="#1e293b" stroke-width="1"/>
+  <line x1="400" y1="370" x2="400" y2="565" stroke="#1e293b" stroke-width="1"/>
+  <line x1="590" y1="370" x2="590" y2="565" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Column connectors from start -->
+  <line x1="400" y1="108" x2="140" y2="108" class="arrow"/>
+  <line x1="400" y1="108" x2="660" y2="108" class="arrow"/>
+</svg>

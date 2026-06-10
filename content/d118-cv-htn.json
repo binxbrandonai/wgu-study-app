@@ -1,0 +1,209 @@
+{
+  "topic": {
+    "id": "d118-cv-htn",
+    "name": "Hypertension",
+    "system": "Cardiovascular",
+    "duration_min": 25,
+    "icon": "\u2764\ufe0f",
+    "color": "#ff4d6d",
+    "objectives": [
+      "Classify blood pressure readings using JNC-8/ACC-AHA guidelines",
+      "Identify high-yield risk factors and when to screen",
+      "Diagnose HTN (when is one reading enough vs. multiple visits?)",
+      "Choose first-line meds based on patient profile (ACE-I, ARB, CCB, thiazide)",
+      "Recognize hypertensive emergency vs. urgency",
+      "Know when to refer (resistant HTN, secondary causes)"
+    ],
+    "lessons": [
+      {
+        "id": "htn-basics",
+        "title": "\ud83c\udfaf HTN 101: The Silent Killer",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Meet Sarah: 52, no symptoms, walks 3 miles daily. Her BP at CVS was 148/94. She ignores it\u2014'probably white coat.' Two years later: stroke. HTN is the #1 modifiable risk factor for stroke, MI, CHF, CKD, and early death. It's also the MOST COMMON chronic disease you'll see\u2014affects 45% of US adults. Master this, and you'll save lives every single day.",
+            "visual_desc": "Infographic: HTN impact tree showing one elevated BP reading branching to stroke, MI, CHF, CKD, death with percentages"
+          },
+          {
+            "type": "definition",
+            "title": "What IS Hypertension?",
+            "content": "**ACC/AHA 2017 Guidelines** (the current standard):\n\n\u2022 **Normal**: <120/<80\n\u2022 **Elevated**: 120-129/<80 (\u26a0\ufe0f pre-HTN, lifestyle only)\n\u2022 **Stage 1**: 130-139 OR 80-89\n\u2022 **Stage 2**: \u2265140 OR \u226590\n\u2022 **HTN Crisis**: >180 AND/OR >120 (ER NOW)\n\n**Key Point**: Stage 1 is NOW 130/80 (used to be 140/90). This change added 30 million Americans to 'HTN' overnight. Why? Because stroke risk starts climbing at 115/75!",
+            "mnemonic": "**1-2-8-9 Rule**: Stage **1** starts at **12**0 systolic, Stage **2** at 1**4**0, divide by 2 for diastolic (**8**0 and **9**0)",
+            "visual_desc": "Color-coded BP thermometer: green (<120/80), yellow (elevated), orange (Stage 1), red (Stage 2), flashing red (crisis)"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Don't diagnose HTN on one reading unless \u2265180/120!** You need 2+ elevated readings on 2+ separate visits (1-4 weeks apart). Exception: if BP is crazy high (\u2265180/120) AND patient has symptoms OR end-organ damage (retinopathy, proteinuria, LVH) = HTN emergency, treat NOW."
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "BP classification",
+            "mnemonic": "**1-2-8-9 Rule**: Stage **1** starts at **12**0 systolic, Stage **2** at 1**4**0, divide by 2 for diastolic (**8**0 and **9**0)"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Your patient's BP is 136/88. What stage?",
+            "a": [
+              "Normal",
+              "Elevated",
+              "Stage 1",
+              "Stage 2"
+            ],
+            "correct": 2,
+            "explanation": "Stage 1 = 130-139 **OR** 80-89. Either number meeting criteria = Stage 1!"
+          },
+          {
+            "q": "Can you diagnose HTN today if BP is 142/92 with no symptoms?",
+            "a": [
+              "Yes, start meds now",
+              "No, recheck in 1-4 weeks",
+              "Only if they have diabetes"
+            ],
+            "correct": 1,
+            "explanation": "Need 2+ elevated readings on different days (unless \u2265180/120 with symptoms/damage)"
+          }
+        ]
+      },
+      {
+        "id": "htn-diagnosis",
+        "title": "\ud83d\udd0d Diagnosing HTN: Getting It Right",
+        "duration_min": 7,
+        "content_chunks": [
+          {
+            "type": "protocol",
+            "title": "Proper BP Measurement (Boards LOVE This)",
+            "content": "**The Right Way** (or your reading is garbage):\n1. **Rest 5 min** in chair, back supported, feet flat\n2. **No talking** during measurement\n3. **Arm at heart level**, supported (not hanging)\n4. **Correct cuff size**: bladder covers 80% of arm circumference\n5. **Take 2 readings** 1-2 min apart, average them\n6. **Both arms first visit** (15+ mmHg difference = vascular disease, use higher arm going forward)\n\n**Common Mistakes That Falsely Elevate BP**:\n\u2022 Patient talking (+17 mmHg!)\n\u2022 Arm unsupported (+10 mmHg)\n\u2022 Back unsupported (+8 mmHg)\n\u2022 Legs crossed (+5-8 mmHg)\n\u2022 Bladder full (+15 mmHg)\n\u2022 Cuff too small (+10-30 mmHg - especially obese patients)",
+            "visual_desc": "Side-by-side comparison: LEFT (WRONG): patient slouched, arm hanging, small cuff, talking. RIGHT (CORRECT): proper positioning with checkmarks"
+          },
+          {
+            "type": "definition",
+            "title": "White Coat vs. Masked HTN",
+            "content": "**White Coat HTN**: Elevated in clinic, normal at home (10-15% of people)\n**Masked HTN**: Normal in clinic, elevated at home (10% of people - MORE dangerous!)\n\n**Solution**: **Home BP monitoring (HBPM)** or **Ambulatory BP monitoring (ABPM)**\n\n**HBPM Protocol**:\n\u2022 Morning + evening for 7 days\n\u2022 2 readings each time, 1 min apart\n\u2022 Discard Day 1, average Days 2-7\n\u2022 HTN diagnosis if average \u2265130/80",
+            "clinical_pearl": "Masked HTN has SAME risk as sustained HTN but you'll miss it if you only check in-office. Consider HBPM for: normal BP with HTN damage (LVH, proteinuria), family history of early CVD, or diabetes."
+          },
+          {
+            "type": "checklist",
+            "title": "Diagnostic Workup (First Visit)",
+            "content": "**Why?** Rule out secondary causes (5-10% of HTN) and assess cardiovascular risk.\n\n\u2705 **Labs**:\n\u2022 **Basic metabolic panel** (K+, Cr, GFR) - baseline kidney function\n\u2022 **Fasting lipids** - CV risk stratification\n\u2022 **Fasting glucose** or **HbA1c** - diabetes screening\n\u2022 **Urinalysis** - proteinuria = end-organ damage\n\u2022 **TSH** (if symptoms) - hyperthyroid can cause HTN\n\u2022 **Uric acid** (optional)\n\n\u2705 **ECG** - look for LVH (Cornell criteria, Sokolow-Lyon)\n\n\u2705 **10-year ASCVD risk** - use ACC/AHA Pooled Cohort Equation calculator",
+            "visual_desc": "Flowchart: Newly diagnosed HTN \u2192 Labs (metabolic panel, lipids, glucose, UA) + ECG \u2192 Calculate ASCVD risk \u2192 Treatment decision"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "Home BP monitoring rules",
+            "mnemonic": "**7-2-1 Rule**: **7** days, **2** readings each time, **1** minute apart"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Which has HIGHER CV risk if untreated?",
+            "a": [
+              "White coat HTN",
+              "Masked HTN"
+            ],
+            "correct": 1,
+            "explanation": "Masked HTN has SAME risk as sustained HTN - they're hypertensive most of the time, you just don't see it in clinic!"
+          }
+        ]
+      },
+      {
+        "id": "htn-treatment",
+        "title": "\ud83d\udc8a Treatment: Lifestyle + Meds",
+        "duration_min": 10,
+        "content_chunks": [
+          {
+            "type": "decision_tree",
+            "title": "When to Start Meds?",
+            "content": "**ACC/AHA 2017 Guidelines**:\n\n**START MEDS IF:**\n\u2705 **Stage 2** (\u2265140/90) \u2192 meds + lifestyle\n\u2705 **Stage 1** (130-139/80-89) **AND** one of:\n   \u2022 ASCVD risk \u226510%\n   \u2022 Known CVD (prior MI, stroke, angina)\n   \u2022 CKD (GFR <60)\n   \u2022 Diabetes\n   \u2022 Age \u226565\n\n**LIFESTYLE ONLY IF:**\n\ud83d\udd36 Stage 1 **AND** ASCVD risk <10% **AND** no comorbidities\n\ud83d\udd36 Elevated (120-129/<80)\n\n**Goal BP**: <130/80 for EVERYONE (used to be <140/90 for most)",
+            "visual_desc": "Decision flowchart with Y/N branches leading to 'Meds + Lifestyle' or 'Lifestyle Only' boxes"
+          },
+          {
+            "type": "protocol",
+            "title": "Lifestyle Modifications (Memorize the Numbers!)",
+            "content": "**DASH Diet**: \u219310-20 mmHg (as effective as one med!)\n\u2022 High K+, Mg++, Ca++ (fruits, veggies, low-fat dairy)\n\u2022 Low sat fat and sodium\n\n**Sodium <1500 mg/day**: \u21935-6 mmHg\n\u2022 Most Americans eat 3400 mg/day\n\u2022 One Chipotle burrito = 2200 mg \ud83c\udf2f\ud83d\udc80\n\n**Weight loss**: \u21935-20 mmHg per 10 kg lost\n\n**Exercise**: 150 min/week moderate aerobic \u2192 \u21935-8 mmHg\n\n**Limit alcohol**: \u21934 mmHg\n\u2022 Men: \u22642 drinks/day\n\u2022 Women: \u22641 drink/day\n\n**Quit smoking**: Doesn't lower BP but \u2193\u2193\u2193 CV risk",
+            "mnemonic": "**DASH WASPS**: **D**ASH diet, **A**lcohol limit, **S**odium <1500, **H**ealthy weight, **W**alkout (exercise), **A**void tobacco, **S**tress management, **P**otassium rich foods, **S**leep 7-9 hours",
+            "visual_desc": "Bar chart showing mmHg reduction for each lifestyle intervention"
+          },
+          {
+            "type": "medication_guide",
+            "title": "First-Line Meds: The Big 4",
+            "content": "**1\ufe0f\u20e3 ACE Inhibitors** (-pril)\n\u2022 **Mechanism**: Block angiotensin II \u2192 vasodilation + \u2193aldosterone\n\u2022 **Best for**: Diabetes, CKD, HFrEF, post-MI\n\u2022 **Avoid**: Pregnancy (category D), bilateral renal artery stenosis, hyperkalemia\n\u2022 **Side effects**: Dry cough (10%), angioedema (rare but dangerous), hyperkalemia\n\u2022 **Examples**: lisinopril 10-40 mg daily, enalapril, ramipril\n\n**2\ufe0f\u20e3 ARBs** (-sartan)\n\u2022 **Mechanism**: Block angiotensin II receptor (same endpoint as ACE-I)\n\u2022 **Best for**: Same as ACE-I but NO COUGH\n\u2022 **Avoid**: Same as ACE-I\n\u2022 **Examples**: losartan 50-100 mg daily, valsartan\n\u2022 **Pearl**: Use if ACE-I causes cough. DON'T combine ACE-I + ARB (no benefit, more harm)\n\n**3\ufe0f\u20e3 Calcium Channel Blockers** (CCBs)\n\u2022 **Mechanism**: Block Ca++ channels \u2192 vasodilation\n\u2022 **Types**: \n   - **Dihydropyridines** (-dipine): amlodipine, nifedipine - work on vessels\n   - **Non-DHP**: diltiazem, verapamil - work on heart (rate control)\n\u2022 **Best for**: Elderly, Black patients (often first-line), angina\n\u2022 **Side effects**: Ankle edema (amlodipine!), constipation (verapamil), gingival hyperplasia\n\u2022 **Examples**: amlodipine 5-10 mg daily\n\n**4\ufe0f\u20e3 Thiazide Diuretics**\n\u2022 **Mechanism**: Block Na+/Cl- reabsorption in distal tubule\n\u2022 **Best for**: Black patients (often first-line), elderly, isolated systolic HTN\n\u2022 **Side effects**: Hypokalemia, hyperglycemia, hyperuricemia (gout), hyponatremia\n\u2022 **Monitor**: BMP after 2-4 weeks (check K+!)\n\u2022 **Examples**: chlorthalidone 12.5-25 mg daily (preferred over HCTZ - longer half-life)",
+            "visual_desc": "Four-quadrant comparison table showing: drug class, mechanism (with icon), best candidates, avoid in, common side effects"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Black patients**: First-line is CCB or thiazide (NOT ACE-I/ARB alone - less effective due to lower renin). **Exception**: Black patient with CKD or diabetes \u2192 ACE-I/ARB IS appropriate."
+          },
+          {
+            "type": "protocol",
+            "title": "Resistant HTN (Know This Cold)",
+            "content": "**Definition**: BP not controlled on 3 meds at optimal doses, including a diuretic\n\n**Workup**:\n1. **Confirm adherence** (pill counts, pharmacy refills)\n2. **Confirm true HTN** (HBPM or ABPM - rule out white coat)\n3. **Check for secondary causes**:\n   \u2022 **Aldosterone/renin ratio** (primary aldosteronism - most common!)\n   \u2022 **Sleep study** (OSA)\n   \u2022 **Renal artery duplex** (renal artery stenosis if age <30 or >55 with rapid onset)\n   \u2022 **Plasma/urine metanephrines** (pheochromocytoma - rare)\n   \u2022 **Drug screen** (cocaine, NSAIDs, decongestants, OCPs, steroids)\n\n**Treatment**:\n\u2022 Add **spironolactone** 25-50 mg daily (aldosterone antagonist - watch K+!)\n\u2022 Consider **referral to HTN specialist**",
+            "mnemonic": "**RESISTANT HTN = ABCDE**: **A**ldosterone, **B**ad adherence, **C**hronic kidney disease, **D**rugs (NSAIDs, cocaine, etc.), **E**xcessive alcohol / **E**ndocrine (pheo, Cushing's)"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "Lifestyle modifications for HTN",
+            "mnemonic": "**DASH WASPS**: **D**ASH diet, **A**lcohol limit, **S**odium <1500, **H**ealthy weight, **W**alkout (exercise), **A**void tobacco, **S**tress management, **P**otassium rich foods, **S**leep 7-9 hours"
+          },
+          {
+            "trigger": "Resistant HTN workup",
+            "mnemonic": "**RESISTANT HTN = ABCDE**: **A**ldosterone, **B**ad adherence, **C**hronic kidney disease, **D**rugs (NSAIDs, cocaine, etc.), **E**xcessive alcohol / **E**ndocrine (pheo, Cushing's)"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "First-line med for a 68yo Black woman with HTN (no other conditions)?",
+            "a": [
+              "ACE inhibitor",
+              "ARB",
+              "Thiazide diuretic",
+              "Beta blocker"
+            ],
+            "correct": 2,
+            "explanation": "Thiazide or CCB for Black patients. Thiazides especially good for elderly + isolated systolic HTN."
+          },
+          {
+            "q": "Your patient on lisinopril has a persistent dry cough. Best switch?",
+            "a": [
+              "Increase dose",
+              "Add HCTZ",
+              "Switch to losartan (ARB)",
+              "Add antihistamine"
+            ],
+            "correct": 2,
+            "explanation": "ACE-I cough (10% of patients) \u2192 switch to ARB (same benefits, no cough mechanism)"
+          },
+          {
+            "q": "Patient on 3 meds (ACE-I, amlodipine, HCTZ) still at 148/92. Next step?",
+            "a": [
+              "Add beta blocker",
+              "Check adherence + workup for secondary causes",
+              "Double all doses"
+            ],
+            "correct": 1,
+            "explanation": "Resistant HTN = not controlled on 3 drugs including diuretic. Rule out pseudo-resistance (non-adherence, white coat) THEN workup secondary causes (aldosterone, sleep apnea, etc.)"
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Ninja Nerd",
+        "title": "Antihypertensive Drugs \u2014 Pharmacology",
+        "url": "https://www.youtube.com/watch?v=u7baG79qefY",
+        "duration": "36 min"
+      },
+      {
+        "source": "Osmosis",
+        "title": "Hypertension \u2014 causes, symptoms, diagnosis, treatment, pathology",
+        "url": "https://www.youtube.com/watch?v=Qm5kB5X70oA",
+        "duration": "10 min"
+      }
+    ]
+  }
+}

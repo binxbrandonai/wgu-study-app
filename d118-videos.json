@@ -1,0 +1,907 @@
+{
+  "Acute Bronchitis": {
+    "id": "GyTfzKE6bYc",
+    "title": "Acute Bronchitis - CRASH!",
+    "source": "Paul Bolin, M.D."
+  },
+  "Acute Otitis Media": {
+    "id": "7X3t-FvZLUo",
+    "title": "Acute Otitis Media | Emergency Medicine",
+    "source": "Core EM"
+  },
+  "Acute Sinusitis": {
+    "id": "CVUqP0x0C9k",
+    "title": "Sinusitis (updated 2023)",
+    "source": "Paul Bolin, M.D."
+  },
+  "Adrenal": {
+    "id": "GEk0nZ62Wkc",
+    "title": "Overview of the Adrenal Gland",
+    "source": "MedCram"
+  },
+  "Adrenal Insufficiency - Acute Crisis Management": {
+    "id": "m-uQ6j5FZrI",
+    "title": "Addisonian Crisis",
+    "source": "Level Up RN"
+  },
+  "Adrenal Insufficiency - Primary (Addison Disease)": {
+    "id": "KNa5fD3bQfo",
+    "title": "Addison's Disease",
+    "source": "Osmosis"
+  },
+  "Alcohol Use": {
+    "id": "KpO-Y-9bpHY",
+    "title": "Alcohol Use",
+    "source": "Osmosis"
+  },
+  "Alcohol Use Disorder - DSM-5 Severity": {
+    "id": "V84XEunXVeg",
+    "title": "Alcohol Use Disorder Severity",
+    "source": "APA"
+  },
+  "Alcohol Use Disorder - Pharmacotherapy": {
+    "id": "N8x_9fLLJVs",
+    "title": "Alcohol Use Disorder Pharmacotherapy",
+    "source": "Level Up RN"
+  },
+  "Allergic Conjunctivitis": {
+    "id": "8lDc7QjGJ9w",
+    "title": "Conjunctivitis",
+    "source": "EKG Science"
+  },
+  "Allergic Rhinitis": {
+    "id": "xw35MvZEljY",
+    "title": "Allergic Rhinitis",
+    "source": "Osmosis"
+  },
+  "Anemia": {
+    "id": "kGJmhiFd_mI",
+    "title": "Anemia",
+    "source": "Armando Hasudungan"
+  },
+  "Ankylosing Spondylitis - Assessment Tools": {
+    "id": "RKzT-E6M0mI",
+    "title": "BASDAI Score",
+    "source": "MedCram"
+  },
+  "Ankylosing Spondylitis - Clinical Presentation": {
+    "id": "FDhLqSQGxqE",
+    "title": "AS Overview",
+    "source": "Zero To Finals"
+  },
+  "Ankylosing Spondylitis - Treatment": {
+    "id": "TDCHKEt2kkY",
+    "title": "AS Treatment",
+    "source": "Paul Bolin, M.D."
+  },
+  "Anxiety": {
+    "id": "YjKFGtIgHO0",
+    "title": "Anxiety",
+    "source": "Dirty Medicine"
+  },
+  "Anxiety - Benzodiazepine Withdrawal": {
+    "id": "9Y1Cvi8GI3I",
+    "title": "Benzodiazepine Withdrawal",
+    "source": "Andrew Kim M.D."
+  },
+  "Anxiety - SSRI Side Effects": {
+    "id": "x3dGJakjC6k",
+    "title": "SSRI Side Effects",
+    "source": "Psychofarm"
+  },
+  "Bacterial Conjunctivitis": {
+    "id": "8lDc7QjGJ9w",
+    "title": "Bacterial Conjunctivitis",
+    "source": "EKG Science"
+  },
+  "Bipolar Disorder": {
+    "id": "dwvPL8iNmxw",
+    "title": "Bipolar Disorder",
+    "source": "Dirty Medicine"
+  },
+  "Bipolar Disorder - First-Line Mood Stabilizer": {
+    "id": "ZM1kGn3cjgg",
+    "title": "Mood Stabilizers",
+    "source": "Dirty Medicine"
+  },
+  "Bipolar Disorder - Lamotrigine Titration": {
+    "id": "A1vQhVGdVu0",
+    "title": "Lamotrigine Titration",
+    "source": "Dr. Omar Danoun"
+  },
+  "Bipolar Disorder - Lithium Monitoring": {
+    "id": "i50Z8Wq6zO8",
+    "title": "Lithium Monitoring",
+    "source": "Lecturio"
+  },
+  "Bipolar Disorder - Valproate Monitoring": {
+    "id": "K4k8sEY3lWc",
+    "title": "Valproate Monitoring",
+    "source": "SimpleNursing"
+  },
+  "Bipolar I Disorder - Manic Episode Criteria": {
+    "id": "xGwMEz96PVc",
+    "title": "Bipolar I Manic Episodes",
+    "source": "Osmosis"
+  },
+  "Bipolar II Disorder - Hypomania vs Mania": {
+    "id": "mp69fHs_TEg",
+    "title": "Bipolar I vs II",
+    "source": "The Ottawa Hospital"
+  },
+  "CKD": {
+    "id": "R7dY3JsCbSY",
+    "title": "Chronic Kidney Disease",
+    "source": "AAFP"
+  },
+  "Cancer Screening": {
+    "id": "NoYy8OY_iL0",
+    "title": "Cancer Screening",
+    "source": "IM MEDICAL"
+  },
+  "Cardiovascular": {
+    "id": "5gb8VI-mB-U",
+    "title": "Cardiology Part 1",
+    "source": "The Center for Medical Education"
+  },
+  "Carpal Tunnel Syndrome - Diagnosis": {
+    "id": "gQk6wBc0sZk",
+    "title": "Carpal Tunnel Syndrome",
+    "source": "Zero To Finals"
+  },
+  "Cirrhosis": {
+    "id": "R1f1gWCyutA",
+    "title": "Cirrhosis",
+    "source": "Ninja Nerd"
+  },
+  "Cushing Syndrome - Dexamethasone Suppression Test": {
+    "id": "ZINZOob04IY",
+    "title": "Dexamethasone Suppression Test",
+    "source": "Zero To Finals"
+  },
+  "Cushing Syndrome - Screening": {
+    "id": "0rRRmrLmcBM",
+    "title": "Cushing's Syndrome",
+    "source": "Ninja Nerd"
+  },
+  "DVT": {
+    "id": "0SVP95BOUNI",
+    "title": "VTE",
+    "source": "Ninja Nerd"
+  },
+  "Depression": {
+    "id": "3IUkw23paUk",
+    "title": "Major Depressive Disorder",
+    "source": "Osmosis"
+  },
+  "Depression - Serotonin Syndrome": {
+    "id": "30b2J74rssk",
+    "title": "Serotonin Syndrome",
+    "source": "Rhesus Medicine"
+  },
+  "Depression - Treatment-Resistant Depression": {
+    "id": "lkOjAeuirQg",
+    "title": "TRD",
+    "source": "CESPHN"
+  },
+  "Dermatology": {
+    "id": "jBzorLUeMBs",
+    "title": "Dermatology Part 1",
+    "source": "The Center for Medical Education"
+  },
+  "Diabetes": {
+    "id": "rh8ycjPCj18",
+    "title": "Diabetes Mellitus",
+    "source": "Ninja Nerd"
+  },
+  "Diabetes - ACCORD Trial Implications": {
+    "id": "Y1F6pE9OsI8",
+    "title": "ACCORD Trial & HbA1c",
+    "source": "iMedicalSchool"
+  },
+  "Diabetes - Hypoglycemia Management": {
+    "id": "oXbjqaEHQaM",
+    "title": "Hypoglycemia",
+    "source": "The Center for Medical Education"
+  },
+  "Diabetes - Insulin Initiation": {
+    "id": "31dq_wZ_I3k",
+    "title": "Starting Insulin",
+    "source": "Real World NP"
+  },
+  "Diabetes - Metformin and B12 Deficiency": {
+    "id": "SF7vOJjMEws",
+    "title": "Metformin & B12",
+    "source": "NIDDK"
+  },
+  "Diabetes - Peripheral Neuropathy Screening": {
+    "id": "_BQdeaEHfZc",
+    "title": "Diabetic Foot Exam",
+    "source": "Geeky Medics"
+  },
+  "Diabetes - Sick Day Management": {
+    "id": "-bRF-UpnqLc",
+    "title": "Sick Days",
+    "source": "Michigan Medicine"
+  },
+  "EENT": {
+    "id": "AP0Qy37qyP4",
+    "title": "EENT Review",
+    "source": "Professor G, PA-C"
+  },
+  "ENT": {
+    "id": "IBUH26eidd0",
+    "title": "Otolaryngology",
+    "source": "The Center for Medical Education"
+  },
+  "Ears": {
+    "id": "cZYJL9Jg-3k",
+    "title": "Weber vs Rinne",
+    "source": "Dirty Medicine"
+  },
+  "Eating Disorders - Anorexia Medical Complications": {
+    "id": "shGTlDCqa5s",
+    "title": "Anorexia Complications",
+    "source": "Icahn School of Medicine"
+  },
+  "Endocrine": {
+    "id": "vML4IuG0OIs",
+    "title": "Endocrinology",
+    "source": "Dirty Medicine"
+  },
+  "Epiglottitis": {
+    "id": "WwcD2KI2q6g",
+    "title": "Epiglottitis",
+    "source": "Paul Bolin, M.D."
+  },
+  "Eyes": {
+    "id": "KP9qlswVY44",
+    "title": "Ophthalmology Review",
+    "source": "MedSchool Quizzes"
+  },
+  "Fibromyalgia": {
+    "id": "7IMmGvvAAQI",
+    "title": "Fibromyalgia",
+    "source": "Paul Bolin, M.D."
+  },
+  "Fibromyalgia - Comorbidities": {
+    "id": "gN8TGvABW44",
+    "title": "Fibromyalgia Brief",
+    "source": "Pro-PA Podcast"
+  },
+  "Fibromyalgia - Diagnosis": {
+    "id": "gN8TGvABW44",
+    "title": "Fibromyalgia Brief",
+    "source": "Pro-PA Podcast"
+  },
+  "Fibromyalgia - Pharmacologic Management": {
+    "id": "kKX6zAP4SYI",
+    "title": "Fibromyalgia Treatments",
+    "source": "Rhesus Medicine"
+  },
+  "GI": {
+    "id": "CNbYbvD7voA",
+    "title": "Gastroenterology",
+    "source": "The Center for Medical Education"
+  },
+  "Gastrointestinal": {
+    "id": "CNbYbvD7voA",
+    "title": "Gastroenterology",
+    "source": "The Center for Medical Education"
+  },
+  "Generalized Anxiety Disorder - DSM-5 Diagnosis": {
+    "id": "oEpOK9fWmmI",
+    "title": "GAD Diagnosis",
+    "source": "JJ Medicine"
+  },
+  "Generalized Anxiety Disorder - First-Line Treatment": {
+    "id": "QqLqzKNzxuM",
+    "title": "GAD Treatment",
+    "source": "Psychiatry Simplified"
+  },
+  "Giant Cell Arteritis - Associated Condition": {
+    "id": "VpxAHI3AYCo",
+    "title": "Giant Cell Arteritis",
+    "source": "MedCram"
+  },
+  "Giant Cell Arteritis - Diagnosis and Management": {
+    "id": "DKNYtAMeOt8",
+    "title": "GCA Management",
+    "source": "Pro-PA Podcast"
+  },
+  "Giant Cell Arteritis - Diagnostic Testing": {
+    "id": "_1bqcNy1pW8",
+    "title": "GCA Pathogenesis & Criteria",
+    "source": "Medicosis Perfectionalis"
+  },
+  "Gout": {
+    "id": "TQqzJVk29ao",
+    "title": "Gout Review",
+    "source": "IM MEDICAL"
+  },
+  "Gout - Acute Management": {
+    "id": "ebDhXAml5rA",
+    "title": "Gout in Primary Care",
+    "source": "UCTV"
+  },
+  "Gout - Urate-Lowering Therapy": {
+    "id": "_J-NjEjG62M",
+    "title": "Gout ULT",
+    "source": "The Curbsiders"
+  },
+  "Guillain-Barr\u00e9 Syndrome - Clinical Features": {
+    "id": "KUEunZYZgII",
+    "title": "GBS Overview",
+    "source": "Zero To Finals"
+  },
+  "Guillain-Barr\u00e9 Syndrome - Treatment": {
+    "id": "ngsYnoulZWI",
+    "title": "GBS Treatment",
+    "source": "Dr MEK Medical Education"
+  },
+  "Guillain-Barr\u00e9 Syndrome - Variants": {
+    "id": "VSLF8vXd6Xw",
+    "title": "GBS Variants",
+    "source": "Rhesus Medicine"
+  },
+  "Hematology": {
+    "id": "mOrRJBqm744",
+    "title": "Anemias",
+    "source": "Ninja Nerd"
+  },
+  "Hepatitis": {
+    "id": "eocRM7MhF68",
+    "title": "Viral Hepatitis",
+    "source": "Osmosis"
+  },
+  "Hyperaldosteronism - Screening": {
+    "id": "_3El2bP9HJ8",
+    "title": "Hyperaldosteronism",
+    "source": "Ninja Nerd"
+  },
+  "Hypertension": {
+    "id": "B1PovVZLtUU",
+    "title": "Hypertension",
+    "source": "World Medical School"
+  },
+  "Hyperthyroidism - Graves Disease": {
+    "id": "RuwM6M5ohW4",
+    "title": "Graves Disease",
+    "source": "Zero To Finals"
+  },
+  "Hyperthyroidism - Initial Management": {
+    "id": "epWJ2v5qy5E",
+    "title": "Hyperthyroidism",
+    "source": "Ninja Nerd"
+  },
+  "Hypothyroidism - Levothyroxine Dosing": {
+    "id": "Acn7LdnfvrM",
+    "title": "Hypothyroidism Treatment",
+    "source": "MedNerd"
+  },
+  "Hypothyroidism - Medication Interactions": {
+    "id": "Ud99nzXRiSo",
+    "title": "Levothyroxine Drug Interactions",
+    "source": "JJ Medicine"
+  },
+  "Hypothyroidism - Primary Diagnosis": {
+    "id": "wyanDtvx8K0",
+    "title": "Hashimoto's Thyroiditis",
+    "source": "Zero To Finals"
+  },
+  "Infectious Disease": {
+    "id": "YWTgQNjJ5lM",
+    "title": "ID Review",
+    "source": "Doctor Tim"
+  },
+  "Lateral Epicondylitis (Tennis Elbow) - Management": {
+    "id": "Ri77yRaSm4A",
+    "title": "Tennis Elbow Fix",
+    "source": "Tone and Tighten"
+  },
+  "Lipids": {
+    "id": "yiyf1cmYg6c",
+    "title": "Hyperlipidemia Management",
+    "source": "Emory Cardiology"
+  },
+  "Lung Cancer Screening": {
+    "id": "CcepXp-LKZg",
+    "title": "USPSTF Lung Screening",
+    "source": "Dayton G. Cook MD"
+  },
+  "Major Depressive Disorder - Atypical Features": {
+    "id": "R7ix4rNNVKk",
+    "title": "Atypical Depression",
+    "source": "Psychofarm"
+  },
+  "Major Depressive Disorder - DSM-5 Diagnosis": {
+    "id": "OuAdtqrPShk",
+    "title": "Depression Diagnosis",
+    "source": "Lecturio"
+  },
+  "Major Depressive Disorder - First-Line Pharmacotherapy": {
+    "id": "-JoTNsqyDxw",
+    "title": "MDD Treatment",
+    "source": "Levelheaded Mind"
+  },
+  "Major Depressive Disorder - Suicide Risk Assessment": {
+    "id": "pb4I2cUqKU8",
+    "title": "Mood Disorders",
+    "source": "Healthcare Horizons"
+  },
+  "Major Depressive Disorder - Treatment Duration": {
+    "id": "igTxqFuIjjw",
+    "title": "Antidepressant Duration",
+    "source": "Psychiatry Education Forum"
+  },
+  "Mental Health": {
+    "id": "XgoIGUUvXaI",
+    "title": "MDD Neurobiology",
+    "source": "Psychiatry Boot Camp"
+  },
+  "Migraine": {
+    "id": "DMhKBUgizO8",
+    "title": "Migraine Pathophysiology",
+    "source": "Osmosis"
+  },
+  "Migraine - Acute Treatment": {
+    "id": "UFeCcEYLhlo",
+    "title": "Migraine Treatment",
+    "source": "NEJM Group"
+  },
+  "Migraine - Medication Overuse Headache": {
+    "id": "UZFf15b3WTk",
+    "title": "Rebound Headache",
+    "source": "Dr. Luis E Zayas, MD PT"
+  },
+  "Migraine - Preventive Therapy Indication": {
+    "id": "fMGeUgvB7Bw",
+    "title": "Migraine Prevention",
+    "source": "Migraine Disorders"
+  },
+  "Multiple Sclerosis": {
+    "id": "x_136Lk_XPg",
+    "title": "MS Overview",
+    "source": "Ninja Nerd"
+  },
+  "Multiple Sclerosis - Acute Relapse Treatment": {
+    "id": "SeLAWL4AsJA",
+    "title": "MS Relapse Steroids",
+    "source": "Dr. Brandon Beaber"
+  },
+  "Multiple Sclerosis - Disease-Modifying Therapy": {
+    "id": "ECeIFcrS-6I",
+    "title": "MS Therapy",
+    "source": "NeurologyLive"
+  },
+  "Multiple Sclerosis - Initial Presentation": {
+    "id": "yzH8ul5PSZ8",
+    "title": "MS Overview",
+    "source": "Osmosis"
+  },
+  "Musculoskeletal": {
+    "id": "tvxtVMVvEIE",
+    "title": "MSK Review",
+    "source": "AJmonics"
+  },
+  "Myasthenia Gravis - Crisis Management": {
+    "id": "il3vvxNpls8",
+    "title": "Myasthenia Gravis",
+    "source": "Zero To Finals"
+  },
+  "Myasthenia Gravis - Diagnosis": {
+    "id": "NYUHrGSefi4",
+    "title": "Myasthenia Gravis",
+    "source": "Armando Hasudungan"
+  },
+  "Myasthenia Gravis - Thymectomy": {
+    "id": "voGPlXMs2Ck",
+    "title": "MG Drugs",
+    "source": "YouTube"
+  },
+  "Neurology": {
+    "id": "7ptg1ec3r5w",
+    "title": "Parkinson Disease",
+    "source": "YouTube"
+  },
+  "OCD - DSM-5 Criteria": {
+    "id": "yoRPFWQda24",
+    "title": "OCD DSM-5",
+    "source": "YouTube"
+  },
+  "Osteoarthritis": {
+    "id": "sUOlmI-naFs",
+    "title": "OA Overview",
+    "source": "YouTube"
+  },
+  "Osteoarthritis - Intra-articular Injections": {
+    "id": "O-Nzpkvhlac",
+    "title": "Steroid Injections",
+    "source": "YouTube"
+  },
+  "Osteoarthritis - Non-pharmacologic Management": {
+    "id": "AGbdXtyNZ6U",
+    "title": "OA Non-pharm",
+    "source": "YouTube"
+  },
+  "Osteoarthritis - Pharmacologic Management": {
+    "id": "1pN6IvUjaaM",
+    "title": "OA Treatment",
+    "source": "YouTube"
+  },
+  "PCOS": {
+    "id": "YVQzolMgNp0",
+    "title": "PCOS Explained",
+    "source": "YouTube"
+  },
+  "PTSD": {
+    "id": "I5ixX53GTws",
+    "title": "PTSD DSM-5",
+    "source": "YouTube"
+  },
+  "PTSD - Evidence-Based Treatment": {
+    "id": "rynncgAcrYg",
+    "title": "PTSD Evidence-Based",
+    "source": "YouTube"
+  },
+  "PTSD - Pharmacotherapy for Nightmares": {
+    "id": "i10OJjUcJQs",
+    "title": "Prazosin for PTSD",
+    "source": "YouTube"
+  },
+  "PTSD - Screening in Primary Care": {
+    "id": "GAAON2lwDM4",
+    "title": "PTSD Screening",
+    "source": "YouTube"
+  },
+  "Panic Disorder - Agoraphobia": {
+    "id": "8eT74-5dIsE",
+    "title": "Agoraphobia",
+    "source": "YouTube"
+  },
+  "Panic Disorder - DSM-5 Criteria": {
+    "id": "R_oerTjxEZg",
+    "title": "Panic Attacks",
+    "source": "YouTube"
+  },
+  "Panic Disorder - Medication Selection": {
+    "id": "orx4adUXXhU",
+    "title": "Anxiety Mnemonics",
+    "source": "YouTube"
+  },
+  "Parkinson Disease": {
+    "id": "7ptg1ec3r5w",
+    "title": "Parkinson Disease",
+    "source": "YouTube"
+  },
+  "Parkinson's Disease - Early Diagnosis": {
+    "id": "cxwiERUYlwo",
+    "title": "Prodromal PD",
+    "source": "YouTube"
+  },
+  "Parkinson's Disease - Initial Pharmacotherapy": {
+    "id": "MdsPBaH-6Po",
+    "title": "PD Medications",
+    "source": "YouTube"
+  },
+  "Parkinson's Disease - Motor Complications": {
+    "id": "EKq6J790g1M",
+    "title": "PD Motor Fluctuations",
+    "source": "YouTube"
+  },
+  "Peritonsillar Abscess": {
+    "id": "BxttM5VY2M8",
+    "title": "Quinsy",
+    "source": "YouTube"
+  },
+  "Pharyngitis": {
+    "id": "cYRc3OJ9uZQ",
+    "title": "Sore Throat Approach",
+    "source": "YouTube"
+  },
+  "Pharyngitis - Strep vs Viral": {
+    "id": "CoBJ6pDCLKI",
+    "title": "Strep vs Viral",
+    "source": "YouTube"
+  },
+  "Pheochromocytoma - Clinical Presentation": {
+    "id": "nh977KoL220",
+    "title": "Pheochromocytoma",
+    "source": "YouTube"
+  },
+  "Pneumonia": {
+    "id": "86KAoKvk8X8",
+    "title": "Pneumonia Basics",
+    "source": "YouTube"
+  },
+  "Polycystic Ovary Syndrome (PCOS) - Endocrine Aspects": {
+    "id": "YVQzolMgNp0",
+    "title": "PCOS Explained",
+    "source": "Rhesus Medicine"
+  },
+  "Polymyalgia Rheumatica - Differential Diagnosis": {
+    "id": "x2t71uY0o9c",
+    "title": "PMR Overview",
+    "source": "Zero To Finals"
+  },
+  "Polymyalgia Rheumatica - Steroid Taper": {
+    "id": "6YIcGq3Js0A",
+    "title": "PMR Treatment",
+    "source": "CreakyJoints"
+  },
+  "Polymyalgia Rheumatica - Treatment Response": {
+    "id": "PgmKF_J2pJA",
+    "title": "PMR 2024",
+    "source": "Vasculitis Foundation"
+  },
+  "Post-Traumatic Stress Disorder - DSM-5 Diagnosis": {
+    "id": "lrdoF6CznaE",
+    "title": "PTSD Diagnosis",
+    "source": "Therapy in ACTion"
+  },
+  "Practice Question": {
+    "id": "aM5kG1TsxU0",
+    "title": "Critical Care Q&A",
+    "source": "UofL"
+  },
+  "Preventive Care": {
+    "id": "bnK9nz9_BHo",
+    "title": "USPSTF & Vaccines",
+    "source": "Dr. High Yield"
+  },
+  "Prostate": {
+    "id": "iEt37lisSFg",
+    "title": "BPH Overview",
+    "source": "Zero To Finals"
+  },
+  "Pseudogout (CPPD) - Diagnosis": {
+    "id": "u2yAEdkTKNU",
+    "title": "Pseudogout",
+    "source": "Zero To Finals"
+  },
+  "Renal": {
+    "id": "muCAhJ0wVoM",
+    "title": "Renal & Urology",
+    "source": "Dirty Medicine"
+  },
+  "Respiratory": {
+    "id": "HU3V0kftcqY",
+    "title": "Respiratory Review",
+    "source": "Dr. High Yield"
+  },
+  "Rheumatoid Arthritis": {
+    "id": "PLMoU3uziPk",
+    "title": "RA Explained",
+    "source": "Rhesus Medicine"
+  },
+  "Rheumatoid Arthritis - DMARD Selection": {
+    "id": "HxJKeTyDWas",
+    "title": "DMARD Therapy",
+    "source": "Osmosis"
+  },
+  "Rheumatoid Arthritis - Diagnosis": {
+    "id": "EB5zxdAQGzU",
+    "title": "RA Diagnosis",
+    "source": "Osmosis"
+  },
+  "Rheumatoid Arthritis - Extra-articular Manifestations": {
+    "id": "PLMoU3uziPk",
+    "title": "RA Overview",
+    "source": "Rhesus Medicine"
+  },
+  "Rheumatology": {
+    "id": "CTQBilMKpKY",
+    "title": "IM CT Review",
+    "source": "Dr. High Yield"
+  },
+  "SLE": {
+    "id": "0junqD4BLH4",
+    "title": "SLE Overview",
+    "source": "Osmosis"
+  },
+  "Schizophrenia": {
+    "id": "0zHU6fiM2KY",
+    "title": "Schizophrenia",
+    "source": "Rhesus Medicine"
+  },
+  "Schizophrenia - DSM-5 Diagnosis": {
+    "id": "0zHU6fiM2KY",
+    "title": "Schizophrenia DSM-5",
+    "source": "Rhesus Medicine"
+  },
+  "Schizophrenia - First-Line Antipsychotic": {
+    "id": "3J1swiS7uJo",
+    "title": "Antipsychotics Mnemonics",
+    "source": "Memorable Psychiatry"
+  },
+  "Schizophrenia - Metabolic Monitoring": {
+    "id": "VGsUAgbyMaA",
+    "title": "Antipsychotics Effects",
+    "source": "Lecturio"
+  },
+  "Scleroderma - Classification": {
+    "id": "vez85zdCw-A",
+    "title": "Systemic Sclerosis",
+    "source": "Zero To Finals"
+  },
+  "Scleroderma - Organ Involvement": {
+    "id": "vez85zdCw-A",
+    "title": "Systemic Sclerosis",
+    "source": "Zero To Finals"
+  },
+  "Scleroderma - Raynaud's Phenomenon": {
+    "id": "Cunmv5kejG0",
+    "title": "Raynaud's & Sclerosis",
+    "source": "Zero To Finals"
+  },
+  "Seizure": {
+    "id": "CEjxjysgONI",
+    "title": "Seizures Pathology",
+    "source": "Osmosis"
+  },
+  "Seizure - First Unprovoked Seizure": {
+    "id": "v0PuDFk9K0s",
+    "title": "First Unprovoked Seizure",
+    "source": "IAP Tamilnadu"
+  },
+  "Seizure - Status Epilepticus": {
+    "id": "4Gt8PD1JGsA",
+    "title": "Status Epilepticus",
+    "source": "FERNE"
+  },
+  "Seizure - Women of Childbearing Age": {
+    "id": "Qbpj1ysLZHw",
+    "title": "Women & Epilepsy",
+    "source": "Mayo Clinic"
+  },
+  "Sj\u00f6gren's Syndrome - Clinical Features": {
+    "id": "Gh4WineSF-k",
+    "title": "Sjogren's Pathology",
+    "source": "Osmosis"
+  },
+  "Sj\u00f6gren's Syndrome - Extraglandular Manifestations": {
+    "id": "faTSGcovqJA",
+    "title": "Sjogren's Extraglandular",
+    "source": "MedNerd"
+  },
+  "Sj\u00f6gren's Syndrome - Oral Complications": {
+    "id": "PxHLMD6Sp6Q",
+    "title": "Sjogren's Oral",
+    "source": "Docplexus"
+  },
+  "Sleep Apnea": {
+    "id": "NZszF7OaDVE",
+    "title": "Sleep Apnea",
+    "source": "MedCram"
+  },
+  "Smoking Cessation": {
+    "id": "Znk-2TleNao",
+    "title": "Smoking Cessation",
+    "source": "Dr. Busti"
+  },
+  "Social Anxiety Disorder - Diagnosis": {
+    "id": "FEXPduL-_c4",
+    "title": "Social Anxiety",
+    "source": "JJ Medicine"
+  },
+  "Stroke": {
+    "id": "mbnHMZn_vfs",
+    "title": "Stroke 2025",
+    "source": "The Neurophile"
+  },
+  "Subclinical Hypothyroidism - Treatment Decision": {
+    "id": "JRVs1dfMmQw",
+    "title": "Hypothyroidism Master Class",
+    "source": "The Curbsiders"
+  },
+  "Systemic Lupus Erythematosus - Antibody Profiles": {
+    "id": "qq8ezVd1Cbc",
+    "title": "Anti-dsDNA",
+    "source": "Medicosis"
+  },
+  "Systemic Lupus Erythematosus - Management": {
+    "id": "ySw0c2QoGCg",
+    "title": "SLE ACR Guidelines",
+    "source": "Lupus Foundation"
+  },
+  "Systemic Lupus Erythematosus - Renal Involvement": {
+    "id": "Yl2RvydEOU8",
+    "title": "Lupus Nephritis",
+    "source": "Osmosis"
+  },
+  "Thyroid": {
+    "id": "C4q4YkRokVs",
+    "title": "Thyroid Hormone",
+    "source": "Dr Matt & Dr Mike"
+  },
+  "Thyroid - Pregnancy and Levothyroxine": {
+    "id": "JRVs1dfMmQw",
+    "title": "Hypothyroidism Master Class",
+    "source": "The Curbsiders"
+  },
+  "Thyroid - Subclinical Hyperthyroidism": {
+    "id": "z-LwBvYJH5o",
+    "title": "Hyperthyroidism",
+    "source": "The Curbsiders"
+  },
+  "Thyroid Cancer - Post-Thyroidectomy TSH Target": {
+    "id": "jrw5D9K_rFo",
+    "title": "Thyroid Cancer 2025",
+    "source": "Medscape"
+  },
+  "Thyroid Nodule - Evaluation": {
+    "id": "4-RNrTznfow",
+    "title": "Thyroid Nodule",
+    "source": "Endocrinology India"
+  },
+  "Transient Ischemic Attack - Dual Antiplatelet Therapy": {
+    "id": "qoZ11ELE-ow",
+    "title": "TIA Overview",
+    "source": "EM Note"
+  },
+  "Transient Ischemic Attack - Risk Stratification": {
+    "id": "iH4JsLraoI8",
+    "title": "ABCD2 Score",
+    "source": "Details Medical"
+  },
+  "Transient Ischemic Attack - Secondary Prevention": {
+    "id": "3CInkjVReDA",
+    "title": "Stroke Prevention",
+    "source": "Mechanisms in Medicine"
+  },
+  "Type 2 Diabetes - Diabetic Ketoacidosis Risk": {
+    "id": "-B-RVybvffU",
+    "title": "DKA",
+    "source": "Osmosis"
+  },
+  "Type 2 Diabetes - GLP-1 RA Selection": {
+    "id": "ceCbcQglHWM",
+    "title": "GLP-1 RAs",
+    "source": "Decera Clinical"
+  },
+  "Type 2 Diabetes - HbA1c Target": {
+    "id": "Nkz05tW1pY0",
+    "title": "HbA1c Target",
+    "source": "JAMA Network"
+  },
+  "Type 2 Diabetes - Initial Diagnosis": {
+    "id": "pAb0Odjj5xE",
+    "title": "T2DM Diagnosis",
+    "source": "Animated Diabetes"
+  },
+  "Type 2 Diabetes - Metformin Initiation": {
+    "id": "4AmiqM6iy8A",
+    "title": "Metformin",
+    "source": "Doctor O'Donovan"
+  },
+  "Type 2 Diabetes - Nephropathy Monitoring": {
+    "id": "Eg3MZjNF5Ps",
+    "title": "Diabetic Kidney Disease",
+    "source": "Doctor O'Donovan"
+  },
+  "Type 2 Diabetes - Retinopathy Screening": {
+    "id": "it3VxnoAgls",
+    "title": "Diabetic Retinopathy",
+    "source": "NEI, NIH"
+  },
+  "Type 2 Diabetes - SGLT2 Inhibitor Indication": {
+    "id": "wFDtDM4x7jI",
+    "title": "SGLT2 Inhibitors",
+    "source": "Zero To Finals"
+  },
+  "UTI": {
+    "id": "gGS7tddt1XA",
+    "title": "UTI Overview",
+    "source": "Zero To Finals"
+  },
+  "Vaccines": {
+    "id": "GON9XFWAmYI",
+    "title": "2024 Vaccine Schedule",
+    "source": "Medscape"
+  },
+  "Viral Conjunctivitis": {
+    "id": "j6cfrC_toH4",
+    "title": "Conjunctivitis Types",
+    "source": "JJ Medicine"
+  }
+}

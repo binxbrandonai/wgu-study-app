@@ -1,0 +1,196 @@
+{
+  "topic": {
+    "id": "d120-prenatal",
+    "name": "Prenatal Care",
+    "system": "Special Populations",
+    "duration_min": 25,
+    "icon": "\ud83e\udd30",
+    "color": "#f5b731",
+    "objectives": [
+      "Schedule prenatal visits and perform appropriate screenings at each gestational age",
+      "Interpret routine prenatal labs and identify abnormal values requiring intervention",
+      "Diagnose and manage common pregnancy complaints (N/V, GERD, back pain, edema)",
+      "Identify high-risk conditions requiring referral or escalation of care"
+    ],
+    "lessons": [
+      {
+        "id": "prenatal-schedule",
+        "title": "\ud83d\udcc5 Prenatal Visit Schedule: What and When",
+        "duration_min": 9,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Danielle, 28, G1P0, missed her first prenatal visit until 18 weeks because 'I didn't know I was supposed to go that early.' She missed first-trimester screening, the NT ultrasound window closed, and she ended up needing CVS instead of NIPT for reassurance. Then at 28 weeks, she came in with a headache and blurry vision \u2014 PIH was missed because her BP wasn't checked regularly. The prenatal visit schedule isn't arbitrary; every visit has a purpose, and missing windows has real consequences. As an FNP, you'll be the one managing most prenatal care until delivery.",
+            "visual_desc": "Pregnancy timeline from conception to 40 weeks with markers showing when each screening/test occurs"
+          },
+          {
+            "type": "definition",
+            "title": "Prenatal Visit Schedule (ACOG Guidelines)",
+            "content": "**Standard Schedule for Uncomplicated Pregnancy**:\n\n| Gestation | Visit Frequency | Key Deliverables |\n|---|---|---|\n| **<28 wk** | Every 4 weeks | Establish dating, baseline labs, nuchal translucency, anatomy scan |\n| **28-36 wk** | Every 2 weeks | GDM screening, Rhogam (28 wk), Tdap (27-36 wk), growth scan |\n| **36 wk to delivery** | Weekly | Group B Strep screen, cervical checks (optional), presentation, fetal movement counts |\n\n**First Visit (8-12 wk)** \u2014 The BIG one:\n\u2705 Confirm pregnancy (urine/blood hCG, viability US)\n\u2705 **Dating ultrasound** (most accurate 8-12 wk \u2014 CRL)\n\u2705 Complete history: LMP, prior pregnancies, medical/surgical, meds, family/genetic\n\u2705 **Standard labs**: CBC, blood type + Rh, antibody screen, rubella IgG, VDRL/RPR, HBsAg, HIV, varicella IgG, pap, urine culture\n\u2705 NIPT (cfDNA) for aneuploidy screening \u2014 offered to ALL, recommended age \u226535\n\u2705 Nuchal translucency US (11-13.6 wk)\n\u2705 Counseling: Nutrition (prenatal vitamins!), exercise, medication safety, red flags\n\n**18-22 Week Visit**: **Anatomy scan** \u2014 fetal survey, placental location, cervical length",
+            "mnemonic": "**FIRST AID for first visit**: **F**undal height, **I**mmunizations/rubella, **R**h type, **S**TIs (HIV, RPR, hep B), **T**SH, **A**neuploidy screening, **I**ron stores (CBC), **D**ating ultrasound",
+            "visual_desc": "Calendar-style graphic showing pregnancy divided into trimesters with visit frequency icons and key screening milestones"
+          },
+          {
+            "type": "protocol",
+            "title": "Screening Tests \u2014 When & Why",
+            "content": "**First Trimester**:\n\u2022 **NIPT (cfDNA)**: Screens for trisomies 21, 18, 13 \u2014 sensitivity >99% for T21. Can detect sex chromosome abnormalities.\n\u2022 **NT Ultrasound**: Nuchal translucency \u22653.5mm \u2192 higher risk of aneuploidy + structural heart defects\n\u2022 **Carrier screening**: Cystic fibrosis, spinal muscular atrophy, hemoglobinopathies \u2014 ideally prior to or early in pregnancy\n\n**Second Trimester**:\n\u2022 **Maternal serum AFP (quad screen)**: Open neural tube defects (ONTDs), ventral wall defects, multiple gestation. Done 16-18 wk (making way to cfDNA but still used when NIPT unavailable)\n\u2022 **Anatomy scan (18-22 wk)**: Detailed fetal anatomy survey; if cervical length <25mm \u2192 short cervix, Tocolysis + progesterone\n\n**24-28 Weeks**:\n\u2022 **1-hour Glucose Challenge Test (GCT)**: 50g glucose, check at 1 hour \u2192 \u2265140 mg/dL = abnormal \u2192 proceed to 3-hour GTT\n\u2022 **Oral Glucose Tolerance Test (OGTT)**: 100g glucose, fasting + 1, 2, 3 hour levels\n  - Carpenter-Coustan criteria: Fasting \u226595, 1h \u2265180, 2h \u2265155, 3h \u2265140 (any 2 abnormal = GDM)\n\n**36 Weeks**:\n\u2022 **Group B Streptococcus (GBS)**: Vaginal-rectal swab \u2192 if positive, intrapartum penicillin\n\n**If Rh negative**: **Rhogam (RhoGAM)** at 28 wk AND within 72 hours of any bleeding, trauma, amniocentesis, or delivery",
+            "visual_desc": "Timeline infographic with gestational weeks on x-axis and screening tests shown as icons placed at their appropriate timing windows"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **Don't miss Tdap in EVERY pregnancy!** Tdap (27-36 wk) provides passive immunity to newborn against pertussis. Does NOT matter when last Tdap was \u2014 give in EVERY pregnancy regardless of prior vaccination interval. Also: **COVID-19 and flu vaccines are SAFE in any trimester**. Recommend them."
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A G1P0 patient at 12 weeks comes for her first visit. Which of the following is NOT typically done at this visit?",
+            "answers": [
+              "Dating ultrasound",
+              "NIPT (cfDNA) screening",
+              "Group B Strep culture",
+              "Standard prenatal labs (CBC, type/Rh, HIV)"
+            ],
+            "correct": 2,
+            "explanation": "GBS screening is done at 36 weeks. First visit includes dating US, NIPT offer, and standard prenatal labs."
+          },
+          {
+            "q": "When should Tdap vaccine be given during pregnancy?",
+            "answers": [
+              "First trimester only",
+              "27-36 weeks gestation",
+              "Anytime during pregnancy",
+              "Only if the patient hasn't had Tdap in 10 years"
+            ],
+            "correct": 1,
+            "explanation": "Tdap is recommended at 27-36 weeks EVERY pregnancy regardless of prior vaccination interval, to maximize passive antibody transfer to newborn."
+          }
+        ]
+      },
+      {
+        "id": "prenal-common-complaints",
+        "title": "\ud83e\udd22 Common Pregnancy Complaints: What's Normal, What's Not",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Tara, 26, G3P2, is 8 weeks pregnant and 'can't keep anything down.' She's lost 8 pounds in 2 weeks, has ketones in her urine, and her husband is terrified. She's been told 'morning sickness is normal' but she's vomited 6 times today. This is hyperemesis gravidarum \u2014 not 'normal' morning sickness \u2014 and she needs treatment. On the other end of the spectrum, Emily, 34 weeks, is worried about swelling in her ankles and hands. Is it normal edema or preeclampsia? Differentiating routine discomfort from dangerous complications is the skill that separates a good FNP from a great one.",
+            "visual_desc": "Split illustration: Left side shows mild symptoms (normal pregnancy), right side shows red-flag symptoms requiring urgent evaluation"
+          },
+          {
+            "type": "definition",
+            "title": "Nausea & Vomiting of Pregnancy vs. Hyperemesis Gravidarum",
+            "content": "**Nausea & Vomiting of Pregnancy (NVP)** \u2014 'Morning sickness':\n\u2022 70-80% of pregnancies, peaks at 9 weeks, resolves by 16-20 weeks\n\u2022 Mild to moderate, doesn't cause significant dehydration or weight loss\n\u2022 **Treatment**: Dietary changes (small frequent meals, bland foods, ginger 250mg QID, vitamin B6 10-25mg TID)\n\n**Hyperemesis Gravidarum (HG)** \u2014 Severe form:\n\u2022 **Persistent vomiting** causing:\n  - >5% weight loss from pre-pregnancy weight\n  - Dehydration + ketonuria\n  - Electrolyte abnormalities (hypokalemia, metabolic alkalosis)\n  - Nutritional deficiencies (thiamine!) \u2192 risk of Wernicke encephalopathy\n\u2022 **Treatment**:\n  1. **First-line**: Doxylamine 12.5mg + Pyridoxine 25mg TID (Diclegis/Bonjesta \u2014 FDA-approved!)\n  2. **Second-line**: Ondansetron (Zofran) \u2014 caution: debate about cleft palate risk, benefit usually outweighs risk\n  3. **Third-line**: Metoclopramide, promethazine, or prochlorperazine\n  4. **Refractory**: IV fluids + electrolyte repletion, TPN if severe, steroids (last resort)\n  - Always give **thiamine (B1)** before IV dextrose to prevent Wernicke's!\n\n**Warning Signs requiring evaluation**: Weight loss >5%, ketonuria, inability to keep fluids down 24+ hours, abdominal pain, fever",
+            "visual_desc": "Comparison table contrasting NVP (mild, self-limited) with HG (severe, weight loss, dehydration, needs treatment)"
+          },
+          {
+            "type": "protocol",
+            "title": "Other Common Complaints & Management",
+            "content": "**GERD / Heartburn** (30-50% of pregnancies):\n\u2022 **Mechanism**: Progesterone relaxes LES + enlarging uterus increases intra-abdominal pressure\n\u2022 **Treatment**: Antacids (calcium carbonate, Tums), H2 blockers (ranitidine/famotidine \u2014 safe!), PPIs (omeprazole \u2014 safe!)\n\u2022 **Lifestyle**: Small meals, avoid lying flat after eating, elevate head of bed\n\n**Low Back Pain** (50-80%):\n\u2022 **Mechanism**: Relaxin + lordosis from growing belly\n\u2022 **Treatment**: PT, acetaminophen (AVOID NSAIDs/ibuprofen!), maternity support belt, warm compresses\n\u2022 **Red flag**: Back pain + fever + dysuria = pyelonephritis! Get urinalysis\n\n**Edema** (legs, feet, hands):\n\u2022 **Normal**: Dependent edema, worse at day's end, improves with elevation, no other symptoms\n\u2022 **ABNORMAL (worrisome)**: Sudden onset, facial/hand edema, +HTN, +proteinuria \u2192 **pre-eclampsia!**\n\u2022 **Management**: Elevation, compression stockings, avoid prolonged standing, hydration\n\n**Round Ligament Pain** (sharp groin pain with movement):\n\u2022 **Reassurance** \u2014 normal stretching! Sudden movement triggers brief sharp pain\n\u2022 Red flag if pain is constant, fever, vomiting, or accompanied by vaginal bleeding\n\n**Shortness of Breath**:\n\u2022 **Normal**: Progesterone increases respiratory drive, enlarged uterus \u2192 decreased lung volume\n\u2022 **ABNORMAL**: Sudden onset, pleuritic, with chest pain, or with unilateral leg swelling \u2192 PE risk (pregnancy is hypercoagulable!)",
+            "visual_desc": "Body diagram showing a pregnant silhouette with numbered areas: 1. Head (HA \u2192 preeclampsia), 2. Chest (SOB \u2192 PE?), 3. Upper abdomen (GERD), 4. Lower back, 5. Legs (edema, DVT)"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **Medication safety in pregnancy simplified**: Tylenol (acetaminophen) = safe. Ibuprofen/NSAIDs = AVOID (risk of oligohydramnios, premature ductus arteriosus closure \u2014 especially after 20 wk). Most antibiotics = safe (penicillins, cephalosporins, macrolides except erythromycin estolate). DOXYCYCLINE and TETRACYCLINE = contraindicated (bone/tooth effects). **Levothyroxine doses often need to INCREASE by 30-50% in pregnancy** \u2014 check TSH every 4 weeks!"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A patient at 10 weeks has lost 7% of her pre-pregnancy weight, has ketones in urine, and vomits 5+ times daily. What is the MOST appropriate diagnosis?",
+            "answers": [
+              "Normal morning sickness \u2014 reassure",
+              "Hyperemesis gravidarum \u2014 start doxylamine + pyridoxine",
+              "Gastroenteritis \u2014 prescribe antibiotics",
+              "Preeclampsia \u2014 admit for monitoring"
+            ],
+            "correct": 1,
+            "explanation": "Weight loss >5%, ketonuria, and persistent vomiting despite conservative measures = hyperemesis gravidarum. First-line treatment is doxylamine + pyridoxine (Diclegis)."
+          },
+          {
+            "q": "Which of the following symptoms in a 34-week pregnant patient requires immediate evaluation?",
+            "answers": [
+              "Mild ankle swelling at the end of the day",
+              "Heartburn after eating spicy food",
+              "Sharp groin pain with sudden movement",
+              "New onset facial edema with headache and visual changes"
+            ],
+            "correct": 3,
+            "explanation": "Facial edema + headache + visual changes = preeclampsia until proven otherwise. Check BP and urine protein. The other options are common, benign pregnancy complaints."
+          }
+        ]
+      },
+      {
+        "id": "prenatal-high-risk",
+        "title": "\u26a0\ufe0f High-Risk Conditions: When to Refer",
+        "duration_min": 8,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Keisha, 32, G2P1, has a history of C-section. She's now 39 weeks and feels a 'tearing' sensation in her lower abdomen. She had an appointment tomorrow but didn't think this was urgent. Her husband insisted she come in. Her vitals are stable, but her abdomen is tender over the previous C-section scar, and FHR tracing shows variable decelerations. Uterine rupture is a life-threatening emergency. Recognizing high-risk conditions and knowing when to refer \u2014 or when to send straight to the ER \u2014 is critical for safe FNP practice.",
+            "visual_desc": "Warning sign icons: pregnant silhouette with red exclamation points at critical areas (abdomen, head, chest, legs)"
+          },
+          {
+            "type": "definition",
+            "title": "Hypertensive Disorders of Pregnancy",
+            "content": "**Classification** (ACOG):\n\n| Condition | BP | Proteinuria | Other Features |\n|---|---|---|---|\n| **Chronic HTN** | \u2265140/90 before 20 wk | \u00b1 | Preexisting |\n| **Gestational HTN** | \u2265140/90 after 20 wk | Negative | No systemic features |\n| **Preeclampsia** | \u2265140/90 after 20 wk | \u2265300mg/24h or \u22651+ dipstick | May have end-organ dysfunction |\n| **Eclampsia** | \u2265140/90 | \u00b1 | +Seizures |\n| **HELLP** | \u00b1 | \u00b1 | Hemolysis, Elevated Liver enzymes, Low Platelets |\n\n**Preeclampsia Warning Signs (CRUSH)**:\n\u2022 **C**loudy vision / **C**onfusion\n\u2022 **R**ight upper quadrant pain (liver capsule distension)\n\u2022 **U**rine output decreased\n\u2022 **S**evere headache\n\u2022 **H**ypertension + edema\n\n**Crescendo pattern**: Gestational HTN \u2192 mild preeclampsia \u2192 severe preeclampsia \u2192 eclampsia \u2192 HELLP\n\n**Prevention**: Low-dose aspirin 81mg daily starting at 12-16 wk for HIGH-RISK patients (prior preeclampsia, multifetal gestation, CKD, DM, chronic HTN, autoimmune disease)\n\n**Treatment**: Delivery is the only cure! Mild: manage outpatient with BP control. Severe: admit, give magnesium for seizure prophylaxis, deliver.\n\n**Postpartum**: Risk persists for 6-12 weeks postpartum. BP can worsen at 3-6 days postpartum (fluid mobilization)!",
+            "mnemonic": "**CRUSH** for preeclampsia warning signs: **C**loudy vision, **R**UQ pain, **U**rine output down, **S**evere HA, **H**TN",
+            "visual_desc": "Staircase diagram showing progression from chronic/gestational HTN \u2192 preeclampsia \u2192 severe preeclampsia \u2192 eclampsia \u2192 HELLP with defining features at each step"
+          },
+          {
+            "type": "protocol",
+            "title": "Red Flags That Need Immediate Referral/ER",
+            "content": "**OB Emergencies \u2014 Don't Miss These**:\n\n\ud83d\udea8 **Preeclampsia with Severe Features**:\n\u2022 BP \u2265160/110 (confirmed in 15 min)\n\u2022 Severe headache, visual changes, RUQ pain\n\u2022 Pulmonary edema\n\u2022 Platelets <100K, Cr >1.1, AST/ALT >2\u00d7 normal\n\u2192 **Call OB!** Likely need admission, magnesium, delivery\n\n\ud83d\udea8 **Eclampsia**: Seizure + HTN/proteinuria \u2192 ABCs, magnesium 4-6g IV, emergency C-section\n\n\ud83d\udea8 **Vaginal Bleeding in 3rd Trimester**:\n\u2022 **Placenta previa** (painless bright red bleeding) \u2014 NO vaginal exam! STAT ultrasound\n\u2022 **Placental abruption** (painful dark bleeding + rigid/firm uterus) \u2014 fetal distress \u2192 C-section\n\n\ud83d\udea8 **PPROM (Preterm Premature Rupture of Membranes)**:\n\u2022 Gush of fluid + pooling on speculum exam + positive ferning/nitrazine\n\u2022 <37 weeks \u2192 steroids for fetal lung maturity, antibiotics (group B strep coverage), monitor for chorioamnionitis\n\n\ud83d\udea8 **Decreased Fetal Movement**:\n\u2022 <10 movements in 2 hours in 3rd trimester\n\u2022 Kick counts: Should feel \u226510 kicks in 2 hours after a meal\n\u2022 \u2192 NST (non-stress test) + BPP (biophysical profile)\n\n\ud83d\udea8 **VTE / DVT / PE in Pregnancy**:\n\u2022 Unilateral leg swelling/pain, chest pain, SOB\n\u2022 Pregnancy is 5\u00d7 higher VTE risk (hypercoagulable state!)\n\u2022 Workup: venous Doppler, CT pulmonary angiogram or V/Q scan\n\u2022 Treatment: LMWH (enoxaparin) \u2014 NOT warfarin (teratogenic)\n\n\ud83d\udea8 **Postpartum Red Flags**:\n\u2022 Hemorrhage (>500mL vag delivery, >1000mL C-section)\n\u2022 Endometritis (fever + fundal tenderness + foul lochia)\n\u2022 Postpartum preeclampsia (can occur up to 6 weeks after delivery!)",
+            "visual_desc": "ER-style triage board with each emergency listed as a case with symptoms, vitals, and action required"
+          },
+          {
+            "type": "clinical_pearl",
+            "title": "",
+            "content": "\ud83d\udd25 **Crash C-section readiness**: When you send a patient with suspected uterine rupture, placental abruption with fetal distress, or cord prolapse to the ER \u2014 call ahead and say: 'I'm sending a potentially crashing OB patient.' STAT page the OB team. Minutes matter. Also: **Magnesium is the drug for eclampsia prophylaxis**, NOT phenytoin or diazepam. Know the magnesium dosing: 4-6g IV loading over 15-20 min, then 2g/hr maintenance."
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "A G3P2 at 32 weeks presents with a painless gush of fluid and positive ferning on exam. What is the NEXT step?",
+            "answers": [
+              "Schedule induction now",
+              "Admit for observation, give betamethasone \u00d7 2 doses",
+              "Reassure and send home with follow-up",
+              "Check NST and discharge if reassuring"
+            ],
+            "correct": 1,
+            "explanation": "PPROM <37 weeks \u2192 admit, give corticosteroids (betamethasone) for fetal lung maturity, monitor for chorioamnionitis, and plan delivery timing. Term PROM (\u226537 wks) \u2192 induce."
+          },
+          {
+            "q": "Which of the following is a severe feature of preeclampsia requiring immediate delivery?",
+            "answers": [
+              "BP 145/95 with 1+ proteinuria",
+              "Mild ankle edema",
+              "BP 165/112 with headache and RUQ pain",
+              "Gestational hypertension without proteinuria"
+            ],
+            "correct": 2,
+            "explanation": "BP \u2265160/110 + severe headache + RUQ pain = preeclampsia with severe features. Needs immediate referral/admission for magnesium, BP control, and delivery planning."
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Osmosis",
+        "title": "Pregnancy - Prenatal Care",
+        "url": "https://www.youtube.com/watch?v=vUjJPl5-nKY",
+        "duration": "15 min"
+      },
+      {
+        "source": "Ninja Nerd",
+        "title": "Preeclampsia & Gestational Hypertension",
+        "url": "https://www.youtube.com/watch?v=sMGaPWRT1X0",
+        "duration": "30 min"
+      }
+    ]
+  }
+}

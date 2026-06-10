@@ -1,0 +1,104 @@
+{
+  "class": "D120",
+  "class_name": "Special Populations & Advanced Primary Care",
+  "version": "3.0",
+  "created": "2026-06-07",
+  "topics": [
+    {
+      "id": "d120-womens-health",
+      "name": "Women's Health: Contraception & Menopause",
+      "system": "Women's Health",
+      "duration_min": 25,
+      "icon": "\ud83d\udc69",
+      "color": "#f472b6",
+      "status": "complete",
+      "objectives": [
+        "Choose appropriate contraception by patient profile",
+        "Manage menopausal symptoms safely",
+        "Diagnose and treat vaginitis",
+        "Interpret abnormal pap smear results"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d120-geriatrics",
+      "name": "Geriatric Care: Polypharmacy & Falls",
+      "system": "Geriatrics",
+      "duration_min": 25,
+      "icon": "\ud83d\udc74",
+      "color": "#a78bfa",
+      "status": "complete",
+      "objectives": [
+        "Apply Beer's Criteria to reduce polypharmacy",
+        "Perform fall risk assessment",
+        "Screen for cognitive impairment",
+        "Recognize reversible causes of functional decline"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d120-prenatal",
+      "name": "Prenatal Care: ACOG Guidelines",
+      "system": "Women's Health",
+      "duration_min": 25,
+      "icon": "\ud83e\udd30",
+      "color": "#f5b731",
+      "status": "complete",
+      "objectives": [
+        "Master prenatal visit schedule and screenings",
+        "Manage common pregnancy complaints",
+        "Recognize high-risk conditions",
+        "Provide prenatal counseling"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d120-adolescent",
+      "name": "Adolescent Health",
+      "system": "Adolescent Medicine",
+      "duration_min": 20,
+      "icon": "\ud83e\uddd1",
+      "color": "#38bdf8",
+      "status": "complete",
+      "objectives": [
+        "Conduct confidential adolescent interview (HEADSSS)",
+        "Perform sports physicals and clearance",
+        "Screen for high-risk behaviors",
+        "Provide developmentally appropriate care"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d120-mental-health",
+      "name": "Mental Health: Depression, Anxiety & Bipolar",
+      "system": "Behavioral Health",
+      "duration_min": 30,
+      "icon": "\ud83e\udde0",
+      "color": "#a78bfa",
+      "status": "complete",
+      "objectives": [
+        "Apply DSM-5 diagnostic criteria for common disorders",
+        "Choose first-line pharmacotherapy by profile",
+        "Use PHQ-9 and GAD-7 screening tools",
+        "Recognize when to refer to psychiatry"
+      ],
+      "lessons_available": true
+    },
+    {
+      "id": "d120-cultural-competence",
+      "name": "Cultural Competence in Primary Care",
+      "system": "Professional Practice",
+      "duration_min": 15,
+      "icon": "\ud83c\udf0d",
+      "color": "#4ade80",
+      "status": "complete",
+      "objectives": [
+        "Apply LEARN model for cross-cultural communication",
+        "Identify health disparities affecting minority populations",
+        "Provide culturally appropriate care",
+        "Use medical interpreters effectively"
+      ],
+      "lessons_available": true
+    }
+  ]
+}

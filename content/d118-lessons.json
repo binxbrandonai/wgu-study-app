@@ -1,0 +1,873 @@
+{
+  "topics": [
+    {
+      "id": "d118-cv-htn",
+      "name": "Hypertension",
+      "system": "Cardiovascular",
+      "duration_min": 25,
+      "icon": "❤️",
+      "color": "#ff4d6d",
+      "objectives": [
+        "Classify blood pressure readings using JNC-8/ACC-AHA guidelines",
+        "Identify high-yield risk factors and when to screen",
+        "Diagnose HTN (when is one reading enough vs. multiple visits?)",
+        "Choose first-line meds based on patient profile (ACE-I, ARB, CCB, thiazide)",
+        "Recognize hypertensive emergency vs. urgency",
+        "Know when to refer (resistant HTN, secondary causes)"
+      ],
+      "lessons": [
+        {
+          "id": "htn-basics",
+          "title": "🎯 HTN 101: The Silent Killer",
+          "duration_min": 8,
+          "content_chunks": [
+            {
+              "type": "story",
+              "title": "Why This Matters",
+              "content": "Meet Sarah: 52, no symptoms, walks 3 miles daily. Her BP at CVS was 148/94. She ignores it—'probably white coat.' Two years later: stroke. HTN is the #1 modifiable risk factor for stroke, MI, CHF, CKD, and early death. It's also the MOST COMMON chronic disease you'll see—affects 45% of US adults. Master this, and you'll save lives every single day.",
+              "visual_desc": "Infographic: HTN impact tree showing one elevated BP reading branching to stroke, MI, CHF, CKD, death with percentages"
+            },
+            {
+              "type": "definition",
+              "title": "What IS Hypertension?",
+              "content": "**ACC/AHA 2017 Guidelines** (the current standard):\n\n• **Normal**: <120/<80\n• **Elevated**: 120-129/<80 (⚠️ pre-HTN, lifestyle only)\n• **Stage 1**: 130-139 OR 80-89\n• **Stage 2**: ≥140 OR ≥90\n• **HTN Crisis**: >180 AND/OR >120 (ER NOW)\n\n**Key Point**: Stage 1 is NOW 130/80 (used to be 140/90). This change added 30 million Americans to 'HTN' overnight. Why? Because stroke risk starts climbing at 115/75!",
+              "mnemonic": "**1-2-8-9 Rule**: Stage **1** starts at **12**0 systolic, Stage **2** at 1**4**0, divide by 2 for diastolic (**8**0 and **9**0)",
+              "visual_desc": "Color-coded BP thermometer: green (<120/80), yellow (elevated), orange (Stage 1), red (Stage 2), flashing red (crisis)"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **Don't diagnose HTN on one reading unless ≥180/120!** You need 2+ elevated readings on 2+ separate visits (1-4 weeks apart). Exception: if BP is crazy high (≥180/120) AND patient has symptoms OR end-organ damage (retinopathy, proteinuria, LVH) = HTN emergency, treat NOW."
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "BP classification",
+              "mnemonic": "**1-2-8-9 Rule**: Stage **1** starts at **12**0 systolic, Stage **2** at 1**4**0, divide by 2 for diastolic (**8**0 and **9**0)"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "Your patient's BP is 136/88. What stage?",
+              "a": ["Normal", "Elevated", "Stage 1", "Stage 2"],
+              "correct": 2,
+              "explanation": "Stage 1 = 130-139 **OR** 80-89. Either number meeting criteria = Stage 1!"
+            },
+            {
+              "q": "Can you diagnose HTN today if BP is 142/92 with no symptoms?",
+              "a": ["Yes, start meds now", "No, recheck in 1-4 weeks", "Only if they have diabetes"],
+              "correct": 1,
+              "explanation": "Need 2+ elevated readings on different days (unless ≥180/120 with symptoms/damage)"
+            }
+          ]
+        },
+        {
+          "id": "htn-diagnosis",
+          "title": "🔍 Diagnosing HTN: Getting It Right",
+          "duration_min": 7,
+          "content_chunks": [
+            {
+              "type": "protocol",
+              "title": "Proper BP Measurement (Boards LOVE This)",
+              "content": "**The Right Way** (or your reading is garbage):\n1. **Rest 5 min** in chair, back supported, feet flat\n2. **No talking** during measurement\n3. **Arm at heart level**, supported (not hanging)\n4. **Correct cuff size**: bladder covers 80% of arm circumference\n5. **Take 2 readings** 1-2 min apart, average them\n6. **Both arms first visit** (15+ mmHg difference = vascular disease, use higher arm going forward)\n\n**Common Mistakes That Falsely Elevate BP**:\n• Patient talking (+17 mmHg!)\n• Arm unsupported (+10 mmHg)\n• Back unsupported (+8 mmHg)\n• Legs crossed (+5-8 mmHg)\n• Bladder full (+15 mmHg)\n• Cuff too small (+10-30 mmHg - especially obese patients)",
+              "visual_desc": "Side-by-side comparison: LEFT (WRONG): patient slouched, arm hanging, small cuff, talking. RIGHT (CORRECT): proper positioning with checkmarks"
+            },
+            {
+              "type": "definition",
+              "title": "White Coat vs. Masked HTN",
+              "content": "**White Coat HTN**: Elevated in clinic, normal at home (10-15% of people)\n**Masked HTN**: Normal in clinic, elevated at home (10% of people - MORE dangerous!)\n\n**Solution**: **Home BP monitoring (HBPM)** or **Ambulatory BP monitoring (ABPM)**\n\n**HBPM Protocol**:\n• Morning + evening for 7 days\n• 2 readings each time, 1 min apart\n• Discard Day 1, average Days 2-7\n• HTN diagnosis if average ≥130/80",
+              "clinical_pearl": "Masked HTN has SAME risk as sustained HTN but you'll miss it if you only check in-office. Consider HBPM for: normal BP with HTN damage (LVH, proteinuria), family history of early CVD, or diabetes."
+            },
+            {
+              "type": "checklist",
+              "title": "Diagnostic Workup (First Visit)",
+              "content": "**Why?** Rule out secondary causes (5-10% of HTN) and assess cardiovascular risk.\n\n✅ **Labs**:\n• **Basic metabolic panel** (K+, Cr, GFR) - baseline kidney function\n• **Fasting lipids** - CV risk stratification\n• **Fasting glucose** or **HbA1c** - diabetes screening\n• **Urinalysis** - proteinuria = end-organ damage\n• **TSH** (if symptoms) - hyperthyroid can cause HTN\n• **Uric acid** (optional)\n\n✅ **ECG** - look for LVH (Cornell criteria, Sokolow-Lyon)\n\n✅ **10-year ASCVD risk** - use ACC/AHA Pooled Cohort Equation calculator",
+              "visual_desc": "Flowchart: Newly diagnosed HTN → Labs (metabolic panel, lipids, glucose, UA) + ECG → Calculate ASCVD risk → Treatment decision"
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "Home BP monitoring rules",
+              "mnemonic": "**7-2-1 Rule**: **7** days, **2** readings each time, **1** minute apart"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "Which has HIGHER CV risk if untreated?",
+              "a": ["White coat HTN", "Masked HTN"],
+              "correct": 1,
+              "explanation": "Masked HTN has SAME risk as sustained HTN - they're hypertensive most of the time, you just don't see it in clinic!"
+            }
+          ]
+        },
+        {
+          "id": "htn-treatment",
+          "title": "💊 Treatment: Lifestyle + Meds",
+          "duration_min": 10,
+          "content_chunks": [
+            {
+              "type": "decision_tree",
+              "title": "When to Start Meds?",
+              "content": "**ACC/AHA 2017 Guidelines**:\n\n**START MEDS IF:**\n✅ **Stage 2** (≥140/90) → meds + lifestyle\n✅ **Stage 1** (130-139/80-89) **AND** one of:\n   • ASCVD risk ≥10%\n   • Known CVD (prior MI, stroke, angina)\n   • CKD (GFR <60)\n   • Diabetes\n   • Age ≥65\n\n**LIFESTYLE ONLY IF:**\n🔶 Stage 1 **AND** ASCVD risk <10% **AND** no comorbidities\n🔶 Elevated (120-129/<80)\n\n**Goal BP**: <130/80 for EVERYONE (used to be <140/90 for most)",
+              "visual_desc": "Decision flowchart with Y/N branches leading to 'Meds + Lifestyle' or 'Lifestyle Only' boxes"
+            },
+            {
+              "type": "protocol",
+              "title": "Lifestyle Modifications (Memorize the Numbers!)",
+              "content": "**DASH Diet**: ↓10-20 mmHg (as effective as one med!)\n• High K+, Mg++, Ca++ (fruits, veggies, low-fat dairy)\n• Low sat fat and sodium\n\n**Sodium <1500 mg/day**: ↓5-6 mmHg\n• Most Americans eat 3400 mg/day\n• One Chipotle burrito = 2200 mg 🌯💀\n\n**Weight loss**: ↓5-20 mmHg per 10 kg lost\n\n**Exercise**: 150 min/week moderate aerobic → ↓5-8 mmHg\n\n**Limit alcohol**: ↓4 mmHg\n• Men: ≤2 drinks/day\n• Women: ≤1 drink/day\n\n**Quit smoking**: Doesn't lower BP but ↓↓↓ CV risk",
+              "mnemonic": "**DASH WASPS**: **D**ASH diet, **A**lcohol limit, **S**odium <1500, **H**ealthy weight, **W**alkout (exercise), **A**void tobacco, **S**tress management, **P**otassium rich foods, **S**leep 7-9 hours",
+              "visual_desc": "Bar chart showing mmHg reduction for each lifestyle intervention"
+            },
+            {
+              "type": "medication_guide",
+              "title": "First-Line Meds: The Big 4",
+              "content": "**1️⃣ ACE Inhibitors** (-pril)\n• **Mechanism**: Block angiotensin II → vasodilation + ↓aldosterone\n• **Best for**: Diabetes, CKD, HFrEF, post-MI\n• **Avoid**: Pregnancy (category D), bilateral renal artery stenosis, hyperkalemia\n• **Side effects**: Dry cough (10%), angioedema (rare but dangerous), hyperkalemia\n• **Examples**: lisinopril 10-40 mg daily, enalapril, ramipril\n\n**2️⃣ ARBs** (-sartan)\n• **Mechanism**: Block angiotensin II receptor (same endpoint as ACE-I)\n• **Best for**: Same as ACE-I but NO COUGH\n• **Avoid**: Same as ACE-I\n• **Examples**: losartan 50-100 mg daily, valsartan\n• **Pearl**: Use if ACE-I causes cough. DON'T combine ACE-I + ARB (no benefit, more harm)\n\n**3️⃣ Calcium Channel Blockers** (CCBs)\n• **Mechanism**: Block Ca++ channels → vasodilation\n• **Types**: \n   - **Dihydropyridines** (-dipine): amlodipine, nifedipine - work on vessels\n   - **Non-DHP**: diltiazem, verapamil - work on heart (rate control)\n• **Best for**: Elderly, Black patients (often first-line), angina\n• **Side effects**: Ankle edema (amlodipine!), constipation (verapamil), gingival hyperplasia\n• **Examples**: amlodipine 5-10 mg daily\n\n**4️⃣ Thiazide Diuretics**\n• **Mechanism**: Block Na+/Cl- reabsorption in distal tubule\n• **Best for**: Black patients (often first-line), elderly, isolated systolic HTN\n• **Side effects**: Hypokalemia, hyperglycemia, hyperuricemia (gout), hyponatremia\n• **Monitor**: BMP after 2-4 weeks (check K+!)\n• **Examples**: chlorthalidone 12.5-25 mg daily (preferred over HCTZ - longer half-life)",
+              "visual_desc": "Four-quadrant comparison table showing: drug class, mechanism (with icon), best candidates, avoid in, common side effects"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **Black patients**: First-line is CCB or thiazide (NOT ACE-I/ARB alone - less effective due to lower renin). **Exception**: Black patient with CKD or diabetes → ACE-I/ARB IS appropriate."
+            },
+            {
+              "type": "protocol",
+              "title": "Resistant HTN (Know This Cold)",
+              "content": "**Definition**: BP not controlled on 3 meds at optimal doses, including a diuretic\n\n**Workup**:\n1. **Confirm adherence** (pill counts, pharmacy refills)\n2. **Confirm true HTN** (HBPM or ABPM - rule out white coat)\n3. **Check for secondary causes**:\n   • **Aldosterone/renin ratio** (primary aldosteronism - most common!)\n   • **Sleep study** (OSA)\n   • **Renal artery duplex** (renal artery stenosis if age <30 or >55 with rapid onset)\n   • **Plasma/urine metanephrines** (pheochromocytoma - rare)\n   • **Drug screen** (cocaine, NSAIDs, decongestants, OCPs, steroids)\n\n**Treatment**:\n• Add **spironolactone** 25-50 mg daily (aldosterone antagonist - watch K+!)\n• Consider **referral to HTN specialist**",
+              "mnemonic": "**RESISTANT HTN = ABCDE**: **A**ldosterone, **B**ad adherence, **C**hronic kidney disease, **D**rugs (NSAIDs, cocaine, etc.), **E**xcessive alcohol / **E**ndocrine (pheo, Cushing's)"
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "Lifestyle modifications for HTN",
+              "mnemonic": "**DASH WASPS**: **D**ASH diet, **A**lcohol limit, **S**odium <1500, **H**ealthy weight, **W**alkout (exercise), **A**void tobacco, **S**tress management, **P**otassium rich foods, **S**leep 7-9 hours"
+            },
+            {
+              "trigger": "Resistant HTN workup",
+              "mnemonic": "**RESISTANT HTN = ABCDE**: **A**ldosterone, **B**ad adherence, **C**hronic kidney disease, **D**rugs (NSAIDs, cocaine, etc.), **E**xcessive alcohol / **E**ndocrine (pheo, Cushing's)"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "First-line med for a 68yo Black woman with HTN (no other conditions)?",
+              "a": ["ACE inhibitor", "ARB", "Thiazide diuretic", "Beta blocker"],
+              "correct": 2,
+              "explanation": "Thiazide or CCB for Black patients. Thiazides especially good for elderly + isolated systolic HTN."
+            },
+            {
+              "q": "Your patient on lisinopril has a persistent dry cough. Best switch?",
+              "a": ["Increase dose", "Add HCTZ", "Switch to losartan (ARB)", "Add antihistamine"],
+              "correct": 2,
+              "explanation": "ACE-I cough (10% of patients) → switch to ARB (same benefits, no cough mechanism)"
+            },
+            {
+              "q": "Patient on 3 meds (ACE-I, amlodipine, HCTZ) still at 148/92. Next step?",
+              "a": ["Add beta blocker", "Check adherence + workup for secondary causes", "Double all doses"],
+              "correct": 1,
+              "explanation": "Resistant HTN = not controlled on 3 drugs including diuretic. Rule out pseudo-resistance (non-adherence, white coat) THEN workup secondary causes (aldosterone, sleep apnea, etc.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d118-cv-chf",
+      "name": "Heart Failure",
+      "system": "Cardiovascular",
+      "duration_min": 30,
+      "icon": "💔",
+      "color": "#c1121f",
+      "objectives": [
+        "Distinguish HFrEF vs. HFpEF (systolic vs. diastolic failure)",
+        "Recognize clinical presentation: dyspnea, edema, JVD, rales",
+        "Apply NYHA classification system",
+        "Order appropriate diagnostic tests (BNP, echo, CXR)",
+        "Initiate guideline-directed medical therapy (GDMT)",
+        "Know when to refer to cardiology or admit"
+      ],
+      "lessons": [
+        {
+          "id": "chf-basics",
+          "title": "💔 Heart Failure 101: When the Pump Fails",
+          "duration_min": 10,
+          "content_chunks": [
+            {
+              "type": "story",
+              "title": "Why This Matters",
+              "content": "Meet Tom: 68, former trucker, type 2 diabetes, MI 5 years ago. He's been getting more short of breath walking to his mailbox. 'Getting old,' he figures. Then he wakes up gasping at 2 AM, has to sleep in his recliner. Shoes don't fit anymore—ankles are huge. This is classic heart failure. 6.2 million Americans have it, and it has a WORSE 5-year mortality than many cancers (50%). Early recognition = better outcomes.",
+              "visual_desc": "Before/After comparison: LEFT: Normal heart pumping efficiently (EF 60%). RIGHT: Failing heart (dilated, EF 25%) with backup congestion to lungs and body"
+            },
+            {
+              "type": "definition",
+              "title": "What IS Heart Failure?",
+              "content": "**Heart Failure (HF)**: The heart can't pump enough blood to meet the body's needs.\n\n**Two Main Types**:\n\n**HFrEF** (Heart Failure with **Reduced** Ejection Fraction)\n• **EF <40%** (systolic dysfunction)\n• Heart muscle is WEAK—can't squeeze properly\n• Most common type (more treatment options)\n• Main causes: MI, ischemic cardiomyopathy, dilated cardiomyopathy\n\n**HFpEF** (Heart Failure with **Preserved** Ejection Fraction)\n• **EF ≥50%** (diastolic dysfunction)\n• Heart muscle is STIFF—can't relax/fill properly\n• About 50% of HF cases now\n• Main causes: HTN, diabetes, obesity, aging\n• FEWER proven treatments (frustrating!)\n\n**Key Point**: Same symptoms, different mechanisms, different treatments!",
+              "mnemonic": "**rEF = wEak** (HFrEF = weak squeeze). **pEF = stIFF** (HFpEF = stiff muscle)",
+              "visual_desc": "Side-by-side heart diagrams: LEFT (HFrEF): dilated, thin walls, weak contraction. RIGHT (HFpEF): thick walls, small chamber, can't relax"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **BNP/NT-proBNP** is your best friend for diagnosing HF! BNP >100 pg/mL or NT-proBNP >125 pg/mL = very likely HF. BNP <100 = HF unlikely (NPV >90%). Order it on everyone with unexplained dyspnea or edema!"
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "HFrEF vs HFpEF",
+              "mnemonic": "**rEF = wEak** (HFrEF = weak squeeze). **pEF = stIFF** (HFpEF = stiff muscle)"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "Echo shows EF 35% with dilated LV. This is:",
+              "a": ["HFrEF (systolic)", "HFpEF (diastolic)", "Normal heart function"],
+              "correct": 0,
+              "explanation": "EF <40% = HFrEF (reduced/systolic failure). Heart is weak and can't squeeze effectively."
+            },
+            {
+              "q": "Best initial test to rule OUT heart failure in dyspneic patient?",
+              "a": ["Chest X-ray", "BNP", "Echocardiogram", "Troponin"],
+              "correct": 1,
+              "explanation": "BNP <100 has excellent negative predictive value (>90%) for ruling OUT HF. Much cheaper and faster than echo!"
+            }
+          ]
+        },
+        {
+          "id": "chf-diagnosis",
+          "title": "🔍 Diagnosing HF: Classic Presentations",
+          "duration_min": 10,
+          "content_chunks": [
+            {
+              "type": "protocol",
+              "title": "Classic Symptoms & Signs (Boards Gold)",
+              "content": "**Symptoms** (what patient tells you):\n• **Dyspnea on exertion** (earliest symptom)\n• **Orthopnea** (SOB lying flat - asks 'How many pillows?')\n• **Paroxysmal nocturnal dyspnea (PND)** - wakes up gasping at 2-3 AM\n• **Fatigue** - can't do usual activities\n• **Weight gain** (>2-3 lbs in 1 day or >5 lbs in 1 week = fluid overload!)\n\n**Signs** (what YOU find):\n• **Bilateral ankle edema** (pitting - press for 5 sec, leaves dent)\n• **Crackles/rales** in lung bases (pulmonary congestion)\n• **Elevated JVP** (jugular venous pressure >8 cm)\n• **S3 gallop** ('Kentucky' - ventricular gallop, very specific for HF)\n• **Hepatomegaly** (RV failure backs up into liver)\n• **Ascites** (severe RV failure)\n\n**Framingham Criteria**: Need 2 major OR 1 major + 2 minor to diagnose clinically",
+              "visual_desc": "Human body diagram with arrows pointing to: lungs (rales), neck (JVD), heart (S3), liver (hepatomegaly), legs (edema)"
+            },
+            {
+              "type": "definition",
+              "title": "NYHA Classification (Memorize This!)",
+              "content": "**New York Heart Association Functional Classes**:\n\n**Class I**: HF present but NO symptoms with ordinary activity\n• 'I feel fine!'\n\n**Class II**: Slight limitation - comfortable at rest, symptoms with ORDINARY activity\n• 'I get short of breath walking upstairs'\n\n**Class III**: Marked limitation - comfortable at rest, symptoms with LESS than ordinary activity\n• 'I get winded walking to the bathroom'\n\n**Class IV**: Unable to do ANY activity without symptoms, or symptoms at REST\n• 'I can't breathe just sitting here'\n\n**Why it matters**: Guides treatment intensity and prognosis",
+              "mnemonic": "**NYHA 1-2-3-4 = NO-ORDINARY-LESS-ANY**: Class **1** = **NO** symptoms, Class **2** = **ORDINARY** activity limited, Class **3** = **LESS** than ordinary, Class **4** = **ANY** activity or rest",
+              "visual_desc": "Staircase diagram: Class I at top (walking upstairs easily), Class II (struggling on stairs), Class III (struggling on flat ground), Class IV (sitting in chair, struggling)"
+            },
+            {
+              "type": "checklist",
+              "title": "Diagnostic Workup",
+              "content": "✅ **BNP or NT-proBNP** - screening test, severity marker\n• BNP >400 or NT-proBNP >450 = likely acute decompensation\n\n✅ **Transthoracic Echo** - REQUIRED for diagnosis!\n• Determines EF (HFrEF vs HFpEF)\n• Assesses valves, wall motion, chamber sizes\n\n✅ **Chest X-ray**\n• Cardiomegaly (heart >50% thoracic width)\n• Pulmonary edema (Kerley B lines, cephalization, pleural effusions)\n\n✅ **ECG**\n• Look for: MI, LVH, arrhythmias (AFib common!)\n\n✅ **Labs**\n• **BMP**: Check renal function (Cr, GFR), electrolytes\n• **CBC**: Anemia can worsen HF\n• **TSH**: Hyperthyroid can cause high-output HF\n• **Lipid panel**: CAD risk\n• **Troponin**: Rule out ACS if acute presentation\n\n✅ **Consider coronary angiography** if ischemic cause suspected (most common!)",
+              "visual_desc": "Diagnostic flowchart: Suspect HF → BNP + CXR + ECG → Echo (definitive) → Labs → Determine cause"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **S3 gallop** = 'Ken-TUC-ky' (3 sounds). **S4** = 'TEN-nes-see' (4 sounds, heard in HTN/stiff ventricle). S3 is VERY specific for volume overload/HF. If you hear it, think fluid!"
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "NYHA classes",
+              "mnemonic": "**NYHA 1-2-3-4 = NO-ORDINARY-LESS-ANY**: Class **1** = **NO** symptoms, Class **2** = **ORDINARY** activity limited, Class **3** = **LESS** than ordinary, Class **4** = **ANY** activity or rest"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "Patient has dyspnea climbing stairs but fine at rest. NYHA class?",
+              "a": ["Class I", "Class II", "Class III", "Class IV"],
+              "correct": 1,
+              "explanation": "Class II = symptoms with ORDINARY activity (like stairs). Comfortable at rest."
+            },
+            {
+              "q": "Which finding is MOST specific for HF diagnosis?",
+              "a": ["Bilateral crackles", "S3 gallop", "Peripheral edema", "Dyspnea"],
+              "correct": 1,
+              "explanation": "S3 gallop is highly specific for volume overload/HF. Other findings are sensitive but less specific."
+            }
+          ]
+        },
+        {
+          "id": "chf-treatment",
+          "title": "💊 Treatment: GDMT & Diuretics",
+          "duration_min": 10,
+          "content_chunks": [
+            {
+              "type": "medication_guide",
+              "title": "HFrEF: The 'Fantastic Four' (GDMT)",
+              "content": "**Guideline-Directed Medical Therapy** for HFrEF (ALL patients need these unless contraindicated!):\n\n**1️⃣ ACE-I or ARB** (or ARNI)\n• **Goal**: Block harmful remodeling, ↓mortality 20-30%\n• **Examples**: lisinopril 5-40 mg daily, sacubitril/valsartan (Entresto)\n• **Monitoring**: Cr, K+ at 1-2 weeks (tolerate Cr increase <30%, K+ <5.5)\n\n**2️⃣ Beta Blockers** (specific ones only!)\n• **Approved**: carvedilol, metoprolol succinate (NOT tartrate!), bisoprolol\n• **Goal**: ↓mortality 30%, prevents remodeling\n• **Start low, go slow** - can worsen HF initially\n• **Pearl**: Start AFTER diuresis (never in acute decompensation)\n\n**3️⃣ Mineralocorticoid Receptor Antagonists (MRA)**\n• **Examples**: spironolactone 12.5-25 mg, eplerenone\n• **Use if**: NYHA Class II-IV with EF ≤35%\n• **Watch**: Hyperkalemia (K+ >5.5 = stop), gynecomastia (spironolactone)\n\n**4️⃣ SGLT2 Inhibitors** (NEW in 2022!)\n• **Examples**: dapagliflozin 10 mg, empagliflozin 10 mg\n• **Goal**: ↓HF hospitalization 30%, works in HFrEF AND HFpEF!\n• **Bonus**: Also great for diabetes\n\n**The Goal**: Start ALL four classes! Mortality drops 50-75% with full GDMT vs. none.",
+              "visual_desc": "Four pillars holding up 'Survival' platform: ACE-I/ARB, Beta Blocker, MRA, SGLT2i"
+            },
+            {
+              "type": "protocol",
+              "title": "Diuretics: Symptom Relief",
+              "content": "**Loop Diuretics** (for congestion/edema):\n• **Examples**: furosemide (Lasix) 20-240 mg daily, bumetanide, torsemide\n• **Goal**: Remove excess fluid, improve symptoms\n• **DON'T improve mortality** (unlike GDMT above)\n• **Monitoring**: Daily weights, K+, Mg++, Cr\n\n**When to use**:\n• Start when patient has volume overload (edema, rales, JVD)\n• Titrate to **euvolemia** (dry weight, no edema)\n• Once stable, can often reduce or stop\n\n**Patient education**:\n• Weigh daily (same time, same scale)\n• If weight ↑ 2-3 lbs in 1 day or 5 lbs in 1 week → call provider\n• Low-sodium diet (<2g/day)",
+              "clinical_pearl": "Loop diuretics make patients FEEL better but don't make them LIVE longer. GDMT (ACE-I, BB, MRA, SGLT2i) does both!"
+            },
+            {
+              "type": "checklist",
+              "title": "When to Admit vs. Manage Outpatient",
+              "content": "**ADMIT if** (acute decompensated HF):\n• Hypoxia (O2 sat <90%)\n• Respiratory distress\n• Hypotension (SBP <90)\n• Acute kidney injury\n• Troponin elevation (ACS)\n• Arrhythmia (new AFib, VT)\n• Refractory symptoms despite outpatient treatment\n\n**Outpatient management** if:\n• Mild volume overload\n• Stable vital signs\n• Adequate diuresis possible with oral meds\n• Good follow-up available\n• Patient reliable\n\n**Follow-up**: See in 1-2 weeks after new diagnosis or med change",
+              "visual_desc": "Decision tree: Acute HF presentation → Check O2, BP, renal function → Unstable = ADMIT, Stable = Outpatient with close follow-up"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **HFpEF treatment is LIMITED**: No proven mortality benefit from ACE-I/ARB or beta blockers. DO use: diuretics for symptoms, SGLT2i (dapagliflozin/empagliflozin - proven!), and treat underlying causes (HTN control!). Main goal = manage comorbidities."
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "HFrEF GDMT medications",
+              "mnemonic": "**ARBS** save lives: **A**CE-I/**ARB**, **R**eceptor blocker (beta), **B**lockade of aldosterone (MRA), **S**GLT2 inhibitor"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "Which med improves symptoms BUT NOT mortality in HFrEF?",
+              "a": ["ACE inhibitor", "Beta blocker", "Loop diuretic", "Spironolactone"],
+              "correct": 2,
+              "explanation": "Loop diuretics (furosemide) improve congestion/symptoms but don't reduce mortality. GDMT meds (ACE-I, BB, MRA) do both!"
+            },
+            {
+              "q": "Patient with new HFrEF (EF 30%). Which beta blocker?",
+              "a": ["Metoprolol tartrate", "Metoprolol succinate", "Atenolol", "Propranolol"],
+              "correct": 1,
+              "explanation": "Only 3 beta blockers proven in HF: carvedilol, metoprolol SUCCINATE (ER), bisoprolol. NOT tartrate (immediate release)!"
+            },
+            {
+              "q": "HFpEF patient. Which med has PROVEN mortality benefit?",
+              "a": ["Lisinopril", "Metoprolol", "Dapagliflozin (SGLT2i)", "Furosemide"],
+              "correct": 2,
+              "explanation": "SGLT2 inhibitors (dapagliflozin, empagliflozin) are the ONLY meds with proven benefit in HFpEF! Game-changer in 2022."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d118-resp-asthma",
+      "name": "Asthma",
+      "system": "Respiratory",
+      "duration_min": 25,
+      "icon": "🫁",
+      "color": "#4895ef",
+      "objectives": [
+        "Recognize asthma symptoms and triggers",
+        "Interpret spirometry (FEV1/FVC ratio, reversibility)",
+        "Classify asthma severity (intermittent vs. persistent)",
+        "Apply stepwise medication approach (SABA, ICS, LABA)",
+        "Develop asthma action plan",
+        "Know when to refer or admit"
+      ],
+      "lessons": [
+        {
+          "id": "asthma-basics",
+          "title": "🫁 Asthma 101: The Reactive Airway",
+          "duration_min": 8,
+          "content_chunks": [
+            {
+              "type": "story",
+              "title": "Why This Matters",
+              "content": "Meet Jamie: 12 years old, coughs at soccer practice, has to use inhaler. Mom says 'It's just exercise-induced.' But Jamie also wakes up coughing at night, wheezes when visiting grandma (who has cats), and missed 15 school days last year. This is CLASSIC poorly controlled asthma. 25 million Americans have asthma (8% of population), and 3,500 die yearly from it. Most deaths are preventable with proper treatment.",
+              "visual_desc": "Normal airway vs. asthmatic airway: LEFT (normal): open, clear. RIGHT (asthma attack): inflamed walls, mucus plugs, bronchoconstriction, narrowed lumen"
+            },
+            {
+              "type": "definition",
+              "title": "What IS Asthma?",
+              "content": "**Asthma**: Chronic inflammatory disease of the airways causing:\n1. **Bronchoconstriction** (airway smooth muscle tightens)\n2. **Inflammation** (airway swelling)\n3. **Mucus production**\n4. **Airway hyperresponsiveness** (twitchy airways react to triggers)\n\n**Key Features**:\n• **Reversible** airflow obstruction (vs. COPD which is fixed)\n• **Episodic** symptoms (not constant)\n• Responds to bronchodilators\n\n**Classic Triad**:\n1. Wheezing\n2. Dyspnea\n3. Chest tightness\n\n**Common Triggers**: Exercise, cold air, allergens (pollen, dust mites, pets), viral infections, smoke, strong odors",
+              "mnemonic": "**Asthma = WHIMPCS**: **WH**eezing, **I**nflammation, **M**ucus, **P**eriodic (episodic), **C**ough, **S**hortness of breath",
+              "visual_desc": "Circular diagram showing asthma triggers (center) with arrows pointing outward: exercise, cold air, allergens, viral infection, smoke, NSAIDs"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **Asthma symptoms WORSE at night or early morning** = classic! If patient says 'I cough every night around 3 AM' or 'I wake up wheezing,' think asthma until proven otherwise. This nocturnal pattern is super specific."
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "Asthma key features",
+              "mnemonic": "**Asthma = WHIMPCS**: **WH**eezing, **I**nflammation, **M**ucus, **P**eriodic (episodic), **C**ough, **S**hortness of breath"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "Which feature distinguishes asthma from COPD?",
+              "a": ["Wheezing", "Reversible obstruction", "Dyspnea", "Chronic cough"],
+              "correct": 1,
+              "explanation": "Asthma = REVERSIBLE obstruction (responds to bronchodilators). COPD = largely irreversible/fixed obstruction."
+            },
+            {
+              "q": "Patient wheezes only during soccer, fine otherwise. Most likely?",
+              "a": ["Exercise-induced bronchoconstriction", "COPD", "Heart failure", "Pneumonia"],
+              "correct": 0,
+              "explanation": "Exercise is a classic asthma trigger. Exercise-induced bronchoconstriction (EIB) is a form of asthma."
+            }
+          ]
+        },
+        {
+          "id": "asthma-diagnosis",
+          "title": "🔍 Diagnosing Asthma: Spirometry is King",
+          "duration_min": 9,
+          "content_chunks": [
+            {
+              "type": "protocol",
+              "title": "Clinical Diagnosis (History & Exam)",
+              "content": "**Symptoms** (need pattern, not single episode):\n• **Wheeze** (musical, high-pitched expiratory sound)\n• **Cough** (often worse at night, non-productive or minimal sputum)\n• **Dyspnea** (episodic, triggered)\n• **Chest tightness**\n\n**Red flags for asthma**:\n• Symptoms >2 days/week\n• Nighttime awakenings >2×/month\n• SABA use >2 days/week\n• Activity limitation\n\n**Physical exam** (often NORMAL between attacks!):\n• **Wheeze** on auscultation (expiratory > inspiratory)\n• **Prolonged expiratory phase**\n• **Tachypnea**, use of accessory muscles (acute attack)\n• **Hyperresonance** to percussion\n\n**Key Point**: Normal exam doesn't rule out asthma! Need objective testing.",
+              "visual_desc": "Timeline showing episodic asthma symptoms: normal → trigger exposure → symptoms (wheeze, cough, SOB) → medication → back to normal"
+            },
+            {
+              "type": "protocol",
+              "title": "Spirometry: The Gold Standard",
+              "content": "**What to look for**:\n\n**1. Obstructive Pattern**:\n• **FEV1/FVC ratio <0.70** (<70%) = obstruction\n• FEV1 = Forced Expiratory Volume in 1 second\n• FVC = Forced Vital Capacity (total volume exhaled)\n\n**2. Reversibility** (DIAGNOSTIC for asthma!):\n• Give SABA (albuterol), repeat spirometry in 15 min\n• **Positive if FEV1 improves ≥12% AND ≥200 mL**\n• This proves obstruction is reversible = ASTHMA\n\n**Alternative tests** (if spirometry unavailable or patient <5 years old):\n• **Peak flow meter** - measures PEFR (peak expiratory flow rate)\n• **Bronchoprovocation** (methacholine challenge) - if spirometry normal but high suspicion\n• **Exhaled nitric oxide (FeNO)** - marker of eosinophilic inflammation",
+              "mnemonic": "**Asthma spirometry = 70-12-200**: FEV1/FVC <**70**%, improves ≥**12**% AND ≥**200** mL post-bronchodilator",
+              "visual_desc": "Spirometry graph: Before bronchodilator (low FEV1), After bronchodilator (FEV1 jumps up 12%+), with normal reference curve for comparison"
+            },
+            {
+              "type": "definition",
+              "title": "Classifying Severity (Initial Diagnosis)",
+              "content": "**Intermittent Asthma**:\n• Symptoms ≤2 days/week\n• Nighttime awakenings ≤2×/month\n• SABA use ≤2 days/week\n• No interference with activity\n• FEV1 >80% predicted\n\n**Mild Persistent**:\n• Symptoms >2 days/week (but not daily)\n• Nighttime awakenings 3-4×/month\n• SABA use >2 days/week (but not daily)\n• Minor interference with activity\n• FEV1 >80%\n\n**Moderate Persistent**:\n• **Daily** symptoms\n• Nighttime awakenings >1×/week (but not nightly)\n• Daily SABA use\n• Some limitation of activity\n• FEV1 60-80%\n\n**Severe Persistent**:\n• Symptoms **throughout the day**\n• Nighttime awakenings **nightly**\n• SABA use **several times per day**\n• Extremely limited activity\n• FEV1 <60%",
+              "mnemonic": "**Severity = frequency**: Intermittent = ≤**2**/week. Mild = >**2**/week. Moderate = **Daily**. Severe = **All day**",
+              "visual_desc": "Staircase showing escalating frequency: Intermittent (≤2/week) → Mild Persistent (>2/week) → Moderate (daily) → Severe (all day)"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **Asthma-COPD Overlap Syndrome (ACOS)**: Some patients have features of both (smoking history + reversibility). Treat like asthma (ICS + LABA) but counsel on smoking cessation!"
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "Spirometry criteria for asthma",
+              "mnemonic": "**Asthma spirometry = 70-12-200**: FEV1/FVC <**70**%, improves ≥**12**% AND ≥**200** mL post-bronchodilator"
+            },
+            {
+              "trigger": "Asthma severity classification",
+              "mnemonic": "**Severity = frequency**: Intermittent = ≤**2**/week. Mild = >**2**/week. Moderate = **Daily**. Severe = **All day**"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "Spirometry shows FEV1/FVC 0.65. Post-albuterol, FEV1 increases 15% and 250 mL. Diagnosis?",
+              "a": ["COPD", "Asthma", "Normal", "Restrictive disease"],
+              "correct": 1,
+              "explanation": "Obstruction (ratio <0.70) + reversibility (≥12% AND ≥200 mL improvement) = ASTHMA!"
+            },
+            {
+              "q": "Patient uses albuterol 4 days/week, symptoms 5 days/week, FEV1 85%. Severity?",
+              "a": ["Intermittent", "Mild persistent", "Moderate persistent", "Severe persistent"],
+              "correct": 1,
+              "explanation": "Symptoms >2 days/week (but not daily) = Mild persistent. SABA use >2×/week also confirms mild persistent."
+            }
+          ]
+        },
+        {
+          "id": "asthma-treatment",
+          "title": "💊 Treatment: Stepwise Approach",
+          "duration_min": 8,
+          "content_chunks": [
+            {
+              "type": "medication_guide",
+              "title": "The Stepwise Ladder (GINA 2023)",
+              "content": "**Step 1: Intermittent Asthma**\n• **As-needed SABA** (albuterol 2 puffs PRN)\n• Consider low-dose ICS if symptoms >2×/month\n\n**Step 2: Mild Persistent**\n• **Daily low-dose ICS** (inhaled corticosteroid)\n• Examples: fluticasone 88-176 mcg, budesonide 180-360 mcg\n• PLUS as-needed SABA\n\n**Step 3: Moderate Persistent**\n• **Low-dose ICS + LABA** (long-acting beta agonist)\n• Examples: fluticasone/salmeterol (Advair), budesonide/formoterol (Symbicort)\n• OR medium-dose ICS alone\n• PLUS as-needed SABA\n\n**Step 4: Moderate-Severe Persistent**\n• **Medium-dose ICS + LABA**\n• Consider adding tiotropium (LAMA) or leukotriene modifier\n• PLUS as-needed SABA\n\n**Step 5: Severe Persistent**\n• **High-dose ICS + LABA + oral corticosteroid** (if needed)\n• Consider biologics: omalizumab (anti-IgE), mepolizumab (anti-IL5)\n• Refer to pulmonology!",
+              "visual_desc": "Staircase with 5 steps, each showing medication intensity increasing: Step 1 (SABA PRN) → Step 5 (high-dose ICS+LABA+steroids+biologics)"
+            },
+            {
+              "type": "protocol",
+              "title": "Key Medications to Know",
+              "content": "**SABA** (Short-Acting Beta Agonist) - **RESCUE**\n• **Albuterol** (ProAir, Ventolin) 2 puffs q4-6h PRN\n• **Mechanism**: Bronchodilation (quick relief in 5 min)\n• **Use**: Acute symptoms, pre-exercise\n• **Pearl**: If using >2 days/week → asthma not controlled, need controller!\n\n**ICS** (Inhaled Corticosteroid) - **CONTROLLER** (MOST IMPORTANT!)\n• **Examples**: fluticasone, budesonide, mometasone\n• **Mechanism**: Reduce airway inflammation\n• **Side effects**: Thrush (rinse mouth after!), hoarseness\n• **Pearl**: Takes 2-4 weeks for full effect. Use DAILY even when feeling fine!\n\n**LABA** (Long-Acting Beta Agonist) - **CONTROLLER**\n• **Examples**: salmeterol, formoterol\n• **Mechanism**: Long-acting bronchodilation (12 hours)\n• **BLACK BOX WARNING**: NEVER use alone! Must combine with ICS (risk of asthma death)\n• **Pearl**: Usually combined in one inhaler (Advair, Symbicort)\n\n**Leukotriene Modifiers** - **CONTROLLER** (alternative/add-on)\n• **Montelukast (Singulair)** 10 mg PO daily\n• **Good for**: Exercise-induced, aspirin-sensitive asthma, allergic rhinitis\n• **Pearl**: Oral (easier for kids), but less effective than ICS",
+              "mnemonic": "**SABA = Save me now. ICS = Invest in Control. LABA = Long-term Aid (but never alone!)**",
+              "visual_desc": "Medication pyramid: Base (ICS - foundation of control), Middle (add LABA or leukotriene), Peak (add-ons, biologics), Rescue (SABA) shown as parachute on side"
+            },
+            {
+              "type": "checklist",
+              "title": "Asthma Action Plan (Give to ALL Patients!)",
+              "content": "**GREEN ZONE** (Good control):\n• No symptoms or minimal symptoms\n• Peak flow >80% personal best\n• **Action**: Continue daily controller meds\n\n**YELLOW ZONE** (Caution - asthma getting worse):\n• Cough, wheeze, chest tightness, or SOB\n• Peak flow 50-80% personal best\n• Waking at night\n• **Action**: \n  - Increase SABA (albuterol 2-4 puffs q20min × 3 doses)\n  - Continue controller\n  - Call provider if no improvement in 24 hours\n\n**RED ZONE** (Medical Alert!):\n• Severe SOB, can't speak in full sentences\n• Peak flow <50% personal best\n• SABA not helping\n• Lips/nails blue\n• **Action**: Take SABA, call 911 or go to ER NOW!",
+              "visual_desc": "Traffic light: Green (all good), Yellow (warning signs), Red (emergency)"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **Rinse mouth after ICS use** to prevent oral thrush! Also use **spacer with MDI** - improves drug delivery to lungs (not mouth/throat), reduces thrush risk and systemic absorption."
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "Asthma medication roles",
+              "mnemonic": "**SABA = Save me now. ICS = Invest in Control. LABA = Long-term Aid (but never alone!)**"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "Patient with moderate persistent asthma. Best initial controller?",
+              "a": ["Albuterol PRN", "Low-dose ICS", "Low-dose ICS + LABA", "Montelukast"],
+              "correct": 2,
+              "explanation": "Moderate persistent (daily symptoms) = Step 3 = Low-dose ICS + LABA or medium-dose ICS alone. Combination preferred!"
+            },
+            {
+              "q": "Patient using albuterol 5 days/week. What does this mean?",
+              "a": ["Asthma is well controlled", "Need to add/increase controller medication", "Should stop ICS", "Normal for asthma"],
+              "correct": 1,
+              "explanation": "SABA use >2 days/week = POOR CONTROL. Need to step up controller therapy (add or increase ICS/LABA)!"
+            },
+            {
+              "q": "Why must LABA always be combined with ICS?",
+              "a": ["Better bronchodilation", "Prevents thrush", "BLACK BOX WARNING: increased asthma deaths with LABA alone", "Cost savings"],
+              "correct": 2,
+              "explanation": "LABA monotherapy increased asthma-related deaths in trials. Must ALWAYS combine with ICS. Never prescribe LABA alone!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d118-resp-copd",
+      "name": "COPD",
+      "system": "Respiratory",
+      "duration_min": 28,
+      "icon": "🚬",
+      "color": "#6c757d",
+      "objectives": [
+        "Distinguish COPD from asthma (key differences)",
+        "Recognize emphysema vs. chronic bronchitis subtypes",
+        "Interpret spirometry showing irreversible obstruction",
+        "Apply GOLD criteria for COPD severity",
+        "Initiate appropriate bronchodilator therapy",
+        "Know when to give O2, antibiotics, steroids in exacerbations"
+      ],
+      "lessons": [
+        {
+          "id": "copd-basics",
+          "title": "🚬 COPD 101: The Smoker's Disease",
+          "duration_min": 9,
+          "content_chunks": [
+            {
+              "type": "story",
+              "title": "Why This Matters",
+              "content": "Meet Bill: 64, smoked 2 packs/day for 40 years (80 pack-years). 'Just a smoker's cough,' he says. But he's getting winded walking to his car, coughs up phlegm every morning, had 3 'bronchitis' episodes last year. This is COPD. It's the 3rd leading cause of death in the US (4th worldwide), affects 16 million Americans (likely 12 million more undiagnosed), and kills 150,000 yearly. 85-90% of cases are from smoking. Catch it early = slow progression!",
+              "visual_desc": "Lungs side-by-side: LEFT (healthy pink tissue, open airways), RIGHT (COPD: dark/tar-stained, dilated air sacs, thick mucus, destroyed alveoli)"
+            },
+            {
+              "type": "definition",
+              "title": "What IS COPD?",
+              "content": "**COPD** (Chronic Obstructive Pulmonary Disease): Chronic, **progressive**, **irreversible** airflow limitation due to:\n1. **Chronic inflammation** of airways\n2. **Destruction of lung parenchyma** (alveoli)\n3. **Loss of elastic recoil**\n\n**Two Main Phenotypes** (most patients have BOTH):\n\n**Chronic Bronchitis** ('Blue Bloater')\n• **Definition**: Productive cough ≥3 months/year for ≥2 consecutive years\n• Chronic inflammation → mucus hypersecretion\n• **Signs**: Cyanosis (blue), edema (bloated), crackles, rhonchi\n• More prone to infections\n\n**Emphysema** ('Pink Puffer')\n• **Definition**: Destruction of alveolar walls → enlarged air spaces\n• Loss of elastic recoil → air trapping\n• **Signs**: Barrel chest, pursed-lip breathing (pink), severe dyspnea (puffing), thin/cachextic\n• Primarily dyspnea, minimal cough\n\n**Key Difference from Asthma**: COPD = **irreversible** (FEV1 doesn't fully normalize even with treatment)",
+              "mnemonic": "**COPD = Chronic Obstruction, Progressive, Dang cigarettes!** | **Blue BLOATER** (chronic bronchitis = cough, mucus, edema). **Pink PUFFER** (emphysema = dyspnea, pursed lips, thin)",
+              "visual_desc": "Two patient silhouettes: LEFT (Blue Bloater): stocky, cyanotic, edematous legs, coughing up mucus. RIGHT (Pink Puffer): thin, barrel-chested, pursed lips, using accessory muscles"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **Alpha-1 Antitrypsin Deficiency**: Think of this in COPD patients <45 years old OR non-smokers with COPD (especially lower lobe emphysema). Check **A1AT level**. Treat with augmentation therapy if deficient!"
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "COPD definition",
+              "mnemonic": "**COPD = Chronic Obstruction, Progressive, Dang cigarettes!**"
+            },
+            {
+              "trigger": "Chronic bronchitis vs emphysema",
+              "mnemonic": "**Blue BLOATER** (chronic bronchitis = cough, mucus, edema). **Pink PUFFER** (emphysema = dyspnea, pursed lips, thin)"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "What distinguishes COPD from asthma on spirometry?",
+              "a": ["FEV1/FVC <0.70", "Reversibility post-bronchodilator", "Irreversible obstruction", "Peak flow variability"],
+              "correct": 2,
+              "explanation": "Both show obstruction (FEV1/FVC <0.70), but COPD is IRREVERSIBLE (doesn't fully normalize with bronchodilator). Asthma is reversible."
+            },
+            {
+              "q": "45yo non-smoker with basilar emphysema on CT. Next test?",
+              "a": ["Bronchoscopy", "Alpha-1 antitrypsin level", "CT angiography", "Methacholine challenge"],
+              "correct": 1,
+              "explanation": "Young age + non-smoker + lower lobe emphysema = think **alpha-1 antitrypsin deficiency**! Check A1AT level."
+            }
+          ]
+        },
+        {
+          "id": "copd-diagnosis",
+          "title": "🔍 Diagnosing COPD: Spirometry Required",
+          "duration_min": 10,
+          "content_chunks": [
+            {
+              "type": "protocol",
+              "title": "When to Suspect COPD",
+              "content": "**Classic Presentation**:\n• **Age >40** with **smoking history** (key!)\n• **Chronic productive cough** (often worse in AM)\n• **Progressive dyspnea** (worsens over years)\n• **Frequent 'bronchitis'** (≥2 exacerbations/year)\n• **Wheeze** (but less episodic than asthma)\n\n**Physical Exam Findings**:\n• **Barrel chest** (increased AP diameter from hyperinflation)\n• **Decreased breath sounds** (air trapping)\n• **Prolonged expiratory phase** (obstruction)\n• **Wheezes or rhonchi**\n• **Use of accessory muscles** (SCM, intercostals)\n• **Pursed-lip breathing** (auto-PEEP to keep airways open)\n• **Hyperresonance** on percussion\n• **Distant heart sounds** (hyperinflated lungs)\n\n**Risk Assessment**:\n• Calculate **pack-years**: (packs per day) × (years smoked)\n• Example: 2 packs/day × 30 years = 60 pack-years\n• Risk ↑ significantly with >20 pack-years",
+              "visual_desc": "Patient diagram showing COPD findings: barrel chest, pursed lips, accessory muscle use, distant breath sounds, clubbing (if severe hypoxia)"
+            },
+            {
+              "type": "protocol",
+              "title": "Spirometry: Diagnostic Gold Standard",
+              "content": "**Diagnosis of COPD** (requires BOTH):\n1. **Post-bronchodilator FEV1/FVC <0.70** (<70%)\n2. **Compatible symptoms** + **risk factors** (smoking!)\n\n**Why post-bronchodilator?**\n• Give SABA (albuterol), wait 15 min, repeat spirometry\n• Rules out fully reversible asthma\n• COPD may have SOME reversibility (<12% or <200 mL) but doesn't normalize\n\n**GOLD Severity Classification** (based on FEV1):\n• **GOLD 1 (Mild)**: FEV1 ≥80% predicted\n• **GOLD 2 (Moderate)**: FEV1 50-79% predicted (most patients diagnosed here)\n• **GOLD 3 (Severe)**: FEV1 30-49% predicted\n• **GOLD 4 (Very Severe)**: FEV1 <30% predicted (consider O2, transplant evaluation)\n\n**Key Point**: Symptoms often DON'T correlate with FEV1! Some patients with FEV1 60% are very symptomatic, others with FEV1 40% feel OK.",
+              "mnemonic": "**GOLD COPD: 8-5-3-Go**: GOLD 1 = **8**0%+, GOLD 2 = **5**0-79%, GOLD 3 = **3**0-49%, GOLD 4 = **Go** get oxygen (<30%)",
+              "visual_desc": "Spirometry graph showing obstructive pattern: reduced FEV1, normal or reduced FVC, FEV1/FVC ratio <0.70. Comparison to normal curve."
+            },
+            {
+              "type": "checklist",
+              "title": "Initial Workup",
+              "content": "✅ **Spirometry** (POST-bronchodilator!) - required for diagnosis\n\n✅ **Chest X-ray**:\n• Hyperinflation (flattened diaphragm, >10 posterior ribs visible)\n• Increased retrosternal airspace\n• Bullae (emphysema)\n• Rule out pneumonia, lung cancer, CHF\n\n✅ **Labs**:\n• **CBC**: Check for polycythemia (chronic hypoxia)\n• **Alpha-1 antitrypsin** if age <45 or non-smoker\n\n✅ **Pulse oximetry**:\n• If O2 sat ≤88% → check **ABG** (may need supplemental O2)\n\n✅ **Consider CT chest** if:\n• Severe disease (GOLD 3-4)\n• Evaluating for surgery (bullectomy, lung volume reduction)\n• Unclear diagnosis\n\n✅ **Assess for comorbidities**:\n• Cardiovascular disease (smoking!)\n• Osteoporosis (steroids, smoking, inactivity)\n• Depression/anxiety\n• Lung cancer screening (low-dose CT if criteria met)",
+              "visual_desc": "Chest X-ray showing COPD: flattened diaphragm, hyperinflated lungs, increased AP diameter, bullae"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **Don't rely on CXR alone!** CXR can be NORMAL in early COPD. Spirometry is REQUIRED for diagnosis. Also, 'chronic bronchitis' is a CLINICAL diagnosis (cough/sputum history), but you still need spirometry to confirm COPD (airflow limitation)."
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "GOLD COPD severity",
+              "mnemonic": "**GOLD COPD: 8-5-3-Go**: GOLD 1 = **8**0%+, GOLD 2 = **5**0-79%, GOLD 3 = **3**0-49%, GOLD 4 = **Go** get oxygen (<30%)"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "Post-bronchodilator spirometry: FEV1/FVC 0.65, FEV1 55% predicted. GOLD stage?",
+              "a": ["GOLD 1", "GOLD 2", "GOLD 3", "GOLD 4"],
+              "correct": 1,
+              "explanation": "FEV1/FVC <0.70 = COPD confirmed. FEV1 55% = GOLD 2 (Moderate: 50-79%)."
+            },
+            {
+              "q": "Which finding on CXR is MOST specific for emphysema?",
+              "a": ["Hyperinflation", "Flattened diaphragm", "Bullae", "Increased AP diameter"],
+              "correct": 2,
+              "explanation": "Bullae (air-filled spaces from alveolar destruction) are specific for emphysema. Other findings seen in hyperinflation but less specific."
+            }
+          ]
+        },
+        {
+          "id": "copd-treatment",
+          "title": "💊 Treatment: Bronchodilators & Preventing Exacerbations",
+          "duration_min": 9,
+          "content_chunks": [
+            {
+              "type": "protocol",
+              "title": "Step 1: Smoking Cessation (MOST IMPORTANT!)",
+              "content": "**THE ONLY INTERVENTION THAT SLOWS FEV1 DECLINE!**\n\n• Counsel at EVERY visit\n• Offer **pharmacotherapy**:\n  - **Varenicline (Chantix)** 1 mg BID × 12 weeks (most effective)\n  - **Bupropion SR (Zyban)** 150 mg BID × 12 weeks\n  - **Nicotine replacement** (patch, gum, lozenge)\n• Combine medication + behavioral counseling (best success)\n• Even late in disease, stopping smoking helps!\n\n**Why it matters**: FEV1 declines ~60 mL/year in COPD smokers vs. ~30 mL/year in COPD ex-smokers vs. ~20 mL/year in healthy non-smokers",
+              "visual_desc": "Graph showing FEV1 decline over time: steepest slope (smoker), moderate slope (quit smoking), shallow slope (never smoked)"
+            },
+            {
+              "type": "medication_guide",
+              "title": "Bronchodilators: The Mainstay",
+              "content": "**SAMA** (Short-Acting Muscarinic Antagonist)\n• **Ipratropium** (Atrovent) 2 puffs QID\n• **Mechanism**: Blocks acetylcholine → bronchodilation\n• **Use**: PRN relief or scheduled if frequent symptoms\n• **Onset**: 15-30 min (slower than albuterol)\n\n**SABA** (Short-Acting Beta Agonist)\n• **Albuterol** 2 puffs q4-6h PRN\n• **Mechanism**: Beta-2 agonist → bronchodilation\n• **Use**: Quick relief (faster than ipratropium)\n\n**Combo SABA + SAMA**: **Albuterol/ipratropium (Combivent)** - better than either alone!\n\n**LAMA** (Long-Acting Muscarinic Antagonist) - **FIRST-LINE for stable COPD!**\n• **Tiotropium (Spiriva)** 18 mcg inhaled daily\n• **Umeclidinium, glycopyrrolate** (alternatives)\n• **Benefit**: ↓ exacerbations, ↓ hospitalizations, improves symptoms\n• **Best for**: All symptomatic COPD (GOLD 2-4)\n\n**LABA** (Long-Acting Beta Agonist)\n• **Salmeterol, formoterol, indacaterol**\n• **Use**: Alternative to LAMA OR add if LAMA alone insufficient\n• **DON'T use alone** in COPD with asthma features (same black box as asthma)\n\n**LAMA + LABA Combo** - for persistent symptoms despite monotherapy\n• Examples: umeclidinium/vilanterol (Anoro), tiotropium/olodaterol\n\n**ICS** (Inhaled Corticosteroid) - **USE SPARINGLY in COPD!**\n• Only if: Frequent exacerbations (≥2/year) OR eosinophilia OR asthma-COPD overlap\n• **Risk**: Pneumonia, thrush, osteoporosis\n• Usually combined: ICS + LABA (Advair, Symbicort) or triple therapy (ICS + LABA + LAMA)",
+              "visual_desc": "Treatment algorithm flowchart: Start LAMA (or LABA) → Still symptomatic? Add second bronchodilator (LAMA + LABA) → Frequent exacerbations? Add ICS (triple therapy)"
+            },
+            {
+              "type": "protocol",
+              "title": "When to Add Supplemental Oxygen",
+              "content": "**Indications for Long-Term Oxygen Therapy (LTOT)**:\n• **Resting O2 sat ≤88%** OR **PaO2 ≤55 mmHg** on room air\n• OR PaO2 56-59 mmHg with:\n  - Cor pulmonale (RV failure from pulmonary HTN)\n  - Polycythemia (Hct >55%)\n\n**Goal**: Keep O2 sat 88-92% (NOT higher! - can blunt hypoxic drive in chronic CO2 retainers)\n\n**Benefit**: LTOT ↓ mortality in severe COPD! Use ≥15 hours/day (ideally 24/7)\n\n**Don't over-oxygenate**: Target 88-92%, not 95-100%!",
+              "clinical_pearl": "COPD patients on chronic O2 can have **hypoxic drive** (breathing triggered by low O2, not high CO2). Giving too much O2 (>92% sat) can suppress respiratory drive → hypercapnia → CO2 narcosis. Keep sat 88-92%!"
+            },
+            {
+              "type": "checklist",
+              "title": "COPD Exacerbation Management",
+              "content": "**Definition**: Acute worsening of respiratory symptoms beyond day-to-day variation\n\n**Triggers**: Infection (viral > bacterial), pollution, non-adherence to meds\n\n**Treatment (outpatient if mild-moderate)**:\n\n✅ **Increase bronchodilators**:\n• Albuterol/ipratropium (Combivent) 2 puffs q4h or nebulizer q4-6h\n\n✅ **Systemic corticosteroids**:\n• **Prednisone 40 mg PO daily × 5 days** (short course!)\n• Improves symptoms, speeds recovery\n\n✅ **Antibiotics** (if ≥2 of: ↑ dyspnea, ↑ sputum volume, ↑ sputum purulence):\n• **First-line**: azithromycin, doxycycline, amoxicillin-clavulanate\n• 5-7 day course\n\n**When to ADMIT**:\n• Severe dyspnea (can't speak full sentences)\n• Altered mental status\n• New/worsening hypoxia despite O2\n• Acidosis (pH <7.35) or hypercapnia (PCO2 >45 with acidosis)\n• Comorbidities (CHF, CAD)\n• Failed outpatient treatment",
+              "visual_desc": "COPD exacerbation toolkit: bronchodilator inhaler, prednisone pills, antibiotic bottle, pulse oximeter"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **Antibiotics are NOT needed for every exacerbation!** Only use if patient has **purulent sputum** (color change to green/yellow) + increased sputum production. Viral exacerbations (most common!) don't need antibiotics."
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "COPD first-line treatment",
+              "mnemonic": "**COPD = L.A.M.A.** (Long-Acting Muscarinic Antagonist is first-line!)"
+            },
+            {
+              "trigger": "Oxygen target in COPD",
+              "mnemonic": "**COPD O2: 88-92** (not higher! Risk of hypercapnia)"
+            },
+            {
+              "trigger": "When to give antibiotics in COPD exacerbation",
+              "mnemonic": "**Purulent Triple**: ↑**P**urulence (color), ↑**V**olume, ↑**D**yspnea (need 2 of 3, with purulence being one)"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "First-line maintenance therapy for symptomatic COPD (GOLD 2)?",
+              "a": ["Albuterol PRN", "LAMA (tiotropium) daily", "ICS + LABA", "Oral prednisone"],
+              "correct": 1,
+              "explanation": "LAMA (long-acting muscarinic antagonist like tiotropium) is first-line for symptomatic COPD. ↓ exacerbations and improves symptoms."
+            },
+            {
+              "q": "COPD patient on home O2. Target oxygen saturation?",
+              "a": ["95-100%", "92-95%", "88-92%", "85-88%"],
+              "correct": 2,
+              "explanation": "Target 88-92% in COPD! Higher levels can suppress hypoxic respiratory drive → CO2 retention."
+            },
+            {
+              "q": "COPD exacerbation with ↑ dyspnea, ↑ yellow sputum. Treatment?",
+              "a": ["Bronchodilators only", "Bronchodilators + prednisone", "Bronchodilators + prednisone + antibiotics", "Antibiotics only"],
+              "correct": 2,
+              "explanation": "Exacerbation with purulent sputum = bronchodilators + steroids (prednisone 40 mg × 5 days) + antibiotics (e.g., azithromycin)!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d118-endo-dm2",
+      "name": "Type 2 Diabetes",
+      "system": "Endocrine",
+      "duration_min": 35,
+      "icon": "🍬",
+      "color": "#f72585",
+      "objectives": [
+        "Apply diagnostic criteria (fasting glucose, HbA1c, OGTT)",
+        "Screen appropriately (who, when, how often)",
+        "Set individualized HbA1c goals",
+        "Initiate metformin and add second-line agents appropriately",
+        "Recognize and manage hypoglycemia",
+        "Screen for complications (retinopathy, nephropathy, neuropathy)"
+      ],
+      "lessons": [
+        {
+          "id": "dm2-basics",
+          "title": "🍬 Type 2 Diabetes 101: The Insulin Resistance Epidemic",
+          "duration_min": 10,
+          "content_chunks": [
+            {
+              "type": "story",
+              "title": "Why This Matters",
+              "content": "Meet Maria: 52, BMI 34, family history of diabetes. Feels fine. Routine labs show fasting glucose 142 mg/dL. 'Must be a lab error,' she thinks. Repeat: 148. HbA1c: 7.2%. Maria has type 2 diabetes (T2DM) and didn't know it. She's one of 37 million Americans with diabetes (11% of population), and 1 in 5 don't know they have it. T2DM is the #1 cause of blindness, kidney failure, and non-traumatic amputations. Early detection + treatment prevents these complications!",
+              "visual_desc": "Infographic: Glucose molecule → insulin resistance → complications tree (eyes, kidneys, nerves, heart, feet)"
+            },
+            {
+              "type": "definition",
+              "title": "What IS Type 2 Diabetes?",
+              "content": "**Type 2 Diabetes**: Chronic metabolic disorder characterized by:\n1. **Insulin resistance** - cells don't respond well to insulin\n2. **Relative insulin deficiency** - pancreas can't keep up with demand\n3. **Hyperglycemia** - persistently high blood glucose\n\n**Pathophysiology**:\n• Early: Pancreas compensates by making MORE insulin (hyperinsulinemia)\n• Middle: Beta cells start to fail, insulin production drops\n• Late: Severe insulin deficiency (may need insulin therapy)\n\n**Risk Factors**:\n• **Obesity** (80-90% of T2DM patients are overweight/obese)\n• **Age** ≥45\n• **Family history** (first-degree relative)\n• **Sedentary lifestyle**\n• **Race**: higher in Black, Hispanic, Native American, Asian, Pacific Islander\n• **History of gestational diabetes**\n• **PCOS** (polycystic ovarian syndrome)\n• **Hypertension**, **dyslipidemia**, **CVD**\n• **Prediabetes** (HbA1c 5.7-6.4%)",
+              "mnemonic": "**T2DM Risk = FAMILY OB**: **F**amily history, **A**ge >45, **M**etabolic syndrome, **I**nactive lifestyle, **L**ipids abnormal, **Y**ears with prediabetes, **O**besity, **BP** elevated",
+              "visual_desc": "Diagram: Insulin trying to unlock cell door, but lock is jammed (insulin resistance) → glucose piles up in bloodstream → high blood sugar"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **T2DM is often ASYMPTOMATIC for years!** Classic symptoms (polyuria, polydipsia, polyphagia, weight loss) appear late when glucose is VERY high (>200-300 mg/dL). This is why SCREENING is critical - most patients feel fine at diagnosis!"
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "Type 2 diabetes risk factors",
+              "mnemonic": "**T2DM Risk = FAMILY OB**: **F**amily history, **A**ge >45, **M**etabolic syndrome, **I**nactive lifestyle, **L**ipids abnormal, **Y**ears with prediabetes, **O**besity, **BP** elevated"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "Which is the PRIMARY defect in early Type 2 diabetes?",
+              "a": ["Insulin deficiency", "Insulin resistance", "Autoimmune destruction", "Glucagon excess"],
+              "correct": 1,
+              "explanation": "Early T2DM = INSULIN RESISTANCE (cells don't respond to insulin). Pancreas compensates by making more, but eventually can't keep up."
+            },
+            {
+              "q": "Most T2DM patients at diagnosis are:",
+              "a": ["Symptomatic with weight loss", "Asymptomatic, found on screening", "In DKA", "Normal weight"],
+              "correct": 1,
+              "explanation": "Most T2DM patients are ASYMPTOMATIC at diagnosis! Found on routine screening. Classic symptoms appear late/severe."
+            }
+          ]
+        },
+        {
+          "id": "dm2-diagnosis",
+          "title": "🔍 Diagnosis & Screening: Know the Numbers",
+          "duration_min": 12,
+          "content_chunks": [
+            {
+              "type": "definition",
+              "title": "Diagnostic Criteria (ADA 2023)",
+              "content": "**Diagnosis of DIABETES** (need ANY ONE of the following):\n\n**1. HbA1c ≥6.5%**\n• Reflects average glucose over 2-3 months\n• CLIA-certified lab\n• Repeat to confirm (unless symptomatic + glucose >200)\n\n**2. Fasting Plasma Glucose (FPG) ≥126 mg/dL**\n• Fasting = no calories for ≥8 hours\n• Repeat to confirm\n\n**3. 2-Hour OGTT ≥200 mg/dL**\n• Oral glucose tolerance test (75g glucose load)\n• Rarely used in adults (mainly pregnancy screening)\n\n**4. Random glucose ≥200 mg/dL + symptoms**\n• Symptoms: polyuria, polydipsia, unexplained weight loss\n• No repeat needed if symptomatic\n\n**PREDIABETES** (high risk, prevent progression!):\n• HbA1c **5.7-6.4%**\n• FPG **100-125 mg/dL** (impaired fasting glucose)\n• 2-hr OGTT **140-199 mg/dL** (impaired glucose tolerance)\n\n**NORMAL**:\n• HbA1c <5.7%\n• FPG <100 mg/dL",
+              "mnemonic": "**Diabetes diagnosis = 6-1-2**: HbA1c ≥**6**.5%, Fasting ≥**1**26, **2**-hr OGTT ≥**200**, Random ≥**200** (with symptoms)",
+              "visual_desc": "Three-zone diagram: GREEN (normal: HbA1c <5.7), YELLOW (prediabetes: 5.7-6.4), RED (diabetes: ≥6.5)"
+            },
+            {
+              "type": "protocol",
+              "title": "Who to Screen & When (USPSTF/ADA Guidelines)",
+              "content": "**Screen ALL adults** if:\n• **Age 35-70** AND **overweight/obese** (BMI ≥25 or ≥23 in Asian Americans)\n• OR **ANY age** if additional risk factors:\n  - First-degree relative with diabetes\n  - High-risk race/ethnicity (Black, Hispanic, Native American, Asian, Pacific Islander)\n  - History of CVD\n  - HTN (≥140/90 or on therapy)\n  - HDL <35 or triglycerides >250\n  - PCOS\n  - Physical inactivity\n  - History of gestational diabetes or baby >9 lbs\n\n**How often?**\n• If normal → rescreen every **3 years**\n• If prediabetes → rescreen **yearly** + intensive lifestyle intervention!\n\n**Preferred test**: **HbA1c** (convenient, no fasting) OR **fasting glucose**",
+              "visual_desc": "Screening flowchart: Age 35-70 + overweight OR risk factors → Screen with HbA1c or FPG → Normal (rescreen q3y), Prediabetes (rescreen yearly + lifestyle), Diabetes (confirm + treat)"
+            },
+            {
+              "type": "definition",
+              "title": "Prediabetes: The Last Warning!",
+              "content": "**Why it matters**: 5-10% of prediabetics progress to diabetes EACH YEAR. But progression is NOT inevitable!\n\n**Treatment for Prediabetes**:\n\n**1️⃣ Lifestyle Intervention** (FIRST-LINE - proven to work!)\n• **Weight loss**: 7% of body weight (e.g., 14 lbs if 200 lbs)\n• **Exercise**: 150 min/week moderate activity (brisk walking)\n• **Diabetes Prevention Program (DPP)**: 58% reduction in diabetes risk!\n\n**2️⃣ Metformin** (if high risk):\n• Consider if: Age <60, BMI ≥35, history of gestational diabetes, or HbA1c rising toward 6.4%\n• Metformin 850 mg BID (31% risk reduction in DPP trial)\n\n**3️⃣ Monitor**: Recheck HbA1c yearly",
+              "clinical_pearl": "Lifestyle modification (7% weight loss + 150 min/week exercise) is MORE effective than metformin for preventing diabetes (58% vs 31% risk reduction). Always start with lifestyle!"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **HbA1c can be FALSELY low** in: hemolytic anemia, recent blood loss, hemoglobinopathies (sickle cell), pregnancy, recent transfusion. **Falsely high** in: iron deficiency, B12 deficiency, uremia. If mismatch with glucose levels, use glucose-based criteria instead!"
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "Diabetes diagnostic cutoffs",
+              "mnemonic": "**Diabetes diagnosis = 6-1-2**: HbA1c ≥**6**.5%, Fasting ≥**1**26, **2**-hr OGTT ≥**200**, Random ≥**200** (with symptoms)"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "Patient has HbA1c 6.1%, fasting glucose 108 mg/dL. Diagnosis?",
+              "a": ["Normal", "Prediabetes", "Type 2 diabetes", "Need more testing"],
+              "correct": 1,
+              "explanation": "HbA1c 5.7-6.4% = PREDIABETES. FPG 100-125 also confirms prediabetes. Start intensive lifestyle intervention + yearly monitoring!"
+            },
+            {
+              "q": "40yo with BMI 32, fasting glucose 118 mg/dL. Next step?",
+              "a": ["Reassure, normal", "Start metformin", "Intensive lifestyle intervention", "Insulin"],
+              "correct": 2,
+              "explanation": "FPG 100-125 = prediabetes. First-line is LIFESTYLE (7% weight loss + 150 min/week exercise). Metformin is second-line."
+            },
+            {
+              "q": "Which scenario does NOT require repeat testing to diagnose diabetes?",
+              "a": ["HbA1c 6.8%", "Fasting glucose 142 mg/dL", "Random glucose 245 mg/dL with polyuria/polydipsia", "2-hr OGTT 215 mg/dL"],
+              "correct": 2,
+              "explanation": "Random glucose ≥200 mg/dL WITH classic symptoms = diabetes, no repeat needed! All others need confirmation."
+            }
+          ]
+        },
+        {
+          "id": "dm2-treatment",
+          "title": "💊 Treatment: Lifestyle + Metformin + More",
+          "duration_min": 13,
+          "content_chunks": [
+            {
+              "type": "protocol",
+              "title": "Treatment Goals (Individualize!)",
+              "content": "**HbA1c Goals** (ADA 2023):\n\n**<7.0%** for MOST adults\n• Newly diagnosed\n• Long life expectancy\n• No significant CVD\n• Low hypoglycemia risk\n\n**<6.5%** (more stringent) if:\n• Short diabetes duration\n• Can achieve without significant hypoglycemia\n• No CVD\n\n**<8.0%** (less stringent) if:\n• History of severe hypoglycemia\n• Limited life expectancy\n• Advanced complications\n• Extensive comorbidities\n• Long-standing diabetes, hard to control\n\n**Individualize** based on: patient preference, resources, support system, hypoglycemia risk\n\n**Other goals**:\n• **BP <130/80** (most diabetics)\n• **LDL <100 mg/dL** (or <70 if ASCVD)\n• **Statin** for primary prevention if age >40 OR other ASCVD risk factors",
+              "visual_desc": "Target dartboard: Bullseye (HbA1c <6.5%), middle ring (<7%), outer ring (<8%), with patient factors determining which target to aim for"
+            },
+            {
+              "type": "medication_guide",
+              "title": "Step 1: Lifestyle + Metformin",
+              "content": "**Lifestyle Modifications** (start at diagnosis!):\n• **Weight loss**: 5-10% (if overweight)\n• **Exercise**: 150 min/week moderate + 2 days resistance training\n• **Mediterranean or DASH diet**\n• **Limit refined carbs/added sugars**\n• **Diabetes self-management education (DSME)**\n\n**METFORMIN** = **FIRST-LINE medication** (unless contraindicated)\n\n**Why metformin?**\n• ↓ hepatic glucose production\n• ↑ insulin sensitivity\n• **Weight neutral** or modest weight loss\n• **No hypoglycemia** (doesn't increase insulin)\n• **Cheap**\n• Proven CV benefits\n\n**Dosing**:\n• Start **500 mg PO daily or BID** with meals\n• Titrate up every 1-2 weeks\n• Target: **2000 mg/day** (divided BID) - max 2550 mg\n• Use **extended-release (ER)** if GI intolerance\n\n**Side Effects**:\n• **GI upset** (50%): nausea, diarrhea, cramping (improves over weeks - start low, go slow!)\n• **Vitamin B12 deficiency** (long-term): check B12 yearly\n• **Lactic acidosis** (RARE): avoid if eGFR <30\n\n**Contraindications**:\n• eGFR <30 mL/min (stop if <30, be cautious if 30-45)\n• Severe liver disease\n• Acute illness (hold during hospitalization for surgery, contrast studies)",
+              "visual_desc": "Metformin mechanism diagram: blocks liver glucose production (gluconeogenesis) + increases muscle glucose uptake"
+            },
+            {
+              "type": "medication_guide",
+              "title": "Step 2: Adding Second-Line Agents",
+              "content": "**When?** If HbA1c not at goal after 3 months on metformin + lifestyle\n\n**CHOOSING THE NEXT MED** (depends on patient factors):\n\n**IF ASCVD or high CV risk** → **GLP-1 RA** or **SGLT2i** (proven CV benefit!)\n\n**IF Heart Failure or CKD** → **SGLT2i** (proven benefit!)\n\n**IF Main goal is weight loss** → **GLP-1 RA** (best for weight!)\n\n**IF Cost is major concern** → **Sulfonylurea** (cheap but causes hypoglycemia)\n\n---\n\n**GLP-1 Receptor Agonists** (incretin mimetics)\n• **Examples**: semaglutide (Ozempic, weekly), dulaglutide (Trulicity, weekly), liraglutide (Victoza, daily)\n• **Mechanism**: ↑ insulin, ↓ glucagon, ↓ appetite, slow gastric emptying\n• **Benefits**: \n  - **Weight loss 5-15 lbs** (semaglutide up to 15%!)\n  - **CV benefit** (↓ MACE in high-risk patients)\n• **Side effects**: Nausea (common initially), diarrhea, pancreatitis (rare)\n• **Avoid**: Personal/family history of medullary thyroid cancer or MEN 2\n• **Route**: Subcutaneous injection (once weekly preferred)\n\n**SGLT2 Inhibitors** (gliflozins)\n• **Examples**: empagliflozin (Jardiance), dapagliflozin (Farxiga), canagliflozin (Invokana)\n• **Mechanism**: Block glucose reabsorption in kidney → pee out glucose!\n• **Benefits**:\n  - **CV benefit** (↓ MACE, ↓ HF hospitalization)\n  - **Renal protection** (↓ CKD progression)\n  - **Weight loss** 5-10 lbs\n  - **BP reduction** (diuretic effect)\n• **Side effects**: Genital yeast infections (10%), UTIs, DKA (rare but serious!), Fournier's gangrene (very rare)\n• **Avoid**: eGFR <30 (or <45 for some)\n\n**Sulfonylureas** (older, cheap)\n• **Examples**: glipizide, glyburide, glimepiride\n• **Mechanism**: ↑ insulin secretion from pancreas\n• **Benefits**: Cheap, effective (↓ HbA1c ~1.5%)\n• **Side effects**: **HYPOGLYCEMIA** (major risk!), weight gain\n• **Avoid**: Elderly, erratic eating, renal/hepatic impairment\n\n**DPP-4 Inhibitors** (gliptins)\n• **Examples**: sitagliptin (Januvia), linagliptin (Tradjenta)\n• **Mechanism**: ↑ GLP-1 (prevents its breakdown)\n• **Benefits**: Weight neutral, no hypoglycemia, oral\n• **Cons**: Modest HbA1c reduction (~0.5-0.8%), expensive, no CV benefit\n\n**Insulin**\n• Reserve for: HbA1c >10%, symptomatic hyperglycemia, pregnancy, T1DM\n• Start with basal insulin (glargine, detemir) at bedtime\n• Titrate based on fasting glucose",
+              "visual_desc": "Decision tree: If ASCVD/HF/CKD → SGLT2i or GLP-1. If weight loss priority → GLP-1. If cost priority → sulfonylurea. All stay on metformin!"
+            },
+            {
+              "type": "clinical_pearl",
+              "content": "🔥 **Don't wait to intensify!** If HbA1c not at goal after 3 months, ADD another agent (don't just increase metformin dose if already at 2000 mg). 'Clinical inertia' (waiting too long to adjust) is a huge problem in diabetes care!"
+            }
+          ],
+          "mnemonics": [
+            {
+              "trigger": "Metformin contraindication",
+              "mnemonic": "**Metformin eGFR: 30 is the line** (stop if <30, caution if 30-45)"
+            },
+            {
+              "trigger": "Second-line diabetes meds with CV benefit",
+              "mnemonic": "**Heart loves SGLT-GLP**: **SGLT2i** and **GLP-1 RA** have proven CV benefit!"
+            }
+          ],
+          "quick_checks": [
+            {
+              "q": "Newly diagnosed T2DM, HbA1c 7.8%, BMI 31, no CVD. First medication?",
+              "a": ["Insulin", "Metformin", "GLP-1 RA", "Sulfonylurea"],
+              "correct": 1,
+              "explanation": "METFORMIN is first-line for nearly all T2DM patients (unless contraindicated). Start with lifestyle + metformin!"
+            },
+            {
+              "q": "T2DM on metformin, HbA1c still 8.2%, has heart failure. Best add-on?",
+              "a": ["Sulfonylurea", "DPP-4 inhibitor", "SGLT2 inhibitor", "Insulin"],
+              "correct": 2,
+              "explanation": "SGLT2 inhibitors have PROVEN benefit in heart failure (↓ HF hospitalization). Best choice for diabetic with HF!"
+            },
+            {
+              "q": "Why is metformin contraindicated in eGFR <30?",
+              "a": ["Causes kidney damage", "Ineffective at low GFR", "Risk of lactic acidosis", "Causes hypoglycemia"],
+              "correct": 2,
+              "explanation": "Metformin accumulates with poor renal function → risk of LACTIC ACIDOSIS (rare but life-threatening). Stop if eGFR <30."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

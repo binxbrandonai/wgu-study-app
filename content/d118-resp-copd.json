@@ -1,0 +1,236 @@
+{
+  "topic": {
+    "id": "d118-resp-copd",
+    "name": "COPD",
+    "system": "Respiratory",
+    "duration_min": 28,
+    "icon": "\ud83d\udeac",
+    "color": "#6c757d",
+    "objectives": [
+      "Distinguish COPD from asthma (key differences)",
+      "Recognize emphysema vs. chronic bronchitis subtypes",
+      "Interpret spirometry showing irreversible obstruction",
+      "Apply GOLD criteria for COPD severity",
+      "Initiate appropriate bronchodilator therapy",
+      "Know when to give O2, antibiotics, steroids in exacerbations"
+    ],
+    "lessons": [
+      {
+        "id": "copd-basics",
+        "title": "\ud83d\udeac COPD 101: The Smoker's Disease",
+        "duration_min": 9,
+        "content_chunks": [
+          {
+            "type": "story",
+            "title": "Why This Matters",
+            "content": "Meet Bill: 64, smoked 2 packs/day for 40 years (80 pack-years). 'Just a smoker's cough,' he says. But he's getting winded walking to his car, coughs up phlegm every morning, had 3 'bronchitis' episodes last year. This is COPD. It's the 3rd leading cause of death in the US (4th worldwide), affects 16 million Americans (likely 12 million more undiagnosed), and kills 150,000 yearly. 85-90% of cases are from smoking. Catch it early = slow progression!",
+            "visual_desc": "Lungs side-by-side: LEFT (healthy pink tissue, open airways), RIGHT (COPD: dark/tar-stained, dilated air sacs, thick mucus, destroyed alveoli)"
+          },
+          {
+            "type": "definition",
+            "title": "What IS COPD?",
+            "content": "**COPD** (Chronic Obstructive Pulmonary Disease): Chronic, **progressive**, **irreversible** airflow limitation due to:\n1. **Chronic inflammation** of airways\n2. **Destruction of lung parenchyma** (alveoli)\n3. **Loss of elastic recoil**\n\n**Two Main Phenotypes** (most patients have BOTH):\n\n**Chronic Bronchitis** ('Blue Bloater')\n\u2022 **Definition**: Productive cough \u22653 months/year for \u22652 consecutive years\n\u2022 Chronic inflammation \u2192 mucus hypersecretion\n\u2022 **Signs**: Cyanosis (blue), edema (bloated), crackles, rhonchi\n\u2022 More prone to infections\n\n**Emphysema** ('Pink Puffer')\n\u2022 **Definition**: Destruction of alveolar walls \u2192 enlarged air spaces\n\u2022 Loss of elastic recoil \u2192 air trapping\n\u2022 **Signs**: Barrel chest, pursed-lip breathing (pink), severe dyspnea (puffing), thin/cachextic\n\u2022 Primarily dyspnea, minimal cough\n\n**Key Difference from Asthma**: COPD = **irreversible** (FEV1 doesn't fully normalize even with treatment)",
+            "mnemonic": "**COPD = Chronic Obstruction, Progressive, Dang cigarettes!** | **Blue BLOATER** (chronic bronchitis = cough, mucus, edema). **Pink PUFFER** (emphysema = dyspnea, pursed lips, thin)",
+            "visual_desc": "Two patient silhouettes: LEFT (Blue Bloater): stocky, cyanotic, edematous legs, coughing up mucus. RIGHT (Pink Puffer): thin, barrel-chested, pursed lips, using accessory muscles"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Alpha-1 Antitrypsin Deficiency**: Think of this in COPD patients <45 years old OR non-smokers with COPD (especially lower lobe emphysema). Check **A1AT level**. Treat with augmentation therapy if deficient!"
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "COPD definition",
+            "mnemonic": "**COPD = Chronic Obstruction, Progressive, Dang cigarettes!**"
+          },
+          {
+            "trigger": "Chronic bronchitis vs emphysema",
+            "mnemonic": "**Blue BLOATER** (chronic bronchitis = cough, mucus, edema). **Pink PUFFER** (emphysema = dyspnea, pursed lips, thin)"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "What distinguishes COPD from asthma on spirometry?",
+            "a": [
+              "FEV1/FVC <0.70",
+              "Reversibility post-bronchodilator",
+              "Irreversible obstruction",
+              "Peak flow variability"
+            ],
+            "correct": 2,
+            "explanation": "Both show obstruction (FEV1/FVC <0.70), but COPD is IRREVERSIBLE (doesn't fully normalize with bronchodilator). Asthma is reversible."
+          },
+          {
+            "q": "45yo non-smoker with basilar emphysema on CT. Next test?",
+            "a": [
+              "Bronchoscopy",
+              "Alpha-1 antitrypsin level",
+              "CT angiography",
+              "Methacholine challenge"
+            ],
+            "correct": 1,
+            "explanation": "Young age + non-smoker + lower lobe emphysema = think **alpha-1 antitrypsin deficiency**! Check A1AT level."
+          }
+        ]
+      },
+      {
+        "id": "copd-diagnosis",
+        "title": "\ud83d\udd0d Diagnosing COPD: Spirometry Required",
+        "duration_min": 10,
+        "content_chunks": [
+          {
+            "type": "protocol",
+            "title": "When to Suspect COPD",
+            "content": "**Classic Presentation**:\n\u2022 **Age >40** with **smoking history** (key!)\n\u2022 **Chronic productive cough** (often worse in AM)\n\u2022 **Progressive dyspnea** (worsens over years)\n\u2022 **Frequent 'bronchitis'** (\u22652 exacerbations/year)\n\u2022 **Wheeze** (but less episodic than asthma)\n\n**Physical Exam Findings**:\n\u2022 **Barrel chest** (increased AP diameter from hyperinflation)\n\u2022 **Decreased breath sounds** (air trapping)\n\u2022 **Prolonged expiratory phase** (obstruction)\n\u2022 **Wheezes or rhonchi**\n\u2022 **Use of accessory muscles** (SCM, intercostals)\n\u2022 **Pursed-lip breathing** (auto-PEEP to keep airways open)\n\u2022 **Hyperresonance** on percussion\n\u2022 **Distant heart sounds** (hyperinflated lungs)\n\n**Risk Assessment**:\n\u2022 Calculate **pack-years**: (packs per day) \u00d7 (years smoked)\n\u2022 Example: 2 packs/day \u00d7 30 years = 60 pack-years\n\u2022 Risk \u2191 significantly with >20 pack-years",
+            "visual_desc": "Patient diagram showing COPD findings: barrel chest, pursed lips, accessory muscle use, distant breath sounds, clubbing (if severe hypoxia)"
+          },
+          {
+            "type": "protocol",
+            "title": "Spirometry: Diagnostic Gold Standard",
+            "content": "**Diagnosis of COPD** (requires BOTH):\n1. **Post-bronchodilator FEV1/FVC <0.70** (<70%)\n2. **Compatible symptoms** + **risk factors** (smoking!)\n\n**Why post-bronchodilator?**\n\u2022 Give SABA (albuterol), wait 15 min, repeat spirometry\n\u2022 Rules out fully reversible asthma\n\u2022 COPD may have SOME reversibility (<12% or <200 mL) but doesn't normalize\n\n**GOLD Severity Classification** (based on FEV1):\n\u2022 **GOLD 1 (Mild)**: FEV1 \u226580% predicted\n\u2022 **GOLD 2 (Moderate)**: FEV1 50-79% predicted (most patients diagnosed here)\n\u2022 **GOLD 3 (Severe)**: FEV1 30-49% predicted\n\u2022 **GOLD 4 (Very Severe)**: FEV1 <30% predicted (consider O2, transplant evaluation)\n\n**Key Point**: Symptoms often DON'T correlate with FEV1! Some patients with FEV1 60% are very symptomatic, others with FEV1 40% feel OK.",
+            "mnemonic": "**GOLD COPD: 8-5-3-Go**: GOLD 1 = **8**0%+, GOLD 2 = **5**0-79%, GOLD 3 = **3**0-49%, GOLD 4 = **Go** get oxygen (<30%)",
+            "visual_desc": "Spirometry graph showing obstructive pattern: reduced FEV1, normal or reduced FVC, FEV1/FVC ratio <0.70. Comparison to normal curve."
+          },
+          {
+            "type": "checklist",
+            "title": "Initial Workup",
+            "content": "\u2705 **Spirometry** (POST-bronchodilator!) - required for diagnosis\n\n\u2705 **Chest X-ray**:\n\u2022 Hyperinflation (flattened diaphragm, >10 posterior ribs visible)\n\u2022 Increased retrosternal airspace\n\u2022 Bullae (emphysema)\n\u2022 Rule out pneumonia, lung cancer, CHF\n\n\u2705 **Labs**:\n\u2022 **CBC**: Check for polycythemia (chronic hypoxia)\n\u2022 **Alpha-1 antitrypsin** if age <45 or non-smoker\n\n\u2705 **Pulse oximetry**:\n\u2022 If O2 sat \u226488% \u2192 check **ABG** (may need supplemental O2)\n\n\u2705 **Consider CT chest** if:\n\u2022 Severe disease (GOLD 3-4)\n\u2022 Evaluating for surgery (bullectomy, lung volume reduction)\n\u2022 Unclear diagnosis\n\n\u2705 **Assess for comorbidities**:\n\u2022 Cardiovascular disease (smoking!)\n\u2022 Osteoporosis (steroids, smoking, inactivity)\n\u2022 Depression/anxiety\n\u2022 Lung cancer screening (low-dose CT if criteria met)",
+            "visual_desc": "Chest X-ray showing COPD: flattened diaphragm, hyperinflated lungs, increased AP diameter, bullae"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Don't rely on CXR alone!** CXR can be NORMAL in early COPD. Spirometry is REQUIRED for diagnosis. Also, 'chronic bronchitis' is a CLINICAL diagnosis (cough/sputum history), but you still need spirometry to confirm COPD (airflow limitation)."
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "GOLD COPD severity",
+            "mnemonic": "**GOLD COPD: 8-5-3-Go**: GOLD 1 = **8**0%+, GOLD 2 = **5**0-79%, GOLD 3 = **3**0-49%, GOLD 4 = **Go** get oxygen (<30%)"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "Post-bronchodilator spirometry: FEV1/FVC 0.65, FEV1 55% predicted. GOLD stage?",
+            "a": [
+              "GOLD 1",
+              "GOLD 2",
+              "GOLD 3",
+              "GOLD 4"
+            ],
+            "correct": 1,
+            "explanation": "FEV1/FVC <0.70 = COPD confirmed. FEV1 55% = GOLD 2 (Moderate: 50-79%)."
+          },
+          {
+            "q": "Which finding on CXR is MOST specific for emphysema?",
+            "a": [
+              "Hyperinflation",
+              "Flattened diaphragm",
+              "Bullae",
+              "Increased AP diameter"
+            ],
+            "correct": 2,
+            "explanation": "Bullae (air-filled spaces from alveolar destruction) are specific for emphysema. Other findings seen in hyperinflation but less specific."
+          }
+        ]
+      },
+      {
+        "id": "copd-treatment",
+        "title": "\ud83d\udc8a Treatment: Bronchodilators & Preventing Exacerbations",
+        "duration_min": 9,
+        "content_chunks": [
+          {
+            "type": "protocol",
+            "title": "Step 1: Smoking Cessation (MOST IMPORTANT!)",
+            "content": "**THE ONLY INTERVENTION THAT SLOWS FEV1 DECLINE!**\n\n\u2022 Counsel at EVERY visit\n\u2022 Offer **pharmacotherapy**:\n  - **Varenicline (Chantix)** 1 mg BID \u00d7 12 weeks (most effective)\n  - **Bupropion SR (Zyban)** 150 mg BID \u00d7 12 weeks\n  - **Nicotine replacement** (patch, gum, lozenge)\n\u2022 Combine medication + behavioral counseling (best success)\n\u2022 Even late in disease, stopping smoking helps!\n\n**Why it matters**: FEV1 declines ~60 mL/year in COPD smokers vs. ~30 mL/year in COPD ex-smokers vs. ~20 mL/year in healthy non-smokers",
+            "visual_desc": "Graph showing FEV1 decline over time: steepest slope (smoker), moderate slope (quit smoking), shallow slope (never smoked)"
+          },
+          {
+            "type": "medication_guide",
+            "title": "Bronchodilators: The Mainstay",
+            "content": "**SAMA** (Short-Acting Muscarinic Antagonist)\n\u2022 **Ipratropium** (Atrovent) 2 puffs QID\n\u2022 **Mechanism**: Blocks acetylcholine \u2192 bronchodilation\n\u2022 **Use**: PRN relief or scheduled if frequent symptoms\n\u2022 **Onset**: 15-30 min (slower than albuterol)\n\n**SABA** (Short-Acting Beta Agonist)\n\u2022 **Albuterol** 2 puffs q4-6h PRN\n\u2022 **Mechanism**: Beta-2 agonist \u2192 bronchodilation\n\u2022 **Use**: Quick relief (faster than ipratropium)\n\n**Combo SABA + SAMA**: **Albuterol/ipratropium (Combivent)** - better than either alone!\n\n**LAMA** (Long-Acting Muscarinic Antagonist) - **FIRST-LINE for stable COPD!**\n\u2022 **Tiotropium (Spiriva)** 18 mcg inhaled daily\n\u2022 **Umeclidinium, glycopyrrolate** (alternatives)\n\u2022 **Benefit**: \u2193 exacerbations, \u2193 hospitalizations, improves symptoms\n\u2022 **Best for**: All symptomatic COPD (GOLD 2-4)\n\n**LABA** (Long-Acting Beta Agonist)\n\u2022 **Salmeterol, formoterol, indacaterol**\n\u2022 **Use**: Alternative to LAMA OR add if LAMA alone insufficient\n\u2022 **DON'T use alone** in COPD with asthma features (same black box as asthma)\n\n**LAMA + LABA Combo** - for persistent symptoms despite monotherapy\n\u2022 Examples: umeclidinium/vilanterol (Anoro), tiotropium/olodaterol\n\n**ICS** (Inhaled Corticosteroid) - **USE SPARINGLY in COPD!**\n\u2022 Only if: Frequent exacerbations (\u22652/year) OR eosinophilia OR asthma-COPD overlap\n\u2022 **Risk**: Pneumonia, thrush, osteoporosis\n\u2022 Usually combined: ICS + LABA (Advair, Symbicort) or triple therapy (ICS + LABA + LAMA)",
+            "visual_desc": "Treatment algorithm flowchart: Start LAMA (or LABA) \u2192 Still symptomatic? Add second bronchodilator (LAMA + LABA) \u2192 Frequent exacerbations? Add ICS (triple therapy)"
+          },
+          {
+            "type": "protocol",
+            "title": "When to Add Supplemental Oxygen",
+            "content": "**Indications for Long-Term Oxygen Therapy (LTOT)**:\n\u2022 **Resting O2 sat \u226488%** OR **PaO2 \u226455 mmHg** on room air\n\u2022 OR PaO2 56-59 mmHg with:\n  - Cor pulmonale (RV failure from pulmonary HTN)\n  - Polycythemia (Hct >55%)\n\n**Goal**: Keep O2 sat 88-92% (NOT higher! - can blunt hypoxic drive in chronic CO2 retainers)\n\n**Benefit**: LTOT \u2193 mortality in severe COPD! Use \u226515 hours/day (ideally 24/7)\n\n**Don't over-oxygenate**: Target 88-92%, not 95-100%!",
+            "clinical_pearl": "COPD patients on chronic O2 can have **hypoxic drive** (breathing triggered by low O2, not high CO2). Giving too much O2 (>92% sat) can suppress respiratory drive \u2192 hypercapnia \u2192 CO2 narcosis. Keep sat 88-92%!"
+          },
+          {
+            "type": "checklist",
+            "title": "COPD Exacerbation Management",
+            "content": "**Definition**: Acute worsening of respiratory symptoms beyond day-to-day variation\n\n**Triggers**: Infection (viral > bacterial), pollution, non-adherence to meds\n\n**Treatment (outpatient if mild-moderate)**:\n\n\u2705 **Increase bronchodilators**:\n\u2022 Albuterol/ipratropium (Combivent) 2 puffs q4h or nebulizer q4-6h\n\n\u2705 **Systemic corticosteroids**:\n\u2022 **Prednisone 40 mg PO daily \u00d7 5 days** (short course!)\n\u2022 Improves symptoms, speeds recovery\n\n\u2705 **Antibiotics** (if \u22652 of: \u2191 dyspnea, \u2191 sputum volume, \u2191 sputum purulence):\n\u2022 **First-line**: azithromycin, doxycycline, amoxicillin-clavulanate\n\u2022 5-7 day course\n\n**When to ADMIT**:\n\u2022 Severe dyspnea (can't speak full sentences)\n\u2022 Altered mental status\n\u2022 New/worsening hypoxia despite O2\n\u2022 Acidosis (pH <7.35) or hypercapnia (PCO2 >45 with acidosis)\n\u2022 Comorbidities (CHF, CAD)\n\u2022 Failed outpatient treatment",
+            "visual_desc": "COPD exacerbation toolkit: bronchodilator inhaler, prednisone pills, antibiotic bottle, pulse oximeter"
+          },
+          {
+            "type": "clinical_pearl",
+            "content": "\ud83d\udd25 **Antibiotics are NOT needed for every exacerbation!** Only use if patient has **purulent sputum** (color change to green/yellow) + increased sputum production. Viral exacerbations (most common!) don't need antibiotics."
+          }
+        ],
+        "mnemonics": [
+          {
+            "trigger": "COPD first-line treatment",
+            "mnemonic": "**COPD = L.A.M.A.** (Long-Acting Muscarinic Antagonist is first-line!)"
+          },
+          {
+            "trigger": "Oxygen target in COPD",
+            "mnemonic": "**COPD O2: 88-92** (not higher! Risk of hypercapnia)"
+          },
+          {
+            "trigger": "When to give antibiotics in COPD exacerbation",
+            "mnemonic": "**Purulent Triple**: \u2191**P**urulence (color), \u2191**V**olume, \u2191**D**yspnea (need 2 of 3, with purulence being one)"
+          }
+        ],
+        "quick_checks": [
+          {
+            "q": "First-line maintenance therapy for symptomatic COPD (GOLD 2)?",
+            "a": [
+              "Albuterol PRN",
+              "LAMA (tiotropium) daily",
+              "ICS + LABA",
+              "Oral prednisone"
+            ],
+            "correct": 1,
+            "explanation": "LAMA (long-acting muscarinic antagonist like tiotropium) is first-line for symptomatic COPD. \u2193 exacerbations and improves symptoms."
+          },
+          {
+            "q": "COPD patient on home O2. Target oxygen saturation?",
+            "a": [
+              "95-100%",
+              "92-95%",
+              "88-92%",
+              "85-88%"
+            ],
+            "correct": 2,
+            "explanation": "Target 88-92% in COPD! Higher levels can suppress hypoxic respiratory drive \u2192 CO2 retention."
+          },
+          {
+            "q": "COPD exacerbation with \u2191 dyspnea, \u2191 yellow sputum. Treatment?",
+            "a": [
+              "Bronchodilators only",
+              "Bronchodilators + prednisone",
+              "Bronchodilators + prednisone + antibiotics",
+              "Antibiotics only"
+            ],
+            "correct": 2,
+            "explanation": "Exacerbation with purulent sputum = bronchodilators + steroids (prednisone 40 mg \u00d7 5 days) + antibiotics (e.g., azithromycin)!"
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "source": "Ninja Nerd",
+        "title": "Chronic Obstructive Pulmonary Disease (COPD) | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=W45U1pslKVI",
+        "duration": "59 min"
+      },
+      {
+        "source": "Osmosis",
+        "title": "Chronic Bronchitis (COPD) \u2014 Causes, Symptoms, Diagnosis, Treatment, Pathology",
+        "url": "https://www.youtube.com/watch?v=Y29bTzKK_P8",
+        "duration": "9 min"
+      }
+    ]
+  }
+}
