@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lab Values Cheat Sheets - Quick Clinical Reference</title>
+<style>
+:root { --bg: #050810; --bg2: #0b0f1c; --teal: #00e5cc; --amber: #f5b731; --rose: #f43f5e; --blue: #3b82f6; --purple: #a78bfa; --green: #10b981; --text: #e2e8f5; --text-dim: #5a6a8a; --border: rgba(255,255,255,0.055); }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, sans-serif; line-height: 1.6; padding: 40px; max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 900; text-align: center; background: linear-gradient(135deg, var(--teal), var(--blue)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .subtitle { font-size: 13px; color: var(--text-dim); }
+.header .badge { display: inline-block; background: rgba(59,130,246,0.12); color: var(--blue); padding: 3px 10px; border-radius: 20px; font-size: 10px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; margin-top: 6px; border: 1px solid rgba(59,130,246,0.3); }
+h2 { font-size: 18px; font-weight: 800; color: var(--teal); margin: 24px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+th { text-align: left; padding: 8px 12px; background: var(--bg3); color: var(--text-dim); font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 1px solid var(--border); }
+td { padding: 7px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+tr:hover td { background: rgba(255,255,255,0.02); }
+.low { color: var(--blue); }
+.high { color: var(--rose); }
+.normal { color: var(--green); }
+.section-intro { color: var(--text-dim); font-size: 13px; margin: 4px 0 12px; }
+@media print { @page { margin: 0.4in; } body { background: #fff; color: #000; } .header .badge { border-color: #999; color: #333; } th { background: #eee; color: #333; } td { border-color: #ddd; } .low { color: #0066cc; } .high { color: #cc0000; } .normal { color: #008800; } h2 { color: #005566; } }
+@media (max-width: 768px) { body { padding: 16px; } table { font-size: 11px; } th, td { padding: 5px 8px; } }
+</style>
+</head>
+<body>
+<div class="header">
+<h1>🧪 Lab Values Cheat Sheets</h1>
+<div class="subtitle">Quick Clinical Reference • Normal Ranges for Adults</div>
+<div class="badge">FNP • Clinical Rotations • NCLEX • Board Review</div>
+</div>
+<p style="text-align:center;color:var(--text-dim);font-size:12px;margin-bottom:24px;">Print-friendly format for clinical badge reels or pocket reference. Ranges are adult normal values.</p>
+
+<h2>🩸 CBC (Complete Blood Count)</h2>
+<table>
+<tr><th>Test</th><th>Normal Range</th><th>↑ High Indicates</th><th>↓ Low Indicates</th></tr>
+<tr><td><strong>WBC</strong></td><td><span class="normal">4.5-11.0 ×10³/µL</span></td><td class="high">Infection, inflammation, leukemia, stress</td><td class="low">Bone marrow suppression, viral infection, autoimmune</td></tr>
+<tr><td><strong>RBC</strong></td><td><span class="normal">M: 4.7-6.1 | F: 4.2-5.4 ×10⁶/µL</span></td><td class="high">Polycythemia, dehydration, COPD, high altitude</td><td class="low">Anemia, blood loss, hemolysis, bone marrow failure</td></tr>
+<tr><td><strong>Hemoglobin (Hgb)</strong></td><td><span class="normal">M: 13.5-17.5 | F: 12.0-15.5 g/dL</span></td><td class="high">Polycythemia, dehydration, smoking</td><td class="low">Anemia (iron, B12, folate, sickle cell), blood loss</td></tr>
+<tr><td><strong>Hematocrit (Hct)</strong></td><td><span class="normal">M: 41-53% | F: 36-46%</span></td><td class="high">Polycythemia, dehydration</td><td class="low">Anemia, overhydration, blood loss</td></tr>
+<tr><td><strong>Platelets</strong></td><td><span class="normal">150-450 ×10³/µL</span></td><td class="high">Thrombocytosis, infection, iron deficiency, post-splenectomy</td><td class="low">Thrombocytopenia, ITP, DIC, chemotherapy, cirrhosis</td></tr>
+<tr><td><strong>Neutrophils</strong></td><td><span class="normal">40-60% (2.0-8.0 ×10³/µL)</span></td><td class="high">Bacterial infection, inflammation, stress, steroid use</td><td class="low">Viral infection, chemotherapy, bone marrow failure</td></tr>
+<tr><td><strong>Lymphocytes</strong></td><td><span class="normal">20-40% (1.0-4.0 ×10³/µL)</span></td><td class="high">Viral infection (CMV, EBV), CLL, pertussis</td><td class="low">Immunosuppression, HIV, steroid use, autoimmune</td></tr>
+</table>
+
+<h2>🔬 CMP (Comprehensive Metabolic Panel)</h2>
+<table>
+<tr><th>Test</th><th>Normal Range</th><th>↑ High Indicates</th><th>↓ Low Indicates</th></tr>
+<tr><td><strong>Sodium (Na)</strong></td><td><span class="normal">136-145 mEq/L</span></td><td class="high">Hypernatremia — dehydration, Cushing's, DI</td><td class="low">Hyponatremia — SIADH, HF, cirrhosis, vomiting, diuretics</td></tr>
+<tr><td><strong>Potassium (K)</strong></td><td><span class="normal">3.5-5.0 mEq/L</span></td><td class="high">Hyperkalemia — renal failure, ACEi, K+ sparing diuretics, acidosis</td><td class="low">Hypokalemia — diuretics, vomiting, diarrhea, insulin, aldosteronism</td></tr>
+<tr><td><strong>Chloride (Cl)</strong></td><td><span class="normal">98-106 mEq/L</span></td><td class="high">Hyperchloremia — dehydration, renal failure, DKA</td><td class="low">Hypochloremia — vomiting, NG suction, diuretics, metabolic alkalosis</td></tr>
+<tr><td><strong>CO₂ (Bicarb)</strong></td><td><span class="normal">23-30 mEq/L</span></td><td class="high">Metabolic alkalosis — vomiting, diuretics, steroids</td><td class="low">Metabolic acidosis — DKA, renal failure, diarrhea, lactic acidosis</td></tr>
+<tr><td><strong>BUN</strong></td><td><span class="normal">7-20 mg/dL</span></td><td class="high">Renal failure, dehydration, high protein diet, GI bleed, HF</td><td class="low">Liver failure, malnutrition, overhydration, pregnancy</td></tr>
+<tr><td><strong>Creatinine (Cr)</strong></td><td><span class="normal">0.6-1.2 mg/dL</span></td><td class="high">Renal impairment, dehydration, rhabdomyolysis, contrast nephropathy</td><td class="low">Low muscle mass, advanced age, pregnancy</td></tr>
+<tr><td><strong>Glucose</strong></td><td><span class="normal">70-100 mg/dL (fasting)</span></td><td class="high">Diabetes, stress, Cushing's, steroid use, pancreatitis</td><td class="low">Hypoglycemia — insulin overdose, liver failure, sepsis, insulinoma</td></tr>
+<tr><td><strong>Calcium (Ca)</strong></td><td><span class="normal">8.5-10.5 mg/dL</span></td><td class="high">Hyperparathyroidism, malignancy, immobility, thiazides</td><td class="low">Hypoparathyroidism, renal failure, pancreatitis, vit D deficiency</td></tr>
+<tr><td><strong>Albumin</strong></td><td><span class="normal">3.5-5.0 g/dL</span></td><td class="high">Dehydration</td><td class="low">Liver disease, malnutrition, nephrotic syndrome, burns, inflammation</td></tr>
+</table>
+
+<h2>⚖️ Coagulation</h2>
+<table>
+<tr><th>Test</th><th>Normal Range</th><th>↑ High Indicates</th><th>↓ Low Indicates</th></tr>
+<tr><td><strong>PT</strong></td><td><span class="normal">11-13.5 sec</span></td><td class="high">Warfarin therapy, liver disease, vit K deficiency, DIC</td><td class="low">Vit K supplementation, thrombotic state</td></tr>
+<tr><td><strong>INR</strong></td><td><span class="normal">0.9-1.1</span></td><td class="high">Warfarin therapy (goal 2-3, mechanical valves 2.5-3.5), liver disease</td><td class="low">Thrombotic state</td></tr>
+<tr><td><strong>aPTT</strong></td><td><span class="normal">25-35 sec</span></td><td class="high">Heparin therapy, hemophilia, von Willebrand, DIC, liver disease</td><td class="low">Early DIC, malignancy</td></tr>
+<tr><td><strong>Fibrinogen</strong></td><td><span class="normal">200-400 mg/dL</span></td><td class="high">Inflammation (acute phase reactant), pregnancy</td><td class="low">DIC, liver disease, fibrinolysis</td></tr>
+</table>
+
+<h2>🫁 ABG (Arterial Blood Gas)</h2>
+<table>
+<tr><th>Test</th><th>Normal Range</th><th>Meaning</th></tr>
+<tr><td><strong>pH</strong></td><td><span class="normal">7.35-7.45</span></td><td>&lt;7.35 = acidosis | &gt;7.45 = alkalosis</td></tr>
+<tr><td><strong>PaCO₂</strong></td><td><span class="normal">35-45 mmHg</span></td><td>&gt;45 = respiratory acidosis (hypoventilation) | &lt;35 = respiratory alkalosis (hyperventilation)</td></tr>
+<tr><td><strong>PaO₂</strong></td><td><span class="normal">80-100 mmHg</span></td><td>&lt;80 = hypoxemia | &lt;60 = severe hypoxemia</td></tr>
+<tr><td><strong>HCO₃</strong></td><td><span class="normal">22-26 mEq/L</span></td><td>&lt;22 = metabolic acidosis | &gt;26 = metabolic alkalosis</td></tr>
+<tr><td><strong>O₂ Sat</strong></td><td><span class="normal">95-100%</span></td><td>&lt;90% = hypoxemia, needs supplemental O₂</td></tr>
+<tr><td><strong>Base Excess</strong></td><td><span class="normal">−2 to +2 mEq/L</span></td><td>&lt;−2 = metabolic acidosis | &gt;+2 = metabolic alkalosis</td></tr>
+</table>
+<p class="section-intro"><strong>ABG Interpretation: ROME</strong> — Respiratory Opposite: pH ↑ = PaCO₂ ↓ (alkalosis), pH ↓ = PaCO₂ ↑ (acidosis). Metabolic Equal: pH ↑ = HCO₃ ↑ (alkalosis), pH ↓ = HCO₃ ↓ (acidosis).</p>
+
+<h2>❤️ Cardiac Markers</h2>
+<table>
+<tr><th>Test</th><th>Normal Range</th><th>↑ High Indicates</th></tr>
+<tr><td><strong>Troponin I</strong></td><td><span class="normal">&lt;0.04 ng/mL</span></td><td class="high">MI (gold standard — rises 4-6h, peaks 12-24h, lasts 7-14d), myocarditis, PE, renal failure</td></tr>
+<tr><td><strong>Troponin T</strong></td><td><span class="normal">&lt;0.01 ng/mL</span></td><td class="high">MI (similar kinetics to troponin I), chronic kidney disease can cause mild elevation</td></tr>
+<tr><td><strong>CK-MB</strong></td><td><span class="normal">0-3 ng/mL</span></td><td class="high">MI (rises 3-4h, peaks 12-24h, normalizes 48-72h), myocarditis, cardiac surgery</td></tr>
+<tr><td><strong>BNP</strong></td><td><span class="normal">&lt;100 pg/mL</span></td><td class="high">Heart failure (↑ with severity), pulmonary HTN, cor pulmonale, renal failure</td></tr>
+</table>
+
+<h2>🧬 Liver Function</h2>
+<table>
+<tr><th>Test</th><th>Normal Range</th><th>↑ High Indicates</th></tr>
+<tr><td><strong>AST</strong></td><td><span class="normal">10-40 U/L</span></td><td class="high">Liver injury, hepatitis, alcohol use (AST:ALT &gt;2:1 in alcoholic hepatitis), MI, muscle injury</td></tr>
+<tr><td><strong>ALT</strong></td><td><span class="normal">7-56 U/L</span></td><td class="high">Liver injury (more specific than AST), viral hepatitis, NAFLD, drug-induced liver injury</td></tr>
+<tr><td><strong>ALP</strong></td><td><span class="normal">44-147 U/L</span></td><td class="high">Biliary obstruction, cholestasis, bone disease (Paget's), liver mets</td></tr>
+<tr><td><strong>Total Bilirubin</strong></td><td><span class="normal">0.1-1.2 mg/dL</span></td><td class="high">Jaundice — pre-hepatic (hemolysis), hepatic (hepatitis, cirrhosis), post-hepatic (obstruction)</td></tr>
+<tr><td><strong>Direct Bilirubin</strong></td><td><span class="normal">0-0.3 mg/dL</span></td><td class="high">Obstructive jaundice (gallstones, tumor), drug-induced cholestasis</td></tr>
+<tr><td><strong>GGT</strong></td><td><span class="normal">8-61 U/L</span></td><td class="high">Alcohol use (very sensitive), biliary disease, drug-induced liver injury. Confirms elevated ALP is hepatic (not bone).</td></tr>
+</table>
+
+<h2>🦴 Thyroid</h2>
+<table>
+<tr><th>Test</th><th>Normal Range</th><th>↑ High Indicates</th><th>↓ Low Indicates</th></tr>
+<tr><td><strong>TSH</strong></td><td><span class="normal">0.4-4.0 mIU/L</span></td><td class="high">Primary hypothyroidism (best screening test)</td><td class="low">Hyperthyroidism, central hypothyroidism, steroid use</td></tr>
+<tr><td><strong>Free T4</strong></td><td><span class="normal">0.8-1.8 ng/dL</span></td><td class="high">Hyperthyroidism</td><td class="low">Hypothyroidism</td></tr>
+<tr><td><strong>Free T3</strong></td><td><span class="normal">2.3-4.2 pg/mL</span></td><td class="high">T3 thyrotoxicosis, Graves' disease</td><td class="low">Hypothyroidism, sick euthyroid syndrome</td></tr>
+</table>
+
+<h2>🦠 Microbiology Quick Reference</h2>
+<table>
+<tr><th>Test</th><th>Normal</th><th>Abnormal</th></tr>
+<tr><td><strong>UA: Leukocyte Esterase</strong></td><td>Negative</td><td class="high">Positive = pyuria, suggests UTI (but can be false positive with vaginal contamination)</td></tr>
+<tr><td><strong>UA: Nitrites</strong></td><td>Negative</td><td class="high">Positive = Enterobacteriaceae (E. coli, Klebsiella) — specific for bacterial UTI</td></tr>
+<tr><td><strong>UA: WBCs</strong></td><td>0-5/HPF</td><td class="high">&gt;5 = pyuria (UTI, STI, interstitial nephritis)</td></tr>
+<tr><td><strong>UA: RBCs</strong></td><td>0-3/HPF</td><td class="high">Hematuria — infection, stone, trauma, malignancy, glomerulonephritis</td></tr>
+<tr><td><strong>UA: Bacteria</strong></td><td>None</td><td class="high">Present = bacteriuria (with symptoms = UTI, without = asymptomatic)</td></tr>
+<tr><td><strong>UA: Protein</strong></td><td>Negative</td><td class="high">Proteinuria — glomerular disease, preeclampsia, DM, HTN, kidney disease</td></tr>
+<tr><td><strong>CSF: WBCs</strong></td><td>0-5 cells/µL</td><td class="high">Meningitis (viral = ↑ lymphocytes, bacterial = ↑ neutrophils)</td></tr>
+<tr><td><strong>CSF: Glucose</strong></td><td>50-80 mg/dL (60-80% serum)</td><td class="low">&lt;40 = bacterial meningitis, fungal meningitis</td></tr>
+<tr><td><strong>CSF: Protein</strong></td><td>15-45 mg/dL</td><td class="high">Meningitis, MS, Guillain-Barre, infection</td></tr>
+</table>
+
+<p style="text-align:center;color:var(--text-dim);font-size:11px;margin-top:40px;padding-top:20px;border-top:1px solid var(--border);">Lab Values Quick Reference • Normal Ranges May Vary by Lab • Always Verify With Your Facility's Reference Range</p>
+</body>
+</html>

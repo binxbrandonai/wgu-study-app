@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADHD Nursing Bundle - Study Tools for Nursing Students with ADHD</title>
+<style>
+:root { --bg: #050810; --bg2: #0b0f1c; --teal: #00e5cc; --amber: #f5b731; --purple: #a78bfa; --rose: #f43f5e; --text: #e2e8f5; --text-dim: #5a6a8a; --border: rgba(255,255,255,0.055); }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, sans-serif; line-height: 1.8; padding: 40px; max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 32px; font-weight: 900; background: linear-gradient(135deg, var(--teal), var(--purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px; }
+h2 { font-size: 22px; font-weight: 800; color: var(--teal); margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+h3 { font-size: 18px; font-weight: 700; color: var(--text); margin: 24px 0 12px; }
+h4 { font-size: 15px; font-weight: 700; color: var(--amber); margin: 16px 0 8px; }
+p { margin-bottom: 12px; }
+strong { color: var(--amber); font-weight: 700; }
+ul, ol { padding-left: 24px; margin-bottom: 16px; }
+li { margin-bottom: 6px; }
+hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+.header { text-align: center; margin-bottom: 40px; padding-bottom: 24px; border-bottom: 2px solid var(--border); }
+.header .subtitle { font-size: 14px; color: var(--text-dim); margin-top: 4px; }
+.header .badge { display: inline-block; background: rgba(245,183,49,0.12); color: var(--amber); padding: 4px 12px; border-radius: 20px; font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; margin-top: 8px; border: 1px solid rgba(245,183,49,0.3); }
+.img-card { margin: 20px 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,229,204,0.3); background: var(--bg2); }
+.img-card img { width: 100%; display: block; }
+.img-card .caption { padding: 8px 14px; font-size: 12px; color: var(--text-dim); background: var(--bg2); border-top: 1px solid var(--border); }
+.section-intro { color: var(--text-dim); font-size: 15px; margin: 8px 0 16px; padding: 12px 16px; background: var(--bg2); border-radius: 8px; border-left: 3px solid var(--amber); }
+.card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 20px; margin: 16px 0; }
+.card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 16px 0; }
+.template-box { background: var(--bg3); border: 1px dashed var(--amber); border-radius: 8px; padding: 20px; margin: 16px 0; }
+.template-box h4 { color: var(--amber); }
+.priority-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; margin: 16px 0; }
+.priority-cell { padding: 16px; border-radius: 0; min-height: 120px; }
+.priority-cell.p1 { background: rgba(244,63,94,0.15); border: 1px solid rgba(244,63,94,0.3); }
+.priority-cell.p2 { background: rgba(245,183,49,0.15); border: 1px solid rgba(245,183,49,0.3); }
+.priority-cell.p3 { background: rgba(59,130,246,0.15); border: 1px solid rgba(59,130,246,0.3); }
+.priority-cell.p4 { background: rgba(100,116,139,0.15); border: 1px solid rgba(100,116,139,0.3); }
+.priority-cell .label { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; font-weight: 800; margin-bottom: 8px; }
+.priority-cell.p1 .label { color: var(--rose); }
+.priority-cell.p2 .label { color: var(--amber); }
+.priority-cell.p3 .label { color: var(--blue); }
+.priority-cell.p4 .label { color: var(--text-dim); }
+.checklist-item { display: flex; align-items: flex-start; gap: 10px; padding: 6px 0; }
+.checkbox { width: 18px; height: 18px; border: 2px solid var(--text-dim); border-radius: 3px; flex-shrink: 0; margin-top: 3px; }
+.planner-day { background: var(--bg3); border-radius: 8px; padding: 12px; margin: 8px 0; }
+.time-slot { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 14px; }
+.time-slot .time { color: var(--teal); font-weight: 700; min-width: 60px; }
+.empty-line { border-bottom: 1px dashed var(--border); min-height: 24px; margin: 6px 0; }
+@media print { body { background: #fff; color: #000; } .header .badge { border-color: #ccc; color: #333; } .card, .template-box { border-color: #ddd; } }
+@media (max-width: 768px) { .card-grid { grid-template-columns: 1fr; } .priority-grid { grid-template-columns: 1fr; } body { padding: 20px; } }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🧠 ADHD Nursing Bundle</h1>
+  <div class="subtitle">Study Tools, Planners & Clinical Brain Sheets Designed for Nursing Students with ADHD</div>
+  <div class="badge">Created by an FNP Student with ADHD • Clinical Rotation Tested</div>
+</div>
+
+<p><strong>ADHD-Friendly Design Principles Used in This Guide:</strong></p>
+<ul>
+<li>✅ <strong>Low-distraction layout</strong> — clean sections, minimal visual noise</li>
+<li>✅ <strong>High-contrast color coding</strong> — amber highlights for key info, teal for section breaks</li>
+<li>✅ <strong>Clear hierarchy</strong> — you always know where you are in the document</li>
+<li>✅ <strong>Printable and usable</strong> — write on these pages, check things off, make them yours</li>
+<li>✅ <strong>Imperfect action > perfect inaction</strong> — done is better than perfect</li>
+</ul>
+<hr />
+
+<h2>📋 Study Strategies for the ADHD Brain</h2>
+<p class="section-intro">Your brain works differently — work with it, not against it. These strategies are clinically proven and ADHD-specific.</p>
+
+<div class="card-grid">
+<div class="card">
+<h4>⚡ Hyperfocus Leverage</h4>
+<p>When you're locked in, stay there. Don't break focus for a 'scheduled break' if you're in the zone. Ride the wave.</p>
+<p><strong>Tip:</strong> Keep water + snacks nearby so you don't have to get up.</p>
+</div>
+<div class="card">
+<h4>🎯 5-Minute Rule</h4>
+<p>Tell yourself you'll study for just 5 minutes. That's it. Usually you'll keep going. The hardest part is starting.</p>
+<p><strong>Tip:</strong> Set a 5-min timer. When it goes off, decide if you keep going.</p>
+</div>
+<div class="card">
+<h4>🔊 Dual Coding</h4>
+<p>Read it + say it out loud + draw it. Engaging multiple senses makes information stick for ADHD brains.</p>
+<p><strong>Tip:</strong> Use a whiteboard or scrap paper to sketch concepts while you read.</p>
+</div>
+<div class="card">
+<h4>🏆 Reward Stacking</h4>
+<p>Finish a section → get a reward (snack, scroll, walk). Don't reward before the work is done.</p>
+<p><strong>Tip:</strong> Keep rewards small and immediate. Dopamine now, not "later."</p>
+</div>
+</div>
+<hr />
+
+<h2>⏱️ Pomodoro Templates</h2>
+<p class="section-intro">The classic Pomodoro Technique adapted for ADHD brains. The key difference: <strong>short sprints, clear goals, and zero guilt about breaks.</strong></p>
+
+<h3>Standard Pomodoro (Tried and True)</h3>
+<div class="template-box">
+<h4>☕ Session Timer</h4>
+<div class="empty-line" style="margin-bottom:12px"></div>
+<div class="checklist-item"><div class="checkbox"></div><span>Session goal: <span class="empty-line" style="display:inline-block;min-width:200px"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>⏱️ 25 min FOCUS — <span class="empty-line" style="display:inline-block;min-width:150px"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>✅ 5 min BREAK — stand up, stretch, hydrate</span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>⏱️ 25 min FOCUS — <span class="empty-line" style="display:inline-block;min-width:150px"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>✅ 5 min BREAK</span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>⏱️ 25 min FOCUS — <span class="empty-line" style="display:inline-block;min-width:150px"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>✅ 5 min BREAK</span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>⏱️ 25 min FOCUS — <span class="empty-line" style="display:inline-block;min-width:150px"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>🎉 15-30 min LONG BREAK — you earned it</span></div>
+</div>
+
+<h3>ADHD Sprint (Short Attention Span Mode)</h3>
+<div class="template-box">
+<h4>⚡ Sprint Timer</h4>
+<div class="empty-line" style="margin-bottom:12px"></div>
+<div class="checklist-item"><div class="checkbox"></div><span>Goal for this sprint: <span class="empty-line" style="display:inline-block;min-width:200px"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>⏱️ 10 min SPRINT — go hard, no distractions</span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>✅ 3 min BREAK — literally just breathe</span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>⏱️ 10 min SPRINT — finish the thing</span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>🎉 Done. Reward: <span class="empty-line" style="display:inline-block;min-width:150px"></span></span></div>
+</div>
+<hr />
+
+<h2>🎯 Priority Matrix (Eisenhower for Clinicals)</h2>
+<p class="section-intro">Used by executive function coaches. Helps you decide <strong>what actually matters right now</strong> versus what feels urgent but isn't.</p>
+
+<div class="priority-grid">
+<div class="priority-cell p1">
+<div class="label">🔴 URGENT & IMPORTANT</div>
+<p><strong>Do first</strong></p>
+<p style="font-size:13px;color:var(--text-dim);">• Clinical tomorrow - prep patient assignments<br>• Skills check-off this week<br>• Exam in &lt;48 hours<br>• Med pass with instructor</p>
+</div>
+<div class="priority-cell p2">
+<div class="label">🟡 IMPORTANT • NOT URGENT</div>
+<p><strong>Schedule now</strong></p>
+<p style="font-size:13px;color:var(--text-dim);">• Reading assignments<br>• Care plan drafts<br>• NCLEX practice questions<br>• Review上周 lectures</p>
+</div>
+<div class="priority-cell p3">
+<div class="label">🔵 URGENT • NOT IMPORTANT</div>
+<p><strong>Delegate or batch</strong></p>
+<p style="font-size:13px;color:var(--text-dim);">• Non-clinical paperwork<br>• Group project logistics<br>• Emails about scheduling<br>• Uniform/equipment shopping</p>
+</div>
+<div class="priority-cell p4">
+<div class="label">⚪ NOT URGENT • NOT IMPORTANT</div>
+<p><strong>Eliminate</strong></p>
+<p style="font-size:13px;color:var(--text-dim);">• Social media doomscroll<br>• Perfect note-taking<br>• Comparing to other students<br>• "I'll do it later" list</p>
+</div>
+</div>
+
+<h3>Your Weekly Priorities</h3>
+<div class="template-box">
+<div class="checklist-item"><div class="checkbox"></div><span>🔴 MUST DO TODAY: <span class="empty-line" style="display:inline-block;min-width:250px"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>🟡 SCHEDULE THIS WEEK: <span class="empty-line" style="display:inline-block;min-width:220px"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>🔵 BATCH/DELEGATE: <span class="empty-line" style="display:inline-block;min-width:230px"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>⚪ ELIMINATE: <span class="empty-line" style="display:inline-block;min-width:250px"></span></span></div>
+</div>
+<hr />
+
+<h2>🧬 Clinical Brain Sheet (ADHD-Adapted)</h2>
+<p class="section-intro">Simplified for quick scanning. High-visibility color coding. Room to write, not overwhelm.</p>
+
+<div class="card">
+<h4>Patient #1</h4>
+<p><strong>Room:</strong> <span class="empty-line" style="display:inline-block;min-width:60px"></span> &nbsp;| <strong>Name:</strong> <span class="empty-line" style="display:inline-block;min-width:150px"></span> &nbsp;| <strong>Age:</strong> <span class="empty-line" style="display:inline-block;min-width:40px"></span></p>
+<p><strong>DX:</strong> <span class="empty-line" style="display:inline-block;min-width:250px"></span></p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0;">
+<div><strong>🩸 VS:</strong><br> HR <span class="empty-line" style="display:inline-block;min-width:40px"></span> RR <span class="empty-line" style="display:inline-block;min-width:40px"></span><br> BP <span class="empty-line" style="display:inline-block;min-width:60px"></span> O2 <span class="empty-line" style="display:inline-block;min-width:40px"></span><br> Temp <span class="empty-line" style="display:inline-block;min-width:60px"></span></div>
+<div><strong>🧪 KEY LABS:</strong><br> WBC <span class="empty-line" style="display:inline-block;min-width:60px"></span> Hgb <span class="empty-line" style="display:inline-block;min-width:60px"></span><br> Na <span class="empty-line" style="display:inline-block;min-width:50px"></span> K <span class="empty-line" style="display:inline-block;min-width:50px"></span> Cr <span class="empty-line" style="display:inline-block;min-width:50px"></span></div>
+</div>
+<p><strong>💊 MEDS:</strong> <span class="empty-line" style="display:inline-block;min-width:80%"></span></p>
+<p><strong>⚠️ TODOS:</strong> <span class="empty-line" style="display:inline-block;min-width:80%"></span></p>
+<p><strong>🔑 SBAR HANDOFF:</strong> <span class="empty-line" style="display:inline-block;min-width:80%"></span></p>
+</div>
+
+<div class="card" style="margin-top:12px;">
+<h4>Patient #2</h4>
+<p><strong>Room:</strong> <span class="empty-line" style="display:inline-block;min-width:60px"></span> &nbsp;| <strong>Name:</strong> <span class="empty-line" style="display:inline-block;min-width:150px"></span> &nbsp;| <strong>Age:</strong> <span class="empty-line" style="display:inline-block;min-width:40px"></span></p>
+<p><strong>DX:</strong> <span class="empty-line" style="display:inline-block;min-width:250px"></span></p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0;">
+<div><strong>🩸 VS:</strong><br> HR <span class="empty-line" style="display:inline-block;min-width:40px"></span> RR <span class="empty-line" style="display:inline-block;min-width:40px"></span><br> BP <span class="empty-line" style="display:inline-block;min-width:60px"></span> O2 <span class="empty-line" style="display:inline-block;min-width:40px"></span><br> Temp <span class="empty-line" style="display:inline-block;min-width:60px"></span></div>
+<div><strong>🧪 KEY LABS:</strong><br> WBC <span class="empty-line" style="display:inline-block;min-width:60px"></span> Hgb <span class="empty-line" style="display:inline-block;min-width:60px"></span><br> Na <span class="empty-line" style="display:inline-block;min-width:50px"></span> K <span class="empty-line" style="display:inline-block;min-width:50px"></span> Cr <span class="empty-line" style="display:inline-block;min-width:50px"></span></div>
+</div>
+<p><strong>💊 MEDS:</strong> <span class="empty-line" style="display:inline-block;min-width:80%"></span></p>
+<p><strong>⚠️ TODOS:</strong> <span class="empty-line" style="display:inline-block;min-width:80%"></span></p>
+<p><strong>🔑 SBAR HANDOFF:</strong> <span class="empty-line" style="display:inline-block;min-width:80%"></span></p>
+</div>
+<hr />
+
+<h2>💊 Med Study Cards Template</h2>
+<p class="section-intro">Printable drug card template. Copy this page and fill out for each drug class you need to master.</p>
+
+<div class="card-grid">
+<div class="card">
+<h4>Drug: <span class="empty-line" style="display:inline-block;min-width:120px"></span></h4>
+<p><strong>Class:</strong> <span class="empty-line" style="display:inline-block;min-width:150px"></span></p>
+<p><strong>Mechanism:</strong> <span class="empty-line" style="display:inline-block;min-width:70%"></span></p>
+<p><strong>Indications:</strong> <span class="empty-line" style="display:inline-block;min-width:70%"></span></p>
+<p><strong>⬆️ Dosing:</strong> <span class="empty-line" style="display:inline-block;min-width:70%"></span></p>
+<div class="checklist-item"><div class="checkbox"></div><span>Side effects: <span class="empty-line" style="display:inline-block;min-width:60%"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>Nursing considerations: <span class="empty-line" style="display:inline-block;min-width:55%"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>⚠️ Black box: <span class="empty-line" style="display:inline-block;min-width:65%"></span></span></div>
+</div>
+<div class="card">
+<h4>Drug: <span class="empty-line" style="display:inline-block;min-width:120px"></span></h4>
+<p><strong>Class:</strong> <span class="empty-line" style="display:inline-block;min-width:150px"></span></p>
+<p><strong>Mechanism:</strong> <span class="empty-line" style="display:inline-block;min-width:70%"></span></p>
+<p><strong>Indications:</strong> <span class="empty-line" style="display:inline-block;min-width:70%"></span></p>
+<p><strong>⬆️ Dosing:</strong> <span class="empty-line" style="display:inline-block;min-width:70%"></span></p>
+<div class="checklist-item"><div class="checkbox"></div><span>Side effects: <span class="empty-line" style="display:inline-block;min-width:60%"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>Nursing considerations: <span class="empty-line" style="display:inline-block;min-width:55%"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>⚠️ Black box: <span class="empty-line" style="display:inline-block;min-width:65%"></span></span></div>
+</div>
+</div>
+<hr />
+
+<h2>📅 Daily Clinical Planner</h2>
+<p class="section-intro">One page per clinical day. Print multiple copies — one for each shift.</p>
+
+<div class="template-box">
+<h3>Date: <span class="empty-line" style="display:inline-block;min-width:200px"></span></h3>
+<div class="checklist-item"><div class="checkbox"></div><span>Unit/Floor: <span class="empty-line" style="display:inline-block;min-width:200px"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>Preceptor: <span class="empty-line" style="display:inline-block;min-width:200px"></span></span></div>
+<div class="time-slot"><span class="time">0700</span> Report received — key things: <span class="empty-line" style="display:inline-block;min-width:50%"></span></div>
+<div class="time-slot"><span class="time">0800</span> Assessments: <span class="empty-line" style="display:inline-block;min-width:60%"></span></div>
+<div class="time-slot"><span class="time">0900</span> Med pass: <span class="empty-line" style="display:inline-block;min-width:60%"></span></div>
+<div class="time-slot"><span class="time">1000</span> Tasks: <span class="empty-line" style="display:inline-block;min-width:65%"></span></div>
+<div class="time-slot"><span class="time">1100</span> <span class="empty-line" style="display:inline-block;min-width:70%"></span></div>
+<div class="time-slot"><span class="time">1200</span> <span class="empty-line" style="display:inline-block;min-width:70%"></span></div>
+<div class="time-slot"><span class="time">1300</span> <span class="empty-line" style="display:inline-block;min-width:70%"></span></div>
+<div class="time-slot"><span class="time">1400</span> <span class="empty-line" style="display:inline-block;min-width:70%"></span></div>
+<div class="time-slot"><span class="time">1500</span> <span class="empty-line" style="display:inline-block;min-width:70%"></span></div>
+<div class="checklist-item" style="margin-top:12px;"><div class="checkbox"></div><span>💡 Learning point today: <span class="empty-line" style="display:inline-block;min-width:50%"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span>⭐ One thing I'll do better next time: <span class="empty-line" style="display:inline-block;min-width:40%"></span></span></div>
+</div>
+<hr />
+
+<h2>📆 Weekly Study Planner</h2>
+
+<div class="card">
+<div class="template-box">
+<div class="checklist-item"><div class="checkbox"></div><span><strong>Monday:</strong> <span class="empty-line" style="display:inline-block;min-width:70%"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span><strong>Tuesday:</strong> <span class="empty-line" style="display:inline-block;min-width:70%"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span><strong>Wednesday:</strong> <span class="empty-line" style="display:inline-block;min-width:70%"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span><strong>Thursday:</strong> <span class="empty-line" style="display:inline-block;min-width:70%"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span><strong>Friday:</strong> <span class="empty-line" style="display:inline-block;min-width:70%"></span></span></div>
+<div class="checklist-item"><div class="checkbox"></div><span><strong>Weekend focus:</strong> <span class="empty-line" style="display:inline-block;min-width:65%"></span></span></div>
+</div>
+<p style="margin-top:12px;"><strong>🎯 Weekly goal:</strong> <span class="empty-line" style="display:inline-block;min-width:70%"></span></p>
+<p><strong>🏆 Reward for completing goal:</strong> <span class="empty-line" style="display:inline-block;min-width:50%"></span></p>
+</div>
+<hr />
+
+<h2>📚 Resource List</h2>
+<p class="section-intro">Quick-access links for ADHD-friendly nursing study resources.</p>
+
+<div class="card-grid">
+<div class="card">
+<h4>📱 Apps</h4>
+<p><strong>Forest</strong> — stay off phone during study sprints<br>
+<strong>Anki</strong> — spaced repetition for nursing content<br>
+<strong>Notion</strong> — all-in-one study organization<br>
+<strong>Endel</strong> — focus audio for ADHD brains<br>
+<strong>Todoist</strong> — simple task management</p>
+</div>
+<div class="card">
+<h4>📖 Books</h4>
+<p><strong>Taking Charge of Adult ADHD</strong> — Russell Barkley<br>
+<strong>Driven to Distraction</strong> — Hallowell & Ratey<br>
+<strong>Saunders NCLEX Review</strong> — best question format<br>
+<strong>Leik FNP Review</strong> — concise, board-focused</p>
+</div>
+<div class="card">
+<h4>🎧 Podcasts</h4>
+<p><strong>Straight A Nursing</strong> — study tips for nursing students<br>
+<strong>The ADHD Podcast</strong> — executive function strategies<br>
+<strong>NRSNG Podcast</strong> — nursing school survival<br>
+<strong>How to ADHD</strong> — evidence-based ADHD strategies</p>
+</div>
+<div class="card">
+<h4>🛠️ Study Tools</h4>
+<p><strong>Pomodoro timer</strong> — any simple timer app<br>
+<strong>Noise-cancelling headphones</strong> — game changer<br>
+<strong>Whiteboard + markers</strong> — sketch concepts<br>
+<strong>Body doubling</strong> — study with a friend (even virtual)</p>
+</div>
+</div>
+<hr />
+
+<p style="text-align:center;color:var(--text-dim);font-style:italic;padding:40px 0;">
+"You are not a broken neurotypical. You have an ADHD brain — and when you learn how it works, it's a superpower."<br>
+<strong style="color:var(--teal);">— made for nursing students who think differently 🧠⚡</strong>
+</p>
+
+</body>
+</html>

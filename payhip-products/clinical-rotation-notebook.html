@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clinical Rotation Notebook - Daily Planner & Patient Log</title>
+<style>
+:root { --bg: #050810; --bg2: #0b0f1c; --teal: #00e5cc; --amber: #f5b731; --purple: #a78bfa; --rose: #f43f5e; --blue: #3b82f6; --text: #e2e8f5; --text-dim: #5a6a8a; --border: rgba(255,255,255,0.055); }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, sans-serif; line-height: 1.6; padding: 40px; max-width: 900px; margin: 0 auto; }
+h1 { font-size: 32px; font-weight: 900; text-align: center; background: linear-gradient(135deg, var(--teal), var(--purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 4px; }
+h2 { font-size: 20px; font-weight: 800; color: var(--teal); margin: 28px 0 14px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+h3 { font-size: 16px; font-weight: 700; color: var(--text); margin: 20px 0 10px; }
+h4 { font-size: 14px; font-weight: 700; color: var(--amber); margin: 16px 0 8px; }
+p { margin-bottom: 10px; }
+strong { color: var(--amber); }
+ul, ol { padding-left: 24px; margin-bottom: 14px; }
+li { margin-bottom: 4px; }
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+.header { text-align: center; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid var(--border); }
+.header .subtitle { font-size: 13px; color: var(--text-dim); margin-top: 4px; }
+.header .badge { display: inline-block; background: rgba(167,139,250,0.12); color: var(--purple); padding: 4px 10px; border-radius: 20px; font-size: 10px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; margin-top: 6px; border: 1px solid rgba(167,139,250,0.3); }
+.section-intro { color: var(--text-dim); font-size: 14px; margin: 8px 0 16px; padding: 10px 14px; background: var(--bg2); border-radius: 8px; border-left: 3px solid var(--purple); }
+.card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin: 14px 0; }
+.patient-log { background: var(--bg3); border-radius: 8px; padding: 14px; margin: 10px 0; border-left: 3px solid var(--teal); }
+.patient-log .name { font-size: 14px; font-weight: 700; color: var(--teal); }
+.form-line { display: flex; align-items: center; gap: 8px; padding: 4px 0; min-height: 28px; }
+.form-line .label { color: var(--text-dim); font-weight: 600; min-width: 80px; font-size: 13px; }
+.form-line .fill { border-bottom: 1px dashed var(--border); flex: 1; min-height: 20px; }
+.assessment-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin: 10px 0; }
+.assessment-item { background: var(--bg3); border-radius: 6px; padding: 8px; text-align: center; font-size: 12px; }
+.assessment-item .val { font-size: 16px; font-weight: 800; color: var(--teal); }
+.assessment-item .lbl { color: var(--text-dim); font-size: 10px; text-transform: uppercase; margin-top: 2px; }
+.check-item { display: flex; align-items: flex-start; gap: 8px; padding: 3px 0; font-size: 13px; }
+.check-item .box { width: 16px; height: 16px; border: 2px solid var(--text-dim); border-radius: 3px; flex-shrink: 0; margin-top: 2px; }
+.procedures { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 10px 0; }
+.proc-item { display: flex; align-items: center; gap: 8px; padding: 6px 10px; background: var(--bg3); border-radius: 6px; font-size: 12px; }
+.proc-item .box { width: 14px; height: 14px; border: 2px solid var(--text-dim); border-radius: 3px; flex-shrink: 0; }
+.reflection-box { background: var(--bg2); border: 1px dashed var(--amber); border-radius: 8px; padding: 14px; margin: 12px 0; min-height: 80px; }
+.reflection-box .q { font-size: 12px; color: var(--amber); font-weight: 600; }
+.empty-line { border-bottom: 1px dashed var(--border); min-height: 22px; margin: 4px 0; }
+@media print { body { background: #fff; color: #000; } .patient-log { border-left-color: #005566; } .patient-log .name { color: #005566; } .check-item .box, .proc-item .box { border-color: #999; } }
+@media (max-width: 768px) { body { padding: 16px; } .assessment-grid { grid-template-columns: 1fr 1fr; } .procedures { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="header">
+<h1>📋 Clinical Rotation Notebook</h1>
+<div class="subtitle">Daily Patient Logs • Assessments • Procedures • Reflections</div>
+<div class="badge">FNP Student • Clinical Rotations • Nurse Practitioner Track</div>
+</div>
+
+<p style="text-align:center;color:var(--text-dim);font-size:13px;">Track every clinical day. Write down every patient. Log every procedure. <strong>You'll need these numbers for credentialing.</strong></p>
+<hr />
+
+<h2>📌 Using This Notebook</h2>
+<p class="section-intro">Print one patient log per patient encounter, one daily summary per clinical day. At the end of each rotation, tally your numbers for your clinical log.</p>
+<ul>
+<li><strong>Every patient you see</strong> — get at least their age, dx, and one learning point</li>
+<li><strong>Every procedure</strong> — log the date and whether you observed vs performed</li>
+<li><strong>Your preceptor signs</strong> — keep a signature page for verification</li>
+<li><strong>Reflect daily</strong> — what'd you learn, what'll you do differently</li>
+</ul>
+<hr />
+
+<h2>🔄 Rotation Overview</h2>
+<div class="card">
+<div class="form-line"><span class="label">Rotation:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">Preceptor:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">Facility:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">Specialty:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">Dates:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">Hours Needed:</span><span class="fill"></span></div>
+<div style="margin-top:10px;display:flex;gap:20px;flex-wrap:wrap;">
+<div><strong>📅 Week 1:</strong><span class="fill" style="display:inline-block;min-width:60px"></span></div>
+<div><strong>📅 Week 2:</strong><span class="fill" style="display:inline-block;min-width:60px"></span></div>
+<div><strong>📅 Week 3:</strong><span class="fill" style="display:inline-block;min-width:60px"></span></div>
+<div><strong>📅 Week 4:</strong><span class="fill" style="display:inline-block;min-width:60px"></span></div>
+</div>
+</div>
+
+<h2>👤 Daily Patient Log (Individual Patient)</h2>
+
+<div class="patient-log">
+<div class="name">Patient Encounter</div>
+<div class="form-line"><span class="label">Date:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">Age/Sex:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">CC:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">HPI:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">PMH:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">Meds:</span><span class="fill"></span></div>
+
+<h4 style="margin-top:10px;">🩺 Vital Signs</h4>
+<div class="assessment-grid">
+<div class="assessment-item"><div class="val"><span class="fill" style="display:inline-block;min-width:30px"></span></div><div class="lbl">BP</div></div>
+<div class="assessment-item"><div class="val"><span class="fill" style="display:inline-block;min-width:30px"></span></div><div class="lbl">HR</div></div>
+<div class="assessment-item"><div class="val"><span class="fill" style="display:inline-block;min-width:30px"></span></div><div class="lbl">RR</div></div>
+<div class="assessment-item"><div class="val"><span class="fill" style="display:inline-block;min-width:30px"></span></div><div class="lbl">O₂ Sat</div></div>
+<div class="assessment-item"><div class="val"><span class="fill" style="display:inline-block;min-width:30px"></span></div><div class="lbl">Temp</div></div>
+<div class="assessment-item"><div class="val"><span class="fill" style="display:inline-block;min-width:30px"></span></div><div class="lbl">Pain</div></div>
+</div>
+
+<h4>🧪 Key Findings</h4>
+<div class="form-line"><span class="label">Labs/Tests:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">Physical Exam:</span><span class="fill"></span></div>
+
+<h4>💊 Plan</h4>
+<div class="form-line"><span class="label">Diagnosis:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">Treatment:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">Follow-up:</span><span class="fill"></span></div>
+
+<h4>💡 Learning Point</h4>
+<div class="reflection-box" style="min-height:40px;"></div>
+</div>
+
+<p style="text-align:center;font-size:12px;color:var(--text-dim);">— Copy this page for each patient encounter —</p>
+<hr />
+
+<h2>🗓️ Daily Clinical Summary</h2>
+
+<div class="card">
+<div class="form-line"><span class="label">Date:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">Unit:</span><span class="fill"></span></div>
+
+<h4 style="margin-top:12px;">📊 Today's Totals</h4>
+<div class="form-line"><span class="label">Patients Seen:</span><span class="fill" style="min-width:40px"></span></div>
+<div class="form-line"><span class="label">New Patients:</span><span class="fill" style="min-width:40px"></span></div>
+<div class="form-line"><span class="label">Follow-ups:</span><span class="fill" style="min-width:40px"></span></div>
+
+<h4 style="margin-top:10px;">🛠️ Procedures Logged Today</h4>
+<div class="procedures">
+<div class="proc-item"><div class="box"></div>Physical exam</div>
+<div class="proc-item"><div class="box"></div>EKG interpretation</div>
+<div class="proc-item"><div class="box"></div>X-ray reading</div>
+<div class="proc-item"><div class="box"></div>Wound care</div>
+<div class="proc-item"><div class="box"></div>Suture/staple removal</div>
+<div class="proc-item"><div class="box"></div>Joint injection</div>
+<div class="proc-item"><div class="box"></div>I&D</div>
+<div class="proc-item"><div class="box"></div>Pap smear</div>
+<div class="proc-item"><div class="box"></div>Throat culture</div>
+<div class="proc-item"><div class="box"></div>Urine cath</div>
+<div class="proc-item"><div class="box"></div>Venipuncture</div>
+<div class="proc-item"><div class="box"></div>Immunization</div>
+<div class="proc-item" style="grid-column:1/-1;"><div class="box"></div>Other: <span class="fill" style="display:inline-block;min-width:70%"></span></div>
+</div>
+
+<h4 style="margin-top:10px;">🧠 Clinical Reasoning</h4>
+<div class="reflection-box">
+<div class="q">💡 What did I learn today?</div>
+<div class="empty-line"></div>
+<div class="empty-line"></div>
+<div class="q" style="margin-top:8px;">⭐ What will I do differently next time?</div>
+<div class="empty-line"></div>
+<div class="empty-line"></div>
+<div class="q" style="margin-top:8px;">❓ Questions for my preceptor tomorrow?</div>
+<div class="empty-line"></div>
+<div class="empty-line"></div>
+</div>
+
+<h4 style="margin-top:10px;">✍️ Preceptor Signature</h4>
+<div class="form-line"><span class="label">Hours Today:</span><span class="fill" style="min-width:40px"></span></div>
+<div class="form-line"><span class="label">Cumulative:</span><span class="fill" style="min-width:40px"></span></div>
+<div class="form-line"><span class="label">Sign:</span><span class="fill"></span></div>
+</div>
+<hr />
+
+<h2>📊 Procedure Tally Sheet</h2>
+<p class="section-intro">Keep a running count of every procedure you perform during this rotation. <strong>Save this for credentialing and clinical hour verification.</strong></p>
+
+<div class="card">
+<table style="width:100%;border-collapse:collapse;margin-top:8px;">
+<tr style="background:var(--bg3);"><th style="padding:8px;text-align:left;font-size:11px;text-transform:uppercase;border-bottom:1px solid var(--border);">Procedure</th><th style="padding:8px;text-align:center;font-size:11px;text-transform:uppercase;border-bottom:1px solid var(--border);">Observed</th><th style="padding:8px;text-align:center;font-size:11px;text-transform:uppercase;border-bottom:1px solid var(--border);">Performed</th></tr>
+<tr><td style="padding:6px 8px;border-bottom:1px solid var(--border);">Complete H&P</td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td></tr>
+<tr><td style="padding:6px 8px;border-bottom:1px solid var(--border);">Papanicolaou (Pap) Smear</td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td></tr>
+<tr><td style="padding:6px 8px;border-bottom:1px solid var(--border);">Breast Exam</td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td></tr>
+<tr><td style="padding:6px 8px;border-bottom:1px solid var(--border);">Pelvic Exam</td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td></tr>
+<tr><td style="padding:6px 8px;border-bottom:1px solid var(--border);">Joint Injection</td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td></tr>
+<tr><td style="padding:6px 8px;border-bottom:1px solid var(--border);">Incision & Drainage</td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td></tr>
+<tr><td style="padding:6px 8px;border-bottom:1px solid var(--border);">Suture Removal</td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td></tr>
+<tr><td style="padding:6px 8px;border-bottom:1px solid var(--border);">EKG Interpretation</td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td></tr>
+<tr><td style="padding:6px 8px;border-bottom:1px solid var(--border);">X-ray Interpretation</td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td></tr>
+<tr><td style="padding:6px 8px;border-bottom:1px solid var(--border);">Immunization Administration</td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td><td style="padding:6px 8px;text-align:center;border-bottom:1px solid var(--border);"><span class="fill" style="display:inline-block;min-width:30px"></span></td></tr>
+</table>
+</div>
+<hr />
+
+<h2>📈 Rotation Summary</h2>
+<div class="card">
+<div class="form-line"><span class="label">Total Patients:</span><span class="fill" style="min-width:60px"></span></div>
+<div class="form-line"><span class="label">Total Hours:</span><span class="fill" style="min-width:60px"></span></div>
+<div class="form-line"><span class="label">Top 5 Diagnoses:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">Procedures Performed:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">What I Improved Most:</span><span class="fill"></span></div>
+<div class="form-line"><span class="label">What I Need to Work On:</span><span class="fill"></span></div>
+<p style="margin-top:12px;text-align:center;color:var(--teal);font-weight:700;">✅ Rotation Complete — Every patient counted, every hour logged</p>
+</div>
+<hr />
+
+<p style="text-align:center;color:var(--text-dim);font-style:italic;padding:30px 0;font-size:13px;">
+"You don't rise to the level of your goals. You fall to the level of your systems." — James Clear<br>
+<strong style="color:var(--teal);">Track everything. Stay organized. Graduate prepared. 📋✅</strong>
+</p>
+
+</body>
+</html>
