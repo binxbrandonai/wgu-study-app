@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Step-Down PCU Nurse Brain Sheet</title>
+<style>
+  @page { size: letter; margin: 0.3in; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 7.2pt; color: #1e293b; line-height: 1.25;
+    padding: 0.25in;
+    background: #f8fafc;
+  }
+
+  /* ===== COLOR THEME: AMBER/STEPDOWN ===== */
+  .theme-header { background: linear-gradient(135deg, #d97706, #f59e0b); color: #fff; padding: 6px 12px; border-radius: 8px 8px 0 0; display: flex; justify-content: space-between; align-items: center; }
+  .theme-header h1 { font-size: 13pt; font-weight: 900; letter-spacing: 1px; text-transform: uppercase; }
+  .theme-header .badge { font-size: 7pt; font-weight: 800; background: rgba(255,255,255,0.2); padding: 2px 10px; border-radius: 10px; }
+  .theme-accent { color: #d97706; }
+  .theme-bg { background: #fffbeb; }
+  .theme-border { border-color: #fde68a; }
+  .section-title { font-size: 6pt; font-weight: 800; text-transform: uppercase; letter-spacing: 0.8px; color: #fff; background: #d97706; padding: 2px 6px; border-radius: 3px; margin: 3px 0 2px; }
+  .patient-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden; }
+  .patient-card .card-header { background: #f1f5f9; padding: 4px 6px; font-weight: 800; font-size: 7.5pt; border-bottom: 2px solid #d97706; display: flex; justify-content: space-between; }
+  .patient-card .card-header .room { color: #d97706; }
+  .footer { color: #94a3b8; text-align: center; font-size: 6pt; margin-top: 4px; }
+
+  /* ===== LAYOUT ===== */
+  .patient-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+  .field-row { display: flex; gap: 3px; margin-bottom: 1.5px; align-items: baseline; }
+  .field-label { font-weight: 700; color: #64748b; min-width: 26px; font-size: 6pt; text-transform: uppercase; }
+  .field-line { flex: 1; border-bottom: 1px dashed #e2e8f0; min-height: 11px; }
+
+  .vs-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 1px; margin: 2px 0; }
+  .vs-cell { text-align: center; padding: 1px 0; }
+  .vs-label { font-weight: 700; color: #94a3b8; font-size: 5pt; text-transform: uppercase; }
+  .vs-value { border-bottom: 1px dashed #e2e8f0; min-height: 10px; margin-top: 1px; font-size: 6.5pt; }
+
+  .med-grid { display: grid; grid-template-columns: 2.2fr 0.8fr 0.6fr 0.6fr; gap: 1px; font-size: 6.2pt; }
+  .med-header { font-weight: 700; color: #94a3b8; font-size: 5pt; text-transform: uppercase; border-bottom: 1px solid #e2e8f0; padding: 1px 2px; }
+  .med-item { border-bottom: 1px dashed #f1f5f9; min-height: 10px; padding: 0 2px; }
+
+  .checkbox-group { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 2px; }
+  .checkbox-group label { font-size: 5.8pt; display: flex; align-items: center; gap: 1px; background: #f8fafc; padding: 1px 4px; border-radius: 3px; border: 1px solid #e2e8f0; }
+  .checkbox-group input { margin: 0; }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+  .sys-row { display: flex; gap: 2px; align-items: baseline; font-size: 6.2pt; }
+  .sys-row .sys-label { font-weight: 700; color: #64748b; min-width: 32px; font-size: 5.8pt; }
+  .sys-row .sys-line { flex: 1; border-bottom: 1px dashed #e2e8f0; min-height: 10px; }
+
+  .sbar { background: #f1f5f9; border-radius: 4px; padding: 3px 6px; margin-top: 3px; font-size: 5.8pt; color: #64748b; display: flex; gap: 8px; }
+  .sbar span { font-weight: 700; color: #d97706; }
+</style>
+</head>
+<body>
+
+<div class="theme-header">
+  <h1>🧠 Step-Down Brain Sheet</h1>
+  <div class="badge">STEP-DOWN / PCU</div>
+</div>
+
+<div style="display:flex;justify-content:space-between;font-size:6.5pt;color:#64748b;padding:3px 4px;background:#fff;border:1px solid #e2e8f0;border-top:none;border-radius:0 0 6px 6px;margin-bottom:5px;">
+  <span>Date: _______________</span>
+  <span>Shift: ☐ Day ☐ Night ☐ Eve</span>
+  <span>Unit: _______________</span>
+</div>
+
+<div class="patient-grid">
+
+  <!-- ===== PATIENT 1 ===== -->
+  <div class="patient-card">
+    <div class="card-header"><span class="room">🛏️ Room: _______</span><span>⚡ Code: _______ </span><span>🔴 Fall Risk: ☐</span></div>
+    <div style="padding:4px 5px;">
+      <div class="field-row"><span class="field-label">Name</span><span class="field-line"></span><span class="field-label" style="min-width:22px;">Age</span><span class="field-line" style="max-width:30px;"></span><span class="field-label" style="min-width:28px;">Gender</span><span class="field-line" style="max-width:28px;"></span></div>
+      <div class="field-row"><span class="field-label">DX</span><span class="field-line"></span></div>
+      <div class="field-row"><span class="field-label">Allergies</span><span class="field-line"></span></div>
+      <div class="field-row"><span class="field-label">Hx</span><span class="field-line"></span></div>
+
+      <div class="section-title">📊 Vital Signs</div>
+      <div class="vs-grid">
+        <div class="vs-cell"><div class="vs-label">Time</div><div class="vs-value"></div></div>
+        <div class="vs-cell"><div class="vs-label">HR</div><div class="vs-value"></div></div>
+        <div class="vs-cell"><div class="vs-label">BP</div><div class="vs-value"></div></div>
+        <div class="vs-cell"><div class="vs-label">RR</div><div class="vs-value"></div></div>
+        <div class="vs-cell"><div class="vs-label">O₂</div><div class="vs-value"></div></div>
+        <div class="vs-cell"><div class="vs-label">Temp</div><div class="vs-value"></div></div>
+        <div class="vs-cell"><div class="vs-label">Pain</div><div class="vs-value"></div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:3px;margin:1px 0;">
+        <div class="field-row"><span class="field-label">O₂</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">I/O</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">Weight</span><span class="field-line"></span></div>
+      </div>
+
+      <div class="section-title">🧪 Labs</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;font-size:6pt;">
+        <div class="field-row"><span class="field-label">H&amp;H</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">BMP</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">WBC</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">INR</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">Cultures</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">Other</span><span class="field-line"></span></div>
+      </div>
+
+      <div class="section-title">💊 Medications</div>
+      <div class="med-grid">
+        <span class="med-header">Medication</span><span class="med-header">Dose</span><span class="med-header">Route</span><span class="med-header">Time</span>
+        <span class="med-item"></span><span class="med-item"></span><span class="med-item"></span><span class="med-item"></span>
+        <span class="med-item"></span><span class="med-item"></span><span class="med-item"></span><span class="med-item"></span>
+        <span class="med-item"></span><span class="med-item"></span><span class="med-item"></span><span class="med-item"></span>
+      </div>
+
+      <div class="section-title">🔍 Assessment</div>
+      <div class="two-col">
+        <div class="sys-row"><span class="sys-label">🧠 Neuro</span><span class="sys-line"></span></div>
+        <div class="sys-row"><span class="sys-label">❤️ CV</span><span class="sys-line"></span></div>
+        <div class="sys-row"><span class="sys-label">🫁 Resp</span><span class="sys-line"></span></div>
+        <div class="sys-row"><span class="sys-label">🥗 GI</span><span class="sys-line"></span></div>
+        <div class="sys-row"><span class="sys-label">🚽 GU</span><span class="sys-line"></span></div>
+        <div class="sys-row"><span class="sys-label">🩹 Skin</span><span class="sys-line"></span></div>
+      </div>
+
+      <div class="section-title">📋 Lines / Tasks</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;">
+        <div class="field-row"><span class="field-label">IV</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">Drains</span><span class="field-line"></span></div>
+      </div>
+      <div class="checkbox-group">
+        <label><input type="checkbox"> IS</label>
+        <label><input type="checkbox"> OOB</label>
+        <label><input type="checkbox"> Foley</label>
+        <label><input type="checkbox"> Wound</label>
+        <label><input type="checkbox"> NPO</label>
+        <label><input type="checkbox"> Fall</label>
+        <label><input type="checkbox"> Tele</label>
+      </div>
+      <div class="field-row" style="margin-top:2px;"><span class="field-label">To Do</span><span class="field-line"></span></div>
+
+      <div class="sbar"><span>S</span> Situation: ________ <span>B</span> Background: ________ <span>A</span> Assessment: ________ <span>R</span> Rec: ________</div>
+    </div>
+  </div>
+
+  <!-- ===== PATIENT 2 ===== -->
+  <div class="patient-card">
+    <div class="card-header"><span class="room">🛏️ Room: _______</span><span>⚡ Code: _______ </span><span>🔴 Fall Risk: ☐</span></div>
+    <div style="padding:4px 5px;">
+      <div class="field-row"><span class="field-label">Name</span><span class="field-line"></span><span class="field-label" style="min-width:22px;">Age</span><span class="field-line" style="max-width:30px;"></span><span class="field-label" style="min-width:28px;">Gender</span><span class="field-line" style="max-width:28px;"></span></div>
+      <div class="field-row"><span class="field-label">DX</span><span class="field-line"></span></div>
+      <div class="field-row"><span class="field-label">Allergies</span><span class="field-line"></span></div>
+      <div class="field-row"><span class="field-label">Hx</span><span class="field-line"></span></div>
+
+      <div class="section-title">📊 Vital Signs</div>
+      <div class="vs-grid">
+        <div class="vs-cell"><div class="vs-label">Time</div><div class="vs-value"></div></div>
+        <div class="vs-cell"><div class="vs-label">HR</div><div class="vs-value"></div></div>
+        <div class="vs-cell"><div class="vs-label">BP</div><div class="vs-value"></div></div>
+        <div class="vs-cell"><div class="vs-label">RR</div><div class="vs-value"></div></div>
+        <div class="vs-cell"><div class="vs-label">O₂</div><div class="vs-value"></div></div>
+        <div class="vs-cell"><div class="vs-label">Temp</div><div class="vs-value"></div></div>
+        <div class="vs-cell"><div class="vs-label">Pain</div><div class="vs-value"></div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:3px;margin:1px 0;">
+        <div class="field-row"><span class="field-label">O₂</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">I/O</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">Weight</span><span class="field-line"></span></div>
+      </div>
+
+      <div class="section-title">🧪 Labs</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;font-size:6pt;">
+        <div class="field-row"><span class="field-label">H&amp;H</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">BMP</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">WBC</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">INR</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">Cultures</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">Other</span><span class="field-line"></span></div>
+      </div>
+
+      <div class="section-title">💊 Medications</div>
+      <div class="med-grid">
+        <span class="med-header">Medication</span><span class="med-header">Dose</span><span class="med-header">Route</span><span class="med-header">Time</span>
+        <span class="med-item"></span><span class="med-item"></span><span class="med-item"></span><span class="med-item"></span>
+        <span class="med-item"></span><span class="med-item"></span><span class="med-item"></span><span class="med-item"></span>
+        <span class="med-item"></span><span class="med-item"></span><span class="med-item"></span><span class="med-item"></span>
+      </div>
+
+      <div class="section-title">🔍 Assessment</div>
+      <div class="two-col">
+        <div class="sys-row"><span class="sys-label">🧠 Neuro</span><span class="sys-line"></span></div>
+        <div class="sys-row"><span class="sys-label">❤️ CV</span><span class="sys-line"></span></div>
+        <div class="sys-row"><span class="sys-label">🫁 Resp</span><span class="sys-line"></span></div>
+        <div class="sys-row"><span class="sys-label">🥗 GI</span><span class="sys-line"></span></div>
+        <div class="sys-row"><span class="sys-label">🚽 GU</span><span class="sys-line"></span></div>
+        <div class="sys-row"><span class="sys-label">🩹 Skin</span><span class="sys-line"></span></div>
+      </div>
+
+      <div class="section-title">📋 Lines / Tasks</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;">
+        <div class="field-row"><span class="field-label">IV</span><span class="field-line"></span></div>
+        <div class="field-row"><span class="field-label">Drains</span><span class="field-line"></span></div>
+      </div>
+      <div class="checkbox-group">
+        <label><input type="checkbox"> IS</label>
+        <label><input type="checkbox"> OOB</label>
+        <label><input type="checkbox"> Foley</label>
+        <label><input type="checkbox"> Wound</label>
+        <label><input type="checkbox"> NPO</label>
+        <label><input type="checkbox"> Fall</label>
+        <label><input type="checkbox"> Tele</label>
+      </div>
+      <div class="field-row" style="margin-top:2px;"><span class="field-label">To Do</span><span class="field-line"></span></div>
+
+      <div class="sbar"><span>S</span> Situation: ________ <span>B</span> Background: ________ <span>A</span> Assessment: ________ <span>R</span> Rec: ________</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  © Rabbit Hole FNP · Step-Down Brain Sheet · Print daily · A4 / US Letter
+</div>
+
+</body>
+</html>
