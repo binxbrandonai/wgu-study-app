@@ -22,7 +22,7 @@
   </defs>
   <rect width="800" height="600" fill="#020617"/>
   
-  <text x="400" y="35" text-anchor="middle" class="title">📊 Urinary Tract Infection — Diagnosis & Management</text>
+  <text x="400" y="35" text-anchor="middle" class="title">📊 Urinary Tract Infection — Diagnosis &amp; Management</text>
   <text x="400" y="55" text-anchor="middle" class="subtitle">IDSA Guidelines · Uncomplicated Cystitis → Pyelonephritis Pathway</text>
 
   <!-- Symptoms box -->

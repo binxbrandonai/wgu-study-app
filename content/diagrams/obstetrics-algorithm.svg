@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <style>
+      .title { font-size: 18px; font-weight: 700; fill: #0f172a; }
+      .box-label { font-size: 12px; font-weight: 700; fill: white; }
+      .box-text { font-size: 11px; fill: white; }
+      .diamond-text { font-size: 12px; font-weight: 700; fill: #0f172a; }
+      .yes-no { font-size: 11px; font-weight: 700; fill: #64748b; }
+      .step-text { font-size: 11px; fill: #1e293b; line-height: 1.5; }
+      .note { font-size: 10px; fill: #64748b; font-style: italic; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="920" fill="#f8fafc" rx="12"/>
+  <rect x="12" y="12" width="776" height="896" fill="white" rx="10" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="44" text-anchor="middle" class="title">Obstetrics &amp; Women's Health — Clinical Algorithm</text>
+  <text x="400" y="62" text-anchor="middle" font-size="11" fill="#64748b">FNP D118 | Women's Health</text>
+  <line x1="40" y1="72" x2="760" y2="72" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- ============ PRENATAL FLOW ============ -->
+  <text x="180" y="90" text-anchor="middle" font-size="12" font-weight="700" fill="#1e40af">PRENATAL CARE</text>
+  <line x1="60" y1="94" x2="300" y2="94" stroke="#1e40af" stroke-width="1.5"/>
+
+  <!-- Confirm pregnancy -->
+  <rect x="40" y="100" width="280" height="55" rx="10" fill="#1e40af"/>
+  <text x="180" y="119" text-anchor="middle" class="box-label">CONFIRM PREGNANCY</text>
+  <text x="180" y="135" text-anchor="middle" class="box-text">Beta-hCG + transvaginal US</text>
+  <text x="180" y="149" text-anchor="middle" class="box-text">Establish EDD (Naegele's rule: LMP + 280d)</text>
+
+  <!-- Arrow -->
+  <line x1="180" y1="155" x2="180" y2="185" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- First visit labs -->
+  <rect x="30" y="185" width="300" height="90" rx="10" fill="#065f46"/>
+  <text x="180" y="203" text-anchor="middle" class="box-label">1ST TRIMESTER VISIT LABS</text>
+  <text x="40" y="219" font-size="10" fill="#a7f3d0">• CBC, blood type, Rh factor, rubella titer</text>
+  <text x="40" y="233" font-size="10" fill="#a7f3d0">• RPR (syphilis), HBsAg, HIV</text>
+  <text x="40" y="247" font-size="10" fill="#a7f3d0">• GC/chlamydia PCR, UA + urine culture</text>
+  <text x="40" y="261" font-size="10" fill="#a7f3d0">• TSH, 25-OH vitamin D, varicella IgG</text>
+  <text x="40" y="275" font-size="10" fill="#a7f3d0">• Pap smear if due, Pap with HPV cotesting</text>
+
+  <!-- Arrow -->
+  <line x1="180" y1="275" x2="180" y2="305" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 1st trimester screening -->
+  <rect x="30" y="305" width="300" height="60" rx="10" fill="#0c4a6e"/>
+  <text x="180" y="323" text-anchor="middle" class="box-label">1ST TRIMESTER SCREENING (10-13 wks)</text>
+  <text x="40" y="339" font-size="10" fill="#bae6fd">• Nuchal translucency (US)</text>
+  <text x="40" y="353" font-size="10" fill="#bae6fd">• Serum: PAPP-A + free beta-hCG</text>
+  <text x="180" y="339" font-size="10" fill="#bae6fd">• Combined screen: Down syndrome (T21), T18</text>
+
+  <!-- Arrow -->
+  <line x1="180" y1="365" x2="180" y2="395" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 2nd trimester quad screen -->
+  <rect x="30" y="395" width="300" height="55" rx="10" fill="#0c4a6e"/>
+  <text x="180" y="413" text-anchor="middle" class="box-label">2ND TRIMESTER QUAD SCREEN (15-20 wks)</text>
+  <text x="40" y="429" font-size="10" fill="#bae6fd">• AFP + hCG + Estriol + Inhibin A</text>
+  <text x="40" y="443" font-size="10" fill="#bae6fd">• Detects: NTDs (AFP), T21, T18</text>
+
+  <!-- Arrow -->
+  <line x1="180" y1="450" x2="180" y2="480" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- GDM screening -->
+  <rect x="30" y="480" width="300" height="70" rx="10" fill="#065f46"/>
+  <text x="180" y="498" text-anchor="middle" class="box-label">GDM SCREENING (24-28 wks)</text>
+  <text x="40" y="514" font-size="10" fill="#a7f3d0">• 50g glucose challenge test (GCT)</text>
+  <text x="40" y="528" font-size="10" fill="#a7f3d0">• Result ≥140 mg/dL → 3hr 100g OGTT</text>
+  <text x="40" y="542" font-size="10" fill="#a7f3d0">• GDM diagnosis: ≥2 abnormal values on OGTT</text>
+
+  <!-- Arrow -->
+  <line x1="180" y1="550" x2="180" y2="580" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- GBS screening + RhoGAM -->
+  <rect x="30" y="580" width="300" height="65" rx="10" fill="#0c4a6e"/>
+  <text x="180" y="598" text-anchor="middle" class="box-label">GBS SCREENING + RhoGAM (35-37 wks)</text>
+  <text x="40" y="614" font-size="10" fill="#bae6fd">• Vaginal/rectal GBS swab</text>
+  <text x="40" y="628" font-size="10" fill="#bae6fd">• Rh-negative: RhoGAM 300 mcg IM at 28 wks</text>
+  <text x="40" y="642" font-size="10" fill="#bae6fd">• RhoGAM also within 72h of delivery</text>
+
+  <!-- ============ PREECLAMPSIA BRANCH (RIGHT) ============ -->
+  <line x1="400" y1="90" x2="600" y2="90" stroke="#dc2626" stroke-width="1"/>
+  <text x="525" y="90" text-anchor="middle" font-size="12" font-weight="700" fill="#dc2626">⚠️ PREECLAMPSIA</text>
+  <line x1="430" y1="94" x2="620" y2="94" stroke="#dc2626" stroke-width="1.5"/>
+
+  <!-- Preeclampsia criteria -->
+  <rect x="430" y="100" width="230" height="65" rx="10" fill="#1e40af"/>
+  <text x="545" y="119" text-anchor="middle" class="box-label">DIAGNOSTIC CRITERIA</text>
+  <text x="440" y="135" font-size="10" fill="#bfdbfe">• BP ≥140/90 on 2 readings 4h apart</text>
+  <text x="440" y="149" font-size="10" fill="#bfdbfe">• Proteinuria (≥300mg/24h or dipstick ≥1+)</text>
+  <text x="440" y="163" font-size="10" fill="#bfdbfe">• After 20 weeks gestation</text>
+
+  <!-- Arrow -->
+  <line x1="545" y1="165" x2="545" y2="195" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Severe preeclampsia -->
+  <polygon points="545,197 630,227 545,257 460,227" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="545" y="222" text-anchor="middle" class="diamond-text">SEVERE?</text>
+  <text x="545" y="238" text-anchor="middle" font-size="10" fill="#dc2626">BP ≥160/110?</text>
+
+  <!-- YES severe -->
+  <line x1="460" y1="227" x2="410" y2="227" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="410" y1="227" x2="410" y2="270" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="430" y="219" class="yes-no">YES</text>
+  <rect x="330" y="270" width="160" height="70" rx="8" fill="#dc2626"/>
+  <text x="410" y="289" text-anchor="middle" class="box-label">SEVERE PREECLAMPSIA</text>
+  <text x="340" y="305" font-size="10" fill="#fca5a5">• IV labetalol or hydralazine</text>
+  <text x="340" y="319" font-size="10" fill="#fca5a5">• Magnesium sulfate seizure prophylaxis</text>
+  <text x="340" y="333" font-size="10" fill="#fca5a5">• Delivery if ≥37 wks</text>
+
+  <!-- Arrow down from severe -->
+  <line x1="410" y1="340" x2="410" y2="372" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- NO severe -->
+  <line x1="630" y1="227" x2="675" y2="227" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="675" y1="227" x2="675" y2="270" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="656" y="219" class="yes-no">NO</text>
+  <rect x="600" y="270" width="160" height="55" rx="8" fill="#0c4a6e"/>
+  <text x="680" y="289" text-anchor="middle" font-size="11" font-weight="700" fill="white">MILD PREECLAMPSIA</text>
+  <text x="680" y="305" text-anchor="middle" font-size="10" fill="#bae6fd">Monitor BP + symptoms</text>
+  <text x="680" y="319" text-anchor="middle" font-size="10" fill="#bae6fd">Deliver at 37 wks</text>
+
+  <line x1="680" y1="325" x2="680" y2="372" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ============ WOMEN'S HEALTH (BOTTOM RIGHT) ============ -->
+  <line x1="500" y1="380" x2="640" y2="380" stroke="#64748b" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="570" y="375" text-anchor="middle" font-size="12" font-weight="700" fill="#1e40af">WOMEN'S HEALTH</text>
+
+  <!-- Menopause -->
+  <rect x="430" y="395" width="280" height="50" rx="10" fill="#1e40af"/>
+  <text x="570" y="413" text-anchor="middle" class="box-label">MENOPAUSE</text>
+  <text x="570" y="429" text-anchor="middle" class="box-text">12 months amenorrhea, age 45-55 typical</text>
+
+  <!-- Arrow -->
+  <line x1="570" y1="445" x2="570" y2="475" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- HRT -->
+  <rect x="430" y="475" width="280" height="70" rx="10" fill="#065f46"/>
+  <text x="570" y="493" text-anchor="middle" class="box-label">HORMONE THERAPY (VASOMOTOR SX)</text>
+  <text x="440" y="509" font-size="10" fill="#a7f3d0">• Contraindications: breast ca, DVT/PE,</text>
+  <text x="440" y="523" font-size="10" fill="#a7f3d0">  unexplained bleeding, active liver disease</text>
+  <text x="440" y="537" font-size="10" fill="#a7f3d0">• Intact uterus: estrogen + progestogen</text>
+
+  <!-- Arrow -->
+  <line x1="570" y1="545" x2="570" y2="575" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Atrophic vaginitis -->
+  <rect x="430" y="575" width="280" height="40" rx="8" fill="#0c4a6e"/>
+  <text x="570" y="593" text-anchor="middle" font-size="11" font-weight="700" fill="white">ATROPHIC VAGINITIS</text>
+  <text x="570" y="609" text-anchor="middle" font-size="10" fill="#bae6fd">Low-dose vaginal estrogen (safe)</text>
+
+  <!-- Arrow -->
+  <line x1="570" y1="615" x2="570" y2="650" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ============ STI BOX ============ -->
+  <rect x="430" y="650" width="280" height="105" rx="10" fill="#fefce8" stroke="#f59e0b" stroke-width="2"/>
+  <text x="570" y="668" text-anchor="middle" font-size="12" font-weight="700" fill="#92400e">STI MANAGEMENT IN PREGNANCY</text>
+  <line x1="445" y1="674" x2="695" y2="674" stroke="#f59e0b" stroke-width="1"/>
+  <text x="440" y="690" font-size="10" fill="#78350f">• GC/Chlamydia: Ceftriaxone 500mg IM + Doxycycline 100mg BID x7d</text>
+  <text x="440" y="704" font-size="10" fill="#78350f">• Syphilis: Benzathine PCN G 2.4M units IM x1 (3 doses if late latent)</text>
+  <text x="440" y="718" font-size="10" fill="#78350f">• HSV: Acyclovir 400mg TID x7-10d (first episode)</text>
+  <text x="440" y="732" font-size="10" fill="#78350f">• HIV PrEP: Indicated if partner HIV+ or high-risk behavior</text>
+  <text x="440" y="746" font-size="10" fill="#78350f">• Trichomonas: Metronidazole 2g PO x1</text>
+
+  <!-- Bottom KEY MEMORY POINTS -->
+  <rect x="40" y="790" width="720" height="84" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="400" y="808" text-anchor="middle" font-size="11" font-weight="700" fill="#1e293b">KEY MEMORY POINTS</text>
+  <text x="60" y="826" font-size="10" fill="#475569">🎯 RhoGAM 300mcg IM at 28 wks AND within 72 hours of delivery for Rh-negative</text>
+  <text x="60" y="840" font-size="10" fill="#475569">🎯 GBS positive = IV penicillin in labor (ampicillin if PCN-allergic, low risk)</text>
+  <text x="400" y="826" font-size="10" fill="#475569">🎯 GDM 50g GCT ≥140 → 3hr 100g OGTT; diagnosis = ≥2 abnormal values</text>
+  <text x="400" y="840" font-size="10" fill="#475569">🎯 Preeclampsia: magnesium for seizure PROPHYLAXIS, not treatment</text>
+</svg>

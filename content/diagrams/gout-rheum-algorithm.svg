@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <style>
+      .title { font-size: 18px; font-weight: 700; fill: #0f172a; }
+      .box-label { font-size: 12px; font-weight: 700; fill: white; }
+      .box-text { font-size: 11px; fill: white; }
+      .diamond-text { font-size: 12px; font-weight: 700; fill: #0f172a; }
+      .yes-no { font-size: 11px; font-weight: 700; fill: #64748b; }
+      .step-text { font-size: 11px; fill: #1e293b; line-height: 1.5; }
+      .note { font-size: 10px; fill: #64748b; font-style: italic; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="920" fill="#f8fafc" rx="12"/>
+  <rect x="12" y="12" width="776" height="896" fill="white" rx="10" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="44" text-anchor="middle" class="title">Rheumatology — Clinical Algorithm</text>
+  <text x="400" y="62" text-anchor="middle" font-size="11" fill="#64748b">FNP D118 | Gout · Fibromyalgia · PMR/GCA · SLE/Scleroderma/Sjögren</text>
+  <line x1="40" y1="72" x2="760" y2="72" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- ========================= GOUT BOX (left-top) ========================= -->
+  <rect x="30" y="86" width="355" height="48" rx="8" fill="#1e40af"/>
+  <text x="207" y="105" text-anchor="middle" class="box-label">GOUT / CRYSTAL ARTHROPATHY</text>
+  <text x="207" y="121" text-anchor="middle" class="box-text">Acute monoarthritis (podagra — 1st MTP classic) + elevated uric acid</text>
+
+  <line x1="207" y1="134" x2="207" y2="156" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <polygon points="207,158 287,186 207,214 127,186" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="207" y="182" text-anchor="middle" class="diamond-text">SYNOVIAL FLUID</text>
+  <text x="207" y="197" text-anchor="middle" font-size="9" fill="#0369a1">Negatively birefringent</text>
+  <text x="207" y="209" text-anchor="middle" font-size="9" fill="#0369a1">needle-shaped crystals</text>
+
+  <line x1="207" y1="214" x2="207" y2="236" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Acute treatment -->
+  <rect x="30" y="236" width="170" height="62" rx="8" fill="#dc2626"/>
+  <text x="115" y="254" text-anchor="middle" class="box-label">ACUTE ATTACK</text>
+  <text x="115" y="270" text-anchor="middle" class="box-text">Colchicine 1.2mg then 0.6mg</text>
+  <text x="115" y="284" text-anchor="middle" class="box-text">1h later (within 24-36h)</text>
+  <text x="115" y="296" text-anchor="middle" font-size="10" fill="#fca5a5">OR indomethacin / prednisone if CKD</text>
+
+  <!-- Arrow right to prophylaxis -->
+  <line x1="200" y1="267" x2="245" y2="267" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="245" y="236" width="140" height="62" rx="8" fill="#0c4a6e"/>
+  <text x="315" y="254" text-anchor="middle" class="box-label">PROPHYLAXIS</text>
+  <text x="315" y="270" text-anchor="middle" class="box-text">Colchicine 0.6mg daily</text>
+  <text x="315" y="284" text-anchor="middle" class="box-text">During urate-lowering</text>
+  <text x="315" y="296" text-anchor="middle" class="box-text">initiation</text>
+
+  <!-- Arrow down to urate lowering -->
+  <line x1="207" y1="298" x2="207" y2="318" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="40" y="318" width="335" height="70" rx="8" fill="#065f46"/>
+  <text x="207" y="336" text-anchor="middle" class="box-label">URATE-LOWERING THERAPY</text>
+  <text x="207" y="352" text-anchor="middle" class="box-text">Allopurinol (start low, titrate up)</text>
+  <text x="207" y="367" text-anchor="middle" class="box-text">HLA-B*5801 screening in Asian patients</text>
+  <text x="207" y="382" text-anchor="middle" class="box-text">OR febuxostat → Target uric acid &lt;6 mg/dL (&lt;5 if tophi)</text>
+
+  <line x1="207" y1="388" x2="207" y2="410" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Pseudogout -->
+  <rect x="40" y="410" width="335" height="50" rx="8" fill="#1e40af"/>
+  <text x="207" y="428" text-anchor="middle" class="box-label">PSEUDOGOUT (CPPD)</text>
+  <text x="207" y="444" text-anchor="middle" class="box-text">Calcium pyrophosphate crystals — weakly positive birefringent</text>
+  <text x="207" y="458" text-anchor="middle" class="box-text">Treat acute same as gout (colchicine, NSAIDs, steroids)</text>
+
+  <!-- ========================= FIBROMYALGIA BOX (right-top) ========================= -->
+  <rect x="415" y="86" width="355" height="48" rx="8" fill="#1e40af"/>
+  <text x="592" y="105" text-anchor="middle" class="box-label">FIBROMYALGIA</text>
+  <text x="592" y="121" text-anchor="middle" class="box-text">Widespread pain &gt; 3 months</text>
+
+  <line x1="592" y1="134" x2="592" y2="156" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <polygon points="592,158 677,186 592,214 507,186" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+  <text x="592" y="182" text-anchor="middle" class="diamond-text">ACR 2010 CRITERIA</text>
+  <text x="592" y="197" text-anchor="middle" font-size="9" fill="#92400e">WPI + SS scale</text>
+  <text x="592" y="209" text-anchor="middle" font-size="9" fill="#92400e">Diagnosis of exclusion</text>
+
+  <line x1="592" y1="214" x2="592" y2="236" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="430" y="236" width="325" height="55" rx="8" fill="#0c4a6e"/>
+  <text x="592" y="254" text-anchor="middle" class="box-label">RULE OUT OTHER CAUSES</text>
+  <text x="592" y="270" text-anchor="middle" class="box-text">CBC · CMP · TSH · ESR — all normal in fibromyalgia</text>
+  <text x="592" y="285" text-anchor="middle" class="box-text">No specific diagnostic labs</text>
+
+  <line x1="592" y1="291" x2="592" y2="312" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="415" y="312" width="355" height="75" rx="8" fill="#065f46"/>
+  <text x="592" y="330" text-anchor="middle" class="box-label">TREATMENT — MULTIMODAL</text>
+  <line x1="435" y1="336" x2="750" y2="336" stroke="#86efac" stroke-width="1"/>
+  <text x="450" y="352" font-size="11" fill="white">Exercise</text>
+  <text x="450" y="367" font-size="11" fill="white">CBT</text>
+  <text x="450" y="382" font-size="11" fill="white">Sleep hygiene</text>
+  <text x="580" y="352" font-size="11" fill="white">+ Duloxetine</text>
+  <text x="580" y="367" font-size="11" fill="white">+ Milnacipran</text>
+  <text x="580" y="382" font-size="11" fill="white">+ Pregabalin</text>
+  <text x="710" y="352" font-size="11" font-weight="700" fill="#fca5a5">🚫</text>
+  <text x="700" y="367" font-size="11" font-weight="700" fill="#fca5a5">AVOID</text>
+  <text x="700" y="382" font-size="11" font-weight="700" fill="#fca5a5">OPIOIDS</text>
+
+  <!-- ========================= PMR/GCA BOX (left-middle) ========================= -->
+  <rect x="30" y="478" width="355" height="48" rx="8" fill="#1e40af"/>
+  <text x="207" y="497" text-anchor="middle" class="box-label">POLYMYALGIA RHEUMATICA &amp; GCA</text>
+  <text x="207" y="513" text-anchor="middle" class="box-text">PMR: hip/shoulder girdle pain, morning stiffness &gt;45min, age &gt;50</text>
+
+  <line x1="207" y1="526" x2="207" y2="548" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <polygon points="207,550 287,578 207,606 127,578" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="207" y="574" text-anchor="middle" class="diamond-text">PMR → Labs</text>
+  <text x="207" y="589" text-anchor="middle" font-size="9" fill="#0369a1">ESR &gt;40, CRP elevated</text>
+
+  <line x1="207" y1="606" x2="207" y2="626" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="60" y="626" width="295" height="42" rx="8" fill="#065f46"/>
+  <text x="207" y="643" text-anchor="middle" class="box-label">PMR TREATMENT</text>
+  <text x="207" y="659" text-anchor="middle" class="box-text">Low-dose prednisone 15-20mg → dramatic response</text>
+
+  <line x1="207" y1="668" x2="207" y2="690" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- GCA sub-box -->
+  <rect x="30" y="690" width="355" height="48" rx="8" fill="#dc2626"/>
+  <text x="207" y="709" text-anchor="middle" class="box-label">GIANT CELL ARTERITIS (GCA) — VISION EMERGENCY</text>
+  <text x="207" y="725" text-anchor="middle" class="box-text">Headache · jaw claudication · temporal artery tenderness · ESR &gt;50</text>
+
+  <line x1="207" y1="738" x2="207" y2="758" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="30" y="758" width="355" height="55" rx="8" fill="#dc2626"/>
+  <text x="207" y="776" text-anchor="middle" class="box-label">TREAT IMMEDIATELY</text>
+  <text x="207" y="792" text-anchor="middle" class="box-text">High-dose prednisone 40-60mg</text>
+  <text x="207" y="807" text-anchor="middle" class="box-text">Do NOT wait for temporal artery biopsy — start now</text>
+
+  <line x1="207" y1="813" x2="207" y2="832" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <polygon points="207,834 272,856 207,878 142,856" fill="#faf5ff" stroke="#a855f7" stroke-width="2"/>
+  <text x="207" y="854" text-anchor="middle" class="diamond-text">BIOPSY</text>
+  <text x="207" y="869" text-anchor="middle" font-size="9" fill="#7e22ce">Temporal artery = gold standard</text>
+
+  <!-- ========================= SLEEP/SCLERO/SJOGREN BOX (right-middle) ========================= -->
+  <rect x="415" y="478" width="355" height="48" rx="8" fill="#1e40af"/>
+  <text x="592" y="497" text-anchor="middle" class="box-label">SLE · SCLERODERMA · SJÖGREN</text>
+  <text x="592" y="513" text-anchor="middle" class="box-text">Autoimmune connective tissue diseases</text>
+
+  <line x1="592" y1="526" x2="592" y2="555" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- SLE box -->
+  <rect x="415" y="555" width="355" height="75" rx="8" fill="#0c4a6e"/>
+  <text x="592" y="573" text-anchor="middle" class="box-label">SYSTEMIC LUPUS ERYTHEMATOSUS</text>
+  <text x="592" y="589" text-anchor="middle" class="box-text">Malar rash · photosensitivity · arthritis · serositis · renal</text>
+  <text x="592" y="604" text-anchor="middle" class="box-text">Neuro · heme · ANA (sensitive) + anti-dsDNA/anti-Sm (specific)</text>
+  <text x="592" y="619" text-anchor="middle" class="box-text">Tx: Hydroxychloroquine backbone + prednisone + mycophenolate for nephritis</text>
+
+  <line x1="592" y1="630" x2="592" y2="648" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Scleroderma -->
+  <rect x="415" y="648" width="170" height="72" rx="8" fill="#1e40af"/>
+  <text x="500" y="666" text-anchor="middle" class="box-label">SCLERODERMA</text>
+  <text x="500" y="682" text-anchor="middle" class="box-text">CREST syndrome (limited):</text>
+  <text x="500" y="697" text-anchor="middle" class="box-text">Calcinosis, Raynaud, Esophageal</text>
+  <text x="500" y="712" text-anchor="middle" class="box-text">Sclerodactyly, Telangiectasia</text>
+  <text x="500" y="724" text-anchor="middle" font-size="10" fill="#bae6fd">Anti-Scl-70 = diffuse</text>
+
+  <!-- Sjögren -->
+  <rect x="600" y="648" width="170" height="72" rx="8" fill="#1e40af"/>
+  <text x="685" y="666" text-anchor="middle" class="box-label">SJÖGREN</text>
+  <text x="685" y="682" text-anchor="middle" class="box-text">Sicca symptoms:</text>
+  <text x="685" y="697" text-anchor="middle" class="box-text">Dry eyes · dry mouth</text>
+  <text x="685" y="712" text-anchor="middle" class="box-text">Anti-SSA (Ro) / Anti-SSB (La)</text>
+  <text x="685" y="724" text-anchor="middle" font-size="10" fill="#bae6fd">Tx: artificial tears, pilocarpine</text>
+
+  <!-- ========================= BOTTOM KEY MEMORY POINTS ========================= -->
+  <rect x="40" y="828" width="720" height="68" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="400" y="846" text-anchor="middle" font-size="11" font-weight="700" fill="#1e293b">KEY MEMORY POINTS</text>
+  <text x="80" y="862" font-size="10" fill="#475569">🎯 Gout crystals = negatively birefringent; pseudogout (CPPD) = calcium, weakly positively birefringent</text>
+  <text x="80" y="876" font-size="10" fill="#475569">🎯 Start allopurinol AFTER acute attack resolves; check HLA-B*5801 in Asian patients</text>
+  <text x="400" y="862" font-size="10" fill="#475569">🎯 PMR responds dramatically to low-dose prednisone; GCA = vision emergency — treat FIRST, biopsy second</text>
+  <text x="400" y="876" font-size="10" fill="#475569">🎯 SLE: ANA is sensitive, anti-dsDNA/anti-Sm are specific. Hydroxychloroquine = backbone therapy</text>
+</svg>

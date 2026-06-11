@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <style>
+      .title { font-size: 18px; font-weight: 700; fill: #0f172a; }
+      .box-label { font-size: 12px; font-weight: 700; fill: white; }
+      .box-text { font-size: 11px; fill: white; }
+      .diamond-text { font-size: 12px; font-weight: 700; fill: #0f172a; }
+      .yes-no { font-size: 11px; font-weight: 700; fill: #64748b; }
+      .step-text { font-size: 11px; fill: #1e293b; line-height: 1.5; }
+      .note { font-size: 10px; fill: #64748b; font-style: italic; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="920" fill="#f8fafc" rx="12"/>
+  <rect x="12" y="12" width="776" height="896" fill="white" rx="10" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="44" text-anchor="middle" class="title">Seizure Evaluation &amp; Migraine Management — Clinical Algorithm</text>
+  <text x="400" y="62" text-anchor="middle" font-size="11" fill="#64748b">FNP D118 | Neurology</text>
+  <line x1="40" y1="72" x2="760" y2="72" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- SEIZURE BRANCH LABEL -->
+  <text x="140" y="90" text-anchor="middle" font-size="12" font-weight="700" fill="#1e40af">SEIZURE EVALUATION</text>
+  <line x1="30" y1="94" x2="250" y2="94" stroke="#1e40af" stroke-width="1.5"/>
+
+  <!-- START: Presentation box - Seizure -->
+  <rect x="40" y="100" width="200" height="60" rx="10" fill="#1e40af"/>
+  <text x="140" y="120" text-anchor="middle" class="box-label">FIRST UNPROVOKED SEIZURE</text>
+  <text x="140" y="136" text-anchor="middle" class="box-text">Single seizure in last 24h</text>
+  <text x="140" y="151" text-anchor="middle" class="box-text">No known provoking cause</text>
+
+  <!-- Arrow down -->
+  <line x1="140" y1="160" x2="140" y2="190" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Workup box -->
+  <rect x="20" y="190" width="240" height="80" rx="10" fill="#065f46"/>
+  <text x="140" y="209" text-anchor="middle" class="box-label">INITIAL WORKUP</text>
+  <text x="30" y="225" font-size="10" fill="#a7f3d0">• BMP, glucose, CBC, UA</text>
+  <text x="30" y="239" font-size="10" fill="#a7f3d0">• Urine tox screen</text>
+  <text x="30" y="253" font-size="10" fill="#a7f3d0">• EEG (routine ± sleep-deprived)</text>
+  <text x="30" y="267" font-size="10" fill="#a7f3d0">• MRI brain w/ contrast</text>
+
+  <!-- Arrow -->
+  <line x1="140" y1="270" x2="140" y2="300" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Diamond: Provoked cause? -->
+  <polygon points="140,302 230,332 140,362 50,332" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+  <text x="140" y="327" text-anchor="middle" class="diamond-text">PROVOKED</text>
+  <text x="140" y="343" text-anchor="middle" font-size="10" fill="#92400e">CAUSE FOUND?</text>
+
+  <!-- YES provoked → Treat cause -->
+  <line x1="50" y1="332" x2="10" y2="332" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="10" y1="332" x2="10" y2="392" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="26" y="324" class="yes-no">YES</text>
+  <rect x="8" y="392" width="160" height="50" rx="8" fill="#0c4a6e"/>
+  <text x="88" y="411" text-anchor="middle" font-size="11" font-weight="700" fill="white">TREAT PROVOKING CAUSE</text>
+  <text x="88" y="427" text-anchor="middle" font-size="10" fill="#bae6fd">Fever / meds / electrolytes / trauma</text>
+  <text x="88" y="440" text-anchor="middle" font-size="10" fill="#bae6fd">No AED needed</text>
+
+  <!-- NO provoked → risk strat -->
+  <line x1="140" y1="362" x2="140" y2="392" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="158" y="380" class="yes-no">NO</text>
+
+  <!-- Risk stratification box -->
+  <rect x="55" y="392" width="170" height="65" rx="8" fill="#4a1d96"/>
+  <text x="140" y="411" text-anchor="middle" font-size="11" font-weight="700" fill="white">RISK STRATIFICATION</text>
+  <text x="65" y="426" font-size="10" fill="#e9d5ff">• EEG abnormal = higher recurrence risk</text>
+  <text x="65" y="440" font-size="10" fill="#e9d5ff">• Structural lesion on MRI = higher risk</text>
+  <text x="65" y="454" font-size="10" fill="#e9d5ff">• Otherwise: 35% recurrence at 5yr</text>
+
+  <!-- Arrow -->
+  <line x1="140" y1="457" x2="140" y2="490" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- AED decision diamond -->
+  <polygon points="140,492 240,522 140,552 40,522" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="140" y="517" text-anchor="middle" class="diamond-text">START AED?</text>
+  <text x="140" y="533" text-anchor="middle" font-size="10" fill="#0369a1">≥2 sz or high-risk 1st sz</text>
+
+  <!-- NO AED -->
+  <line x1="40" y1="522" x2="10" y2="522" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="10" y1="522" x2="10" y2="570" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="22" y="514" class="yes-no">NO</text>
+  <rect x="8" y="570" width="130" height="40" rx="8" fill="#065f46"/>
+  <text x="73" y="589" text-anchor="middle" font-size="11" font-weight="700" fill="white">Observe</text>
+  <text x="73" y="604" text-anchor="middle" font-size="10" fill="#a7f3d0">No driving x 6 months</text>
+
+  <!-- YES AED -->
+  <line x1="240" y1="522" x2="280" y2="522" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="280" y1="522" x2="280" y2="570" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="262" y="514" class="yes-no">YES</text>
+
+  <!-- AED Selection box -->
+  <rect x="215" y="570" width="230" height="80" rx="10" fill="#0c4a6e"/>
+  <text x="330" y="589" text-anchor="middle" class="box-label">AED SELECTION</text>
+  <line x1="230" y1="595" x2="430" y2="595" stroke="#0ea5e9" stroke-width="0.5"/>
+  <text x="225" y="610" font-size="10" fill="#bae6fd">Focal seizures:</text>
+  <text x="225" y="624" font-size="10" fill="#e0f2fe">  Levetiracetam or Lamotrigine</text>
+  <text x="225" y="638" font-size="10" fill="#bae6fd">Generalized:</text>
+  <text x="225" y="648" font-size="10" fill="#e0f2fe">  Valproate (not WOCBP) or Levetiracetam</text>
+
+  <!-- STATUS EPILEPTICUS box -->
+  <rect x="56" y="660" width="200" height="80" rx="8" fill="#dc2626"/>
+  <text x="156" y="678" text-anchor="middle" class="box-label">⚠️ STATUS EPILEPTICUS</text>
+  <text x="156" y="694" text-anchor="middle" font-size="10" fill="#fca5a5">Sz &gt;5 min or &gt;1 sz without recovery</text>
+  <line x1="70" y1="700" x2="242" y2="700" stroke="#fca5a5" stroke-width="0.5"/>
+  <text x="66" y="714" font-size="10" fill="#fecaca">1st: Lorazepam IV 0.1mg/kg</text>
+  <text x="66" y="728" font-size="10" fill="#fecaca">2nd: Fosphenytoin 20mg PE/kg</text>
+  <text x="66" y="742" font-size="10" fill="#fecaca">3rd: Propofol or Phenobarbital</text>
+
+  <line x1="156" y1="650" x2="156" y2="660" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ============ MIGRAINE BRANCH ============ -->
+  <line x1="400" y1="90" x2="680" y2="90" stroke="#6366f1" stroke-width="1"/>
+  <text x="540" y="90" text-anchor="middle" font-size="12" font-weight="700" fill="#6366f1">MIGRAINE MANAGEMENT</text>
+  <line x1="430" y1="94" x2="770" y2="94" stroke="#6366f1" stroke-width="1.5"/>
+
+  <!-- ICHD-3 criteria -->
+  <rect x="445" y="100" width="280" height="70" rx="10" fill="#1e40af"/>
+  <text x="585" y="119" text-anchor="middle" class="box-label">ICHD-3 DIAGNOSTIC CRITERIA</text>
+  <text x="455" y="135" font-size="10" fill="#bfdbfe">≥5 attacks, 4-72h duration</text>
+  <text x="455" y="149" font-size="10" fill="#bfdbfe">≥2 of: unilateral, pulsating, mod-severe pain, aggravation</text>
+  <text x="455" y="163" font-size="10" fill="#bfdbfe">≥1 of: nausea/vomiting, photophobia, phonophobia</text>
+
+  <!-- Arrow -->
+  <line x1="585" y1="170" x2="585" y2="200" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Acute treatment box -->
+  <rect x="445" y="200" width="280" height="75" rx="10" fill="#0c4a6e"/>
+  <text x="585" y="219" text-anchor="middle" class="box-label">ACUTE TREATMENT</text>
+  <line x1="460" y1="225" x2="710" y2="225" stroke="#0ea5e9" stroke-width="0.5"/>
+  <text x="455" y="240" font-size="10" fill="#bae6fd">NSAIDs first-line: Ibuprofen 400-800mg PO</text>
+  <text x="455" y="254" font-size="10" fill="#bae6fd">Triptans (mod-severe): Sumatriptan 50-100mg PO</text>
+  <text x="455" y="268" font-size="10" fill="#bae6fd">  or 6mg SC / nasal spray 20mg</text>
+
+  <!-- Arrow -->
+  <line x1="585" y1="275" x2="585" y2="305" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- MOH warning -->
+  <rect x="445" y="305" width="280" height="55" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="2"/>
+  <text x="585" y="323" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">⚠️ MEDICATION OVERUSE HEADACHE (MOH)</text>
+  <text x="455" y="340" font-size="10" fill="#991b1b">• Limit acute meds to &lt;10-15 days/month</text>
+  <text x="455" y="354" font-size="10" fill="#991b1b">• Triptans &gt;10 days/month = MOH risk</text>
+
+  <!-- Arrow -->
+  <line x1="585" y1="360" x2="585" y2="390" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Preventive indication diamond -->
+  <polygon points="585,392 685,422 585,452 485,422" fill="#faf5ff" stroke="#a855f7" stroke-width="2"/>
+  <text x="585" y="417" text-anchor="middle" class="diamond-text">PREVENTION</text>
+  <text x="585" y="433" text-anchor="middle" font-size="10" fill="#7e22ce">≥4 headache days/month?</text>
+
+  <!-- NO prev -->
+  <line x1="485" y1="422" x2="440" y2="422" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="440" y1="422" x2="440" y2="490" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="458" y="414" class="yes-no">NO</text>
+  <rect x="440" y="490" width="100" height="35" rx="8" fill="#065f46"/>
+  <text x="490" y="508" text-anchor="middle" font-size="11" font-weight="700" fill="white">Continue PRN</text>
+  <text x="490" y="522" text-anchor="middle" font-size="10" fill="#a7f3d0">+ headache diary</text>
+
+  <!-- YES prev → preventive meds -->
+  <line x1="685" y1="422" x2="730" y2="422" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="730" y1="422" x2="730" y2="490" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="710" y="414" class="yes-no">YES</text>
+
+  <rect x="660" y="490" width="140" height="110" rx="10" fill="#0c4a6e"/>
+  <text x="730" y="508" text-anchor="middle" class="box-label">PREVENTIVE OPTIONS</text>
+  <line x1="675" y1="514" x2="785" y2="514" stroke="#0ea5e9" stroke-width="0.5"/>
+  <text x="670" y="529" font-size="10" fill="#bae6fd">• Topiramate 25-200mg/day</text>
+  <text x="670" y="543" font-size="10" fill="#bae6fd">• Propranolol 40-120mg/day</text>
+  <text x="670" y="557" font-size="10" fill="#bae6fd">• Amitriptyline 10-50mg qHS</text>
+  <text x="670" y="571" font-size="10" fill="#bae6fd">• CGRP antagonists</text>
+  <text x="670" y="585" font-size="10" fill="#e0f2fe">  (Erenumab, Galcanezumab)</text>
+
+  <!-- Contraindications box -->
+  <rect x="445" y="492" width="200" height="80" rx="8" fill="#fefce8" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="545" y="510" text-anchor="middle" font-size="11" font-weight="700" fill="#92400e">⚠️ CONTRAINDICATIONS</text>
+  <text x="455" y="526" font-size="10" fill="#78350f">• Triptans: hemiplegic migraine, CAD,</text>
+  <text x="455" y="540" font-size="10" fill="#78350f">  uncontrolled HTN, basilar migraine</text>
+  <text x="455" y="554" font-size="10" fill="#78350f">• Topiramate: weight loss, paresthesias,</text>
+  <text x="455" y="568" font-size="10" fill="#78350f">  angle-closure glaucoma, pregnancy (teratogen)</text>
+
+  <!-- GLOBAL CONTRAINDICATIONS BOX -->
+  <rect x="40" y="780" width="720" height="50" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="400" y="798" text-anchor="middle" font-size="11" font-weight="700" fill="#1e293b">KEY MEMORY POINTS</text>
+  <text x="60" y="814" font-size="10" fill="#475569">🎯 Levetiracetam = minimal drug interactions, renal dose adjustment</text>
+  <text x="60" y="826" font-size="10" fill="#475569">🎯 Valproate contraindicated in pregnancy (neural tube defects)</text>
+  <text x="400" y="814" font-size="10" fill="#475569">🎯 Status epilepticus: lorazepam → fosphenytoin → propofol</text>
+  <text x="400" y="826" font-size="10" fill="#475569">🎯 CGRP antagonists = new class for migraine prevention (erenumab, galcanezumab)</text>
+</svg>

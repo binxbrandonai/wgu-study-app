@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <style>
+      .title { font-size: 18px; font-weight: 700; fill: #0f172a; }
+      .box-label { font-size: 12px; font-weight: 700; fill: white; }
+      .box-text { font-size: 11px; fill: white; }
+      .diamond-text { font-size: 12px; font-weight: 700; fill: #0f172a; }
+      .yes-no { font-size: 11px; font-weight: 700; fill: #64748b; }
+      .step-text { font-size: 11px; fill: #1e293b; line-height: 1.5; }
+      .note { font-size: 10px; fill: #64748b; font-style: italic; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="920" fill="#f8fafc" rx="12"/>
+  <rect x="12" y="12" width="776" height="896" fill="white" rx="10" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="44" text-anchor="middle" class="title">Hepatitis B / C &amp; Cirrhosis — Clinical Algorithm</text>
+  <text x="400" y="62" text-anchor="middle" font-size="11" fill="#64748b">FNP D118 | Hepatology / Primary Care</text>
+  <line x1="40" y1="72" x2="760" y2="72" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- START: Screening box -->
+  <rect x="230" y="82" width="340" height="65" rx="10" fill="#1e40af"/>
+  <text x="400" y="103" text-anchor="middle" class="box-label">HEPATITIS SCREENING</text>
+  <text x="400" y="118" text-anchor="middle" class="box-text">Who to screen for HBV and HCV</text>
+  <text x="400" y="132" text-anchor="middle" class="box-text">Routine screening at least once per lifetime (CDC)</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="147" x2="400" y2="175" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Screening criteria box -->
+  <rect x="30" y="175" width="345" height="110" rx="8" fill="#f0f9ff" stroke="#7dd3fc" stroke-width="1.5"/>
+  <text x="202" y="193" text-anchor="middle" font-size="11" font-weight="700" fill="#0369a1">🩸 HBV Screening Groups</text>
+  <text x="40" y="209" font-size="10" fill="#0c4a6e">• Born in endemic regions (Asia, Africa, Pacific Islands)</text>
+  <text x="40" y="223" font-size="10" fill="#0c4a6e">• Men who have sex with men (MSM)</text>
+  <text x="40" y="237" font-size="10" fill="#0c4a6e">• Injection drug use (IVDU) — current or past</text>
+  <text x="40" y="251" font-size="10" fill="#0c4a6e">• Household/sexual contact with HBV carrier</text>
+  <text x="40" y="265" font-size="10" fill="#0c4a6e">• Pregnant women (each pregnancy)</text>
+  <text x="40" y="279" font-size="10" fill="#0c4a6e">• HIV-positive individuals</text>
+
+  <rect x="425" y="175" width="345" height="110" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="597" y="193" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">🩸 HCV Screening Groups</text>
+  <text x="435" y="209" font-size="10" fill="#7f1d1d">• Birth cohort 1945–1965 (Baby Boomers)</text>
+  <text x="435" y="223" font-size="10" fill="#7f1d1d">• Injection drug use (IVDU) — EVER</text>
+  <text x="435" y="237" font-size="10" fill="#7f1d1d">• HIV-positive individuals</text>
+  <text x="435" y="251" font-size="10" fill="#7f1d1d">• Blood transfusion before 1992</text>
+  <text x="435" y="265" font-size="10" fill="#7f1d1d">• Hemodialysis patients</text>
+  <text x="435" y="279" font-size="10" fill="#7f1d1d">• Elevated ALT of unknown etiology</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="285" x2="400" y2="315" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Diamond: HBV or HCV? -->
+  <polygon points="400,317 510,357 400,397 290,357" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <text x="400" y="352" text-anchor="middle" class="diamond-text">INITIAL TESTING</text>
+  <text x="400" y="368" text-anchor="middle" font-size="10" fill="#15803d">HBsAg + HBcAb + HBsAb</text>
+  <text x="400" y="380" text-anchor="middle" font-size="10" fill="#15803d">OR HCV Ab + HCV RNA</text>
+
+  <!-- LEFT: HBV branch -->
+  <line x1="290" y1="357" x2="190" y2="357" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="240" y="349" text-anchor="middle" class="yes-no">HBV</text>
+
+  <!-- HBV Serology Interpretation -->
+  <rect x="25" y="342" width="165" height="130" rx="10" fill="#0c4a6e"/>
+  <text x="107" y="360" text-anchor="middle" class="box-label">HBV SEROLOGY</text>
+  <line x1="38" y1="366" x2="177" y2="366" stroke="#38bdf8" stroke-width="0.5"/>
+  <text x="35" y="380" font-size="10" fill="#bae6fd">• HBsAg +, HBcAb IgM +, HBsAb -</text>
+  <text x="35" y="394" font-size="10" fill="#bae6fd">  → ACUTE HBV (recent)</text>
+  <text x="35" y="410" font-size="10" fill="#bae6fd">• HBsAg + &gt;6 mo → CHRONIC HBV</text>
+  <text x="35" y="426" font-size="10" fill="#bae6fd">• HBsAg -, HBcAb IgG +, HBsAb +</text>
+  <text x="35" y="440" font-size="10" fill="#bae6fd">  → RESOLVED / IMMUNE</text>
+  <text x="35" y="456" font-size="10" fill="#bae6fd">• HBsAb + only → VACCINATED</text>
+  <text x="35" y="468" font-size="10" fill="#bae6fd">• Surface Ag = INFECTIOUS</text>
+
+  <!-- Arrow down from HBV serology -->
+  <line x1="107" y1="472" x2="107" y2="498" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- HBV Treatment diamond -->
+  <polygon points="107,500 212,540 107,580 2,540" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+  <text x="107" y="535" text-anchor="middle" class="diamond-text">TREAT HBV?</text>
+  <text x="107" y="552" text-anchor="middle" font-size="10" fill="#92400e">Check HBV DNA + LFTs</text>
+
+  <!-- HBV Treatment criteria -->
+  <line x1="212" y1="540" x2="290" y2="540" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="290" y="510" width="240" height="90" rx="8" fill="#065f46"/>
+  <text x="410" y="528" text-anchor="middle" class="box-label">TREATMENT CRITERIA</text>
+  <text x="298" y="544" font-size="10" fill="#a7f3d0">HBeAg + : HBV DNA &gt;20,000 IU/mL</text>
+  <text x="298" y="558" font-size="10" fill="#a7f3d0">HBeAg - : HBV DNA &gt;2,000 IU/mL</text>
+  <text x="298" y="572" font-size="10" fill="#a7f3d0">OR any DNA + elevated ALT</text>
+  <text x="298" y="586" font-size="10" fill="#a7f3d0">OR cirrhosis with any detectable DNA</text>
+
+  <!-- HBV Treatment box -->
+  <line x1="107" y1="580" x2="107" y2="610" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="20" y="610" width="175" height="65" rx="8" fill="#0c4a6e"/>
+  <text x="107" y="628" text-anchor="middle" class="box-label">HBV TREATMENT</text>
+  <text x="28" y="644" font-size="10" fill="#bae6fd">First-line:</text>
+  <text x="28" y="658" font-size="10" fill="#bae6fd">• Entecavir 0.5mg daily</text>
+  <text x="28" y="670" font-size="10" fill="#bae6fd">• Tenofovir disoproxil 300mg daily</text>
+
+  <!-- RIGHT: HCV branch -->
+  <line x1="510" y1="357" x2="610" y2="357" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="560" y="349" text-anchor="middle" class="yes-no">HCV</text>
+
+  <rect x="610" y="340" width="175" height="95" rx="10" fill="#7c3aed"/>
+  <text x="697" y="358" text-anchor="middle" font-size="11" font-weight="700" fill="white">HCV SEROLOGY</text>
+  <line x1="620" y1="364" x2="775" y2="364" stroke="#c4b5fd" stroke-width="0.5"/>
+  <text x="618" y="380" font-size="10" fill="#e9d5ff">• HCV Ab positive</text>
+  <text x="618" y="394" font-size="10" fill="#e9d5ff">  → CHECK HCV RNA</text>
+  <text x="618" y="410" font-size="10" fill="#e9d5ff">• HCV RNA + : Active infection</text>
+  <text x="618" y="424" font-size="10" fill="#e9d5ff">• HCV RNA - : Cleared infection</text>
+  <text x="618" y="432" font-size="10" fill="#e9d5ff">  (spontaneous or treated)</text>
+
+  <!-- Arrow down -->
+  <line x1="697" y1="435" x2="697" y2="465" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- HCV Treatment -->
+  <rect x="560" y="465" width="210" height="80" rx="10" fill="#065f46"/>
+  <text x="665" y="484" text-anchor="middle" class="box-label">HCV TREATMENT</text>
+  <text x="665" y="500" text-anchor="middle" class="box-text">ALL patients RNA+ are eligible</text>
+  <text x="665" y="515" text-anchor="middle" class="box-text">Direct-Acting Antivirals (DAAs)</text>
+  <line x1="575" y1="521" x2="755" y2="521" stroke="#86efac" stroke-width="0.5"/>
+  <text x="570" y="535" font-size="10" fill="#a7f3d0">Genotype 1: Ledipasvir-Sofosbuvir (Harvoni)</text>
+  <text x="570" y="543" font-size="10" fill="#a7f3d0">All genotypes: Glecaprevir-Pibrentasvir (Mavyret)</text>
+
+  <!-- Arrow down center -->
+  <line x1="400" y1="397" x2="400" y2="430" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Cirrhosis branch -->
+  <rect x="275" y="430" width="250" height="50" rx="10" fill="#1e40af"/>
+  <text x="400" y="448" text-anchor="middle" class="box-label">CIRRHOSIS EVALUATION</text>
+  <text x="400" y="465" text-anchor="middle" class="box-text">Assess for decompensation in all HBV/HCV patients</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="480" x2="400" y2="510" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Child-Pugh box -->
+  <rect x="25" y="510" width="240" height="115" rx="8" fill="#f0f9ff" stroke="#7dd3fc" stroke-width="1.5"/>
+  <text x="145" y="528" text-anchor="middle" font-size="11" font-weight="700" fill="#0369a1">Child-Pugh Score</text>
+  <line x1="40" y1="534" x2="250" y2="534" stroke="#7dd3fc" stroke-width="0.5"/>
+  <text x="35" y="550" font-size="10" fill="#0c4a6e">1 pt  2 pts   3 pts</text>
+  <text x="35" y="564" font-size="9" fill="#0c4a6e">Bilirubin: &lt;2   2-3   &gt;3 mg/dL</text>
+  <text x="35" y="578" font-size="9" fill="#0c4a6e">Albumin: &gt;3.5 2.8-3.5 &lt;2.8 g/dL</text>
+  <text x="35" y="592" font-size="9" fill="#0c4a6e">INR:     &lt;1.7 1.7-2.3 &gt;2.3</text>
+  <text x="35" y="606" font-size="9" fill="#0c4a6e">Ascites: None Mild  Mod-sev</text>
+  <text x="35" y="620" font-size="9" fill="#0c4a6e">Encephal: None  1-2   3-4</text>
+
+  <!-- Decompensation signs -->
+  <rect x="305" y="510" width="200" height="115" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="405" y="528" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">⚠️ DECOMPENSATION</text>
+  <line x1="318" y1="534" x2="492" y2="534" stroke="#fca5a5" stroke-width="0.5"/>
+  <text x="315" y="552" font-size="10" fill="#7f1d1d">• Ascites (most common)</text>
+  <text x="315" y="566" font-size="10" fill="#7f1d1d">• Variceal bleeding</text>
+  <text x="315" y="580" font-size="10" fill="#7f1d1d">• Hepatic encephalopathy</text>
+  <text x="315" y="594" font-size="10" fill="#7f1d1d">• Jaundice</text>
+  <text x="315" y="608" font-size="10" fill="#7f1d1d">• Spontaneous bacterial</text>
+  <text x="315" y="620" font-size="10" fill="#7f1d1d">  peritonitis (SBP)</text>
+
+  <!-- MELD Score box -->
+  <rect x="550" y="510" width="220" height="115" rx="8" fill="#fdf2f8" stroke="#f9a8d4" stroke-width="1.5"/>
+  <text x="660" y="528" text-anchor="middle" font-size="11" font-weight="700" fill="#be185d">MELD Score</text>
+  <line x1="562" y1="534" x2="758" y2="534" stroke="#f9a8d4" stroke-width="0.5"/>
+  <text x="560" y="552" font-size="10" fill="#831843">MELD = 3.78×ln(bilirubin)</text>
+  <text x="560" y="566" font-size="10" fill="#831843">+ 11.2×ln(INR)</text>
+  <text x="560" y="580" font-size="10" fill="#831843">+ 9.57×ln(creatinine)</text>
+  <text x="560" y="596" font-size="10" fill="#831843">+ 6.43 (if dialysis)</text>
+  <text x="560" y="612" font-size="10" fill="#be185d">≥15 → Consider transplant eval</text>
+  <text x="560" y="622" font-size="10" fill="#be185d">≥25 → High wait-list priority</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="625" x2="400" y2="655" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Management boxes -->
+  <rect x="30" y="655" width="230" height="85" rx="8" fill="#0c4a6e"/>
+  <text x="145" y="673" text-anchor="middle" class="box-label">ASCITES MANAGEMENT</text>
+  <text x="40" y="690" font-size="10" fill="#bae6fd">• Spironolactone FIRST-LINE</text>
+  <text x="40" y="704" font-size="10" fill="#bae6fd">  Start 100mg, titrate to 400mg</text>
+  <text x="40" y="718" font-size="10" fill="#bae6fd">• Furosemide added if needed</text>
+  <text x="40" y="732" font-size="10" fill="#bae6fd">• Sodium restriction &lt;2g/day</text>
+
+  <rect x="290" y="655" width="220" height="85" rx="8" fill="#7c3aed"/>
+  <text x="400" y="673" text-anchor="middle" class="box-label">VARICES PROPHYLAXIS</text>
+  <text x="300" y="690" font-size="10" fill="#e9d5ff">• EGD screening at diagnosis</text>
+  <text x="300" y="704" font-size="10" fill="#e9d5ff">• Non-selective beta blocker</text>
+  <text x="300" y="718" font-size="10" fill="#e9d5ff">  (Propranolol/Nadolol) if</text>
+  <text x="300" y="732" font-size="10" fill="#e9d5ff">  medium-large varices</text>
+
+  <rect x="540" y="655" width="230" height="85" rx="8" fill="#dc2626"/>
+  <text x="655" y="673" text-anchor="middle" class="box-label">ENCEPHALOPATHY</text>
+  <text x="548" y="690" font-size="10" fill="#fca5a5">• Lactulose (titrate to 2-3 BM/d)</text>
+  <text x="548" y="704" font-size="10" fill="#fca5a5">• Rifaximin 550mg BID if</text>
+  <text x="548" y="718" font-size="10" fill="#fca5a5">  refractory to lactulose</text>
+  <text x="548" y="732" font-size="10" fill="#fca5a5">• Identify/avoid triggers</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="740" x2="400" y2="770" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- HCC Screening -->
+  <rect x="200" y="770" width="400" height="50" rx="10" fill="#1e40af"/>
+  <text x="400" y="789" text-anchor="middle" class="box-label">HEPATOCELLULAR CARCINOMA (HCC) SURVEILLANCE</text>
+  <text x="400" y="806" text-anchor="middle" class="box-text">Ultrasound + AFP every 6 months in all cirrhotic patients</text>
+
+  <!-- Bottom KEY MEMORY POINTS -->
+  <rect x="40" y="838" width="720" height="56" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="400" y="856" text-anchor="middle" font-size="11" font-weight="700" fill="#1e293b">KEY MEMORY POINTS</text>
+  <text x="85" y="872" font-size="10" fill="#475569">🎯 HBsAg + = INFECTIOUS; HBcAb IgM = acute HBV infection</text>
+  <text x="85" y="886" font-size="10" fill="#475569">🎯 HCV Ab+ must be confirmed with HCV RNA — Ab alone ≠ active disease</text>
+  <text x="400" y="872" font-size="10" fill="#475569">🎯 All HCV patients are now treatment-eligible — DAAs cure &gt;95%</text>
+  <text x="400" y="886" font-size="10" fill="#475569">🎯 Spironolactone first-line for ascites; Lactulose for encephalopathy</text>
+</svg>

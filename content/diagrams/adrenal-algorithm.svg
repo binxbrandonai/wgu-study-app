@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <style>
+      .title { font-size: 18px; font-weight: 700; fill: #0f172a; }
+      .box-label { font-size: 12px; font-weight: 700; fill: white; }
+      .box-text { font-size: 11px; fill: white; }
+      .diamond-text { font-size: 12px; font-weight: 700; fill: #0f172a; }
+      .yes-no { font-size: 11px; font-weight: 700; fill: #64748b; }
+      .step-text { font-size: 11px; fill: #1e293b; line-height: 1.5; }
+      .note { font-size: 10px; fill: #64748b; font-style: italic; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="920" fill="#f8fafc" rx="12"/>
+  <rect x="12" y="12" width="776" height="896" fill="white" rx="10" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="44" text-anchor="middle" class="title">Adrenal Disorders — Clinical Algorithm</text>
+  <text x="400" y="62" text-anchor="middle" font-size="11" fill="#64748b">FNP D118 | Endocrine</text>
+  <line x1="40" y1="72" x2="760" y2="72" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- ============ ADRENAL INSUFFICIENCY (LEFT) ============ -->
+  <text x="140" y="90" text-anchor="middle" font-size="12" font-weight="700" fill="#1e40af">ADRENAL INSUFFICIENCY</text>
+  <line x1="30" y1="94" x2="250" y2="94" stroke="#1e40af" stroke-width="1.5"/>
+
+  <!-- Presentation -->
+  <rect x="25" y="100" width="230" height="60" rx="10" fill="#1e40af"/>
+  <text x="140" y="120" text-anchor="middle" class="box-label">CLINICAL PRESENTATION</text>
+  <text x="140" y="136" text-anchor="middle" class="box-text">Fatigue + hypotension + hyperpigmentation</text>
+  <text x="140" y="151" text-anchor="middle" class="box-text">Hyponatremia + hyperkalemia</text>
+
+  <!-- Arrow -->
+  <line x1="140" y1="160" x2="140" y2="190" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Screening -->
+  <rect x="25" y="190" width="230" height="75" rx="10" fill="#065f46"/>
+  <text x="140" y="208" text-anchor="middle" class="box-label">SCREENING</text>
+  <text x="35" y="224" font-size="10" fill="#a7f3d0">• AM cortisol: &lt;3 mcg/dL = diagnostic</text>
+  <text x="35" y="238" font-size="10" fill="#a7f3d0">  &gt;18 mcg/dL = excludes insufficiency</text>
+  <text x="35" y="252" font-size="10" fill="#a7f3d0">• 1mcg ACTH stimulation test (cosyntropin)</text>
+  <text x="35" y="266" font-size="10" fill="#a7f3d0">  — cortisol &lt;18 mcg/dL at 30 min = abnormal</text>
+
+  <!-- Arrow -->
+  <line x1="140" y1="265" x2="140" y2="295" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Primary vs Secondary -->
+  <polygon points="140,297 230,327 140,357 50,327" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="140" y="322" text-anchor="middle" class="diamond-text">PRIMARY VS</text>
+  <text x="140" y="338" text-anchor="middle" font-size="10" fill="#0369a1">SECONDARY?</text>
+
+  <!-- Primary (Addison) -->
+  <line x1="50" y1="327" x2="10" y2="327" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="10" y1="327" x2="10" y2="370" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="28" y="319" class="yes-no">Primary</text>
+  <rect x="8" y="370" width="180" height="60" rx="8" fill="#0c4a6e"/>
+  <text x="98" y="389" text-anchor="middle" font-size="11" font-weight="700" fill="white">PRIMARY (ADDISON'S)</text>
+  <text x="18" y="404" font-size="10" fill="#bae6fd">• ACTH high, cortisol low</text>
+  <text x="18" y="418" font-size="10" fill="#bae6fd">• Anti-21-hydroxylase antibodies</text>
+  <text x="18" y="432" font-size="10" fill="#bae6fd">  80-90% have autoimmune cause</text>
+
+  <!-- Arrow from Primary -->
+  <line x1="98" y1="430" x2="98" y2="460" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Treatment -->
+  <rect x="8" y="460" width="180" height="55" rx="8" fill="#065f46"/>
+  <text x="98" y="478" text-anchor="middle" class="box-label">TREATMENT</text>
+  <text x="18" y="494" font-size="10" fill="#a7f3d0">• Hydrocortisone 15-20mg/day divided</text>
+  <text x="18" y="508" font-size="10" fill="#a7f3d0">• Fludrocortisone 0.05-0.2mg/day</text>
+
+  <!-- Adrenal crisis -->
+  <line x1="98" y1="515" x2="98" y2="540" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="8" y="540" width="180" height="55" rx="8" fill="#dc2626"/>
+  <text x="98" y="558" text-anchor="middle" class="box-label">⚠️ ADRENAL CRISIS</text>
+  <text x="18" y="574" font-size="10" fill="#fca5a5">• IV hydrocortisone 100mg bolus</text>
+  <text x="18" y="588" font-size="10" fill="#fca5a5">• Normal saline + glucose</text>
+
+  <!-- Secondary -->
+  <line x1="230" y1="327" x2="260" y2="327" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="260" y1="327" x2="260" y2="370" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="248" y="319" class="yes-no">Secondary</text>
+  <rect x="240" y="370" width="170" height="50" rx="8" fill="#4a1d96"/>
+  <text x="325" y="389" text-anchor="middle" font-size="11" font-weight="700" fill="white">SECONDARY</text>
+  <text x="250" y="404" font-size="10" fill="#e9d5ff">• ACTH low, cortisol low</text>
+  <text x="250" y="418" font-size="10" fill="#e9d5ff">• Pituitary tumor or steroid withdrawal</text>
+
+  <!-- ============ CUSHING (CENTER-LEFT) ============ -->
+  <line x1="400" y1="90" x2="400" y2="100" stroke="#64748b" stroke-width="1"/>
+  <text x="400" y="90" text-anchor="middle" font-size="12" font-weight="700" fill="#1e40af">CUSHING SYNDROME</text>
+  <line x1="310" y1="94" x2="490" y2="94" stroke="#dc2626" stroke-width="1.5"/>
+
+  <!-- Cushing Presentation -->
+  <rect x="300" y="100" width="200" height="55" rx="10" fill="#1e40af"/>
+  <text x="400" y="119" text-anchor="middle" class="box-label">CLINICAL PRESENTATION</text>
+  <text x="400" y="135" text-anchor="middle" class="box-text">HTN + central obesity + striae</text>
+  <text x="400" y="149" text-anchor="middle" class="box-text">Buffalo hump + moon face</text>
+
+  <!-- Arrow -->
+  <line x1="400" y1="155" x2="400" y2="185" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Screening -->
+  <rect x="300" y="185" width="200" height="70" rx="10" fill="#065f46"/>
+  <text x="400" y="203" text-anchor="middle" class="box-label">SCREENING TESTS</text>
+  <text x="310" y="219" font-size="10" fill="#a7f3d0">• 24h urine free cortisol (×2)</text>
+  <text x="310" y="233" font-size="10" fill="#a7f3d0">• 1mg overnight DST:</text>
+  <text x="310" y="247" font-size="10" fill="#a7f3d0">  cortisol &lt;1.8 mcg/dL = normal</text>
+
+  <!-- Arrow -->
+  <line x1="400" y1="255" x2="400" y2="285" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ACTH diamond -->
+  <polygon points="400,287 490,317 400,347 310,317" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+  <text x="400" y="312" text-anchor="middle" class="diamond-text">ACTH LEVEL</text>
+  <text x="400" y="328" text-anchor="middle" font-size="10" fill="#92400e">Differentiates etiology</text>
+
+  <!-- Pituitary -->
+  <line x1="310" y1="317" x2="280" y2="317" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="280" y1="317" x2="280" y2="360" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="290" y="309" class="yes-no">High ACTH</text>
+  <rect x="210" y="360" width="140" height="55" rx="8" fill="#0c4a6e"/>
+  <text x="280" y="378" text-anchor="middle" font-size="11" font-weight="700" fill="white">PITUITARY (80%)</text>
+  <text x="220" y="394" font-size="10" fill="#bae6fd">• Cushing disease</text>
+  <text x="220" y="408" font-size="10" fill="#bae6fd">• Pituitary MRI</text>
+
+  <!-- Ectopic -->
+  <line x1="400" y1="347" x2="400" y2="372" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="420" y="360" class="yes-no">Ectopic</text>
+  <rect x="330" y="372" width="140" height="40" rx="8" fill="#4a1d96"/>
+  <text x="400" y="390" text-anchor="middle" font-size="11" font-weight="700" fill="white">ECTOPIC ACTH</text>
+  <text x="400" y="404" text-anchor="middle" font-size="10" fill="#e9d5ff">Small cell lung ca / carcinoid</text>
+
+  <!-- Adrenal -->
+  <line x1="490" y1="317" x2="520" y2="317" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="520" y1="317" x2="520" y2="360" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="508" y="309" class="yes-no">Low ACTH</text>
+  <rect x="460" y="360" width="130" height="40" rx="8" fill="#7f1d1d"/>
+  <text x="525" y="378" text-anchor="middle" font-size="11" font-weight="700" fill="white">ADRENAL</text>
+  <text x="525" y="394" text-anchor="middle" font-size="10" fill="#fca5a5">Adrenal adenoma/carcinoma</text>
+
+  <!-- ============ PHEOCHROMOCYTOMA (RIGHT) ============ -->
+  <line x1="640" y1="90" x2="640" y2="100" stroke="#64748b" stroke-width="1"/>
+  <text x="640" y="90" text-anchor="middle" font-size="11" font-weight="700" fill="#7c3aed">PHEOCHROMOCYTOMA</text>
+  <line x1="560" y1="94" x2="720" y2="94" stroke="#7c3aed" stroke-width="1.5"/>
+
+  <!-- Pheo Presentation -->
+  <rect x="555" y="100" width="190" height="55" rx="10" fill="#1e40af"/>
+  <text x="650" y="119" text-anchor="middle" class="box-label">THE 5 P's</text>
+  <text x="650" y="135" text-anchor="middle" class="box-text">Episodic HTN + headache</text>
+  <text x="650" y="149" text-anchor="middle" class="box-text">Diaphoresis + palpitations + pallor</text>
+
+  <!-- Arrow -->
+  <line x1="650" y1="155" x2="650" y2="185" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Testing -->
+  <rect x="555" y="185" width="190" height="55" rx="10" fill="#065f46"/>
+  <text x="650" y="203" text-anchor="middle" class="box-label">DIAGNOSTIC TESTING</text>
+  <text x="565" y="219" font-size="10" fill="#a7f3d0">• 24h urine metanephrines</text>
+  <text x="565" y="233" font-size="10" fill="#a7f3d0">• Plasma metanephrines</text>
+
+  <!-- Arrow -->
+  <line x1="650" y1="240" x2="650" y2="270" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Treatment -->
+  <rect x="555" y="270" width="190" height="65" rx="8" fill="#dc2626"/>
+  <text x="650" y="289" text-anchor="middle" class="box-label">MANAGEMENT</text>
+  <text x="565" y="305" font-size="10" fill="#fca5a5">• Alpha blockade FIRST</text>
+  <text x="565" y="319" font-size="10" fill="#fca5a5">  Phenoxybenzamine 10mg BID</text>
+  <text x="565" y="333" font-size="10" fill="#fca5a5">• Then surgical resection</text>
+
+  <!-- ============ HYPERALDOSTERONISM (BOTTOM RIGHT) ============ -->
+  <line x1="555" y1="380" x2="650" y2="380" stroke="#64748b" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="600" y="375" text-anchor="middle" font-size="11" font-weight="700" fill="#1e40af">HYPERALDOSTERONISM</text>
+
+  <!-- Presentation -->
+  <rect x="555" y="420" width="190" height="50" rx="10" fill="#1e40af"/>
+  <text x="650" y="439" text-anchor="middle" class="box-label">PRESENTATION</text>
+  <text x="650" y="455" text-anchor="middle" class="box-text">HTN + hypokalemia + low renin</text>
+
+  <!-- Arrow -->
+  <line x1="650" y1="470" x2="650" y2="500" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ARR -->
+  <rect x="555" y="500" width="190" height="50" rx="10" fill="#065f46"/>
+  <text x="650" y="518" text-anchor="middle" class="box-label">ALDOSTERONE:RENIN RATIO</text>
+  <text x="650" y="534" text-anchor="middle" class="box-text">ARR &gt;20 with aldosterone &gt;15</text>
+
+  <!-- Arrow -->
+  <line x1="650" y1="550" x2="650" y2="580" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- CT -->
+  <polygon points="650,582 720,612 650,642 580,612" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="650" y="607" text-anchor="middle" class="diamond-text">CT ADRENALS</text>
+  <text x="650" y="623" text-anchor="middle" font-size="10" fill="#0369a1">Unilateral vs Bilateral</text>
+
+  <!-- Unilateral -->
+  <line x1="580" y1="612" x2="545" y2="612" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="545" y1="612" x2="545" y2="660" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="558" y="604" class="yes-no">Unilateral</text>
+  <rect x="500" y="660" width="140" height="40" rx="8" fill="#0c4a6e"/>
+  <text x="570" y="679" text-anchor="middle" font-size="11" font-weight="700" fill="white">Adrenalectomy</text>
+  <text x="570" y="693" text-anchor="middle" font-size="10" fill="#bae6fd">Unilateral adenoma</text>
+
+  <!-- Bilateral -->
+  <line x1="720" y1="612" x2="755" y2="612" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="755" y1="612" x2="755" y2="660" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="742" y="604" class="yes-no">Bilateral</text>
+  <rect x="685" y="660" width="140" height="40" rx="8" fill="#065f46"/>
+  <text x="755" y="679" text-anchor="middle" font-size="11" font-weight="700" fill="white">Spironolactone</text>
+  <text x="755" y="693" text-anchor="middle" font-size="10" fill="#a7f3d0">Bilateral adrenal hyperplasia</text>
+
+  <!-- Bottom KEY MEMORY POINTS -->
+  <rect x="40" y="800" width="720" height="80" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="400" y="818" text-anchor="middle" font-size="11" font-weight="700" fill="#1e293b">KEY MEMORY POINTS</text>
+  <text x="60" y="836" font-size="10" fill="#475569">🎯 Addisonian crisis = emergency: IV hydrocortisone 100mg bolus + NS + glucose</text>
+  <text x="60" y="850" font-size="10" fill="#475569">🎯 Always alpha-block before beta-block in pheochromocytoma (risk of hypertensive crisis)</text>
+  <text x="400" y="836" font-size="10" fill="#475569">🎯 Conn syndrome = primary hyperaldosteronism: ARR &gt;20 diagnostic</text>
+  <text x="400" y="850" font-size="10" fill="#475569">🎯 DST suppression failure (&gt;1.8 mcg/dL) = Cushing; ACTH level differentiates source</text>
+</svg>

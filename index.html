@@ -1,4 +1,3 @@
-<!-- Generated: 2026-06-09T21:57:07.005067 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -256,6 +255,57 @@ a { text-decoration: none; color: inherit; }
   min-height: 300px;
   border: none;
   border-radius: var(--radius-sm);
+}
+.diagram-expand-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-light);
+  padding: 4px 0 2px;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+}
+.diagram-expand-btn:hover { color: var(--teal); }
+
+/* ===== DIAGRAM LIGHTBOX ===== */
+#diagramLightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0,0,0,0.92);
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+}
+#diagramLightbox.open { display: flex; }
+#diagramLightbox iframe {
+  width: min(95vw, 1100px);
+  height: min(92vh, 900px);
+  border: none;
+  border-radius: 10px;
+  background: white;
+}
+#diagramLightbox .lb-close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  line-height: 1;
+  opacity: 0.8;
+}
+#diagramLightbox .lb-close:hover { opacity: 1; }
+#diagramLightbox .lb-hint {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255,255,255,0.5);
+  font-size: 12px;
+  pointer-events: none;
 }
 
 /* ===== KEY POINTS ===== */
@@ -594,31 +644,31 @@ let state = {
 // YouTube video mappings (actual IDs from Ninja Nerd & Osmosis)
 const VIDEOS = {
   'D118': {
-    'Acute Bronchitis': { title: 'Acute Bronchitis - CRASH!', id: 'GyTfzKE6bYc' },
-    'Acute Otitis Media': { title: 'Acute Otitis Media | Emergency Medicine', id: '7X3t-FvZLUo' },
-    'Acute Sinusitis': { title: 'Sinusitis (updated 2023)', id: 'CVUqP0x0C9k' },
-    'Adrenal': { title: 'Overview of the Adrenal Gland', id: 'GEk0nZ62Wkc' },
-    'Adrenal Insufficiency - Acute Crisis Management': { title: 'Addisonian Crisis', id: 'm-uQ6j5FZrI' },
-    'Adrenal Insufficiency - Primary (Addison Disease)': { title: 'Addison\'s Disease', id: 'KNa5fD3bQfo' },
-    'Alcohol Use': { title: 'Alcohol Use', id: 'KpO-Y-9bpHY' },
-    'Alcohol Use Disorder - DSM-5 Severity': { title: 'Alcohol Use Disorder Severity', id: 'V84XEunXVeg' },
-    'Alcohol Use Disorder - Pharmacotherapy': { title: 'Alcohol Use Disorder Pharmacotherapy', id: 'N8x_9fLLJVs' },
-    'Allergic Conjunctivitis': { title: 'Conjunctivitis', id: '8lDc7QjGJ9w' },
-    'Allergic Rhinitis': { title: 'Allergic Rhinitis', id: 'xw35MvZEljY' },
-    'Anemia': { title: 'Anemia', id: 'kGJmhiFd_mI' },
-    'Ankylosing Spondylitis - Assessment Tools': { title: 'BASDAI Score', id: 'RKzT-E6M0mI' },
-    'Ankylosing Spondylitis - Clinical Presentation': { title: 'AS Overview', id: 'FDhLqSQGxqE' },
-    'Ankylosing Spondylitis - Treatment': { title: 'AS Treatment', id: 'TDCHKEt2kkY' },
-    'Anxiety': { title: 'Anxiety', id: 'YjKFGtIgHO0' },
-    'Anxiety - Benzodiazepine Withdrawal': { title: 'Benzodiazepine Withdrawal', id: '9Y1Cvi8GI3I' },
-    'Anxiety - SSRI Side Effects': { title: 'SSRI Side Effects', id: 'x3dGJakjC6k' },
-    'Bacterial Conjunctivitis': { title: 'Bacterial Conjunctivitis', id: '8lDc7QjGJ9w' },
-    'Bipolar Disorder': { title: 'Bipolar Disorder', id: 'dwvPL8iNmxw' },
-    'Bipolar Disorder - First-Line Mood Stabilizer': { title: 'Mood Stabilizers', id: 'ZM1kGn3cjgg' },
-    'Bipolar Disorder - Lamotrigine Titration': { title: 'Lamotrigine Titration', id: 'A1vQhVGdVu0' },
-    'Bipolar Disorder - Lithium Monitoring': { title: 'Lithium Monitoring', id: 'i50Z8Wq6zO8' },
-    'Bipolar Disorder - Valproate Monitoring': { title: 'Valproate Monitoring', id: 'K4k8sEY3lWc' },
-    'Bipolar I Disorder - Manic Episode Criteria': { title: 'Bipolar I Manic Episodes', id: 'xGwMEz96PVc' },
+    'Acute Bronchitis': { title: 'Acute Bronchitis | Medical Centric', id: 'YiykIrJcxuI' },
+    'Acute Otitis Media': { title: 'Acute Otitis Media | Armando Hasudungan', id: 'TiSpjfuQxXM' },
+    'Acute Sinusitis': { title: 'Sinusitis | Osmosis', id: 'xH4lmriOzzc' },
+    'Adrenal': { title: 'Overview of the Adrenal Gland', id: 'JlI5N2N4d-k' },
+    'Adrenal Insufficiency - Acute Crisis Management': { title: 'Addisonian Crisis', id: 'QR5KpLGIV1s' },
+    'Adrenal Insufficiency - Primary (Addison Disease)': { title: 'Addison\'s Disease', id: '_4UbWYsHCnE' },
+    'Alcohol Use': { title: 'Alcohol Use', id: 'e5DxD6Tuxxw' },
+    'Alcohol Use Disorder - DSM-5 Severity': { title: 'Alcohol Use Disorder Severity', id: 'dIBbqUQ6KLk' },
+    'Alcohol Use Disorder - Pharmacotherapy': { title: 'Alcohol Use Disorder Pharmacotherapy', id: 'IE1_ituuMEQ' },
+    'Allergic Conjunctivitis': { title: 'Conjunctivitis', id: 'j6cfrC_toH4' },
+    'Allergic Rhinitis': { title: 'Allergic Rhinitis', id: 'rh2p3KkgGiM' },
+    'Anemia': { title: 'Anemia', id: 'mOrRJBqm744' },
+    'Ankylosing Spondylitis - Assessment Tools': { title: 'BASDAI Score', id: 'INz6rStsyIQ' },
+    'Ankylosing Spondylitis - Clinical Presentation': { title: 'AS Overview', id: 'a23A3nAaO0E' },
+    'Ankylosing Spondylitis - Treatment': { title: 'AS Treatment', id: 'Afy1iKVg8sc' },
+    'Anxiety': { title: 'Anxiety', id: '-4ZH0_XwQnk' },
+    'Anxiety - Benzodiazepine Withdrawal': { title: 'Benzodiazepine Withdrawal', id: '89EsoxE4_ac' },
+    'Anxiety - SSRI Side Effects': { title: 'SSRI Side Effects', id: 'bpgUHwjMeV4' },
+    'Bacterial Conjunctivitis': { title: 'Bacterial Conjunctivitis', id: 'j6cfrC_toH4' },
+    'Bipolar Disorder': { title: 'Bipolar Disorder', id: 'D1AO6Gm5o6A' },
+    'Bipolar Disorder - First-Line Mood Stabilizer': { title: 'Mood Stabilizers', id: 'fFvswwX7Ops' },
+    'Bipolar Disorder - Lamotrigine Titration': { title: 'Lamotrigine Titration', id: 'tB_Jl49rIOo' },
+    'Bipolar Disorder - Lithium Monitoring': { title: 'Lithium Monitoring', id: 'zoP1ByIaCp8' },
+    'Bipolar Disorder - Valproate Monitoring': { title: 'Valproate Monitoring', id: 'rZp8b7-3Zd4' },
+    'Bipolar I Disorder - Manic Episode Criteria': { title: 'Bipolar I Manic Episodes', id: 'EKUUazvMZpw' },
     'Bipolar II Disorder - Hypomania vs Mania': { title: 'Bipolar I vs II', id: 'mp69fHs_TEg' },
     'CKD': { title: 'Chronic Kidney Disease', id: 'R7dY3JsCbSY' },
     'Cancer Screening': { title: 'Cancer Screening', id: 'NoYy8OY_iL0' },
@@ -678,7 +728,7 @@ const VIDEOS = {
     'Lung Cancer Screening': { title: 'USPSTF Lung Screening', id: 'CcepXp-LKZg' },
     'Major Depressive Disorder - Atypical Features': { title: 'Atypical Depression', id: 'R7ix4rNNVKk' },
     'Major Depressive Disorder - DSM-5 Diagnosis': { title: 'Depression Diagnosis', id: 'OuAdtqrPShk' },
-    'Major Depressive Disorder - First-Line Pharmacotherapy': { title: 'MDD Treatment', id: '-JoTNsqyDxw' },
+    'Major Depressive Disorder - First-Line Pharmacotherapy': { title: 'MDD Treatment', id: 'uEod4sa-qPc' },
     'Major Depressive Disorder - Suicide Risk Assessment': { title: 'Mood Disorders', id: 'pb4I2cUqKU8' },
     'Major Depressive Disorder - Treatment Duration': { title: 'Antidepressant Duration', id: 'igTxqFuIjjw' },
     'Mental Health': { title: 'MDD Neurobiology', id: 'XgoIGUUvXaI' },
@@ -709,9 +759,9 @@ const VIDEOS = {
     'Panic Disorder - DSM-5 Criteria': { title: 'Panic Attacks', id: 'R_oerTjxEZg' },
     'Panic Disorder - Medication Selection': { title: 'Anxiety Mnemonics', id: 'orx4adUXXhU' },
     'Parkinson Disease': { title: 'Parkinson Disease', id: '7ptg1ec3r5w' },
-    'Parkinson's Disease - Early Diagnosis': { title: 'Prodromal PD', id: 'cxwiERUYlwo' },
-    'Parkinson's Disease - Initial Pharmacotherapy': { title: 'PD Medications', id: 'MdsPBaH-6Po' },
-    'Parkinson's Disease - Motor Complications': { title: 'PD Motor Fluctuations', id: 'EKq6J790g1M' },
+    "Parkinson's Disease - Early Diagnosis": { title: 'Prodromal PD', id: 'cxwiERUYlwo' },
+    "Parkinson's Disease - Initial Pharmacotherapy": { title: 'PD Medications', id: 'MdsPBaH-6Po' },
+    "Parkinson's Disease - Motor Complications": { title: 'PD Motor Fluctuations', id: 'EKq6J790g1M' },
     'Peritonsillar Abscess': { title: 'Quinsy', id: 'BxttM5VY2M8' },
     'Pharyngitis': { title: 'Sore Throat Approach', id: 'cYRc3OJ9uZQ' },
     'Pharyngitis - Strep vs Viral': { title: 'Strep vs Viral', id: 'CoBJ6pDCLKI' },
@@ -740,14 +790,14 @@ const VIDEOS = {
     'Schizophrenia - Metabolic Monitoring': { title: 'Antipsychotics Effects', id: 'VGsUAgbyMaA' },
     'Scleroderma - Classification': { title: 'Systemic Sclerosis', id: 'vez85zdCw-A' },
     'Scleroderma - Organ Involvement': { title: 'Systemic Sclerosis', id: 'vez85zdCw-A' },
-    'Scleroderma - Raynaud's Phenomenon': { title: 'Raynaud\'s & Sclerosis', id: 'Cunmv5kejG0' },
+    "Scleroderma - Raynaud's Phenomenon": { title: "Raynaud's & Sclerosis", id: 'Cunmv5kejG0' },
     'Seizure': { title: 'Seizures Pathology', id: 'CEjxjysgONI' },
     'Seizure - First Unprovoked Seizure': { title: 'First Unprovoked Seizure', id: 'v0PuDFk9K0s' },
     'Seizure - Status Epilepticus': { title: 'Status Epilepticus', id: '4Gt8PD1JGsA' },
     'Seizure - Women of Childbearing Age': { title: 'Women & Epilepsy', id: 'Qbpj1ysLZHw' },
-    'Sjögren's Syndrome - Clinical Features': { title: 'Sjogren\'s Pathology', id: 'Gh4WineSF-k' },
-    'Sjögren's Syndrome - Extraglandular Manifestations': { title: 'Sjogren\'s Extraglandular', id: 'faTSGcovqJA' },
-    'Sjögren's Syndrome - Oral Complications': { title: 'Sjogren\'s Oral', id: 'PxHLMD6Sp6Q' },
+    "Sjögren's Syndrome - Clinical Features": { title: "Sjogren's Pathology", id: 'Gh4WineSF-k' },
+    "Sjögren's Syndrome - Extraglandular Manifestations": { title: "Sjogren's Extraglandular", id: 'faTSGcovqJA' },
+    "Sjögren's Syndrome - Oral Complications": { title: "Sjogren's Oral", id: 'PxHLMD6Sp6Q' },
     'Sleep Apnea': { title: 'Sleep Apnea', id: 'NZszF7OaDVE' },
     'Smoking Cessation': { title: 'Smoking Cessation', id: 'Znk-2TleNao' },
     'Social Anxiety Disorder - Diagnosis': { title: 'Social Anxiety', id: 'FEXPduL-_c4' },
@@ -777,37 +827,337 @@ const VIDEOS = {
     'Viral Conjunctivitis': { title: 'Conjunctivitis Types', id: 'j6cfrC_toH4' },
   },
   'D119': {
+    'ADHD':                              { title: 'ADHD | Osmosis', id: '-GM6G-tXYEk' },
+    'Development ADHD':                  { title: 'ADHD | Osmosis', id: '-GM6G-tXYEk' },
+    'Adolescent Medicine':               { title: 'Adolescent Health | Osmosis', id: '41Fzls2kIfI' },
+    'Allergies':                         { title: 'Allergic Rhinitis | Osmosis', id: '2tmw9x2Ot_Q' },
+    'Asthma':                            { title: 'Asthma | Ninja Nerd', id: 'P7Fkg7_yXL0' },
+    'Asthma Pediatric':                  { title: 'Asthma | Ninja Nerd', id: 'P7Fkg7_yXL0' },
+    'Pediatric Asthma':                  { title: 'Asthma | Ninja Nerd', id: 'P7Fkg7_yXL0' },
+    'Respiratory':                       { title: 'Pediatric Respiratory | PedsCases', id: 'TX-erIxiDq0' },
+    'Respiratory Pediatrics':            { title: 'Croup | Osmosis', id: 'TX-erIxiDq0' },
+    'Autism Spectrum Disorder':          { title: 'Autism Spectrum Disorder | Osmosis', id: 'p6Xd4cg40no' },
+    'Cardiac Pediatrics':                { title: 'Congenital Heart Disease | Osmosis', id: 'x6VrwrIonc0' },
+    'Child Abuse':                       { title: 'Child Abuse | Osmosis', id: 'jo9VMDwvAyc' },
+    'Dermatology Pediatric':             { title: 'Atopic Dermatitis (Eczema) | Osmosis', id: 'idfXj51u9mM' },
+    'Development':                       { title: 'Child Development | PedsCases', id: 'eNHA9VNbuhk' },
+    'Development Milestones':            { title: 'Developmental Milestones | PedsCases', id: 'eNHA9VNbuhk' },
+    'Well Child':                        { title: 'Well-Child Visit | PedsCases', id: 'eNHA9VNbuhk' },
+    'Well Child Visit':                  { title: 'Well-Child Visit | PedsCases', id: 'eNHA9VNbuhk' },
+    'Endocrine Pediatrics':              { title: 'Type 1 Diabetes in Children | Osmosis', id: '86qnxy3_fi0' },
+    'GI Pediatrics':                     { title: 'Pediatric GI | Osmosis', id: 'CQnwjUzkFqs' },
+    'Pediatric GI':                      { title: 'Pediatric GI | Osmosis', id: 'CQnwjUzkFqs' },
+    'Hematology':                        { title: 'Sickle Cell Disease | Osmosis', id: 'fIIJmg_1hv0' },
+    'Hematology Pediatrics':             { title: 'Sickle Cell Disease | Osmosis', id: 'fIIJmg_1hv0' },
+    'Immunizations':                     { title: 'Childhood Vaccines | CDC', id: 'vPCnNQckOsE' },
+    'Infectious Disease': { title: 'Infectious Disease Overview | Osmosis', id: 'TiSpjfuQxXM' },
+    'Infectious Disease Case':           { title: 'Pediatric Infections | Osmosis', id: 'TiSpjfuQxXM' },
+    'Infectious Disease Pediatric':      { title: 'Otitis Media | Armando Hasudungan', id: 'TiSpjfuQxXM' },
+    'Pediatric Infectious Disease': { title: 'Strep Throat | Armando Hasudungan', id: 'uiv7yaBc69I' },
+    'MSK Pediatric':                     { title: 'Pediatric Hip Disorders | Osmosis', id: '0Lf_NnYqTPM' },
+    'MSK Pediatrics':                    { title: 'Pediatric Hip Disorders | Osmosis', id: '0Lf_NnYqTPM' },
+    'Musculoskeletal':                   { title: 'Pediatric Hip Disorders | Osmosis', id: '0Lf_NnYqTPM' },
+    'Mental Health Pediatric':           { title: 'Adolescent Depression | Osmosis', id: '41Fzls2kIfI' },
+    'Neonatal':                          { title: 'Neonatal Jaundice | Osmosis', id: 'rQ21vJmTDz4' },
+    'Newborn':                           { title: 'Neonatal Jaundice | Osmosis', id: 'rQ21vJmTDz4' },
+    'Neuro Case':                        { title: 'Febrile Seizures | Osmosis', id: '3kOnGfkKzbQ' },
+    'Neurology':                         { title: 'Febrile Seizures | Osmosis', id: '3kOnGfkKzbQ' },
+    'Neurology Pediatrics':              { title: 'Febrile Seizures | Osmosis', id: '3kOnGfkKzbQ' },
+    'Oral Health':                       { title: 'Early Childhood Caries | AAPD', id: 'r4LQO1aI-xc' },
   },
   'D120': {
+    'Cancer Screening':                  { title: 'Cancer Screening Guidelines | USPSTF', id: 'NoYy8OY_iL0' },
+    'Care Coordination':                 { title: 'Care Coordination & Transitions | AHRQ', id: 'kKOJXWTGKRA' },
+    'Contraception':                     { title: 'Contraception | Osmosis', id: 'E9Z1pLKZabk' },
+    'Cultural Competence':               { title: 'Cultural Competence in Healthcare | AMA', id: 'dNLtAj0wy6I' },
+    'Geriatrics':                        { title: 'Polypharmacy & Beers Criteria | Osmosis', id: 'MEqT9LAn-Ek' },
+    'Geriatrics Case':                   { title: 'Geriatric Assessment | Osmosis', id: 'MEqT9LAn-Ek' },
+    'IPV':                               { title: 'Intimate Partner Violence | Osmosis', id: 'FBrUcaoR8-4' },
+    'LGBTQ+ Health':                     { title: 'LGBTQ+ Healthcare | Osmosis', id: 'Xb_TMI1Hy3I' },
+    'LGBTQIAP+':                         { title: 'LGBTQ+ Healthcare | Osmosis', id: 'Xb_TMI1Hy3I' },
+    'LGBTQIAP+ Case':                    { title: 'LGBTQ+ Healthcare | Osmosis', id: 'Xb_TMI1Hy3I' },
+    "Men's Health":                      { title: 'BPH & Prostate Health | Osmosis', id: 'N4o5Fcd7cyM' },
+    'Menopause':                         { title: 'Menopause | Osmosis', id: 'iibTzCLnXD0' },
+    'Mental Health':                     { title: 'Depression & Anxiety | Osmosis', id: '3IUkw23paUk' },
+    'Obstetrics Antepartum':             { title: 'Prenatal Care | Ninja Nerd', id: '2o-LRqBNluo' },
+    'Obstetrics Case':                   { title: 'Preeclampsia | Osmosis', id: 'CRhGx8A7Dqg' },
+    'Obstetrics Complications':          { title: 'Preeclampsia | Osmosis', id: 'CRhGx8A7Dqg' },
+    'Pregnancy':                         { title: 'Prenatal Care | Ninja Nerd', id: '2o-LRqBNluo' },
+    'Prenatal':                          { title: 'Prenatal Care | Ninja Nerd', id: '2o-LRqBNluo' },
+    'Pain Management':                   { title: 'Pain Management & Opioids | Osmosis', id: 'iTE02KZuxYA' },
+    'STI':                               { title: 'STIs Overview | Osmosis', id: '5RNgaYb_Xeg' },
+    'Scope of Practice':                 { title: 'NP Scope of Practice | AANP', id: 'YVQzolMgNp0' },
+    'Substance Abuse':                   { title: 'Opioid Use Disorder & MAT | Osmosis', id: 'iTE02KZuxYA' },
+    'Substance Use':                     { title: 'Opioid Use Disorder & MAT | Osmosis', id: 'iTE02KZuxYA' },
+    'Travel Health':                     { title: 'Travel Medicine | CDC', id: 'LOesTw7AgHs' },
+    "Women's Health":                    { title: 'PCOS | Osmosis', id: 'YVQzolMgNp0' },
+    "Women's Health Breast":             { title: 'Breast Cancer | Osmosis', id: 'mCmJQGpjGNA' },
+    "Women's Health Gynecology":         { title: 'Cervical Cancer & HPV | Osmosis', id: 'RrQWh7xNbvk' },
   },
 };
 
 const DIAGRAMS = {
+  // ── D118: Cardiovascular ──────────────────────────────────────
   'Cardiovascular': 'content/diagrams/htn-algorithm.svg',
+  'Hypertension': 'content/diagrams/htn-algorithm.svg',
   'Heart Failure': 'content/diagrams/hfref-algorithm.svg',
+  'Lipids': 'content/diagrams/htn-algorithm.svg',
+  'DVT': 'content/diagrams/htn-algorithm.svg',
+  // ── D118: Respiratory ─────────────────────────────────────────
   'Respiratory': 'content/diagrams/asthma-steps.svg',
-  'Asthma Pediatric': 'content/diagrams/asthma-steps.svg',
-  'Pediatric Asthma': 'content/diagrams/asthma-steps.svg',
   'Asthma': 'content/diagrams/asthma-steps.svg',
-  'Endocrine': 'content/diagrams/diabetes-algorithm.svg',
-  'Diabetes': 'content/diagrams/diabetes-algorithm.svg',
   'COPD': 'content/diagrams/copd-steps.svg',
   'Respiratory - Acute': 'content/diagrams/acute-bronchitis-algorithm.svg',
   'Acute Bronchitis': 'content/diagrams/acute-bronchitis-algorithm.svg',
-  'Musculoskeletal': 'content/diagrams/arthritis-decision.svg',
-  'Osteoarthritis': 'content/diagrams/arthritis-decision.svg',
-  'Rheumatoid Arthritis': 'content/diagrams/arthritis-decision.svg',
-  'Rheumatology': 'content/diagrams/arthritis-decision.svg',
-  'Contraception': 'content/diagrams/contraception-decision.svg',
-  'ADHD': 'content/diagrams/pediatric-adhd-algorithm.svg',
-  'Development Milestones': 'content/diagrams/pediatric-milestones-timeline.svg',
-  'Immunizations': 'content/diagrams/pediatric-immunization-schedule.svg',
-  'Infectious Disease Pediatric': 'content/diagrams/pediatric-respiratory-distress.svg',
-  'Neonatal': 'content/diagrams/pediatric-immunization-schedule.svg',
+  'Pneumonia': 'content/diagrams/acute-bronchitis-algorithm.svg',
+  'Sleep Apnea': 'content/diagrams/copd-steps.svg',
+  'Lung Cancer Screening': 'content/diagrams/copd-steps.svg',
+  // ── D118: ENT / EENT ─────────────────────────────────────────
+  'Acute Otitis Media': 'content/diagrams/otitis-media-algorithm.svg',
+  'Ears': 'content/diagrams/otitis-media-algorithm.svg',
+  'EENT': 'content/diagrams/otitis-media-algorithm.svg',
+  'ENT': 'content/diagrams/pharyngitis-algorithm.svg',
+  'Pharyngitis': 'content/diagrams/pharyngitis-algorithm.svg',
+  'Pharyngitis - Strep vs Viral': 'content/diagrams/pharyngitis-algorithm.svg',
+  'Acute Sinusitis': 'content/diagrams/pharyngitis-algorithm.svg',
+  'Epiglottitis': 'content/diagrams/pharyngitis-algorithm.svg',
+  'Peritonsillar Abscess': 'content/diagrams/pharyngitis-algorithm.svg',
+  'Allergic Rhinitis': 'content/diagrams/pharyngitis-algorithm.svg',
+  'Allergic Conjunctivitis': 'content/diagrams/otitis-media-algorithm.svg',
+  'Bacterial Conjunctivitis': 'content/diagrams/otitis-media-algorithm.svg',
+  'Viral Conjunctivitis': 'content/diagrams/otitis-media-algorithm.svg',
+  'Eyes': 'content/diagrams/otitis-media-algorithm.svg',
+  // ── D118: Endocrine ───────────────────────────────────────────
+  'Endocrine': 'content/diagrams/diabetes-algorithm.svg',
+  'Diabetes': 'content/diagrams/diabetes-algorithm.svg',
+  'Diabetes - ACCORD Trial Implications': 'content/diagrams/diabetes-algorithm.svg',
+  'Diabetes - Hypoglycemia Management': 'content/diagrams/diabetes-algorithm.svg',
+  'Diabetes - Insulin Initiation': 'content/diagrams/diabetes-algorithm.svg',
+  'Diabetes - Metformin and B12 Deficiency': 'content/diagrams/diabetes-algorithm.svg',
+  'Diabetes - Peripheral Neuropathy Screening': 'content/diagrams/diabetes-algorithm.svg',
+  'Diabetes - Sick Day Management': 'content/diagrams/diabetes-algorithm.svg',
+  'Type 2 Diabetes - Diabetic Ketoacidosis Risk': 'content/diagrams/diabetes-algorithm.svg',
+  'Type 2 Diabetes - GLP-1 RA Selection': 'content/diagrams/diabetes-algorithm.svg',
+  'Type 2 Diabetes - HbA1c Target': 'content/diagrams/diabetes-algorithm.svg',
+  'Type 2 Diabetes - Initial Diagnosis': 'content/diagrams/diabetes-algorithm.svg',
+  'Type 2 Diabetes - Metformin Initiation': 'content/diagrams/diabetes-algorithm.svg',
+  'Type 2 Diabetes - Nephropathy Monitoring': 'content/diagrams/diabetes-algorithm.svg',
+  'Type 2 Diabetes - Retinopathy Screening': 'content/diagrams/diabetes-algorithm.svg',
+  'Type 2 Diabetes - SGLT2 Inhibitor Indication': 'content/diagrams/diabetes-algorithm.svg',
   'Thyroid': 'content/diagrams/thyroid-algorithm.svg',
+  'Hypothyroidism - Levothyroxine Dosing': 'content/diagrams/thyroid-algorithm.svg',
+  'Hypothyroidism - Medication Interactions': 'content/diagrams/thyroid-algorithm.svg',
+  'Hypothyroidism - Primary Diagnosis': 'content/diagrams/thyroid-algorithm.svg',
+  'Hyperthyroidism - Graves Disease': 'content/diagrams/thyroid-algorithm.svg',
+  'Hyperthyroidism - Initial Management': 'content/diagrams/thyroid-algorithm.svg',
+  'Subclinical Hypothyroidism - Treatment Decision': 'content/diagrams/thyroid-algorithm.svg',
+  'Thyroid - Pregnancy and Levothyroxine': 'content/diagrams/thyroid-algorithm.svg',
+  'Thyroid - Subclinical Hyperthyroidism': 'content/diagrams/thyroid-algorithm.svg',
+  'Thyroid Cancer - Post-Thyroidectomy TSH Target': 'content/diagrams/thyroid-algorithm.svg',
+  'Thyroid Nodule - Evaluation': 'content/diagrams/thyroid-algorithm.svg',
+  'Adrenal': 'content/diagrams/adrenal-algorithm.svg',
+  'Adrenal Insufficiency - Acute Crisis Management': 'content/diagrams/adrenal-algorithm.svg',
+  'Adrenal Insufficiency - Primary (Addison Disease)': 'content/diagrams/adrenal-algorithm.svg',
+  'Cushing Syndrome - Dexamethasone Suppression Test': 'content/diagrams/adrenal-algorithm.svg',
+  'Cushing Syndrome - Screening': 'content/diagrams/adrenal-algorithm.svg',
+  'Hyperaldosteronism - Screening': 'content/diagrams/adrenal-algorithm.svg',
+  'Pheochromocytoma - Clinical Presentation': 'content/diagrams/adrenal-algorithm.svg',
+  'PCOS': 'content/diagrams/obstetrics-algorithm.svg',
+  'Polycystic Ovary Syndrome (PCOS) - Endocrine Aspects': 'content/diagrams/obstetrics-algorithm.svg',
+  // ── D118: GI / Renal ─────────────────────────────────────────
+  'GI': 'content/diagrams/gi-algorithm.svg',
+  'Gastrointestinal': 'content/diagrams/gi-algorithm.svg',
+  'Hepatitis': 'content/diagrams/gi-algorithm.svg',
+  'Cirrhosis': 'content/diagrams/gi-algorithm.svg',
+  'Renal': 'content/diagrams/uti-algorithm.svg',
+  'CKD': 'content/diagrams/uti-algorithm.svg',
   'UTI': 'content/diagrams/uti-algorithm.svg',
+  // ── D118: Neurology ───────────────────────────────────────────
   'Neurology': 'content/diagrams/stroke-algorithm.svg',
   'Stroke': 'content/diagrams/stroke-algorithm.svg',
+  'Transient Ischemic Attack - Dual Antiplatelet Therapy': 'content/diagrams/stroke-algorithm.svg',
+  'Transient Ischemic Attack - Risk Stratification': 'content/diagrams/stroke-algorithm.svg',
+  'Transient Ischemic Attack - Secondary Prevention': 'content/diagrams/stroke-algorithm.svg',
+  'Seizure': 'content/diagrams/seizure-algorithm.svg',
+  'Seizure - First Unprovoked Seizure': 'content/diagrams/seizure-algorithm.svg',
+  'Seizure - Status Epilepticus': 'content/diagrams/seizure-algorithm.svg',
+  'Seizure - Women of Childbearing Age': 'content/diagrams/seizure-algorithm.svg',
+  'Migraine': 'content/diagrams/seizure-algorithm.svg',
+  'Migraine - Acute Treatment': 'content/diagrams/seizure-algorithm.svg',
+  'Migraine - Medication Overuse Headache': 'content/diagrams/seizure-algorithm.svg',
+  'Migraine - Preventive Therapy Indication': 'content/diagrams/seizure-algorithm.svg',
+  'Multiple Sclerosis': 'content/diagrams/neurodegen-algorithm.svg',
+  'Multiple Sclerosis - Acute Relapse Treatment': 'content/diagrams/neurodegen-algorithm.svg',
+  'Multiple Sclerosis - Disease-Modifying Therapy': 'content/diagrams/neurodegen-algorithm.svg',
+  'Multiple Sclerosis - Initial Presentation': 'content/diagrams/neurodegen-algorithm.svg',
+  'Parkinson Disease': 'content/diagrams/neurodegen-algorithm.svg',
+  "Parkinson's Disease - Early Diagnosis": 'content/diagrams/neurodegen-algorithm.svg',
+  "Parkinson's Disease - Initial Pharmacotherapy": 'content/diagrams/neurodegen-algorithm.svg',
+  "Parkinson's Disease - Motor Complications": 'content/diagrams/neurodegen-algorithm.svg',
+  "Scleroderma - Raynaud's Phenomenon": 'content/diagrams/gout-rheum-algorithm.svg',
+  "Sjögren's Syndrome - Clinical Features": 'content/diagrams/gout-rheum-algorithm.svg',
+  "Sjögren's Syndrome - Extraglandular Manifestations": 'content/diagrams/gout-rheum-algorithm.svg',
+  "Sjögren's Syndrome - Oral Complications": 'content/diagrams/gout-rheum-algorithm.svg',
+  "Men's Health": 'content/diagrams/htn-algorithm.svg',
+  "Women's Health": 'content/diagrams/obstetrics-algorithm.svg',
+  "Women's Health Breast": 'content/diagrams/obstetrics-algorithm.svg',
+  "Women's Health Gynecology": 'content/diagrams/obstetrics-algorithm.svg',
+  'Guillain-Barré Syndrome - Clinical Features': 'content/diagrams/neurodegen-algorithm.svg',
+  'Guillain-Barré Syndrome - Treatment': 'content/diagrams/neurodegen-algorithm.svg',
+  'Guillain-Barré Syndrome - Variants': 'content/diagrams/neurodegen-algorithm.svg',
+  'Myasthenia Gravis - Crisis Management': 'content/diagrams/neurodegen-algorithm.svg',
+  'Myasthenia Gravis - Diagnosis': 'content/diagrams/neurodegen-algorithm.svg',
+  'Myasthenia Gravis - Thymectomy': 'content/diagrams/neurodegen-algorithm.svg',
+  // ── D118: Mental Health ───────────────────────────────────────
+  'Mental Health': 'content/diagrams/depression-algorithm.svg',
+  'Depression': 'content/diagrams/depression-algorithm.svg',
+  'Depression - Serotonin Syndrome': 'content/diagrams/depression-algorithm.svg',
+  'Depression - Treatment-Resistant Depression': 'content/diagrams/depression-algorithm.svg',
+  'Major Depressive Disorder - Atypical Features': 'content/diagrams/depression-algorithm.svg',
+  'Major Depressive Disorder - DSM-5 Diagnosis': 'content/diagrams/depression-algorithm.svg',
+  'Major Depressive Disorder - First-Line Pharmacotherapy': 'content/diagrams/depression-algorithm.svg',
+  'Major Depressive Disorder - Suicide Risk Assessment': 'content/diagrams/depression-algorithm.svg',
+  'Major Depressive Disorder - Treatment Duration': 'content/diagrams/depression-algorithm.svg',
+  'Anxiety': 'content/diagrams/anxiety-algorithm.svg',
+  'Anxiety - Benzodiazepine Withdrawal': 'content/diagrams/anxiety-algorithm.svg',
+  'Anxiety - SSRI Side Effects': 'content/diagrams/anxiety-algorithm.svg',
+  'Generalized Anxiety Disorder - DSM-5 Diagnosis': 'content/diagrams/anxiety-algorithm.svg',
+  'Generalized Anxiety Disorder - First-Line Treatment': 'content/diagrams/anxiety-algorithm.svg',
+  'Panic Disorder - Agoraphobia': 'content/diagrams/anxiety-algorithm.svg',
+  'Panic Disorder - DSM-5 Criteria': 'content/diagrams/anxiety-algorithm.svg',
+  'Panic Disorder - Medication Selection': 'content/diagrams/anxiety-algorithm.svg',
+  'Social Anxiety Disorder - Diagnosis': 'content/diagrams/anxiety-algorithm.svg',
+  'PTSD': 'content/diagrams/anxiety-algorithm.svg',
+  'PTSD - Evidence-Based Treatment': 'content/diagrams/anxiety-algorithm.svg',
+  'PTSD - Pharmacotherapy for Nightmares': 'content/diagrams/anxiety-algorithm.svg',
+  'PTSD - Screening in Primary Care': 'content/diagrams/anxiety-algorithm.svg',
+  'Post-Traumatic Stress Disorder - DSM-5 Diagnosis': 'content/diagrams/anxiety-algorithm.svg',
+  'OCD - DSM-5 Criteria': 'content/diagrams/anxiety-algorithm.svg',
+  'Bipolar Disorder': 'content/diagrams/bipolar-algorithm.svg',
+  'Bipolar Disorder - First-Line Mood Stabilizer': 'content/diagrams/bipolar-algorithm.svg',
+  'Bipolar Disorder - Lamotrigine Titration': 'content/diagrams/bipolar-algorithm.svg',
+  'Bipolar Disorder - Lithium Monitoring': 'content/diagrams/bipolar-algorithm.svg',
+  'Bipolar Disorder - Valproate Monitoring': 'content/diagrams/bipolar-algorithm.svg',
+  'Bipolar I Disorder - Manic Episode Criteria': 'content/diagrams/bipolar-algorithm.svg',
+  'Bipolar II Disorder - Hypomania vs Mania': 'content/diagrams/bipolar-algorithm.svg',
+  'Schizophrenia': 'content/diagrams/bipolar-algorithm.svg',
+  'Schizophrenia - DSM-5 Diagnosis': 'content/diagrams/bipolar-algorithm.svg',
+  'Schizophrenia - First-Line Antipsychotic': 'content/diagrams/bipolar-algorithm.svg',
+  'Schizophrenia - Metabolic Monitoring': 'content/diagrams/bipolar-algorithm.svg',
+  'Eating Disorders - Anorexia Medical Complications': 'content/diagrams/depression-algorithm.svg',
+  'Alcohol Use': 'content/diagrams/depression-algorithm.svg',
+  'Alcohol Use Disorder - DSM-5 Severity': 'content/diagrams/depression-algorithm.svg',
+  'Alcohol Use Disorder - Pharmacotherapy': 'content/diagrams/depression-algorithm.svg',
+  // ── D118: Musculoskeletal / Rheumatology ─────────────────────
+  'Musculoskeletal': 'content/diagrams/arthritis-decision.svg',
+  'Osteoarthritis': 'content/diagrams/arthritis-decision.svg',
+  'Osteoarthritis - Intra-articular Injections': 'content/diagrams/arthritis-decision.svg',
+  'Osteoarthritis - Non-pharmacologic Management': 'content/diagrams/arthritis-decision.svg',
+  'Osteoarthritis - Pharmacologic Management': 'content/diagrams/arthritis-decision.svg',
+  'Rheumatoid Arthritis': 'content/diagrams/arthritis-decision.svg',
+  'Rheumatoid Arthritis - DMARD Selection': 'content/diagrams/arthritis-decision.svg',
+  'Rheumatoid Arthritis - Diagnosis': 'content/diagrams/arthritis-decision.svg',
+  'Rheumatoid Arthritis - Extra-articular Manifestations': 'content/diagrams/arthritis-decision.svg',
+  'Rheumatology': 'content/diagrams/arthritis-decision.svg',
+  'Gout': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Gout - Acute Management': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Gout - Urate-Lowering Therapy': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Pseudogout (CPPD) - Diagnosis': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Fibromyalgia': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Fibromyalgia - Comorbidities': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Fibromyalgia - Diagnosis': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Fibromyalgia - Pharmacologic Management': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Giant Cell Arteritis - Associated Condition': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Giant Cell Arteritis - Diagnosis and Management': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Giant Cell Arteritis - Diagnostic Testing': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Polymyalgia Rheumatica - Differential Diagnosis': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Polymyalgia Rheumatica - Steroid Taper': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Polymyalgia Rheumatica - Treatment Response': 'content/diagrams/gout-rheum-algorithm.svg',
+  'SLE': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Systemic Lupus Erythematosus - Antibody Profiles': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Systemic Lupus Erythematosus - Management': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Systemic Lupus Erythematosus - Renal Involvement': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Scleroderma - Classification': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Scleroderma - Organ Involvement': 'content/diagrams/gout-rheum-algorithm.svg',
+  "Scleroderma - Raynaud's Phenomenon": 'content/diagrams/gout-rheum-algorithm.svg',
+  "Sjögren's Syndrome - Clinical Features": 'content/diagrams/gout-rheum-algorithm.svg',
+  "Sjögren's Syndrome - Extraglandular Manifestations": 'content/diagrams/gout-rheum-algorithm.svg',
+  "Sjögren's Syndrome - Oral Complications": 'content/diagrams/gout-rheum-algorithm.svg',
+  'Ankylosing Spondylitis - Assessment Tools': 'content/diagrams/arthritis-decision.svg',
+  'Ankylosing Spondylitis - Clinical Presentation': 'content/diagrams/arthritis-decision.svg',
+  'Ankylosing Spondylitis - Treatment': 'content/diagrams/arthritis-decision.svg',
+  'Carpal Tunnel Syndrome - Diagnosis': 'content/diagrams/arthritis-decision.svg',
+  'Lateral Epicondylitis (Tennis Elbow) - Management': 'content/diagrams/arthritis-decision.svg',
+  // ── D118: Hematology / Preventive ────────────────────────────
+  'Hematology': 'content/diagrams/gi-algorithm.svg',
+  'Anemia': 'content/diagrams/gi-algorithm.svg',
+  'Cancer Screening': 'content/diagrams/htn-algorithm.svg',
+  'Preventive Care': 'content/diagrams/htn-algorithm.svg',
+  'Vaccines': 'content/diagrams/pediatric-immunization-schedule.svg',
+  'Smoking Cessation': 'content/diagrams/copd-steps.svg',
+  'Prostate': 'content/diagrams/htn-algorithm.svg',
+  'Infectious Disease': 'content/diagrams/pharyngitis-algorithm.svg',
+  'Dermatology': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Practice Question': 'content/diagrams/htn-algorithm.svg',
+  // ── D119: Pediatrics ──────────────────────────────────────────
+  'ADHD': 'content/diagrams/pediatric-adhd-algorithm.svg',
+  'Development ADHD': 'content/diagrams/pediatric-adhd-algorithm.svg',
+  'Adolescent Medicine': 'content/diagrams/pediatric-milestones-timeline.svg',
+  'Allergies': 'content/diagrams/pharyngitis-algorithm.svg',
+  'Asthma Pediatric': 'content/diagrams/asthma-steps.svg',
+  'Pediatric Asthma': 'content/diagrams/asthma-steps.svg',
+  'Autism Spectrum Disorder': 'content/diagrams/pediatric-adhd-algorithm.svg',
+  'Cardiac Pediatrics': 'content/diagrams/htn-algorithm.svg',
+  'Child Abuse': 'content/diagrams/pediatric-milestones-timeline.svg',
+  'Dermatology Pediatric': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Development': 'content/diagrams/pediatric-milestones-timeline.svg',
+  'Development Milestones': 'content/diagrams/pediatric-milestones-timeline.svg',
+  'Well Child': 'content/diagrams/pediatric-milestones-timeline.svg',
+  'Well Child Visit': 'content/diagrams/pediatric-milestones-timeline.svg',
+  'Endocrine Pediatrics': 'content/diagrams/diabetes-algorithm.svg',
+  'GI Pediatrics': 'content/diagrams/gi-algorithm.svg',
+  'Pediatric GI': 'content/diagrams/gi-algorithm.svg',
+  'Hematology Pediatrics': 'content/diagrams/gi-algorithm.svg',
+  'Immunizations': 'content/diagrams/pediatric-immunization-schedule.svg',
+  'Infectious Disease Case': 'content/diagrams/pharyngitis-algorithm.svg',
+  'Infectious Disease Pediatric': 'content/diagrams/pediatric-respiratory-distress.svg',
+  'Pediatric Infectious Disease': 'content/diagrams/otitis-media-algorithm.svg',
+  'MSK Pediatric': 'content/diagrams/arthritis-decision.svg',
+  'MSK Pediatrics': 'content/diagrams/arthritis-decision.svg',
+  'Mental Health Pediatric': 'content/diagrams/depression-algorithm.svg',
+  'Neonatal': 'content/diagrams/pediatric-immunization-schedule.svg',
+  'Newborn': 'content/diagrams/pediatric-immunization-schedule.svg',
+  'Neuro Case': 'content/diagrams/seizure-algorithm.svg',
+  'Neurology Pediatrics': 'content/diagrams/seizure-algorithm.svg',
+  'Oral Health': 'content/diagrams/pediatric-milestones-timeline.svg',
+  'Respiratory Pediatrics': 'content/diagrams/pediatric-respiratory-distress.svg',
+  // ── D120: Women's Health / OB / Geriatrics ────────────────────
+  'Contraception': 'content/diagrams/contraception-decision.svg',
+  'Menopause': 'content/diagrams/obstetrics-algorithm.svg',
+  'Obstetrics Antepartum': 'content/diagrams/obstetrics-algorithm.svg',
+  'Obstetrics Case': 'content/diagrams/obstetrics-algorithm.svg',
+  'Obstetrics Complications': 'content/diagrams/obstetrics-algorithm.svg',
+  'Pregnancy': 'content/diagrams/obstetrics-algorithm.svg',
+  'Prenatal': 'content/diagrams/obstetrics-algorithm.svg',
+  "Women's Health": 'content/diagrams/obstetrics-algorithm.svg',
+  "Women's Health Breast": 'content/diagrams/obstetrics-algorithm.svg',
+  "Women's Health Gynecology": 'content/diagrams/obstetrics-algorithm.svg',
+  'STI': 'content/diagrams/obstetrics-algorithm.svg',
+  "Men's Health": 'content/diagrams/htn-algorithm.svg',
+  'Geriatrics': 'content/diagrams/neurodegen-algorithm.svg',
+  'Geriatrics Case': 'content/diagrams/neurodegen-algorithm.svg',
+  'IPV': 'content/diagrams/depression-algorithm.svg',
+  'LGBTQ+ Health': 'content/diagrams/obstetrics-algorithm.svg',
+  'LGBTQIAP+': 'content/diagrams/obstetrics-algorithm.svg',
+  'LGBTQIAP+ Case': 'content/diagrams/obstetrics-algorithm.svg',
+  'Pain Management': 'content/diagrams/gout-rheum-algorithm.svg',
+  'Substance Abuse': 'content/diagrams/depression-algorithm.svg',
+  'Substance Use': 'content/diagrams/depression-algorithm.svg',
+  'Mental Health': 'content/diagrams/depression-algorithm.svg',
+  'Care Coordination': 'content/diagrams/htn-algorithm.svg',
+  'Cultural Competence': 'content/diagrams/htn-algorithm.svg',
+  'Scope of Practice': 'content/diagrams/htn-algorithm.svg',
+  'Travel Health': 'content/diagrams/pharyngitis-algorithm.svg',
 };
 
 // Key points
@@ -1130,9 +1480,10 @@ function renderEpisode(topic) {
   html += `<div class="section-block">
     <div class="section-label visual">🗺 2 &nbsp; Visual</div>`;
   if (diagram) {
-    html += `<div class="diagram-container">
+    html += `<div class="diagram-container" onclick="openDiagram('${diagram}')" style="cursor:zoom-in;" title="Click to enlarge">
       <iframe src="${diagram}" class="diagram-embed" title="${topic} diagram"></iframe>
-    </div>`;
+    </div>
+    <span class="diagram-expand-btn" onclick="openDiagram('${diagram}')">⤢ Tap to enlarge</span>`;
   } else {
     html += `<div class="diagram-container" style="padding:30px;text-align:center;color:var(--text-mid);">
       <p style="font-size:14px;">📋 <strong>${topic}</strong> — Focus on clinical algorithms and decision trees for this topic.<br>
@@ -1150,7 +1501,7 @@ function renderEpisode(topic) {
     const detailHTML = detail ? `<div class="kp-detail" id="kpd-${idx}">${detail}</div>` : '';
     const expandIcon = detail ? `<span class="kp-expand-icon">▼</span>` : '';
     const clickAttr = detail ? `onclick="toggleKP(this, 'kpd-${idx}')"` : '';
-    html += `<li><div class="kp-row" ${clickAttr}><span class="kp-icon">→</span><span>${pt}</span>${expandIcon}</div>${detailHTML}</li>`;
+    html += `<li><div class="kp-row" ${clickAttr}><span class="kp-icon">→</span><span>${expandAbbreviations(pt)}</span>${expandIcon}</div>${detailHTML}</li>`;
   });
   html += `</ul></div>`;
 
@@ -1556,6 +1907,153 @@ async function init() {
 }
 
 document.addEventListener('DOMContentLoaded', init);
+
+// ===== DIAGRAM LIGHTBOX =====
+function openDiagram(src) {
+  event.stopPropagation();
+  document.getElementById('diagramLightboxFrame').src = src;
+  document.getElementById('diagramLightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeDiagram() {
+  document.getElementById('diagramLightbox').classList.remove('open');
+  document.getElementById('diagramLightboxFrame').src = '';
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDiagram(); });
+
+// ===== ABBREVIATION EXPANDER =====
+const ABBR = {
+  'HTN': 'hypertension', 'DM': 'diabetes mellitus', 'DM2': 'type 2 diabetes',
+  'T2DM': 'type 2 diabetes', 'T1DM': 'type 1 diabetes', 'HbA1c': 'glycated hemoglobin',
+  'A1c': 'hemoglobin A1c', 'BG': 'blood glucose', 'FBG': 'fasting blood glucose',
+  'OGTT': 'oral glucose tolerance test', 'GDM': 'gestational diabetes mellitus',
+  'SGLT2': 'sodium-glucose cotransporter 2', 'GLP-1': 'glucagon-like peptide-1',
+  'DPP-4': 'dipeptidyl peptidase-4', 'RA': 'rheumatoid arthritis',
+  'OA': 'osteoarthritis', 'SLE': 'systemic lupus erythematosus',
+  'AS': 'ankylosing spondylitis', 'PMR': 'polymyalgia rheumatica',
+  'GCA': 'giant cell arteritis', 'CPPD': 'calcium pyrophosphate deposition disease',
+  'DMARD': 'disease-modifying antirheumatic drug', 'TNF': 'tumor necrosis factor',
+  'ACEi': 'ACE inhibitor', 'ARB': 'angiotensin receptor blocker',
+  'CCB': 'calcium channel blocker', 'BB': 'beta blocker',
+  'HCTZ': 'hydrochlorothiazide', 'AF': 'atrial fibrillation',
+  'AFib': 'atrial fibrillation', 'CHF': 'congestive heart failure',
+  'HFrEF': 'heart failure with reduced ejection fraction',
+  'HFpEF': 'heart failure with preserved ejection fraction',
+  'EF': 'ejection fraction', 'BNP': 'B-type natriuretic peptide',
+  'MI': 'myocardial infarction', 'STEMI': 'ST-elevation MI',
+  'NSTEMI': 'non-ST-elevation MI', 'ACS': 'acute coronary syndrome',
+  'CAD': 'coronary artery disease', 'DVT': 'deep vein thrombosis',
+  'PE': 'pulmonary embolism', 'VTE': 'venous thromboembolism',
+  'ASCVD': 'atherosclerotic cardiovascular disease', 'LDL': 'low-density lipoprotein',
+  'HDL': 'high-density lipoprotein', 'TG': 'triglycerides',
+  'COPD': 'chronic obstructive pulmonary disease', 'FEV1': 'forced expiratory volume in 1 second',
+  'FVC': 'forced vital capacity', 'SABA': 'short-acting beta agonist',
+  'LABA': 'long-acting beta agonist', 'ICS': 'inhaled corticosteroid',
+  'MDI': 'metered-dose inhaler', 'SOB': 'shortness of breath',
+  'CXR': 'chest X-ray', 'URI': 'upper respiratory infection',
+  'UTI': 'urinary tract infection', 'GU': 'genitourinary',
+  'CKD': 'chronic kidney disease', 'GFR': 'glomerular filtration rate',
+  'eGFR': 'estimated GFR', 'BMP': 'basic metabolic panel',
+  'CMP': 'comprehensive metabolic panel', 'CBC': 'complete blood count',
+  'WBC': 'white blood cell', 'RBC': 'red blood cell', 'Hgb': 'hemoglobin',
+  'Hct': 'hematocrit', 'MCV': 'mean corpuscular volume', 'TSH': 'thyroid-stimulating hormone',
+  'T4': 'thyroxine', 'T3': 'triiodothyronine', 'TFT': 'thyroid function tests',
+  'DST': 'dexamethasone suppression test', 'ACTH': 'adrenocorticotropic hormone',
+  'MDD': 'major depressive disorder', 'GAD': 'generalized anxiety disorder',
+  'OCD': 'obsessive-compulsive disorder', 'PTSD': 'post-traumatic stress disorder',
+  'SSRI': 'selective serotonin reuptake inhibitor',
+  'SNRI': 'serotonin-norepinephrine reuptake inhibitor',
+  'TCA': 'tricyclic antidepressant', 'MAOI': 'monoamine oxidase inhibitor',
+  'EPS': 'extrapyramidal symptoms', 'TD': 'tardive dyskinesia',
+  'NMS': 'neuroleptic malignant syndrome', 'ECT': 'electroconvulsive therapy',
+  'CBT': 'cognitive behavioral therapy', 'DBT': 'dialectical behavior therapy',
+  'EMDR': 'eye movement desensitization and reprocessing',
+  'PHQ-9': 'Patient Health Questionnaire-9', 'GAD-7': 'Generalized Anxiety Disorder-7',
+  'AED': 'antiepileptic drug', 'MS': 'multiple sclerosis',
+  'MRI': 'magnetic resonance imaging', 'CT': 'computed tomography',
+  'EEG': 'electroencephalogram', 'LP': 'lumbar puncture', 'CSF': 'cerebrospinal fluid',
+  'TIA': 'transient ischemic attack', 'CVA': 'cerebrovascular accident',
+  'tPA': 'tissue plasminogen activator', 'NIHSS': 'NIH Stroke Scale',
+  'PD': 'Parkinson disease', 'GBS': 'Guillain-Barré syndrome',
+  'MG': 'myasthenia gravis', 'AChR': 'acetylcholine receptor',
+  'IVIG': 'intravenous immunoglobulin', 'DMT': 'disease-modifying therapy',
+  'STI': 'sexually transmitted infection', 'GC': 'gonorrhea (Neisseria gonorrhoeae)',
+  'PID': 'pelvic inflammatory disease', 'HPV': 'human papillomavirus',
+  'HSV': 'herpes simplex virus', 'HIV': 'human immunodeficiency virus',
+  'PrEP': 'pre-exposure prophylaxis', 'ART': 'antiretroviral therapy',
+  'OB': 'obstetrics', 'GYN': 'gynecology', 'LMP': 'last menstrual period',
+  'EDD': 'estimated due date', 'GBS': 'Group B Streptococcus',
+  'PCOS': 'polycystic ovary syndrome', 'FSH': 'follicle-stimulating hormone',
+  'LH': 'luteinizing hormone', 'HRT': 'hormone replacement therapy',
+  'OCP': 'oral contraceptive pill', 'LARC': 'long-acting reversible contraception',
+  'IUD': 'intrauterine device', 'DMPA': 'depot medroxyprogesterone acetate',
+  'EC': 'emergency contraception', 'BPH': 'benign prostatic hyperplasia',
+  'PSA': 'prostate-specific antigen', 'ED': 'erectile dysfunction',
+  'ADHD': 'attention-deficit/hyperactivity disorder', 'ASD': 'autism spectrum disorder',
+  'AAP': 'American Academy of Pediatrics', 'CDC': 'Centers for Disease Control and Prevention',
+  'USPSTF': 'U.S. Preventive Services Task Force', 'AHA': 'American Heart Association',
+  'ADA': 'American Diabetes Association', 'ACOG': 'American College of OB/GYN',
+  'NP': 'nurse practitioner', 'FNP': 'family nurse practitioner',
+  'PA': 'physician assistant', 'MD': 'medical doctor', 'DO': 'doctor of osteopathic medicine',
+  'IV': 'intravenous', 'IM': 'intramuscular', 'SQ': 'subcutaneous', 'PO': 'oral',
+  'PRN': 'as needed', 'QD': 'once daily', 'BID': 'twice daily',
+  'TID': 'three times daily', 'QID': 'four times daily', 'QHS': 'at bedtime',
+  'NPO': 'nothing by mouth', 'Dx': 'diagnosis', 'Tx': 'treatment', 'Hx': 'history',
+  'Sx': 'symptoms', 'Rx': 'prescription', 'PMH': 'past medical history',
+  'FH': 'family history', 'SH': 'social history', 'ROS': 'review of systems',
+  'VS': 'vital signs', 'BP': 'blood pressure', 'HR': 'heart rate', 'RR': 'respiratory rate',
+  'SpO2': 'oxygen saturation', 'BMI': 'body mass index', 'IBW': 'ideal body weight',
+  'HEENT': 'head, eyes, ears, nose, throat', 'CV': 'cardiovascular',
+  'GI': 'gastrointestinal', 'MSK': 'musculoskeletal', 'Neuro': 'neurological',
+  'LAD': 'lymphadenopathy', 'LN': 'lymph node', 'HSM': 'hepatosplenomegaly',
+  'JVD': 'jugular venous distension', 'S3': 'third heart sound', 'S4': 'fourth heart sound',
+  'RADT': 'rapid antigen detection test', 'PCR': 'polymerase chain reaction',
+  'UA': 'urinalysis', 'UCx': 'urine culture', 'LP': 'lumbar puncture',
+  'ESR': 'erythrocyte sedimentation rate', 'CRP': 'C-reactive protein',
+  'ANA': 'antinuclear antibody', 'RF': 'rheumatoid factor',
+  'anti-CCP': 'anti-cyclic citrullinated peptide antibody',
+  'anti-dsDNA': 'anti-double stranded DNA antibody',
+  'MAT': 'medication-assisted treatment', 'OUD': 'opioid use disorder',
+  'NRT': 'nicotine replacement therapy', 'LDCT': 'low-dose computed tomography',
+  'PPD': 'purified protein derivative (TB test)', 'LTBI': 'latent tuberculosis infection',
+  'MOH': 'medication overuse headache', 'ICHD': 'International Classification of Headache Disorders',
+  'CGRP': 'calcitonin gene-related peptide', 'TUG': 'timed up and go test',
+  'MMSE': 'Mini-Mental State Examination', 'MoCA': 'Montreal Cognitive Assessment',
+  'MELD': 'model for end-stage liver disease', 'INR': 'international normalized ratio',
+  'LFT': 'liver function test', 'ALT': 'alanine aminotransferase',
+  'AST': 'aspartate aminotransferase', 'GGT': 'gamma-glutamyl transferase',
+  'HBsAg': 'hepatitis B surface antigen', 'HBcAb': 'hepatitis B core antibody',
+  'HBsAb': 'hepatitis B surface antibody', 'HCV': 'hepatitis C virus',
+  'HBV': 'hepatitis B virus', 'DAA': 'direct-acting antiviral',
+  'IPV': 'intimate partner violence', 'TM': 'tympanic membrane',
+  'AOM': 'acute otitis media', 'OME': 'otitis media with effusion',
+  'GERD': 'gastroesophageal reflux disease', 'PUD': 'peptic ulcer disease',
+  'IBD': 'inflammatory bowel disease', 'IBS': 'irritable bowel syndrome',
+  'AAA': 'abdominal aortic aneurysm', 'NSAID': 'nonsteroidal anti-inflammatory drug',
+  'PPI': 'proton pump inhibitor', 'H2RA': 'H2 receptor antagonist',
+};
+
+function expandAbbreviations(text) {
+  if (!text) return text;
+  // Track which ones we've already expanded in this text block
+  const used = new Set();
+  return text.replace(/\b([A-Z][A-Z0-9\/\-]{1,9})\b/g, (match) => {
+    if (ABBR[match] && !used.has(match)) {
+      used.add(match);
+      return `${match} <span style="color:var(--text-light);font-size:0.88em;">(${ABBR[match]})</span>`;
+    }
+    return match;
+  });
+}
 </script>
+
+<!-- DIAGRAM LIGHTBOX -->
+<div id="diagramLightbox" onclick="closeDiagram()">
+  <span class="lb-close" onclick="closeDiagram()">✕</span>
+  <iframe id="diagramLightboxFrame" src="" title="Diagram fullscreen"></iframe>
+  <span class="lb-hint">Tap anywhere to close</span>
+</div>
+
 </body>
 </html>

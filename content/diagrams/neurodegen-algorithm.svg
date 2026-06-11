@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <style>
+      .title { font-size: 18px; font-weight: 700; fill: #0f172a; }
+      .box-label { font-size: 12px; font-weight: 700; fill: white; }
+      .box-text { font-size: 11px; fill: white; }
+      .diamond-text { font-size: 12px; font-weight: 700; fill: #0f172a; }
+      .yes-no { font-size: 11px; font-weight: 700; fill: #64748b; }
+      .step-text { font-size: 11px; fill: #1e293b; line-height: 1.5; }
+      .note { font-size: 10px; fill: #64748b; font-style: italic; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="920" fill="#f8fafc" rx="12"/>
+  <rect x="12" y="12" width="776" height="896" fill="white" rx="10" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="44" text-anchor="middle" class="title">Neurodegeneration — Clinical Algorithm</text>
+  <text x="400" y="62" text-anchor="middle" font-size="11" fill="#64748b">FNP D118 | Multiple Sclerosis · Parkinson's · GBS · Myasthenia Gravis</text>
+  <line x1="40" y1="72" x2="760" y2="72" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- ========================= MS BOX (left-top) ========================= -->
+  <rect x="30" y="86" width="230" height="50" rx="8" fill="#1e40af"/>
+  <text x="145" y="105" text-anchor="middle" class="box-label">MULTIPLE SCLEROSIS</text>
+  <text x="145" y="120" text-anchor="middle" class="box-text">Initial Presentation</text>
+
+  <line x1="145" y1="136" x2="145" y2="158" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <polygon points="145,160 225,192 145,224 65,192" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="145" y="186" text-anchor="middle" class="diamond-text">PRESENTATION</text>
+  <text x="145" y="201" text-anchor="middle" font-size="9" fill="#0369a1">optic neuritis, Lhermitte</text>
+  <text x="145" y="213" text-anchor="middle" font-size="9" fill="#0369a1">sensory/motor, Uhthoff</text>
+
+  <line x1="145" y1="224" x2="145" y2="244" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="50" y="244" width="190" height="55" rx="8" fill="#065f46"/>
+  <text x="145" y="262" text-anchor="middle" class="box-label">DIAGNOSTICS</text>
+  <text x="145" y="278" text-anchor="middle" class="box-text">MRI brain/spine: McDonald criteria</text>
+  <text x="145" y="293" text-anchor="middle" class="box-text">CSF: oligoclonal bands</text>
+
+  <line x1="145" y1="299" x2="145" y2="318" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <polygon points="145,320 215,345 145,370 75,345" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+  <text x="145" y="340" text-anchor="middle" class="diamond-text">TYPE?</text>
+  <text x="145" y="356" text-anchor="middle" font-size="9" fill="#92400e">RRMS vs Progressive</text>
+
+  <!-- RRMS arm (down) -->
+  <line x1="145" y1="370" x2="145" y2="390" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="45" y="390" width="200" height="50" rx="8" fill="#0c4a6e"/>
+  <text x="145" y="408" text-anchor="middle" class="box-label">ACUTE RELAPSE</text>
+  <text x="145" y="424" text-anchor="middle" class="box-text">IV methylprednisolone 1g/day</text>
+  <text x="145" y="438" text-anchor="middle" class="box-text">× 3–5 days (speeds recovery)</text>
+
+  <line x1="145" y1="440" x2="145" y2="458" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="30" y="458" width="230" height="70" rx="8" fill="#1e40af"/>
+  <text x="145" y="476" text-anchor="middle" class="box-label">DISEASE-MODIFYING THERAPY</text>
+  <text x="145" y="492" text-anchor="middle" class="box-text">Mild–moderate: interferon-beta, glatiramer</text>
+  <text x="145" y="507" text-anchor="middle" class="box-text">Moderate–severe: natalizumab, ocrelizumab</text>
+  <text x="145" y="522" text-anchor="middle" class="box-text">Monitoring: annual MRI; JCV Ab if natalizumab</text>
+
+  <!-- ========================= PARKINSON BOX (center-top) ========================= -->
+  <rect x="285" y="86" width="230" height="50" rx="8" fill="#1e40af"/>
+  <text x="400" y="105" text-anchor="middle" class="box-label">PARKINSON'S DISEASE</text>
+  <text x="400" y="120" text-anchor="middle" class="box-text">Bradykinesia + 1 cardinal sign</text>
+
+  <line x1="400" y1="136" x2="400" y2="158" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <polygon points="400,160 480,192 400,224 320,192" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="400" y="186" text-anchor="middle" class="diamond-text">DIAGNOSIS</text>
+  <text x="400" y="201" text-anchor="middle" font-size="9" fill="#0369a1">resting tremor, rigidity</text>
+  <text x="400" y="213" text-anchor="middle" font-size="9" fill="#0369a1">postural instability</text>
+
+  <line x1="400" y1="224" x2="400" y2="244" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <polygon points="400,246 465,268 400,290 335,268" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+  <text x="400" y="264" text-anchor="middle" class="diamond-text">UNCERTAIN?</text>
+  <text x="400" y="279" text-anchor="middle" font-size="9" fill="#92400e">DaTscan</text>
+
+  <line x1="400" y1="290" x2="400" y2="308" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="285" y="308" width="230" height="65" rx="8" fill="#065f46"/>
+  <text x="400" y="326" text-anchor="middle" class="box-label">INITIAL PHARMACOTHERAPY</text>
+  <text x="400" y="342" text-anchor="middle" class="box-text">Gold standard: levodopa/carbidopa</text>
+  <text x="400" y="357" text-anchor="middle" class="box-text">If &lt;60yo: dopamine agonist (pramipexole)</text>
+  <text x="400" y="372" text-anchor="middle" class="box-text">to delay dyskinesias</text>
+
+  <line x1="400" y1="373" x2="400" y2="392" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <polygon points="400,394 490,426 400,458 310,426" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="400" y="420" text-anchor="middle" class="diamond-text">MOTOR</text>
+  <text x="400" y="435" text-anchor="middle" font-size="9" fill="#0369a1">COMPLICATIONS?</text>
+
+  <!-- Wearing off (left) -->
+  <line x1="310" y1="426" x2="240" y2="426" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="276" y="418" text-anchor="middle" class="yes-no">Wearing off</text>
+  <rect x="50" y="410" width="190" height="50" rx="8" fill="#0c4a6e"/>
+  <text x="145" y="427" text-anchor="middle" class="box-label">COMT INHIBITOR</text>
+  <text x="145" y="443" text-anchor="middle" class="box-text">Add entacapone</text>
+  <text x="145" y="457" text-anchor="middle" class="box-text">Extended-release formulation</text>
+
+  <!-- Dyskinesia (right) -->
+  <line x1="490" y1="426" x2="560" y2="426" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="525" y="418" text-anchor="middle" class="yes-no">Dyskinesia</text>
+  <rect x="560" y="410" width="190" height="50" rx="8" fill="#dc2626"/>
+  <text x="655" y="427" text-anchor="middle" class="box-label">REDUCE LEVODOPA</text>
+  <text x="655" y="443" text-anchor="middle" class="box-text">Titrate down levodopa</text>
+  <text x="655" y="457" text-anchor="middle" class="box-text">Consider amantadine</text>
+
+  <!-- Non-motor -->
+  <line x1="400" y1="458" x2="400" y2="478" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="310" y="478" width="180" height="50" rx="8" fill="#0c4a6e"/>
+  <text x="400" y="495" text-anchor="middle" class="box-label">NON-MOTOR</text>
+  <text x="400" y="511" text-anchor="middle" class="box-text">Depression → SSRI</text>
+  <text x="400" y="525" text-anchor="middle" class="box-text">Constipation · REM behavior disorder</text>
+
+  <!-- ========================= GBS BOX (center-right) ========================= -->
+  <rect x="540" y="86" width="230" height="50" rx="8" fill="#1e40af"/>
+  <text x="655" y="105" text-anchor="middle" class="box-label">GUILLAIN-BARRÉ SYNDROME</text>
+  <text x="655" y="120" text-anchor="middle" class="box-text">Ascending paralysis</text>
+
+  <line x1="655" y1="136" x2="655" y2="158" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="550" y="158" width="210" height="42" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="655" y="175" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">Triggers:</text>
+  <text x="560" y="190" text-anchor="middle" font-size="10" fill="#7f1d1d">Campylobacter jejuni · EBV · CMV · Zika</text>
+
+  <line x1="655" y1="200" x2="655" y2="220" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="550" y="220" width="210" height="55" rx="8" fill="#065f46"/>
+  <text x="655" y="238" text-anchor="middle" class="box-label">DIAGNOSTICS</text>
+  <text x="655" y="254" text-anchor="middle" class="box-text">CSF: albumino-cytologic dissociation</text>
+  <text x="655" y="269" text-anchor="middle" class="box-text">NCS: demyelinating pattern</text>
+
+  <line x1="655" y1="275" x2="655" y2="294" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="540" y="294" width="230" height="55" rx="8" fill="#0c4a6e"/>
+  <text x="655" y="312" text-anchor="middle" class="box-label">TREATMENT</text>
+  <text x="655" y="328" text-anchor="middle" class="box-text">IVIG 0.4g/kg/day × 5 days</text>
+  <text x="655" y="343" text-anchor="middle" class="box-text">OR plasmapheresis (7 exchanges)</text>
+  <text x="655" y="358" text-anchor="middle" class="box-text font-weight: 700; fill: #fca5a5">⚠ STEROIDS DO NOT HELP</text>
+
+  <line x1="655" y1="349" x2="655" y2="372" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="550" y="372" width="210" height="48" rx="8" fill="#dc2626"/>
+  <text x="655" y="390" text-anchor="middle" class="box-label">RESPIRATORY MONITORING</text>
+  <text x="655" y="406" text-anchor="middle" class="box-text">FVC &lt; 20 mL/kg → INTUBATE</text>
+  <text x="655" y="418" text-anchor="middle" class="box-text">Monitor NIF, vital capacity q4-6h</text>
+
+  <!-- ========================= MG BOX (bottom-span) ========================= -->
+  <rect x="30" y="545" width="740" height="50" rx="8" fill="#1e40af"/>
+  <text x="400" y="564" text-anchor="middle" class="box-label">MYASTHENIA GRAVIS</text>
+  <text x="400" y="580" text-anchor="middle" class="box-text">Fatigable weakness — ptosis, diplopia, bulbar symptoms, proximal limb weakness</text>
+
+  <line x1="400" y1="595" x2="400" y2="614" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Diagnostics row -->
+  <rect x="30" y="614" width="240" height="55" rx="8" fill="#065f46"/>
+  <text x="150" y="632" text-anchor="middle" class="box-label">DIAGNOSTICS</text>
+  <text x="150" y="648" text-anchor="middle" class="box-text">Anti-AChR Ab (85%) or anti-MuSK Ab</text>
+  <text x="150" y="663" text-anchor="middle" class="box-text">Edrophonium (Tensilon) test if equivocal</text>
+
+  <line x1="270" y1="641" x2="310" y2="641" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="310" y="614" width="160" height="55" rx="8" fill="#0c4a6e"/>
+  <text x="390" y="632" text-anchor="middle" class="box-label">IMAGING</text>
+  <text x="390" y="648" text-anchor="middle" class="box-text">CT chest</text>
+  <text x="390" y="663" text-anchor="middle" class="box-text">Rule out thymoma (10-15%)</text>
+
+  <line x1="470" y1="641" x2="510" y2="641" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="510" y="614" width="260" height="55" rx="8" fill="#0c4a6e"/>
+  <text x="640" y="632" text-anchor="middle" class="box-label">TREATMENT</text>
+  <text x="640" y="648" text-anchor="middle" class="box-text">Pyridostigmine (symptom control)</text>
+  <text x="640" y="663" text-anchor="middle" class="box-text">+ Prednisone / azathioprine (immunosuppression)</text>
+
+  <line x1="400" y1="669" x2="400" y2="692" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- MG Crisis path -->
+  <polygon points="400,694 500,726 400,758 300,726" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="400" y="720" text-anchor="middle" class="diamond-text" fill="#dc2626">MYASTHENIC</text>
+  <text x="400" y="735" text-anchor="middle" font-size="10" font-weight="700" fill="#dc2626">CRISIS?</text>
+
+  <line x1="300" y1="726" x2="240" y2="726" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="270" y="718" text-anchor="middle" class="yes-no">NO</text>
+  <rect x="40" y="706" width="200" height="48" rx="8" fill="#065f46"/>
+  <text x="140" y="723" text-anchor="middle" class="box-label">THYMECTOMY</text>
+  <text x="140" y="739" text-anchor="middle" class="box-text">If generalized MG, regardless of thymoma</text>
+
+  <line x1="500" y1="726" x2="560" y2="726" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="530" y="718" text-anchor="middle" class="yes-no">YES →</text>
+  <rect x="560" y="700" width="200" height="55" rx="8" fill="#dc2626"/>
+  <text x="660" y="718" text-anchor="middle" class="box-label">CRISIS MANAGEMENT</text>
+  <text x="660" y="734" text-anchor="middle" class="box-text">IVIG or plasmapheresis</text>
+  <text x="660" y="749" text-anchor="middle" class="box-text">+ Respiratory support</text>
+
+  <!-- ========================= KEY MEMORY POINTS ========================= -->
+  <rect x="40" y="828" width="720" height="68" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="400" y="846" text-anchor="middle" font-size="11" font-weight="700" fill="#1e293b">KEY MEMORY POINTS</text>
+  <text x="80" y="862" font-size="10" fill="#475569">🎯 MS = McDonald criteria: DIS + DIT; IV methylprednisolone speeds recovery, does NOT change long-term prognosis</text>
+  <text x="80" y="876" font-size="10" fill="#475569">🎯 Parkinson tremor = RESTING tremor (not intention); levodopa is gold standard; dopamine agonists if &lt;60 to delay dyskinesia</text>
+  <text x="400" y="862" font-size="10" fill="#475569">🎯 GBS = IVIG or plasmapheresis — steroids are CONTRAINDICATED</text>
+  <text x="400" y="876" font-size="10" fill="#475569">🎯 MG crisis = IVIG or plasmapheresis + respiratory support; thymectomy for generalized MG</text>
+</svg>
