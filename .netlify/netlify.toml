@@ -43,3 +43,12 @@ for = "/content/*"
 
 [headers.values]
 Cache-Control = "public, max-age=86400"
+
+[[headers]]
+for = "/payhip-products/*"
+
+[headers.values]
+Cache-Control = "no-cache, no-store, must-revalidate"
+Content-Disposition = "attachment"
+X-Content-Type-Options = "nosniff"
+Access-Control-Allow-Origin = "*"
