@@ -1729,6 +1729,27 @@ function saveState() {
     correctByTopic: state.correctByTopic
   };
   localStorage.setItem('fnp_state', JSON.stringify(persist));
+
+  // Sync to Supabase so the daily pipeline can target weak areas
+  try {
+    const rows = Object.entries(state.correctByTopic || {}).map(([topic, counts]) => ({
+      topic,
+      correct: counts.correct || 0,
+      total: counts.total || 0,
+      pct: counts.total ? Math.round((counts.correct / counts.total) * 100) : 0,
+    }));
+    if (rows.length) {
+      fetch('https://yofxwmgtuehluhmkjiso.supabase.co/rest/v1/fnp_progress', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlvZnh3bWd0dWVobHVobWtqaXNvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEyODE3NTMsImV4cCI6MjA5Njg1Nzc1M30.mhPJmIhWwitNQEQO49a6m-r3x3RDEEDTE4Gi6ghPxc4',
+          'Prefer': 'resolution=merge-duplicates',
+        },
+        body: JSON.stringify(rows),
+      }).catch(() => {});
+    }
+  } catch (_) {}
 }
 
 function loadState() {
@@ -2461,3 +2482,4 @@ function expandAbbreviations(text) {
 
 </body>
 </html>
+<!-- deploy 1781985158 -->
