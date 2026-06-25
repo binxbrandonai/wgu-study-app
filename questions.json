@@ -3919,6 +3919,774 @@
       "video": "HU3V0kftcqY",
       "video_title": "Respiratory Review",
       "video_source": "Dr. High Yield"
+    },
+    {
+      "topic": "Osteoarthritis - Hip",
+      "course": "D118",
+      "q": "A 68-year-old woman has gradual-onset groin pain that radiates to the anterior thigh and medial knee. Pain worsens with weight-bearing and improves with rest. Hip range of motion is limited and painful. What is the most likely diagnosis?",
+      "a": [
+        "Osteoarthritis of the hip",
+        "Avascular necrosis of the femoral head",
+        "Lumbar radiculopathy (L3-L4)",
+        "Trochanteric bursitis"
+      ],
+      "correct": 0,
+      "rationale": "Hip OA typically presents with insidious-onset groin pain referred to the anterior thigh and knee (via the obturator nerve), worsened by weight-bearing and improved with rest. Avascular necrosis has acute onset with risk factors (steroids, alcohol, sickle cell), lumbar radiculopathy follows a dermatomal pattern, and trochanteric bursitis presents with lateral hip pain. **Board tip:** Hip OA pain is felt in the groin, not the lateral hip; lateral hip pain is typically trochanteric bursitis or gluteal tendinopathy. Initial imaging is plain radiographs \u2014 joint space narrowing, osteophytes, subchondral sclerosis.",
+      "video": "sUOlmI-naFs",
+      "video_title": "OA Overview",
+      "video_source": "YouTube"
+    },
+    {
+      "topic": "Osteoarthritis - Hand",
+      "course": "D118",
+      "q": "A 62-year-old woman presents with pain and stiffness in her hands. On exam, she has bony enlargements at the DIP joints and the base of the thumb. What are these findings called?",
+      "a": [
+        "Heberden nodes (DIP) and thenar eminence wasting (CMC)",
+        "Heberden nodes (DIP) and Bouchard nodes (PIP)",
+        "Tophi (DIP) and Boutonniere deformities (PIP)",
+        "Swan-neck deformities and ulnar deviation"
+      ],
+      "correct": 1,
+      "rationale": "Hand OA produces Heberden nodes (DIP osteophytes) and Bouchard nodes (PIP osteophytes), with first CMC joint involvement common. Ulnar deviation and swan-neck deformities are rheumatoid arthritis findings, tophi are gout deposits, and thenar wasting suggests carpal tunnel or CMC arthritis, not wrist drop. **Clinical pearl:** The distribution pattern differentiates OA from RA \u2014 OA involves DIP, PIP, and thumb base; RA involves MCP, PIP, and wrists (sparing DIP). Morning stiffness in OA lasts <30 minutes; in RA, >60 minutes.",
+      "video": "sUOlmI-naFs",
+      "video_title": "OA Overview",
+      "video_source": "YouTube"
+    },
+    {
+      "topic": "Rheumatoid Arthritis - Diagnosis",
+      "course": "D118",
+      "q": "A 45-year-old woman has 8 weeks of symmetric morning stiffness in both hands and wrists lasting over an hour. Exam shows tender, swollen MCP and PIP joints bilaterally. RF is positive and anti-CCP is strongly positive. CRP and ESR are elevated. What is the most likely diagnosis?",
+      "a": [
+        "Rheumatoid arthritis",
+        "Osteoarthritis",
+        "Systemic lupus erythematosus",
+        "Psoriatic arthritis"
+      ],
+      "correct": 0,
+      "rationale": "This patient meets ACR/EULAR 2010 RA criteria: joint involvement (\u22656 small joints, including MCP/PIP), serology (positive RF AND anti-CCP \u2014 high-titer anti-CCP is nearly 95% specific for RA), acute-phase reactants elevated, symptom duration >6 weeks. OA lacks inflammatory labs and anti-CCP, SLE has multi-organ involvement and dsDNA antibodies, and psoriatic arthritis typically has DIP predominance with skin/nail changes. **Board tip:** Anti-CCP antibody is the most specific serologic test for RA (specificity ~95%). Early treatment with DMARDs within 3 months of symptoms improves long-term outcomes.",
+      "video": "EB5zxdAQGzU",
+      "video_title": "RA Diagnosis",
+      "video_source": "Osmosis"
+    },
+    {
+      "topic": "Rheumatoid Arthritis - DMARD Selection",
+      "course": "D118",
+      "q": "A 40-year-old woman is newly diagnosed with moderate-to-severe rheumatoid arthritis. She has no TB exposure and normal LFTs. What first-line therapy is recommended?",
+      "a": [
+        "Methotrexate monotherapy as first-line DMARD",
+        "Prednisone monotherapy",
+        "TNF inhibitor (adalimumab) as first-line",
+        "Hydroxychloroquine only"
+      ],
+      "correct": 0,
+      "rationale": "ACR guidelines recommend methotrexate as the first-line conventional synthetic DMARD (csDMARD) for moderate-to-severe RA due to its efficacy, safety profile, and cost-effectiveness. Prednisone treats symptoms long-term, TNF inhibitors are reserved for inadequate response to csDMARDs (step-up), and hydroxychloroquine alone is typically for mild disease. **Clinical pearl:** Screen for TB, hepatitis B/C, and obtain baseline LFTs/CBC/CMP before starting methotrexate. Supplement with folic acid 1mg daily to reduce side effects. Monitor LFTs and CBC regularly.",
+      "video": "HxJKeTyDWas",
+      "video_title": "DMARD Therapy",
+      "video_source": "Osmosis"
+    },
+    {
+      "topic": "Gout - Acute Management",
+      "course": "D118",
+      "q": "A 55-year-old man presents with acute-onset erythema, swelling, and excruciating pain at the first MTP joint. He has a history of hypertension and CKD stage 3 (eGFR 38). What is the safest first-line treatment for this acute gout flare?",
+      "a": [
+        "Colchicine (low dose, adjusted for renal impairment)",
+        "High-dose NSAIDs (indomethacin)",
+        "Allopurinol 300mg daily",
+        "Intra-articular corticosteroid injection"
+      ],
+      "correct": 0,
+      "rationale": "In patients with CKD (eGFR <60), colchicine is preferred over NSAIDs for acute gout because NSAIDs reduce renal blood flow and can worsen kidney function. Colchicine dose must be reduced in CKD (avoid in eGFR <30). Allopurinol is maintenance therapy, never started during acute flare. Intra-articular steroids are an option for monoarticular flares but colchicine is safer and systemic. **Board tip:** NEVER start urate-lowering therapy (allopurinol, febuxostat) during an acute flare \u2014 wait 2-4 weeks after resolution. For acute gout in CKD, use colchicine (dose-adjusted) or corticosteroids. NSAIDs are contraindicated in CKD and GI bleeding risk.",
+      "video": "TQqzJVk29ao",
+      "video_title": "Gout Review",
+      "video_source": "IM MEDICAL"
+    },
+    {
+      "topic": "Pseudogout (CPPD) - Diagnosis",
+      "course": "D118",
+      "q": "A 70-year-old man presents with acute-onset knee pain, swelling, and warmth. Joint aspiration yields bloody-appearing fluid with weakly positive birefringent rhomboid-shaped crystals under polarized light microscopy. What is the diagnosis?",
+      "a": [
+        "Pseudogout (calcium pyrophosphate deposition disease)",
+        "Gout (monosodium urate crystals)",
+        "Septic arthritis",
+        "Rheumatoid arthritis flare"
+      ],
+      "correct": 0,
+      "rationale": "CPPD (pseudogout) crystals are rhomboid-shaped and show weakly positive birefringence on polarized microscopy. Gout crystals are needle-shaped with strongly negative birefringence. Septic arthritis has no crystals, positive Gram stain/culture, and is a medical emergency. RA flare would be polyarticular and symmetric without crystals. **Clinical pearl:** CPPD is associated with aging, osteoarthritis, and metabolic conditions (hemochromatosis, hyperparathyroidism, hypomagnesemia). Treatment of acute pseudogout is similar to gout: NSAIDs, colchicine, or steroids.",
+      "video": "u2yAEdkTKNU",
+      "video_title": "Pseudogout",
+      "video_source": "Zero To Finals"
+    },
+    {
+      "topic": "Ankylosing Spondylitis - Treatment",
+      "course": "D118",
+      "q": "A 30-year-old man with inflammatory back pain, morning stiffness >60 minutes, and radiographic evidence of bilateral sacroiliitis. ESR and CRP are elevated. What is the recommended first-line treatment?",
+      "a": [
+        "NSAIDs (continuous use) plus physical therapy",
+        "TNF inhibitor (adalimumab) as first-line",
+        "Methotrexate monotherapy",
+        "Oral corticosteroids"
+      ],
+      "correct": 0,
+      "rationale": "ASAS/EULAR guidelines recommend NSAIDs as first-line pharmacologic therapy for axial spondyloarthritis, combined with physical therapy/exercise. TNF inhibitors are second-line for patients with active disease despite NSAIDs. Methotrexate has no proven efficacy in axial disease, and corticosteroids lack evidence for axial disease. **Board tip:** Unlike RA, methotrexate is NOT effective for axial spondyloarthritis. TNF inhibitors (adalimumab, infliximab) are the first biologic choice. Assess disease activity with BASDAI questionnaire and monitor with serial MRI/CRP.",
+      "video": "TDCHKEt2kkY",
+      "video_title": "AS Treatment",
+      "video_source": "Paul Bolin, M.D."
+    },
+    {
+      "topic": "Polymyalgia Rheumatica - Treatment",
+      "course": "D118",
+      "q": "A 72-year-old woman presents with bilateral shoulder and hip girdle pain and stiffness lasting >2 hours in the morning. ESR is 90 mm/hr and CRP is elevated. RF and anti-CCP are negative. She has dramatic improvement within 24 hours of starting prednisone 15mg daily. What is the most likely diagnosis?",
+      "a": [
+        "Polymyalgia rheumatica",
+        "Rheumatoid arthritis (seronegative)",
+        "Fibromyalgia",
+        "Polymyositis"
+      ],
+      "correct": 0,
+      "rationale": "PMR is diagnosed clinically in patients >50 with bilateral shoulder/hip girdle pain, prolonged morning stiffness, markedly elevated acute-phase reactants, and dramatic response to low-to-moderate dose prednisone (12.5-25mg daily). Seronegative RA would not have this dramatic steroid response. Fibromyalgia has tender points and normal inflammatory markers. Polymyositis shows elevated CK and muscle weakness, not just pain. **Clinical pearl:** Always screen for Giant Cell Arteritis symptoms in PMR patients (headache, jaw claudication, vision changes) as 15-20% of GCA patients have PMR. Prednisone taper should be slow over 12-24 months.",
+      "video": "PgmKF_J2pJA",
+      "video_title": "PMR 2024",
+      "video_source": "Vasculitis Foundation"
+    },
+    {
+      "topic": "Giant Cell Arteritis - Diagnosis",
+      "course": "D118",
+      "q": "A 70-year-old woman presents with new-onset temporal headache, jaw claudication when chewing, and tenderness over the temporal artery. ESR is 110 mm/hr. What is the most appropriate next step?",
+      "a": [
+        "Start high-dose prednisone immediately and obtain temporal artery biopsy within 1 week",
+        "Obtain temporal artery biopsy before starting any treatment",
+        "Start NSAIDs and monitor symptoms",
+        "Order MRI brain before treatment"
+      ],
+      "correct": 0,
+      "rationale": "Suspected GCA requires immediate high-dose prednisone (40-60mg/day) to prevent irreversible vision loss (anterior ischemic optic neuropathy). Biopsy can still be positive up to 2 weeks after starting steroids. Delaying treatment for biopsy risks blindness. NSAIDs are insufficient, and MRI brain is not diagnostic. **Board tip:** GCA is the most common systemic vasculitis in adults >50. Never delay steroids for biopsy when GCA is suspected. Temporal artery biopsy shows granulomatous inflammation with multinucleated giant cells. Monitor for aortic aneurysm (long-term complication).",
+      "video": "VpxAHI3AYCo",
+      "video_title": "Giant Cell Arteritis",
+      "video_source": "MedCram"
+    },
+    {
+      "topic": "Fibromyalgia - Diagnosis and Management",
+      "course": "D118",
+      "q": "A 38-year-old woman presents with widespread musculoskeletal pain for >6 months, fatigue, non-restorative sleep, and difficulty concentrating. Exam shows multiple tender points and no synovitis. All inflammatory labs are normal. What is the most appropriate management?",
+      "a": [
+        "Multimodal approach: exercise, CBT, and consider pregabalin or duloxetine",
+        "Opioid therapy for pain management",
+        "High-dose NSAIDs daily",
+        "Prednisone taper"
+      ],
+      "correct": 0,
+      "rationale": "Fibromyalgia is diagnosed using the Widespread Pain Index and Symptom Severity Scale. Management is multimodal: aerobic exercise (strongest evidence), cognitive behavioral therapy, and FDA-approved medications (pregabalin, duloxetine, milnacipran). Opioids are NOT effective and not recommended. NSAIDs and steroids don't treat the central sensitization mechanism. **Board tip:** Fibromyalgia is a diagnosis of central sensitization \u2014 treat with non-pharmacologic measures first (exercise, sleep hygiene, stress reduction). Medications are adjuncts, not first-line. Avoid opioids entirely. Screening for depression and anxiety is essential.",
+      "video": "7IMmGvvAAQI",
+      "video_title": "Fibromyalgia",
+      "video_source": "Paul Bolin, M.D."
+    },
+    {
+      "topic": "Carpal Tunnel Syndrome - Diagnosis",
+      "course": "D118",
+      "q": "A 45-year-old pregnant woman presents with numbness and tingling in her thumb, index, and middle fingers that wakes her at night. Symptoms improve with shaking her hand. What test finding is most specific?",
+      "a": [
+        "Positive Tinel sign and Phalen maneuver",
+        "Positive Spurling test",
+        "Positive Finkelstein test",
+        "Positive drop arm test"
+      ],
+      "correct": 0,
+      "rationale": "Carpal tunnel syndrome presents with median nerve distribution symptoms (thumb, index, middle, and radial half of ring finger). Nocturnal paresthesias relieved by flicking the hand (Flick sign) are classic. Tinel sign (tapping over carpal tunnel reproduces symptoms) and Phalen maneuver (maximal wrist flexion for 60 seconds) are the most specific exam tests. Spurling test is for cervical radiculopathy, Finkelstein for De Quervain tenosynovitis, and drop arm test for rotator cuff tear. **Clinical pearl:** Carpal tunnel in pregnancy is common (3rd trimester) and typically resolves postpartum. Treat with nocturnal wrist splinting first. EMG/NCS confirms diagnosis and severity.",
+      "video": "gQk6wBc0sZk",
+      "video_title": "Carpal Tunnel Syndrome",
+      "video_source": "Zero To Finals"
+    },
+    {
+      "topic": "Osteoporosis - Screening and Treatment",
+      "course": "D118",
+      "q": "A 66-year-old postmenopausal woman with no prior fractures asks about osteoporosis screening. She is 5'3\" (160 cm), weighs 110 lbs (50 kg), and has a family history of hip fracture. When should DXA screening begin?",
+      "a": [
+        "DXA is indicated now \u2014 age 65 or earlier if risk factors present",
+        "DXA every 5 years starting at age 70",
+        "DXA is not needed without prior fracture",
+        "DXA should be done at age 50 for all women"
+      ],
+      "correct": 0,
+      "rationale": "USPSTF recommends DXA screening for all women \u226565, and earlier (starting at menopause) for those with risk factors: low body weight (<127 lbs), family history of hip fracture, smoking, excessive alcohol, glucocorticoid use, or secondary causes. Her low BMI and family history qualify her for early screening. FRAX tool can help quantify 10-year fracture risk. **Board tip:** Screen ALL women \u226565. Screen earlier (age 50-64) if FRAX 10-year risk of major osteoporotic fracture \u22658.4%. Osteoporosis = T-score \u2264 -2.5. Treat with bisphosphonates first-line.",
+      "video": "NoYy8OY_iL0",
+      "video_title": "Cancer Screening",
+      "video_source": "IM MEDICAL"
+    },
+    {
+      "topic": "Stroke - Ischemic vs Hemorrhagic",
+      "course": "D118",
+      "q": "A 68-year-old man with hypertension presents with acute-onset right-sided weakness, facial droop, and expressive aphasia. Symptoms started 2 hours ago. CT head without contrast shows no hemorrhage. BP is 185/105. What is the most appropriate next step?",
+      "a": [
+        "Administer IV alteplase (tPA) if no other contraindications within 3 hours of onset",
+        "Start aspirin 325mg immediately",
+        "Lower BP to <140/90 before any treatment",
+        "Order MRI brain before treatment"
+      ],
+      "correct": 0,
+      "rationale": "Acute ischemic stroke within the 3-hour (extended to 4.5-hour) window with no hemorrhage on CT qualifies for IV thrombolysis with alteplase, provided BP can be lowered to <185/110. Her BP 185/105 is above threshold \u2014 lower gently to <185/110 before tPA. Aspirin is given after hemorrhage is excluded but is held for 24 hours after tPA. MRI takes too long and delays treatment. **Board tip:** Time is brain \u2014 1.9 million neurons lost per minute in untreated stroke. tPA window: 0-3 hours (all), 3-4.5 hours (additional exclusions: >80, anticoagulated, diabetes + prior stroke, NIHSS >25). Do NOT give antiplatelets within 24 hours after tPA.",
+      "video": "mbnHMZn_vfs",
+      "video_title": "Stroke 2025",
+      "video_source": "The Neurophile"
+    },
+    {
+      "topic": "Parkinson's Disease - Initial Pharmacotherapy",
+      "course": "D118",
+      "q": "A 68-year-old man presents with asymmetric resting tremor in his right hand, bradykinesia, and cogwheel rigidity. He is diagnosed with early Parkinson's disease. Symptoms are bothersome enough to warrant treatment. What is the most appropriate first-line pharmacotherapy?",
+      "a": [
+        "Carbidopa/levodopa",
+        "Benztropine",
+        "Deep brain stimulation",
+        "Selegiline monotherapy"
+      ],
+      "correct": 0,
+      "rationale": "Carbidopa/levodopa (CD/LD) is the most effective symptomatic treatment for Parkinson's disease and remains first-line, even in early disease, when symptoms require treatment. The old practice of 'saving' levodopa is no longer recommended. Benztropine treats drug-induced parkinsonism but not idiopathic PD. DBS is reserved for advanced disease with motor fluctuations, and selegiline has modest benefit. **Board tip:** In patients <60, a dopamine agonist (pramipexole, ropinirole) or MAO-B inhibitor can be considered first-line to delay levodopa-induced dyskinesias, but levodopa is still the most effective. Always start CD/LD at the lowest effective dose (25/100 TID).",
+      "video": "MdsPBaH-6Po",
+      "video_title": "PD Medications",
+      "video_source": "YouTube"
+    },
+    {
+      "topic": "Multiple Sclerosis - Initial Presentation",
+      "course": "D118",
+      "q": "A 32-year-old woman presents with acute-onset blurred vision in her right eye associated with pain on eye movement. She also had an episode of right leg numbness that resolved spontaneously 6 months ago. Examination reveals reduced visual acuity and a relative afferent pupillary defect (RAPD) on the right. What is the most likely diagnosis?",
+      "a": [
+        "Multiple sclerosis \u2014 clinically isolated syndrome (optic neuritis)",
+        "Migraine with aura",
+        "Central retinal artery occlusion",
+        "Acute angle-closure glaucoma"
+      ],
+      "correct": 0,
+      "rationale": "Optic neuritis (painful vision loss with RAPD) is a common first presentation of MS, especially in young women. A prior transient neurologic symptom (leg numbness) that fully resolved raises the suspicion for prior demyelinating episodes. Migraine aura is typically binocular, retinal artery occlusion has acute painless vision loss and cherry-red spot, and glaucoma has elevated IOP with a fixed pupil. **Board tip:** MS diagnosis requires dissemination in time and space \u2014 either clinically (separate episodes) or by MRI (new/enhancing lesions). Optic neuritis presenting with pain on eye movement and decreased color vision is characteristic (especially red desaturation). Initial treatment of acute relapses is high-dose IV methylprednisolone.",
+      "video": "yzH8ul5PSZ8",
+      "video_title": "MS Overview",
+      "video_source": "Osmosis"
+    },
+    {
+      "topic": "Seizure - First Unprovoked Seizure",
+      "course": "D118",
+      "q": "A 25-year-old woman has a witnessed generalized tonic-clonic seizure lasting 3 minutes. She has no history of seizures, no provoking factors (no fever, no head trauma, no substance use), and normal electrolytes. EEG shows generalized epileptiform discharges. MRI brain is normal. What is the most appropriate management?",
+      "a": [
+        "Start antiseizure medication (e.g., lamotrigine or levetiracetam) due to high recurrence risk from abnormal EEG",
+        "No treatment \u2014 observe only",
+        "Start phenytoin loading dose",
+        "Refer for epilepsy surgery evaluation"
+      ],
+      "correct": 0,
+      "rationale": "After a first unprovoked seizure, the decision to start antiseizure medication (ASM) depends on recurrence risk. An abnormal EEG with epileptiform discharges raises 2-year recurrence risk to ~60%, so treatment is indicated. Observe only if EEG and MRI are both normal (recurrence risk ~30-40%). Phenytoin is no longer first-line due to side effects. Epilepsy surgery is for refractory epilepsy after failing 2+ ASMs. **Board tip:** First unprovoked seizure: start ASM if EEG shows epileptiform discharges, MRI shows structural abnormality, or seizure was focal. Levetiracetam and lamotrigine are preferred first-line for focal and generalized seizures. Driving restrictions vary by state (typically 3-6 months seizure-free).",
+      "video": "v0PuDFk9K0s",
+      "video_title": "First Unprovoked Seizure",
+      "video_source": "IAP Tamilnadu"
+    },
+    {
+      "topic": "Myasthenia Gravis - Diagnosis",
+      "course": "D118",
+      "q": "A 45-year-old woman presents with fluctuating diplopia, ptosis worse at the end of the day, and difficulty swallowing. Symptoms improve with rest. Exam shows fatigable weakness of eye closure and shoulder abduction. What diagnostic test is most specific?",
+      "a": [
+        "Acetylcholine receptor (AChR) antibody testing",
+        "Edrophonium (Tensilon) test",
+        "EMG with repetitive nerve stimulation",
+        "MRI brain with contrast"
+      ],
+      "correct": 0,
+      "rationale": "AChR antibodies are detectable in ~85% of generalized MG and ~50% of ocular MG, with near 100% specificity. The Tensilon test has fallen out of favor due to false positives and cardiac risks. Repetitive nerve stimulation shows decremental response (sensitive but not specific). MRI brain is for ruling out stroke or MS. **Board tip:** MG is a diagnosis of fatigable weakness \u2014 symptoms fluctuate and worsen with use, improve with rest. Ocular (ptosis, diplopia) is the first presentation in 50-70%. Check for thymoma with CT chest (thymectomy indications: thymoma or <age 45 with generalized MG). MuSK antibodies in AChR-negative patients.",
+      "video": "il3vvxNpls8",
+      "video_title": "Myasthenia Gravis",
+      "video_source": "Zero To Finals"
+    },
+    {
+      "topic": "Guillain-Barr\u00e9 Syndrome - Treatment",
+      "course": "D118",
+      "q": "A 55-year-old man develops ascending symmetric weakness in his legs progressing to his arms over 5 days, 2 weeks after a diarrheal illness. Deep tendon reflexes are absent. CSF shows elevated protein with normal cell count (cytoalbuminologic dissociation). What is the most appropriate treatment?",
+      "a": [
+        "IV immunoglobulin (IVIG) or plasma exchange",
+        "High-dose IV methylprednisolone",
+        "Oral prednisone taper",
+        "Supportive care only, no disease-modifying treatment"
+      ],
+      "correct": 0,
+      "rationale": "GBS (including the most common subtype, acute inflammatory demyelinating polyneuropathy) is treated with IVIG or plasma exchange \u2014 both are equally effective. Corticosteroids (oral or IV) do NOT improve outcomes and may worsen prognosis. Supportive care is important but disease-modifying treatment reduces progression and speeds recovery. **Board tip:** GBS is a post-infectious autoimmune neuropathy \u2014 most commonly preceded by Campylobacter jejuni (gastroenteritis). Key diagnostic triad: ascending weakness, areflexia, and cytoalbuminologic dissociation. Monitor forced vital capacity (FVC) closely \u2014 20-30% of patients require mechanical ventilation. IVIG dose: 0.4 g/kg/day \u00d7 5 days.",
+      "video": "ngsYnoulZWI",
+      "video_title": "GBS Treatment",
+      "video_source": "Dr MEK Medical Education"
+    },
+    {
+      "topic": "Type 2 Diabetes - Insulin Initiation",
+      "course": "D118",
+      "q": "A 58-year-old man with type 2 diabetes on metformin 2000mg daily and empagliflozin has an A1C of 9.5%. He has no history of CVD or CKD. What is the most appropriate next step?",
+      "a": [
+        "Start basal insulin (glargine or degludec) 0.1-0.2 units/kg/day",
+        "Add a sulfonylurea",
+        "Start prandial insulin (lispro) before meals",
+        "Switch to insulin pump therapy"
+      ],
+      "correct": 0,
+      "rationale": "When A1C remains \u22659% despite oral combination therapy, basal insulin is indicated. Starting at 0.1-0.2 units/kg (or 10 units) of long-acting insulin (glargine, degludec, detemir) and titrating to fasting glucose targets is standard. Sulfonylureas are less preferred due to hypoglycemia and limited efficacy at this A1C. Prandial insulin is added later if glycemic targets are not met on basal alone. Insulin pumps are for type 1 or highly selected type 2 patients. **Board tip:** The transition from non-insulin therapies to insulin should not be delayed when A1C is \u22659% on dual/triple therapy. Basal insulin first, titrate to fasting glucose <130 mg/dL, then add prandial or GLP-1 RA if needed.",
+      "video": "31dq_wZ_I3k",
+      "video_title": "Starting Insulin",
+      "video_source": "Real World NP"
+    },
+    {
+      "topic": "Type 2 Diabetes - Diabetic Ketoacidosis Risk",
+      "course": "D118",
+      "q": "A 52-year-old man with type 2 diabetes on metformin, empagliflozin (SGLT2 inhibitor), and glargine presents with nausea, vomiting, and abdominal pain for 2 days. He has been unable to eat or drink. Glucose is 280 mg/dL, serum ketones are positive, and blood gas shows metabolic acidosis. What does this presentation suggest?",
+      "a": [
+        "Euglycemic DKA associated with SGLT2 inhibitor use",
+        "Hyperosmolar hyperglycemic state (HHS)",
+        "Lactic acidosis from metformin",
+        "Viral gastroenteritis only"
+      ],
+      "correct": 0,
+      "rationale": "SGLT2 inhibitors (empagliflozin, canagliflozin, dapagliflozin) can cause euglycemic DKA where blood glucose is only mildly elevated (<300 mg/dL) despite significant ketosis and acidosis, especially during illness or fasting. The classic DKA hyperglycemia may be absent. HHS has glucose >600 mg/dL without significant ketosis. Metformin-associated lactic acidosis is rare and presents with elevated lactate. **Board tip:** Hold SGLT2 inhibitors 3-4 days before surgery, during illness, or when patients cannot eat/drink (sick day management). Euglycemic DKA requires the same treatment as DKA: IV fluids and insulin, but with dextrose-containing fluids because glucose is not dramatically elevated.",
+      "video": "8lDc7QjGJ9w",
+      "video_title": "Bacterial Conjunctivitis",
+      "video_source": "EKG Science"
+    },
+    {
+      "topic": "Hypothyroidism - Levothyroxine Dosing",
+      "course": "D118",
+      "q": "A 32-year-old woman is diagnosed with primary hypothyroidism (TSH 15, free T4 low). She is not pregnant and has no cardiac history. What is the appropriate starting dose of levothyroxine?",
+      "a": [
+        "1.6 mcg/kg/day (full replacement dose)",
+        "25 mcg daily (start low, titrate up)",
+        "100 mcg twice daily",
+        "50 mcg daily, only if symptomatic"
+      ],
+      "correct": 0,
+      "rationale": "For young, healthy adults, levothyroxine can be started at full replacement dose: 1.6 mcg/kg ideal body weight (typically 75-125 mcg daily). Starting low (25-50 mcg) and slow-titrating is reserved for older adults (\u226565) or those with cardiac disease (CAD, arrhythmia). Twice-daily dosing is not needed (long half-life ~7 days). All patients with overt hypothyroidism need treatment regardless of symptoms. **Board tip:** Levothyroxine should be taken on an empty stomach (30-60 min before breakfast) with water only. Check TSH 6-8 weeks after dose changes. Target TSH: 0.5-2.5 for non-pregnant adults. Adjust for pregnancy (TSH target <2.5 in first trimester, <3.0 in 2nd/3rd).",
+      "video": "Acn7LdnfvrM",
+      "video_title": "Hypothyroidism Treatment",
+      "video_source": "MedNerd"
+    },
+    {
+      "topic": "Hyperthyroidism - Graves Disease Management",
+      "course": "D118",
+      "q": "A 30-year-old woman presents with weight loss, palpitations, heat intolerance, tremors, and exophthalmos. TSH is <0.01, free T4 and T3 are elevated, and TSH receptor antibodies (TRAb) are positive. What is the best management approach?",
+      "a": [
+        "Methimazole (thionamide) plus beta blocker for symptom control",
+        "Radioactive iodine ablation as first-line",
+        "Propylthiouracil (PTU) is preferred in all adults",
+        "Surgical thyroidectomy as first-line"
+      ],
+      "correct": 0,
+      "rationale": "First-line treatment for Graves disease in non-pregnant adults is methimazole (MMI; 10-30mg daily) to block thyroid hormone synthesis, along with a beta blocker (propranolol or atenolol) for rapid symptom control. RAI is second-line (contraindicated in active orbitopathy as it may worsen exophthalmos). PTU is reserved for first trimester pregnancy (due to MMI teratogenicity) or thyroid storm. Surgery is third-line (large goiter, suspected cancer, or failed medical therapy). **Board tip:** Methimazole side effects: rash, arthralgias, agranulocytosis (rare \u2014 check WBC if sore throat/fever), hepatotoxicity. Beta blockers (not atenolol, use propranolol) also reduce T4-to-T3 conversion. Check CBC and LFTs before starting thionamides. Graves orbitopathy: ophthalmology referral, smoking cessation essential.",
+      "video": "epWJ2v5qy5E",
+      "video_title": "Hyperthyroidism",
+      "video_source": "Ninja Nerd"
+    },
+    {
+      "topic": "Adrenal Insufficiency - Diagnosis",
+      "course": "D118",
+      "q": "A 45-year-old woman on chronic prednisone for rheumatoid arthritis presents with fatigue, nausea, and hypotension after abruptly stopping her prednisone. ACTH stimulation test shows a blunted cortisol response. What is the diagnosis?",
+      "a": [
+        "Secondary adrenal insufficiency (HPA axis suppression from exogenous steroids)",
+        "Primary adrenal insufficiency (Addison disease)",
+        "Cushing syndrome",
+        "Pheochromocytoma"
+      ],
+      "correct": 0,
+      "rationale": "Chronic exogenous glucocorticoid use suppresses the HPA axis via negative feedback on ACTH production, leading to secondary adrenal insufficiency. The adrenal glands are normal but lack ACTH stimulation. Primary AI (Addison disease) would show elevated ACTH with low cortisol \u2014 the ACTH stim test distinguishes them (but both show blunted cortisol). Cushing syndrome is the hypercortisol state, and pheochromocytoma presents with episodic hypertension. **Board tip:** Any patient on supraphysiologic glucocorticoids (>5mg prednisone/day for >3 weeks) should be considered at risk for HPA suppression. Taper steroids slowly (e.g., 2.5mg prednisone every 2-4 weeks). 'Stress dose' steroids are needed during illness/surgery. ACTH stimulation test (cosyntropin) is the gold standard.",
+      "video": "KNa5fD3bQfo",
+      "video_title": "Addison's Disease",
+      "video_source": "Osmosis"
+    },
+    {
+      "topic": "Cushing Syndrome - Screening",
+      "course": "D118",
+      "q": "A 40-year-old woman presents with central obesity, moon facies, purple abdominal striae, proximal muscle weakness, and easy bruising. Which screening test is most appropriate?",
+      "a": [
+        "24-hour urinary free cortisol, late-night salivary cortisol, or 1mg overnight dexamethasone suppression test",
+        "Random serum cortisol",
+        "ACTH level only",
+        "Adrenal CT scan first"
+      ],
+      "correct": 0,
+      "rationale": "Initial screening for Cushing syndrome uses one of three tests with high sensitivity: 24-hour urinary free cortisol (\u00d72), late-night salivary cortisol (\u00d72), or 1mg overnight DST. Random cortisol is useless due to diurnal variation. ACTH level or imaging is only indicated after hypercortisolism is confirmed, to determine the cause (ACTH-dependent vs independent). **Board tip:** The 1mg overnight DST is the simplest: give 1mg dexamethasone at 11pm and check 8am cortisol \u2014 normal suppresses to <1.8 mcg/dL. False positives occur with pregnancy, obesity, depression, alcohol use, and estrogen therapy. Confirm with at least 2 abnormal tests before localizing.",
+      "video": "ZINZOob04IY",
+      "video_title": "Dexamethasone Suppression Test",
+      "video_source": "Zero To Finals"
+    },
+    {
+      "topic": "PCOS - Diagnosis",
+      "course": "D118",
+      "q": "A 25-year-old woman presents with oligomenorrhea, hirsutism, and acne for 2 years. BMI is 32. What criteria are used to diagnose polycystic ovary syndrome?",
+      "a": [
+        "Rotterdam criteria: 2 of 3 \u2014 oligo/anovulation, clinical/biochemical hyperandrogenism, polycystic ovaries on ultrasound",
+        "Ferriman-Gallwey score alone",
+        "Elevated LH/FSH ratio >2:1",
+        "Free testosterone level only"
+      ],
+      "correct": 0,
+      "rationale": "PCOS diagnosis uses Rotterdam criteria \u2014 requires 2 of 3: oligo- or anovulation (irregular menses), clinical (hirsutism, acne) or biochemical (elevated free testosterone) hyperandrogenism, and polycystic ovaries on ultrasound (\u226520 follicles per ovary or ovarian volume \u226510 mL). Must exclude other causes: thyroid disease, hyperprolactinemia, non-classic congenital adrenal hyperplasia, Cushing syndrome. **Board tip:** PCOS affects 6-12% of reproductive-age women. Screen all patients with PCOS for metabolic syndrome: glucose intolerance/diabetes (2-hour OGTT or A1C), dyslipidemia, and NAFLD. First-line treatment: lifestyle modification (weight loss improves all aspects), OCPs for menstrual regulation and hirsutism, metformin for metabolic concerns or anovulation.",
+      "video": "YVQzolMgNp0",
+      "video_title": "PCOS Explained",
+      "video_source": "Rhesus Medicine"
+    },
+    {
+      "topic": "Major Depressive Disorder - First-Line Pharmacotherapy",
+      "course": "D118",
+      "q": "A 34-year-old woman is diagnosed with major depressive disorder (PHQ-9 score of 18). She has no other medical conditions and takes no other medications. What is the most appropriate first-line antidepressant?",
+      "a": [
+        "Sertraline or escitalopram (SSRI) \u2014 start at low dose, titrate every 2 weeks",
+        "Venlafaxine (SNRI) \u2014 start at high dose for rapid response",
+        "Amitriptyline (TCA) \u2014 sedating, good for sleep",
+        "Phenelzine (MAOI) \u2014 most effective class"
+      ],
+      "correct": 0,
+      "rationale": "SSRIs (sertraline, escitalopram, fluoxetine, citalopram, paroxetine) are first-line for MDD due to favorable tolerability, safety in overdose, and minimal drug interactions. SNRIs are second-line (more side effects, especially at high doses). TCAs have anticholinergic side effects and cardiotoxicity in overdose. MAOIs require dietary restrictions (tyramine-free diet) and have dangerous drug interactions \u2014 they are reserved for treatment-resistant depression. **Board tip:** Allow 4-8 weeks for full therapeutic effect. Continue for 6-12 months after first episode remission, then consider taper. For patients with insomnia, consider mirtazapine (sedating). For anergic/hypersomnia patients, consider bupropion (activating). Monitor for worsening suicidal ideation in first 2-4 weeks, especially in adolescents and young adults.",
+      "video": "3IUkw23paUk",
+      "video_title": "Major Depressive Disorder",
+      "video_source": "Osmosis"
+    },
+    {
+      "topic": "Generalized Anxiety Disorder - First-Line Treatment",
+      "course": "D118",
+      "q": "A 40-year-old man has been worrying excessively about work, finances, and family for over 8 months. He reports muscle tension, fatigue, and difficulty sleeping. He has no history of mania. What is the first-line pharmacologic treatment for GAD?",
+      "a": [
+        "SSRI or SNRI (escitalopram, sertraline, venlafaxine, or duloxetine)",
+        "Benzodiazepine (clonazepam) as needed",
+        "Buspirone monotherapy",
+        "Hydroxyzine"
+      ],
+      "correct": 0,
+      "rationale": "First-line pharmacotherapy for GAD is an SSRI (escitalopram, sertraline) or SNRI (venlafaxine, duloxetine). These agents treat both the anxiety and comorbid depression. Benzodiazepines are second/third-line due to tolerance, dependence, and fall risk (especially in older adults). Buspirone and hydroxyzine are less effective alternatives but can be used as augmentation. **Board tip:** Start SSRIs at low doses in anxiety patients (they can initially worsen anxiety \u2014 'jitteriness syndrome'). Always combine pharmacotherapy with CBT, which has the strongest evidence for GAD. Avoid benzodiazepine monotherapy \u2014 they are not disease-modifying. GAD has a lifetime prevalence of ~5-6% and is twice as common in women.",
+      "video": "QqLqzKNzxuM",
+      "video_title": "GAD Treatment",
+      "video_source": "Psychiatry Simplified"
+    },
+    {
+      "topic": "Bipolar Disorder - First-Line Mood Stabilizer",
+      "course": "D118",
+      "q": "A 28-year-old man presents with a 1-week history of elevated mood, grandiosity, decreased need for sleep, pressured speech, and excessive involvement in risky activities. He was previously diagnosed with depression and treated with fluoxetine without benefit. What is the most appropriate initial treatment for the acute manic episode?",
+      "a": [
+        "Lithium or valproate (mood stabilizer), plus may add an atypical antipsychotic if severe",
+        "Fluoxetine dose increase",
+        "Benzodiazepine monotherapy",
+        "Lamotrigine monotherapy"
+      ],
+      "correct": 0,
+      "rationale": "Acute mania requires a mood stabilizer (lithium or valproate) as first-line, often combined with an atypical antipsychotic (olanzapine, quetiapine, risperidone) for rapid symptom control in severe cases. Antidepressants (fluoxetine) can precipitate or worsen mania in bipolar patients. Benzodiazepines are adjunctive only \u2014 not monotherapy. Lamotrigine is effective for bipolar depression and maintenance but NOT for acute mania. **Board tip:** Bipolar I disorder is defined by manic episodes (\u22651 week, causing functional impairment or psychosis). Bipolar II requires hypomanic episodes (\u22654 days, no psychosis/impairment) plus depressive episodes. Lithium reduces suicide risk \u2014 check renal function, thyroid, and lithium levels (target 0.6-1.2 mEq/L). Avoid antidepressants without mood stabilizer in bipolar patients.",
+      "video": "ZM1kGn3cjgg",
+      "video_title": "Mood Stabilizers",
+      "video_source": "Dirty Medicine"
+    },
+    {
+      "topic": "Schizophrenia - First-Line Antipsychotic",
+      "course": "D118",
+      "q": "A 22-year-old man presents with paranoid delusions, auditory hallucinations, disorganized speech, and social withdrawal for the past 4 months. He has no prior psychiatric history. What is the most appropriate first-line treatment?",
+      "a": [
+        "Second-generation (atypical) antipsychotic \u2014 risperidone, olanzapine, or aripiprazole",
+        "First-generation (typical) antipsychotic \u2014 haloperidol",
+        "ECT as first-line treatment",
+        "Benzodiazepine monotherapy for psychotic symptoms"
+      ],
+      "correct": 0,
+      "rationale": "Second-generation antipsychotics (SGAs) are first-line for schizophrenia due to better tolerability (fewer extrapyramidal symptoms, lower tardive dyskinesia risk). First-generation antipsychotics (FGAs) like haloperidol are effective but have higher EPS risk. ECT is reserved for catatonia or treatment-refractory cases. Benzodiazepines do not treat psychotic symptoms. **Board tip:** Schizophrenia diagnosis requires \u22652 of 5 core symptoms (delusions, hallucinations, disorganized speech, grossly disorganized/catatonic behavior, negative symptoms) lasting \u22656 months with functional decline. Negative symptoms (alogia, avolition, anhedonia, blunted affect) are harder to treat and cause more disability. Monitor for metabolic syndrome (weight gain, lipids, glucose) with all SGAs \u2014 especially olanzapine and clozapine.",
+      "video": "3J1swiS7uJo",
+      "video_title": "Antipsychotics Mnemonics",
+      "video_source": "Memorable Psychiatry"
+    },
+    {
+      "topic": "PTSD - Evidence-Based Treatment",
+      "course": "D118",
+      "q": "A 35-year-old military veteran presents with recurrent nightmares, hypervigilance, avoidance of crowds, and intrusive memories following combat exposure 3 years ago. He has tried therapy intermittently. What is the most evidence-based first-line treatment for PTSD?",
+      "a": [
+        "Trauma-focused psychotherapy (CPT or PE) combined with SSRI/SNRI pharmacotherapy",
+        "Benzodiazepine (clonazepam) for sleep and anxiety",
+        "Prazosin monotherapy for nightmares",
+        "Supportive therapy alone"
+      ],
+      "correct": 0,
+      "rationale": "First-line PTSD treatment is trauma-focused psychotherapy (Cognitive Processing Therapy, Prolonged Exposure, or EMDR) combined with SSRIs/SNRIs (sertraline, paroxetine, venlafaxine are FDA-approved). Benzodiazepines are NOT recommended in PTSD (worsen outcomes, increase risk of developing PTSD). Prazosin is used for nightmares but is not a first-line monotherapy. Supportive therapy alone is insufficient for core PTSD symptoms. **Board tip:** Screen for PTSD in primary care with the PC-PTSD-5. First-line agents: sertraline (50-200mg) and paroxetine (20-60mg) are FDA-approved. Treatment requires at least 8-12 weeks at therapeutic doses. Continue for 6-12 months after response. Always inquire about suicidal ideation, substance use, and intimate partner violence.",
+      "video": "rynncgAcrYg",
+      "video_title": "PTSD Evidence-Based",
+      "video_source": "YouTube"
+    },
+    {
+      "topic": "Alcohol Use Disorder - DSM-5 Severity",
+      "course": "D118",
+      "q": "A 45-year-old man reports drinking a 6-pack of beer daily for 15 years. He has tried to cut down multiple times but cannot. He continues drinking despite job problems and relationship conflicts. He has developed tolerance and experiences withdrawal symptoms when he stops. How many DSM-5 AUD criteria does he meet, and what severity is this?",
+      "a": [
+        "\u22656 criteria \u2014 severe alcohol use disorder",
+        "2-3 criteria \u2014 mild alcohol use disorder",
+        "4-5 criteria \u2014 moderate alcohol use disorder",
+        "1 criterion \u2014 not diagnosed"
+      ],
+      "correct": 0,
+      "rationale": "DSM-5 AUD criteria: 11 criteria in 4 categories (impaired control, social impairment, risky use, pharmacologic criteria: tolerance and withdrawal). Severity: mild = 2-3, moderate = 4-5, severe = \u22656. This patient meets at least 6 criteria (tolerance, withdrawal, inability to cut down, continued use despite problems, social/occupational impact, craving likely), indicating severe AUD. **Board tip:** Single-question screen: 'How many times in the past year have you had 4+ (women) or 5+ (men) drinks in a day?' Positive screen \u2192 follow with AUDIT-C. FDA-approved medications for AUD: naltrexone (reduces craving/relapse), acamprosate (reduces withdrawal distress), disulfiram (aversion). Naltrexone and topiramate (off-label) reduce heavy drinking days.",
+      "video": "V84XEunXVeg",
+      "video_title": "Alcohol Use Disorder Severity",
+      "video_source": "APA"
+    },
+    {
+      "topic": "Panic Disorder - Medication Selection",
+      "course": "D118",
+      "q": "A 30-year-old woman experiences recurrent, unexpected episodes of intense fear with palpitations, chest tightness, choking sensation, and fear of dying. She avoids driving and going to the grocery store. What is the most appropriate first-line medication?",
+      "a": [
+        "SSRI (sertraline or escitalopram) \u2014 start low due to initial anxiogenic effect",
+        "Alprazolam (Xanax) as needed for panic attacks",
+        "Propranolol daily",
+        "Bupropion (Wellbutrin)"
+      ],
+      "correct": 0,
+      "rationale": "SSRIs are first-line pharmacotherapy for panic disorder with or without agoraphobia. Start at half the usual starting dose (e.g., sertraline 12.5-25mg) because SSRIs can transiently worsen anxiety in panic disorder patients. Benzodiazepines are effective but not first-line due to tolerance and dependence. Propranolol treats performance anxiety (social phobia) but not panic disorder. Bupropion can worsen anxiety (activating antidepressant). **Board tip:** Panic disorder diagnosis requires recurrent unexpected panic attacks plus \u22651 month of persistent worry about attacks, fear of their implications, or maladaptive behavioral change (e.g., agoraphobic avoidance). CBT (interoceptive exposure) is equally effective as medication \u2014 the combination is best. First-line SSRIs: sertraline, fluoxetine, paroxetine; SNRI: venlafaxine. Treatment response takes 4-8 weeks.",
+      "video": "R_oerTjxEZg",
+      "video_title": "Panic Attacks",
+      "video_source": "YouTube"
+    },
+    {
+      "topic": "Osteoporosis - Bisphosphonate Duration",
+      "course": "D118",
+      "q": "A 72-year-old woman has been on alendronate 70mg weekly for osteoporosis for 6 years. Current DXA T-score is -2.4 (stable from -2.6 at initiation). She has had no fractures. What is the most appropriate management?",
+      "a": [
+        "Continue alendronate \u2014 reassess after 10 years; or consider a drug holiday",
+        "Switch to denosumab due to bisphosphonate failure",
+        "Stop alendronate and start teriparatide",
+        "Add calcium and vitamin D only, stop alendronate"
+      ],
+      "correct": 0,
+      "rationale": "After 5 years of oral bisphosphonate (or 3 years of IV) for non-high-risk patients (no fracture, T-score > -2.5), guidelines recommend reassessment. Consider a drug holiday (2-4 years) if T-score is stable and not osteoporotic. However, since this patient started at -2.6 (osteoporotic range), continuing to 10 years per ASBMR guidelines is reasonable if she remains low-risk for fracture. Switching to denosumab/teriparatide is for treatment failure (new fracture, declining BMD). **Board tip:** Atypical femur fracture and osteonecrosis of the jaw are rare complications of prolonged bisphosphonate use (>5 years). Drug holiday: recheck DXA every 2 years; restart if T-score drops into osteoporotic range or fracture occurs. Calcium (1000-1200mg/day) and vitamin D (800-1000 IU/day) are essential with or without pharmacotherapy.",
+      "video": "sUOlmI-naFs",
+      "video_title": "OA Overview",
+      "video_source": "YouTube"
+    },
+    {
+      "topic": "Acute Otitis Media - Antibiotic Selection",
+      "course": "D118",
+      "q": "A 3-year-old child presents with ear pain for 48 hours, fever of 102\u00b0F (38.9\u00b0C), and an erythematous, bulging tympanic membrane with purulent effusion. He has not had otitis media in the past year. What is the first-line antibiotic?",
+      "a": [
+        "Amoxicillin 80-90 mg/kg/day for 10 days (or 7 days if age \u22656)",
+        "Amoxicillin-clavulanate (Augmentin)",
+        "Azithromycin 5-day course",
+        "Cefdinir"
+      ],
+      "correct": 0,
+      "rationale": "High-dose amoxicillin (80-90 mg/kg/day) is first-line for uncomplicated AOM because Streptococcus pneumoniae is the most common pathogen and high-dose amoxicillin covers intermediate-resistant strains. Amoxicillin-clavulanate is reserved for treatment failure after 48-72 hours, recent antibiotic use (within 30 days), or severe illness. Macrolides (azithromycin) have high pneumococcal resistance rates. Cefdinir is second-line for penicillin allergy. **Board tip:** AOM diagnostic criteria: acute onset, middle ear effusion (bulging TM, decreased mobility, otorrhea), and signs/symptoms of middle ear inflammation. Watchful waiting (48-72 hours) is appropriate for age \u22656 months with non-severe illness (mild pain, temperature <39\u00b0C). Treat promptly in age <6 months or severe illness.",
+      "video": "7X3t-FvZLUo",
+      "video_title": "Acute Otitis Media | Emergency Medicine",
+      "video_source": "Core EM"
+    },
+    {
+      "topic": "Pharyngitis - Strep vs Viral",
+      "course": "D118",
+      "q": "A 22-year-old college student presents with sore throat, fever of 101\u00b0F (38.3\u00b0C), and tender anterior cervical lymphadenopathy. There is no cough or rhinorrhea. Centor criteria score is 4. What is the most appropriate management?",
+      "a": [
+        "Rapid strep test \u2014 if positive, treat with penicillin or amoxicillin",
+        "Empiric antibiotics without testing (Centor 4 has >50% probability)",
+        "Supportive care only \u2014 likely viral",
+        "Throat culture only \u2014 wait 48 hours for results"
+      ],
+      "correct": 0,
+      "rationale": "Centor criteria: fever >100.4\u00b0F (1), tonsillar exudate (1), tender anterior cervical lymphadenopathy (1), absent cough (1). Score 4 has ~50-60% probability of group A Strep. IDSA guidelines recommend rapid antigen testing (sensitivity ~85-90%) with confirmatory culture if negative. Many guidelines (including IDSA) allow empiric treatment at Centor 4 without testing, but rapid test confirmation is best practice. Penicillin or amoxicillin is first-line (narrow spectrum prevents resistance). **Board tip:** Centor modified (McIsaac) adds age: <15 (+1), >45 (0). First-line: penicillin V 250mg TID or amoxicillin 50mg/kg/day for 10 days. Treat to prevent acute rheumatic fever (not necessary in the US per day 3, but still recommended to prevent ARF and suppurative complications). Amoxicillin is NOT recommended for mononucleosis (causes rash).",
+      "video": "CoBJ6pDCLKI",
+      "video_title": "Strep vs Viral",
+      "video_source": "YouTube"
+    },
+    {
+      "topic": "Acute Sinusitis - Diagnosis and Treatment",
+      "course": "D118",
+      "q": "A 35-year-old man reports nasal congestion, purulent nasal discharge, maxillary facial pain, and fever for 10 days without improvement. He has tried over-the-counter decongestants with minimal relief. On exam, he has tenderness over the maxillary sinuses. What is the most appropriate management?",
+      "a": [
+        "Amoxicillin-clavulanate for 5-7 days (antibiotics indicated: symptoms >10 days without improvement)",
+        "Watchful waiting \u2014 80% resolve without antibiotics",
+        "Amoxicillin alone without clavulanate",
+        "Nasal corticosteroids alone"
+      ],
+      "correct": 0,
+      "rationale": "Acute bacterial rhinosinusitis (ABRS) is indicated by symptoms lasting >10 days, or worsening after initial improvement (double worsening), or severe symptoms (fever \u226539\u00b0C, purulent nasal discharge, facial pain for \u22653 consecutive days). IDSA guidelines recommend amoxicillin-clavulanate as first-line due to increasing H. influenzae and M. catarrhalis resistance to amoxicillin alone (amoxicillin-clavulanate covers beta-lactamase producers). Watchful waiting is appropriate for <10 days. Nasal corticosteroids are adjunctive. **Board tip:** Distinguish viral (symptoms <10 days, peaks at 3-6 days) from bacterial (persistent >10 days or double worsening). Treatment duration: IDSA recommends 5-7 days (short course); 10-14 days for severe disease. Amoxicillin-clavulanate 875/125mg BID or 2000/125mg BID for 5-7 days.",
+      "video": "CVUqP0x0C9k",
+      "video_title": "Sinusitis (updated 2023)",
+      "video_source": "Paul Bolin, M.D."
+    },
+    {
+      "topic": "Epiglottitis - Recognition and Management",
+      "course": "D118",
+      "q": "A 4-year-old child presents with acute-onset high fever, drooling, muffled voice, and severe sore throat. The child is sitting in a tripod position with the mouth open and tongue protruding. What is the most appropriate next step?",
+      "a": [
+        "Do NOT examine the throat \u2014 take to OR for direct visualization and airway management by ENT/anesthesia, then start IV ceftriaxone",
+        "Examine the throat with a tongue depressor to confirm diagnosis",
+        "Order a lateral neck X-ray in the exam room",
+        "Start oral amoxicillin and observe"
+      ],
+      "correct": 0,
+      "rationale": "Epiglottitis is an airway emergency. In children, any manipulation of the throat (tongue depressor, oral exam, X-ray positioning) can precipitate complete airway obstruction. Priority: maintain airway (OR for direct visualization and intubation by ENT/anesthesia), then obtain cultures and start IV antibiotics (ceftriaxone covers H. influenzae type b). Lateral neck X-ray shows the 'thumbprint sign' but should NOT delay definitive airway management. **Board tip:** Hib vaccination has dramatically reduced epiglottitis incidence, but it still occurs in unvaccinated children and adults. Classic presentation: the 4 Ds \u2014 Dysphagia, Dysphonia, Drooling, Distress. In adults, consider streptococcal and staphylococcal causes; flexible laryngoscopy is safer than tongue depression. Empiric: ceftriaxone + vancomycin (for MRSA). Steroids are debated.",
+      "video": "WwcD2KI2q6g",
+      "video_title": "Epiglottitis",
+      "video_source": "Paul Bolin, M.D."
+    },
+    {
+      "topic": "Peritonsillar Abscess - Management",
+      "course": "D118",
+      "q": "A 28-year-old woman presents with severe unilateral sore throat, trismus (difficulty opening her mouth), muffled 'hot potato' voice, and uvular deviation to the right. What is the most appropriate management?",
+      "a": [
+        "CT neck with contrast to confirm, then needle aspiration or incision and drainage plus antibiotics (clindamycin or penicillin + metronidazole)",
+        "Oral amoxicillin alone",
+        "Warm salt water gargles and NSAIDs",
+        "Immediate tonsillectomy (quinsy tonsillectomy)"
+      ],
+      "correct": 0,
+      "rationale": "Peritonsillar abscess (quinsy) requires drainage (needle aspiration, incision and drainage, or abscess tonsillectomy) plus antibiotics. CT with contrast confirms the diagnosis and rules out parapharyngeal/deep neck space extension. First-line antibiotics: clindamycin (covers Strep, Staph, anaerobes) or penicillin + metronidazole. Oral antibiotics alone are insufficient for a drainable abscess. Quinsy tonsillectomy is done only in select cases or failed drainage. **Board tip:** PTA is the most common deep neck space infection. Key exam findings: unilateral swelling, uvula deviation AWAY from the affected side, trismus (due to pterygoid muscle irritation). If the patient has significant trismus, stridor, or neck swelling, obtain CT to rule out parapharyngeal or retropharyngeal extension. ENT referral for all PTA cases.",
+      "video": "BxttM5VY2M8",
+      "video_title": "Quinsy",
+      "video_source": "YouTube"
+    },
+    {
+      "topic": "Allergic Rhinitis - Treatment",
+      "course": "D118",
+      "q": "A 30-year-old man presents with sneezing, nasal congestion, clear rhinorrhea, and itchy eyes in the spring and fall. Symptoms are significantly affecting his quality of life. He has tried oral antihistamines with partial relief. What is the most effective first-line treatment?",
+      "a": [
+        "Intranasal corticosteroids (fluticasone or mometasone) daily",
+        "Oral antihistamines alone (cetirizine, loratadine)",
+        "Montelukast monotherapy",
+        "Allergen immunotherapy (allergy shots) as first-line"
+      ],
+      "correct": 0,
+      "rationale": "Intranasal corticosteroids (INCS) are the most effective monotherapy for allergic rhinitis, superior to oral antihistamines for nasal congestion and total symptom control. They are the first-line treatment per ARIA/AAAAI guidelines. Oral antihistamines help sneezing and itching but are less effective for congestion. Montelukast is less effective than INCS and is FDA-approved for seasonal AR. Immunotherapy is reserved for moderate-severe disease uncontrolled with medications. **Board tip:** INCS take 1-2 weeks for full effect \u2014 counsel patients on adherence. Add intranasal antihistamine (azelastine) for breakthrough symptoms. Combination INCS + intranasal antihistamine (e.g., Dymista) is highly effective. For severe cases, consider immunotherapy (sublingual or subcutaneous). Distinguish AR from non-allergic rhinitis, which presents year-round without allergy triggers.",
+      "video": "xw35MvZEljY",
+      "video_title": "Allergic Rhinitis",
+      "video_source": "Osmosis"
+    },
+    {
+      "topic": "Acute Bronchitis - Appropriate Management",
+      "course": "D118",
+      "q": "A 40-year-old otherwise healthy woman presents with productive cough lasting 12 days following an upper respiratory infection. She has clear nasal discharge and mild wheezing on exam. Vital signs are normal. What is the most appropriate management?",
+      "a": [
+        "Supportive care with cough suppressants and hydration \u2014 antibiotics NOT indicated (viral etiology)",
+        "Azithromycin for acute bronchitis (atypical coverage)",
+        "Amoxicillin for 10 days",
+        "Albuterol inhaler and prednisone"
+      ],
+      "correct": 0,
+      "rationale": "Acute bronchitis is almost always viral (rhinovirus, influenza, RSV, adenovirus, coronavirus). Antibiotics are NOT indicated unless pertussis is suspected (prolonged paroxysmal cough with post-tussive emesis). Azithromycin and amoxicillin are inappropriate and contribute to antibiotic resistance. Albuterol can be considered for wheezing, but prednisone is not routinely indicated unless underlying asthma/COPD. **Board tip:** The mnemonic CARDS helps distinguish when antibiotics are indicated for cough: Curious chest X-ray findings (pneumonia), Asplenia, Rheumatic fever history, Double sickening (viral URI \u2192 worsening bacterial), Suspected pertussis. For simple acute bronchitis: cough can last 2-4 weeks \u2014 reassure patient, supportive care, return if worsening. Procalcitonin can help distinguish bacterial from viral if uncertain.",
+      "video": "GyTfzKE6bYc",
+      "video_title": "Acute Bronchitis - CRASH!",
+      "video_source": "Paul Bolin, M.D."
+    },
+    {
+      "topic": "Community-Acquired Pneumonia - Empiric Treatment",
+      "course": "D118",
+      "q": "A 55-year-old woman presents with fever, productive cough with purulent sputum, pleuritic chest pain, and dyspnea for 3 days. She has no comorbidities, no recent antibiotics or hospitalization. Chest X-ray shows a left lower lobe infiltrate. CURB-65 score is 1. What is the most appropriate empiric antibiotic regimen?",
+      "a": [
+        "Amoxicillin 1g TID or doxycycline 100mg BID (monotherapy) \u2014 outpatient CAP",
+        "Ceftriaxone IV + azithromycin \u2014 inpatient regimen",
+        "Levofloxacin monotherapy",
+        "Oral clindamycin"
+      ],
+      "correct": 0,
+      "rationale": "For outpatient CAP without comorbidities in the US, IDSA/ATS guidelines recommend amoxicillin or doxycycline as first-line monotherapy (covers S. pneumoniae, the most common pathogen). Macrolide monotherapy is no longer recommended due to high S. pneumoniae resistance rates (except in areas with <25% resistance). Levofloxacin is reserved for patients with comorbidities or recent antibiotic use. Ceftriaxone + azithromycin is for hospitalized patients. CURB-65 score 1 (confusion, BUN>7, RR\u226530, BP<90/60, age\u226565) = treat as outpatient. **Board tip:** Outpatient CAP in healthy patients: amoxicillin 1g TID \u00d7 5 days OR doxycycline 100mg BID \u00d7 5-7 days. With comorbidities (COPD, diabetes, CKD, CHF, cancer): amoxicillin-clavulanate + macrolide, or respiratory fluoroquinolone monotherapy. CURB-65: score 0-1 = home, 2 = hospitalize, \u22653 = ICU. Antibiotic duration: minimum 5 days (curtailed once afebrile \u00d7 48 hours and clinically stable).",
+      "video": "86KAoKvk8X8",
+      "video_title": "Pneumonia Basics",
+      "video_source": "YouTube"
+    },
+    {
+      "topic": "COPD Exacerbation - Management",
+      "course": "D118",
+      "q": "A 68-year-old man with COPD (GOLD 2) presents with worsening dyspnea, increased sputum purulence, and sputum volume for 3 days. He has no fever. He uses tiotropium daily. What is the most appropriate management for this acute exacerbation?",
+      "a": [
+        "Short-acting beta-agonist (SABA) via MDI/nebulizer + prednisone 40mg daily \u00d7 5 days + antibiotics (amoxicillin-clavulanate or doxycycline) if purulent sputum",
+        "Increase tiotropium to twice daily",
+        "Oxygen to target SpO2 >95% and observe",
+        "Azithromycin alone without prednisone"
+      ],
+      "correct": 0,
+      "rationale": "Acute COPD exacerbation (increased Anthonisen criteria: dyspnea, sputum volume, sputum purulence) management: SABA bronchodilator, systemic corticosteroids (prednisone 40mg \u00d7 5 days), and antibiotics if sputum is purulent (amoxicillin-clavulanate, doxycycline, or macrolide for 5-7 days). Increasing tiotropium is insufficient for an exacerbation. Oxygen should target SpO2 88-92% (high FiO2 risks hypercapnic respiratory failure). **Board tip:** Anthonisen criteria: Type 1 exacerbation (all 3 cardinal symptoms) \u2014 highest benefit from antibiotics and steroids. Type 2 (2 of 3 symptoms) \u2014 moderate benefit. Type 3 (1 of 3 with URI within 5 days) \u2014 marginal antibiotic benefit. NPPV (BiPAP) for hypercapnic respiratory failure (pH <7.35, PaCO2 >45). Assess for home oxygen need post-exacerbation.",
+      "video": "HU3V0kftcqY",
+      "video_title": "Respiratory Review",
+      "video_source": "Dr. High Yield"
+    },
+    {
+      "topic": "Asthma - Step-Up Therapy",
+      "course": "D118",
+      "q": "A 35-year-old woman with asthma uses her albuterol rescue inhaler 4-5 times per week and wakes up with asthma symptoms 2-3 times per month. She is currently using low-dose ICS alone. What is the recommended step-up in therapy?",
+      "a": [
+        "Low-dose ICS-formoterol as maintenance AND reliever therapy (MART approach) OR low-dose ICS-LABA",
+        "Medium-dose ICS alone",
+        "Add montelukast to current regimen",
+        "Start daily oral prednisone"
+      ],
+      "correct": 0,
+      "rationale": "Per GINA 2023+ guidelines, step 3 preferred treatment is low-dose ICS-formoterol (budesonide-formoterol) used as both maintenance and reliever (MART) or separate ICS + LABA controller. This approach reduces exacerbation risk compared to ICS alone. Medium-dose ICS alone is step-up but less effective than ICS-LABA. Montelukast is an alternative, not preferred (less effective, neuropsychiatric side effects warning). Oral steroids are for severe exacerbations, not chronic step-up. **Board tip:** GINA no longer recommends SABA-only treatment for ANY step. SABA use >2/week indicates inadequate control. GINA recommends as-needed low-dose ICS-formoterol at step 1, as-needed low-dose ICS-formoterol as step 2, MART at steps 3-5. Asthma control test (ACT) score: <19 = uncontrolled. Step up for 2-3 months of uncontrolled asthma.",
+      "video": "HU3V0kftcqY",
+      "video_title": "Respiratory Review",
+      "video_source": "Dr. High Yield"
+    },
+    {
+      "topic": "Gastroesophageal Reflux Disease (GERD) - Treatment",
+      "course": "D118",
+      "q": "A 45-year-old man presents with retrosternal burning sensation, acid regurgitation, and cough that worsens when lying down. He has had symptoms for 4 months despite lifestyle modifications and on-demand antacids. What is the most appropriate treatment?",
+      "a": [
+        "Proton pump inhibitor (omeprazole 20mg or pantoprazole 40mg daily) for 8 weeks",
+        "H2 receptor antagonist (famotidine 20mg BID)",
+        "Metoclopramide (prokinetic agent)",
+        "Nissen fundoplication as first-line therapy"
+      ],
+      "correct": 0,
+      "rationale": "PPIs are the most effective medical therapy for GERD, superior to H2RAs for symptom relief and esophageal healing. Standard initial therapy is once-daily PPI for 8 weeks. H2RAs (famotidine) are second-line for mild disease or step-down. Metoclopramide has limited efficacy and significant side effects (tardive dyskinesia). Fundoplication is reserved for confirmed GERD (by pH monitoring) with inadequate response to medical therapy. **Board tip:** PPIs should be taken 30-60 minutes before breakfast for maximal effect. If partial response, try split dosing (BID) or switching to another PPI. Chronic PPI use: monitor for B12 deficiency, osteoporosis, C. diff risk, hypomagnesemia. Refer for EGD if alarm symptoms (dysphagia, weight loss, anemia, GI bleeding, vomiting, mass). Long-term GERD management: lowest effective PPI dose \u2014 some patients can step down to H2RA or on-demand PPI.",
+      "video": "CNbYbvD7voA",
+      "video_title": "Gastroenterology",
+      "video_source": "The Center for Medical Education"
+    },
+    {
+      "topic": "Peptic Ulcer Disease - H. pylori Testing and Treatment",
+      "course": "D118",
+      "q": "A 50-year-old woman with epigastric pain is found on EGD to have a duodenal ulcer. Rapid urease test is positive for H. pylori. She has not taken antibiotics recently. What is the recommended first-line H. pylori eradication regimen?",
+      "a": [
+        "Triple therapy: PPI + amoxicillin 1g + clarithromycin 500mg \u2014 all BID for 14 days",
+        "Quadruple therapy: PPI + bismuth subsalicylate + metronidazole + tetracycline \u2014 for 14 days",
+        "Amoxicillin monotherapy for 14 days",
+        "PPI alone for 8 weeks"
+      ],
+      "correct": 0,
+      "rationale": "In areas where clarithromycin resistance is <15%, triple therapy (PPI + amoxicillin + clarithromycin) for 14 days is first-line. Quadruple therapy (bismuth-based) is first-line in areas with high macrolide resistance or for patients with penicillin allergy. Amoxicillin alone does not eradicate H. pylori. PPI alone heals the ulcer but does not treat H. pylori, leading to high recurrence. **Board tip:** Confirm eradication with stool antigen or urea breath test at least 4 weeks after completing antibiotics (PPIs should be held 1-2 weeks before testing). H. pylori is the primary cause of duodenal ulcers (95%) and gastric ulcers (70%). Eradication reduces ulcer recurrence from ~80% to <5%. ACG guidelines: bismuth quadruple therapy is now preferred first-line in the US due to rising clarithromycin resistance rates.",
+      "video": "CNbYbvD7voA",
+      "video_title": "Gastroenterology",
+      "video_source": "The Center for Medical Education"
+    },
+    {
+      "topic": "Acute Gastroenteritis - Rehydration and Management",
+      "course": "D118",
+      "q": "A 3-year-old child presents with vomiting and watery diarrhea for 24 hours. She has dry mucous membranes, decreased skin turgor, and has not urinated in 6 hours. She is alert with normal mental status. What is the most appropriate rehydration strategy?",
+      "a": [
+        "Oral rehydration solution (ORS) \u2014 give 50-100 mL/kg over 2-4 hours (mild-moderate dehydration)",
+        "IV normal saline bolus 20 mL/kg immediately",
+        "Clear liquids (juice, sports drinks) for rehydration",
+        "Antidiarrheal agents (loperamide)"
+      ],
+      "correct": 0,
+      "rationale": "WHO/ESPGHAN guidelines recommend ORS as first-line for mild-to-moderate dehydration from acute gastroenteritis. WHO reduced-osmolarity ORS (245 mOsm/L) is safe and effective. Rate: 50 mL/kg over 2-4 hours for mild dehydration, 100 mL/kg for moderate. IV fluids are indicated for severe dehydration (\u226510% weight loss, lethargic/altered mental status, unable to tolerate ORS) or shock. Clear liquids (juice, sports drinks, soda) are not appropriate \u2014 high osmolality can worsen diarrhea. Antidiarrheal agents are contraindicated in children <6 years old (risk of ileus, CNS depression). **Board tip:** Most acute gastroenteritis is viral (rotavirus, norovirus, adenovirus). Rotavirus vaccine has dramatically reduced severe cases. Breastfeeding should continue during ORS therapy. Return precautions: signs of dehydration (no urine >6 hours, dry mouth, lethargy, sunken eyes, sunken fontanelle), blood in stool, bilious vomiting, severe abdominal pain.",
+      "video": "CNbYbvD7voA",
+      "video_title": "Gastroenterology",
+      "video_source": "The Center for Medical Education"
+    },
+    {
+      "topic": "Diverticulitis - Uncomplicated Management",
+      "course": "D118",
+      "q": "A 55-year-old woman presents with acute-onset left lower quadrant abdominal pain, fever 100.8\u00b0F (38.2\u00b0C), and leukocytosis of 14,000. CT abdomen shows sigmoid diverticulitis with no abscess or perforation. She has no significant comorbidities. What is the appropriate management?",
+      "a": [
+        "Outpatient management: oral antibiotics (amoxicillin-clavulanate or metronidazole + levofloxacin) OR may consider no antibiotics if mild, plus clear liquid diet",
+        "IV antibiotics with hospital admission for all diverticulitis cases",
+        "Surgical consult for elective sigmoid colectomy",
+        "High-fiber diet and bulk-forming laxatives only"
+      ],
+      "correct": 0,
+      "rationale": "For uncomplicated diverticulitis (Hinchey Ia \u2014 localized peridiverticulitis without abscess), outpatient management with oral antibiotics is appropriate if the patient can tolerate oral intake and has adequate support. Recent studies (AVOD, DIABOLO trials) suggest that antibiotics may not be needed for very mild cases. Hospitalization is needed for severe disease, inability to tolerate oral, or comorbidities. Surgery is elective after 2+ episodes or complicated disease. High fiber is for prevention, not acute treatment. **Board tip:** CT is the gold standard for diagnosis. Hinchey classification: I (phlegmon) \u2192 medical; II (abscess) \u2192 drainage + antibiotics; III (purulent peritonitis) \u2192 surgery; IV (fecal peritonitis) \u2192 surgery. Complicated diverticulitis (abscess, fistula, obstruction, perforation) requires hospitalization. After recovery, transition to high-fiber diet for prevention.",
+      "video": "CNbYbvD7voA",
+      "video_title": "Gastroenterology",
+      "video_source": "The Center for Medical Education"
+    },
+    {
+      "topic": "Acute Otitis Externa - Management",
+      "course": "D118",
+      "q": "A 25-year-old swimmer presents with severe right ear pain worsened by pulling on the auricle and chewing. Exam shows a swollen, erythematous ear canal with purulent discharge and debris. The tympanic membrane is intact. What is the most appropriate treatment?",
+      "a": [
+        "Topical antibiotic drops (ciprofloxacin-dexamethasone or neomycin-polymyxin-HC otic) for 7 days",
+        "Oral amoxicillin for 10 days",
+        "Systemic fluoroquinolone (ciprofloxacin) alone",
+        "Warm water irrigation to clean the canal"
+      ],
+      "correct": 0,
+      "rationale": "Acute otitis externa (swimmer's ear) is treated with topical antibiotic-corticosteroid otic drops. Ciprofloxacin-dexamethasone is preferred (covers Pseudomonas and Staph aureus, steroid reduces inflammation). Oral antibiotics are reserved for extended infections (malignant otitis externa) with skull base involvement (diabetic/immunocompromised). Warm water irrigation is contraindicated \u2014 may worsen infection. **Board tip:** Key diagnostic sign: tragus/auricle pain distinguishes OE from OM (OM has no pinna pain). Risk factors: swimming, humidity, hearing aids, Q-tip use. Malignant (necrotizing) OE: Pseudomonas osteomyelitis of temporal bone, seen in diabetics and immunocompromised. Treat with IV antipseudomonal antibiotics and ENT consult. Aural toilet (gentle suction cleaning) is essential for drop penetration.",
+      "video": "7X3t-FvZLUo",
+      "video_title": "Acute Otitis Media | Emergency Medicine",
+      "video_source": "Core EM"
     }
   ],
   "D119": [
